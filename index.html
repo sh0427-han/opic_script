@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="OPIc 5-5 IM2 최소암기 스크립트와 문제별 한글 힌트"
+    />
+    <meta name="theme-color" content="#16324f" />
+    <title>OPIc 5-5 IM2 최소암기 스크립트</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">본문으로 이동</a>
+
+    <header class="hero">
+      <div class="hero__inner">
+        <p class="eyebrow">OPIc 5-5 · IM2</p>
+        <h1>최소암기 스크립트</h1>
+        <p class="hero__description">
+          질문은 각각 익히고, 답변은 같은 표현을 반복해서 외우는 1인 설정
+          학습본입니다.
+        </p>
+        <div class="hero__stats" aria-label="학습 자료 요약">
+          <span><strong id="question-count">70</strong>개 문제</span>
+          <span><strong>10</strong>개 주제</span>
+          <span><strong>v7</strong> · 2026-09-18</span>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" class="page-shell">
+      <section class="study-panel" aria-label="OPIc 학습 자료">
+        <div class="toolbar">
+          <div class="tabs" role="tablist" aria-label="보기 방식">
+            <button
+              id="scripts-tab"
+              class="tab is-active"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              aria-controls="content"
+              data-view="scripts"
+            >
+              전체 스크립트
+            </button>
+            <button
+              id="questions-tab"
+              class="tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="content"
+              data-view="questions"
+            >
+              문제 연습
+            </button>
+          </div>
+
+          <label class="search-box" for="search-input">
+            <span class="sr-only">질문과 스크립트 검색</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path
+                d="m21 21-4.3-4.3m2.3-5.2a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"
+              />
+            </svg>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="질문이나 표현 검색"
+              autocomplete="off"
+            />
+          </label>
+        </div>
+
+        <nav
+          id="topic-filters"
+          class="topic-filters"
+          aria-label="주제 필터"
+        ></nav>
+
+        <div class="content-header">
+          <p id="view-description" class="view-description"></p>
+          <p id="result-summary" class="result-summary" aria-live="polite"></p>
+        </div>
+
+        <div
+          id="content"
+          class="content"
+          role="tabpanel"
+          aria-labelledby="scripts-tab"
+        ></div>
+
+        <noscript>
+          <p class="empty-state">
+            이 페이지를 보려면 브라우저에서 JavaScript를 활성화해 주세요.
+          </p>
+        </noscript>
+      </section>
+    </main>
+
+    <footer>
+      <p>OPIc 5-5 IM2 · 질문별 맞춤 1인 설정 통합본</p>
+    </footer>
+
+    <button id="scroll-top" class="scroll-top" type="button" aria-label="맨 위로">
+      ↑
+    </button>
+
+    <script src="script-data.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
