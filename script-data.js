@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v9",
+  "version": "v10",
   "updated": "2026-09-19",
   "questionCount": 70,
   "topics": [
@@ -929,15 +929,15 @@ window.OPIC_DATA = {
           "question": "예전과 지금의 음악 취향 변화를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, fast music and slow music feel very different to me.",
-            "Fast music is exciting and gives me more energy.",
-            "Slow music helps me relax when I'm tired.",
+            "Well, my music taste has changed a little.",
             "When I was younger, I listened to fast songs more often.",
+            "Fast music is exciting and gives me more energy.",
             "But these days, I usually choose slow songs.",
-            "I usually listen to them at home or when I'm going somewhere.",
+            "Slow music helps me relax when I'm tired.",
+            "I usually listen to it at home or when I'm going somewhere.",
             "So, yeah, I like slow music better now."
           ],
-          "hint": "fast=energy → slow=relax → past fast → now slow → home/on the way"
+          "hint": "music taste changed → past fast → fast=energy → now slow → slow=relax → home/on the way"
         },
         {
           "id": "topic-8-q4",
@@ -961,15 +961,15 @@ window.OPIC_DATA = {
           "question": "빠른 음악과 잔잔한 음악을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, fast music and slow music feel very different to me.",
-            "Fast music is exciting and gives me more energy.",
-            "Slow music helps me relax when I'm tired.",
+            "Well, my music taste has changed a little.",
             "When I was younger, I listened to fast songs more often.",
+            "Fast music is exciting and gives me more energy.",
             "But these days, I usually choose slow songs.",
-            "I usually listen to them at home or when I'm going somewhere.",
+            "Slow music helps me relax when I'm tired.",
+            "I usually listen to it at home or when I'm going somewhere.",
             "So, yeah, I like slow music better now."
           ],
-          "hint": "fast=energy → slow=relax → past fast → now slow → home/on the way"
+          "hint": "music taste changed → past fast → fast=energy → now slow → slow=relax → home/on the way"
         },
         {
           "id": "topic-8-q6",
@@ -995,13 +995,13 @@ window.OPIC_DATA = {
           "answer": [
             "Actually, I went to a pop concert by myself a few weeks ago.",
             "I got there a little early and found my seat.",
-            "When the show started, everyone started cheering.",
-            "I sang along to some songs I knew.",
+            "I sat there and waited for the show.",
+            "When the show started, everyone started cheering, and I sang along.",
             "Then my favorite song came on, and I got really excited.",
-            "I took a few pictures too.",
-            "So, yeah, it was really fun."
+            "I took a few pictures, but I didn't use my phone too much.",
+            "So, yeah, I enjoyed the music and had a good time."
           ],
-          "hint": "몇 주 전 pop concert → alone → seat → cheering → sing along → favorite song → pictures/fun"
+          "hint": "몇 주 전 pop concert → alone/early → seat/wait → cheering/sing along → favorite song → pictures/phone less → enjoy"
         }
       ]
     },
@@ -1017,14 +1017,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, I like pop concerts the most.",
-            "I like concerts where I already know many of the songs.",
             "I usually go alone and get there a little early.",
             "I find my seat and wait for the show.",
-            "When the music starts, I sing along to songs I know.",
+            "When the show starts, everyone starts cheering, and I sing along.",
+            "When my favorite song comes on, I get really excited.",
             "Sometimes, I take a few pictures, but I don't use my phone too much.",
             "So, yeah, I just enjoy the music and have a good time."
           ],
-          "hint": "pop/known songs → alone/early → seat/wait → sing along → pictures/phone less → enjoy"
+          "hint": "pop concert → alone/early → seat/wait → cheering/sing along → favorite song → pictures/phone less → enjoy"
         },
         {
           "id": "topic-9-q2",
@@ -1033,14 +1033,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, I like pop concerts the most.",
-            "I like concerts where I already know many of the songs.",
             "I usually go alone and get there a little early.",
             "I find my seat and wait for the show.",
-            "When the music starts, I sing along to songs I know.",
+            "When the show starts, everyone starts cheering, and I sing along.",
+            "When my favorite song comes on, I get really excited.",
             "Sometimes, I take a few pictures, but I don't use my phone too much.",
             "So, yeah, I just enjoy the music and have a good time."
           ],
-          "hint": "pop/known songs → alone/early → seat/wait → sing along → pictures/phone less → enjoy"
+          "hint": "pop concert → alone/early → seat/wait → cheering/sing along → favorite song → pictures/phone less → enjoy"
         },
         {
           "id": "topic-9-q3",
@@ -1050,13 +1050,13 @@ window.OPIC_DATA = {
           "answer": [
             "Actually, I went to a pop concert by myself a few weeks ago.",
             "I got there a little early and found my seat.",
-            "When the show started, everyone started cheering.",
-            "I sang along to some songs I knew.",
+            "I sat there and waited for the show.",
+            "When the show started, everyone started cheering, and I sang along.",
             "Then my favorite song came on, and I got really excited.",
-            "I took a few pictures too.",
-            "So, yeah, it was really fun."
+            "I took a few pictures, but I didn't use my phone too much.",
+            "So, yeah, I enjoyed the music and had a good time."
           ],
-          "hint": "몇 주 전 pop concert → alone → seat → cheering → sing along → favorite song → pictures/fun"
+          "hint": "몇 주 전 pop concert → alone/early → seat/wait → cheering/sing along → favorite song → pictures/phone less → enjoy"
         },
         {
           "id": "topic-9-q4",
@@ -1066,13 +1066,13 @@ window.OPIC_DATA = {
           "answer": [
             "Actually, I went to a pop concert by myself a few weeks ago.",
             "I got there a little early and found my seat.",
-            "When the show started, everyone started cheering.",
-            "I sang along to some songs I knew.",
+            "I sat there and waited for the show.",
+            "When the show started, everyone started cheering, and I sang along.",
             "Then my favorite song came on, and I got really excited.",
-            "I took a few pictures too.",
-            "So, yeah, it was really fun."
+            "I took a few pictures, but I didn't use my phone too much.",
+            "So, yeah, I enjoyed the music and had a good time."
           ],
-          "hint": "몇 주 전 pop concert → alone → seat → cheering → sing along → favorite song → pictures/fun"
+          "hint": "몇 주 전 pop concert → alone/early → seat/wait → cheering/sing along → favorite song → pictures/phone less → enjoy"
         },
         {
           "id": "topic-9-q5",
