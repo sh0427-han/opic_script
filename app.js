@@ -13,13 +13,22 @@
     questionCount: document.querySelector("#question-count"),
     resultSummary: document.querySelector("#result-summary"),
     search: document.querySelector("#search-input"),
+    searchBox: document.querySelector(".search-box"),
     scrollTop: document.querySelector("#scroll-top"),
     tabs: [...document.querySelectorAll("[data-view]")],
   };
 
-  const initialView = window.location.hash === "#questions"
-    ? "questions"
-    : "scripts";
+  const viewFromHash = () => {
+    if (window.location.hash === "#questions") {
+      return "questions";
+    }
+    if (window.location.hash === "#survey") {
+      return "survey";
+    }
+    return "scripts";
+  };
+
+  const initialView = viewFromHash();
 
   const state = {
     query: "",
@@ -168,7 +177,57 @@
     </section>
   `).join("");
 
+  const renderSurvey = () => {
+    const survey = data.survey;
+    if (!survey) {
+      return '<p class="empty-state">저장된 설문 선택이 없습니다.</p>';
+    }
+
+    const settingCards = survey.settings.map((setting) => `
+      <article class="survey-setting">
+        <span>${escapeHtml(setting.label)}</span>
+        <strong>${escapeHtml(setting.value)}</strong>
+        ${setting.topics ? `
+          <small>연결 주제 · ${escapeHtml(setting.topics.join(", "))}</small>
+        ` : ""}
+      </article>
+    `).join("");
+
+    const groupCards = survey.groups.map((group) => `
+      <section class="survey-group">
+        <div class="survey-group__heading">
+          <h3>${escapeHtml(group.title)}</h3>
+          <span>${group.items.length}개 선택</span>
+        </div>
+        <ul class="survey-list">
+          ${group.items.map((item) => `
+            <li>
+              <span class="survey-check" aria-hidden="true">✓</span>
+              <div>
+                <strong>${escapeHtml(item.label)}</strong>
+                <small>연결 주제 · ${escapeHtml(item.topics.join(", "))}</small>
+              </div>
+            </li>
+          `).join("")}
+        </ul>
+      </section>
+    `).join("");
+
+    return `
+      <section class="survey-view" aria-labelledby="survey-title">
+        <div class="survey-intro">
+          <p class="topic-label">시험장 확인용</p>
+          <h2 id="survey-title">${escapeHtml(survey.title)}</h2>
+          <p>${escapeHtml(survey.note)}</p>
+        </div>
+        <div class="survey-settings">${settingCards}</div>
+        <div class="survey-groups">${groupCards}</div>
+      </section>
+    `;
+  };
+
   const render = () => {
+    const isSurvey = state.view === "survey";
     const topics = getVisibleTopics();
     const visibleCount = topics.reduce(
       (count, topic) => count + topic.questions.length,
@@ -180,6 +239,25 @@
       tab.classList.toggle("is-active", isActive);
       tab.setAttribute("aria-selected", String(isActive));
     });
+
+    elements.filters.hidden = isSurvey;
+    elements.searchBox.hidden = isSurvey;
+
+    if (isSurvey) {
+      const surveyChoiceCount = data.survey
+        ? data.survey.settings.filter((setting) => setting.topics).length
+          + data.survey.groups.reduce(
+            (count, group) => count + group.items.length,
+            0,
+          )
+        : 0;
+      elements.content.setAttribute("aria-labelledby", "survey-tab");
+      elements.description.textContent =
+        "현재 연습 주제와 연결된 시험 전 설문 선택을 확인합니다.";
+      elements.resultSummary.textContent = `${surveyChoiceCount}개 선택 항목`;
+      elements.content.innerHTML = renderSurvey();
+      return;
+    }
 
     elements.content.setAttribute(
       "aria-labelledby",
@@ -204,7 +282,11 @@
 
   const setView = (view) => {
     state.view = view;
-    const hash = view === "questions" ? "#questions" : "#scripts";
+    const hash = view === "questions"
+      ? "#questions"
+      : view === "survey"
+        ? "#survey"
+        : "#scripts";
     window.history.replaceState(null, "", hash);
     render();
   };
@@ -282,9 +364,7 @@
   });
 
   window.addEventListener("hashchange", () => {
-    const nextView = window.location.hash === "#questions"
-      ? "questions"
-      : "scripts";
+    const nextView = viewFromHash();
     if (nextView !== state.view) {
       state.view = nextView;
       render();

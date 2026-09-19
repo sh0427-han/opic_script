@@ -1,8 +1,76 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v10",
+  "version": "v11",
   "updated": "2026-09-19",
   "questionCount": 70,
+  "survey": {
+    "title": "시험 전 설문 선택",
+    "note": "현재 스크립트의 연습 주제를 만든 개인 선택 기록입니다. 실제 시험 화면의 문구가 조금 다르면 같은 의미의 항목을 선택합니다.",
+    "settings": [
+      {
+        "label": "목표 등급",
+        "value": "IM2"
+      },
+      {
+        "label": "시험 난이도",
+        "value": "5-5"
+      },
+      {
+        "label": "주거 설정",
+        "value": "개인 주택이나 아파트에 홀로 거주",
+        "topics": ["집 / 가구"]
+      }
+    ],
+    "groups": [
+      {
+        "title": "여가 활동",
+        "items": [
+          {
+            "label": "카페 / 커피숍 가기",
+            "topics": ["카페 / 커피숍"]
+          },
+          {
+            "label": "술집 / 펍 가기",
+            "topics": ["술집 / 펍"]
+          },
+          {
+            "label": "공원 가기",
+            "topics": ["공원"]
+          },
+          {
+            "label": "해변 가기",
+            "topics": ["해변"]
+          },
+          {
+            "label": "콘서트 가기",
+            "topics": ["콘서트"]
+          }
+        ]
+      },
+      {
+        "title": "취미 / 관심사",
+        "items": [
+          {
+            "label": "음악 감상",
+            "topics": ["음악"]
+          }
+        ]
+      },
+      {
+        "title": "휴가 / 여행",
+        "items": [
+          {
+            "label": "국내여행",
+            "topics": ["국내여행", "해변"]
+          },
+          {
+            "label": "집에서 보내는 휴가",
+            "topics": ["집에서 보내는 휴가"]
+          }
+        ]
+      }
+    ]
+  },
   "topics": [
     {
       "id": "topic-1",
@@ -914,14 +982,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, let me think. I started to like music in high school.",
-            "One day, I was walking alone when I heard a nice song.",
+            "One day, I heard a nice song while I was walking alone.",
             "I stopped for a moment and listened to it.",
             "The song was slow and easy to listen to.",
-            "After that, I started finding new songs by myself.",
-            "I really enjoyed doing that.",
+            "I really liked it, so I listened to it many times.",
+            "After that, I started listening to more music.",
             "So, yeah, that is how I started to like music."
           ],
-          "hint": "high school → 혼자 걷기 → 좋은 노래 → 잠시 듣기 → 직접 찾기 → 좋아하게 됨"
+          "hint": "high school → 혼자 걷다 좋은 노래 → 잠시 듣기 → slow/easy → 여러 번 듣기 → 더 많은 음악 → 좋아하게 됨"
         },
         {
           "id": "topic-8-q3",
@@ -929,7 +997,7 @@ window.OPIC_DATA = {
           "question": "예전과 지금의 음악 취향 변화를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my music taste has changed a little.",
+            "Well, the biggest change is that I like slow songs more now.",
             "When I was younger, I listened to fast songs more often.",
             "Fast music is exciting and gives me more energy.",
             "But these days, I usually choose slow songs.",
@@ -937,7 +1005,7 @@ window.OPIC_DATA = {
             "I usually listen to it at home or when I'm going somewhere.",
             "So, yeah, I like slow music better now."
           ],
-          "hint": "music taste changed → past fast → fast=energy → now slow → slow=relax → home/on the way"
+          "hint": "biggest change=slow songs → past fast → fast=energy → now slow → slow=relax → home/on the way"
         },
         {
           "id": "topic-8-q4",
@@ -961,7 +1029,7 @@ window.OPIC_DATA = {
           "question": "빠른 음악과 잔잔한 음악을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my music taste has changed a little.",
+            "Well, fast music and slow music are very different.",
             "When I was younger, I listened to fast songs more often.",
             "Fast music is exciting and gives me more energy.",
             "But these days, I usually choose slow songs.",
@@ -969,7 +1037,7 @@ window.OPIC_DATA = {
             "I usually listen to it at home or when I'm going somewhere.",
             "So, yeah, I like slow music better now."
           ],
-          "hint": "music taste changed → past fast → fast=energy → now slow → slow=relax → home/on the way"
+          "hint": "fast/slow different → past fast → fast=energy → now slow → slow=relax → home/on the way"
         },
         {
           "id": "topic-8-q6",
@@ -1139,11 +1207,11 @@ window.OPIC_DATA = {
             "What time do you open?",
             "Do I need a reservation?",
             "How much is it?",
-            "Is it busy on weekends?",
+            "Can I park there?",
             "Okay, great.",
             "Thanks for your help."
           ],
-          "hint": "open → reservation → price → busy → thanks"
+          "hint": "open → reservation → price → parking → thanks"
         },
         {
           "id": "topic-10-rp3",
@@ -1155,11 +1223,11 @@ window.OPIC_DATA = {
             "Something came up.",
             "Can we meet tomorrow instead?",
             "Or how about this weekend?",
-            "If that doesn't work, we can pick another day.",
+            "If not, we can meet another day.",
             "I'm really sorry about this.",
-            "Let me know what works for you."
+            "Think about it and let me know."
           ],
-          "hint": "sorry → something came up → tomorrow → weekend → another day"
+          "hint": "sorry → something came up → tomorrow → weekend → another day → think/let me know"
         },
         {
           "id": "topic-10-rp4",
