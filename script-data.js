@@ -1,7 +1,7 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v7",
-  "updated": "2026-09-18",
+  "version": "v8",
+  "updated": "2026-09-19",
   "questionCount": 70,
   "topics": [
     {
@@ -48,14 +48,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, the biggest change is that I live alone now.",
-            "In the past, I lived with my family in a bigger home.",
+            "In the past, I lived with my family in a bigger apartment.",
             "You know, we had more rooms and a lot more furniture.",
             "But these days, I live in a smaller apartment.",
             "I only have the things I really need, like a bed, a sofa, and a small table.",
-            "Actually, my place is much easier to clean now.",
-            "So, yeah, I like my current home better."
+            "Actually, my place is simple, quiet, and much easier to clean now.",
+            "So, yeah, I like it better."
           ],
-          "hint": "alone now → 과거 family/bigger/more furniture → 현재 smaller → 필요한 가구만 → easy clean → current better"
+          "hint": "alone now → 과거 family/bigger apartment/more furniture → 현재 smaller apartment → 필요한 가구만 → simple/quiet/easy clean → like it better"
         },
         {
           "id": "topic-1-q4",
@@ -63,15 +63,15 @@ window.OPIC_DATA = {
           "question": "어렸을 때 살았던 집과 지금 집을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my old home and my current home are pretty different.",
-            "In the past, I lived with my family in a bigger home.",
+            "Well, the biggest change is that I live alone now.",
+            "In the past, I lived with my family in a bigger apartment.",
             "You know, we had more rooms and a lot more furniture.",
             "But these days, I live in a smaller apartment.",
             "I only have the things I really need, like a bed, a sofa, and a small table.",
-            "Actually, my place is much easier to clean now.",
-            "So, yeah, I like my current home better."
+            "Actually, my place is simple, quiet, and much easier to clean now.",
+            "So, yeah, I like it better."
           ],
-          "hint": "old/current different → 과거 family/bigger/more furniture → 현재 smaller → 필요한 가구만 → easy clean → current better"
+          "hint": "alone now → 과거 family/bigger apartment/more furniture → 현재 smaller apartment → 필요한 가구만 → simple/quiet/easy clean → like it better"
         },
         {
           "id": "topic-1-q5",
@@ -95,15 +95,15 @@ window.OPIC_DATA = {
           "question": "어렸을 때 가구와 지금 가구를 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, the furniture in my old home and my current home is pretty different.",
-            "In the past, my family had a lot more furniture.",
-            "You know, we had big tables, chairs, and many other things.",
-            "But these days, I only have the things I really need.",
-            "I have a bed, a sofa, and a small table.",
-            "Actually, my place is much easier to clean now.",
-            "So, yeah, I like having less furniture now."
+            "Well, the biggest change is that I live alone now.",
+            "In the past, I lived with my family in a bigger apartment.",
+            "You know, we had more rooms and a lot more furniture.",
+            "But these days, I live in a smaller apartment.",
+            "I only have the things I really need, like a bed, a sofa, and a small table.",
+            "Actually, my place is simple, quiet, and much easier to clean now.",
+            "So, yeah, I like it better."
           ],
-          "hint": "old/current furniture different → 과거 많음 → 현재 필요한 것만 → bed/sofa/table → easy clean → less furniture"
+          "hint": "alone now → 과거 family/bigger apartment/more furniture → 현재 smaller apartment → 필요한 가구만 → simple/quiet/easy clean → like it better"
         },
         {
           "id": "topic-1-q7",
@@ -220,9 +220,10 @@ window.OPIC_DATA = {
             "You know, I watch YouTube, listen to music, and check my phone.",
             "Sometimes, I order some food.",
             "I don't really do anything special.",
-            "I just enjoy some quiet time by myself."
+            "I just sit there and relax.",
+            "So, yeah, I feel really comfortable at home."
           ],
-          "hint": "아무도 안 만남 → alone → living room/sofa → YouTube/music/phone → food → quiet time"
+          "hint": "아무도 안 만남 → alone → living room/sofa → YouTube/music/phone → food → 특별한 일 없음 → relax → comfortable"
         },
         {
           "id": "topic-2-q3",
@@ -230,15 +231,15 @@ window.OPIC_DATA = {
           "question": "지난번 휴가 때 했던 일들을 자세히 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I spent my last vacation at home, and I spent most of it alone.",
-            "I slept a little longer than usual.",
-            "Then I spent a lot of time on my sofa.",
+            "Well, during my last vacation, I stayed at home by myself.",
+            "I spent most of my time in the living room and sat on my sofa.",
             "You know, I watched YouTube, listened to music, and checked my phone.",
-            "Sometimes, I ordered some food.",
+            "I also ordered some food.",
             "I didn't really do anything special.",
-            "I just stayed home and relaxed."
+            "I just sat there and relaxed.",
+            "So, yeah, I felt really comfortable at home."
           ],
-          "hint": "last vacation → alone → sleep → sofa → YouTube/music/phone → food → relax"
+          "hint": "last vacation/at home/alone → living room/sofa → YouTube/music/phone → food → 특별한 일 없음 → relax → comfortable"
         },
         {
           "id": "topic-2-q4",
@@ -301,15 +302,15 @@ window.OPIC_DATA = {
           "question": "본인 동네의 커피숍을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my favorite cafe is a small cafe near my home.",
-            "It's quiet and not too crowded.",
-            "It has big windows and some nice seats.",
-            "I can usually find a nice place to sit.",
+            "Well, my favorite cafe is near my home.",
+            "It's small, quiet, and not too crowded.",
+            "It has big windows, so I can easily look outside.",
+            "I can always find a nice seat by the window.",
             "I really like the feeling there.",
-            "It is a nice place to relax for a while.",
+            "It's a nice place to sit and relax.",
             "So, yeah, I really like that cafe."
           ],
-          "hint": "favorite cafe → 조용함 → 창문/좌석 → 앉을 곳 → 느낌 → 휴식 → 선호"
+          "hint": "집 근처 favorite cafe → 작고 조용함 → 큰 창문/밖 보기 → 창가 자리 → 느낌 → 앉아서 휴식 → 선호"
         },
         {
           "id": "topic-3-q2",
@@ -318,14 +319,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Actually, I went to that cafe for the first time a few weeks ago.",
-            "One day, I found the place while I was walking alone.",
+            "I found the place while I was walking alone.",
             "It looked quiet, so I went inside.",
-            "It was small, quiet, and not too crowded.",
-            "I ordered something to drink and found a table.",
-            "Then I listened to music for a while.",
+            "It had big windows, so I could easily look outside.",
+            "I ordered something to drink and found a nice seat by the window.",
+            "Then I listened to music and relaxed for a while.",
             "So, yeah, I liked it and wanted to go there again."
           ],
-          "hint": "첫 방문 → 혼자 걷기 → 발견/입장 → 조용함 → 주문 → 음악 → 재방문"
+          "hint": "첫 방문 → 혼자 걷다 발견 → 조용해서 입장 → 큰 창문/밖 보기 → 음료/창가 자리 → 음악/휴식 → 재방문"
         },
         {
           "id": "topic-3-q3",
@@ -334,14 +335,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, when I go to the cafe, I usually go alone.",
-            "I get something to drink and find a place to sit.",
-            "You know, I listen to music and look around for a while.",
+            "I get something to drink and find a nice seat by the window.",
+            "You know, I listen to music and look outside for a while.",
             "Sometimes, I check my phone.",
             "I don't really do anything special.",
-            "I just relax and enjoy some quiet time.",
+            "I just sit there and relax.",
             "So, yeah, that is what I usually do at the cafe."
           ],
-          "hint": "카페 → 혼자 → 음료/앉기 → 음악/둘러보기 → 휴대폰 → 조용히 휴식"
+          "hint": "카페 → 혼자 → 음료/창가 자리 → 음악/밖 보기 → 휴대폰 → 특별한 일 없음 → 휴식"
         },
         {
           "id": "topic-3-q4",
@@ -350,14 +351,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Actually, I went to a cafe near my home by myself not too long ago.",
-            "The place was quiet and not too crowded.",
-            "I got something to drink and found a place to sit.",
-            "You know, I listened to music and looked around for a while.",
-            "I took a few pictures too.",
-            "I really liked the place.",
+            "I got something to drink and found a nice seat by the window.",
+            "You know, I listened to music and looked outside for a while.",
+            "I also checked my phone.",
+            "I didn't really do anything special.",
+            "I just sat there and relaxed.",
             "So, yeah, I had a really nice time."
           ],
-          "hint": "최근 카페 → 혼자 → 조용함 → 음료/앉기 → 음악/둘러보기 → 사진 → 만족"
+          "hint": "최근 카페 → 혼자 → 음료/창가 자리 → 음악/밖 보기 → 휴대폰 → 특별한 일 없음 → 휴식"
         },
         {
           "id": "topic-3-q5",
@@ -385,11 +386,11 @@ window.OPIC_DATA = {
             "I was checking my phone, and suddenly it turned off.",
             "I tried to turn it back on, but it didn't work.",
             "I was like, \"Oh no, what should I do?\"",
-            "Luckily, I had a portable charger in my bag.",
-            "I charged my phone for a while, and it worked again.",
+            "I was so worried, so I pressed the power button again and again.",
+            "Then, luckily, my phone turned back on.",
             "So, yeah, everything was fine in the end."
           ],
-          "hint": "cafe → phone off → portable charger → charge → solved"
+          "hint": "cafe → phone off → 다시 켜기 실패/당황 → 전원 버튼 반복 → phone on → solved"
         },
         {
           "id": "topic-3-q7",
@@ -436,15 +437,15 @@ window.OPIC_DATA = {
           "question": "본인이 즐겨 가는 술집을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my favorite pub is a small pub near my home.",
-            "It's quiet and not too crowded.",
-            "It has some tables and simple seats.",
-            "I can usually find a nice place to sit.",
+            "Well, my favorite pub is near my home.",
+            "It's small, quiet, and not too crowded.",
+            "It has big windows, so I can easily look outside.",
+            "I can always find a nice seat by the window.",
             "I really like the feeling there.",
-            "It is a nice place to relax for a while.",
+            "It's a nice place to sit and relax.",
             "So, yeah, I really like that pub."
           ],
-          "hint": "favorite pub → 조용함 → 테이블/좌석 → 앉을 곳 → 느낌 → 휴식 → 선호"
+          "hint": "집 근처 favorite pub → 작고 조용함 → 큰 창문/밖 보기 → 창가 자리 → 느낌 → 앉아서 휴식 → 선호"
         },
         {
           "id": "topic-4-q2",
@@ -453,14 +454,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, when I go to the pub, I usually go alone.",
-            "I get something to drink and find a place to sit.",
-            "You know, I listen to music and look around for a while.",
+            "I get something to drink and find a nice seat by the window.",
+            "You know, I listen to music and look outside for a while.",
             "Sometimes, I check my phone.",
             "I don't really do anything special.",
-            "I just relax and enjoy some quiet time.",
+            "I just sit there and relax.",
             "So, yeah, that is what I usually do at the pub."
           ],
-          "hint": "펍 → 혼자 → 음료/앉기 → 음악/둘러보기 → 휴대폰 → 조용히 휴식"
+          "hint": "펍 → 혼자 → 음료/창가 자리 → 음악/밖 보기 → 휴대폰 → 특별한 일 없음 → 휴식"
         },
         {
           "id": "topic-4-q3",
@@ -469,14 +470,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Actually, I went to a pub near my home by myself not too long ago.",
-            "The place was quiet and not too crowded.",
-            "I got something to drink and found a place to sit.",
-            "You know, I listened to music and looked around for a while.",
-            "I took a few pictures too.",
-            "I really liked the place.",
+            "I got something to drink and found a nice seat by the window.",
+            "You know, I listened to music and looked outside for a while.",
+            "I also checked my phone.",
+            "I didn't really do anything special.",
+            "I just sat there and relaxed.",
             "So, yeah, I had a really nice time."
           ],
-          "hint": "최근 펍 → 혼자 → 조용함 → 음료/앉기 → 음악/둘러보기 → 사진 → 만족"
+          "hint": "최근 펍 → 혼자 → 음료/창가 자리 → 음악/밖 보기 → 휴대폰 → 특별한 일 없음 → 휴식"
         },
         {
           "id": "topic-4-q4",
@@ -485,14 +486,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Actually, I went to that pub for the first time a few weeks ago.",
-            "One day, I found the place while I was walking alone.",
+            "I found the place while I was walking alone.",
             "It looked quiet, so I went inside.",
-            "It was small, quiet, and not too crowded.",
-            "I ordered something to drink and found a table.",
-            "Then I listened to music for a while.",
+            "It had big windows, so I could easily look outside.",
+            "I ordered something to drink and found a nice seat by the window.",
+            "Then I listened to music and relaxed for a while.",
             "So, yeah, I liked it and wanted to go there again."
           ],
-          "hint": "첫 방문 → 혼자 걷기 → 발견/입장 → 조용함 → 주문 → 음악 → 재방문"
+          "hint": "첫 방문 → 혼자 걷다 발견 → 조용해서 입장 → 큰 창문/밖 보기 → 음료/창가 자리 → 음악/휴식 → 재방문"
         },
         {
           "id": "topic-4-q5",
@@ -607,11 +608,11 @@ window.OPIC_DATA = {
             "I was checking my phone, and suddenly it turned off.",
             "I tried to turn it back on, but it didn't work.",
             "I was like, \"Oh no, what should I do?\"",
-            "Luckily, I had a portable charger in my bag.",
-            "I charged my phone for a while, and it worked again.",
+            "I was so worried, so I pressed the power button again and again.",
+            "Then, luckily, my phone turned back on.",
             "So, yeah, everything was fine in the end."
           ],
-          "hint": "park → phone off → portable charger → charge → solved"
+          "hint": "park → phone off → 다시 켜기 실패/당황 → 전원 버튼 반복 → phone on → solved"
         },
         {
           "id": "topic-5-q7",
@@ -726,11 +727,11 @@ window.OPIC_DATA = {
             "I was checking my phone, and suddenly it turned off.",
             "I tried to turn it back on, but it didn't work.",
             "I was like, \"Oh no, what should I do?\"",
-            "Luckily, I had a portable charger in my bag.",
-            "I charged my phone for a while, and it worked again.",
+            "I was so worried, so I pressed the power button again and again.",
+            "Then, luckily, my phone turned back on.",
             "So, yeah, everything was fine in the end."
           ],
-          "hint": "beach → phone off → portable charger → charge → solved"
+          "hint": "beach → phone off → 다시 켜기 실패/당황 → 전원 버튼 반복 → phone on → solved"
         }
       ]
     },
@@ -845,11 +846,11 @@ window.OPIC_DATA = {
             "I was checking my phone, and suddenly it turned off.",
             "I tried to turn it back on, but it didn't work.",
             "I was like, \"Oh no, what should I do?\"",
-            "Luckily, I had a portable charger in my bag.",
-            "I charged my phone for a while, and it worked again.",
+            "I was so worried, so I pressed the power button again and again.",
+            "Then, luckily, my phone turned back on.",
             "So, yeah, everything was fine in the end."
           ],
-          "hint": "trip → phone off → portable charger → charge → solved"
+          "hint": "trip → phone off → 다시 켜기 실패/당황 → 전원 버튼 반복 → phone on → solved"
         },
         {
           "id": "topic-7-q8",
