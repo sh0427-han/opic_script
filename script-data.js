@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v8",
+  "version": "v9",
   "updated": "2026-09-19",
   "questionCount": 70,
   "topics": [
@@ -303,7 +303,7 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, my favorite cafe is near my home.",
-            "It's small, quiet, and not too crowded.",
+            "It's small, cozy, and not too crowded.",
             "It has big windows, so I can easily look outside.",
             "I can always find a nice seat by the window.",
             "I really like the feeling there.",
@@ -318,15 +318,15 @@ window.OPIC_DATA = {
           "question": "처음으로 가본 커피숍을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to that cafe for the first time a few weeks ago.",
-            "I found the place while I was walking alone.",
-            "It looked quiet, so I went inside.",
+            "Well, I went to a new cafe a few weeks ago.",
+            "I found it while I was walking alone.",
+            "It looked quiet and cozy, so I went inside.",
             "It had big windows, so I could easily look outside.",
             "I ordered something to drink and found a nice seat by the window.",
             "Then I listened to music and relaxed for a while.",
             "So, yeah, I liked it and wanted to go there again."
           ],
-          "hint": "첫 방문 → 혼자 걷다 발견 → 조용해서 입장 → 큰 창문/밖 보기 → 음료/창가 자리 → 음악/휴식 → 재방문"
+          "hint": "몇 주 전 new cafe → 혼자 걷다 발견 → quiet/cozy → 큰 창문/밖 보기 → 음료/창가 자리 → 음악/휴식 → 재방문"
         },
         {
           "id": "topic-3-q3",
@@ -350,15 +350,15 @@ window.OPIC_DATA = {
           "question": "최근 커피숍에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to a cafe near my home by myself not too long ago.",
-            "I got something to drink and found a nice seat by the window.",
-            "You know, I listened to music and looked outside for a while.",
-            "I also checked my phone.",
-            "I didn't really do anything special.",
-            "I just sat there and relaxed.",
-            "So, yeah, I had a really nice time."
+            "Well, I went to a new cafe a few weeks ago.",
+            "I found it while I was walking alone.",
+            "It looked quiet and cozy, so I went inside.",
+            "It had big windows, so I could easily look outside.",
+            "I ordered something to drink and found a nice seat by the window.",
+            "Then I listened to music and relaxed for a while.",
+            "So, yeah, I liked it and wanted to go there again."
           ],
-          "hint": "최근 카페 → 혼자 → 음료/창가 자리 → 음악/밖 보기 → 휴대폰 → 특별한 일 없음 → 휴식"
+          "hint": "몇 주 전 new cafe → 혼자 걷다 발견 → quiet/cozy → 큰 창문/밖 보기 → 음료/창가 자리 → 음악/휴식 → 재방문"
         },
         {
           "id": "topic-3-q5",
@@ -438,7 +438,7 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, my favorite pub is near my home.",
-            "It's small, quiet, and not too crowded.",
+            "It's small, cozy, and not too crowded.",
             "It has big windows, so I can easily look outside.",
             "I can always find a nice seat by the window.",
             "I really like the feeling there.",
@@ -469,15 +469,15 @@ window.OPIC_DATA = {
           "question": "최근 술집에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to a pub near my home by myself not too long ago.",
-            "I got something to drink and found a nice seat by the window.",
-            "You know, I listened to music and looked outside for a while.",
-            "I also checked my phone.",
-            "I didn't really do anything special.",
-            "I just sat there and relaxed.",
-            "So, yeah, I had a really nice time."
+            "Well, I went to a new pub a few weeks ago.",
+            "I found it while I was walking alone.",
+            "It looked quiet and cozy, so I went inside.",
+            "It had big windows, so I could easily look outside.",
+            "I ordered something to drink and found a nice seat by the window.",
+            "Then I listened to music and relaxed for a while.",
+            "So, yeah, I liked it and wanted to go there again."
           ],
-          "hint": "최근 펍 → 혼자 → 음료/창가 자리 → 음악/밖 보기 → 휴대폰 → 특별한 일 없음 → 휴식"
+          "hint": "몇 주 전 new pub → 혼자 걷다 발견 → quiet/cozy → 큰 창문/밖 보기 → 음료/창가 자리 → 음악/휴식 → 재방문"
         },
         {
           "id": "topic-4-q4",
@@ -485,15 +485,15 @@ window.OPIC_DATA = {
           "question": "처음으로 가본 술집을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to that pub for the first time a few weeks ago.",
-            "I found the place while I was walking alone.",
-            "It looked quiet, so I went inside.",
+            "Well, I went to a new pub a few weeks ago.",
+            "I found it while I was walking alone.",
+            "It looked quiet and cozy, so I went inside.",
             "It had big windows, so I could easily look outside.",
             "I ordered something to drink and found a nice seat by the window.",
             "Then I listened to music and relaxed for a while.",
             "So, yeah, I liked it and wanted to go there again."
           ],
-          "hint": "첫 방문 → 혼자 걷다 발견 → 조용해서 입장 → 큰 창문/밖 보기 → 음료/창가 자리 → 음악/휴식 → 재방문"
+          "hint": "몇 주 전 new pub → 혼자 걷다 발견 → quiet/cozy → 큰 창문/밖 보기 → 음료/창가 자리 → 음악/휴식 → 재방문"
         },
         {
           "id": "topic-4-q5",
@@ -526,13 +526,13 @@ window.OPIC_DATA = {
           "answer": [
             "Well, my favorite park is near my home.",
             "It's quiet and not too crowded.",
-            "It has a walking path and a few benches.",
-            "I can usually find a nice place to sit.",
-            "I really like the feeling there.",
-            "It is a nice place to relax for a while.",
-            "So, yeah, I really like that park."
+            "It has a really nice view of the trees.",
+            "I can always find a nice place to sit.",
+            "I listen to music and enjoy the view.",
+            "I just sit there and relax.",
+            "So, yeah, I feel really comfortable there."
           ],
-          "hint": "favorite park → 조용함 → 산책로/벤치 → 앉을 곳 → 느낌 → 휴식 → 선호"
+          "hint": "favorite park → quiet/not crowded → trees view → 앉을 곳 → 음악/전망 → 휴식 → comfortable"
         },
         {
           "id": "topic-5-q2",
@@ -541,14 +541,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, when I go to the park, I usually go alone.",
-            "I get something to drink and find a place to sit.",
-            "You know, I listen to music and look around for a while.",
+            "I take a short walk and find a nice place to sit.",
+            "You know, I listen to music and enjoy the view for a while.",
             "Sometimes, I check my phone.",
             "I don't really do anything special.",
-            "I just relax and enjoy some quiet time.",
+            "I just sit there and relax.",
             "So, yeah, that is what I usually do at the park."
           ],
-          "hint": "공원 → 혼자 → 음료/앉기 → 음악/둘러보기 → 휴대폰 → 조용히 휴식"
+          "hint": "공원 → 혼자 → 짧은 산책/앉을 곳 → 음악/전망 → 휴대폰 → 특별한 일 없음 → 휴식"
         },
         {
           "id": "topic-5-q3",
@@ -572,15 +572,15 @@ window.OPIC_DATA = {
           "question": "최근 공원에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to a park near my home by myself not too long ago.",
-            "The place was quiet and not too crowded.",
-            "I got something to drink and found a place to sit.",
-            "You know, I listened to music and looked around for a while.",
-            "I took a few pictures too.",
-            "I really liked the place.",
+            "Actually, I went to a park near my home by myself a few weeks ago.",
+            "I took a short walk and found a nice place to sit.",
+            "You know, I listened to music and enjoyed the view for a while.",
+            "I also checked my phone.",
+            "I didn't really do anything special.",
+            "I just sat there and relaxed.",
             "So, yeah, I had a really nice time."
           ],
-          "hint": "최근 공원 → 혼자 → 조용함 → 음료/앉기 → 음악/둘러보기 → 사진 → 만족"
+          "hint": "몇 주 전 공원 → 혼자 → 짧은 산책/앉을 곳 → 음악/전망 → 휴대폰 → 특별한 일 없음 → 휴식"
         },
         {
           "id": "topic-5-q5",
@@ -644,14 +644,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, my favorite beach is Haeundae Beach in Busan.",
-            "The ocean view is really nice.",
-            "There are many cafes and places to sit nearby.",
-            "I can usually find a nice place to sit.",
-            "I really like the feeling there.",
-            "It is a nice place to relax for a while.",
-            "So, yeah, I really like Haeundae Beach."
+            "It's quiet and not too crowded.",
+            "It has a really nice ocean view.",
+            "I can always find a nice place to sit.",
+            "I listen to music and enjoy the view.",
+            "I just sit there and relax.",
+            "So, yeah, I feel really comfortable there."
           ],
-          "hint": "해운대 → 바다 전망 → 카페/좌석 → 앉을 곳 → 느낌 → 휴식 → 선호"
+          "hint": "해운대 → quiet/not crowded → ocean view → 앉을 곳 → 음악/전망 → 휴식 → comfortable"
         },
         {
           "id": "topic-6-q2",
@@ -660,14 +660,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, when I go to Haeundae Beach, I usually go alone.",
-            "I get something to drink and find a place to sit.",
-            "You know, I listen to music and look around for a while.",
+            "I take a short walk and find a nice place to sit.",
+            "You know, I listen to music and enjoy the view for a while.",
             "Sometimes, I check my phone.",
             "I don't really do anything special.",
-            "I just relax and enjoy some quiet time.",
+            "I just sit there and relax.",
             "So, yeah, that is what I usually do at the beach."
           ],
-          "hint": "해변 → 혼자 → 음료/앉기 → 음악/둘러보기 → 휴대폰 → 조용히 휴식"
+          "hint": "해변 → 혼자 → 짧은 산책/앉을 곳 → 음악/전망 → 휴대폰 → 특별한 일 없음 → 휴식"
         },
         {
           "id": "topic-6-q3",
@@ -675,15 +675,15 @@ window.OPIC_DATA = {
           "question": "최근 해변에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to Haeundae Beach by myself not too long ago.",
-            "The place was quiet and not too crowded.",
-            "I got something to drink and found a place to sit.",
-            "You know, I listened to music and looked around for a while.",
-            "I took a few pictures too.",
-            "I really liked the place.",
+            "Actually, I went to Haeundae Beach by myself a few weeks ago.",
+            "I took a short walk and found a nice place to sit.",
+            "You know, I listened to music and enjoyed the view for a while.",
+            "I also checked my phone.",
+            "I didn't really do anything special.",
+            "I just sat there and relaxed.",
             "So, yeah, I had a really nice time."
           ],
-          "hint": "최근 해변 → 혼자 → 조용함 → 음료/앉기 → 음악/둘러보기 → 사진 → 만족"
+          "hint": "몇 주 전 해변 → 혼자 → 짧은 산책/앉을 곳 → 음악/전망 → 휴대폰 → 특별한 일 없음 → 휴식"
         },
         {
           "id": "topic-6-q4",
@@ -747,14 +747,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, my favorite place to travel in Korea is Busan, especially Haeundae.",
-            "The ocean view is really nice.",
-            "There are many cafes and places to sit nearby.",
-            "I can usually find a nice place to sit.",
-            "I really like the feeling there.",
-            "It is a nice place to relax for a while.",
-            "So, yeah, Haeundae is my favorite place in Busan."
+            "It's quiet and not too crowded.",
+            "It has a really nice ocean view.",
+            "I can always find a nice place to sit.",
+            "I listen to music and enjoy the view.",
+            "I just sit there and relax.",
+            "So, yeah, I feel really comfortable there."
           ],
-          "hint": "부산/해운대 → 바다 전망 → 카페/좌석 → 앉을 곳 → 느낌 → 휴식 → 선호"
+          "hint": "부산/해운대 → quiet/not crowded → ocean view → 앉을 곳 → 음악/전망 → 휴식 → comfortable"
         },
         {
           "id": "topic-7-q2",
@@ -763,14 +763,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, when I go to Busan, I usually go alone.",
-            "I get something to drink and find a place to sit.",
-            "You know, I listen to music and look around for a while.",
+            "I take a short walk and find a nice place to sit.",
+            "You know, I listen to music and enjoy the view for a while.",
             "Sometimes, I check my phone.",
             "I don't really do anything special.",
-            "I just relax and enjoy some quiet time.",
+            "I just sit there and relax.",
             "So, yeah, that is what I usually do in Busan."
           ],
-          "hint": "부산/해운대 → 혼자 → 음료/앉기 → 음악/둘러보기 → 휴대폰 → 조용히 휴식"
+          "hint": "부산/해운대 → 혼자 → 짧은 산책/앉을 곳 → 음악/전망 → 휴대폰 → 특별한 일 없음 → 휴식"
         },
         {
           "id": "topic-7-q3",
@@ -810,15 +810,15 @@ window.OPIC_DATA = {
           "question": "최근에 다녀온 국내여행을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to Busan by myself not too long ago.",
-            "The place was quiet and not too crowded.",
-            "I got something to drink and found a place to sit.",
-            "You know, I listened to music and looked around for a while.",
-            "I took a few pictures too.",
-            "I really liked the place.",
+            "Actually, I went to Busan by myself a few weeks ago.",
+            "I took a short walk at Haeundae Beach and found a nice place to sit.",
+            "You know, I listened to music and enjoyed the view for a while.",
+            "I also checked my phone.",
+            "I didn't really do anything special.",
+            "I just sat there and relaxed.",
             "So, yeah, I had a really nice time."
           ],
-          "hint": "최근 부산 → 혼자 → 조용함 → 음료/앉기 → 음악/둘러보기 → 사진 → 만족"
+          "hint": "몇 주 전 부산 → 혼자 → 해운대 짧은 산책/앉을 곳 → 음악/전망 → 휴대폰 → 특별한 일 없음 → 휴식"
         },
         {
           "id": "topic-7-q6",
@@ -897,15 +897,15 @@ window.OPIC_DATA = {
           "question": "좋아하는 음악 장르와 좋아하는 가수를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I like pop music, especially calm songs.",
+            "Well, I like pop music, especially slow songs.",
             "One of my favorite singers is IU.",
             "I like her songs because they are easy to listen to.",
-            "These days, I listen to calm songs more often.",
+            "I often listen to her songs when I'm tired.",
             "I usually listen at home or when I am going somewhere.",
-            "You know, music helps me relax when I am tired.",
-            "So, yeah, I listen to her songs pretty often."
+            "You know, her music helps me relax.",
+            "So, yeah, I really like her music."
           ],
-          "hint": "pop/calm → IU → easy to listen → home/on the way → relax"
+          "hint": "pop/slow songs → IU → easy to listen → tired → home/on the way → relax"
         },
         {
           "id": "topic-8-q2",
@@ -913,10 +913,10 @@ window.OPIC_DATA = {
           "question": "음악을 처음 좋아하게 된 계기를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, let me think. I started listening to music a lot in high school.",
+            "Well, let me think. I started to like music in high school.",
             "One day, I was walking alone when I heard a nice song.",
             "I stopped for a moment and listened to it.",
-            "The song was calm and easy to listen to.",
+            "The song was slow and easy to listen to.",
             "After that, I started finding new songs by myself.",
             "I really enjoyed doing that.",
             "So, yeah, that is how I started to like music."
@@ -929,15 +929,15 @@ window.OPIC_DATA = {
           "question": "예전과 지금의 음악 취향 변화를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my music taste has changed a little.",
-            "When I was younger, I liked fast and exciting songs.",
-            "But these days, I like calm songs more.",
-            "I usually listen to music at home or when I am going somewhere.",
-            "I use my phone and wireless earphones.",
-            "You know, calm music helps me relax when I am tired.",
-            "So, yeah, I prefer calm music now."
+            "Well, fast music and slow music feel very different to me.",
+            "Fast music is exciting and gives me more energy.",
+            "Slow music helps me relax when I'm tired.",
+            "When I was younger, I listened to fast songs more often.",
+            "But these days, I usually choose slow songs.",
+            "I usually listen to them at home or when I'm going somewhere.",
+            "So, yeah, I like slow music better now."
           ],
-          "hint": "past fast → now calm → phone/earphones → relax"
+          "hint": "fast=energy → slow=relax → past fast → now slow → home/on the way"
         },
         {
           "id": "topic-8-q4",
@@ -947,13 +947,13 @@ window.OPIC_DATA = {
           "answer": [
             "Actually, I listen to music almost every day.",
             "I usually listen at home or when I am going somewhere.",
-            "I use my phone and wireless earphones.",
-            "These days, I mostly listen to calm songs.",
+            "I use my phone and earphones.",
+            "These days, I mostly listen to slow songs.",
             "You know, music helps me relax when I am tired.",
             "Sometimes, I just close my eyes and listen for a while.",
             "So, yeah, music is part of my daily life."
           ],
-          "hint": "almost every day → home/on the way → phone/earphones → calm → relax"
+          "hint": "almost every day → home/on the way → phone/earphones → slow songs → relax"
         },
         {
           "id": "topic-8-q5",
@@ -961,15 +961,15 @@ window.OPIC_DATA = {
           "question": "빠른 음악과 잔잔한 음악을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, fast music and calm music feel very different to me.",
+            "Well, fast music and slow music feel very different to me.",
             "Fast music is exciting and gives me more energy.",
-            "Calm music is slower and helps me relax.",
+            "Slow music helps me relax when I'm tired.",
             "When I was younger, I listened to fast songs more often.",
-            "But these days, I usually choose calm songs.",
-            "You know, I often listen to them when I am tired.",
-            "So, yeah, I like calm music better now."
+            "But these days, I usually choose slow songs.",
+            "I usually listen to them at home or when I'm going somewhere.",
+            "So, yeah, I like slow music better now."
           ],
-          "hint": "fast=energy → calm=relax → past fast → now calm"
+          "hint": "fast=energy → slow=relax → past fast → now slow → home/on the way"
         },
         {
           "id": "topic-8-q6",
@@ -978,14 +978,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Well, the way I listen to music has changed a lot.",
-            "In the past, I downloaded songs and saved them on my phone.",
+            "In the past, I saved songs on my phone.",
             "But these days, I just use a music app.",
             "I can find almost any song very easily.",
             "I can also make a playlist.",
             "And I use wireless earphones now.",
             "So, yeah, listening to music is much easier now."
           ],
-          "hint": "past download/save → now app → search → playlist → wireless earphones"
+          "hint": "past save on phone → now app → search → playlist → wireless earphones"
         },
         {
           "id": "topic-8-q7",
@@ -993,7 +993,7 @@ window.OPIC_DATA = {
           "question": "라이브 음악을 들었던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one really fun concert I went to by myself.",
+            "Actually, I went to a pop concert by myself a few weeks ago.",
             "I got there a little early and found my seat.",
             "When the show started, everyone started cheering.",
             "I sang along to some songs I knew.",
@@ -1001,7 +1001,7 @@ window.OPIC_DATA = {
             "I took a few pictures too.",
             "So, yeah, it was really fun."
           ],
-          "hint": "alone → seat → cheering → sing along → favorite song → pictures → fun"
+          "hint": "몇 주 전 pop concert → alone → seat → cheering → sing along → favorite song → pictures/fun"
         }
       ]
     },
@@ -1018,13 +1018,13 @@ window.OPIC_DATA = {
           "answer": [
             "Well, I like pop concerts the most.",
             "I like concerts where I already know many of the songs.",
-            "I usually go alone.",
-            "I get there a little early and find my seat.",
-            "When the show starts, everyone starts cheering.",
-            "I sing along to songs I know and enjoy the music.",
-            "So, yeah, pop concerts are my favorite."
+            "I usually go alone and get there a little early.",
+            "I find my seat and wait for the show.",
+            "When the music starts, I sing along to songs I know.",
+            "Sometimes, I take a few pictures, but I don't use my phone too much.",
+            "So, yeah, I just enjoy the music and have a good time."
           ],
-          "hint": "pop → know songs → alone → early/seat → cheering → sing along"
+          "hint": "pop/known songs → alone/early → seat/wait → sing along → pictures/phone less → enjoy"
         },
         {
           "id": "topic-9-q2",
@@ -1032,15 +1032,15 @@ window.OPIC_DATA = {
           "question": "콘서트에 가면 주로 무엇을 하나요?",
           "status": "필수",
           "answer": [
-            "Well, when I go to a concert, I usually go alone.",
-            "I get there a little early and find my seat.",
-            "Before the show starts, I just sit there and look around.",
+            "Well, I like pop concerts the most.",
+            "I like concerts where I already know many of the songs.",
+            "I usually go alone and get there a little early.",
+            "I find my seat and wait for the show.",
             "When the music starts, I sing along to songs I know.",
-            "Sometimes, I take a few pictures.",
-            "But I try not to use my phone too much.",
-            "I just enjoy the music and have a good time."
+            "Sometimes, I take a few pictures, but I don't use my phone too much.",
+            "So, yeah, I just enjoy the music and have a good time."
           ],
-          "hint": "alone → early/seat → sit/look around → sing along → pictures → phone less → enjoy"
+          "hint": "pop/known songs → alone/early → seat/wait → sing along → pictures/phone less → enjoy"
         },
         {
           "id": "topic-9-q3",
@@ -1048,7 +1048,7 @@ window.OPIC_DATA = {
           "question": "최근 콘서트에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to a pop concert by myself not too long ago.",
+            "Actually, I went to a pop concert by myself a few weeks ago.",
             "I got there a little early and found my seat.",
             "When the show started, everyone started cheering.",
             "I sang along to some songs I knew.",
@@ -1056,7 +1056,7 @@ window.OPIC_DATA = {
             "I took a few pictures too.",
             "So, yeah, it was really fun."
           ],
-          "hint": "recent → alone → seat → cheering → sing along → favorite song → pictures"
+          "hint": "몇 주 전 pop concert → alone → seat → cheering → sing along → favorite song → pictures/fun"
         },
         {
           "id": "topic-9-q4",
@@ -1064,7 +1064,7 @@ window.OPIC_DATA = {
           "question": "기억에 남는 콘서트 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one really fun concert I went to by myself.",
+            "Actually, I went to a pop concert by myself a few weeks ago.",
             "I got there a little early and found my seat.",
             "When the show started, everyone started cheering.",
             "I sang along to some songs I knew.",
@@ -1072,7 +1072,7 @@ window.OPIC_DATA = {
             "I took a few pictures too.",
             "So, yeah, it was really fun."
           ],
-          "hint": "memory → alone → seat → cheering → favorite song → pictures → fun"
+          "hint": "몇 주 전 pop concert → alone → seat → cheering → sing along → favorite song → pictures/fun"
         },
         {
           "id": "topic-9-q5",
@@ -1102,7 +1102,7 @@ window.OPIC_DATA = {
             "But these days, I try to use my phone less.",
             "I still take a few pictures, but I focus more on the music.",
             "I think I enjoy the show more this way.",
-            "So, yeah, concerts feel more relaxing to me now."
+            "So, yeah, I enjoy concerts more now."
           ],
           "hint": "past pictures/phone → now phone less → music focus → enjoy more"
         }
