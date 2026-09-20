@@ -1,7 +1,7 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v11",
-  "updated": "2026-09-19",
+  "version": "v12",
+  "updated": "2026-09-20",
   "questionCount": 70,
   "survey": {
     "title": "시험 전 설문 선택",
@@ -44,6 +44,10 @@ window.OPIC_DATA = {
           {
             "label": "콘서트 가기",
             "topics": ["콘서트"]
+          },
+          {
+            "label": "클럽 가기",
+            "topics": ["술집 / 펍"]
           }
         ]
       },
@@ -53,6 +57,23 @@ window.OPIC_DATA = {
           {
             "label": "음악 감상",
             "topics": ["음악"]
+          }
+        ]
+      },
+      {
+        "title": "운동",
+        "items": [
+          {
+            "label": "조깅",
+            "topics": ["공원"]
+          },
+          {
+            "label": "걷기",
+            "topics": ["공원"]
+          },
+          {
+            "label": "운동을 전혀 하지 않음",
+            "topics": []
           }
         ]
       },

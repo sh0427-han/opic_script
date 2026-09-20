@@ -205,7 +205,11 @@
               <span class="survey-check" aria-hidden="true">✓</span>
               <div>
                 <strong>${escapeHtml(item.label)}</strong>
-                <small>연결 주제 · ${escapeHtml(item.topics.join(", "))}</small>
+                <small>
+                  ${item.topics.length > 0
+                    ? `연결 주제 · ${escapeHtml(item.topics.join(", "))}`
+                    : "선택 기록 · 별도 스크립트 없음"}
+                </small>
               </div>
             </li>
           `).join("")}
@@ -245,11 +249,10 @@
 
     if (isSurvey) {
       const surveyChoiceCount = data.survey
-        ? data.survey.settings.filter((setting) => setting.topics).length
-          + data.survey.groups.reduce(
-            (count, group) => count + group.items.length,
-            0,
-          )
+        ? data.survey.groups.reduce(
+          (count, group) => count + group.items.length,
+          0,
+        )
         : 0;
       elements.content.setAttribute("aria-labelledby", "survey-tab");
       elements.description.textContent =
