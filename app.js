@@ -71,7 +71,13 @@
     .filter((topic) => state.topic === "all" || topic.id === state.topic)
     .map((topic) => ({
       ...topic,
-      questions: topic.questions.filter((question) => matchesQuery(topic, question)),
+      questions: topic.questions
+        .filter((question) => matchesQuery(topic, question))
+        .sort((first, second) => {
+          const firstPriority = first.status === "필수" ? 0 : 1;
+          const secondPriority = second.status === "필수" ? 0 : 1;
+          return firstPriority - secondPriority;
+        }),
     }))
     .filter((topic) => topic.questions.length > 0);
 
@@ -104,6 +110,7 @@
     const filterGroups = [
       { id: "survey", title: "설문조사 기반" },
       { id: "unexpected", title: "돌발 질문" },
+      { id: "roleplay", title: "롤플레이" },
     ];
 
     elements.filters.innerHTML = `

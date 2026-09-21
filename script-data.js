@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v13",
+  "version": "v14",
   "updated": "2026-09-21",
   "questionCount": 79,
   "survey": {
@@ -245,7 +245,7 @@ window.OPIC_DATA = {
         },
         {
           "id": "topic-1-q10",
-          "number": "Q10",
+          "number": "Q12",
           "question": "최근 한국의 주택이 어떻게 변했다고 생각하나요?",
           "status": "선택",
           "answer": [
@@ -261,7 +261,7 @@ window.OPIC_DATA = {
         },
         {
           "id": "topic-1-q11",
-          "number": "Q11",
+          "number": "Q13",
           "question": "한국에서 집을 구할 때 어떤 점이 어렵나요?",
           "status": "선택",
           "answer": [
@@ -277,7 +277,7 @@ window.OPIC_DATA = {
         },
         {
           "id": "topic-1-q12",
-          "number": "Q12",
+          "number": "Q10",
           "question": "집에서 가장 좋아하는 방이나 공간을 자세히 묘사해 주세요.",
           "status": "필수",
           "answer": [
@@ -293,7 +293,7 @@ window.OPIC_DATA = {
         },
         {
           "id": "topic-1-q13",
-          "number": "Q13",
+          "number": "Q11",
           "question": "보통 집을 어떻게 청소하는지 순서대로 설명해 주세요.",
           "status": "필수",
           "answer": [
@@ -1243,7 +1243,7 @@ window.OPIC_DATA = {
       "id": "topic-10",
       "order": 10,
       "title": "롤플레이 최소암기 세트",
-      "source": "unexpected",
+      "source": "roleplay",
       "questions": [
         {
           "id": "topic-10-rp1",
