@@ -1,8 +1,8 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v14",
+  "version": "v15",
   "updated": "2026-09-21",
-  "questionCount": 79,
+  "questionCount": 84,
   "survey": {
     "title": "시험 전 설문 선택",
     "note": "현재 스크립트의 연습 주제를 만든 개인 선택 기록입니다. 실제 시험 화면의 문구가 조금 다르면 같은 의미의 항목을 선택합니다.",
@@ -519,7 +519,7 @@ window.OPIC_DATA = {
         },
         {
           "id": "topic-3-q7",
-          "number": "Q7",
+          "number": "Q8",
           "question": "예전과 지금의 카페는 어떻게 달라졌나요?",
           "status": "선택",
           "answer": [
@@ -535,7 +535,7 @@ window.OPIC_DATA = {
         },
         {
           "id": "topic-3-q8",
-          "number": "Q8",
+          "number": "Q9",
           "question": "카페가 인기 있는 이유는 무엇이라고 생각하나요?",
           "status": "선택",
           "answer": [
@@ -548,6 +548,22 @@ window.OPIC_DATA = {
             "So, yeah, cafes are very easy to use."
           ],
           "hint": "coffee/sit → friends or alone → Wi-Fi/seats → study/phone → many cafes"
+        },
+        {
+          "id": "topic-3-q9",
+          "number": "Q7",
+          "question": "카페에서 보통 무엇을 주문하며, 왜 그것을 좋아하나요?",
+          "status": "필수",
+          "answer": [
+            "Well, I usually order an iced coffee at a cafe.",
+            "It's simple and easy to drink.",
+            "I like it because it's not too sweet.",
+            "After I get my drink, I find a nice seat by the window.",
+            "Then I listen to music and check my phone.",
+            "I just sit there and relax.",
+            "So, yeah, iced coffee is my usual order."
+          ],
+          "hint": "iced coffee → simple/easy → not too sweet → window seat → music/phone → relax"
         }
       ]
     },
@@ -636,6 +652,22 @@ window.OPIC_DATA = {
             "So, yeah, I'll never forget that day."
           ],
           "hint": "pub → friends → cake/gifts → birthday song → surprised → thankful"
+        },
+        {
+          "id": "topic-4-q6",
+          "number": "Q6",
+          "question": "술집이나 펍에서 문제가 생겼던 경험과 해결 방법을 말해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one problem I had at a pub.",
+            "I ordered a drink, but they brought me the wrong one.",
+            "I was like, \"Oh no, this is not my drink.\"",
+            "So I talked to a staff member.",
+            "They changed it right away.",
+            "After that, I found a nice seat and relaxed.",
+            "So, yeah, everything was fine in the end."
+          ],
+          "hint": "pub → wrong drink → 당황 → staff member → changed → seat/relax → solved"
         }
       ]
     },
@@ -983,7 +1015,7 @@ window.OPIC_DATA = {
         },
         {
           "id": "topic-7-q8",
-          "number": "Q8",
+          "number": "Q9",
           "question": "요즘 여행이 예전보다 어려워진 이유는 무엇이라고 생각하나요?",
           "status": "선택",
           "answer": [
@@ -999,7 +1031,7 @@ window.OPIC_DATA = {
         },
         {
           "id": "topic-7-q9",
-          "number": "Q9",
+          "number": "Q10",
           "question": "사람들이 여행할 때 주로 어떤 점을 걱정하나요?",
           "status": "선택",
           "answer": [
@@ -1012,6 +1044,22 @@ window.OPIC_DATA = {
             "So, yeah, money and crowds are the main worries."
           ],
           "hint": "money → expensive → crowds/lines → check prices → plan early"
+        },
+        {
+          "id": "topic-7-q10",
+          "number": "Q8",
+          "question": "국내 여행지까지 보통 어떤 교통수단을 이용하는지 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, I usually go to Busan by train.",
+            "The train is fast and comfortable.",
+            "First, I go to the train station near my home.",
+            "Then, I take the train to Busan.",
+            "It takes about three hours.",
+            "When I arrive, I take a bus or a taxi to the beach.",
+            "So, yeah, getting there is easy and comfortable."
+          ],
+          "hint": "Busan by train → fast/comfortable → station near home → three hours → bus/taxi → beach"
         }
       ]
     },
@@ -1373,6 +1421,39 @@ window.OPIC_DATA = {
             "So, yeah, everything was fine in the end."
           ],
           "hint": "phone off → 다시 켜기 실패/당황 → 전원 버튼 반복 → phone on → solved"
+        },
+        {
+          "id": "topic-10-concert-rp1",
+          "number": "CONCERT-RP1",
+          "question": "콘서트 티켓을 사기 위해 매표소에 전화해서 정보를 물어보세요.",
+          "status": "필수",
+          "answer": [
+            "Hi, I'm calling because I want to buy two concert tickets.",
+            "I have a few questions.",
+            "What time does the concert start?",
+            "How much are the tickets?",
+            "Are there any seats left?",
+            "Can I buy them online?",
+            "Okay, that sounds good.",
+            "Thank you for your help."
+          ],
+          "hint": "two tickets → start time → price → seats → online → thanks"
+        },
+        {
+          "id": "topic-10-concert-rp2",
+          "number": "CONCERT-RP2",
+          "question": "콘서트에 갈 수 없게 되었습니다. 친구에게 설명하고 대안을 제시하세요.",
+          "status": "필수",
+          "answer": [
+            "Hey, it's me. I'm really sorry, but I can't go to the concert this weekend.",
+            "Something came up.",
+            "You can go with someone else.",
+            "Or we can cancel the tickets and get a refund.",
+            "If not, we can change them to another day.",
+            "I'm really sorry about this.",
+            "Think about it and let me know."
+          ],
+          "hint": "sorry/can't go → something came up → someone else → cancel/refund → another day → think/let me know"
         }
       ]
     },
