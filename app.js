@@ -91,12 +91,7 @@
   `;
 
   const renderFilters = () => {
-    const chips = [
-      { id: "all", title: "전체" },
-      ...data.topics.map((topic) => ({ id: topic.id, title: topic.title })),
-    ];
-
-    elements.filters.innerHTML = chips.map((chip) => `
+    const chipHtml = (chip) => `
       <button
         class="topic-chip ${state.topic === chip.id ? "is-active" : ""}"
         type="button"
@@ -105,7 +100,29 @@
       >
         ${escapeHtml(chip.title)}
       </button>
-    `).join("");
+    `;
+    const filterGroups = [
+      { id: "survey", title: "설문조사 기반" },
+      { id: "unexpected", title: "돌발 질문" },
+    ];
+
+    elements.filters.innerHTML = `
+      <div class="topic-filter-all">${chipHtml({ id: "all", title: "전체" })}</div>
+      <div class="topic-filter-groups">
+        ${filterGroups.map((group) => {
+          const chips = data.topics
+            .filter((topic) => topic.source === group.id)
+            .map((topic) => chipHtml({ id: topic.id, title: topic.title }))
+            .join("");
+          return `
+            <section class="topic-filter-group" aria-labelledby="${group.id}-filter-title">
+              <strong id="${group.id}-filter-title">${group.title}</strong>
+              <div class="topic-filter-chips">${chips}</div>
+            </section>
+          `;
+        }).join("")}
+      </div>
+    `;
   };
 
   const renderScripts = (topics) => topics.map((topic) => `
@@ -205,11 +222,9 @@
               <span class="survey-check" aria-hidden="true">✓</span>
               <div>
                 <strong>${escapeHtml(item.label)}</strong>
-                <small>
-                  ${item.topics.length > 0
-                    ? `연결 주제 · ${escapeHtml(item.topics.join(", "))}`
-                    : "선택 기록 · 별도 스크립트 없음"}
-                </small>
+                ${item.topics.length > 0
+                  ? `<small>연결 주제 · ${escapeHtml(item.topics.join(", "))}</small>`
+                  : "<small>선택 기록 · 별도 스크립트 없음</small>"}
               </div>
             </li>
           `).join("")}

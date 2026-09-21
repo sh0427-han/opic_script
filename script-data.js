@@ -1,8 +1,8 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v12",
-  "updated": "2026-09-20",
-  "questionCount": 70,
+  "version": "v13",
+  "updated": "2026-09-21",
+  "questionCount": 79,
   "survey": {
     "title": "시험 전 설문 선택",
     "note": "현재 스크립트의 연습 주제를 만든 개인 선택 기록입니다. 실제 시험 화면의 문구가 조금 다르면 같은 의미의 항목을 선택합니다.",
@@ -97,6 +97,7 @@ window.OPIC_DATA = {
       "id": "topic-1",
       "order": 1,
       "title": "집 / 가구",
+      "source": "survey",
       "questions": [
         {
           "id": "topic-1-q1",
@@ -273,6 +274,39 @@ window.OPIC_DATA = {
             "So, yeah, finding the right home takes time."
           ],
           "hint": "price → good location → expensive → good price difficult"
+        },
+        {
+          "id": "topic-1-q12",
+          "number": "Q12",
+          "question": "집에서 가장 좋아하는 방이나 공간을 자세히 묘사해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, my favorite place at home is the living room.",
+            "It's not very big, but it's cozy and comfortable.",
+            "I have a sofa and a small table there.",
+            "I usually sit on the sofa and watch YouTube, listen to music, and check my phone.",
+            "It's quiet and easy to relax there.",
+            "I just sit there and relax.",
+            "So, yeah, the living room is my favorite place at home."
+          ],
+          "hint": "favorite living room → cozy/comfortable → sofa/table → YouTube/music/phone → quiet/relax"
+        },
+        {
+          "id": "topic-1-q13",
+          "number": "Q13",
+          "question": "보통 집을 어떻게 청소하는지 순서대로 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, I usually clean my apartment on weekends.",
+            "I live alone, so I do all the cleaning by myself.",
+            "First, I pick up my things and put them away.",
+            "Then, I clean the floor.",
+            "After that, I clean the kitchen and the bathroom.",
+            "My apartment is small, so it doesn't take very long.",
+            "When I finish, my place feels clean and comfortable.",
+            "So, yeah, I feel good after cleaning."
+          ],
+          "hint": "weekends → alone/by myself → put things away → floor → kitchen/bathroom → small/quick → feel good"
         }
       ]
     },
@@ -280,6 +314,7 @@ window.OPIC_DATA = {
       "id": "topic-2",
       "order": 2,
       "title": "집에서 보내는 휴가",
+      "source": "survey",
       "questions": [
         {
           "id": "topic-2-q1",
@@ -384,6 +419,7 @@ window.OPIC_DATA = {
       "id": "topic-3",
       "order": 3,
       "title": "카페 / 커피숍",
+      "source": "survey",
       "questions": [
         {
           "id": "topic-3-q1",
@@ -519,6 +555,7 @@ window.OPIC_DATA = {
       "id": "topic-4",
       "order": 4,
       "title": "술집 / 펍",
+      "source": "survey",
       "questions": [
         {
           "id": "topic-4-q1",
@@ -606,6 +643,7 @@ window.OPIC_DATA = {
       "id": "topic-5",
       "order": 5,
       "title": "공원",
+      "source": "survey",
       "questions": [
         {
           "id": "topic-5-q1",
@@ -725,6 +763,7 @@ window.OPIC_DATA = {
       "id": "topic-6",
       "order": 6,
       "title": "해변",
+      "source": "survey",
       "questions": [
         {
           "id": "topic-6-q1",
@@ -828,6 +867,7 @@ window.OPIC_DATA = {
       "id": "topic-7",
       "order": 7,
       "title": "국내여행",
+      "source": "survey",
       "questions": [
         {
           "id": "topic-7-q1",
@@ -979,6 +1019,7 @@ window.OPIC_DATA = {
       "id": "topic-8",
       "order": 8,
       "title": "음악",
+      "source": "survey",
       "questions": [
         {
           "id": "topic-8-q1",
@@ -1098,6 +1139,7 @@ window.OPIC_DATA = {
       "id": "topic-9",
       "order": 9,
       "title": "콘서트",
+      "source": "survey",
       "questions": [
         {
           "id": "topic-9-q1",
@@ -1201,6 +1243,7 @@ window.OPIC_DATA = {
       "id": "topic-10",
       "order": 10,
       "title": "롤플레이 최소암기 세트",
+      "source": "unexpected",
       "questions": [
         {
           "id": "topic-10-rp1",
@@ -1281,6 +1324,127 @@ window.OPIC_DATA = {
             "So, yeah, everything was fine in the end."
           ],
           "hint": "meet friend → phone off → fail → borrow phone → call → change time"
+        },
+        {
+          "id": "topic-10-mp3-rp1",
+          "number": "MP3-RP1",
+          "question": "MP3 플레이어를 사기 전에 가게에 전화해서 정보를 물어보세요.",
+          "status": "필수",
+          "answer": [
+            "Hi, I'm calling because I want to buy an MP3 player.",
+            "I have a few questions.",
+            "How much is it?",
+            "What colors do you have?",
+            "How long does the battery last?",
+            "Can I buy it online?",
+            "Okay, that sounds good.",
+            "Thank you for your help."
+          ],
+          "hint": "want to buy → price → colors → battery → online → thanks"
+        },
+        {
+          "id": "topic-10-mp3-rp2",
+          "number": "MP3-RP2",
+          "question": "친구에게 빌린 MP3 플레이어를 고장 냈습니다. 설명하고 대안을 제시하세요.",
+          "status": "필수",
+          "answer": [
+            "Hey, it's me. I'm really sorry, but there's a problem with your MP3 player.",
+            "I dropped it, and now it doesn't work.",
+            "It was an accident, and I'm really sorry.",
+            "I can take it to a repair shop.",
+            "Or I can buy you a new one.",
+            "Please think about it and let me know.",
+            "Again, I'm really sorry."
+          ],
+          "hint": "sorry/problem → dropped/broken → accident → repair → new one → think/let me know"
+        },
+        {
+          "id": "topic-10-mp3-rp3",
+          "number": "MP3-RP3",
+          "question": "전자기기에 문제가 생겼다가 해결한 경험을 말해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one problem I had with my phone.",
+            "I was checking my phone, and suddenly it turned off.",
+            "I tried to turn it back on, but it didn't work.",
+            "I was like, \"Oh no, what should I do?\"",
+            "I was so worried, so I pressed the power button again and again.",
+            "Then, luckily, my phone turned back on.",
+            "So, yeah, everything was fine in the end."
+          ],
+          "hint": "phone off → 다시 켜기 실패/당황 → 전원 버튼 반복 → phone on → solved"
+        }
+      ]
+    },
+    {
+      "id": "topic-11",
+      "order": 11,
+      "title": "호텔",
+      "source": "unexpected",
+      "questions": [
+        {
+          "id": "topic-11-q1",
+          "number": "Q1",
+          "question": "한국의 일반적인 호텔을 자세히 묘사해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, there are many hotels in Korea.",
+            "Most hotels are near popular places or downtown.",
+            "They usually have a lobby, a restaurant, and many rooms.",
+            "The rooms are clean, quiet, and cozy.",
+            "Some hotels have a really nice view, like an ocean view.",
+            "They are nice places to rest.",
+            "So, yeah, many people stay at hotels when they travel."
+          ],
+          "hint": "many hotels → popular places/downtown → lobby/restaurant/rooms → clean/quiet/cozy → ocean view → rest"
+        },
+        {
+          "id": "topic-11-q2",
+          "number": "Q2",
+          "question": "호텔에 도착하면 보통 무엇을 하는지 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, when I arrive at a hotel, I go to the front desk first.",
+            "I check in and get my room key.",
+            "Then, I go to my room and put down my bags.",
+            "I usually check the room and look out the window.",
+            "If the room has a nice view, I sit near the window for a while.",
+            "After that, I just sit there and relax.",
+            "So, yeah, that's what I usually do at a hotel."
+          ],
+          "hint": "front desk → check in/key → room/bags → check room/window → nice view → sit/relax"
+        },
+        {
+          "id": "topic-11-q3",
+          "number": "Q3",
+          "question": "가장 최근에 호텔에 묵었던 경험을 처음부터 끝까지 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, I stayed at a hotel near the beach a few weeks ago.",
+            "I went there by myself to get some rest.",
+            "The hotel was quiet, cozy, and not too crowded.",
+            "My room had a really nice ocean view.",
+            "I found a nice place to sit near the window.",
+            "I just sat there and relaxed.",
+            "So, yeah, I felt really comfortable there."
+          ],
+          "hint": "few weeks ago/beach → alone/rest → quiet/cozy/not crowded → ocean view → window seat → relax/comfortable"
+        },
+        {
+          "id": "topic-11-q4",
+          "number": "Q4",
+          "question": "기억에 남는 호텔과 그 이유를 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, my most memorable hotel was near the beach.",
+            "I went there by myself a few weeks ago.",
+            "The hotel was quiet, cozy, and not too crowded.",
+            "My room had a really nice ocean view.",
+            "I found a nice place to sit near the window.",
+            "I just sat there and relaxed.",
+            "So, yeah, I felt really comfortable there."
+          ],
+          "hint": "memorable hotel/beach → alone/few weeks ago → quiet/cozy/not crowded → ocean view → window seat → relax/comfortable"
         }
       ]
     }
