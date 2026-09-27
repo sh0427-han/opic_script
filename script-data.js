@@ -1,7 +1,7 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v22",
-  "updated": "2026-09-27",
+  "version": "v23",
+  "updated": "2026-09-28",
   "questionCount": 142,
   "survey": {
     "title": "시험 전 설문 선택",
@@ -2369,5 +2369,128 @@ window.OPIC_DATA = {
         }
       ]
     }
-  ]
+  ],
+  "minimalStudy": {
+    "title": "142개 답변 대신, 8개 흐름과 7개 소재로 연습하세요",
+    "lead": "아래 영어 문장은 통째로 외울 원고가 아니라 시작을 돕는 예시입니다. 질문을 듣고 맞는 흐름 하나를 고른 뒤, 괄호 안 내용과 소재를 본인 말로 채우세요.",
+    "patterns": [
+      {
+        "title": "장소·사물 묘사",
+        "use": "집, 카페, 공원, 해변, 호텔",
+        "lines": [
+          "My favorite [place] is [where].",
+          "It has [feature], and I like it because [reason]."
+        ],
+        "cue": "어디인지 → 보이는 특징 → 좋아하는 이유"
+      },
+      {
+        "title": "평소 하는 일",
+        "use": "집, 카페, 공원, 음악, 여행",
+        "lines": [
+          "I usually [action] when I go to [place].",
+          "Then I [next action]. It helps me [feeling]."
+        ],
+        "cue": "언제·어디서 → 행동 두 가지 → 이유"
+      },
+      {
+        "title": "최근 경험",
+        "use": "최근 방문, 여행, 콘서트",
+        "lines": [
+          "Last [time], I went to [place] with [person].",
+          "We [action], and I [result or feeling]."
+        ],
+        "cue": "언제·어디서 → 한 일 → 결과"
+      },
+      {
+        "title": "문제와 해결",
+        "use": "집, 음식점, 호텔, 휴대폰",
+        "lines": [
+          "One day, [problem] happened.",
+          "I tried to [action], but it didn't work.",
+          "So I [solution], and [result]."
+        ],
+        "cue": "문제 → 시도 → 해결·결과"
+      },
+      {
+        "title": "예전과 지금 비교",
+        "use": "집, 가구, 음악, 여행, 기술",
+        "lines": [
+          "In the past, I [past situation].",
+          "But these days, I [present situation].",
+          "The biggest difference is [one clear difference]."
+        ],
+        "cue": "예전 하나 → 지금 하나 → 가장 큰 차이"
+      },
+      {
+        "title": "의견·이유",
+        "use": "휴가, 카페, 여행, 날씨, 기술",
+        "lines": [
+          "I think [opinion] because [reason].",
+          "For example, [one simple example]."
+        ],
+        "cue": "내 생각 → 이유 → 쉬운 예"
+      },
+      {
+        "title": "전화로 정보 묻기",
+        "use": "표, 예약, 호텔, 수리점",
+        "lines": [
+          "Hi, I'm calling about [purpose].",
+          "Could you tell me [detail]? And is [option] possible?"
+        ],
+        "cue": "용건 → 필요한 질문 두세 가지"
+      },
+      {
+        "title": "사과하고 대안 제시",
+        "use": "약속 취소, 예약 변경, 물건 고장",
+        "lines": [
+          "I'm sorry, but [problem], so I can't [plan].",
+          "Could we [option A] instead? If not, we could [option B]."
+        ],
+        "cue": "상황·사과 → 대안 두 가지 → 선택"
+      }
+    ],
+    "anchors": [
+      {
+        "title": "집",
+        "facts": "혼자 사는 작은 아파트 · 거실의 소파 · 예전 가족과 살던 큰 집 · 주방 조명 문제",
+        "use": "집 묘사·가구 비교·집 문제·집 휴가"
+      },
+      {
+        "title": "카페·펍·음식점",
+        "facts": "카페의 아이스커피/잘못 나온 음료 · 펍에서 친구와 대화/계산서 오류 · 식당의 파스타/잘못 나온 음식",
+        "use": "장소 묘사·일상·문제 경험"
+      },
+      {
+        "title": "공원·날씨",
+        "facts": "집 근처 20분 산책과 벤치 · 산책 중 갑자기 온 비",
+        "use": "공원 일상·최근 경험·날씨 문제"
+      },
+      {
+        "title": "부산·해운대",
+        "facts": "기차 → 호텔 → 해변 · 해운대에서 친구들의 생일 서프라이즈",
+        "use": "국내여행·해변·호텔·기억에 남는 경험"
+      },
+      {
+        "title": "음악·콘서트",
+        "facts": "잔잔한 팝과 IU · 좋아하는 곡을 라이브로 들은 순간",
+        "use": "음악 취향·콘서트 행동·기억에 남는 공연"
+      },
+      {
+        "title": "휴대폰·약속",
+        "facts": "휴대폰이 꺼져 충전 후 다시 켬 · 몸이 아파 약속을 다음 주말로 변경",
+        "use": "전자제품 문제·일정 변경·롤플레이"
+      },
+      {
+        "title": "돌발 질문",
+        "facts": "재활용=종이/플라스틱 분리 · 은행=앱/창구 · 기술=휴대폰/AI · 지형=산/강/바다",
+        "use": "문장 전체보다 주제별 쉬운 단어만 준비"
+      }
+    ],
+    "steps": [
+      "질문이 묘사·경험·문제·비교·의견·롤플레이 중 무엇을 요구하는지 고릅니다.",
+      "관련 소재 한 개를 떠올려 첫 문장을 질문에 맞게 바꿉니다.",
+      "사건·이유·결과를 쉬운 문장으로 덧붙입니다. 모르는 문장은 건너뛰고 다음 생각을 말합니다."
+    ],
+    "note": "전체 스크립트 142개는 막힐 때 참고하는 예시입니다. 실제 경험과 다른 사람·장소·시점은 본인 설정에 맞춰 일관되게 바꾸세요. 8개 흐름만 읽는다고 IM2가 보장되는 것은 아니므로, 무작위 질문을 보고 직접 말하는 연습이 필요합니다."
+  }
 };
