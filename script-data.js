@@ -1,8 +1,8 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v19",
+  "version": "v20",
   "updated": "2026-09-27",
-  "questionCount": 127,
+  "questionCount": 142,
   "survey": {
     "title": "시험 전 설문 선택",
     "note": "현재 스크립트의 연습 주제를 만든 개인 선택 기록입니다. 실제 시험 화면의 문구가 조금 다르면 같은 의미의 항목을 선택합니다.",
@@ -668,6 +668,22 @@ window.OPIC_DATA = {
             "So, yeah, everything was fine in the end."
           ],
           "hint": "pub → wrong drink → 당황 → staff member → changed → seat/relax → solved"
+        },
+        {
+          "id": "topic-4-q7",
+          "number": "Q7",
+          "question": "예전과 지금의 술집 이용 방식을 비교해 주세요.",
+          "status": "선택",
+          "answer": [
+            "Well, the way I enjoy pubs has changed a little.",
+            "When I was younger, I usually went there with my friends.",
+            "We talked a lot and stayed there for a long time.",
+            "But these days, I usually go alone.",
+            "I get a drink, find a nice seat, and listen to music.",
+            "I just sit there and relax.",
+            "So, yeah, I enjoy pubs in a different way now."
+          ],
+          "hint": "past/friends/talk → now/alone → drink/seat/music → relax → different way"
         }
       ]
     },
@@ -788,6 +804,22 @@ window.OPIC_DATA = {
             "So, yeah, I use parks in a very different way now."
           ],
           "hint": "kid play/swings → now relax → walk/bench → music/phone"
+        },
+        {
+          "id": "topic-5-q8",
+          "number": "Q8",
+          "question": "서로 다른 두 공원을 비교하고 가장 큰 차이점을 설명해 주세요.",
+          "status": "선택",
+          "answer": [
+            "Well, I have been to two parks near my home.",
+            "The biggest difference is that one park is bigger and more crowded.",
+            "It has many people and a large playground.",
+            "The other park is smaller, quiet, and not too crowded.",
+            "It has a really nice view of the trees.",
+            "I prefer the smaller park because I can sit and relax.",
+            "So, yeah, that is the biggest difference."
+          ],
+          "hint": "two parks → biggest difference → big/crowded/playground → small/quiet/view → prefer/relax"
         }
       ]
     },
@@ -892,6 +924,22 @@ window.OPIC_DATA = {
             "So, yeah, everything was fine in the end."
           ],
           "hint": "beach → phone off → 다시 켜기 실패/당황 → 전원 버튼 반복 → phone on → solved"
+        },
+        {
+          "id": "topic-6-q7",
+          "number": "Q7",
+          "question": "어렸을 때와 지금 해변에서 보내는 방식을 비교해 주세요.",
+          "status": "선택",
+          "answer": [
+            "Well, the way I enjoy the beach has changed a little.",
+            "When I was a kid, I went there with my family.",
+            "I played in the water and spent a lot of time with them.",
+            "But these days, I usually go alone.",
+            "I take a short walk and find a nice place to sit.",
+            "Then I listen to music and enjoy the ocean view.",
+            "So, yeah, I enjoy the beach in a different way now."
+          ],
+          "hint": "past/family/water → now/alone → short walk/seat → music/ocean view → different way"
         }
       ]
     },
@@ -1637,6 +1685,90 @@ window.OPIC_DATA = {
           "hint": "sorry/can't make it → something came up → tomorrow → weekend → another day → check/thanks"
         },
         {
+          "id": "topic-10-restaurant-rp1",
+          "number": "RESTAURANT-RP1",
+          "question": "음식점에 전화해서 영업시간, 가격, 예약, 주차 정보를 물어보세요.",
+          "status": "필수",
+          "answer": [
+            "Hi, I'm calling because I have a few questions.",
+            "I want to visit this weekend.",
+            "What time do you open?",
+            "How much is a meal?",
+            "Do I need a reservation?",
+            "Can I park there?",
+            "Okay, that sounds good.",
+            "Thank you for your help."
+          ],
+          "hint": "restaurant/weekend → open → menu price → reservation → parking → thanks"
+        },
+        {
+          "id": "topic-10-hotel-rp1",
+          "number": "HOTEL-RP1",
+          "question": "호텔에 전화해서 객실 예약에 필요한 정보를 물어보세요.",
+          "status": "필수",
+          "answer": [
+            "Hi, I'm calling because I have a few questions.",
+            "I want to stay there this weekend.",
+            "How much is one night?",
+            "Do you have a room with an ocean view?",
+            "Is breakfast included?",
+            "Can I park there?",
+            "Okay, that sounds good.",
+            "Thank you for your help."
+          ],
+          "hint": "hotel/weekend → one-night price → ocean-view room → breakfast → parking → thanks"
+        },
+        {
+          "id": "topic-10-recycling-rp1",
+          "number": "RECYCLING-RP1",
+          "question": "관리사무소에 전화해서 재활용 방법과 장소를 물어보세요.",
+          "status": "필수",
+          "answer": [
+            "Hi, I'm calling because I have a few questions.",
+            "I want to recycle some things.",
+            "When is the recycling area open?",
+            "What items can I recycle?",
+            "Do I need separate bags?",
+            "Where is the recycling area?",
+            "Okay, that sounds good.",
+            "Thank you for your help."
+          ],
+          "hint": "recycle → open time → items → separate bags → location → thanks"
+        },
+        {
+          "id": "topic-10-repair-rp1",
+          "number": "REPAIR-RP1",
+          "question": "수리점에 전화해서 휴대폰이나 컴퓨터 수리 정보를 물어보세요.",
+          "status": "필수",
+          "answer": [
+            "Hi, I'm calling because I have a few questions.",
+            "I want to fix my phone.",
+            "What time do you open?",
+            "How much does it cost?",
+            "How long does it take?",
+            "Can I bring it in today?",
+            "Okay, that sounds good.",
+            "Thank you for your help."
+          ],
+          "hint": "fix phone → open → cost → time needed → bring today → thanks"
+        },
+        {
+          "id": "topic-10-party-rp1",
+          "number": "PARTY-RP1",
+          "question": "친구에게 전화해서 명절 모임이나 파티에 필요한 정보를 물어보세요.",
+          "status": "필수",
+          "answer": [
+            "Hey, it's me. Um, I have a few questions about the party.",
+            "When is it?",
+            "Where should we meet?",
+            "What time should I get there?",
+            "Do I need to bring anything?",
+            "Okay, sounds good.",
+            "See you then."
+          ],
+          "hint": "party → date → place → time → bring → close"
+        },
+        {
           "id": "topic-10-celebrity-rp1",
           "number": "CELEBRITY-RP1",
           "question": "좋아하는 유명인을 만났다고 가정하고 질문을 해보세요.",
@@ -1723,6 +1855,38 @@ window.OPIC_DATA = {
             "So, yeah, I felt really comfortable there."
           ],
           "hint": "memorable hotel/beach → alone/few weeks ago → quiet/cozy/not crowded → ocean view → window seat → relax/comfortable"
+        },
+        {
+          "id": "topic-11-q5",
+          "number": "Q5",
+          "question": "호텔을 예약하기 전에 무엇을 확인하고 준비하나요?",
+          "status": "필수",
+          "answer": [
+            "Well, before I book a hotel, I usually check a few things.",
+            "First, I check the location and the price.",
+            "Then I look at some pictures of the rooms.",
+            "I usually look for a quiet room with a nice view.",
+            "I also check if breakfast and parking are included.",
+            "After that, I book the room online.",
+            "So, yeah, I like to keep things simple."
+          ],
+          "hint": "before booking → location/price → room pictures → quiet/nice view → breakfast/parking → online booking"
+        },
+        {
+          "id": "topic-11-q6",
+          "number": "Q6",
+          "question": "호텔에서 문제가 생겼던 경험과 해결 방법을 말해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one problem I had at a hotel.",
+            "I tried to open my room door, but the room key didn't work.",
+            "I was like, \"Oh no, what should I do?\"",
+            "So I went back to the front desk.",
+            "A staff member checked the key and gave me a new one.",
+            "Then I went back to my room and relaxed.",
+            "So, yeah, everything was fine in the end."
+          ],
+          "hint": "hotel problem → room key failed → worried → front desk → new key → room/relax → solved"
         }
       ]
     },
@@ -1763,6 +1927,54 @@ window.OPIC_DATA = {
             "So, yeah, people have more choices at restaurants now."
           ],
           "hint": "menus changed → health interest → salads/vegetables → less sugar/salt → good change → healthier choice"
+        },
+        {
+          "id": "topic-12-q3",
+          "number": "Q3",
+          "question": "본인이 좋아하는 음식점을 자세히 묘사해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, my favorite restaurant is near my home.",
+            "It's small, cozy, and not too crowded.",
+            "It has big windows, so I can easily look outside.",
+            "I can usually find a nice seat by the window.",
+            "The staff members are kind and helpful.",
+            "It's a nice place to eat and relax.",
+            "So, yeah, I feel really comfortable there."
+          ],
+          "hint": "near home → small/cozy/not crowded → big windows → window seat → kind staff → eat/relax → comfortable"
+        },
+        {
+          "id": "topic-12-q4",
+          "number": "Q4",
+          "question": "음식점에 가면 보통 무엇을 주문하고 무엇을 하나요?",
+          "status": "필수",
+          "answer": [
+            "Well, when I go to a restaurant, I usually go alone.",
+            "I order pasta and something to drink.",
+            "Then I find a nice seat by the window.",
+            "You know, I look outside and check my phone for a while.",
+            "When the food comes, I take my time and enjoy it.",
+            "I don't really do anything special.",
+            "So, yeah, that is what I usually do at a restaurant."
+          ],
+          "hint": "restaurant/alone → pasta/drink → window seat → outside/phone → enjoy food → nothing special"
+        },
+        {
+          "id": "topic-12-q5",
+          "number": "Q5",
+          "question": "음식점에서 문제가 생겼던 경험과 해결 방법을 말해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one problem I had at a restaurant.",
+            "I ordered pasta, but they brought me the wrong food.",
+            "I was like, \"Oh no, this is not my order.\"",
+            "So I talked to a staff member.",
+            "They changed it right away.",
+            "After that, I ate my food and relaxed.",
+            "So, yeah, everything was fine in the end."
+          ],
+          "hint": "restaurant → wrong food → 당황 → staff member → changed → eat/relax → solved"
         }
       ]
     },
@@ -1907,6 +2119,22 @@ window.OPIC_DATA = {
             "So, yeah, banking is very different these days."
           ],
           "hint": "changed a lot → past/bank/line → now/apps → send money/check account → faster/easier"
+        },
+        {
+          "id": "topic-14-q5",
+          "number": "Q5",
+          "question": "사람들은 은행에서 주로 무엇을 하며, 은행 직원들은 어떻게 도와주나요?",
+          "status": "필수",
+          "answer": [
+            "Well, people do many things at a bank.",
+            "They open accounts, get bank cards, and send money.",
+            "Some people also use ATMs to get cash.",
+            "When they need help, they talk to a staff member.",
+            "The staff members check their ID and explain what to do.",
+            "These days, people can do many simple things on a banking app.",
+            "So, yeah, bank staff help people when they need it."
+          ],
+          "hint": "bank tasks → accounts/cards/send money → ATM/cash → staff help → ID/explain → banking app"
         }
       ]
     },
@@ -2083,6 +2311,22 @@ window.OPIC_DATA = {
             "So, yeah, this is an important issue in Korea."
           ],
           "hint": "big-city issue → work/school → expensive housing/crowded roads → small towns/fewer jobs → need jobs elsewhere"
+        },
+        {
+          "id": "topic-16-q5",
+          "number": "Q5",
+          "question": "한국의 지형과 관련해 사람들이 즐기는 야외 활동을 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, Korea has many mountains, rivers, and beaches.",
+            "So, people can enjoy many outdoor activities.",
+            "Some people go hiking in the mountains.",
+            "Others take short walks in parks or go to the beach.",
+            "I like going to the beach because it has a nice ocean view.",
+            "I find a nice place to sit and relax.",
+            "So, yeah, Korea has many nice places to spend time outside."
+          ],
+          "hint": "mountains/rivers/beaches → outdoor activities → hiking → parks/beach → ocean view → sit/relax"
         }
       ]
     },
