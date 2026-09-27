@@ -25,7 +25,10 @@
     if (window.location.hash === "#survey") {
       return "survey";
     }
-    return "scripts";
+    if (window.location.hash === "#scripts") {
+      return "scripts";
+    }
+    return "core";
   };
 
   const initialView = viewFromHash();
@@ -204,6 +207,48 @@
     </section>
   `).join("");
 
+  const renderCore = function renderCore() {
+  const study = data.minimalStudy;
+  const patterns = study.patterns.map((pattern, index) => `
+    <article class="core-card">
+      <div class="core-card__heading">
+        <span class="core-number">${index + 1}</span>
+        <h3>${escapeHtml(pattern.title)}</h3>
+      </div>
+      <p class="core-use">${escapeHtml(pattern.use)}</p>
+      <div class="core-lines" lang="en">
+        ${pattern.lines.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
+      </div>
+      <p class="core-cue">${escapeHtml(pattern.cue)}</p>
+    </article>
+  `).join("");
+  const anchors = study.anchors.map((anchor) => `
+    <li class="anchor-item">
+      <strong>${escapeHtml(anchor.title)}</strong>
+      <p>${escapeHtml(anchor.facts)}</p>
+      <small>${escapeHtml(anchor.use)}</small>
+    </li>
+  `).join("");
+  return `
+    <section class="core-view" aria-labelledby="core-title">
+      <div class="core-intro">
+        <p class="topic-label">실제로 암기할 범위</p>
+        <h2 id="core-title">${escapeHtml(study.title)}</h2>
+        <p>${escapeHtml(study.lead)}</p>
+      </div>
+      <h3 class="core-section-title">공통 문장 흐름 8개</h3>
+      <div class="core-grid">${patterns}</div>
+      <h3 class="core-section-title">한국어로만 기억할 핵심 소재 7개</h3>
+      <ul class="anchor-list">${anchors}</ul>
+      <div class="core-practice">
+        <h3>연습은 이렇게</h3>
+        <ol>${study.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol>
+        <p>${escapeHtml(study.note)}</p>
+      </div>
+    </section>
+  `;
+};
+
   const renderSurvey = () => {
     const survey = data.survey;
     if (!survey) {
@@ -257,6 +302,7 @@
 
   const render = () => {
     const isSurvey = state.view === "survey";
+    const isCore = state.view === "core";
     const topics = getVisibleTopics();
     const visibleCount = topics.reduce(
       (count, topic) => count + topic.questions.length,
@@ -269,8 +315,17 @@
       tab.setAttribute("aria-selected", String(isActive));
     });
 
-    elements.filters.hidden = isSurvey;
-    elements.searchBox.hidden = isSurvey;
+    elements.filters.hidden = isSurvey || isCore;
+    elements.searchBox.hidden = isSurvey || isCore;
+
+    if (isCore) {
+      elements.content.setAttribute("aria-labelledby", "core-tab");
+      elements.description.textContent =
+        "답변 전체보다 공통 흐름과 소재를 먼저 익힙니다.";
+      elements.resultSummary.textContent = "8개 흐름 · 7개 소재";
+      elements.content.innerHTML = renderCore();
+      return;
+    }
 
     if (isSurvey) {
       const surveyChoiceCount = data.survey
@@ -314,7 +369,9 @@
       ? "#questions"
       : view === "survey"
         ? "#survey"
-        : "#scripts";
+        : view === "scripts"
+          ? "#scripts"
+          : "#core";
     window.history.replaceState(null, "", hash);
     render();
   };
