@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v20",
+  "version": "v21",
   "updated": "2026-09-27",
   "questionCount": 142,
   "survey": {
@@ -18,7 +18,9 @@ window.OPIC_DATA = {
       {
         "label": "주거 설정",
         "value": "개인 주택이나 아파트에 홀로 거주",
-        "topics": ["집 / 가구"]
+        "topics": [
+          "집 / 가구"
+        ]
       }
     ],
     "groups": [
@@ -27,27 +29,39 @@ window.OPIC_DATA = {
         "items": [
           {
             "label": "카페 / 커피숍 가기",
-            "topics": ["카페 / 커피숍"]
+            "topics": [
+              "카페 / 커피숍"
+            ]
           },
           {
             "label": "술집 / 펍 가기",
-            "topics": ["술집 / 펍"]
+            "topics": [
+              "술집 / 펍"
+            ]
           },
           {
             "label": "공원 가기",
-            "topics": ["공원"]
+            "topics": [
+              "공원"
+            ]
           },
           {
             "label": "해변 가기",
-            "topics": ["해변"]
+            "topics": [
+              "해변"
+            ]
           },
           {
             "label": "콘서트 가기",
-            "topics": ["콘서트"]
+            "topics": [
+              "콘서트"
+            ]
           },
           {
             "label": "클럽 가기",
-            "topics": ["술집 / 펍"]
+            "topics": [
+              "술집 / 펍"
+            ]
           }
         ]
       },
@@ -56,7 +70,9 @@ window.OPIC_DATA = {
         "items": [
           {
             "label": "음악 감상",
-            "topics": ["음악"]
+            "topics": [
+              "음악"
+            ]
           }
         ]
       },
@@ -65,11 +81,15 @@ window.OPIC_DATA = {
         "items": [
           {
             "label": "조깅",
-            "topics": ["공원"]
+            "topics": [
+              "공원"
+            ]
           },
           {
             "label": "걷기",
-            "topics": ["공원"]
+            "topics": [
+              "공원"
+            ]
           },
           {
             "label": "운동을 전혀 하지 않음",
@@ -82,11 +102,16 @@ window.OPIC_DATA = {
         "items": [
           {
             "label": "국내여행",
-            "topics": ["국내여행", "해변"]
+            "topics": [
+              "국내여행",
+              "해변"
+            ]
           },
           {
             "label": "집에서 보내는 휴가",
-            "topics": ["집에서 보내는 휴가"]
+            "topics": [
+              "집에서 보내는 휴가"
+            ]
           }
         ]
       }
@@ -111,7 +136,7 @@ window.OPIC_DATA = {
             "My favorite room is the living room.",
             "I have a sofa and a small table there.",
             "My home is simple, quiet, and easy to clean.",
-            "So, yeah, I feel really comfortable at home."
+            "I feel really comfortable at home."
           ],
           "hint": "혼자 아파트 → 구조 → 거실 → sofa/table → simple/quiet → comfortable"
         },
@@ -121,15 +146,13 @@ window.OPIC_DATA = {
           "question": "집에서의 본인 일과를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, when I'm at home, I usually spend most of my time in the living room.",
-            "I spend a lot of time on my sofa.",
-            "You know, I watch YouTube, listen to music, and check my phone.",
-            "Sometimes, I order some food and eat it in the living room.",
-            "I don't really do anything special.",
-            "I just sit there and relax.",
-            "So, yeah, I feel really comfortable at home."
+            "On weekdays, I usually get home in the evening and spend time in the living room.",
+            "I sit on my sofa, check my messages, and watch a short video.",
+            "Sometimes I make dinner, but I often order food when I am tired.",
+            "Before bed, I put things away and listen to music for a few minutes.",
+            "It's a simple routine, and it helps me rest after work."
           ],
-          "hint": "거실 → sofa → YouTube/music/phone → food → 특별한 일 없음 → relax → comfortable"
+          "hint": "평일 저녁 귀가 → 거실 소파/메시지·영상 → 저녁 식사 → 정리·음악 → 휴식"
         },
         {
           "id": "topic-1-q3",
@@ -137,15 +160,14 @@ window.OPIC_DATA = {
           "question": "집에 생긴 변화 하나를 자세히 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, the biggest change is that I live alone now.",
-            "In the past, I lived with my family in a bigger apartment.",
-            "You know, we had more rooms and a lot more furniture.",
-            "But these days, I live in a smaller apartment.",
-            "I only have the things I really need, like a bed, a sofa, and a small table.",
-            "Actually, my place is simple, quiet, and much easier to clean now.",
-            "So, yeah, I like it better."
+            "The biggest change in my home is that I live alone now.",
+            "I used to live with my family in a bigger apartment.",
+            "When I moved, I bought only a bed, a sofa, and a small table.",
+            "At first, the place felt a little empty.",
+            "But now I enjoy the quiet, and it is much easier to clean.",
+            "So the move changed how I spend time at home."
           ],
-          "hint": "alone now → 과거 family/bigger apartment/more furniture → 현재 smaller apartment → 필요한 가구만 → simple/quiet/easy clean → like it better"
+          "hint": "가장 큰 변화=혼자 살기 → 가족과 큰 집 → 이사하며 필요한 가구만 → 처음엔 허전 → 지금은 조용하고 청소 쉬움"
         },
         {
           "id": "topic-1-q4",
@@ -153,15 +175,14 @@ window.OPIC_DATA = {
           "question": "어렸을 때 살았던 집과 지금 집을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, the biggest change is that I live alone now.",
-            "In the past, I lived with my family in a bigger apartment.",
-            "You know, we had more rooms and a lot more furniture.",
-            "But these days, I live in a smaller apartment.",
-            "I only have the things I really need, like a bed, a sofa, and a small table.",
-            "Actually, my place is simple, quiet, and much easier to clean now.",
-            "So, yeah, I like it better."
+            "When I was young, I lived with my family in a bigger apartment.",
+            "There were more rooms, and someone was almost always at home.",
+            "Now I live alone in a smaller place.",
+            "My living room has just a sofa and a small table, but I like it that way.",
+            "The biggest difference is the atmosphere.",
+            "My old home was lively, while my place now is quiet and easy to keep clean."
           ],
-          "hint": "alone now → 과거 family/bigger apartment/more furniture → 현재 smaller apartment → 필요한 가구만 → simple/quiet/easy clean → like it better"
+          "hint": "어릴 때 가족과 큰 집/활기 → 지금 혼자 작은 집/소파와 탁자 → 가장 큰 차이는 분위기와 청소"
         },
         {
           "id": "topic-1-q5",
@@ -169,15 +190,14 @@ window.OPIC_DATA = {
           "question": "본인 집에 있는 가구와 가장 좋아하는 가구를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my favorite piece of furniture is my sofa.",
-            "It is in the living room next to a small table.",
-            "The sofa is simple, but it is really nice to sit on.",
-            "I spend a lot of time there when I am at home.",
-            "You know, I watch YouTube, listen to music, or check my phone.",
-            "I just sit there and relax.",
-            "So, yeah, my sofa is definitely my favorite."
+            "My favorite piece of furniture is the sofa in my living room.",
+            "It's small, so it fits well next to my table.",
+            "I sit there when I watch YouTube or listen to music.",
+            "When a friend visits, we can sit and talk there too.",
+            "It is not expensive or special, but I use it every day.",
+            "That's why I like it so much."
           ],
-          "hint": "favorite sofa → living room/table → nice → spend time → YouTube/music/phone → relax"
+          "hint": "좋아하는 가구=거실의 작은 소파 → 영상·음악/친구 대화 → 매일 사용"
         },
         {
           "id": "topic-1-q6",
@@ -185,15 +205,13 @@ window.OPIC_DATA = {
           "question": "어렸을 때 가구와 지금 가구를 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, the biggest change is that I live alone now.",
-            "In the past, I lived with my family in a bigger apartment.",
-            "You know, we had more rooms and a lot more furniture.",
-            "But these days, I live in a smaller apartment.",
-            "I only have the things I really need, like a bed, a sofa, and a small table.",
-            "Actually, my place is simple, quiet, and much easier to clean now.",
-            "So, yeah, I like it better."
+            "The furniture in my childhood home was bigger because my family shared it.",
+            "We had a large sofa, and we all sat there together in the evening.",
+            "Now I live alone, so I have a smaller sofa and a small table.",
+            "I can move them easily when I clean.",
+            "So the furniture is simpler now, but it fits my life better."
           ],
-          "hint": "alone now → 과거 family/bigger apartment/more furniture → 현재 smaller apartment → 필요한 가구만 → simple/quiet/easy clean → like it better"
+          "hint": "과거 가족이 함께 쓰는 큰 소파 → 지금 혼자 쓰는 작은 소파/탁자 → 청소·생활 방식 차이"
         },
         {
           "id": "topic-1-q7",
@@ -201,15 +219,13 @@ window.OPIC_DATA = {
           "question": "이 집에 생겼던 문제점들을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one problem I had with my sofa.",
-            "One day, one of the legs on my sofa suddenly broke.",
-            "I was like, \"What happened?\"",
-            "I tried to fix it myself, but it didn't work.",
-            "So I called a repair service.",
-            "They came the next day and fixed it.",
-            "So, yeah, everything was fine in the end."
+            "I have had a couple of small problems at home.",
+            "Once, a leg on my sofa broke, so I called a repair service.",
+            "Another time, the kitchen light stopped working.",
+            "I contacted the building office, and someone changed the light the next morning.",
+            "Neither problem was serious, but I was glad I could get help quickly."
           ],
-          "hint": "sofa leg broke → 직접 시도 → repair service → 해결"
+          "hint": "집의 문제 두 가지 → 소파 다리/수리 서비스 → 주방 조명/관리사무소 → 빠르게 해결"
         },
         {
           "id": "topic-1-q8",
@@ -217,15 +233,14 @@ window.OPIC_DATA = {
           "question": "집의 문제 중 한 가지를 구체적으로 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one problem I had with my sofa.",
-            "One day, one of the legs on my sofa suddenly broke.",
-            "I was like, \"What happened?\"",
-            "I tried to fix it myself, but it didn't work.",
-            "So I called a repair service.",
-            "They came the next day and fixed it.",
-            "So, yeah, everything was fine in the end."
+            "One problem I remember clearly was the kitchen light.",
+            "One evening, it suddenly stopped working while I was making dinner.",
+            "I tried the switch again, but nothing happened.",
+            "So I called the building office and explained what was wrong.",
+            "Someone came the next morning and fixed it.",
+            "I was relieved because I could use the kitchen normally again."
           ],
-          "hint": "sofa leg broke → 직접 시도 → repair service → 해결"
+          "hint": "주방 조명 문제 하나 → 저녁 준비 중 꺼짐 → 스위치 확인 → 관리사무소 연락 → 다음 날 수리"
         },
         {
           "id": "topic-1-q9",
@@ -233,15 +248,14 @@ window.OPIC_DATA = {
           "question": "특정 가구에 생긴 문제와 해결 방법을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one problem I had with my sofa.",
-            "One day, one of the legs on my sofa suddenly broke.",
-            "I was like, \"What happened?\"",
-            "I tried to fix it myself, but it didn't work.",
-            "So I called a repair service.",
-            "They came the next day and fixed it.",
-            "So, yeah, everything was fine in the end."
+            "One day, a leg on my sofa suddenly broke while I was sitting on it.",
+            "I was surprised, so I got up and checked it.",
+            "I tried to put it back, but it would not stay in place.",
+            "Then I called a repair service and described the problem.",
+            "They came the next day and fixed the leg.",
+            "Now I can use my sofa again without worrying about it."
           ],
-          "hint": "sofa leg broke → 직접 시도 → repair service → 해결"
+          "hint": "소파 다리 고장 → 직접 확인했으나 실패 → 수리 서비스 연락 → 다음 날 수리"
         },
         {
           "id": "topic-1-q10",
@@ -255,7 +269,7 @@ window.OPIC_DATA = {
             "People also want to live near stores or a subway station.",
             "But homes in good locations are usually expensive.",
             "I think small homes are useful for people who live alone.",
-            "So, yeah, that is one big change I notice."
+            "That is one big change I notice."
           ],
           "hint": "live alone → small apartments → location → expensive → 변화"
         },
@@ -265,13 +279,13 @@ window.OPIC_DATA = {
           "question": "한국에서 집을 구할 때 어떤 점이 어렵나요?",
           "status": "선택",
           "answer": [
-            "Well, I think finding a home in Korea can be difficult.",
+            "I think finding a home in Korea can be difficult.",
             "The biggest problem is the price.",
             "Many people want to live near a subway station or stores.",
             "But homes in good locations are usually expensive.",
             "So it is hard to find a good place at a good price.",
             "I think price and location are the biggest things to check.",
-            "So, yeah, finding the right home takes time."
+            "Finding the right home takes time."
           ],
           "hint": "price → good location → expensive → good price difficult"
         },
@@ -281,15 +295,13 @@ window.OPIC_DATA = {
           "question": "집에서 가장 좋아하는 방이나 공간을 자세히 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my favorite place at home is the living room.",
-            "It's not very big, but it's cozy and comfortable.",
-            "I have a sofa and a small table there.",
-            "I usually sit on the sofa and watch YouTube, listen to music, and check my phone.",
-            "It's quiet and easy to relax there.",
-            "I just sit there and relax.",
-            "So, yeah, the living room is my favorite place at home."
+            "My favorite room at home is the living room.",
+            "It has a small sofa and a table, and I keep it tidy.",
+            "In the evening, I can sit there with a drink and watch something on my phone.",
+            "The room is not large, but the window lets in plenty of light.",
+            "I like it because I can relax there without doing anything complicated."
           ],
-          "hint": "favorite living room → cozy/comfortable → sofa/table → YouTube/music/phone → quiet/relax"
+          "hint": "좋아하는 공간=거실 → 작은 소파/탁자/창문 빛 → 저녁 휴식"
         },
         {
           "id": "topic-1-q13",
@@ -297,14 +309,14 @@ window.OPIC_DATA = {
           "question": "보통 집을 어떻게 청소하는지 순서대로 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I usually clean my apartment on weekends.",
+            "I usually clean my apartment on weekends.",
             "I live alone, so I do all the cleaning by myself.",
             "First, I pick up my things and put them away.",
             "Then, I clean the floor.",
             "After that, I clean the kitchen and the bathroom.",
             "My apartment is small, so it doesn't take very long.",
             "When I finish, my place feels clean and comfortable.",
-            "So, yeah, I feel good after cleaning."
+            "I feel good after cleaning."
           ],
           "hint": "weekends → alone/by myself → put things away → floor → kitchen/bathroom → small/quick → feel good"
         }
@@ -322,15 +334,14 @@ window.OPIC_DATA = {
           "question": "집에서 휴가를 보내면 보통 무엇을 하나요?",
           "status": "필수",
           "answer": [
-            "Well, when I spend my vacation at home, I usually stay by myself and relax.",
-            "I spend a lot of time on my sofa.",
-            "You know, I watch YouTube, listen to music, and check my phone.",
-            "Sometimes, I order some food and eat it in the living room.",
-            "I don't really do anything special.",
-            "I just sit there and relax.",
-            "So, yeah, I feel really comfortable at home."
+            "When I take a vacation at home, I like having a slow morning.",
+            "I sleep a little longer, make breakfast, and listen to music.",
+            "Later, I might watch a video or go out for a short walk.",
+            "I do not make a strict schedule.",
+            "In the evening, I order food or cook something simple.",
+            "Having time to choose what I want to do is the best part."
           ],
-          "hint": "stay alone/relax → sofa → YouTube/music/phone → food → 특별한 일 없음 → relax → comfortable"
+          "hint": "집 휴가=늦잠/아침·음악 → 영상 또는 산책 → 일정 없이 저녁 식사 → 자유로운 시간"
         },
         {
           "id": "topic-2-q2",
@@ -338,16 +349,13 @@ window.OPIC_DATA = {
           "question": "집에서 보내는 휴가 중 만나고 싶은 사람을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Honestly, I don't really want to meet anyone during my vacation at home.",
-            "I prefer spending that time alone.",
-            "I usually stay in the living room and sit on my sofa.",
-            "You know, I watch YouTube, listen to music, and check my phone.",
-            "Sometimes, I order some food.",
-            "I don't really do anything special.",
-            "I just sit there and relax.",
-            "So, yeah, I feel really comfortable at home."
+            "Honestly, when I take a vacation at home, I usually want to spend most of it alone.",
+            "I get busy on regular days, so I like having some quiet time.",
+            "Still, I would like to see a close friend for dinner one evening.",
+            "We could order some food, talk for a while, and then I could go back to relaxing.",
+            "That would be just enough company for me."
           ],
-          "hint": "아무도 안 만남 → alone → living room/sofa → YouTube/music/phone → food → 특별한 일 없음 → relax → comfortable"
+          "hint": "대부분 혼자 쉬고 싶음 → 바쁜 일상 때문에 조용한 시간 필요 → 친한 친구와 하루 저녁 식사"
         },
         {
           "id": "topic-2-q3",
@@ -355,13 +363,13 @@ window.OPIC_DATA = {
           "question": "지난번 휴가 때 했던 일들을 자세히 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, during my last vacation, I stayed at home by myself.",
+            "During my last vacation, I stayed at home by myself.",
             "I spent most of my time in the living room and sat on my sofa.",
             "You know, I watched YouTube, listened to music, and checked my phone.",
             "I also ordered some food.",
             "I didn't really do anything special.",
             "I just sat there and relaxed.",
-            "So, yeah, I felt really comfortable at home."
+            "I felt really comfortable at home."
           ],
           "hint": "last vacation/at home/alone → living room/sofa → YouTube/music/phone → food → 특별한 일 없음 → relax → comfortable"
         },
@@ -371,15 +379,14 @@ window.OPIC_DATA = {
           "question": "집에서 보낸 휴가 중 기억에 남는 에피소드를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one really special day during a vacation at home.",
-            "About three years ago, my friends told me to stay home.",
-            "A little later, they came over with a cake and some gifts.",
-            "Then they started singing a birthday song.",
-            "I was really surprised, and I almost cried.",
-            "I mean, I was so thankful to my friends.",
-            "So, yeah, I'll never forget that day."
+            "One day during my last vacation at home, I decided to cook dinner for myself.",
+            "I usually order food, so it felt a little different.",
+            "I put on some music and made a simple meal.",
+            "It took longer than I expected, and I made a bit of a mess.",
+            "But the food tasted good, and I enjoyed the quiet evening.",
+            "That small change made the day memorable."
           ],
-          "hint": "stay home → friends came over → cake/gifts → song → surprised → thankful"
+          "hint": "집 휴가의 기억 → 평소와 달리 직접 저녁 요리 → 음악/시간 걸림 → 맛있고 조용한 저녁"
         },
         {
           "id": "topic-2-q5",
@@ -387,13 +394,13 @@ window.OPIC_DATA = {
           "question": "예전과 지금의 휴가 방식은 어떻게 달라졌나요?",
           "status": "선택",
           "answer": [
-            "Well, I think the way people spend vacations has changed.",
+            "I think the way people spend vacations has changed.",
             "In the past, many people wanted to travel far away.",
             "But these days, many people are okay with staying home.",
             "Travel can be expensive, and people can be tired.",
             "At home, people can watch videos, listen to music, and order food.",
             "They can just rest without making big plans.",
-            "So, yeah, staying home is also a good vacation."
+            "Staying home is also a good vacation."
           ],
           "hint": "past travel far → now stay home → expensive/tired → home activities → rest"
         },
@@ -403,13 +410,13 @@ window.OPIC_DATA = {
           "question": "사람들에게 휴가가 왜 중요하다고 생각하나요?",
           "status": "선택",
           "answer": [
-            "Well, I think vacations are important because people need time to rest.",
+            "I think vacations are important because people need time to rest.",
             "Most people are busy with work or school.",
             "So they can get tired and stressed.",
             "During a vacation, they can sleep more and slow down.",
             "They can watch videos, listen to music, or just stay home.",
             "A short break can make people feel better.",
-            "So, yeah, I think everyone needs some time off."
+            "I think everyone needs some time off."
           ],
           "hint": "busy → tired/stressed → vacation rest → simple home activities → feel better"
         }
@@ -433,7 +440,7 @@ window.OPIC_DATA = {
             "I can always find a nice seat by the window.",
             "I really like the feeling there.",
             "It's a nice place to sit and relax.",
-            "So, yeah, I really like that cafe."
+            "I really like that cafe."
           ],
           "hint": "집 근처 favorite cafe → 작고 조용함 → 큰 창문/밖 보기 → 창가 자리 → 느낌 → 앉아서 휴식 → 선호"
         },
@@ -443,15 +450,13 @@ window.OPIC_DATA = {
           "question": "처음으로 가본 커피숍을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I went to a new cafe a few weeks ago.",
-            "I found it while I was walking alone.",
-            "It looked quiet and cozy, so I went inside.",
-            "It had big windows, so I could easily look outside.",
-            "I ordered something to drink and found a nice seat by the window.",
-            "Then I listened to music and relaxed for a while.",
-            "So, yeah, I liked it and wanted to go there again."
+            "The first time I went to a new cafe near my home, I noticed its big windows.",
+            "It was quiet, and I could see the street from my seat.",
+            "I ordered an iced coffee and sat by the window.",
+            "I stayed there for a while and listened to music.",
+            "I liked the place because it felt comfortable, so I decided to come back."
           ],
-          "hint": "몇 주 전 new cafe → 혼자 걷다 발견 → quiet/cozy → 큰 창문/밖 보기 → 음료/창가 자리 → 음악/휴식 → 재방문"
+          "hint": "처음 간 동네 카페 → 큰 창/조용함 → 아이스커피/창가 → 다시 가고 싶음"
         },
         {
           "id": "topic-3-q3",
@@ -459,15 +464,14 @@ window.OPIC_DATA = {
           "question": "커피숍에서 주로 하는 일을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, when I go to the cafe, I usually go alone.",
-            "I get something to drink and find a nice seat by the window.",
-            "You know, I listen to music and look outside for a while.",
-            "Sometimes, I check my phone.",
-            "I don't really do anything special.",
-            "I just sit there and relax.",
-            "So, yeah, that is what I usually do at the cafe."
+            "When I go to a cafe, I usually order an iced coffee first.",
+            "Then I find a seat, preferably by a window.",
+            "I sometimes read messages or listen to music while I drink it.",
+            "If I go with a friend, we talk and catch up instead.",
+            "I normally stay for about half an hour.",
+            "It's an easy way to take a short break."
           ],
-          "hint": "카페 → 혼자 → 음료/창가 자리 → 음악/밖 보기 → 휴대폰 → 특별한 일 없음 → 휴식"
+          "hint": "카페에서 아이스커피 → 창가 자리 → 혼자 음악·메시지/친구와 대화 → 30분 휴식"
         },
         {
           "id": "topic-3-q4",
@@ -475,15 +479,13 @@ window.OPIC_DATA = {
           "question": "최근 커피숍에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I went to a new cafe a few weeks ago.",
-            "I found it while I was walking alone.",
-            "It looked quiet and cozy, so I went inside.",
-            "It had big windows, so I could easily look outside.",
-            "I ordered something to drink and found a nice seat by the window.",
-            "Then I listened to music and relaxed for a while.",
-            "So, yeah, I liked it and wanted to go there again."
+            "I went back to a cafe near my home last weekend.",
+            "It was a little crowded, so I had to wait for a seat.",
+            "After a few minutes, I found one by the window.",
+            "I ordered my usual iced coffee and checked my phone while I drank it.",
+            "I only stayed for about half an hour, but it was a nice break from the day."
           ],
-          "hint": "몇 주 전 new cafe → 혼자 걷다 발견 → quiet/cozy → 큰 창문/밖 보기 → 음료/창가 자리 → 음악/휴식 → 재방문"
+          "hint": "최근 재방문 → 조금 붐벼 자리 기다림 → 창가 자리/아이스커피 → 짧은 휴식"
         },
         {
           "id": "topic-3-q5",
@@ -491,15 +493,14 @@ window.OPIC_DATA = {
           "question": "커피숍에서 있었던 기억에 남는 에피소드를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one really special day at a cafe.",
-            "About three years ago, my friends called me and asked me to meet them there.",
-            "When I got there, they were waiting for me with a cake and some gifts.",
-            "Then they started singing a birthday song.",
-            "I was really surprised, and I almost cried.",
-            "I mean, I was so thankful to my friends.",
-            "So, yeah, I'll never forget that day."
+            "I remember a day when I went into a small cafe to get out of the rain.",
+            "I had not planned to stop there, but it was warm and quiet inside.",
+            "I ordered a hot drink and sat by the window.",
+            "I watched people hurry down the street with umbrellas.",
+            "The rain stopped after a while, and I went home feeling much better.",
+            "That unexpected break is why I remember the cafe."
           ],
-          "hint": "cafe → friends → cake/gifts → birthday song → surprised → thankful"
+          "hint": "갑작스러운 비 → 작은 카페에 들어감 → 따뜻한 음료/창밖 사람들 → 뜻밖의 휴식"
         },
         {
           "id": "topic-3-q6",
@@ -507,15 +508,14 @@ window.OPIC_DATA = {
           "question": "커피숍에서 문제가 생겼던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one problem I had at a cafe.",
-            "I was checking my phone, and suddenly it turned off.",
-            "I tried to turn it back on, but it didn't work.",
-            "I was like, \"Oh no, what should I do?\"",
-            "I was so worried, so I pressed the power button again and again.",
-            "Then, luckily, my phone turned back on.",
-            "So, yeah, everything was fine in the end."
+            "One time, I ordered an iced coffee at a cafe, but I got a hot one.",
+            "I checked my order and politely told the staff.",
+            "They apologized and made a new drink for me.",
+            "I waited a few minutes and got the iced coffee I wanted.",
+            "It was a small mistake, and the staff handled it kindly.",
+            "So I still had a good time there."
           ],
-          "hint": "cafe → phone off → 다시 켜기 실패/당황 → 전원 버튼 반복 → phone on → solved"
+          "hint": "아이스커피 주문했는데 뜨거운 음료 → 직원에게 설명 → 다시 만들어줌 → 친절하게 해결"
         },
         {
           "id": "topic-3-q7",
@@ -523,13 +523,13 @@ window.OPIC_DATA = {
           "question": "예전과 지금의 카페는 어떻게 달라졌나요?",
           "status": "선택",
           "answer": [
-            "Well, I think cafes have changed a lot.",
+            "I think cafes have changed a lot.",
             "In the past, people mainly went there for coffee and to meet friends.",
             "But these days, people do many things at cafes.",
             "They study, use laptops, meet friends, or just sit alone.",
             "Many cafes also have Wi-Fi and nice seats.",
             "So people can stay there for a long time.",
-            "So, yeah, cafes are used in more ways now."
+            "Cafes are used in more ways now."
           ],
           "hint": "past coffee/friends → now study/laptop/alone → Wi-Fi/seats → more uses"
         },
@@ -545,7 +545,7 @@ window.OPIC_DATA = {
             "Many cafes have Wi-Fi and nice seats.",
             "So people can study, use a laptop, or check their phones.",
             "There are also many cafes almost everywhere.",
-            "So, yeah, cafes are very easy to use."
+            "Cafes are very easy to use."
           ],
           "hint": "coffee/sit → friends or alone → Wi-Fi/seats → study/phone → many cafes"
         },
@@ -555,15 +555,13 @@ window.OPIC_DATA = {
           "question": "카페에서 보통 무엇을 주문하며, 왜 그것을 좋아하나요?",
           "status": "필수",
           "answer": [
-            "Well, I usually order an iced coffee at a cafe.",
-            "It's simple and easy to drink.",
-            "I like it because it's not too sweet.",
-            "After I get my drink, I find a nice seat by the window.",
-            "Then I listen to music and check my phone.",
-            "I just sit there and relax.",
-            "So, yeah, iced coffee is my usual order."
+            "I usually order an iced coffee when I go to a cafe.",
+            "I like its simple taste, and it is not too sweet.",
+            "In the summer, it also helps me cool down after a walk.",
+            "If I want something different, I might try a latte, but I often go back to the same drink.",
+            "It is an easy choice for me."
           ],
-          "hint": "iced coffee → simple/easy → not too sweet → window seat → music/phone → relax"
+          "hint": "평소 아이스커피 → 덜 달고 여름에 시원함 → 가끔 라테, 대체로 같은 음료"
         }
       ]
     },
@@ -585,7 +583,7 @@ window.OPIC_DATA = {
             "I can always find a nice seat by the window.",
             "I really like the feeling there.",
             "It's a nice place to sit and relax.",
-            "So, yeah, I really like that pub."
+            "I really like that pub."
           ],
           "hint": "집 근처 favorite pub → 작고 조용함 → 큰 창문/밖 보기 → 창가 자리 → 느낌 → 앉아서 휴식 → 선호"
         },
@@ -595,15 +593,13 @@ window.OPIC_DATA = {
           "question": "본인이 술집에 주로 언제 가고 무엇을 하는지 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, when I go to the pub, I usually go alone.",
-            "I get something to drink and find a nice seat by the window.",
-            "You know, I listen to music and look outside for a while.",
-            "Sometimes, I check my phone.",
-            "I don't really do anything special.",
-            "I just sit there and relax.",
-            "So, yeah, that is what I usually do at the pub."
+            "When I go to a pub, I usually meet one or two close friends.",
+            "We choose a place where the music is not too loud.",
+            "After we order drinks, we talk about work or what we did that week.",
+            "I do not stay out very late.",
+            "I like pubs where we can sit comfortably and have a good conversation."
           ],
-          "hint": "펍 → 혼자 → 음료/창가 자리 → 음악/밖 보기 → 휴대폰 → 특별한 일 없음 → 휴식"
+          "hint": "친한 친구 한두 명과 펍 → 조용한 음악/음료 → 근황 대화 → 늦지 않게 귀가"
         },
         {
           "id": "topic-4-q3",
@@ -611,15 +607,13 @@ window.OPIC_DATA = {
           "question": "최근 술집에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I went to a new pub a few weeks ago.",
-            "I found it while I was walking alone.",
-            "It looked quiet and cozy, so I went inside.",
-            "It had big windows, so I could easily look outside.",
-            "I ordered something to drink and found a nice seat by the window.",
-            "Then I listened to music and relaxed for a while.",
-            "So, yeah, I liked it and wanted to go there again."
+            "A few weeks ago, I went to a pub near my home with a friend.",
+            "We had not seen each other for a while, so we wanted to catch up.",
+            "We found a quiet table, ordered drinks, and talked about work and our weekends.",
+            "The music was not too loud, which made it easy to talk.",
+            "I got home early, but I really enjoyed seeing my friend."
           ],
-          "hint": "몇 주 전 new pub → 혼자 걷다 발견 → quiet/cozy → 큰 창문/밖 보기 → 음료/창가 자리 → 음악/휴식 → 재방문"
+          "hint": "최근 친구와 펍 → 오랜만에 만나 근황 대화 → 조용한 자리/음악 → 일찍 귀가"
         },
         {
           "id": "topic-4-q4",
@@ -627,15 +621,13 @@ window.OPIC_DATA = {
           "question": "처음으로 가본 술집을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I went to a new pub a few weeks ago.",
-            "I found it while I was walking alone.",
-            "It looked quiet and cozy, so I went inside.",
-            "It had big windows, so I could easily look outside.",
-            "I ordered something to drink and found a nice seat by the window.",
-            "Then I listened to music and relaxed for a while.",
-            "So, yeah, I liked it and wanted to go there again."
+            "The first time I visited a new pub, I went with a friend who knew the place.",
+            "I was a little unsure what to order, so my friend recommended a drink.",
+            "We sat near the window and talked for about an hour.",
+            "The staff were friendly, and the place was calmer than I expected.",
+            "That first visit made me want to go there again."
           ],
-          "hint": "몇 주 전 new pub → 혼자 걷다 발견 → quiet/cozy → 큰 창문/밖 보기 → 음료/창가 자리 → 음악/휴식 → 재방문"
+          "hint": "처음 간 펍 → 친구 추천 → 음료 선택 → 예상보다 조용하고 친절 → 재방문"
         },
         {
           "id": "topic-4-q5",
@@ -643,15 +635,14 @@ window.OPIC_DATA = {
           "question": "술집에서 있었던 기억에 남는 에피소드를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one really special day at a pub.",
-            "About three years ago, my friends called me and asked me to meet them there.",
-            "When I got there, they were waiting for me with a cake and some gifts.",
-            "Then they started singing a birthday song.",
-            "I was really surprised, and I almost cried.",
-            "I mean, I was so thankful to my friends.",
-            "So, yeah, I'll never forget that day."
+            "One memorable evening at a pub, I ran into an old friend by chance.",
+            "We had not met in years, so I was really surprised.",
+            "We found a table and talked about our old school days.",
+            "I had only planned to stay for a short time, but we talked for much longer.",
+            "We exchanged numbers before we left.",
+            "It was nice to meet again without planning it."
           ],
-          "hint": "pub → friends → cake/gifts → birthday song → surprised → thankful"
+          "hint": "펍에서 우연히 오랜 친구 만남 → 학창 시절 이야기 → 연락처 교환 → 뜻밖의 재회"
         },
         {
           "id": "topic-4-q6",
@@ -659,15 +650,13 @@ window.OPIC_DATA = {
           "question": "술집이나 펍에서 문제가 생겼던 경험과 해결 방법을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one problem I had at a pub.",
-            "I ordered a drink, but they brought me the wrong one.",
-            "I was like, \"Oh no, this is not my drink.\"",
-            "So I talked to a staff member.",
-            "They changed it right away.",
-            "After that, I found a nice seat and relaxed.",
-            "So, yeah, everything was fine in the end."
+            "One evening at a pub, I noticed that my bill included a drink I had not ordered.",
+            "I showed the receipt to a staff member and explained the mistake.",
+            "They checked the order and removed the extra drink from the bill.",
+            "I thanked them and paid the correct amount.",
+            "It was a little awkward at first, but the problem was solved quickly."
           ],
-          "hint": "pub → wrong drink → 당황 → staff member → changed → seat/relax → solved"
+          "hint": "계산서에 주문하지 않은 음료 → 직원에게 영수증 보여줌 → 확인 후 금액 수정"
         },
         {
           "id": "topic-4-q7",
@@ -675,15 +664,13 @@ window.OPIC_DATA = {
           "question": "예전과 지금의 술집 이용 방식을 비교해 주세요.",
           "status": "선택",
           "answer": [
-            "Well, the way I enjoy pubs has changed a little.",
-            "When I was younger, I usually went there with my friends.",
-            "We talked a lot and stayed there for a long time.",
-            "But these days, I usually go alone.",
-            "I get a drink, find a nice seat, and listen to music.",
-            "I just sit there and relax.",
-            "So, yeah, I enjoy pubs in a different way now."
+            "When I was younger, I went to busy pubs with a larger group of friends.",
+            "We often stayed out late.",
+            "These days, I prefer a quieter place with one or two close friends.",
+            "We have a drink, talk for a while, and go home earlier.",
+            "The biggest change is that I care more about conversation than a loud atmosphere."
           ],
-          "hint": "past/friends/talk → now/alone → drink/seat/music → relax → different way"
+          "hint": "예전=여럿이 시끌벅적한 펍/늦게 귀가 → 지금=친한 친구와 조용히 대화/일찍 귀가"
         }
       ]
     },
@@ -699,15 +686,13 @@ window.OPIC_DATA = {
           "question": "자주 가거나 좋아하는 공원을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my favorite park is near my home.",
-            "It's quiet and not too crowded.",
-            "It has a really nice view of the trees.",
-            "I can always find a nice place to sit.",
-            "I listen to music and enjoy the view.",
-            "I just sit there and relax.",
-            "So, yeah, I feel really comfortable there."
+            "My favorite park is close to my home.",
+            "It has a walking path, some trees, and benches along the way.",
+            "It is not very large, so I can walk around it in about twenty minutes.",
+            "I like going there when I want fresh air after a busy day.",
+            "The trees and the easy path make it a comfortable place for a short walk."
           ],
-          "hint": "favorite park → quiet/not crowded → trees view → 앉을 곳 → 음악/전망 → 휴식 → comfortable"
+          "hint": "집 근처 공원 → 산책길/나무/벤치 → 약 20분 → 바쁜 날 가벼운 산책"
         },
         {
           "id": "topic-5-q2",
@@ -715,15 +700,13 @@ window.OPIC_DATA = {
           "question": "공원에 가면 주로 무엇을 하나요?",
           "status": "필수",
           "answer": [
-            "Well, when I go to the park, I usually go alone.",
-            "I take a short walk and find a nice place to sit.",
-            "You know, I listen to music and enjoy the view for a while.",
-            "Sometimes, I check my phone.",
-            "I don't really do anything special.",
-            "I just sit there and relax.",
-            "So, yeah, that is what I usually do at the park."
+            "When I go to the park, I usually walk along the path first.",
+            "I take my time and look at the trees.",
+            "After about twenty minutes, I get a coffee and sit on a bench.",
+            "I sometimes listen to music before I go home.",
+            "I go there mainly to move a little and clear my head."
           ],
-          "hint": "공원 → 혼자 → 짧은 산책/앉을 곳 → 음악/전망 → 휴대폰 → 특별한 일 없음 → 휴식"
+          "hint": "공원에서 산책길 20분 → 나무 보기 → 커피·벤치·음악 → 기분 전환"
         },
         {
           "id": "topic-5-q3",
@@ -731,13 +714,13 @@ window.OPIC_DATA = {
           "question": "가벼운 산책을 할 때 보통 어떻게 하나요?",
           "status": "필수",
           "answer": [
-            "Well, I sometimes take a short walk at a park near my home.",
+            "I sometimes take a short walk at a park near my home.",
             "I usually walk for about twenty or thirty minutes.",
             "I do not walk very fast.",
             "I just look around and enjoy the fresh air.",
             "Then I get some coffee and sit on a bench.",
             "You know, I listen to music and check my phone for a while.",
-            "So, yeah, it is a simple way for me to relax."
+            "It is a simple way for me to relax."
           ],
           "hint": "near-home park → 20~30 min → not fast → fresh air → coffee/bench → music/phone"
         },
@@ -747,15 +730,14 @@ window.OPIC_DATA = {
           "question": "최근 공원에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to a park near my home by myself a few weeks ago.",
-            "I took a short walk and found a nice place to sit.",
-            "You know, I listened to music and enjoyed the view for a while.",
-            "I also checked my phone.",
-            "I didn't really do anything special.",
-            "I just sat there and relaxed.",
-            "So, yeah, I had a really nice time."
+            "Last weekend, I took a short walk in the park near my home.",
+            "I followed the path around the trees for about twenty minutes.",
+            "Then I bought a coffee and sat on a bench.",
+            "The air was cool, and I listened to music for a while.",
+            "I went home feeling refreshed.",
+            "It was a simple visit, but that is why I like the park."
           ],
-          "hint": "몇 주 전 공원 → 혼자 → 짧은 산책/앉을 곳 → 음악/전망 → 휴대폰 → 특별한 일 없음 → 휴식"
+          "hint": "최근 공원 → 20분 산책 → 커피/벤치 → 선선한 공기/음악 → 개운함"
         },
         {
           "id": "topic-5-q5",
@@ -763,15 +745,13 @@ window.OPIC_DATA = {
           "question": "공원에서 있었던 기억에 남는 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one really special day at the park.",
-            "About three years ago, my friends called me and asked me to meet them there.",
-            "When I got there, they were waiting for me with a cake and some gifts.",
-            "Then they started singing a birthday song.",
-            "I was really surprised, and I almost cried.",
-            "I mean, I was so thankful to my friends.",
-            "So, yeah, I'll never forget that day."
+            "One evening, I met a friend at the park near my home.",
+            "We walked along the path and talked about our week.",
+            "Just before we left, the sky turned orange, so we sat on a bench to watch the sunset.",
+            "It was not a big event, but I still remember how calm it felt.",
+            "I would like to do that again sometime."
           ],
-          "hint": "park → friends → cake/gifts → song → surprised → thankful"
+          "hint": "친구와 공원 산책 → 근황 대화 → 벤치에서 노을 감상 → 차분했던 순간"
         },
         {
           "id": "topic-5-q6",
@@ -779,15 +759,13 @@ window.OPIC_DATA = {
           "question": "공원에서 문제가 생겼던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one problem I had at the park.",
-            "I was checking my phone, and suddenly it turned off.",
-            "I tried to turn it back on, but it didn't work.",
-            "I was like, \"Oh no, what should I do?\"",
-            "I was so worried, so I pressed the power button again and again.",
-            "Then, luckily, my phone turned back on.",
-            "So, yeah, everything was fine in the end."
+            "Once, I went to the park for a walk, but it suddenly started raining.",
+            "I did not have an umbrella, so I ran to a covered area near the entrance.",
+            "I waited there and checked the weather on my phone.",
+            "The rain became lighter after about ten minutes, and I went home.",
+            "Now I check the weather before I take a long walk."
           ],
-          "hint": "park → phone off → 다시 켜기 실패/당황 → 전원 버튼 반복 → phone on → solved"
+          "hint": "공원 산책 중 비 → 우산 없음 → 지붕 아래 대기 → 비 약해져 귀가 → 다음엔 날씨 확인"
         },
         {
           "id": "topic-5-q7",
@@ -795,13 +773,13 @@ window.OPIC_DATA = {
           "question": "어렸을 때 공원과 지금 공원을 비교해 주세요.",
           "status": "선택",
           "answer": [
-            "Well, parks feel a little different to me now.",
+            "Parks feel a little different to me now.",
             "When I was a kid, I went to parks to play.",
             "I spent a lot of time on swings and playgrounds.",
             "But these days, I go to the park to relax.",
             "I usually take a short walk and sit on a bench.",
             "You know, I listen to music or check my phone.",
-            "So, yeah, I use parks in a very different way now."
+            "I use parks in a very different way now."
           ],
           "hint": "kid play/swings → now relax → walk/bench → music/phone"
         },
@@ -811,13 +789,12 @@ window.OPIC_DATA = {
           "question": "서로 다른 두 공원을 비교하고 가장 큰 차이점을 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "Well, I have been to two parks near my home.",
+            "I have been to two parks near my home.",
             "The biggest difference is that one park is bigger and more crowded.",
             "It has many people and a large playground.",
             "The other park is smaller, quiet, and not too crowded.",
             "It has a really nice view of the trees.",
-            "I prefer the smaller park because I can sit and relax.",
-            "So, yeah, that is the biggest difference."
+            "I prefer the smaller park because I can sit and relax."
           ],
           "hint": "two parks → biggest difference → big/crowded/playground → small/quiet/view → prefer/relax"
         }
@@ -835,15 +812,13 @@ window.OPIC_DATA = {
           "question": "본인이 좋아하는 해변을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my favorite beach is Haeundae Beach in Busan.",
-            "It's quiet and not too crowded.",
-            "It has a really nice ocean view.",
-            "I can always find a nice place to sit.",
-            "I listen to music and enjoy the view.",
-            "I just sit there and relax.",
-            "So, yeah, I feel really comfortable there."
+            "My favorite beach is Haeundae Beach in Busan.",
+            "It has a long stretch of sand and a wide view of the sea.",
+            "There are many places to eat nearby, so it is easy to spend an afternoon there.",
+            "It can be crowded, especially on weekends.",
+            "But I like walking along the water and listening to the waves."
           ],
-          "hint": "해운대 → quiet/not crowded → ocean view → 앉을 곳 → 음악/전망 → 휴식 → comfortable"
+          "hint": "좋아하는 해변=부산 해운대 → 긴 모래사장/바다 전망/주변 식당 → 주말 혼잡/파도"
         },
         {
           "id": "topic-6-q2",
@@ -851,15 +826,13 @@ window.OPIC_DATA = {
           "question": "해변에 가서 주로 하는 일들을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, when I go to Haeundae Beach, I usually go alone.",
-            "I take a short walk and find a nice place to sit.",
-            "You know, I listen to music and enjoy the view for a while.",
-            "Sometimes, I check my phone.",
-            "I don't really do anything special.",
-            "I just sit there and relax.",
-            "So, yeah, that is what I usually do at the beach."
+            "When I go to Haeundae Beach, I usually walk along the water and take a few pictures.",
+            "I do not normally go swimming.",
+            "After the walk, I buy a drink and find a place to watch the sea.",
+            "If it gets windy or crowded, I move to a quieter spot.",
+            "That is usually enough for a relaxing visit."
           ],
-          "hint": "해변 → 혼자 → 짧은 산책/앉을 곳 → 음악/전망 → 휴대폰 → 특별한 일 없음 → 휴식"
+          "hint": "해운대에서 바닷가 산책/사진 → 수영은 안 함 → 음료·바다 감상 → 바람/혼잡하면 이동"
         },
         {
           "id": "topic-6-q3",
@@ -867,15 +840,14 @@ window.OPIC_DATA = {
           "question": "최근 해변에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to Haeundae Beach by myself a few weeks ago.",
-            "I took a short walk and found a nice place to sit.",
-            "You know, I listened to music and enjoyed the view for a while.",
-            "I also checked my phone.",
-            "I didn't really do anything special.",
-            "I just sat there and relaxed.",
-            "So, yeah, I had a really nice time."
+            "Recently, I went to Haeundae Beach in Busan.",
+            "I walked along the water for a while and took a few pictures.",
+            "The waves were gentle, but the wind was stronger than I expected.",
+            "So I found a place away from the water and sat there with a drink.",
+            "I watched the sea before heading back to the station.",
+            "It was a short but relaxing visit."
           ],
-          "hint": "몇 주 전 해변 → 혼자 → 짧은 산책/앉을 곳 → 음악/전망 → 휴대폰 → 특별한 일 없음 → 휴식"
+          "hint": "최근 해운대 → 바닷가 걷기/사진 → 바람 강함 → 음료 마시며 바다 봄 → 역으로 이동"
         },
         {
           "id": "topic-6-q4",
@@ -883,13 +855,12 @@ window.OPIC_DATA = {
           "question": "해변에 가기 전에 무엇을 준비하나요?",
           "status": "필수",
           "answer": [
-            "Well, before I go to the beach, I usually check a few things.",
+            "Before I go to the beach, I usually check a few things.",
             "First, I check the time, the place, and the weather.",
             "Then I check the route on my phone.",
             "I also make sure my phone is fully charged.",
             "If I need a ticket or a booking, I check it one more time.",
-            "I don't prepare too many things.",
-            "So, yeah, I like to keep things simple."
+            "I don't prepare too many things."
           ],
           "hint": "time/place/weather → route → phone charge → ticket/booking → simple"
         },
@@ -899,15 +870,14 @@ window.OPIC_DATA = {
           "question": "기억에 남는 해변 여행을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one really special day at Haeundae Beach.",
-            "About three years ago, my friends called me and asked me to meet them there.",
-            "When I got there, they were waiting for me with a cake and some gifts.",
-            "Then they started singing a birthday song.",
-            "I was really surprised, and I almost cried.",
-            "I mean, I was so thankful to my friends.",
-            "So, yeah, I'll never forget that day."
+            "About three years ago, I went to Haeundae Beach in Busan.",
+            "My friends asked me to meet them there, but they did not tell me why.",
+            "When I arrived, they had a small cake and some gifts for my birthday.",
+            "They sang a song, and I was really surprised.",
+            "We sat near the beach and talked for a long time.",
+            "I still remember the sea and how thankful I felt that day."
           ],
-          "hint": "Haeundae → friends → cake/gifts → song → surprised → thankful"
+          "hint": "3년 전 해운대 → 친구들이 불러서 감 → 생일 케이크/선물 → 바다 옆에서 대화 → 감사"
         },
         {
           "id": "topic-6-q6",
@@ -915,15 +885,14 @@ window.OPIC_DATA = {
           "question": "해변에서 문제가 생겼던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one problem I had at the beach.",
-            "I was checking my phone, and suddenly it turned off.",
-            "I tried to turn it back on, but it didn't work.",
-            "I was like, \"Oh no, what should I do?\"",
-            "I was so worried, so I pressed the power button again and again.",
-            "Then, luckily, my phone turned back on.",
-            "So, yeah, everything was fine in the end."
+            "One time at the beach, the wind suddenly got very strong.",
+            "I had put my bag on the sand, and it tipped over.",
+            "I picked everything up right away, but I could not find my hat.",
+            "After looking around, I found it a few steps away.",
+            "I moved farther from the water and kept my things beside me.",
+            "Now I am more careful when it is windy."
           ],
-          "hint": "beach → phone off → 다시 켜기 실패/당황 → 전원 버튼 반복 → phone on → solved"
+          "hint": "해변에서 강한 바람 → 가방 쓰러지고 모자 날아감 → 주변에서 찾음 → 물가에서 이동"
         },
         {
           "id": "topic-6-q7",
@@ -931,13 +900,13 @@ window.OPIC_DATA = {
           "question": "어렸을 때와 지금 해변에서 보내는 방식을 비교해 주세요.",
           "status": "선택",
           "answer": [
-            "Well, the way I enjoy the beach has changed a little.",
+            "The way I enjoy the beach has changed a little.",
             "When I was a kid, I went there with my family.",
             "I played in the water and spent a lot of time with them.",
             "But these days, I usually go alone.",
             "I take a short walk and find a nice place to sit.",
             "Then I listen to music and enjoy the ocean view.",
-            "So, yeah, I enjoy the beach in a different way now."
+            "I enjoy the beach in a different way now."
           ],
           "hint": "past/family/water → now/alone → short walk/seat → music/ocean view → different way"
         }
@@ -955,15 +924,13 @@ window.OPIC_DATA = {
           "question": "좋아하는 국내여행 장소들을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my favorite place to travel in Korea is Busan, especially Haeundae.",
-            "It's quiet and not too crowded.",
-            "It has a really nice ocean view.",
-            "I can always find a nice place to sit.",
-            "I listen to music and enjoy the view.",
-            "I just sit there and relax.",
-            "So, yeah, I feel really comfortable there."
+            "My favorite place to visit in Korea is Busan.",
+            "I like going there by train because the journey is easy.",
+            "Haeundae Beach is one reason I go, but I also enjoy the restaurants and the streets nearby.",
+            "I can spend one day walking by the sea and another trying local food.",
+            "Busan feels different from my everyday neighborhood."
           ],
-          "hint": "부산/해운대 → quiet/not crowded → ocean view → 앉을 곳 → 음악/전망 → 휴식 → comfortable"
+          "hint": "좋아하는 국내여행지=부산 → 기차 → 해운대·근처 식당/거리 → 일상과 다른 분위기"
         },
         {
           "id": "topic-7-q2",
@@ -971,15 +938,13 @@ window.OPIC_DATA = {
           "question": "국내여행을 가면 그곳에서 주로 무엇을 하나요?",
           "status": "필수",
           "answer": [
-            "Well, when I go to Busan, I usually go alone.",
-            "I take a short walk and find a nice place to sit.",
-            "You know, I listen to music and enjoy the view for a while.",
-            "Sometimes, I check my phone.",
-            "I don't really do anything special.",
-            "I just sit there and relax.",
-            "So, yeah, that is what I usually do in Busan."
+            "When I travel to Busan, I first leave my bag at the hotel.",
+            "Then I usually go to Haeundae and walk along the beach.",
+            "Later, I look for a small restaurant and have dinner.",
+            "The next morning, I take a few pictures and head to the station.",
+            "I like this simple plan because I can see the sea without rushing."
           ],
-          "hint": "부산/해운대 → 혼자 → 짧은 산책/앉을 곳 → 음악/전망 → 휴대폰 → 특별한 일 없음 → 휴식"
+          "hint": "부산 여행 순서=호텔에 짐 → 해운대 산책 → 식당 저녁 → 다음 날 사진·역"
         },
         {
           "id": "topic-7-q3",
@@ -987,13 +952,13 @@ window.OPIC_DATA = {
           "question": "어렸을 때 갔었던 국내여행을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, when I was young, I went to Busan with my family.",
+            "When I was young, I went to Busan with my family.",
             "We went to Haeundae Beach a few times.",
             "I remember walking along the beach with my family.",
             "We also ate some food together.",
             "At that time, my parents planned everything.",
             "I just followed them and enjoyed the trip.",
-            "So, yeah, I have liked Busan for a long time."
+            "I have liked Busan for a long time."
           ],
           "hint": "young → family → Haeundae → walk → food → parents planned → still like Busan"
         },
@@ -1003,13 +968,12 @@ window.OPIC_DATA = {
           "question": "여행 가기 전에 하는 준비를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, before I travel, I usually check a few things.",
+            "Before I travel, I usually check a few things.",
             "First, I check the time, the place, and the weather.",
             "Then I check the route on my phone.",
             "I also make sure my phone is fully charged.",
             "If I need a ticket or a hotel booking, I check it one more time.",
-            "I don't prepare too many things.",
-            "So, yeah, I like to keep things simple."
+            "I don't prepare too many things."
           ],
           "hint": "time/place/weather → route → phone charge → ticket/hotel → simple"
         },
@@ -1019,15 +983,13 @@ window.OPIC_DATA = {
           "question": "최근에 다녀온 국내여행을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to Busan by myself a few weeks ago.",
-            "I took a short walk at Haeundae Beach and found a nice place to sit.",
-            "You know, I listened to music and enjoyed the view for a while.",
-            "I also checked my phone.",
-            "I didn't really do anything special.",
-            "I just sat there and relaxed.",
-            "So, yeah, I had a really nice time."
+            "Last month, I took a short trip to Busan by train.",
+            "After I arrived, I left my bag at the hotel and went to Haeundae.",
+            "I walked near the beach and had dinner at a small restaurant.",
+            "The next morning, I took a few pictures before going home.",
+            "I liked the trip because the train ride was easy and I could enjoy the sea."
           ],
-          "hint": "몇 주 전 부산 → 혼자 → 해운대 짧은 산책/앉을 곳 → 음악/전망 → 휴대폰 → 특별한 일 없음 → 휴식"
+          "hint": "최근 부산 기차여행 → 호텔에 짐 → 해운대 산책/저녁 → 다음 날 사진 → 귀가"
         },
         {
           "id": "topic-7-q6",
@@ -1035,15 +997,14 @@ window.OPIC_DATA = {
           "question": "여행 중에 있었던 잊을 수 없는 에피소드를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one really special day in Busan.",
-            "About three years ago, my friends called me and asked me to meet them there.",
-            "When I got there, they were waiting for me with a cake and some gifts.",
-            "Then they started singing a birthday song.",
-            "I was really surprised, and I almost cried.",
-            "I mean, I was so thankful to my friends.",
-            "So, yeah, I'll never forget that day."
+            "My most memorable trip to Busan was about three years ago.",
+            "I took the train to meet my friends at Haeundae Beach.",
+            "When I got there, they surprised me with a small birthday cake and some gifts.",
+            "We sat by the sea, talked, and spent the evening together.",
+            "I had expected a normal trip, so the surprise meant a lot to me.",
+            "That is why I still remember the journey."
           ],
-          "hint": "Busan → 3 years ago → friends → cake/gifts → song → surprised → thankful"
+          "hint": "3년 전 부산 기차여행 → 해운대에서 친구들 만나 생일 서프라이즈 → 바다 옆 시간 → 기억"
         },
         {
           "id": "topic-7-q7",
@@ -1051,15 +1012,13 @@ window.OPIC_DATA = {
           "question": "여행 중에 문제가 생겼던 경험을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one problem I had during a trip to Busan.",
-            "I was checking my phone, and suddenly it turned off.",
-            "I tried to turn it back on, but it didn't work.",
-            "I was like, \"Oh no, what should I do?\"",
-            "I was so worried, so I pressed the power button again and again.",
-            "Then, luckily, my phone turned back on.",
-            "So, yeah, everything was fine in the end."
+            "Once, I almost missed my train to Busan because the bus to the station was late.",
+            "I checked the train time and got worried.",
+            "So I got off the bus and took a taxi for the last part of the trip.",
+            "I reached the station just before the train left.",
+            "The trip itself was fine, but I learned to leave home earlier."
           ],
-          "hint": "trip → phone off → 다시 켜기 실패/당황 → 전원 버튼 반복 → phone on → solved"
+          "hint": "부산행 기차 놓칠 뻔함 → 역 가는 버스 지연 → 택시로 이동 → 간신히 탑승 → 일찍 출발"
         },
         {
           "id": "topic-7-q8",
@@ -1073,7 +1032,7 @@ window.OPIC_DATA = {
             "Popular places can also be very crowded.",
             "So people need to plan more carefully.",
             "I think booking early can help a lot.",
-            "So, yeah, travel takes more planning now."
+            "Travel takes more planning now."
           ],
           "hint": "money → hotel/food/tickets → crowded → planning → book early"
         },
@@ -1083,13 +1042,13 @@ window.OPIC_DATA = {
           "question": "사람들이 여행할 때 주로 어떤 점을 걱정하나요?",
           "status": "선택",
           "answer": [
-            "Well, I think people worry about a few things when they travel.",
+            "I think people worry about a few things when they travel.",
             "Money is probably the biggest one.",
             "Hotels, food, and tickets can be expensive.",
             "People also worry about crowded places and long lines.",
             "So they usually check prices and make plans early.",
             "I think a little planning can make the trip easier.",
-            "So, yeah, money and crowds are the main worries."
+            "Money and crowds are the main worries."
           ],
           "hint": "money → expensive → crowds/lines → check prices → plan early"
         },
@@ -1099,13 +1058,13 @@ window.OPIC_DATA = {
           "question": "국내 여행지까지 보통 어떤 교통수단을 이용하는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I usually go to Busan by train.",
+            "I usually go to Busan by train.",
             "The train is fast and comfortable.",
             "First, I go to the train station near my home.",
             "Then, I take the train to Busan.",
             "It takes about three hours.",
             "When I arrive, I take a bus or a taxi to the beach.",
-            "So, yeah, getting there is easy and comfortable."
+            "Getting there is easy and comfortable."
           ],
           "hint": "Busan by train → fast/comfortable → station near home → three hours → bus/taxi → beach"
         }
@@ -1129,7 +1088,7 @@ window.OPIC_DATA = {
             "I often listen to her songs when I'm tired.",
             "I usually listen at home or when I am going somewhere.",
             "You know, her music helps me relax.",
-            "So, yeah, I really like her music."
+            "I really like her music."
           ],
           "hint": "pop/slow songs → IU → easy to listen → tired → home/on the way → relax"
         },
@@ -1139,13 +1098,12 @@ window.OPIC_DATA = {
           "question": "음악을 처음 좋아하게 된 계기를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, let me think. I started to like music in high school.",
+            "Let me think. I started to like music in high school.",
             "One day, I heard a nice song while I was walking alone.",
             "I stopped for a moment and listened to it.",
             "The song was slow and easy to listen to.",
             "I really liked it, so I listened to it many times.",
-            "After that, I started listening to more music.",
-            "So, yeah, that is how I started to like music."
+            "After that, I started listening to more music."
           ],
           "hint": "high school → 혼자 걷다 좋은 노래 → 잠시 듣기 → slow/easy → 여러 번 듣기 → 더 많은 음악 → 좋아하게 됨"
         },
@@ -1155,13 +1113,13 @@ window.OPIC_DATA = {
           "question": "예전과 지금의 음악 취향 변화를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, the biggest change is that I like slow songs more now.",
+            "The biggest change is that I like slow songs more now.",
             "When I was younger, I listened to fast songs more often.",
             "Fast music is exciting and gives me more energy.",
             "But these days, I usually choose slow songs.",
             "Slow music helps me relax when I'm tired.",
             "I usually listen to it at home or when I'm going somewhere.",
-            "So, yeah, I like slow music better now."
+            "I like slow music better now."
           ],
           "hint": "biggest change=slow songs → past fast → fast=energy → now slow → slow=relax → home/on the way"
         },
@@ -1177,7 +1135,7 @@ window.OPIC_DATA = {
             "These days, I mostly listen to slow songs.",
             "You know, music helps me relax when I am tired.",
             "Sometimes, I just close my eyes and listen for a while.",
-            "So, yeah, music is part of my daily life."
+            "Music is part of my daily life."
           ],
           "hint": "almost every day → home/on the way → phone/earphones → slow songs → relax"
         },
@@ -1187,15 +1145,14 @@ window.OPIC_DATA = {
           "question": "빠른 음악과 잔잔한 음악을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, fast music and slow music are very different.",
-            "When I was younger, I listened to fast songs more often.",
-            "Fast music is exciting and gives me more energy.",
-            "But these days, I usually choose slow songs.",
-            "Slow music helps me relax when I'm tired.",
-            "I usually listen to it at home or when I'm going somewhere.",
-            "So, yeah, I like slow music better now."
+            "Fast music gives me energy, so I like it when I need to wake up in the morning.",
+            "Slow music has a different effect on me.",
+            "It helps me calm down after a busy day.",
+            "When I was younger, I chose fast songs more often.",
+            "These days, I usually listen to slower songs at home.",
+            "I still enjoy both, but I choose them for different reasons."
           ],
-          "hint": "fast/slow different → past fast → fast=energy → now slow → slow=relax → home/on the way"
+          "hint": "빠른 음악=아침에 기운 → 느린 음악=하루 끝 휴식 → 예전엔 빠른 곡, 지금은 느린 곡"
         },
         {
           "id": "topic-8-q6",
@@ -1203,13 +1160,13 @@ window.OPIC_DATA = {
           "question": "예전과 지금 음악을 듣는 기기나 방법의 변화를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, the way I listen to music has changed a lot.",
+            "The way I listen to music has changed a lot.",
             "In the past, I saved songs on my phone.",
             "But these days, I just use a music app.",
             "I can find almost any song very easily.",
             "I can also make a playlist.",
             "And I use wireless earphones now.",
-            "So, yeah, listening to music is much easier now."
+            "Listening to music is much easier now."
           ],
           "hint": "past save on phone → now app → search → playlist → wireless earphones"
         },
@@ -1219,15 +1176,13 @@ window.OPIC_DATA = {
           "question": "라이브 음악을 들었던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to a pop concert by myself a few weeks ago.",
-            "I got there a little early and found my seat.",
-            "I sat there and waited for the show.",
-            "When the show started, everyone started cheering, and I sang along.",
-            "Then my favorite song came on, and I got really excited.",
-            "I took a few pictures, but I didn't use my phone too much.",
-            "So, yeah, I enjoyed the music and had a good time."
+            "I heard live pop music at a concert a few weeks ago.",
+            "I had listened to the singer's songs on my phone many times, but the live sound felt different.",
+            "When my favorite song started, everyone cheered and sang along.",
+            "I sang too, even though I usually just listen quietly at home.",
+            "That is what I remember most about hearing the music live."
           ],
-          "hint": "몇 주 전 pop concert → alone/early → seat/wait → cheering/sing along → favorite song → pictures/phone less → enjoy"
+          "hint": "최근 팝 콘서트 → 휴대폰으로 듣던 음악과 달랐음 → 좋아하는 노래/관객과 함께 노래"
         }
       ]
     },
@@ -1243,15 +1198,14 @@ window.OPIC_DATA = {
           "question": "어떤 콘서트를 좋아하는지 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I like pop concerts the most.",
-            "I usually go alone and get there a little early.",
-            "I find my seat and wait for the show.",
-            "When the show starts, everyone starts cheering, and I sing along.",
-            "When my favorite song comes on, I get really excited.",
-            "Sometimes, I take a few pictures, but I don't use my phone too much.",
-            "So, yeah, I just enjoy the music and have a good time."
+            "I like pop concerts, especially shows with songs I already know.",
+            "I listen to slow pop music a lot, so I enjoy hearing those songs live.",
+            "I also like the moment when the audience starts singing together.",
+            "The place can be loud, but it feels exciting.",
+            "I do not need a big show with lots of effects.",
+            "For me, the music itself is the best part."
           ],
-          "hint": "pop concert → alone/early → seat/wait → cheering/sing along → favorite song → pictures/phone less → enjoy"
+          "hint": "좋아하는 공연=익숙한 팝/느린 노래 → 관객 함께 노래 → 화려한 연출보다 음악"
         },
         {
           "id": "topic-9-q2",
@@ -1259,15 +1213,13 @@ window.OPIC_DATA = {
           "question": "콘서트에 가면 주로 무엇을 하나요?",
           "status": "필수",
           "answer": [
-            "Well, I like pop concerts the most.",
-            "I usually go alone and get there a little early.",
-            "I find my seat and wait for the show.",
-            "When the show starts, everyone starts cheering, and I sing along.",
-            "When my favorite song comes on, I get really excited.",
-            "Sometimes, I take a few pictures, but I don't use my phone too much.",
-            "So, yeah, I just enjoy the music and have a good time."
+            "When I go to a concert, I get there a little early and find my seat.",
+            "Before the show starts, I check the stage and put my phone away.",
+            "During the concert, I listen closely and sing along to songs I know.",
+            "I take a few pictures, but I try to enjoy the music without looking at my phone too much.",
+            "After the show, I head home."
           ],
-          "hint": "pop concert → alone/early → seat/wait → cheering/sing along → favorite song → pictures/phone less → enjoy"
+          "hint": "일찍 도착/좌석 → 무대 확인 → 음악 듣고 따라 부름 → 사진은 조금 → 귀가"
         },
         {
           "id": "topic-9-q3",
@@ -1275,15 +1227,14 @@ window.OPIC_DATA = {
           "question": "최근 콘서트에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to a pop concert by myself a few weeks ago.",
-            "I got there a little early and found my seat.",
-            "I sat there and waited for the show.",
-            "When the show started, everyone started cheering, and I sang along.",
-            "Then my favorite song came on, and I got really excited.",
-            "I took a few pictures, but I didn't use my phone too much.",
-            "So, yeah, I enjoyed the music and had a good time."
+            "I went to a pop concert by myself a few weeks ago.",
+            "I arrived early and found my seat without any trouble.",
+            "When the show began, the crowd started cheering.",
+            "I sang along when my favorite song came on.",
+            "I took a few pictures, but I spent most of the time listening.",
+            "I felt tired on my way home, but I was glad I had gone."
           ],
-          "hint": "몇 주 전 pop concert → alone/early → seat/wait → cheering/sing along → favorite song → pictures/phone less → enjoy"
+          "hint": "몇 주 전 혼자 팝 콘서트 → 일찍 입장 → 좋아하는 곡 따라 부름 → 사진 조금/음악 집중 → 귀가"
         },
         {
           "id": "topic-9-q4",
@@ -1291,15 +1242,13 @@ window.OPIC_DATA = {
           "question": "기억에 남는 콘서트 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I went to a pop concert by myself a few weeks ago.",
-            "I got there a little early and found my seat.",
-            "I sat there and waited for the show.",
-            "When the show started, everyone started cheering, and I sang along.",
-            "Then my favorite song came on, and I got really excited.",
-            "I took a few pictures, but I didn't use my phone too much.",
-            "So, yeah, I enjoyed the music and had a good time."
+            "The most memorable part of a recent concert was hearing my favorite song live.",
+            "I knew the song from my phone, but the singer and the crowd made it feel new.",
+            "People around me started singing, so I joined them.",
+            "For a moment, I forgot about everything else and just listened.",
+            "I still think of that moment whenever the song comes on."
           ],
-          "hint": "몇 주 전 pop concert → alone/early → seat/wait → cheering/sing along → favorite song → pictures/phone less → enjoy"
+          "hint": "최근 콘서트에서 좋아하는 곡 라이브 → 관객과 함께 노래 → 그 노래를 들으면 떠오름"
         },
         {
           "id": "topic-9-q5",
@@ -1307,13 +1256,12 @@ window.OPIC_DATA = {
           "question": "콘서트에 가기 전에 무엇을 준비하나요?",
           "status": "필수",
           "answer": [
-            "Well, before I go to a concert, I usually check a few things.",
+            "Before I go to a concert, I usually check a few things.",
             "First, I check the time and the place.",
             "Then I check the route on my phone.",
             "I also make sure my phone is fully charged.",
             "Of course, I check my ticket one more time.",
-            "I don't prepare too many things.",
-            "So, yeah, I like to keep things simple."
+            "I don't prepare too many things."
           ],
           "hint": "time/place → route → phone charge → ticket → simple"
         },
@@ -1323,13 +1271,13 @@ window.OPIC_DATA = {
           "question": "예전과 지금의 콘서트 즐기는 방식을 비교해 주세요.",
           "status": "선택",
           "answer": [
-            "Well, the way I enjoy concerts has changed a little.",
+            "The way I enjoy concerts has changed a little.",
             "When I was younger, I took a lot of pictures during the show.",
             "I used my phone a lot.",
             "But these days, I try to use my phone less.",
             "I still take a few pictures, but I focus more on the music.",
             "I think I enjoy the show more this way.",
-            "So, yeah, I enjoy concerts more now."
+            "I enjoy concerts more now."
           ],
           "hint": "past pictures/phone → now phone less → music focus → enjoy more"
         }
@@ -1347,15 +1295,13 @@ window.OPIC_DATA = {
           "question": "친구에게 전화해서 약속 잡기",
           "status": "필수",
           "answer": [
-            "Hey, it's me. Um, I have a few questions.",
-            "When are you free?",
-            "Where should we meet?",
-            "What time should we meet?",
-            "Do I need to bring anything?",
-            "Okay, sounds good.",
-            "See you then."
+            "Hey, it's me. I'd like to meet up this weekend.",
+            "Are you free on Saturday afternoon?",
+            "We could go to a cafe near the station.",
+            "What time works for you?",
+            "Let me know, and I'll see you there."
           ],
-          "hint": "when → where → time → bring → close"
+          "hint": "친구에게 연락 → 토요일 오후 가능한지 → 역 근처 카페 제안 → 시간 확인"
         },
         {
           "id": "topic-10-rp2",
@@ -1363,16 +1309,13 @@ window.OPIC_DATA = {
           "question": "가게나 장소에 전화해서 정보 묻기",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because I have a few questions.",
-            "I want to visit this weekend.",
-            "What time do you open?",
-            "How much is it?",
-            "Do I need a reservation?",
-            "Can I park there?",
-            "Okay, great.",
-            "Thanks for your help."
+            "Hi, I'm calling because I'd like to visit this weekend.",
+            "What time do you open on Saturday?",
+            "Do I need to make a reservation?",
+            "And how much does it cost?",
+            "Thanks. That will help me plan my visit."
           ],
-          "hint": "visit → open → price → reservation → parking → thanks"
+          "hint": "주말 방문 문의 → 토요일 영업시간/예약/가격 → 정보 감사"
         },
         {
           "id": "topic-10-rp3",
@@ -1380,15 +1323,13 @@ window.OPIC_DATA = {
           "question": "약속을 못 가게 됨 - 사과하고 날짜 바꾸기",
           "status": "필수",
           "answer": [
-            "Hey, it's me. I'm really sorry, but I can't make it today.",
-            "Something came up.",
-            "Can we meet tomorrow instead?",
-            "Or how about this weekend?",
-            "If not, we can meet another day.",
-            "I'm really sorry about this.",
-            "Think about it and let me know."
+            "Hey, I'm sorry, but I can't meet today because I'm not feeling well.",
+            "Could we meet next weekend instead?",
+            "If that doesn't work, please tell me when you're free.",
+            "I'll message you later to confirm the time.",
+            "Sorry for changing our plan."
           ],
-          "hint": "sorry → something came up → tomorrow → weekend → another day → think/let me know"
+          "hint": "몸이 안 좋아 오늘 약속 불가 → 다음 주말 제안 → 다른 시간도 가능 → 확인"
         },
         {
           "id": "topic-10-rp4",
@@ -1396,15 +1337,13 @@ window.OPIC_DATA = {
           "question": "예약 / 티켓 / 주문 / 물건에 문제가 생김",
           "status": "필수",
           "answer": [
-            "Hi, I think there's a problem with my reservation.",
-            "Something is wrong, and I need some help.",
-            "Can you check it for me?",
-            "Can I change it?",
-            "If not, can I get a refund?",
-            "Okay, that sounds good.",
-            "Thank you for your help."
+            "Hi, I'm calling about a booking I made for this weekend.",
+            "The date on my confirmation is wrong.",
+            "Could you check my booking and change it to Saturday?",
+            "If that isn't possible, could I cancel it and get a refund?",
+            "Please let me know what I can do."
           ],
-          "hint": "problem → check → change → refund → thanks"
+          "hint": "예약 확인서 날짜 오류 → 토요일로 변경 요청 → 안 되면 취소·환불 문의"
         },
         {
           "id": "topic-10-rp5",
@@ -1412,15 +1351,14 @@ window.OPIC_DATA = {
           "question": "관련 과거 경험 - 계획을 바꾼 경험",
           "status": "필수",
           "answer": [
-            "Actually, I remember one time I had to change my plans.",
-            "I was going to meet my friend, but my phone suddenly turned off.",
-            "I tried to turn it back on, but it didn't work.",
-            "I was like, \"Oh no, what should I do?\"",
-            "So I borrowed another phone and called my friend.",
-            "We changed the meeting time.",
-            "So, yeah, everything was fine in the end."
+            "Once, I had to change plans with a friend because I felt sick.",
+            "I sent a message right away and apologized.",
+            "I asked if we could meet the next weekend instead.",
+            "My friend agreed, so we chose another time.",
+            "We finally met for dinner a week later.",
+            "I was glad I told my friend early."
           ],
-          "hint": "meet friend → phone off → fail → borrow phone → call → change time"
+          "hint": "몸이 아파 친구 약속 변경 → 빠르게 사과·연락 → 다음 주말 재약속 → 식사"
         },
         {
           "id": "topic-10-mp3-rp1",
@@ -1428,16 +1366,13 @@ window.OPIC_DATA = {
           "question": "MP3 플레이어를 사기 전에 가게에 전화해서 정보를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because I have a few questions.",
-            "I want to buy an MP3 player.",
-            "What time do you open?",
-            "How much is it?",
+            "Hi, I'm calling about an MP3 player I saw in your store.",
+            "How much does it cost?",
             "Do you have it in black?",
-            "Can I buy it online?",
-            "Okay, that sounds good.",
-            "Thank you for your help."
+            "Can I buy it online, or should I come to the store?",
+            "Thank you. I'll think about which option works for me."
           ],
-          "hint": "want to buy → open → price → black → online → thanks"
+          "hint": "MP3 플레이어 구매 문의 → 가격/검은색 재고/온라인 구매"
         },
         {
           "id": "topic-10-mp3-rp2",
@@ -1445,15 +1380,13 @@ window.OPIC_DATA = {
           "question": "친구에게 빌린 MP3 플레이어를 고장 냈습니다. 설명하고 대안을 제시하세요.",
           "status": "필수",
           "answer": [
-            "Hey, it's me. I'm really sorry, but there's a problem with your MP3 player.",
-            "I dropped it, and now it doesn't work.",
-            "It was an accident, and I'm really sorry.",
-            "I can take it to a repair shop.",
-            "Or I can buy you a new one.",
-            "Please think about it and let me know.",
-            "Again, I'm really sorry."
+            "Hey, I'm really sorry, but I dropped the MP3 player I borrowed from you.",
+            "It doesn't turn on now.",
+            "I can take it to a repair shop and pay for the repair.",
+            "If it can't be fixed, I'll buy you a new one.",
+            "Which would you prefer?"
           ],
-          "hint": "sorry/problem → dropped/broken → accident → repair → new one → think/let me know"
+          "hint": "빌린 MP3 떨어뜨려 작동 안 됨 → 수리 비용 부담 → 불가하면 새 제품 → 선택 요청"
         },
         {
           "id": "topic-10-mp3-rp3",
@@ -1461,15 +1394,14 @@ window.OPIC_DATA = {
           "question": "전자기기에 문제가 생겼다가 해결한 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one problem I had with my phone.",
-            "I was checking my phone, and suddenly it turned off.",
-            "I tried to turn it back on, but it didn't work.",
-            "I was like, \"Oh no, what should I do?\"",
-            "I was so worried, so I pressed the power button again and again.",
-            "Then, luckily, my phone turned back on.",
-            "So, yeah, everything was fine in the end."
+            "One day, my phone suddenly turned off while I was using it.",
+            "I pressed the power button, but nothing happened.",
+            "I got worried because I needed to contact a friend.",
+            "So I charged it for a while and tried again.",
+            "Luckily, it turned back on, and I could send my message.",
+            "Since then, I try to check the battery before I leave home."
           ],
-          "hint": "phone off → 다시 켜기 실패/당황 → 전원 버튼 반복 → phone on → solved"
+          "hint": "휴대폰 갑자기 꺼짐 → 버튼 안 됨 → 충전 후 다시 켜짐 → 친구에게 연락/배터리 확인"
         },
         {
           "id": "topic-10-concert-rp1",
@@ -1477,16 +1409,13 @@ window.OPIC_DATA = {
           "question": "콘서트 티켓을 사기 위해 매표소에 전화해서 정보를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because I have a few questions.",
-            "I want to buy two concert tickets.",
+            "Hi, I'd like to buy two tickets for the concert this Saturday.",
             "What time does it start?",
-            "How much is one ticket?",
-            "Do you have any seats left?",
-            "Can I buy them online?",
-            "Okay, that sounds good.",
-            "Thank you for your help."
+            "Are there two seats together?",
+            "And how much is one ticket?",
+            "Could you tell me how to buy them?"
           ],
-          "hint": "two tickets → start time → one-ticket price → seats → online → thanks"
+          "hint": "토요일 콘서트 표 두 장 → 시작시간/붙은 좌석/표 가격/구매 방법"
         },
         {
           "id": "topic-10-concert-rp2",
@@ -1494,15 +1423,13 @@ window.OPIC_DATA = {
           "question": "콘서트에 갈 수 없게 되었습니다. 친구에게 설명하고 대안을 제시하세요.",
           "status": "필수",
           "answer": [
-            "Hey, it's me. I'm really sorry, but I can't go to the concert this weekend.",
-            "Something came up.",
-            "You can go with someone else.",
-            "Or we can cancel the tickets and get a refund.",
-            "If not, we can change them to another day.",
-            "I'm really sorry about this.",
-            "Think about it and let me know."
+            "Hey, I'm sorry, but I can't go to the concert this weekend.",
+            "I'm not feeling well.",
+            "Would you like to take another friend instead?",
+            "If not, we can ask about a refund or changing the date.",
+            "Tell me which option you prefer."
           ],
-          "hint": "sorry/can't go → something came up → someone else → cancel/refund → another day → think/let me know"
+          "hint": "몸이 안 좋아 콘서트 불가 → 다른 친구와 가기 → 환불 또는 날짜 변경 → 선택 요청"
         },
         {
           "id": "topic-10-travel-rp1",
@@ -1510,16 +1437,13 @@ window.OPIC_DATA = {
           "question": "국내여행을 위해 기차표 정보를 전화로 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because I have a few questions.",
-            "I want to go to Busan this weekend.",
-            "What time does the train leave?",
-            "How much is one ticket?",
-            "Do you have any seats left?",
-            "Can I buy the tickets online?",
-            "Okay, that sounds good.",
-            "Thank you for your help."
+            "Hi, I'd like to take a train to Busan this Saturday.",
+            "What time is the morning train?",
+            "Are there any seats left?",
+            "And how much is one ticket?",
+            "Please tell me where I can book it."
           ],
-          "hint": "Busan/weekend → train time → price → seats → online → thanks"
+          "hint": "토요일 부산행 기차 → 오전 출발시간/남은 좌석/가격/예약 방법"
         },
         {
           "id": "topic-10-travel-rp2",
@@ -1527,15 +1451,13 @@ window.OPIC_DATA = {
           "question": "국내여행을 갈 수 없게 되었습니다. 친구에게 설명하고 대안을 제시하세요.",
           "status": "필수",
           "answer": [
-            "Hey, it's me. I'm really sorry, but I can't go to Busan this weekend.",
-            "Something came up.",
-            "Can we go next weekend instead?",
-            "Or we can cancel the tickets and get a refund.",
-            "If not, you can go with someone else.",
-            "I'm really sorry about this.",
-            "Think about it and let me know."
+            "Hey, I'm sorry, but I can't go to Busan with you this weekend.",
+            "I'm not feeling well.",
+            "Could we go next weekend instead?",
+            "If you've already bought a ticket, I can help you check whether we can change it.",
+            "Let me know what works for you."
           ],
-          "hint": "sorry/can't go → something came up → next weekend → cancel/refund → someone else → think/let me know"
+          "hint": "몸이 안 좋아 부산 여행 불가 → 다음 주말 제안 → 기존 표 변경 확인"
         },
         {
           "id": "topic-10-travel-rp3",
@@ -1543,15 +1465,12 @@ window.OPIC_DATA = {
           "question": "여행 계획을 바꿨던 과거 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one time I had to change my travel plans.",
-            "I was going to Busan with my friend, but it suddenly started raining.",
-            "I was like, \"Oh no, what should I do?\"",
-            "So I called my friend and suggested next weekend.",
-            "We changed the date and went there later.",
-            "The weather was nice, and we had a good time.",
-            "So, yeah, everything was fine in the end."
+            "Once, I planned to visit Busan with a friend, but it started raining heavily that morning.",
+            "We wanted to spend most of the day outside, so I called my friend.",
+            "I suggested moving the trip to the next weekend, and my friend agreed.",
+            "When we finally went, the weather was clear and we enjoyed the beach."
           ],
-          "hint": "Busan plan → rain → worried → call friend → next weekend → good trip → solved"
+          "hint": "부산 여행 당일 큰비 → 야외 일정이라 친구에게 연락 → 다음 주말 변경 → 맑은 날 해변"
         },
         {
           "id": "topic-10-house-rp1",
@@ -1559,16 +1478,13 @@ window.OPIC_DATA = {
           "question": "부동산에 전화해서 집에 관한 정보를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because I have a few questions.",
-            "I want to rent an apartment.",
-            "How much is it each month?",
-            "How many rooms does it have?",
-            "Can I see it this weekend?",
-            "Can I park there?",
-            "Okay, that sounds good.",
-            "Thank you for your help."
+            "Hi, I'm calling about the apartment for rent.",
+            "How much is the rent each month?",
+            "How many bedrooms does it have?",
+            "Could I come and see it this Saturday?",
+            "Please let me know if that time is available."
           ],
-          "hint": "rent apartment → monthly price → rooms → visit → parking → thanks"
+          "hint": "임대 아파트 문의 → 월세/침실 수/토요일 방문 가능 여부"
         },
         {
           "id": "topic-10-house-rp2",
@@ -1576,15 +1492,13 @@ window.OPIC_DATA = {
           "question": "집의 창문이 고장 났습니다. 관리사무소에 문제를 설명하고 대안을 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because there's a problem with my apartment.",
-            "The window is broken, and it doesn't close.",
-            "Can you check it for me?",
-            "Can someone fix it today?",
-            "If not, can they come tomorrow?",
-            "Okay, that sounds good.",
-            "Thank you for your help."
+            "Hi, I'm calling about my apartment.",
+            "My window is broken, and it won't close.",
+            "Could someone come and check it today?",
+            "If no one is available, what is the earliest time tomorrow?",
+            "Please call me back when you know."
           ],
-          "hint": "apartment problem → broken window → check → today → tomorrow → thanks"
+          "hint": "집 창문이 닫히지 않음 → 오늘 수리 요청 → 안 되면 내일 가장 빠른 시간"
         },
         {
           "id": "topic-10-house-rp3",
@@ -1592,15 +1506,13 @@ window.OPIC_DATA = {
           "question": "집에 문제가 생겼다가 해결한 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one problem I had at home.",
-            "The kitchen light suddenly stopped working.",
-            "I tried to turn it on again, but it didn't work.",
-            "I was like, \"Oh no, what should I do?\"",
-            "So I called the building office.",
-            "Someone came the next morning and fixed it.",
-            "So, yeah, everything was fine in the end."
+            "One evening, the kitchen light stopped working while I was making dinner.",
+            "I tried the switch again, but it did not turn on.",
+            "So I called the building office and explained the problem.",
+            "Someone came the next morning and changed the light.",
+            "I was relieved because I could use the kitchen again."
           ],
-          "hint": "home problem → kitchen light → fail → worried → building office → fixed → solved"
+          "hint": "저녁 준비 중 주방 조명 고장 → 스위치 확인 → 관리사무소 연락 → 다음 날 해결"
         },
         {
           "id": "topic-10-friend-rp1",
@@ -1608,15 +1520,13 @@ window.OPIC_DATA = {
           "question": "친구의 집이나 식물을 돌보기 전에 필요한 정보를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hey, it's me. Um, I have a few questions about your plants.",
+            "Hey, I can take care of your plants while you're away.",
             "How often should I water them?",
-            "Where are they?",
-            "Do I need to open the window?",
-            "Is there anything else I should do?",
-            "Okay, sounds good.",
-            "See you later."
+            "Where do you keep the watering can?",
+            "And how can I get into your house?",
+            "Send me the details before you leave."
           ],
-          "hint": "plants → water → location → window → anything else → close"
+          "hint": "친구 식물 돌보기 → 물 주는 주기/도구 위치/집 출입 방법"
         },
         {
           "id": "topic-10-friend-rp2",
@@ -1624,15 +1534,13 @@ window.OPIC_DATA = {
           "question": "친구의 집에 들어갈 수 없습니다. 문제를 설명하고 대안을 제시하세요.",
           "status": "필수",
           "answer": [
-            "Hey, it's me. I'm sorry, but I can't get into your house.",
-            "The key doesn't work.",
-            "Can you tell me where another key is?",
-            "Or can you call someone who can help me?",
-            "If not, I can come back later.",
-            "I'm really sorry about this.",
-            "Think about it and let me know."
+            "Hey, I'm outside your house, but I can't get in.",
+            "The key you gave me doesn't work.",
+            "Is there another key I can use?",
+            "Could you ask someone nearby to help me if there isn't one?",
+            "Otherwise, I can come back later."
           ],
-          "hint": "can't enter → key problem → another key → call someone → come later → think/let me know"
+          "hint": "친구 집에 들어갈 수 없음 → 열쇠 문제 → 예비 열쇠/근처 도움/나중에 재방문"
         },
         {
           "id": "topic-10-friend-rp3",
@@ -1640,15 +1548,13 @@ window.OPIC_DATA = {
           "question": "친구의 부탁을 처리하다가 문제가 생겼던 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one problem I had at my friend's house.",
-            "My friend asked me to water some plants.",
-            "But when I got there, the key didn't work.",
-            "I was like, \"Oh no, what should I do?\"",
-            "So I called my friend and found another key.",
-            "Then I went inside and watered the plants.",
-            "So, yeah, everything was fine in the end."
+            "Once, I went to my friend's house to water some plants.",
+            "The key did not work, so I called my friend from outside.",
+            "My friend told me where to find another key.",
+            "I went in, watered the plants, and locked the door when I left.",
+            "I was glad I checked with my friend."
           ],
-          "hint": "friend's house → water plants → key problem → worried → call → another key → solved"
+          "hint": "친구 식물 돌보러 감 → 열쇠 안 됨 → 친구에게 전화해 예비 열쇠 → 물 주고 잠금"
         },
         {
           "id": "topic-10-service-rp1",
@@ -1656,16 +1562,13 @@ window.OPIC_DATA = {
           "question": "미용실이나 치과에 전화해서 예약 정보를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because I have a few questions.",
-            "I want to make an appointment this weekend.",
-            "What time do you open?",
-            "How much is it?",
-            "Do you have any time this afternoon?",
-            "Can I park there?",
-            "Okay, that sounds good.",
-            "Thank you for your help."
+            "Hi, I'd like to make a haircut appointment this Saturday.",
+            "Do you have any openings in the afternoon?",
+            "How much is a basic haircut?",
+            "And how long does it usually take?",
+            "Please let me know which times are available."
           ],
-          "hint": "appointment → open time → price → available time → parking → thanks"
+          "hint": "토요일 오후 미용실 예약 → 가능한 시간/기본 커트 가격/소요시간"
         },
         {
           "id": "topic-10-service-rp2",
@@ -1673,16 +1576,13 @@ window.OPIC_DATA = {
           "question": "미용실이나 치과 예약에 갈 수 없게 되었습니다. 사과하고 날짜를 바꿔보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm really sorry, but I can't make it today.",
-            "Something came up.",
-            "Can I change my appointment to tomorrow?",
-            "Or how about this weekend?",
-            "If not, I can come another day.",
-            "I'm really sorry about this.",
-            "Is that okay?",
+            "Hi, I have a haircut appointment this afternoon, but I can't come because I'm sick.",
+            "I'm sorry for the late notice.",
+            "Could I move it to Saturday afternoon?",
+            "If that time is full, please tell me another time next week.",
             "Thank you for your help."
           ],
-          "hint": "sorry/can't make it → something came up → tomorrow → weekend → another day → check/thanks"
+          "hint": "오늘 오후 미용실 예약 불가/사과 → 토요일 오후 변경 요청 → 안 되면 다음 주"
         },
         {
           "id": "topic-10-restaurant-rp1",
@@ -1690,16 +1590,13 @@ window.OPIC_DATA = {
           "question": "음식점에 전화해서 영업시간, 가격, 예약, 주차 정보를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because I have a few questions.",
-            "I want to visit this weekend.",
-            "What time do you open?",
-            "How much is a meal?",
-            "Do I need a reservation?",
-            "Can I park there?",
-            "Okay, that sounds good.",
-            "Thank you for your help."
+            "Hi, I'm thinking of coming to your restaurant this Saturday evening.",
+            "What time do you close?",
+            "Do I need to book a table for two?",
+            "And is there parking nearby?",
+            "Thank you. That will help us make a plan."
           ],
-          "hint": "restaurant/weekend → open → menu price → reservation → parking → thanks"
+          "hint": "토요일 저녁 두 명 방문 → 마감시간/예약 필요/주차"
         },
         {
           "id": "topic-10-hotel-rp1",
@@ -1707,16 +1604,13 @@ window.OPIC_DATA = {
           "question": "호텔에 전화해서 객실 예약에 필요한 정보를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because I have a few questions.",
-            "I want to stay there this weekend.",
-            "How much is one night?",
+            "Hi, I'd like to stay at your hotel this Saturday.",
             "Do you have a room with an ocean view?",
-            "Is breakfast included?",
-            "Can I park there?",
-            "Okay, that sounds good.",
-            "Thank you for your help."
+            "How much is one night?",
+            "And is breakfast included?",
+            "Please tell me how I can book the room."
           ],
-          "hint": "hotel/weekend → one-night price → ocean-view room → breakfast → parking → thanks"
+          "hint": "토요일 호텔 숙박 → 바다 전망 객실/1박 요금/조식/예약 방법"
         },
         {
           "id": "topic-10-recycling-rp1",
@@ -1724,16 +1618,13 @@ window.OPIC_DATA = {
           "question": "관리사무소에 전화해서 재활용 방법과 장소를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because I have a few questions.",
-            "I want to recycle some things.",
-            "When is the recycling area open?",
-            "What items can I recycle?",
-            "Do I need separate bags?",
+            "Hi, I live in this building and have some things to recycle.",
             "Where is the recycling area?",
-            "Okay, that sounds good.",
-            "Thank you for your help."
+            "Which days can I use it?",
+            "And do I need to separate plastic and paper into different bags?",
+            "Thank you for explaining."
           ],
-          "hint": "recycle → open time → items → separate bags → location → thanks"
+          "hint": "아파트 재활용 문의 → 장소/가능한 요일/플라스틱·종이 분리"
         },
         {
           "id": "topic-10-repair-rp1",
@@ -1741,16 +1632,13 @@ window.OPIC_DATA = {
           "question": "수리점에 전화해서 휴대폰이나 컴퓨터 수리 정보를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because I have a few questions.",
-            "I want to fix my phone.",
-            "What time do you open?",
-            "How much does it cost?",
-            "How long does it take?",
-            "Can I bring it in today?",
-            "Okay, that sounds good.",
-            "Thank you for your help."
+            "Hi, my phone suddenly stopped working, and I'd like to have it checked.",
+            "Can I bring it in this afternoon?",
+            "How long does a check usually take?",
+            "And is there a fee if I decide not to repair it?",
+            "Thank you for the information."
           ],
-          "hint": "fix phone → open → cost → time needed → bring today → thanks"
+          "hint": "휴대폰 수리 문의 → 오늘 오후 방문/점검 소요시간/수리 안 해도 비용 있는지"
         },
         {
           "id": "topic-10-party-rp1",
@@ -1758,15 +1646,13 @@ window.OPIC_DATA = {
           "question": "친구에게 전화해서 명절 모임이나 파티에 필요한 정보를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hey, it's me. Um, I have a few questions about the party.",
-            "When is it?",
-            "Where should we meet?",
-            "What time should I get there?",
-            "Do I need to bring anything?",
-            "Okay, sounds good.",
-            "See you then."
+            "Hey, I'm looking forward to the party this weekend.",
+            "What time should I come?",
+            "Where exactly is it?",
+            "Should I bring any food or drinks?",
+            "Send me the details when you have a moment."
           ],
-          "hint": "party → date → place → time → bring → close"
+          "hint": "주말 파티 → 시간/정확한 장소/음식 또는 음료 준비"
         },
         {
           "id": "topic-10-celebrity-rp1",
@@ -1774,15 +1660,14 @@ window.OPIC_DATA = {
           "question": "좋아하는 유명인을 만났다고 가정하고 질문을 해보세요.",
           "status": "선택",
           "answer": [
-            "Hi, it's nice to meet you. I have a few questions.",
-            "When did you start your career?",
-            "What do you like most about your job?",
-            "What do you usually do in your free time?",
-            "Do you have any plans for this year?",
-            "Okay, that sounds great.",
-            "Thank you for your time."
+            "Hi, it's nice to meet you.",
+            "I really enjoy your work.",
+            "When did you first become interested in it?",
+            "What part of your work do you enjoy most?",
+            "And what would you like to try next?",
+            "Thank you for answering my questions."
           ],
-          "hint": "greeting → career start → favorite part → free time → plans → thanks"
+          "hint": "유명인에게 인사 → 일을 시작한 계기/가장 좋은 점/다음에 해보고 싶은 것"
         }
       ]
     },
@@ -1804,7 +1689,7 @@ window.OPIC_DATA = {
             "The rooms are clean, quiet, and cozy.",
             "Some hotels have a really nice view, like an ocean view.",
             "They are nice places to rest.",
-            "So, yeah, many people stay at hotels when they travel."
+            "Many people stay at hotels when they travel."
           ],
           "hint": "many hotels → popular places/downtown → lobby/restaurant/rooms → clean/quiet/cozy → ocean view → rest"
         },
@@ -1814,15 +1699,13 @@ window.OPIC_DATA = {
           "question": "호텔에 도착하면 보통 무엇을 하는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, when I arrive at a hotel, I go to the front desk first.",
-            "I check in and get my room key.",
-            "Then, I go to my room and put down my bags.",
-            "I usually check the room and look out the window.",
-            "If the room has a nice view, I sit near the window for a while.",
-            "After that, I just sit there and relax.",
-            "So, yeah, that's what I usually do at a hotel."
+            "When I arrive at a hotel, I go to the front desk and check in.",
+            "I show my ID and get my room key.",
+            "Then I take my bag upstairs and check whether the room is clean.",
+            "I also look at the view and find out when I need to check out.",
+            "After that, I can leave my bag and go out for a walk."
           ],
-          "hint": "front desk → check in/key → room/bags → check room/window → nice view → sit/relax"
+          "hint": "호텔 도착 → 프런트 체크인/신분증·키 → 객실 상태·전망·체크아웃 시간 확인 → 산책"
         },
         {
           "id": "topic-11-q3",
@@ -1830,15 +1713,13 @@ window.OPIC_DATA = {
           "question": "가장 최근에 호텔에 묵었던 경험을 처음부터 끝까지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I stayed at a hotel near the beach a few weeks ago.",
-            "I went there by myself to get some rest.",
-            "The hotel was quiet, cozy, and not too crowded.",
-            "My room had a really nice ocean view.",
-            "I found a nice place to sit near the window.",
-            "I just sat there and relaxed.",
-            "So, yeah, I felt really comfortable there."
+            "A few weeks ago, I took a train to Busan and stayed at a hotel near Haeundae Beach.",
+            "I checked in, left my bag in the room, and went for a walk by the sea.",
+            "Later, I came back and looked at the ocean from my window.",
+            "The next morning, I checked out and headed to the station.",
+            "The room was quiet, so I got a good rest."
           ],
-          "hint": "few weeks ago/beach → alone/rest → quiet/cozy/not crowded → ocean view → window seat → relax/comfortable"
+          "hint": "최근 부산 여행 → 해변 근처 호텔 체크인 → 산책/객실 바다 전망 → 다음 날 체크아웃"
         },
         {
           "id": "topic-11-q4",
@@ -1846,15 +1727,13 @@ window.OPIC_DATA = {
           "question": "기억에 남는 호텔과 그 이유를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, my most memorable hotel was near the beach.",
-            "I went there by myself a few weeks ago.",
-            "The hotel was quiet, cozy, and not too crowded.",
-            "My room had a really nice ocean view.",
-            "I found a nice place to sit near the window.",
-            "I just sat there and relaxed.",
-            "So, yeah, I felt really comfortable there."
+            "A hotel near Haeundae Beach is the one I remember best.",
+            "My room had a window facing the sea, and I could hear the waves when I opened it.",
+            "I sat by the window for a while after walking outside.",
+            "The room itself was simple, but the view made the stay special.",
+            "I would like to stay near the beach again."
           ],
-          "hint": "memorable hotel/beach → alone/few weeks ago → quiet/cozy/not crowded → ocean view → window seat → relax/comfortable"
+          "hint": "기억에 남는 호텔=해운대 근처 → 객실 바다 전망/파도 소리 → 단순한 객실이지만 특별"
         },
         {
           "id": "topic-11-q5",
@@ -1862,13 +1741,12 @@ window.OPIC_DATA = {
           "question": "호텔을 예약하기 전에 무엇을 확인하고 준비하나요?",
           "status": "필수",
           "answer": [
-            "Well, before I book a hotel, I usually check a few things.",
+            "Before I book a hotel, I usually check a few things.",
             "First, I check the location and the price.",
             "Then I look at some pictures of the rooms.",
             "I usually look for a quiet room with a nice view.",
             "I also check if breakfast and parking are included.",
-            "After that, I book the room online.",
-            "So, yeah, I like to keep things simple."
+            "After that, I book the room online."
           ],
           "hint": "before booking → location/price → room pictures → quiet/nice view → breakfast/parking → online booking"
         },
@@ -1883,8 +1761,7 @@ window.OPIC_DATA = {
             "I was like, \"Oh no, what should I do?\"",
             "So I went back to the front desk.",
             "A staff member checked the key and gave me a new one.",
-            "Then I went back to my room and relaxed.",
-            "So, yeah, everything was fine in the end."
+            "Then I went back to my room and relaxed."
           ],
           "hint": "hotel problem → room key failed → worried → front desk → new key → room/relax → solved"
         }
@@ -1908,7 +1785,7 @@ window.OPIC_DATA = {
             "So I know what to expect.",
             "On the other hand, local restaurants have their own menus and styles.",
             "Sometimes, I find really good food there.",
-            "So, yeah, chain restaurants are familiar, but local restaurants are more interesting."
+            "Chain restaurants are familiar, but local restaurants are more interesting."
           ],
           "hint": "both restaurants → biggest difference → chain/same menu and taste → know what to expect → local/own menu and style → interesting"
         },
@@ -1918,13 +1795,13 @@ window.OPIC_DATA = {
           "question": "건강을 중요하게 생각하는 사람들 때문에 음식점 메뉴가 어떻게 바뀌고 있나요?",
           "status": "필수",
           "answer": [
-            "Well, restaurant menus have changed a little.",
+            "Restaurant menus have changed a little.",
             "These days, many people care more about their health.",
             "So, restaurants offer more salads and food with fresh vegetables.",
             "Some places also have food with less sugar or less salt.",
             "I think this is a good change.",
             "People can eat out and choose healthier food.",
-            "So, yeah, people have more choices at restaurants now."
+            "People have more choices at restaurants now."
           ],
           "hint": "menus changed → health interest → salads/vegetables → less sugar/salt → good change → healthier choice"
         },
@@ -1934,15 +1811,13 @@ window.OPIC_DATA = {
           "question": "본인이 좋아하는 음식점을 자세히 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my favorite restaurant is near my home.",
-            "It's small, cozy, and not too crowded.",
-            "It has big windows, so I can easily look outside.",
-            "I can usually find a nice seat by the window.",
-            "The staff members are kind and helpful.",
-            "It's a nice place to eat and relax.",
-            "So, yeah, I feel really comfortable there."
+            "My favorite restaurant is a small pasta place near my home.",
+            "It has just a few tables, so it usually feels calm.",
+            "The staff are friendly, and I can order the pasta I like without thinking too much.",
+            "I sometimes go there after a busy day.",
+            "It is a simple place, but the food and the quiet atmosphere make me want to return."
           ],
-          "hint": "near home → small/cozy/not crowded → big windows → window seat → kind staff → eat/relax → comfortable"
+          "hint": "동네의 작은 파스타 식당 → 적은 테이블/조용함 → 친절한 직원/좋아하는 메뉴"
         },
         {
           "id": "topic-12-q4",
@@ -1950,15 +1825,13 @@ window.OPIC_DATA = {
           "question": "음식점에 가면 보통 무엇을 주문하고 무엇을 하나요?",
           "status": "필수",
           "answer": [
-            "Well, when I go to a restaurant, I usually go alone.",
-            "I order pasta and something to drink.",
-            "Then I find a nice seat by the window.",
-            "You know, I look outside and check my phone for a while.",
-            "When the food comes, I take my time and enjoy it.",
-            "I don't really do anything special.",
-            "So, yeah, that is what I usually do at a restaurant."
+            "When I go to a restaurant, I usually look at the menu before I order.",
+            "I often choose pasta and a drink.",
+            "If I am with a friend, we talk while we wait for the food.",
+            "When it comes, I take my time and enjoy the meal.",
+            "Before I leave, I pay the bill and thank the staff."
           ],
-          "hint": "restaurant/alone → pasta/drink → window seat → outside/phone → enjoy food → nothing special"
+          "hint": "음식점에서 메뉴 확인 → 파스타·음료 주문 → 친구와 기다리며 대화 → 식사·계산"
         },
         {
           "id": "topic-12-q5",
@@ -1971,8 +1844,7 @@ window.OPIC_DATA = {
             "I was like, \"Oh no, this is not my order.\"",
             "So I talked to a staff member.",
             "They changed it right away.",
-            "After that, I ate my food and relaxed.",
-            "So, yeah, everything was fine in the end."
+            "After that, I ate my food and relaxed."
           ],
           "hint": "restaurant → wrong food → 당황 → staff member → changed → eat/relax → solved"
         }
@@ -1996,7 +1868,7 @@ window.OPIC_DATA = {
             "I usually recycle near my apartment.",
             "It's simple, but sometimes it takes a little time.",
             "Still, I think it is important.",
-            "So, yeah, most people recycle regularly."
+            "Most people recycle regularly."
           ],
           "hint": "common in Korea → separate four types → different bins → near apartment → simple/important"
         },
@@ -2006,13 +1878,12 @@ window.OPIC_DATA = {
           "question": "집에서 보통 재활용하는 과정을 순서대로 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I usually recycle once or twice a week.",
+            "I usually recycle once or twice a week.",
             "First, I collect paper, plastic, glass, and cans at home.",
             "Then, I put them in separate bags.",
             "After that, I take them to the recycling area near my apartment.",
             "I put each item in the right bin.",
-            "It doesn't take very long.",
-            "So, yeah, that is how I recycle."
+            "It doesn't take very long."
           ],
           "hint": "once/twice a week → collect → separate bags → recycling area → right bins → done"
         },
@@ -2027,8 +1898,7 @@ window.OPIC_DATA = {
             "I was like, \"Oh no, what should I do?\"",
             "So I waited until the next morning.",
             "Then I went back and put everything in the right bins.",
-            "It didn't take very long.",
-            "So, yeah, everything was fine in the end."
+            "It didn't take very long."
           ],
           "hint": "recycling problem → full bins → worried → next morning → right bins → solved"
         },
@@ -2038,13 +1908,13 @@ window.OPIC_DATA = {
           "question": "과거와 현재의 재활용 방식을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, recycling has changed a lot.",
+            "Recycling has changed a lot.",
             "In the past, people didn't separate everything carefully.",
             "There were fewer bins, and recycling was not easy.",
             "But these days, there are different bins for paper, plastic, glass, and cans.",
             "People know more about recycling now.",
             "It is easier and more common these days.",
-            "So, yeah, recycling is very different now."
+            "Recycling is very different now."
           ],
           "hint": "changed a lot → past/not careful/fewer bins → now/different bins → know more → easier/common"
         }
@@ -2068,7 +1938,7 @@ window.OPIC_DATA = {
             "There are chairs, so people can sit and wait.",
             "The staff members are kind and helpful.",
             "I don't go there often because I use a banking app.",
-            "So, yeah, the bank is simple and convenient."
+            "The bank is simple and convenient."
           ],
           "hint": "near home → clean/quiet → ATMs/counter → chairs → helpful staff → banking app"
         },
@@ -2084,7 +1954,7 @@ window.OPIC_DATA = {
             "Then, I talked to a staff member.",
             "They checked my ID and helped me right away.",
             "It didn't take very long.",
-            "So, yeah, everything was easy and comfortable."
+            "Everything was easy and comfortable."
           ],
           "hint": "few weeks ago → new card → take number → staff → check ID → quick/easy"
         },
@@ -2094,13 +1964,12 @@ window.OPIC_DATA = {
           "question": "은행 계좌를 개설하는 방법을 순서대로 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, opening a bank account is pretty simple.",
+            "Opening a bank account is pretty simple.",
             "First, you go to a bank with your ID.",
             "Then, you take a number and wait.",
             "When your number is called, you talk to a staff member.",
             "You fill out a form and choose a password.",
-            "After that, you get your bank card.",
-            "So, yeah, that is how you open a bank account."
+            "After that, you get your bank card."
           ],
           "hint": "simple → ID → number/wait → staff → form/password → bank card"
         },
@@ -2110,13 +1979,13 @@ window.OPIC_DATA = {
           "question": "과거와 현재의 은행 이용 방식을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, banking has changed a lot.",
+            "Banking has changed a lot.",
             "In the past, people had to go to a bank for almost everything.",
             "They waited in line and talked to a staff member.",
             "But these days, people use banking apps on their phones.",
             "They can send money and check their accounts at home.",
             "It is faster and much easier now.",
-            "So, yeah, banking is very different these days."
+            "Banking is very different these days."
           ],
           "hint": "changed a lot → past/bank/line → now/apps → send money/check account → faster/easier"
         },
@@ -2126,13 +1995,13 @@ window.OPIC_DATA = {
           "question": "사람들은 은행에서 주로 무엇을 하며, 은행 직원들은 어떻게 도와주나요?",
           "status": "필수",
           "answer": [
-            "Well, people do many things at a bank.",
+            "People do many things at a bank.",
             "They open accounts, get bank cards, and send money.",
             "Some people also use ATMs to get cash.",
             "When they need help, they talk to a staff member.",
             "The staff members check their ID and explain what to do.",
             "These days, people can do many simple things on a banking app.",
-            "So, yeah, bank staff help people when they need it."
+            "Bank staff help people when they need it."
           ],
           "hint": "bank tasks → accounts/cards/send money → ATM/cash → staff help → ID/explain → banking app"
         }
@@ -2156,7 +2025,7 @@ window.OPIC_DATA = {
             "I also use it to find information and take pictures.",
             "It's small and easy to use.",
             "I would feel uncomfortable without it.",
-            "So, yeah, my phone is really important to me."
+            "My phone is really important to me."
           ],
           "hint": "phone → every day → YouTube/music/messages → information/pictures → small/easy → important"
         },
@@ -2166,13 +2035,13 @@ window.OPIC_DATA = {
           "question": "과거와 현재의 휴대폰이나 전자제품을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, electronic devices have changed a lot.",
+            "Electronic devices have changed a lot.",
             "In the past, phones were mainly for calls and text messages.",
             "They were simple, and people didn't use them all day.",
             "But these days, smartphones can do almost everything.",
             "People watch videos, listen to music, and use banking apps.",
             "They are faster and much easier to use now.",
-            "So, yeah, phones are very different these days."
+            "Phones are very different these days."
           ],
           "hint": "changed a lot → past/calls/texts → now/everything → videos/music/banking → faster/easier"
         },
@@ -2182,15 +2051,14 @@ window.OPIC_DATA = {
           "question": "전자기기에 문제가 생겼다가 해결한 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one problem I had with my phone.",
-            "I was checking my phone, and suddenly it turned off.",
-            "I tried to turn it back on, but it didn't work.",
-            "I was like, \"Oh no, what should I do?\"",
-            "I was so worried, so I pressed the power button again and again.",
-            "Then, luckily, my phone turned back on.",
-            "So, yeah, everything was fine in the end."
+            "One day, my phone suddenly turned off while I was using it.",
+            "I pressed the power button, but nothing happened.",
+            "I got worried because I needed to contact a friend.",
+            "So I charged it for a while and tried again.",
+            "Luckily, it turned back on, and I could send my message.",
+            "Since then, I try to check the battery before I leave home."
           ],
-          "hint": "phone off → fail → worried → power button → phone on → solved"
+          "hint": "휴대폰 갑자기 꺼짐 → 버튼 안 됨 → 충전 후 다시 켜짐 → 친구에게 연락/배터리 확인"
         },
         {
           "id": "topic-15-q4",
@@ -2198,13 +2066,13 @@ window.OPIC_DATA = {
           "question": "기술이 사람들의 생활을 어떻게 바꾸었나요?",
           "status": "필수",
           "answer": [
-            "Well, technology has changed people's lives a lot.",
+            "Technology has changed people's lives a lot.",
             "These days, people can do many things on their phones.",
             "They can shop, send money, and talk to other people.",
             "They can also find information very quickly.",
             "It saves a lot of time and makes life easier.",
             "Of course, people sometimes use their phones too much.",
-            "So, yeah, technology is helpful, but we should use it carefully."
+            "Technology is helpful, but we should use it carefully."
           ],
           "hint": "changed lives → phone tasks → shop/money/talk → information → saves time → use carefully"
         },
@@ -2214,13 +2082,13 @@ window.OPIC_DATA = {
           "question": "요즘 AI 제품이나 서비스에 대해 사람들이 어떤 관심을 가지고 있나요?",
           "status": "필수",
           "answer": [
-            "Well, AI products are becoming more common these days.",
+            "AI products are becoming more common these days.",
             "People use AI on their phones and computers.",
             "It can answer questions, find information, and help with work.",
             "It's fast and easy to use.",
             "But sometimes the answer can be wrong.",
             "So I think people should check important information.",
-            "So, yeah, AI is useful, but we need to use it carefully."
+            "AI is useful, but we need to use it carefully."
           ],
           "hint": "AI common → phone/computer → questions/information/work → fast/easy → can be wrong → check carefully"
         },
@@ -2230,13 +2098,13 @@ window.OPIC_DATA = {
           "question": "한국의 중요한 산업 하나와 최근 변화를 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "Well, the technology industry is very important in Korea.",
+            "The technology industry is very important in Korea.",
             "Many companies make phones, computers, and other electronic products.",
             "People use these products every day.",
             "These days, companies also make more AI products.",
             "The products are faster and easier to use.",
             "I think this industry will become more important.",
-            "So, yeah, technology is a big part of life in Korea."
+            "Technology is a big part of life in Korea."
           ],
           "hint": "technology industry → phones/computers → daily use → AI products → faster/easier → more important"
         }
@@ -2254,15 +2122,13 @@ window.OPIC_DATA = {
           "question": "한국의 지형과 대표적인 풍경을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, Korea has many mountains and rivers.",
-            "There are also many cities near the coast.",
-            "The country is not very large, so it's easy to travel around.",
-            "You can see mountains, beaches, and big cities.",
-            "My favorite place is Busan because it has a nice ocean view.",
-            "I can find a place to sit near the beach.",
-            "I just sit there and relax."
+            "Korea has many mountains, and there are rivers running through several cities.",
+            "It is also surrounded by the sea on three sides.",
+            "So you can see very different landscapes within one country.",
+            "For example, Seoul has a river and mountains nearby, while Busan is known for its beaches.",
+            "I like that I can visit both a mountain area and the coast without traveling very far."
           ],
-          "hint": "mountains/rivers → coastal cities → easy travel → beaches/cities → Busan/ocean view → sit/relax"
+          "hint": "한국 지형=산/강/삼면의 바다 → 서울의 강과 산/부산 해변 → 다양한 풍경"
         },
         {
           "id": "topic-16-q2",
@@ -2270,13 +2136,12 @@ window.OPIC_DATA = {
           "question": "한국의 대도시와 작은 지역을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, big cities and small towns in Korea are very different.",
+            "Big cities and small towns in Korea are very different.",
             "Big cities have many tall buildings, stores, and people.",
             "They are convenient, but they are usually crowded.",
             "Small towns have more mountains, trees, and open space.",
             "They are quiet, cozy, and not too crowded.",
-            "I prefer small towns because I can relax there.",
-            "So, yeah, that is the biggest difference."
+            "I prefer small towns because I can relax there."
           ],
           "hint": "big city vs small town → buildings/stores/crowds → mountains/trees → quiet/cozy → prefer small town"
         },
@@ -2286,13 +2151,13 @@ window.OPIC_DATA = {
           "question": "본인이 사는 지역이 과거와 비교해 어떻게 변했나요?",
           "status": "필수",
           "answer": [
-            "Well, my area has changed a lot.",
+            "My area has changed a lot.",
             "In the past, there were fewer buildings and more open space.",
             "It was quiet, but there were not many places to go.",
             "But these days, there are more apartments, stores, and roads.",
             "The area is more convenient, but it's also more crowded.",
             "I miss the quiet streets sometimes.",
-            "So, yeah, my area is very different now."
+            "My area is very different now."
           ],
           "hint": "area changed → past/fewer buildings/open space → now/apartments/stores/roads → convenient/crowded"
         },
@@ -2302,13 +2167,13 @@ window.OPIC_DATA = {
           "question": "사람들이 대도시에 몰리면서 생기는 문제를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, one big issue in Korea is that too many people live in big cities.",
+            "One big issue in Korea is that too many people live in big cities.",
             "Many people move there for work or school.",
             "So, housing is expensive, and the roads are crowded.",
             "Small towns have fewer jobs and fewer young people.",
             "I think we need more jobs in different areas.",
             "That would make life easier for many people.",
-            "So, yeah, this is an important issue in Korea."
+            "This is an important issue in Korea."
           ],
           "hint": "big-city issue → work/school → expensive housing/crowded roads → small towns/fewer jobs → need jobs elsewhere"
         },
@@ -2318,15 +2183,13 @@ window.OPIC_DATA = {
           "question": "한국의 지형과 관련해 사람들이 즐기는 야외 활동을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, Korea has many mountains, rivers, and beaches.",
-            "So, people can enjoy many outdoor activities.",
-            "Some people go hiking in the mountains.",
-            "Others take short walks in parks or go to the beach.",
-            "I like going to the beach because it has a nice ocean view.",
-            "I find a nice place to sit and relax.",
-            "So, yeah, Korea has many nice places to spend time outside."
+            "Because Korea has mountains, rivers, and beaches, people have many choices for outdoor activities.",
+            "Some go hiking in the mountains.",
+            "Others walk along a river or ride a bike there.",
+            "At the coast, people can walk by the sea and enjoy the view.",
+            "I prefer an easy walk rather than a long hike, so I often choose a park or a beach."
           ],
-          "hint": "mountains/rivers/beaches → outdoor activities → hiking → parks/beach → ocean view → sit/relax"
+          "hint": "산=등산 → 강=산책/자전거 → 해변=바닷가 걷기 → 나는 가벼운 산책 선호"
         }
       ]
     },
@@ -2348,7 +2211,7 @@ window.OPIC_DATA = {
             "Fall is cool and comfortable.",
             "Winter is cold and sometimes snowy.",
             "I like fall the most because it's comfortable outside.",
-            "So, yeah, the weather changes a lot during the year."
+            "The weather changes a lot during the year."
           ],
           "hint": "four seasons → spring/warm → summer/hot/rainy → fall/cool → winter/cold → favorite fall"
         },
@@ -2358,15 +2221,13 @@ window.OPIC_DATA = {
           "question": "가장 좋아하는 계절과 그 계절에 하는 일을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my favorite season is fall.",
-            "The weather is cool and comfortable.",
-            "It's not too hot and not too cold.",
-            "I usually go to a park near my home.",
-            "I find a nice bench with a good view.",
-            "Then I listen to music and check my phone.",
-            "I just sit there and relax."
+            "Fall is my favorite season because the air is cool and comfortable.",
+            "I can walk outside without feeling too hot or too cold.",
+            "On weekends, I often go to the park near my home.",
+            "I walk for about twenty minutes and then sit on a bench with a coffee.",
+            "The nice weather makes even a short walk feel refreshing."
           ],
-          "hint": "fall → cool/comfortable → not hot/cold → park → bench/view → music/phone → relax"
+          "hint": "가을 좋아함=선선함 → 주말 공원 20분 산책/커피 → 짧은 산책도 상쾌"
         },
         {
           "id": "topic-17-q3",
@@ -2374,15 +2235,14 @@ window.OPIC_DATA = {
           "question": "날씨 때문에 계획이 바뀌었던 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one time the weather changed my plans.",
-            "I was going to go to the beach, but it suddenly started raining.",
-            "I was like, \"Oh no, what should I do?\"",
-            "So I stayed at home instead.",
-            "I watched YouTube, listened to music, and ordered some food.",
-            "I just sat on my sofa and relaxed.",
-            "So, yeah, everything was fine in the end."
+            "Once, I planned to visit Busan with a friend, but it started raining heavily that morning.",
+            "We wanted to walk by the beach, so I called my friend and suggested the next weekend.",
+            "My friend agreed.",
+            "I stayed home that day and watched a video instead.",
+            "When we finally went to Busan, the weather was clear.",
+            "Changing the date worked out well."
           ],
-          "hint": "beach plan → rain → worried → stay home → YouTube/music/food → sofa/relax → solved"
+          "hint": "부산 해변 갈 계획 → 당일 큰비 → 친구에게 전화해 다음 주말로 변경 → 그날 집에서 쉬고 맑은 날 여행"
         },
         {
           "id": "topic-17-q4",
@@ -2390,13 +2250,13 @@ window.OPIC_DATA = {
           "question": "과거와 비교해 최근 날씨가 어떻게 달라졌다고 생각하나요?",
           "status": "필수",
           "answer": [
-            "Well, the weather feels a little different these days.",
+            "The weather feels a little different these days.",
             "Summers are hotter, and we get heavy rain more often.",
             "Winters also feel shorter than before.",
             "Because of this, people worry about the weather more.",
             "They check the weather before they go outside.",
             "I do that too because I don't want my plans to change.",
-            "So, yeah, the weather is harder to predict now."
+            "The weather is harder to predict now."
           ],
           "hint": "weather different → hotter summers/heavy rain → shorter winters → worry/check weather → harder to predict"
         }
@@ -2419,8 +2279,7 @@ window.OPIC_DATA = {
             "Then, we choose a place and time.",
             "We usually meet at a cafe or a restaurant.",
             "Before I leave, I send a short message.",
-            "It's simple and easy.",
-            "So, yeah, that is how I make plans."
+            "It's simple and easy."
           ],
           "hint": "phone → ask free time → place/time → cafe/restaurant → message → simple/easy"
         },
@@ -2430,15 +2289,14 @@ window.OPIC_DATA = {
           "question": "약속을 바꾸거나 취소했던 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one time I had to change my plans.",
-            "I was going to meet my friend, but something came up.",
-            "I called my friend and said I was really sorry.",
-            "I asked, \"Can we meet tomorrow instead?\"",
-            "My friend said that was okay.",
-            "We met the next day and had a good time.",
-            "So, yeah, everything was fine in the end."
+            "Once, I had to change a plan to meet my friend because I was feeling sick.",
+            "I sent a message as soon as I knew I could not go.",
+            "I apologized and asked if we could meet the next weekend.",
+            "My friend said that was fine, and we chose a new time.",
+            "We met later and had a nice dinner.",
+            "I was glad I told my friend early."
           ],
-          "hint": "change plans → something came up → call/sorry → tomorrow → friend agrees → meet next day"
+          "hint": "몸이 안 좋아 약속 변경 → 바로 연락/사과 → 다음 주말 제안 → 나중에 저녁 식사"
         },
         {
           "id": "topic-18-q3",
@@ -2446,13 +2304,13 @@ window.OPIC_DATA = {
           "question": "과거와 현재의 약속 잡는 방식을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, making plans has changed a little.",
+            "Making plans has changed a little.",
             "In the past, people usually called each other.",
             "They had to choose a place and time before they left home.",
             "But these days, people send messages on their phones.",
             "They can change the time or place very easily.",
             "It is faster and much easier now.",
-            "So, yeah, making plans is more convenient these days."
+            "Making plans is more convenient these days."
           ],
           "hint": "changed → past/calls/fixed plan → now/messages/change easily → faster/convenient"
         },
@@ -2462,13 +2320,12 @@ window.OPIC_DATA = {
           "question": "보통 가족이나 친구와 갖는 모임을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I usually have small gatherings with my family or friends.",
+            "I usually have small gatherings with my family or friends.",
             "We often meet at a restaurant or someone's home.",
             "We order some food and sit together.",
             "We talk about our lives and take a few pictures.",
             "I don't like big or crowded parties.",
-            "I prefer small and quiet gatherings.",
-            "So, yeah, that is how I spend special days."
+            "I prefer small and quiet gatherings."
           ],
           "hint": "small gathering → restaurant/home → food → talk/pictures → dislike crowds → quiet gathering"
         },
@@ -2478,15 +2335,13 @@ window.OPIC_DATA = {
           "question": "기억에 남는 모임이나 기념일 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "Actually, I remember one really special day at the park.",
-            "About three years ago, my friends called me and asked me to meet them there.",
-            "When I got there, they were waiting for me with a cake and some gifts.",
-            "Then they started singing a birthday song.",
-            "I was really surprised, and I almost cried.",
-            "I mean, I was so thankful to my friends.",
-            "So, yeah, I'll never forget that day."
+            "One small gathering I remember was a dinner with my friends at a restaurant.",
+            "We had all been busy, so it was hard to find a day when everyone was free.",
+            "When we finally met, we ordered food and talked for hours.",
+            "One friend brought old pictures on their phone, and we laughed about them.",
+            "It was not a big party, but I was happy we made time to meet."
           ],
-          "hint": "special park day → friends call → cake/gifts → birthday song → surprised/thankful → unforgettable"
+          "hint": "바빴던 친구들과 식당 모임 → 오래 이야기/옛 사진 → 큰 파티는 아니어도 기억에 남음"
         },
         {
           "id": "topic-18-q6",
@@ -2494,13 +2349,13 @@ window.OPIC_DATA = {
           "question": "한국의 대표적인 휴일이나 명절과 사람들이 하는 일을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, one important holiday in Korea is Chuseok.",
+            "One important holiday in Korea is Chuseok.",
             "People usually spend time with their families.",
             "They eat special food and talk together.",
             "Some people visit their hometowns.",
             "I usually stay at home and have a quiet meal with my family.",
             "I don't do anything special.",
-            "So, yeah, Chuseok is a family holiday in Korea."
+            "Chuseok is a family holiday in Korea."
           ],
           "hint": "Chuseok → family time → special food/talk → hometown → quiet family meal"
         },
@@ -2515,8 +2370,7 @@ window.OPIC_DATA = {
             "The bus was late, and I had to wait for a long time.",
             "I was like, \"Oh no, what should I do?\"",
             "So I called my family and told them I would be late.",
-            "They said it was okay.",
-            "So, yeah, everything was fine in the end."
+            "They said it was okay."
           ],
           "hint": "holiday visit → crowded roads → late bus → worried → call family → solved"
         }
