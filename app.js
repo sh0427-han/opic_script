@@ -68,6 +68,8 @@
   };
 
   const getVisibleTopics = () => data.topics
+    .slice()
+    .sort((first, second) => first.order - second.order)
     .filter((topic) => state.topic === "all" || topic.id === state.topic)
     .map((topic) => ({
       ...topic,
@@ -119,6 +121,7 @@
         ${filterGroups.map((group) => {
           const chips = data.topics
             .filter((topic) => topic.source === group.id)
+            .sort((first, second) => first.order - second.order)
             .map((topic) => chipHtml({ id: topic.id, title: topic.title }))
             .join("");
           return `
