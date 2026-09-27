@@ -1,8 +1,8 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v16",
+  "version": "v17",
   "updated": "2026-09-27",
-  "questionCount": 84,
+  "questionCount": 85,
   "survey": {
     "title": "시험 전 설문 선택",
     "note": "현재 스크립트의 연습 주제를 만든 개인 선택 기록입니다. 실제 시험 화면의 문구가 조금 다르면 같은 의미의 항목을 선택합니다.",
@@ -1527,6 +1527,30 @@ window.OPIC_DATA = {
             "So, yeah, I felt really comfortable there."
           ],
           "hint": "memorable hotel/beach → alone/few weeks ago → quiet/cozy/not crowded → ocean view → window seat → relax/comfortable"
+        }
+      ]
+    },
+    {
+      "id": "topic-12",
+      "order": 12,
+      "title": "음식점",
+      "source": "unexpected",
+      "questions": [
+        {
+          "id": "topic-12-q1",
+          "number": "Q1",
+          "question": "[실제 시험 15번] 체인 음식점과 로컬 음식점에 가본 경험을 비교하고, 가장 큰 차이점을 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, I have been to both chain restaurants and local restaurants.",
+            "The biggest difference is that chain restaurants are more familiar.",
+            "They usually have the same menu, and the food tastes almost the same.",
+            "So I know what to expect.",
+            "On the other hand, local restaurants have their own menus and styles.",
+            "Sometimes, I find really good food there.",
+            "So, yeah, chain restaurants are familiar, but local restaurants are more interesting."
+          ],
+          "hint": "both restaurants → biggest difference → chain/same menu and taste → know what to expect → local/own menu and style → interesting"
         }
       ]
     }
