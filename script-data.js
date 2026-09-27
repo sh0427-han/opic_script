@@ -1,11 +1,11 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v21",
+  "version": "v22",
   "updated": "2026-09-27",
   "questionCount": 142,
   "survey": {
     "title": "시험 전 설문 선택",
-    "note": "현재 스크립트의 연습 주제를 만든 개인 선택 기록입니다. 실제 시험 화면의 문구가 조금 다르면 같은 의미의 항목을 선택합니다.",
+    "note": "현재 스크립트의 연습 주제를 만든 선택 기록입니다. 실제 시험 화면의 문구가 다르면 같은 의미의 항목을 선택하세요. 운동 항목에는 '조깅·걷기'와 '운동을 전혀 하지 않음'이 함께 기록되어 있으니, 시험 전 본인의 실제 선택을 확인하세요.",
     "settings": [
       {
         "label": "목표 등급",
@@ -434,15 +434,13 @@ window.OPIC_DATA = {
           "question": "본인 동네의 커피숍을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my favorite cafe is near my home.",
-            "It's small, cozy, and not too crowded.",
-            "It has big windows, so I can easily look outside.",
-            "I can always find a nice seat by the window.",
-            "I really like the feeling there.",
-            "It's a nice place to sit and relax.",
-            "I really like that cafe."
+            "My favorite cafe is a small place near my home.",
+            "It has big windows and a few tables by the wall.",
+            "I usually order an iced coffee and sit by the window.",
+            "It is quiet enough for me to listen to music or talk with a friend.",
+            "I like the cafe because I can take a short break there without going far."
           ],
-          "hint": "집 근처 favorite cafe → 작고 조용함 → 큰 창문/밖 보기 → 창가 자리 → 느낌 → 앉아서 휴식 → 선호"
+          "hint": "집 근처 작은 카페 → 큰 창/몇 개의 테이블 → 아이스커피·창가 → 음악이나 친구 대화 → 짧은 휴식"
         },
         {
           "id": "topic-3-q2",
@@ -577,15 +575,14 @@ window.OPIC_DATA = {
           "question": "본인이 즐겨 가는 술집을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, my favorite pub is near my home.",
-            "It's small, cozy, and not too crowded.",
-            "It has big windows, so I can easily look outside.",
-            "I can always find a nice seat by the window.",
-            "I really like the feeling there.",
-            "It's a nice place to sit and relax.",
-            "I really like that pub."
+            "My favorite pub is near my home.",
+            "It has small tables, soft music, and friendly staff.",
+            "I usually go there with one or two friends.",
+            "We order drinks and talk because we can hear each other easily.",
+            "It is not a place for a big party.",
+            "I like it because we can have a quiet evening and go home early."
           ],
-          "hint": "집 근처 favorite pub → 작고 조용함 → 큰 창문/밖 보기 → 창가 자리 → 느낌 → 앉아서 휴식 → 선호"
+          "hint": "집 근처 펍 → 작은 테이블/조용한 음악/친절한 직원 → 친구 한두 명과 대화 → 일찍 귀가"
         },
         {
           "id": "topic-4-q2",
@@ -855,14 +852,13 @@ window.OPIC_DATA = {
           "question": "해변에 가기 전에 무엇을 준비하나요?",
           "status": "필수",
           "answer": [
-            "Before I go to the beach, I usually check a few things.",
-            "First, I check the time, the place, and the weather.",
-            "Then I check the route on my phone.",
-            "I also make sure my phone is fully charged.",
-            "If I need a ticket or a booking, I check it one more time.",
-            "I don't prepare too many things."
+            "Before I go to the beach, I check the weather and the wind.",
+            "I pack a hat, sunscreen, and a bottle of water.",
+            "Then I check how to get there on my phone.",
+            "If I plan to stay until evening, I take a light jacket too.",
+            "I do not bring much because I usually just walk and enjoy the sea."
           ],
-          "hint": "time/place/weather → route → phone charge → ticket/booking → simple"
+          "hint": "해변 준비 → 날씨·바람 확인 → 모자/선크림/물 → 이동 경로 → 저녁까지 있으면 얇은 겉옷"
         },
         {
           "id": "topic-6-q5",
@@ -968,14 +964,13 @@ window.OPIC_DATA = {
           "question": "여행 가기 전에 하는 준비를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Before I travel, I usually check a few things.",
-            "First, I check the time, the place, and the weather.",
-            "Then I check the route on my phone.",
-            "I also make sure my phone is fully charged.",
-            "If I need a ticket or a hotel booking, I check it one more time.",
-            "I don't prepare too many things."
+            "Before a trip to Busan, I book my train ticket and a hotel room.",
+            "Then I check the weather and pack clothes for one or two days.",
+            "I save the train time and hotel address on my phone.",
+            "I also decide which place I want to visit first.",
+            "That is usually enough for a short trip without too much planning."
           ],
-          "hint": "time/place/weather → route → phone charge → ticket/hotel → simple"
+          "hint": "부산 여행 준비 → 기차표/호텔 예약 → 날씨·옷 챙김 → 시간·주소 저장 → 첫 방문 장소 정함"
         },
         {
           "id": "topic-7-q5",
@@ -1256,14 +1251,12 @@ window.OPIC_DATA = {
           "question": "콘서트에 가기 전에 무엇을 준비하나요?",
           "status": "필수",
           "answer": [
-            "Before I go to a concert, I usually check a few things.",
-            "First, I check the time and the place.",
-            "Then I check the route on my phone.",
-            "I also make sure my phone is fully charged.",
-            "Of course, I check my ticket one more time.",
-            "I don't prepare too many things."
+            "Before a concert, I check the start time and the venue.",
+            "I make sure I have my ticket on my phone and charge the battery.",
+            "Then I look up the route so I can arrive early.",
+            "I take only a small bag because I do not want to carry much during the show."
           ],
-          "hint": "time/place → route → phone charge → ticket → simple"
+          "hint": "콘서트 준비 → 시작시간·공연장 → 모바일 티켓/휴대폰 충전 → 길 확인·일찍 도착 → 작은 가방"
         },
         {
           "id": "topic-9-q6",
