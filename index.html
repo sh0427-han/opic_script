@@ -19,13 +19,14 @@
         <p class="eyebrow">OPIc 5-5 · IM2</p>
         <h1>최소암기 스크립트</h1>
         <p class="hero__description">
-          공통 답변 흐름을 익히고, 질문에 맞는 핵심 내용만 바꿔 말하는
-          1인 설정 학습본입니다.
+          8개 답변 흐름과 7개 핵심 소재를 익힌 뒤, 질문에 맞게 바꿔 말하세요.
+          142개 답변은 막힐 때 보는 참고 예시입니다.
         </p>
         <div class="hero__stats" aria-label="학습 자료 요약">
-          <span><strong id="question-count">142</strong>개 문제</span>
-          <span><strong>18</strong>개 주제</span>
-          <span><strong>v22</strong> · 2026-09-27</span>
+          <span><strong>8</strong>개 공통 흐름</span>
+          <span><strong>7</strong>개 핵심 소재</span>
+          <span><strong id="question-count">142</strong>개 참고 문제</span>
+          <span><strong>v23</strong> · 2026-09-28</span>
         </div>
       </div>
     </header>
@@ -33,18 +34,29 @@
     <main id="main-content" class="page-shell">
       <section class="study-panel" aria-label="OPIc 학습 자료">
         <p class="study-tip">
-          142개 답변을 통째로 외우지 마세요. 질문의 기능과 한글 흐름을 보고
-          핵심 소재를 바꿔 말해 보세요.
+          첫 탭의 핵심 흐름과 소재부터 연습하세요. 전체 스크립트는
+          정답 원고가 아니라 표현이 막힐 때 보는 참고 자료입니다.
           <a href="https://github.com/sh0427-han/opic_script/blob/main/STUDY_GUIDE.md">최소암기 학습법 보기</a>
         </p>
         <div class="toolbar">
           <div class="tabs" role="tablist" aria-label="보기 방식">
             <button
-              id="scripts-tab"
+              id="core-tab"
               class="tab is-active"
               type="button"
               role="tab"
               aria-selected="true"
+              aria-controls="content"
+              data-view="core"
+            >
+              핵심 암기
+            </button>
+            <button
+              id="scripts-tab"
+              class="tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
               aria-controls="content"
               data-view="scripts"
             >
@@ -105,7 +117,7 @@
           id="content"
           class="content"
           role="tabpanel"
-          aria-labelledby="scripts-tab"
+          aria-labelledby="core-tab"
         ></div>
 
         <noscript>
@@ -117,7 +129,7 @@
     </main>
 
     <footer>
-      <p>OPIc 5-5 IM2 · 질문별 맞춤 1인 설정 통합본 · v22</p>
+      <p>OPIc 5-5 IM2 · 질문별 맞춤 1인 설정 통합본 · v23</p>
     </footer>
 
     <button id="scroll-top" class="scroll-top" type="button" aria-label="맨 위로">
