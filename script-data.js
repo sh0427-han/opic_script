@@ -1,8 +1,8 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v17",
+  "version": "v18",
   "updated": "2026-09-27",
-  "questionCount": 85,
+  "questionCount": 127,
   "survey": {
     "title": "시험 전 설문 선택",
     "note": "현재 스크립트의 연습 주제를 만든 개인 선택 기록입니다. 실제 시험 화면의 문구가 조금 다르면 같은 의미의 항목을 선택합니다.",
@@ -1455,6 +1455,202 @@ window.OPIC_DATA = {
             "Think about it and let me know."
           ],
           "hint": "sorry/can't go → something came up → someone else → cancel/refund → another day → think/let me know"
+        },
+        {
+          "id": "topic-10-travel-rp1",
+          "number": "TRAVEL-RP1",
+          "question": "국내여행을 위해 기차표 정보를 전화로 물어보세요.",
+          "status": "필수",
+          "answer": [
+            "Hi, I'm calling because I have a few questions.",
+            "I want to go to Busan this weekend.",
+            "What time does the train leave?",
+            "How much is one ticket?",
+            "Do you have any seats left?",
+            "Can I buy the tickets online?",
+            "Okay, that sounds good.",
+            "Thank you for your help."
+          ],
+          "hint": "Busan/weekend → train time → price → seats → online → thanks"
+        },
+        {
+          "id": "topic-10-travel-rp2",
+          "number": "TRAVEL-RP2",
+          "question": "국내여행을 갈 수 없게 되었습니다. 친구에게 설명하고 대안을 제시하세요.",
+          "status": "필수",
+          "answer": [
+            "Hey, it's me. I'm really sorry, but I can't go to Busan this weekend.",
+            "Something came up.",
+            "Can we go next weekend instead?",
+            "Or we can cancel the tickets and get a refund.",
+            "If not, you can go with someone else.",
+            "I'm really sorry about this.",
+            "Think about it and let me know."
+          ],
+          "hint": "sorry/can't go → something came up → next weekend → cancel/refund → someone else → think/let me know"
+        },
+        {
+          "id": "topic-10-travel-rp3",
+          "number": "TRAVEL-RP3",
+          "question": "여행 계획을 바꿨던 과거 경험을 말해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one time I had to change my travel plans.",
+            "I was going to Busan with my friend, but it suddenly started raining.",
+            "I was like, \"Oh no, what should I do?\"",
+            "So I called my friend and suggested next weekend.",
+            "We changed the date and went there later.",
+            "The weather was nice, and we had a good time.",
+            "So, yeah, everything was fine in the end."
+          ],
+          "hint": "Busan plan → rain → worried → call friend → next weekend → good trip → solved"
+        },
+        {
+          "id": "topic-10-house-rp1",
+          "number": "HOUSE-RP1",
+          "question": "부동산에 전화해서 집에 관한 정보를 물어보세요.",
+          "status": "필수",
+          "answer": [
+            "Hi, I'm calling because I have a few questions.",
+            "I want to rent an apartment.",
+            "How much is it each month?",
+            "How many rooms does it have?",
+            "Can I see it this weekend?",
+            "Can I park there?",
+            "Okay, that sounds good.",
+            "Thank you for your help."
+          ],
+          "hint": "rent apartment → monthly price → rooms → visit → parking → thanks"
+        },
+        {
+          "id": "topic-10-house-rp2",
+          "number": "HOUSE-RP2",
+          "question": "집의 창문이 고장 났습니다. 관리사무소에 문제를 설명하고 대안을 물어보세요.",
+          "status": "필수",
+          "answer": [
+            "Hi, I'm calling because there's a problem with my apartment.",
+            "The window is broken, and it doesn't close.",
+            "Can you check it for me?",
+            "Can someone fix it today?",
+            "If not, can they come tomorrow?",
+            "Okay, that sounds good.",
+            "Thank you for your help."
+          ],
+          "hint": "apartment problem → broken window → check → today → tomorrow → thanks"
+        },
+        {
+          "id": "topic-10-house-rp3",
+          "number": "HOUSE-RP3",
+          "question": "집에 문제가 생겼다가 해결한 경험을 말해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one problem I had at home.",
+            "The kitchen light suddenly stopped working.",
+            "I tried to turn it on again, but it didn't work.",
+            "I was like, \"Oh no, what should I do?\"",
+            "So I called the building office.",
+            "Someone came the next morning and fixed it.",
+            "So, yeah, everything was fine in the end."
+          ],
+          "hint": "home problem → kitchen light → fail → worried → building office → fixed → solved"
+        },
+        {
+          "id": "topic-10-friend-rp1",
+          "number": "FRIEND-RP1",
+          "question": "친구의 집이나 식물을 돌보기 전에 필요한 정보를 물어보세요.",
+          "status": "필수",
+          "answer": [
+            "Hey, it's me. Um, I have a few questions about your plants.",
+            "How often should I water them?",
+            "Where are they?",
+            "Do I need to open the window?",
+            "Is there anything else I should do?",
+            "Okay, sounds good.",
+            "See you later."
+          ],
+          "hint": "plants → water → location → window → anything else → close"
+        },
+        {
+          "id": "topic-10-friend-rp2",
+          "number": "FRIEND-RP2",
+          "question": "친구의 집에 들어갈 수 없습니다. 문제를 설명하고 대안을 제시하세요.",
+          "status": "필수",
+          "answer": [
+            "Hey, it's me. I'm sorry, but I can't get into your house.",
+            "The key doesn't work.",
+            "Can you tell me where another key is?",
+            "Or can you call someone who can help me?",
+            "If not, I can come back later.",
+            "I'm really sorry about this.",
+            "Think about it and let me know."
+          ],
+          "hint": "can't enter → key problem → another key → call someone → come later → think/let me know"
+        },
+        {
+          "id": "topic-10-friend-rp3",
+          "number": "FRIEND-RP3",
+          "question": "친구의 부탁을 처리하다가 문제가 생겼던 경험을 말해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one problem I had at my friend's house.",
+            "My friend asked me to water some plants.",
+            "But when I got there, the key didn't work.",
+            "I was like, \"Oh no, what should I do?\"",
+            "So I called my friend and found another key.",
+            "Then I went inside and watered the plants.",
+            "So, yeah, everything was fine in the end."
+          ],
+          "hint": "friend's house → water plants → key problem → worried → call → another key → solved"
+        },
+        {
+          "id": "topic-10-service-rp1",
+          "number": "SERVICE-RP1",
+          "question": "미용실이나 치과에 전화해서 예약 정보를 물어보세요.",
+          "status": "필수",
+          "answer": [
+            "Hi, I'm calling because I have a few questions.",
+            "I want to make an appointment this weekend.",
+            "What time do you open?",
+            "How much is it?",
+            "Do you have any time this afternoon?",
+            "Can I park there?",
+            "Okay, that sounds good.",
+            "Thank you for your help."
+          ],
+          "hint": "appointment → open time → price → available time → parking → thanks"
+        },
+        {
+          "id": "topic-10-service-rp2",
+          "number": "SERVICE-RP2",
+          "question": "미용실이나 치과 예약에 갈 수 없게 되었습니다. 사과하고 날짜를 바꿔보세요.",
+          "status": "필수",
+          "answer": [
+            "Hi, I'm really sorry, but I can't make it today.",
+            "Something came up.",
+            "Can I change my appointment to tomorrow?",
+            "Or how about this weekend?",
+            "If not, I can come another day.",
+            "I'm really sorry about this.",
+            "Is that okay?",
+            "Thank you for your help."
+          ],
+          "hint": "sorry/can't make it → something came up → tomorrow → weekend → another day → check/thanks"
+        },
+        {
+          "id": "topic-10-celebrity-rp1",
+          "number": "CELEBRITY-RP1",
+          "question": "좋아하는 유명인을 만났다고 가정하고 질문을 해보세요.",
+          "status": "선택",
+          "answer": [
+            "Hi, it's nice to meet you. I have a few questions.",
+            "When did you start your career?",
+            "What do you like most about your job?",
+            "What do you usually do in your free time?",
+            "Do you have any plans for this year?",
+            "Okay, that sounds great.",
+            "Thank you for your time."
+          ],
+          "hint": "greeting → career start → favorite part → free time → plans → thanks"
         }
       ]
     },
@@ -1551,6 +1747,534 @@ window.OPIC_DATA = {
             "So, yeah, chain restaurants are familiar, but local restaurants are more interesting."
           ],
           "hint": "both restaurants → biggest difference → chain/same menu and taste → know what to expect → local/own menu and style → interesting"
+        },
+        {
+          "id": "topic-12-q2",
+          "number": "Q2",
+          "question": "건강을 중요하게 생각하는 사람들 때문에 음식점 메뉴가 어떻게 바뀌고 있나요?",
+          "status": "필수",
+          "answer": [
+            "Well, restaurant menus have changed a little.",
+            "These days, many people care more about their health.",
+            "So, restaurants offer more salads and food with fresh vegetables.",
+            "Some places also have food with less sugar or less salt.",
+            "I think this is a good change.",
+            "People can eat out and choose healthier food.",
+            "So, yeah, people have more choices at restaurants now."
+          ],
+          "hint": "menus changed → health interest → salads/vegetables → less sugar/salt → good change → healthier choice"
+        }
+      ]
+    },
+    {
+      "id": "topic-13",
+      "order": 13,
+      "title": "재활용",
+      "source": "unexpected",
+      "questions": [
+        {
+          "id": "topic-13-q1",
+          "number": "Q1",
+          "question": "한국에서는 재활용을 어떻게 하는지 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, recycling is very common in Korea.",
+            "People separate paper, plastic, glass, and cans.",
+            "There are different bins for each type.",
+            "I usually recycle near my apartment.",
+            "It's simple, but sometimes it takes a little time.",
+            "Still, I think it is important.",
+            "So, yeah, most people recycle regularly."
+          ],
+          "hint": "common in Korea → separate four types → different bins → near apartment → simple/important"
+        },
+        {
+          "id": "topic-13-q2",
+          "number": "Q2",
+          "question": "집에서 보통 재활용하는 과정을 순서대로 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, I usually recycle once or twice a week.",
+            "First, I collect paper, plastic, glass, and cans at home.",
+            "Then, I put them in separate bags.",
+            "After that, I take them to the recycling area near my apartment.",
+            "I put each item in the right bin.",
+            "It doesn't take very long.",
+            "So, yeah, that is how I recycle."
+          ],
+          "hint": "once/twice a week → collect → separate bags → recycling area → right bins → done"
+        },
+        {
+          "id": "topic-13-q3",
+          "number": "Q3",
+          "question": "재활용을 하다가 문제가 생겼던 경험을 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one problem I had while recycling.",
+            "I took my recycling outside, but the bins were full.",
+            "I was like, \"Oh no, what should I do?\"",
+            "So I waited until the next morning.",
+            "Then I went back and put everything in the right bins.",
+            "It didn't take very long.",
+            "So, yeah, everything was fine in the end."
+          ],
+          "hint": "recycling problem → full bins → worried → next morning → right bins → solved"
+        },
+        {
+          "id": "topic-13-q4",
+          "number": "Q4",
+          "question": "과거와 현재의 재활용 방식을 비교해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, recycling has changed a lot.",
+            "In the past, people didn't separate everything carefully.",
+            "There were fewer bins, and recycling was not easy.",
+            "But these days, there are different bins for paper, plastic, glass, and cans.",
+            "People know more about recycling now.",
+            "It is easier and more common these days.",
+            "So, yeah, recycling is very different now."
+          ],
+          "hint": "changed a lot → past/not careful/fewer bins → now/different bins → know more → easier/common"
+        }
+      ]
+    },
+    {
+      "id": "topic-14",
+      "order": 14,
+      "title": "은행",
+      "source": "unexpected",
+      "questions": [
+        {
+          "id": "topic-14-q1",
+          "number": "Q1",
+          "question": "한국의 일반적인 은행을 묘사해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, there is a bank near my home.",
+            "It's clean, quiet, and not too crowded.",
+            "It has a few ATMs and a long counter.",
+            "There are chairs, so people can sit and wait.",
+            "The staff members are kind and helpful.",
+            "I don't go there often because I use a banking app.",
+            "So, yeah, the bank is simple and convenient."
+          ],
+          "hint": "near home → clean/quiet → ATMs/counter → chairs → helpful staff → banking app"
+        },
+        {
+          "id": "topic-14-q2",
+          "number": "Q2",
+          "question": "최근 은행에 갔던 경험을 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I went to a bank near my home a few weeks ago.",
+            "I went there by myself to get a new bank card.",
+            "First, I took a number and sat down.",
+            "Then, I talked to a staff member.",
+            "They checked my ID and helped me right away.",
+            "It didn't take very long.",
+            "So, yeah, everything was easy and comfortable."
+          ],
+          "hint": "few weeks ago → new card → take number → staff → check ID → quick/easy"
+        },
+        {
+          "id": "topic-14-q3",
+          "number": "Q3",
+          "question": "은행 계좌를 개설하는 방법을 순서대로 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, opening a bank account is pretty simple.",
+            "First, you go to a bank with your ID.",
+            "Then, you take a number and wait.",
+            "When your number is called, you talk to a staff member.",
+            "You fill out a form and choose a password.",
+            "After that, you get your bank card.",
+            "So, yeah, that is how you open a bank account."
+          ],
+          "hint": "simple → ID → number/wait → staff → form/password → bank card"
+        },
+        {
+          "id": "topic-14-q4",
+          "number": "Q4",
+          "question": "과거와 현재의 은행 이용 방식을 비교해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, banking has changed a lot.",
+            "In the past, people had to go to a bank for almost everything.",
+            "They waited in line and talked to a staff member.",
+            "But these days, people use banking apps on their phones.",
+            "They can send money and check their accounts at home.",
+            "It is faster and much easier now.",
+            "So, yeah, banking is very different these days."
+          ],
+          "hint": "changed a lot → past/bank/line → now/apps → send money/check account → faster/easier"
+        }
+      ]
+    },
+    {
+      "id": "topic-15",
+      "order": 15,
+      "title": "휴대폰 / 전자제품 / 기술",
+      "source": "unexpected",
+      "questions": [
+        {
+          "id": "topic-15-q1",
+          "number": "Q1",
+          "question": "가장 자주 사용하는 전자제품과 사용 방법을 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, the electronic device I use the most is my phone.",
+            "I use it every day at home and outside.",
+            "I watch YouTube, listen to music, and check messages.",
+            "I also use it to find information and take pictures.",
+            "It's small and easy to use.",
+            "I would feel uncomfortable without it.",
+            "So, yeah, my phone is really important to me."
+          ],
+          "hint": "phone → every day → YouTube/music/messages → information/pictures → small/easy → important"
+        },
+        {
+          "id": "topic-15-q2",
+          "number": "Q2",
+          "question": "과거와 현재의 휴대폰이나 전자제품을 비교해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, electronic devices have changed a lot.",
+            "In the past, phones were mainly for calls and text messages.",
+            "They were simple, and people didn't use them all day.",
+            "But these days, smartphones can do almost everything.",
+            "People watch videos, listen to music, and use banking apps.",
+            "They are faster and much easier to use now.",
+            "So, yeah, phones are very different these days."
+          ],
+          "hint": "changed a lot → past/calls/texts → now/everything → videos/music/banking → faster/easier"
+        },
+        {
+          "id": "topic-15-q3",
+          "number": "Q3",
+          "question": "전자기기에 문제가 생겼다가 해결한 경험을 말해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one problem I had with my phone.",
+            "I was checking my phone, and suddenly it turned off.",
+            "I tried to turn it back on, but it didn't work.",
+            "I was like, \"Oh no, what should I do?\"",
+            "I was so worried, so I pressed the power button again and again.",
+            "Then, luckily, my phone turned back on.",
+            "So, yeah, everything was fine in the end."
+          ],
+          "hint": "phone off → fail → worried → power button → phone on → solved"
+        },
+        {
+          "id": "topic-15-q4",
+          "number": "Q4",
+          "question": "기술이 사람들의 생활을 어떻게 바꾸었나요?",
+          "status": "필수",
+          "answer": [
+            "Well, technology has changed people's lives a lot.",
+            "These days, people can do many things on their phones.",
+            "They can shop, send money, and talk to other people.",
+            "They can also find information very quickly.",
+            "It saves a lot of time and makes life easier.",
+            "Of course, people sometimes use their phones too much.",
+            "So, yeah, technology is helpful, but we should use it carefully."
+          ],
+          "hint": "changed lives → phone tasks → shop/money/talk → information → saves time → use carefully"
+        },
+        {
+          "id": "topic-15-q5",
+          "number": "Q5",
+          "question": "요즘 AI 제품이나 서비스에 대해 사람들이 어떤 관심을 가지고 있나요?",
+          "status": "필수",
+          "answer": [
+            "Well, AI products are becoming more common these days.",
+            "People use AI on their phones and computers.",
+            "It can answer questions, find information, and help with work.",
+            "It's fast and easy to use.",
+            "But sometimes the answer can be wrong.",
+            "So I think people should check important information.",
+            "So, yeah, AI is useful, but we need to use it carefully."
+          ],
+          "hint": "AI common → phone/computer → questions/information/work → fast/easy → can be wrong → check carefully"
+        },
+        {
+          "id": "topic-15-q6",
+          "number": "Q6",
+          "question": "한국의 중요한 산업 하나와 최근 변화를 설명해 주세요.",
+          "status": "선택",
+          "answer": [
+            "Well, the technology industry is very important in Korea.",
+            "Many companies make phones, computers, and other electronic products.",
+            "People use these products every day.",
+            "These days, companies also make more AI products.",
+            "The products are faster and easier to use.",
+            "I think this industry will become more important.",
+            "So, yeah, technology is a big part of life in Korea."
+          ],
+          "hint": "technology industry → phones/computers → daily use → AI products → faster/easier → more important"
+        }
+      ]
+    },
+    {
+      "id": "topic-16",
+      "order": 16,
+      "title": "지형",
+      "source": "unexpected",
+      "questions": [
+        {
+          "id": "topic-16-q1",
+          "number": "Q1",
+          "question": "한국의 지형과 대표적인 풍경을 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, Korea has many mountains and rivers.",
+            "There are also many cities near the coast.",
+            "The country is not very large, so it's easy to travel around.",
+            "You can see mountains, beaches, and big cities.",
+            "My favorite place is Busan because it has a nice ocean view.",
+            "I can find a place to sit near the beach.",
+            "I just sit there and relax."
+          ],
+          "hint": "mountains/rivers → coastal cities → easy travel → beaches/cities → Busan/ocean view → sit/relax"
+        },
+        {
+          "id": "topic-16-q2",
+          "number": "Q2",
+          "question": "한국의 대도시와 작은 지역을 비교해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, big cities and small towns in Korea are very different.",
+            "Big cities have many tall buildings, stores, and people.",
+            "They are convenient, but they are usually crowded.",
+            "Small towns have more mountains, trees, and open space.",
+            "They are quiet, cozy, and not too crowded.",
+            "I prefer small towns because I can relax there.",
+            "So, yeah, that is the biggest difference."
+          ],
+          "hint": "big city vs small town → buildings/stores/crowds → mountains/trees → quiet/cozy → prefer small town"
+        },
+        {
+          "id": "topic-16-q3",
+          "number": "Q3",
+          "question": "본인이 사는 지역이 과거와 비교해 어떻게 변했나요?",
+          "status": "필수",
+          "answer": [
+            "Well, my area has changed a lot.",
+            "In the past, there were fewer buildings and more open space.",
+            "It was quiet, but there were not many places to go.",
+            "But these days, there are more apartments, stores, and roads.",
+            "The area is more convenient, but it's also more crowded.",
+            "I miss the quiet streets sometimes.",
+            "So, yeah, my area is very different now."
+          ],
+          "hint": "area changed → past/fewer buildings/open space → now/apartments/stores/roads → convenient/crowded"
+        },
+        {
+          "id": "topic-16-q4",
+          "number": "Q4",
+          "question": "사람들이 대도시에 몰리면서 생기는 문제를 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, one big issue in Korea is that too many people live in big cities.",
+            "Many people move there for work or school.",
+            "So, housing is expensive, and the roads are crowded.",
+            "Small towns have fewer jobs and fewer young people.",
+            "I think we need more jobs in different areas.",
+            "That would make life easier for many people.",
+            "So, yeah, this is an important issue in Korea."
+          ],
+          "hint": "big-city issue → work/school → expensive housing/crowded roads → small towns/fewer jobs → need jobs elsewhere"
+        }
+      ]
+    },
+    {
+      "id": "topic-17",
+      "order": 17,
+      "title": "날씨",
+      "source": "unexpected",
+      "questions": [
+        {
+          "id": "topic-17-q1",
+          "number": "Q1",
+          "question": "한국의 날씨와 사계절을 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, Korea has four seasons.",
+            "Spring is warm, and there are many flowers.",
+            "Summer is hot and rainy.",
+            "Fall is cool and comfortable.",
+            "Winter is cold and sometimes snowy.",
+            "I like fall the most because it's comfortable outside.",
+            "So, yeah, the weather changes a lot during the year."
+          ],
+          "hint": "four seasons → spring/warm → summer/hot/rainy → fall/cool → winter/cold → favorite fall"
+        },
+        {
+          "id": "topic-17-q2",
+          "number": "Q2",
+          "question": "가장 좋아하는 계절과 그 계절에 하는 일을 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, my favorite season is fall.",
+            "The weather is cool and comfortable.",
+            "It's not too hot and not too cold.",
+            "I usually go to a park near my home.",
+            "I find a nice bench with a good view.",
+            "Then I listen to music and check my phone.",
+            "I just sit there and relax."
+          ],
+          "hint": "fall → cool/comfortable → not hot/cold → park → bench/view → music/phone → relax"
+        },
+        {
+          "id": "topic-17-q3",
+          "number": "Q3",
+          "question": "날씨 때문에 계획이 바뀌었던 경험을 말해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one time the weather changed my plans.",
+            "I was going to go to the beach, but it suddenly started raining.",
+            "I was like, \"Oh no, what should I do?\"",
+            "So I stayed at home instead.",
+            "I watched YouTube, listened to music, and ordered some food.",
+            "I just sat on my sofa and relaxed.",
+            "So, yeah, everything was fine in the end."
+          ],
+          "hint": "beach plan → rain → worried → stay home → YouTube/music/food → sofa/relax → solved"
+        },
+        {
+          "id": "topic-17-q4",
+          "number": "Q4",
+          "question": "과거와 비교해 최근 날씨가 어떻게 달라졌다고 생각하나요?",
+          "status": "필수",
+          "answer": [
+            "Well, the weather feels a little different these days.",
+            "Summers are hotter, and we get heavy rain more often.",
+            "Winters also feel shorter than before.",
+            "Because of this, people worry about the weather more.",
+            "They check the weather before they go outside.",
+            "I do that too because I don't want my plans to change.",
+            "So, yeah, the weather is harder to predict now."
+          ],
+          "hint": "weather different → hotter summers/heavy rain → shorter winters → worry/check weather → harder to predict"
+        }
+      ]
+    },
+    {
+      "id": "topic-18",
+      "order": 18,
+      "title": "약속 / 모임 / 기념일 / 휴일",
+      "source": "unexpected",
+      "questions": [
+        {
+          "id": "topic-18-q1",
+          "number": "Q1",
+          "question": "친구와 보통 어떻게 약속을 잡는지 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, I usually make plans with my friends on my phone.",
+            "First, I ask when they are free.",
+            "Then, we choose a place and time.",
+            "We usually meet at a cafe or a restaurant.",
+            "Before I leave, I send a short message.",
+            "It's simple and easy.",
+            "So, yeah, that is how I make plans."
+          ],
+          "hint": "phone → ask free time → place/time → cafe/restaurant → message → simple/easy"
+        },
+        {
+          "id": "topic-18-q2",
+          "number": "Q2",
+          "question": "약속을 바꾸거나 취소했던 경험을 말해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one time I had to change my plans.",
+            "I was going to meet my friend, but something came up.",
+            "I called my friend and said I was really sorry.",
+            "I asked, \"Can we meet tomorrow instead?\"",
+            "My friend said that was okay.",
+            "We met the next day and had a good time.",
+            "So, yeah, everything was fine in the end."
+          ],
+          "hint": "change plans → something came up → call/sorry → tomorrow → friend agrees → meet next day"
+        },
+        {
+          "id": "topic-18-q3",
+          "number": "Q3",
+          "question": "과거와 현재의 약속 잡는 방식을 비교해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, making plans has changed a little.",
+            "In the past, people usually called each other.",
+            "They had to choose a place and time before they left home.",
+            "But these days, people send messages on their phones.",
+            "They can change the time or place very easily.",
+            "It is faster and much easier now.",
+            "So, yeah, making plans is more convenient these days."
+          ],
+          "hint": "changed → past/calls/fixed plan → now/messages/change easily → faster/convenient"
+        },
+        {
+          "id": "topic-18-q4",
+          "number": "Q4",
+          "question": "보통 가족이나 친구와 갖는 모임을 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, I usually have small gatherings with my family or friends.",
+            "We often meet at a restaurant or someone's home.",
+            "We order some food and sit together.",
+            "We talk about our lives and take a few pictures.",
+            "I don't like big or crowded parties.",
+            "I prefer small and quiet gatherings.",
+            "So, yeah, that is how I spend special days."
+          ],
+          "hint": "small gathering → restaurant/home → food → talk/pictures → dislike crowds → quiet gathering"
+        },
+        {
+          "id": "topic-18-q5",
+          "number": "Q5",
+          "question": "기억에 남는 모임이나 기념일 경험을 말해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one really special day at the park.",
+            "About three years ago, my friends called me and asked me to meet them there.",
+            "When I got there, they were waiting for me with a cake and some gifts.",
+            "Then they started singing a birthday song.",
+            "I was really surprised, and I almost cried.",
+            "I mean, I was so thankful to my friends.",
+            "So, yeah, I'll never forget that day."
+          ],
+          "hint": "special park day → friends call → cake/gifts → birthday song → surprised/thankful → unforgettable"
+        },
+        {
+          "id": "topic-18-q6",
+          "number": "Q6",
+          "question": "한국의 대표적인 휴일이나 명절과 사람들이 하는 일을 설명해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Well, one important holiday in Korea is Chuseok.",
+            "People usually spend time with their families.",
+            "They eat special food and talk together.",
+            "Some people visit their hometowns.",
+            "I usually stay at home and have a quiet meal with my family.",
+            "I don't do anything special.",
+            "So, yeah, Chuseok is a family holiday in Korea."
+          ],
+          "hint": "Chuseok → family time → special food/talk → hometown → quiet family meal"
+        },
+        {
+          "id": "topic-18-q7",
+          "number": "Q7",
+          "question": "휴일이나 명절에 문제가 생겼던 경험을 말해 주세요.",
+          "status": "필수",
+          "answer": [
+            "Actually, I remember one problem I had during a holiday.",
+            "I was going to visit my family, but the roads were very crowded.",
+            "The bus was late, and I had to wait for a long time.",
+            "I was like, \"Oh no, what should I do?\"",
+            "So I called my family and told them I would be late.",
+            "They said it was okay.",
+            "So, yeah, everything was fine in the end."
+          ],
+          "hint": "holiday visit → crowded roads → late bus → worried → call family → solved"
         }
       ]
     }
