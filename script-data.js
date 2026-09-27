@@ -1,7 +1,7 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v15",
-  "updated": "2026-09-21",
+  "version": "v16",
+  "updated": "2026-09-27",
   "questionCount": 84,
   "survey": {
     "title": "시험 전 설문 선택",
@@ -1316,14 +1316,15 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Hi, I'm calling because I have a few questions.",
+            "I want to visit this weekend.",
             "What time do you open?",
-            "Do I need a reservation?",
             "How much is it?",
+            "Do I need a reservation?",
             "Can I park there?",
             "Okay, great.",
             "Thanks for your help."
           ],
-          "hint": "open → reservation → price → parking → thanks"
+          "hint": "visit → open → price → reservation → parking → thanks"
         },
         {
           "id": "topic-10-rp3",
@@ -1379,16 +1380,16 @@ window.OPIC_DATA = {
           "question": "MP3 플레이어를 사기 전에 가게에 전화해서 정보를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because I want to buy an MP3 player.",
-            "I have a few questions.",
+            "Hi, I'm calling because I have a few questions.",
+            "I want to buy an MP3 player.",
+            "What time do you open?",
             "How much is it?",
-            "What colors do you have?",
-            "How long does the battery last?",
+            "Do you have it in black?",
             "Can I buy it online?",
             "Okay, that sounds good.",
             "Thank you for your help."
           ],
-          "hint": "want to buy → price → colors → battery → online → thanks"
+          "hint": "want to buy → open → price → black → online → thanks"
         },
         {
           "id": "topic-10-mp3-rp2",
@@ -1428,16 +1429,16 @@ window.OPIC_DATA = {
           "question": "콘서트 티켓을 사기 위해 매표소에 전화해서 정보를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because I want to buy two concert tickets.",
-            "I have a few questions.",
-            "What time does the concert start?",
-            "How much are the tickets?",
-            "Are there any seats left?",
+            "Hi, I'm calling because I have a few questions.",
+            "I want to buy two concert tickets.",
+            "What time does it start?",
+            "How much is one ticket?",
+            "Do you have any seats left?",
             "Can I buy them online?",
             "Okay, that sounds good.",
             "Thank you for your help."
           ],
-          "hint": "two tickets → start time → price → seats → online → thanks"
+          "hint": "two tickets → start time → one-ticket price → seats → online → thanks"
         },
         {
           "id": "topic-10-concert-rp2",
