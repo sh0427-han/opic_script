@@ -165,6 +165,19 @@ button {
   box-shadow: var(--shadow);
 }
 
+.study-tip {
+  margin: 0 0 20px;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--teal-100);
+  color: var(--ink-900);
+}
+
+.study-tip a {
+  color: var(--navy-900);
+  font-weight: 750;
+}
+
 .toolbar {
   display: grid;
   grid-template-columns: 1fr minmax(240px, 340px);
