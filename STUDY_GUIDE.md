@@ -1,25 +1,34 @@
-# OPIc IM2 최소암기 학습법
+# OPIc MP 중심 최소암기 학습법
 
-**142개 답변을 다 외울 필요는 없습니다.** 첫 화면의 주제별 영어 문장 8묶음에서 하루에 한 묶음만 연습하세요. **기본 27문장과 추가 17문장은 모두 기존 스크립트에 실제로 쓰인 문장 그대로** 골랐습니다. 한꺼번에 외우는 목록이 아닙니다. 한국어는 뜻을 확인하는 용도이며, 한국어 키워드를 영어로 즉석 번역할 필요는 없습니다.
+**142개 답변을 외우는 것이 아닙니다.** 질문을 듣고 묘사·평소 행동·경험·비교·의견 중 무엇인지 확인한 뒤, 해당 답변의 **MP(Main Point) 한 문장**부터 말하세요. 그다음 이미 스크립트에 쓰인 문장 1~2개를 붙입니다. [첫 화면](https://sh0427-han.github.io/opic_script/#core)은 8개 묶음, 기본 27문장과 선택 17문장으로 유지했습니다. 하루에 한 묶음만 연습하세요.
 
-## 공원 묶음으로 시작하기
+| 질문 | MP: 먼저 말할 원문 문장 | 이어 말할 원문 문장 |
+| --- | --- | --- |
+| 공원을 묘사해 주세요 | My favorite park is close to my home. | I like going there when I want fresh air after a busy day. |
+| 공원에서 주로 무엇을 하나요 | When I go to the park, I usually walk along the path first. | After about twenty minutes, I get a coffee and sit on a bench. |
+| 공원에서 문제가 생긴 경험 | Once, I went to the park for a walk, but it suddenly started raining. | I did not have an umbrella, so I ran to a covered area near the entrance. |
+| 예전 집과 지금 집 비교 | My old home was lively, while my place now is quiet and easy to keep clean. | When I was young, I lived with my family in a bigger apartment. |
 
-아래 문장은 [공원 Q1·Q2 원문](https://sh0427-han.github.io/opic_script/#scripts)에 있는 문장과 같습니다.
-
-1. **My favorite park is close to my home.** — 제가 좋아하는 공원은 집에서 가까워요.
-2. **When I go to the park, I usually walk along the path first.** — 공원에 가면 보통 먼저 산책로를 걸어요.
-3. **After about twenty minutes, I get a coffee and sit on a bench.** — 20분쯤 뒤에 커피를 사서 벤치에 앉아요.
-4. **I sometimes listen to music before I go home.** — 집에 가기 전에 가끔 음악을 들어요.
-
-첫날에는 **1~2문장만** 보고 두 번 소리 내어 읽은 뒤 가리고 다시 말해 보세요. 막히면 다시 보고 말하면 됩니다. 공원을 묘사하라는 질문이면 1번으로 시작하고, 평소 무엇을 하는지 묻는다면 2~4번에서 맞는 문장을 고릅니다. 경험이나 문제 질문에는 같은 일상 문장을 반복하기보다 해당 질문의 사건 문장을 추가합니다. 예: **Once, I went to the park for a walk, but it suddenly started raining.** (공원 Q6 원문)
+위 영어 문장은 모두 [전체 스크립트](https://sh0427-han.github.io/opic_script/#scripts)의 해당 질문에도 같은 형태로 있습니다. **문제 경험은 사건 → 한 일 → 결과**, **비교는 가장 큰 차이 → 예전·현재의 예**, **의견은 주장 → 이유·쉬운 예**로 이어갑니다. 모든 질문에 억지로 이유나 필러를 붙이지 마세요.
 
 ## 하루 5~10분 연습
 
-1. **오늘 한 묶음:** 기본 문장 중 1~4개를 보고 소리 내어 두 번 읽습니다.
-2. **가리고 말하기:** 영어 문장을 가린 뒤 기억나는 만큼 말하고, 막히면 다시 보고 한 번 더 말합니다.
-3. **질문 하나:** [문제 연습](https://sh0427-han.github.io/opic_script/#questions)에서 관련 질문을 보고 맞는 원문 문장을 골라 답합니다. 다른 기능을 묻는 질문이면 추가 문장 하나만 익힙니다.
-4. **다음 날 복습:** 어제 문장을 잠깐 말한 뒤 새 묶음으로 갑니다.
+1. 질문 하나를 골라 유형을 확인하고 MP 한 문장을 두 번 소리 내어 읽습니다.
+2. MP를 가리고 말합니다. 막히면 다시 보고 한 번 더 말합니다.
+3. 같은 답변에서 바로 뒤의 원문 문장 1~2개를 붙여 말합니다.
+4. 답이 더 필요할 때만 ‘필요할 때 더 말하기’를 펼칩니다. 다음 날 어제 MP를 짧게 복습합니다.
 
-처음에는 영어 문장을 **원문 그대로** 입에 익히세요. 익숙해진 뒤 질문에 맞춰 단어 하나를 바꾸거나, 접어 둔 ‘문장 틀 응용하기’를 살펴보면 됩니다. 전체 스크립트는 길게 답하는 방식의 참고 예시입니다. 그 안의 모든 문장을 다시 외울 필요는 없습니다.
+[문제 연습](https://sh0427-han.github.io/opic_script/#questions)에서는 질문만 본 뒤 MP를 먼저 말해 보세요. 한국어 힌트는 뜻과 말할 순서를 확인하는 용도입니다. 질문이 다른데도 같은 소재를 반복하지 말고, 실제 경험과 다른 설정은 본인의 사실에 맞춰 일관되게 바꾸세요.
 
-`Well`, `Actually`, `You know` 같은 필러는 모든 답에 붙이지 마세요. 원문에 들어간 문장은 그 문장대로 연습하되, 실제 답변에서는 생각할 때만 자연스럽게 사용해도 됩니다. 짧은 문장만으로 IM2가 보장되지는 않습니다. 익힌 문장을 질문에 맞게 골라 말하고, 필요할 때 이유·결과·간단한 사건을 조금씩 더해 보세요.
+**롤플레이 27개는 기존 구성 그대로**입니다. 전화 목적 → 필요한 질문 또는 사과·대안 → 확인 순서로 연습합니다. MP·이유 형식을 억지로 적용하지 않습니다.
+
+## 참고한 IH 응시 후기
+
+아래 후기들은 **개인의 경험**이며 점수를 보장하는 규칙은 아닙니다. 공통으로 질문 유형 파악, 한 가지 MP, 짧은 부연, 말하기 연습을 강조했습니다.
+
+- [오픽노잼으로 IH를 받은 5일 학습 후기](https://jjuke-brain.tistory.com/entry/5%EC%9D%BC%EB%A7%8C%EC%97%90-OPIc%EC%98%81%EC%96%B4-%EB%8F%85%ED%95%99%EC%9C%BC%EB%A1%9C-IH-%EB%B0%9B%EA%B8%B0-feat%EC%98%A4%ED%94%BD%EB%85%B8%EC%9E%BC): MP만 먼저 말해 본 뒤 전체 답변이 MP에서 벗어나지 않는지 확인.
+- [IH 독학 후기](https://mymomsdaughter.tistory.com/entry/%EC%98%A4%ED%94%BD-IH-%EB%8F%85%ED%95%99-%ED%9B%84%EA%B8%B0-%EA%B3%B5%EB%B6%80-%EB%B0%A9%EB%B2%95-%EC%84%9C%EB%B2%A0%EC%9D%B4-%EB%82%9C%EC%9D%B4%EB%8F%84): MP 한 가지와 유형별 답변 구조를 활용.
+- [IM2에서 IH로 올린 후기](https://codingqwer.tistory.com/40): MP를 정하고 그 주제를 설명하는 표현 2~3개를 덧붙임.
+- [첫 시험 IH 후기](https://gall.dcinside.com/mgallery/board/view/?id=opic&no=28276): 긴 스크립트보다 답변 형식과 유용한 표현을 따로 연습.
+
+OPIc은 암기한 답변 자체보다 질문에 맞춰 즉석에서 말하는 능력을 평가합니다. 짧은 원문 문장은 **말문을 여는 연습 도구**로 사용하고, 점차 질문에 맞게 골라 말해 보세요. [ACTFL 응시자 안내](https://www.actfl.org/assessments/postsecondary-assessments/opi/tips-for-opi-and-opic-test-takers)
