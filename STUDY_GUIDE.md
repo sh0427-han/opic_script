@@ -17,9 +17,9 @@ What·Feeling·Why는 경험이나 선호를 정리할 때 유용합니다. 세 
 | 정보 문의 | 전화한 용건 | 질문에서 요구한 정보 모두 |
 | 사과·대안 | 사과와 이유 | 가능한 대안·상대의 선택 확인 |
 
-예를 들어 두 공원 비교는 “The biggest difference is that one park is bigger and more crowded.”로 시작합니다. 큰 공원과 작은 공원의 특징을 말한 뒤 “That's why I usually choose the smaller one.”으로 끝냅니다.
+예를 들어 두 공원 비교는 “The main difference is that one park is bigger and has more people.”로 시작합니다. 큰 공원과 작은 공원의 특징을 말한 뒤 “That's why I usually choose the smaller one.”으로 끝냅니다.
 
-휴대폰 문제는 “I felt worried when my phone suddenly turned off because I needed to contact a friend.”처럼 걱정의 이유가 분명하므로 그대로 사용합니다. 이어서 충전 → 다시 켜짐 → 다음부터 배터리 확인 순서로 말합니다.
+휴대폰 문제는 “I was worried when my phone turned off because I had to send a message.”처럼 걱정의 이유가 분명하므로 그대로 사용합니다. 이어서 충전 → 다시 켜짐 → 다음부터 배터리 확인 순서로 말합니다.
 
 ## 짧은 답변도 완결되게
 
@@ -29,6 +29,19 @@ What·Feeling·Why는 경험이나 선호를 정리할 때 유용합니다. 세 
 - 사계절은 네 계절을 모두 말합니다. 식당 문의에서 영업시간·가격·예약·주차를 요구하면 네 가지를 모두 묻습니다.
 - 선택 문장을 생략해도 내용이 연결됩니다. 선택 문장을 넣을 때는 부연설명과 마무리 사이에 넣습니다.
 - 미용실/치과 문의는 화면의 치과 변형을 펼쳐 확인합니다. 서비스 명칭과 가격 질문만 바꾸고 나머지 예약 문장은 재사용합니다.
+
+## 발음 부담을 줄이는 공통 표현
+
+| 어려운 표현 | 스크립트에서 사용하는 쉬운 표현 |
+| --- | --- |
+| make a reservation | book ahead |
+| apologized | said sorry |
+| documents | papers |
+| available | free / can come |
+| familiar songs | songs I know |
+| distinct seasons | seasons |
+
+comfortable, crowded처럼 문맥에 따라 뜻이 달라지는 단어는 기계적으로 바꾸지 않고, I can relax / has lots of people 같은 쉬운 문장으로 풀어 씁니다. apartment, restaurant, recycle처럼 주제에 꼭 필요한 단어와 이미 익힌 watch YouTube, check my phone은 유지합니다. 긴 단어를 줄이기 위해 새 동의어를 여러 개 외우지 않습니다.
 
 ## 8개 묶음으로 연습
 
