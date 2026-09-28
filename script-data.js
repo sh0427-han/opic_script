@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v35",
+  "version": "v36",
   "updated": "2026-09-28",
   "questionCount": 159,
   "survey": {
@@ -3009,5 +3009,1124 @@ window.OPIC_DATA = {
       "같은 행동·사건은 같은 표현으로 연습하고, 질문에 따라 시점이나 장소만 바꿉니다."
     ],
     "note": "159개 답변을 통째로 외우지 마세요. 같은 장소와 사건의 문장을 여러 질문에서 다시 쓰고, 질문에 맞는 첫 문장만 바꿔 연결하세요. 사건·행동·차이·용건을 먼저 말하고, 감정은 필요할 때 뒤에서 자연스럽게 표현합니다. 짧은 답변만으로 필요한 내용을 말합니다. 선택 문장은 행동의 다음 장면이나 새 정보를 덧붙일 때만 사용합니다."
+  },
+  "studySets": {
+    "title": "주제별 공통 장면으로 연습",
+    "lead": "실제 출제 순서를 뜻하지 않습니다. 한 주제에서 질문의 기능을 보고 첫 문장을 고른 뒤, 맞는 장면 문장만 이어 말하세요. 문제·비교·의견은 질문에 맞는 별도 내용을 답합니다.",
+    "topics": [
+      {
+        "topicId": "topic-1",
+        "groups": [
+          {
+            "title": "집·거실 장면",
+            "cue": "혼자 사는 집 → 거실·소파 → 쉬는 일상",
+            "questionIds": [
+              "topic-1-q1",
+              "topic-1-q2",
+              "topic-1-q5",
+              "topic-1-q12",
+              "topic-1-q13"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-1-q1",
+                "index": 0
+              },
+              {
+                "questionId": "topic-1-q2",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "가족·집의 변화",
+            "cue": "예전 가족 집 또는 가족 방문을 말하고 지금과 연결",
+            "questionIds": [
+              "topic-1-q3",
+              "topic-1-q4",
+              "topic-1-q6",
+              "topic-1-q14"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-1-q4",
+                "index": 0
+              },
+              {
+                "questionId": "topic-1-q14",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "문제·주거 의견",
+            "cue": "문제라면 고장→연락→수리, 비교라면 양쪽 차이",
+            "questionIds": [
+              "topic-1-q7",
+              "topic-1-q8",
+              "topic-1-q9",
+              "topic-1-q10",
+              "topic-1-q11",
+              "topic-1-q15"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-1-q8",
+                "index": 0
+              },
+              {
+                "questionId": "topic-1-q8",
+                "index": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-2",
+        "groups": [
+          {
+            "title": "혼자 쉬는 휴가",
+            "cue": "늦잠·음악·소파에서 YouTube",
+            "questionIds": [
+              "topic-2-q1",
+              "topic-2-q2",
+              "topic-2-q7",
+              "topic-2-q8"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-2-q1",
+                "index": 1
+              },
+              {
+                "questionId": "topic-2-q1",
+                "index": 2
+              }
+            ]
+          },
+          {
+            "title": "지난 집 휴가",
+            "cue": "지난 휴가에 실제로 한 행동을 과거형으로",
+            "questionIds": [
+              "topic-2-q3",
+              "topic-2-q4"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-2-q3",
+                "index": 0
+              },
+              {
+                "questionId": "topic-2-q3",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "휴가 변화·문제",
+            "cue": "비교는 예전과 지금, 문제는 조명 고장과 해결",
+            "questionIds": [
+              "topic-2-q5",
+              "topic-2-q6",
+              "topic-2-q9"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-2-q9",
+                "index": 0
+              },
+              {
+                "questionId": "topic-2-q9",
+                "index": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-3",
+        "groups": [
+          {
+            "title": "동네 카페 장면",
+            "cue": "조용한 카페 → 아이스커피 → 창가",
+            "questionIds": [
+              "topic-3-q1",
+              "topic-3-q2",
+              "topic-3-q3",
+              "topic-3-q9"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-3-q1",
+                "index": 0
+              },
+              {
+                "questionId": "topic-3-q1",
+                "index": 2
+              }
+            ]
+          },
+          {
+            "title": "카페 방문 경험",
+            "cue": "방문 시점과 음료·자리부터",
+            "questionIds": [
+              "topic-3-q4",
+              "topic-3-q5"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-3-q4",
+                "index": 0
+              },
+              {
+                "questionId": "topic-3-q4",
+                "index": 2
+              }
+            ]
+          },
+          {
+            "title": "카페 문제·변화",
+            "cue": "음료 실수는 주문→직원→새 음료",
+            "questionIds": [
+              "topic-3-q6",
+              "topic-3-q7",
+              "topic-3-q8"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-3-q6",
+                "index": 0
+              },
+              {
+                "questionId": "topic-3-q6",
+                "index": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-4",
+        "groups": [
+          {
+            "title": "조용한 펍 장면",
+            "cue": "친구와 조용한 테이블에서 대화",
+            "questionIds": [
+              "topic-4-q1",
+              "topic-4-q2",
+              "topic-4-q4"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-4-q1",
+                "index": 0
+              },
+              {
+                "questionId": "topic-4-q1",
+                "index": 2
+              }
+            ]
+          },
+          {
+            "title": "친구와 펍 경험",
+            "cue": "최근 방문 또는 옛 친구와 재회",
+            "questionIds": [
+              "topic-4-q3",
+              "topic-4-q5"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-4-q3",
+                "index": 0
+              },
+              {
+                "questionId": "topic-4-q5",
+                "index": 0
+              }
+            ]
+          },
+          {
+            "title": "계산 문제·비교",
+            "cue": "계산서 수정 또는 예전과 현재 차이",
+            "questionIds": [
+              "topic-4-q6",
+              "topic-4-q7"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-4-q6",
+                "index": 0
+              },
+              {
+                "questionId": "topic-4-q6",
+                "index": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-5",
+        "groups": [
+          {
+            "title": "동네 공원 장면",
+            "cue": "나무 길을 걷고 커피를 사서 벤치에 앉기",
+            "questionIds": [
+              "topic-5-q1",
+              "topic-5-q2"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-5-q1",
+                "index": 1
+              },
+              {
+                "questionId": "topic-5-q2",
+                "index": 2
+              }
+            ]
+          },
+          {
+            "title": "공원 방문 경험",
+            "cue": "지난 주말 또는 친구와 본 일몰",
+            "questionIds": [
+              "topic-5-q4",
+              "topic-5-q5"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-5-q4",
+                "index": 0
+              },
+              {
+                "questionId": "topic-5-q4",
+                "index": 2
+              }
+            ]
+          },
+          {
+            "title": "공원 문제·비교",
+            "cue": "비·혼잡은 해결을, 비교는 두 공원의 차이를",
+            "questionIds": [
+              "topic-5-q6",
+              "topic-5-q7",
+              "topic-5-q8",
+              "topic-5-q9"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-5-q6",
+                "index": 0
+              },
+              {
+                "questionId": "topic-5-q6",
+                "index": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-6",
+        "groups": [
+          {
+            "title": "해운대 기본 장면",
+            "cue": "바다 보며 걷기와 간단한 준비",
+            "questionIds": [
+              "topic-6-q1",
+              "topic-6-q2",
+              "topic-6-q4"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-6-q1",
+                "index": 0
+              },
+              {
+                "questionId": "topic-6-q2",
+                "index": 0
+              }
+            ]
+          },
+          {
+            "title": "해변 방문·생일",
+            "cue": "혼자 최근 방문과 친구들의 생일은 별개 사건",
+            "questionIds": [
+              "topic-6-q3",
+              "topic-6-q5"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-6-q3",
+                "index": 0
+              },
+              {
+                "questionId": "topic-6-q5",
+                "index": 0
+              }
+            ]
+          },
+          {
+            "title": "바람 문제·과거 비교",
+            "cue": "모자 문제 해결 또는 어릴 때와 지금 차이",
+            "questionIds": [
+              "topic-6-q6",
+              "topic-6-q7"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-6-q6",
+                "index": 0
+              },
+              {
+                "questionId": "topic-6-q6",
+                "index": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-7",
+        "groups": [
+          {
+            "title": "혼자 부산 여행",
+            "cue": "기차 → 호텔 → 해운대·식당",
+            "questionIds": [
+              "topic-7-q1",
+              "topic-7-q2",
+              "topic-7-q4",
+              "topic-7-q10",
+              "topic-7-q11"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-7-q10",
+                "index": 0
+              },
+              {
+                "questionId": "topic-7-q2",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "부산 여행 경험",
+            "cue": "최근 혼자 여행과 가족·친구 추억은 구분",
+            "questionIds": [
+              "topic-7-q3",
+              "topic-7-q5",
+              "topic-7-q6"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-7-q5",
+                "index": 0
+              },
+              {
+                "questionId": "topic-7-q5",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "여행 문제·의견",
+            "cue": "버스 지연 해결 또는 비용·혼잡에 대한 의견",
+            "questionIds": [
+              "topic-7-q7",
+              "topic-7-q8",
+              "topic-7-q9"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-7-q7",
+                "index": 0
+              },
+              {
+                "questionId": "topic-7-q7",
+                "index": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-8",
+        "groups": [
+          {
+            "title": "음악 듣는 일상",
+            "cue": "잔잔한 팝 → 휴대폰·이어폰",
+            "questionIds": [
+              "topic-8-q1",
+              "topic-8-q4",
+              "topic-8-q8"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-8-q1",
+                "index": 0
+              },
+              {
+                "questionId": "topic-8-q4",
+                "index": 2
+              }
+            ]
+          },
+          {
+            "title": "처음·라이브 경험",
+            "cue": "음악을 좋아한 계기 또는 콘서트의 한 순간",
+            "questionIds": [
+              "topic-8-q2",
+              "topic-8-q7"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-8-q7",
+                "index": 0
+              },
+              {
+                "questionId": "topic-8-q7",
+                "index": 2
+              }
+            ]
+          },
+          {
+            "title": "취향 변화·기기 문제",
+            "cue": "예전과 지금의 차이 또는 이어폰 재연결",
+            "questionIds": [
+              "topic-8-q3",
+              "topic-8-q5",
+              "topic-8-q6",
+              "topic-8-q9"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-8-q3",
+                "index": 0
+              },
+              {
+                "questionId": "topic-8-q9",
+                "index": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-9",
+        "groups": [
+          {
+            "title": "콘서트 기본 장면",
+            "cue": "좋아하는 노래를 듣고 따라 부르기",
+            "questionIds": [
+              "topic-9-q1",
+              "topic-9-q2",
+              "topic-9-q5"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-9-q2",
+                "index": 0
+              },
+              {
+                "questionId": "topic-9-q2",
+                "index": 2
+              }
+            ]
+          },
+          {
+            "title": "공연 경험",
+            "cue": "최근·첫 공연 또는 기억나는 노래",
+            "questionIds": [
+              "topic-9-q3",
+              "topic-9-q4",
+              "topic-9-q7"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-9-q3",
+                "index": 0
+              },
+              {
+                "questionId": "topic-9-q3",
+                "index": 2
+              }
+            ]
+          },
+          {
+            "title": "관람 변화·티켓 문제",
+            "cue": "예전과 지금의 차이 또는 티켓 날짜 수정",
+            "questionIds": [
+              "topic-9-q6",
+              "topic-9-q8"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-9-q8",
+                "index": 0
+              },
+              {
+                "questionId": "topic-9-q8",
+                "index": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-10",
+        "groups": [
+          {
+            "title": "정보 묻기",
+            "cue": "상대에게 용건을 말하고 시간·가격 등 요구된 정보 질문",
+            "questionIds": [
+              "topic-10-rp1",
+              "topic-10-rp2",
+              "topic-10-mp3-rp1",
+              "topic-10-concert-rp1",
+              "topic-10-travel-rp1",
+              "topic-10-house-rp1",
+              "topic-10-friend-rp1",
+              "topic-10-service-rp1",
+              "topic-10-restaurant-rp1",
+              "topic-10-hotel-rp1",
+              "topic-10-recycling-rp1",
+              "topic-10-repair-rp1",
+              "topic-10-party-rp1",
+              "topic-10-celebrity-rp1"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-10-rp2",
+                "index": 0
+              },
+              {
+                "questionId": "topic-10-rp2",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "문제 설명·대안",
+            "cue": "문제를 먼저 설명한 뒤 가능한 대안과 선택 확인",
+            "questionIds": [
+              "topic-10-rp3",
+              "topic-10-rp4",
+              "topic-10-mp3-rp2",
+              "topic-10-concert-rp2",
+              "topic-10-travel-rp2",
+              "topic-10-house-rp2",
+              "topic-10-friend-rp2",
+              "topic-10-service-rp2"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-10-rp3",
+                "index": 0
+              },
+              {
+                "questionId": "topic-10-rp3",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "비슷한 과거 경험",
+            "cue": "무슨 일이 있었는지 → 어떻게 해결했는지 → 결과",
+            "questionIds": [
+              "topic-10-rp5",
+              "topic-10-mp3-rp3",
+              "topic-10-travel-rp3",
+              "topic-10-house-rp3",
+              "topic-10-friend-rp3"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-10-rp5",
+                "index": 0
+              },
+              {
+                "questionId": "topic-10-rp5",
+                "index": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-11",
+        "groups": [
+          {
+            "title": "호텔 이용 장면",
+            "cue": "호텔 모습·체크인·예약 전 확인",
+            "questionIds": [
+              "topic-11-q1",
+              "topic-11-q2",
+              "topic-11-q5"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-11-q2",
+                "index": 0
+              },
+              {
+                "questionId": "topic-11-q2",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "부산 호텔 경험",
+            "cue": "체크인 뒤 바다를 보고 다음 날 나가기",
+            "questionIds": [
+              "topic-11-q3",
+              "topic-11-q4"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-11-q3",
+                "index": 0
+              },
+              {
+                "questionId": "topic-11-q3",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "호텔 열쇠 문제",
+            "cue": "문이 안 열림 → 프런트 → 새 열쇠",
+            "questionIds": [
+              "topic-11-q6"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-11-q6",
+                "index": 0
+              },
+              {
+                "questionId": "topic-11-q6",
+                "index": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-12",
+        "groups": [
+          {
+            "title": "파스타 식당 장면",
+            "cue": "조용한 식당에서 파스타와 음료",
+            "questionIds": [
+              "topic-12-q3",
+              "topic-12-q4",
+              "topic-12-q7"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-12-q3",
+                "index": 0
+              },
+              {
+                "questionId": "topic-12-q4",
+                "index": 0
+              }
+            ]
+          },
+          {
+            "title": "최근 식사",
+            "cue": "지난 주말 작은 식당 방문",
+            "questionIds": [
+              "topic-12-q6"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-12-q6",
+                "index": 0
+              },
+              {
+                "questionId": "topic-12-q6",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "식당 비교·문제",
+            "cue": "체인·로컬 차이, 건강 메뉴 또는 잘못 나온 음식",
+            "questionIds": [
+              "topic-12-q1",
+              "topic-12-q2",
+              "topic-12-q5"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-12-q5",
+                "index": 0
+              },
+              {
+                "questionId": "topic-12-q5",
+                "index": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-13",
+        "groups": [
+          {
+            "title": "분리배출 순서",
+            "cue": "종이·플라스틱 등을 모아 맞는 통에 넣기",
+            "questionIds": [
+              "topic-13-q1",
+              "topic-13-q2"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-13-q1",
+                "index": 0
+              },
+              {
+                "questionId": "topic-13-q2",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "분리함 문제",
+            "cue": "통이 가득 참 → 다시 가져감 → 다음 날 배출",
+            "questionIds": [
+              "topic-13-q3"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-13-q3",
+                "index": 0
+              },
+              {
+                "questionId": "topic-13-q3",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "변화·중요성",
+            "cue": "예전과 지금 비교 또는 재활용 이유",
+            "questionIds": [
+              "topic-13-q4",
+              "topic-13-q5"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-13-q5",
+                "index": 0
+              },
+              {
+                "questionId": "topic-13-q5",
+                "index": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-14",
+        "groups": [
+          {
+            "title": "은행·업무",
+            "cue": "은행 모습, 계좌 개설·직원 도움",
+            "questionIds": [
+              "topic-14-q1",
+              "topic-14-q3",
+              "topic-14-q5"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-14-q1",
+                "index": 0
+              },
+              {
+                "questionId": "topic-14-q5",
+                "index": 0
+              }
+            ]
+          },
+          {
+            "title": "최근 은행 방문",
+            "cue": "번호표 → 신분증 확인 → 카드 발급",
+            "questionIds": [
+              "topic-14-q2"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-14-q2",
+                "index": 0
+              },
+              {
+                "questionId": "topic-14-q2",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "앱 비교·카드 문제",
+            "cue": "예전 은행 방문과 현재 앱, 카드 결제 문제",
+            "questionIds": [
+              "topic-14-q4",
+              "topic-14-q6"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-14-q6",
+                "index": 0
+              },
+              {
+                "questionId": "topic-14-q6",
+                "index": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-15",
+        "groups": [
+          {
+            "title": "휴대폰 사용",
+            "cue": "YouTube·음악·메시지 확인·사진",
+            "questionIds": [
+              "topic-15-q1",
+              "topic-15-q7"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-15-q1",
+                "index": 1
+              },
+              {
+                "questionId": "topic-15-q1",
+                "index": 2
+              }
+            ]
+          },
+          {
+            "title": "휴대폰 꺼진 경험",
+            "cue": "메시지 보낼 때 꺼짐 → 충전 → 다시 켜짐",
+            "questionIds": [
+              "topic-15-q3"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-15-q3",
+                "index": 0
+              },
+              {
+                "questionId": "topic-15-q3",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "기술 변화·의견",
+            "cue": "예전 휴대폰과 지금 비교, AI·산업 의견",
+            "questionIds": [
+              "topic-15-q2",
+              "topic-15-q4",
+              "topic-15-q5",
+              "topic-15-q6"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-15-q2",
+                "index": 0
+              },
+              {
+                "questionId": "topic-15-q4",
+                "index": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-16",
+        "groups": [
+          {
+            "title": "한국 풍경·활동",
+            "cue": "산·강·바다와 그곳에서 하는 활동",
+            "questionIds": [
+              "topic-16-q1",
+              "topic-16-q5"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-16-q1",
+                "index": 0
+              },
+              {
+                "questionId": "topic-16-q5",
+                "index": 2
+              }
+            ]
+          },
+          {
+            "title": "동네의 변화",
+            "cue": "예전 건물·공간과 지금 상점·도로",
+            "questionIds": [
+              "topic-16-q3"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-16-q3",
+                "index": 0
+              },
+              {
+                "questionId": "topic-16-q3",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "도시 비교·문제",
+            "cue": "큰 도시와 작은 지역 차이·집값·도로",
+            "questionIds": [
+              "topic-16-q2",
+              "topic-16-q4"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-16-q2",
+                "index": 0
+              },
+              {
+                "questionId": "topic-16-q4",
+                "index": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-17",
+        "groups": [
+          {
+            "title": "사계절·가을",
+            "cue": "네 계절과 좋아하는 가을 산책",
+            "questionIds": [
+              "topic-17-q1",
+              "topic-17-q2"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-17-q1",
+                "index": 0
+              },
+              {
+                "questionId": "topic-17-q2",
+                "index": 0
+              }
+            ]
+          },
+          {
+            "title": "비로 바꾼 여행",
+            "cue": "부산 여행 변경 → 다음 주말 바다",
+            "questionIds": [
+              "topic-17-q3"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-17-q3",
+                "index": 0
+              },
+              {
+                "questionId": "topic-17-q3",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "날씨 변화",
+            "cue": "여름 더위와 큰비가 예전과 어떻게 다른지",
+            "questionIds": [
+              "topic-17-q4"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-17-q4",
+                "index": 0
+              },
+              {
+                "questionId": "topic-17-q4",
+                "index": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topicId": "topic-18",
+        "groups": [
+          {
+            "title": "작은 모임·명절",
+            "cue": "친구와 약속, 가족과 식사",
+            "questionIds": [
+              "topic-18-q1",
+              "topic-18-q4",
+              "topic-18-q6"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-18-q1",
+                "index": 0
+              },
+              {
+                "questionId": "topic-18-q4",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "지난 모임·휴일",
+            "cue": "친구와 저녁 또는 가족과 명절 경험",
+            "questionIds": [
+              "topic-18-q2",
+              "topic-18-q5",
+              "topic-18-q8",
+              "topic-18-q9"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-18-q8",
+                "index": 0
+              },
+              {
+                "questionId": "topic-18-q8",
+                "index": 1
+              }
+            ]
+          },
+          {
+            "title": "방식 비교·교통 문제",
+            "cue": "연락 방식 변화 또는 버스 지연 해결",
+            "questionIds": [
+              "topic-18-q3",
+              "topic-18-q7"
+            ],
+            "lineRefs": [
+              {
+                "questionId": "topic-18-q7",
+                "index": 0
+              },
+              {
+                "questionId": "topic-18-q7",
+                "index": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 };

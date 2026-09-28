@@ -28,7 +28,10 @@
     if (window.location.hash === "#scripts") {
       return "scripts";
     }
-    return "core";
+    if (window.location.hash === "#core") {
+      return "core";
+    }
+    return "sets";
   };
 
   const initialView = viewFromHash();
@@ -249,6 +252,68 @@
     </section>
   `).join("");
 
+  const renderStudySets = () => {
+    const sets = data.studySets;
+    const visibleSets = sets.topics.filter((item) =>
+      state.topic === "all" || item.topicId === state.topic);
+
+    const cards = visibleSets.map((item) => {
+      const topic = data.topics.find((entry) => entry.id === item.topicId);
+      const groups = item.groups.map((group) => {
+        const lines = group.lineRefs.map((ref) => {
+          const question = questionById.get(ref.questionId);
+          return question.answer[ref.index];
+        });
+        const links = group.questionIds.map((id) => {
+          const question = questionById.get(id);
+          return `<li class="scene-question">
+            <p><strong>${escapeHtml(question.number)}.</strong>
+              ${escapeHtml(question.question)}</p>
+            <p class="scene-question__mp" lang="en">${escapeHtml(question.answer[0])}</p>
+            <button class="text-button" type="button"
+              data-action="go-question" data-question-id="${escapeHtml(id)}">
+              전체 답변 보기
+            </button>
+          </li>`;
+        }).join("");
+        return `<article class="scene-card">
+          <h3>${escapeHtml(group.title)}</h3>
+          <p class="scene-cue">${escapeHtml(group.cue)}</p>
+          <div class="scene-lines">
+            <strong>이 장면에서 골라 쓸 문장</strong>
+            ${lines.map((line) =>
+              `<p lang="en">${escapeHtml(line)}</p>`).join("")}
+          </div>
+          <details class="scene-questions">
+            <summary>연결 질문 ${group.questionIds.length}개 · 첫 문장 보기</summary>
+            <ul>${links}</ul>
+          </details>
+        </article>`;
+      }).join("");
+      return `<details class="scene-topic"
+        ${state.topic === topic.id || topic.id === "topic-5" && state.topic === "all"
+          ? "open" : ""}>
+        <summary>
+          <strong>${escapeHtml(topic.title)}</strong>
+          <span>질문 ${topic.questions.length}개 · 학습 묶음 ${item.groups.length}개</span>
+        </summary>
+        <div class="scene-grid">${groups}</div>
+      </details>`;
+    }).join("");
+
+    return `<section class="sets-view" aria-labelledby="sets-title">
+      <div class="core-intro">
+        <p class="topic-label">질문 순서를 예측하는 표가 아닙니다</p>
+        <h2 id="sets-title">${escapeHtml(sets.title)}</h2>
+        <p>${escapeHtml(sets.lead)}</p>
+      </div>
+      <p class="sets-guide">주제를 열고 공통 장면을 익힌 뒤, 연결 질문의
+        첫 문장을 보고 해당 질문에 맞는 내용만 이어 말하세요.
+        모든 문장을 모든 질문에 붙이지 않아도 됩니다.</p>
+      ${cards || '<p class="empty-state">선택한 주제에 학습 묶음이 없습니다.</p>'}
+    </section>`;
+  };
+
   const renderCore = function renderCore() {
   const study = data.minimalStudy;
   const chunks = study.anchors.map((anchor, index) => {
@@ -372,6 +437,7 @@
   const render = () => {
     const isSurvey = state.view === "survey";
     const isCore = state.view === "core";
+    const isSets = state.view === "sets";
     const topics = getVisibleTopics();
     const visibleCount = topics.reduce(
       (count, topic) => count + topic.questions.length,
@@ -385,7 +451,16 @@
     });
 
     elements.filters.hidden = isSurvey || isCore;
-    elements.searchBox.hidden = isSurvey || isCore;
+    elements.searchBox.hidden = isSurvey || isCore || isSets;
+
+    if (isSets) {
+      elements.content.setAttribute("aria-labelledby", "sets-tab");
+      elements.description.textContent =
+        "출제 순서가 아닌 질문 기능별 묶음입니다. 주제를 골라 공통 장면을 연습하세요.";
+      elements.resultSummary.textContent = `${data.studySets.topics.length}개 주제 · 3개 묶음씩`;
+      elements.content.innerHTML = renderStudySets();
+      return;
+    }
 
     if (isCore) {
       elements.content.setAttribute("aria-labelledby", "core-tab");
@@ -440,7 +515,9 @@
         ? "#survey"
         : view === "scripts"
           ? "#scripts"
-          : "#core";
+          : view === "core"
+            ? "#core"
+            : "#sets";
     window.history.replaceState(null, "", hash);
     render();
   };
@@ -518,6 +595,14 @@
     }
     if (button.dataset.action === "copy") {
       copyAnswer(button);
+    }
+    if (button.dataset.action === "go-question") {
+      state.topic = data.topics.find((topic) =>
+        topic.questions.some((question) => question.id === button.dataset.questionId))?.id
+        ?? "all";
+      renderFilters();
+      setView("scripts");
+      document.getElementById(button.dataset.questionId)?.scrollIntoView();
     }
   });
 
