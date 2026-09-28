@@ -1,11 +1,11 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v26",
+  "version": "v27",
   "updated": "2026-09-28",
-  "questionCount": 142,
+  "questionCount": 155,
   "survey": {
     "title": "시험 전 설문 선택",
-    "note": "현재 스크립트의 연습 주제를 만든 선택 기록입니다. 실제 시험 화면의 문구가 다르면 같은 의미의 항목을 선택하세요. 운동 항목에는 '조깅·걷기'와 '운동을 전혀 하지 않음'이 함께 기록되어 있으니, 시험 전 본인의 실제 선택을 확인하세요.",
+    "note": "클럽·조깅은 연습 및 선택 목록에서 제외했습니다. 걷기와 '운동을 전혀 하지 않음'은 실제 시험에서 본인에게 맞는 항목을 확인하세요. 시험 화면의 선택 개수 조건도 확인하고 준비한 주제 안에서 선택하세요.",
     "settings": [
       {
         "label": "목표 등급",
@@ -56,12 +56,6 @@ window.OPIC_DATA = {
             "topics": [
               "콘서트"
             ]
-          },
-          {
-            "label": "클럽 가기",
-            "topics": [
-              "술집 / 펍"
-            ]
           }
         ]
       },
@@ -79,12 +73,6 @@ window.OPIC_DATA = {
       {
         "title": "운동",
         "items": [
-          {
-            "label": "조깅",
-            "topics": [
-              "공원"
-            ]
-          },
           {
             "label": "걷기",
             "topics": [
@@ -313,6 +301,31 @@ window.OPIC_DATA = {
             "I feel good after cleaning."
           ],
           "hint": "weekends → alone/by myself → put things away → floor → kitchen/bathroom → small/quick → feel good"
+        },
+        {
+          "id": "topic-1-q14",
+          "number": "Q14",
+          "question": "집에서 가족과 보낸 특별하거나 기억에 남는 경험을 말해 주세요.",
+          "status": "선택",
+          "answer": [
+            "One day, my family came over to my apartment for dinner.",
+            "When we finally met, we ordered food and talked for hours.",
+            "It was not a big party, but I was happy we made time to meet."
+          ],
+          "hint": "MP: 가족이 집에 와서 저녁 식사 → 음식 주문·대화 → 함께해서 좋았음"
+        },
+        {
+          "id": "topic-1-q15",
+          "number": "Q15",
+          "question": "집에서 문제가 생겼을 때 본인과 부모님은 어떻게 다르게 해결하나요?",
+          "status": "선택",
+          "answer": [
+            "The biggest difference is that I call for help, but my parents try to fix small problems themselves.",
+            "One evening, the kitchen light stopped working while I was making dinner.",
+            "So I called the building office and explained what was wrong.",
+            "Someone came the next morning and fixed it."
+          ],
+          "hint": "MP: 나는 도움을 요청하고 부모님은 직접 해결 시도 → 주방 조명 고장 → 관리사무소 연락·수리"
         }
       ]
     },
@@ -411,6 +424,18 @@ window.OPIC_DATA = {
             "I think everyone needs some time off."
           ],
           "hint": "busy → tired/stressed → vacation rest → simple home activities → feel better"
+        },
+        {
+          "id": "topic-2-q7",
+          "number": "Q7",
+          "question": "집에서 휴가를 보내는 것을 좋아하는 이유는 무엇인가요?",
+          "status": "선택",
+          "answer": [
+            "I prefer staying home for a vacation because I can slow down.",
+            "I sleep a little longer, make breakfast, and listen to music.",
+            "Having time to choose what I want to do is the best part."
+          ],
+          "hint": "MP: 집에서 쉬면 여유로움 → 늦잠·아침·음악 → 자유로운 일정"
         }
       ]
     },
@@ -780,6 +805,19 @@ window.OPIC_DATA = {
             "I prefer the smaller park because I can sit and relax."
           ],
           "hint": "MP: 큰 공원은 붐비고 작은 공원은 조용함 → 큰 공원 놀이터 → 작은 공원 나무 → 선호"
+        },
+        {
+          "id": "topic-5-q9",
+          "number": "Q9",
+          "question": "공원에서 불편한 점 한 가지와 그것에 대처하는 방법을 말해 주세요.",
+          "status": "선택",
+          "answer": [
+            "The big park near my home gets crowded on weekends.",
+            "It has many people and a large playground.",
+            "The other park is smaller, quiet, and not too crowded.",
+            "So I usually go to the smaller park when I want a quiet walk."
+          ],
+          "hint": "MP: 큰 공원이 주말에 붐빔 → 사람 많음 → 조용한 작은 공원 선택"
         }
       ]
     },
@@ -1138,7 +1176,7 @@ window.OPIC_DATA = {
             "These days, I use a music app instead of saving songs on my phone.",
             "I can find almost any song very easily.",
             "I can also make a playlist.",
-            "And I use wireless earphones now."
+            "I use wireless earphones now."
           ],
           "hint": "MP: 저장 대신 음악 앱 사용 → 노래 찾기 → 재생 목록·무선 이어폰"
         },
@@ -1155,6 +1193,19 @@ window.OPIC_DATA = {
             "That is what I remember most about hearing the music live."
           ],
           "hint": "최근 팝 콘서트 → 휴대폰으로 듣던 음악과 달랐음 → 좋아하는 노래/관객과 함께 노래"
+        },
+        {
+          "id": "topic-8-q8",
+          "number": "Q8",
+          "question": "요즘 음악을 들을 때 사용하는 기기나 편리한 기능을 설명해 주세요.",
+          "status": "선택",
+          "answer": [
+            "I use wireless earphones now.",
+            "These days, I use a music app instead of saving songs on my phone.",
+            "I can find almost any song very easily.",
+            "I can also make a playlist."
+          ],
+          "hint": "MP: 무선 이어폰 사용 → 휴대폰 음악 앱 → 쉽게 곡 검색·재생 목록"
         }
       ]
     },
@@ -1247,6 +1298,19 @@ window.OPIC_DATA = {
             "I think I enjoy the show more this way."
           ],
           "hint": "MP: 지금은 휴대폰보다 음악에 집중 → 예전 사진 많이 찍음 → 지금 몇 장만 → 더 즐김"
+        },
+        {
+          "id": "topic-9-q7",
+          "number": "Q7",
+          "question": "처음 갔던 콘서트의 경험을 묘사해 주세요.",
+          "status": "선택",
+          "answer": [
+            "The first concert I went to was a small pop show.",
+            "When the show began, the crowd started cheering.",
+            "I sang along when my favorite song came on.",
+            "It was exciting, and I wanted to go again."
+          ],
+          "hint": "MP: 첫 팝 콘서트 → 관객의 환호 → 좋아하는 노래를 따라 부름"
         }
       ]
     },
@@ -1805,6 +1869,32 @@ window.OPIC_DATA = {
             "After that, I ate my food and relaxed."
           ],
           "hint": "MP: 주문한 파스타 대신 다른 음식이 나옴 → 직원에게 설명 → 교체 → 식사"
+        },
+        {
+          "id": "topic-12-q6",
+          "number": "Q6",
+          "question": "최근에 음식점에서 외식했던 경험을 말해 주세요.",
+          "status": "선택",
+          "answer": [
+            "I went to a small pasta place near my home last weekend.",
+            "I ordered pasta and a drink.",
+            "The staff were friendly, and I enjoyed the quiet atmosphere.",
+            "I want to go back again."
+          ],
+          "hint": "MP: 지난 주말 집 근처 파스타 식당 → 파스타·음료 → 친절하고 조용했음"
+        },
+        {
+          "id": "topic-12-q7",
+          "number": "Q7",
+          "question": "자주 이용하는 배달 음식점이나 포장 음식과 그 이유를 설명해 주세요.",
+          "status": "선택",
+          "answer": [
+            "A pasta place near my home is my favorite place for delivery.",
+            "I often choose pasta and a drink.",
+            "I eat it at home and listen to music.",
+            "It is easy and relaxing after a busy day."
+          ],
+          "hint": "MP: 집 근처 파스타 배달 → 파스타·음료 → 집에서 편하게 식사"
         }
       ]
     },
@@ -1872,6 +1962,18 @@ window.OPIC_DATA = {
             "People know more about recycling now."
           ],
           "hint": "MP: 종류별 재활용함으로 지금이 더 쉬움 → 예전 적은 재활용함 → 지금 분리·인식"
+        },
+        {
+          "id": "topic-13-q5",
+          "number": "Q5",
+          "question": "재활용이 왜 중요하다고 생각하나요?",
+          "status": "선택",
+          "answer": [
+            "I think recycling is important because it reduces waste.",
+            "People separate paper, plastic, glass, and cans.",
+            "There are different bins for each type."
+          ],
+          "hint": "MP: 쓰레기를 줄이기 때문에 중요 → 종이·플라스틱 등 분리 → 종류별 재활용함"
         }
       ]
     },
@@ -1954,6 +2056,19 @@ window.OPIC_DATA = {
             "These days, people can do many simple things on a banking app."
           ],
           "hint": "MP: 계좌·카드·송금 업무 → ATM 현금 → 직원이 신분증 확인·절차 설명"
+        },
+        {
+          "id": "topic-14-q6",
+          "number": "Q6",
+          "question": "은행 카드에 문제가 생겨 해결했던 경험을 말해 주세요.",
+          "status": "선택",
+          "answer": [
+            "One day, my bank card didn't work when I tried to pay.",
+            "So I went to a bank near my home.",
+            "They checked my ID and helped me right away.",
+            "I got a new card and could use it again."
+          ],
+          "hint": "MP: 카드 결제 실패 → 은행 방문 → 신분증 확인·새 카드"
         }
       ]
     },
@@ -2051,6 +2166,19 @@ window.OPIC_DATA = {
             "Technology is a big part of life in Korea."
           ],
           "hint": "technology industry → phones/computers → daily use → AI products → faster/easier → more important"
+        },
+        {
+          "id": "topic-15-q7",
+          "number": "Q7",
+          "question": "최근에 구입한 편리한 전자제품과 사용하는 방법을 말해 주세요.",
+          "status": "선택",
+          "answer": [
+            "I recently got a new phone, and it is very useful at home.",
+            "I watch YouTube, listen to music, and check messages.",
+            "I also use it to find information and take pictures.",
+            "It's small and easy to use."
+          ],
+          "hint": "MP: 최근 새 휴대폰 → 영상·음악·메시지 → 정보 검색·사진"
         }
       ]
     },
@@ -2308,6 +2436,32 @@ window.OPIC_DATA = {
             "They said it was okay."
           ],
           "hint": "MP: 명절에 가족 방문길이 막힘 → 늦은 버스 → 가족에게 연락 → 이해"
+        },
+        {
+          "id": "topic-18-q8",
+          "number": "Q8",
+          "question": "어렸을 때 가족과 보낸 명절 경험을 말해 주세요.",
+          "status": "선택",
+          "answer": [
+            "When I was young, I spent Chuseok at home with my family.",
+            "We ate special food and talked together.",
+            "My cousins came over, so the house felt lively.",
+            "I remember how excited I felt that day."
+          ],
+          "hint": "MP: 어릴 때 가족과 추석 → 특별한 음식·대화 → 함께한 기억"
+        },
+        {
+          "id": "topic-18-q9",
+          "number": "Q9",
+          "question": "가장 최근 명절에 무엇을 했는지 말해 주세요.",
+          "status": "선택",
+          "answer": [
+            "Last Chuseok, I stayed at home and had a quiet meal with my family.",
+            "We ate special food and talked together.",
+            "After dinner, I relaxed at home.",
+            "It was a simple but happy day."
+          ],
+          "hint": "MP: 최근 추석에 가족과 집에서 식사 → 음식·대화 → 집에서 휴식"
         }
       ]
     }
