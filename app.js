@@ -209,6 +209,36 @@
 
   const renderCore = function renderCore() {
   const study = data.minimalStudy;
+  const chunks = study.anchors.map((anchor, index) => {
+    const renderLines = (lines) => lines.map((line) => `
+      <div class="chunk-line">
+        <p class="chunk-en" lang="en">${escapeHtml(line.en)}</p>
+        <p class="chunk-ko">${escapeHtml(line.ko)}</p>
+      </div>
+    `).join("");
+    return `
+      <li class="anchor-item">
+        <details ${index === 2 ? "open" : ""}>
+          <summary>
+            <strong>${escapeHtml(anchor.title)}</strong>
+            <small>기본 ${anchor.basic.length}문장${anchor.extra.length
+              ? ` · 추가 ${anchor.extra.length}문장` : ""}</small>
+          </summary>
+          <p class="core-cue">${escapeHtml(anchor.use)}</p>
+          <div class="chunk-lines">
+            <p class="chunk-label">먼저 연습할 문장</p>
+            ${renderLines(anchor.basic)}
+          </div>
+          ${anchor.extra.length ? `
+            <div class="chunk-lines chunk-lines--extra">
+              <p class="chunk-label">익숙해지면 추가</p>
+              ${renderLines(anchor.extra)}
+            </div>
+          ` : ""}
+        </details>
+      </li>
+    `;
+  }).join("");
   const patterns = study.patterns.map((pattern, index) => `
     <article class="core-card">
       <div class="core-card__heading">
@@ -222,29 +252,25 @@
       <p class="core-cue">${escapeHtml(pattern.cue)}</p>
     </article>
   `).join("");
-  const anchors = study.anchors.map((anchor) => `
-    <li class="anchor-item">
-      <strong>${escapeHtml(anchor.title)}</strong>
-      <p>${escapeHtml(anchor.facts)}</p>
-      <small>${escapeHtml(anchor.use)}</small>
-    </li>
-  `).join("");
   return `
     <section class="core-view" aria-labelledby="core-title">
       <div class="core-intro">
-        <p class="topic-label">실제로 암기할 범위</p>
+        <p class="topic-label">오늘은 한 묶음만</p>
         <h2 id="core-title">${escapeHtml(study.title)}</h2>
         <p>${escapeHtml(study.lead)}</p>
       </div>
-      <h3 class="core-section-title">공통 문장 흐름 8개</h3>
-      <div class="core-grid">${patterns}</div>
-      <h3 class="core-section-title">한국어로만 기억할 핵심 소재 7개</h3>
-      <ul class="anchor-list">${anchors}</ul>
+      <h3 class="core-section-title">1단계 · 바로 말할 수 있는 영어 문장</h3>
+      <ul class="anchor-list">${chunks}</ul>
       <div class="core-practice">
-        <h3>연습은 이렇게</h3>
+        <h3>하루 연습 순서</h3>
         <ol>${study.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol>
         <p>${escapeHtml(study.note)}</p>
       </div>
+      <details class="core-patterns">
+        <summary>2단계 · 익숙해지면 문장 틀 응용하기</summary>
+        <p>지금은 이 부분을 외우지 않아도 됩니다.</p>
+        <div class="core-grid">${patterns}</div>
+      </details>
     </section>
   `;
 };
@@ -322,7 +348,7 @@
       elements.content.setAttribute("aria-labelledby", "core-tab");
       elements.description.textContent =
         "답변 전체보다 공통 흐름과 소재를 먼저 익힙니다.";
-      elements.resultSummary.textContent = "8개 흐름 · 7개 소재";
+      elements.resultSummary.textContent = "8개 영어 문장 묶음";
       elements.content.innerHTML = renderCore();
       return;
     }
