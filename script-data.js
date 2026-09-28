@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v33",
+  "version": "v34",
   "updated": "2026-09-28",
   "questionCount": 159,
   "survey": {
@@ -217,12 +217,12 @@ window.OPIC_DATA = {
           "question": "집의 문제 중 한 가지를 구체적으로 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I felt worried when my kitchen light stopped working because I was making dinner.",
+            "My kitchen light stopped working while I was making dinner.",
             "So I called the building office and told them what was wrong.",
             "Someone came the next morning and fixed it.",
             "I was glad I could use the kitchen again."
           ],
-          "hint": "MP: 저녁 요리 중 주방 조명이 꺼짐 → 스위치 확인 → 관리사무소 → 다음 날 수리",
+          "hint": "저녁 만들 때 주방 조명이 꺼짐 → 관리사무소 연락 → 다음 날 수리 → 다시 사용",
           "supportCount": 2
         },
         {
@@ -231,12 +231,12 @@ window.OPIC_DATA = {
           "question": "특정 가구에 생긴 문제와 해결 방법을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I was surprised when my sofa leg broke because I was sitting on it.",
+            "My sofa leg broke while I was sitting on it.",
             "Then I called a repair service and told them what was wrong.",
             "They came the next day and fixed the leg.",
             "Now I can use my sofa again without worrying about it."
           ],
-          "hint": "소파 다리 고장 → 직접 확인했으나 실패 → 수리 서비스 연락 → 다음 날 수리",
+          "hint": "소파에 앉아 있는데 다리 고장 → 수리 요청 → 다음 날 고침",
           "supportCount": 2
         },
         {
@@ -275,12 +275,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "My favorite room is the living room.",
-            "It has a small sofa and a table, and I keep it tidy.",
+            "I have a sofa and a small table there.",
             "I sit on my sofa and watch YouTube.",
-            "The room is not large, but the window lets in plenty of light.",
+            "The room is small, but it gets a lot of light.",
             "It's where I relax after work."
           ],
-          "hint": "거실 → 소파·탁자 → YouTube → 선택: 창문·빛 → 퇴근 후 휴식",
+          "hint": "거실 → 소파·탁자 → YouTube → 선택: 밝은 방 → 퇴근 후 휴식",
           "supportCount": 2
         },
         {
@@ -411,13 +411,13 @@ window.OPIC_DATA = {
           "question": "사람들에게 휴가가 왜 중요하다고 생각하나요?",
           "status": "선택",
           "answer": [
-            "I think vacations are important because taking a break helps people feel less stressed.",
+            "I think vacations are important because people need time to rest.",
             "Most people are busy with work or school.",
-            "So they can get tired and stressed.",
+            "A break helps them feel less tired.",
             "During a vacation, they can sleep more and slow down.",
             "That's why I try to take a break even when I stay home."
           ],
-          "hint": "busy → tired/stressed → vacation rest → simple home activities → feel better",
+          "hint": "휴가가 필요한 이유 → 일·학교로 바쁨 → 쉬면 덜 피곤함 → 선택: 늦잠·느긋함",
           "supportCount": 2
         },
         {
@@ -453,12 +453,12 @@ window.OPIC_DATA = {
           "question": "집에서 보낸 휴가 중 예상치 못한 문제가 생긴 경험을 말해 주세요.",
           "status": "선택",
           "answer": [
-            "During a vacation at home, my kitchen light stopped working while I was making dinner.",
+            "My kitchen light stopped working while I was making dinner.",
             "So I called the building office and told them what was wrong.",
             "Someone came the next morning and fixed it.",
             "I was glad I could use the kitchen again."
           ],
-          "hint": "집 휴가 중 저녁 준비·조명 고장 → 관리사무소 → 다음 날 수리 → 안도감",
+          "hint": "집 휴가 중 저녁 만들 때 조명 고장 → 관리사무소 연락 → 다음 날 수리",
           "supportCount": 2
         }
       ]
@@ -535,13 +535,13 @@ window.OPIC_DATA = {
           "question": "커피숍에서 있었던 기억에 남는 에피소드를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I felt better in a small cafe one rainy day because it was warm and quiet.",
+            "One rainy day, I went to a small cafe near my home.",
             "I ordered a hot drink and sat by the window.",
             "I watched people hurry down the street with umbrellas.",
-            "The rain stopped after a while, and I went home feeling much better.",
+            "When the rain stopped, I went home feeling better.",
             "That short break is why I remember the cafe."
           ],
-          "hint": "갑작스러운 비 → 작은 카페에 들어감 → 따뜻한 음료/창밖 사람들 → 뜻밖의 휴식",
+          "hint": "비 오는 날 카페 → 따뜻한 음료·창가 → 우산 쓴 사람들 → 비 그친 뒤 귀가",
           "supportCount": 2
         },
         {
@@ -550,14 +550,14 @@ window.OPIC_DATA = {
           "question": "커피숍에서 문제가 생겼던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I felt a little confused when I got a hot coffee because I had ordered an iced one.",
-            "I checked my order and told the staff in a calm way.",
+            "I ordered an iced coffee, but they gave me a hot one.",
+            "I told the staff about the mistake.",
             "They said sorry and made a new drink for me.",
-            "I waited a few minutes and got the iced coffee I wanted.",
-            "It was a small mistake, and the staff handled it kindly.",
-            "So I still had a good time there."
+            "After that, I sat by the window and drank my coffee.",
+            "I thanked them before I left.",
+            "So I still had a nice break."
           ],
-          "hint": "아이스커피 주문했는데 뜨거운 음료 → 직원에게 설명 → 다시 만들어줌 → 친절하게 해결",
+          "hint": "아이스커피 대신 뜨거운 커피 → 직원에게 설명 → 새 음료 → 선택: 창가에서 마심·감사",
           "supportCount": 2
         },
         {
@@ -696,9 +696,9 @@ window.OPIC_DATA = {
             "I showed the bill to a staff member and told them what was wrong.",
             "They checked the order and took the extra drink off the bill.",
             "I said thanks and paid the right amount.",
-            "I felt a bit bad at first, but they fixed the problem quickly."
+            "I was glad they fixed it quickly."
           ],
-          "hint": "계산서 오류 → 영수증·직원 설명 → 금액 수정 → 선택: 결제 → 빠른 해결",
+          "hint": "계산서에 주문하지 않은 음료 → 직원에게 보여 줌 → 금액 수정 → 선택: 감사하고 결제",
           "supportCount": 2
         },
         {
@@ -817,12 +817,12 @@ window.OPIC_DATA = {
           "status": "선택",
           "answer": [
             "The main difference is that one park is bigger and has more people.",
-            "It has many people and a large playground.",
+            "The big park has a large playground and a lot of people.",
             "The other park is smaller and quiet, with fewer people.",
-            "It has a really nice view of the trees.",
+            "I can sit by the trees and relax there.",
             "That's why I usually choose the smaller one."
           ],
-          "hint": "큰 공원: 붐빔·놀이터 → 작은 공원: 조용함 → 선택: 나무 → 작은 공원 선호",
+          "hint": "큰 공원: 놀이터·사람 많음 → 작은 공원: 조용함 → 선택: 나무 옆 휴식 → 작은 공원 선택",
           "supportCount": 2
         },
         {
@@ -856,10 +856,10 @@ window.OPIC_DATA = {
             "I love Haeundae Beach in Busan because the sea makes me feel relaxed.",
             "It has a long sandy beach and a wide view of the sea.",
             "There are many places to eat nearby, so it is easy to spend an afternoon there.",
-            "It can have lots of people on weekends.",
+            "It gets busy on weekends.",
             "I really like walking along the water and listening to the waves."
           ],
-          "hint": "좋아하는 해변=부산 해운대 → 긴 모래사장/바다 전망/주변 식당 → 주말 혼잡/파도",
+          "hint": "해운대 → 긴 모래사장·바다 → 주변 식당 → 선택: 주말엔 붐빔 → 물가 산책",
           "supportCount": 2
         },
         {
@@ -885,11 +885,11 @@ window.OPIC_DATA = {
           "answer": [
             "I visited Haeundae Beach by myself last month.",
             "I walked along the water for a while and took a few pictures.",
-            "The wind was strong, so I found a spot out of the wind and sat there with a drink.",
+            "The wind was strong, so I sat near a cafe with a drink.",
             "I watched the sea before heading back to the station.",
             "It was a short but relaxing visit."
           ],
-          "hint": "지난달 혼자 해운대 → 산책·사진 → 바람 피한 자리·음료 → 선택: 역 → 휴식",
+          "hint": "지난달 혼자 해운대 → 산책·사진 → 바람 불어 카페 근처에서 음료 → 선택: 바다 감상 후 역",
           "supportCount": 2
         },
         {
@@ -965,14 +965,14 @@ window.OPIC_DATA = {
           "question": "좋아하는 국내여행 장소들을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I love visiting Busan because the sea helps me feel relaxed when I travel alone.",
+            "I love visiting Busan because I can relax by the sea.",
             "I usually take the train to Busan by myself.",
             "Haeundae Beach is one reason I go, but I also enjoy the restaurants and the streets nearby.",
-            "Busan feels different from the area near my home.",
-            "The train is fast, and I can relax on the way.",
+            "I walk along the beach by myself.",
+            "Later, I look for a small restaurant and have dinner.",
             "I can enjoy the sea without making too many plans."
           ],
-          "hint": "좋아하는 국내여행지=부산 → 기차 → 해운대·근처 식당/거리 → 일상과 다른 분위기",
+          "hint": "혼자 부산 여행 → 기차 → 해운대와 근처 식당·거리 → 선택: 해변 산책·식당 → 바다",
           "supportCount": 2
         },
         {
@@ -999,11 +999,11 @@ window.OPIC_DATA = {
             "I have happy memories of family trips to Busan because we spent time together at the beach.",
             "We went to Haeundae Beach a few times.",
             "I remember walking along the beach with my family.",
-            "We also ate some food together.",
-            "I just followed them and enjoyed the trip.",
+            "We ate dinner together after the beach.",
+            "We took pictures together before going home.",
             "I have liked Busan for a long time."
           ],
-          "hint": "young → family → Haeundae → walk → food → parents planned → still like Busan",
+          "hint": "어릴 때 가족과 부산 → 해운대 → 함께 산책 → 선택: 저녁·사진 → 지금도 부산 좋아함",
           "supportCount": 2
         },
         {
@@ -1087,11 +1087,11 @@ window.OPIC_DATA = {
           "answer": [
             "I think people worry about money and busy places when they travel.",
             "Hotels, food, and tickets can cost a lot.",
-            "People also worry about busy places and long lines.",
+            "Long lines can take up a lot of time.",
             "So they usually check prices and make plans early.",
             "I think a little planning can make the trip easier."
           ],
-          "hint": "MP: 돈과 혼잡이 큰 걱정 → 숙박·음식·표 값 → 긴 줄 → 가격 확인·계획",
+          "hint": "여행 걱정: 돈·붐비는 곳 → 비용·긴 줄 → 선택: 미리 가격 확인·계획",
           "supportCount": 2
         },
         {
@@ -1225,13 +1225,13 @@ window.OPIC_DATA = {
           "question": "라이브 음악을 들었던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I felt excited to hear live pop music because my favorite song sounded different at a concert.",
+            "I heard my favorite pop song live at a concert.",
             "I had listened to the singer's songs on my phone many times, but the live sound felt different.",
             "When my favorite song started, everyone cheered and sang along.",
             "I sang too, even though I usually just listen quietly at home.",
             "That is what I remember most about hearing the music live."
           ],
-          "hint": "최근 팝 콘서트 → 휴대폰으로 듣던 음악과 달랐음 → 좋아하는 노래/관객과 함께 노래",
+          "hint": "콘서트에서 좋아하는 팝 노래 라이브 감상 → 함께 노래 → 기억에 남음",
           "supportCount": 2
         },
         {
@@ -1291,12 +1291,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "At concerts, I mainly listen to the music and sing along.",
-            "Before the show starts, I put my phone away.",
-            "During the concert, I sing along to songs I know.",
-            "I take a few pictures, but I try not to look at my phone too much.",
+            "When the show starts, I focus on the music.",
+            "I sing along to songs I know.",
+            "I take a few pictures between songs.",
             "I go home happy that I got to hear the songs live."
           ],
-          "hint": "공연: 감상·따라 부르기 → 휴대폰 넣기 → 노래 → 선택: 사진 → 즐거움",
+          "hint": "공연: 노래 감상·따라 부르기 → 공연 시작 후 음악에 집중 → 선택: 곡 사이 사진",
           "supportCount": 2
         },
         {
@@ -1351,10 +1351,10 @@ window.OPIC_DATA = {
           "answer": [
             "I used to take lots of photos at concerts, but now I focus on the music.",
             "When I was younger, I watched much of the show through my phone.",
-            "I still take a few pictures, but I focus more on the music.",
+            "Now I take only a few pictures and sing along.",
             "I think I enjoy the show more this way."
           ],
-          "hint": "예전 휴대폰·사진 위주 → 현재 사진 조금·음악 집중 → 더 즐김",
+          "hint": "예전 휴대폰으로 공연 많이 봄 → 지금 사진 조금만 찍고 노래 → 공연을 더 즐김",
           "supportCount": 2
         },
         {
@@ -1576,12 +1576,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Heavy rain made me change my trip to Busan.",
-            "I called my friend and suggested going the next weekend.",
-            "My friend agreed, and we enjoyed the beach on a clear day the following weekend.",
-            "I stayed home and watched YouTube on the rainy day.",
-            "I was glad we changed the date."
+            "I changed my train ticket to the next weekend.",
+            "The weather was clear then, so I enjoyed the beach.",
+            "I also took a few pictures by the sea.",
+            "I was glad I waited for a sunny day."
           ],
-          "hint": "비로 부산 여행 변경 → 친구 연락·다음 주 제안 → 동의·맑은 날 해변 → 선택: 비 온 날 집·YouTube → 만족",
+          "hint": "비로 부산 여행 변경 → 기차표를 다음 주말로 변경 → 맑은 날 해변 → 선택: 바다 사진",
           "supportCount": 2
         },
         {
@@ -1619,12 +1619,12 @@ window.OPIC_DATA = {
           "question": "집에 문제가 생겼다가 해결한 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "I felt worried when my kitchen light stopped working because I was making dinner.",
+            "My kitchen light stopped working while I was making dinner.",
             "So I called the building office and told them what was wrong.",
             "Someone came the next morning and fixed it.",
             "I was glad I could use the kitchen again."
           ],
-          "hint": "MP: 저녁 요리 중 주방 조명이 꺼짐 → 스위치 확인 → 관리사무소 → 다음 날 수리",
+          "hint": "저녁 만들 때 주방 조명 고장 → 관리사무소 연락 → 다음 날 수리",
           "supportCount": 2
         },
         {
@@ -1851,13 +1851,13 @@ window.OPIC_DATA = {
           "question": "가장 최근에 호텔에 묵었던 경험을 처음부터 끝까지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I enjoyed staying at a quiet hotel in Busan last month because I could rest near the beach.",
+            "I stayed at a quiet hotel in Busan last month.",
             "I checked in, left my bag in the room, and went for a walk by the sea.",
             "Later, I came back and looked at the ocean from my window.",
             "The next morning, I checked out and headed to the station.",
             "I would like to stay there again."
           ],
-          "hint": "최근 혼자 부산 기차여행 → 호텔 체크인 → 해변·객실 바다 전망 → 다음 날 체크아웃",
+          "hint": "지난달 부산 호텔 → 체크인·바다 산책 → 객실 바다 전망 → 다음 날 체크아웃",
           "supportCount": 3
         },
         {
@@ -1919,11 +1919,11 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "The main difference is that I already know the food at chain restaurants.",
-            "When I eat at a chain restaurant, I usually know the menu and what to expect.",
-            "At local restaurants, I sometimes find different dishes and styles.",
+            "At a chain restaurant, I can order the same meal each time.",
+            "At a local restaurant, I can try something new.",
             "I choose a chain restaurant for food I know and a local one for something new."
           ],
-          "hint": "체인점: 익숙한 메뉴·예상 가능한 맛 → 로컬: 다른 요리·스타일 → 상황별 선택",
+          "hint": "체인점: 매번 같은 음식 → 로컬: 새로운 음식 → 목적에 따라 선택",
           "supportCount": 2
         },
         {
@@ -1976,13 +1976,13 @@ window.OPIC_DATA = {
           "question": "음식점에서 문제가 생겼던 경험과 해결 방법을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "I felt confused when I got the wrong food because I had ordered pasta.",
+            "I ordered pasta, but the wrong food came to my table.",
             "So I talked to a staff member.",
             "They changed it right away.",
             "After that, I ate my food and relaxed.",
             "I was glad the staff fixed the mistake quickly."
           ],
-          "hint": "MP: 주문한 파스타 대신 다른 음식이 나옴 → 직원에게 설명 → 교체 → 식사",
+          "hint": "파스타 주문했는데 다른 음식 → 직원에게 말함 → 바꿔 줌 → 식사",
           "supportCount": 2
         },
         {
@@ -2109,10 +2109,10 @@ window.OPIC_DATA = {
             "Banks in Korea usually have ATMs and desks where people can get help.",
             "The bank near my home is clean and quiet.",
             "The staff members are kind and helpful.",
-            "I don't go there often because I use a banking app.",
-            "I go there when I need help with something I cannot do on a banking app."
+            "I usually use a banking app to send money or check my account.",
+            "But I go to the bank when I need help in person."
           ],
-          "hint": "일반 은행: ATM·창구 → 동네 은행 → 직원 도움 → 선택: 앱 → 직접 도움이 필요할 때 방문",
+          "hint": "은행: ATM·창구 → 동네 은행·직원 → 선택: 앱으로 송금·잔액 확인 → 직접 도움이 필요하면 방문",
           "supportCount": 2
         },
         {
@@ -2201,12 +2201,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "My phone is the device I use most often.",
-            "I watch YouTube, listen to music, and check my phone.",
+            "I watch YouTube, listen to music, and check my messages.",
             "I also use it to find information and take pictures.",
             "It's small and easy to use.",
             "That is why I use it every day."
           ],
-          "hint": "주요 기기: 휴대폰 → YouTube·음악·확인 → 검색·사진 → 선택: 휴대성 → 매일 사용",
+          "hint": "휴대폰 → YouTube·음악·메시지 확인 → 검색·사진 → 선택: 작고 쉬움",
           "supportCount": 2
         },
         {
@@ -2289,12 +2289,12 @@ window.OPIC_DATA = {
           "status": "선택",
           "answer": [
             "I recently bought a new phone.",
-            "I watch YouTube, listen to music, and check my phone.",
+            "I watch YouTube, listen to music, and check my messages.",
             "I also use it to find information and take pictures.",
             "It's small and easy to use.",
-            "I am glad I chose a device I can use every day."
+            "I am glad I chose a phone I can use every day."
           ],
-          "hint": "최근 새 휴대폰 → YouTube·음악·확인 → 검색·사진 → 선택: 휴대성 → 매일 활용",
+          "hint": "새 휴대폰 → YouTube·음악·메시지 확인 → 검색·사진 → 선택: 작고 쉬움",
           "supportCount": 2
         }
       ]
@@ -2421,12 +2421,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Heavy rain made me change my trip to Busan.",
-            "I called my friend and suggested going the next weekend.",
-            "My friend agreed, and we enjoyed the beach on a clear day the following weekend.",
-            "I stayed home and watched YouTube on the rainy day.",
-            "I was glad we changed the date."
+            "I changed my train ticket to the next weekend.",
+            "The weather was clear then, so I enjoyed the beach.",
+            "I also took a few pictures by the sea.",
+            "I was glad I waited for a sunny day."
           ],
-          "hint": "비로 부산 여행 변경 → 친구 연락·다음 주 제안 → 동의·맑은 날 해변 → 선택: 비 온 날 집·YouTube → 만족",
+          "hint": "비로 부산 여행 변경 → 기차표를 다음 주말로 변경 → 맑은 날 해변 → 선택: 바다 사진",
           "supportCount": 2
         },
         {
@@ -2473,13 +2473,14 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I felt sorry about changing plans with my friend because I was too sick to meet.",
-            "I said sorry and asked if we could meet the next weekend.",
-            "My friend said that was fine, and we chose a new time.",
-            "We met later and had a nice dinner.",
+            "I sent a message right away and said sorry.",
+            "I asked if we could meet the next weekend instead.",
+            "My friend agreed, so we chose another time.",
+            "We finally met for dinner a week later.",
             "I was glad I told my friend early."
           ],
-          "hint": "몸이 안 좋아 약속 변경 → 바로 연락/사과 → 다음 주말 제안 → 나중에 저녁 식사",
-          "supportCount": 2
+          "hint": "몸이 안 좋아 친구 약속 변경 → 바로 문자·사과 → 다음 주말 제안 → 동의 → 선택: 나중에 저녁 식사",
+          "supportCount": 3
         },
         {
           "id": "topic-18-q3",
@@ -2702,8 +2703,8 @@ window.OPIC_DATA = {
             "role": "비교에 붙일 문장"
           },
           {
-            "en": "I felt worried when my kitchen light stopped working because I was making dinner.",
-            "ko": "저녁을 만들던 중 주방 조명이 꺼져서 걱정됐어요.",
+            "en": "My kitchen light stopped working while I was making dinner.",
+            "ko": "저녁을 만들던 중 주방 조명이 꺼졌어요.",
             "source": "topic-1-q8",
             "role": "MP · 집 문제"
           }
@@ -2747,8 +2748,8 @@ window.OPIC_DATA = {
             "role": "MP · 음식점 일상"
           },
           {
-            "en": "I felt a little confused when I got a hot coffee because I had ordered an iced one.",
-            "ko": "아이스커피를 주문했는데 뜨거운 커피가 나와서 조금 당황했어요.",
+            "en": "I ordered an iced coffee, but they gave me a hot one.",
+            "ko": "아이스커피를 주문했는데 뜨거운 커피가 나왔어요.",
             "source": "topic-3-q6",
             "role": "MP · 카페 문제"
           }
@@ -2811,8 +2812,8 @@ window.OPIC_DATA = {
         "use": "국내여행·해변·호텔·기억에 남는 경험",
         "basic": [
           {
-            "en": "I love visiting Busan because the sea helps me feel relaxed when I travel alone.",
-            "ko": "혼자 여행할 때 부산 바다를 보면 마음이 편해져서 좋아요.",
+            "en": "I love visiting Busan because I can relax by the sea.",
+            "ko": "부산에 가면 바닷가에서 쉴 수 있어서 좋아요.",
             "source": "topic-7-q1",
             "role": "MP · 국내여행"
           },
@@ -2915,8 +2916,8 @@ window.OPIC_DATA = {
             "role": "MP · 약속 변경 경험"
           },
           {
-            "en": "I said sorry and asked if we could meet the next weekend.",
-            "ko": "미안하다고 말하고 다음 주말에 만날 수 있는지 물었어요.",
+            "en": "I sent a message right away and said sorry.",
+            "ko": "바로 메시지를 보내 미안하다고 했어요.",
             "source": "topic-18-q2",
             "role": "붙일 문장"
           }
@@ -3007,6 +3008,6 @@ window.OPIC_DATA = {
       "익숙해지면 선택 문장 1~2개를 중간에 넣습니다. 감정은 상황에 맞게 말하고 같은 뜻을 반복하지 않습니다.",
       "같은 행동·사건은 같은 표현으로 연습하고, 질문에 따라 시점이나 장소만 바꿉니다."
     ],
-    "note": "159개 답변을 통째로 외우지 마세요. 공통 문장을 익혀 질문에 맞게 연결하세요. What·Feeling·Why는 경험·선호를 정리하는 도구이며, 모든 첫 문장에 강제로 넣지 않습니다. 짧게 답해도 질문에 필요한 내용은 모두 말합니다. 발음 부담을 줄이도록 쉬운 표현을 반복합니다. book ahead(미리 예약), said sorry(미안하다고 말함)처럼 정해 둔 표현을 재사용하세요."
+    "note": "159개 답변을 통째로 외우지 마세요. 같은 장소와 사건의 문장을 여러 질문에서 다시 쓰고, 질문에 맞는 첫 문장만 바꿔 연결하세요. 짧은 답변만으로 필요한 내용을 말합니다. 선택 문장은 행동의 다음 장면이나 새 정보를 덧붙일 때만 사용합니다. 발음하기 쉬운 일상 표현을 우선합니다."
   }
 };
