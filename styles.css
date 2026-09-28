@@ -443,6 +443,53 @@ button {
   margin-top: 2px;
 }
 
+.answer--structured {
+  display: grid;
+  gap: 12px;
+}
+
+.answer-mp {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.answer-mp strong,
+.answer-support strong {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--teal-700);
+  font-size: 0.82rem;
+}
+
+.answer-mp p {
+  color: var(--navy-900);
+  font-weight: 700;
+}
+
+.answer-more {
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
+.answer-more summary {
+  cursor: pointer;
+  color: var(--ink-700);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.answer-more p:first-of-type {
+  margin-top: 8px;
+}
+
+.chunk-role {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--teal-700);
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
 .flow {
   display: flex;
   gap: 9px;
