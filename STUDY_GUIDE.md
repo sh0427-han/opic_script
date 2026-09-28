@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | 공원을 묘사해 주세요 | My favorite park is close to my home. | I like going there when I want fresh air after a busy day. |
 | 공원에서 주로 무엇을 하나요 | When I go to the park, I usually walk along the path first. | After about twenty minutes, I get a coffee and sit on a bench. |
-| 공원에서 문제가 생긴 경험 | Once, I went to the park for a walk, but it suddenly started raining. | I did not have an umbrella, so I ran to a covered area near the entrance. |
+| 공원에서 문제가 생긴 경험 | Once, I went to the park for a walk, but it suddenly started raining. | I did not have an umbrella, so I ran to a covered area near the entrance. The rain became lighter after about ten minutes, and I went home. |
 | 예전 집과 지금 집 비교 | My old home was lively, while my place now is quiet and easy to keep clean. | When I was young, I lived with my family in a bigger apartment. |
 
 위 영어 문장은 모두 [전체 스크립트](https://sh0427-han.github.io/opic_script/#scripts)의 해당 질문에도 같은 형태로 있습니다. **문제 경험은 사건 → 한 일 → 결과**, **비교는 가장 큰 차이 → 예전·현재의 예**, **의견은 주장 → 이유·쉬운 예**로 이어갑니다. 모든 질문에 억지로 이유나 필러를 붙이지 마세요.
@@ -16,7 +16,7 @@
 1. 질문 하나를 골라 유형을 확인하고 MP 한 문장을 두 번 소리 내어 읽습니다.
 2. MP를 가리고 말합니다. 막히면 다시 보고 한 번 더 말합니다.
 3. 같은 답변에서 부연설명 1~2문장을 붙여 말합니다. 문제 경험은 조치나 결과를 우선 고릅니다.
-4. 답이 더 필요할 때만 ‘필요할 때 더 말하기’를 펼칩니다. 다음 날 어제 MP를 짧게 복습합니다.
+4. 답이 더 필요할 때만 ‘전체 답변의 나머지 문장’을 펼칩니다. 다음 날 어제 MP를 짧게 복습합니다.
 
 [문제 연습](https://sh0427-han.github.io/opic_script/#questions)에서는 질문만 본 뒤 MP를 먼저 말해 보세요. 한국어 힌트는 뜻과 말할 순서를 확인하는 용도입니다. 질문이 다른데도 같은 소재를 반복하지 말고, 실제 경험과 다른 설정은 본인의 사실에 맞춰 일관되게 바꾸세요.
 
