@@ -259,7 +259,7 @@
         <h2 id="core-title">${escapeHtml(study.title)}</h2>
         <p>${escapeHtml(study.lead)}</p>
       </div>
-      <h3 class="core-section-title">1단계 · 바로 말할 수 있는 영어 문장</h3>
+      <h3 class="core-section-title">1단계 · 스크립트에서 그대로 고른 영어 문장</h3>
       <ul class="anchor-list">${chunks}</ul>
       <div class="core-practice">
         <h3>하루 연습 순서</h3>
