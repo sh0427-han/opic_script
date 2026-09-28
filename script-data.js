@@ -1,11 +1,11 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v28",
+  "version": "v29",
   "updated": "2026-09-28",
-  "questionCount": 163,
+  "questionCount": 159,
   "survey": {
     "title": "시험 전 설문 선택",
-    "note": "클럽·조깅은 연습 및 선택 목록에서 제외했습니다. 걷기와 '운동을 전혀 하지 않음'은 실제 시험에서 본인에게 맞는 항목을 확인하세요. 시험 화면의 선택 개수 조건도 확인하고 준비한 주제 안에서 선택하세요.",
+    "note": "클럽·조깅·걷기는 연습 및 선택 목록에서 제외했습니다. 운동 항목은 실제 시험에서 본인에게 맞게 선택하고, 시험 화면의 선택 개수 조건을 확인하세요.",
     "settings": [
       {
         "label": "목표 등급",
@@ -73,13 +73,6 @@ window.OPIC_DATA = {
       {
         "title": "운동",
         "items": [
-          {
-            "label": "걷기",
-            "topics": [
-              "공원",
-              "걷기"
-            ]
-          },
           {
             "label": "운동을 전혀 하지 않음",
             "topics": []
@@ -352,12 +345,12 @@ window.OPIC_DATA = {
           "answer": [
             "When I take a vacation at home, I like having a slow morning.",
             "I sleep a little longer, make breakfast, and listen to music.",
-            "Later, I might watch a video or go out for a short walk.",
+            "Later, I watch a video or just sit on my sofa.",
             "I do not make a strict schedule.",
             "In the evening, I order food or cook something simple.",
             "Having time to choose what I want to do is the best part."
           ],
-          "hint": "집 휴가=늦잠/아침·음악 → 영상 또는 산책 → 일정 없이 저녁 식사 → 자유로운 시간"
+          "hint": "집 휴가=혼자 늦잠·아침·음악 → 소파에서 영상/휴식 → 일정 없이 조용한 저녁"
         },
         {
           "id": "topic-2-q2",
@@ -365,12 +358,12 @@ window.OPIC_DATA = {
           "question": "집에서 보내는 휴가 중 만나고 싶은 사람을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I would like to see a close friend for dinner one evening during my vacation at home.",
-            "We could order some food and talk for a while.",
-            "I also like having some quiet time by myself.",
-            "After dinner, I could go back to relaxing."
+            "Honestly, I would rather not meet anyone during my vacation at home.",
+            "I live alone, and I enjoy having quiet time by myself.",
+            "I usually sit on my sofa, listen to music, and relax.",
+            "I can meet a friend after the vacation, but I want this time to be just for me."
           ],
-          "hint": "MP: 집 휴가 중 친한 친구와 저녁 식사 → 음식 주문·대화 → 나머지 시간은 혼자 휴식"
+          "hint": "MP: 집 휴가에는 누구도 만나지 않고 싶음 → 혼자 소파·음악 → 휴가가 끝난 뒤 친구 만날 수 있음"
         },
         {
           "id": "topic-2-q3",
@@ -453,10 +446,10 @@ window.OPIC_DATA = {
           "answer": [
             "My favorite room at home is the living room.",
             "It has a small sofa and a table, and I keep it tidy.",
-            "You know, I watched YouTube, listened to music, and checked my phone.",
+            "During my vacation, I sit there by myself and listen to music.",
             "I like it because I can relax there without doing anything complicated."
           ],
-          "hint": "MP: 거실에서 쉼 → 소파·탁자 → 영상·음악 → 편하게 휴식"
+          "hint": "MP: 혼자 쉬는 거실 → 작은 소파·탁자 → 음악 들으며 가만히 휴식"
         },
         {
           "id": "topic-2-q9",
@@ -768,22 +761,6 @@ window.OPIC_DATA = {
           "hint": "공원에서 산책길 20분 → 나무 보기 → 커피·벤치·음악 → 기분 전환"
         },
         {
-          "id": "topic-5-q3",
-          "number": "Q3",
-          "question": "가벼운 산책을 할 때 보통 어떻게 하나요?",
-          "status": "필수",
-          "answer": [
-            "I sometimes take a short walk at a park near my home.",
-            "I usually walk for about twenty or thirty minutes.",
-            "I do not walk very fast.",
-            "I just look around and enjoy the fresh air.",
-            "Then I get some coffee and sit on a bench.",
-            "You know, I listen to music and check my phone for a while.",
-            "It is a simple way for me to relax."
-          ],
-          "hint": "near-home park → 20~30 min → not fast → fresh air → coffee/bench → music/phone"
-        },
-        {
           "id": "topic-5-q4",
           "number": "Q4",
           "question": "최근 공원에 갔던 경험을 묘사해 주세요.",
@@ -877,63 +854,8 @@ window.OPIC_DATA = {
       ]
     },
     {
-      "id": "topic-19",
-      "order": 6,
-      "title": "걷기",
-      "source": "survey",
-      "questions": [
-        {
-          "id": "topic-19-q1",
-          "number": "Q1",
-          "question": "자주 걷는 장소와 산책로의 모습을 묘사해 주세요.",
-          "status": "선택",
-          "answer": [
-            "My favorite park is close to my home.",
-            "I like going there when I want fresh air after a busy day.",
-            "It has a walking path, some trees, and benches along the way.",
-            "It is not very large, so I can walk around it in about twenty minutes.",
-            "The trees and the easy path make it a comfortable place for a short walk."
-          ],
-          "hint": "MP: 집 근처 공원 → 산책로·나무·벤치 → 20분 정도 걷기"
-        },
-        {
-          "id": "topic-19-q2",
-          "number": "Q2",
-          "question": "최근에 산책했던 날 무엇을 했는지 설명해 주세요.",
-          "status": "선택",
-          "answer": [
-            "Last weekend, I took a short walk in the park near my home.",
-            "I followed the path around the trees for about twenty minutes.",
-            "Then I bought a coffee and sat on a bench.",
-            "The air was cool, and I listened to music for a while.",
-            "I went home feeling refreshed.",
-            "It was a simple visit, but that is why I like the park."
-          ],
-          "hint": "MP: 지난 주말 공원 산책 → 나무 사이로 20분 걷기 → 커피·벤치"
-        },
-        {
-          "id": "topic-19-q3",
-          "number": "Q3",
-          "question": "걷는 도중 문제가 생겼던 경험과 해결 방법을 말해 주세요.",
-          "status": "선택",
-          "answer": [
-            "Once, I went to the park for a walk, but it suddenly started raining.",
-            "I did not have an umbrella, so I ran to a covered area near the entrance.",
-            "I waited there and checked the weather on my phone.",
-            "The rain became lighter after about ten minutes, and I went home.",
-            "Now I check the weather before I take a long walk."
-          ],
-          "hint": "MP: 산책 중 갑자기 비 → 입구 근처 지붕으로 이동 → 비 약해져 귀가",
-          "shortSupportIndices": [
-            1,
-            3
-          ]
-        }
-      ]
-    },
-    {
       "id": "topic-6",
-      "order": 7,
+      "order": 6,
       "title": "해변",
       "source": "survey",
       "questions": [
@@ -971,14 +893,14 @@ window.OPIC_DATA = {
           "question": "최근 해변에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Recently, I went to Haeundae Beach in Busan.",
+            "Recently, I went to Haeundae Beach in Busan by myself.",
             "I walked along the water for a while and took a few pictures.",
             "The waves were gentle, but the wind was stronger than I expected.",
             "So I found a place away from the water and sat there with a drink.",
             "I watched the sea before heading back to the station.",
             "It was a short but relaxing visit."
           ],
-          "hint": "최근 해운대 → 바닷가 걷기/사진 → 바람 강함 → 음료 마시며 바다 봄 → 역으로 이동"
+          "hint": "최근 혼자 해운대 → 바닷가 천천히 걷고 사진 → 바람 피해 앉아 휴식"
         },
         {
           "id": "topic-6-q4",
@@ -1047,7 +969,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-7",
-      "order": 8,
+      "order": 7,
       "title": "국내여행",
       "source": "survey",
       "questions": [
@@ -1072,12 +994,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "When I travel to Busan, I first leave my bag at the hotel.",
-            "Then I usually go to Haeundae and walk along the beach.",
+            "Then I usually go to Haeundae and walk along the beach by myself.",
             "Later, I look for a small restaurant and have dinner.",
             "The next morning, I take a few pictures and head to the station.",
-            "I like this simple plan because I can see the sea without rushing."
+            "I like taking my time because I usually travel alone."
           ],
-          "hint": "부산 여행 순서=호텔에 짐 → 해운대 산책 → 식당 저녁 → 다음 날 사진·역"
+          "hint": "부산에 혼자 도착 → 호텔에 짐 → 해운대·작은 식당 → 다음 날 사진·귀가"
         },
         {
           "id": "topic-7-q3",
@@ -1115,13 +1037,13 @@ window.OPIC_DATA = {
           "question": "최근에 다녀온 국내여행을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Last month, I took a short trip to Busan by train.",
-            "After I arrived, I left my bag at the hotel and went to Haeundae.",
+            "Last month, I took a short trip to Busan by myself.",
+            "I took the train, left my bag at the hotel, and went to Haeundae.",
             "I walked near the beach and had dinner at a small restaurant.",
             "The next morning, I took a few pictures before going home.",
-            "I liked the trip because the train ride was easy and I could enjoy the sea."
+            "I liked the trip because I could enjoy the sea at my own pace."
           ],
-          "hint": "최근 부산 기차여행 → 호텔에 짐 → 해운대 산책/저녁 → 다음 날 사진 → 귀가"
+          "hint": "지난달 혼자 부산 기차여행 → 호텔·해변·저녁 → 다음 날 사진·귀가"
         },
         {
           "id": "topic-7-q6",
@@ -1189,7 +1111,7 @@ window.OPIC_DATA = {
           "question": "국내 여행지까지 보통 어떤 교통수단을 이용하는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I usually go to Busan by train.",
+            "I usually take the train to Busan by myself.",
             "The train is fast and comfortable.",
             "First, I go to the train station near my home.",
             "Then, I take the train to Busan.",
@@ -1197,7 +1119,7 @@ window.OPIC_DATA = {
             "When I arrive, I take a bus or a taxi to the beach.",
             "Getting there is easy and comfortable."
           ],
-          "hint": "Busan by train → fast/comfortable → station near home → three hours → bus/taxi → beach"
+          "hint": "MP: 혼자 부산까지 기차 → 빠르고 편안함 → 역까지 이동·탑승·해운대"
         },
         {
           "id": "topic-7-q11",
@@ -1205,18 +1127,18 @@ window.OPIC_DATA = {
           "question": "국내여행을 갈 때 보통 어디에 머물고, 그곳이 편한 이유는 무엇인가요?",
           "status": "선택",
           "answer": [
-            "I usually stay at a hotel near Haeundae Beach when I visit Busan.",
-            "I checked in, left my bag in the room, and went for a walk by the sea.",
-            "The room was quiet, so I got a good rest.",
-            "After that, I can leave my bag and go out for a walk."
+            "I usually stay at a quiet hotel near Haeundae Beach when I visit Busan.",
+            "I check in, leave my bag in the room, and go for a walk by the sea.",
+            "The room is quiet, so I can get a good rest.",
+            "I like having my own room where I can relax after the beach."
           ],
-          "hint": "MP: 부산 해운대 근처 호텔 → 짐을 두고 해변 산책 → 조용한 방에서 휴식"
+          "hint": "MP: 혼자 부산 여행 때 해운대 근처 조용한 호텔 → 짐 두고 해변 → 방에서 휴식"
         }
       ]
     },
     {
       "id": "topic-8",
-      "order": 9,
+      "order": 8,
       "title": "음악",
       "source": "survey",
       "questions": [
@@ -1359,7 +1281,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-9",
-      "order": 10,
+      "order": 9,
       "title": "콘서트",
       "source": "survey",
       "questions": [
@@ -1477,7 +1399,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-10",
-      "order": 11,
+      "order": 10,
       "title": "롤플레이 최소암기 세트",
       "source": "roleplay",
       "questions": [
@@ -1865,7 +1787,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-11",
-      "order": 12,
+      "order": 11,
       "title": "호텔",
       "source": "unexpected",
       "questions": [
@@ -1903,13 +1825,13 @@ window.OPIC_DATA = {
           "question": "가장 최근에 호텔에 묵었던 경험을 처음부터 끝까지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "A few weeks ago, I took a train to Busan and stayed at a hotel near Haeundae Beach.",
+            "A few weeks ago, I took a train to Busan by myself and stayed near Haeundae Beach.",
             "I checked in, left my bag in the room, and went for a walk by the sea.",
             "Later, I came back and looked at the ocean from my window.",
             "The next morning, I checked out and headed to the station.",
             "The room was quiet, so I got a good rest."
           ],
-          "hint": "최근 부산 여행 → 해변 근처 호텔 체크인 → 산책/객실 바다 전망 → 다음 날 체크아웃"
+          "hint": "최근 혼자 부산 기차여행 → 호텔 체크인 → 해변·객실 바다 전망 → 다음 날 체크아웃"
         },
         {
           "id": "topic-11-q4",
@@ -1961,7 +1883,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-12",
-      "order": 13,
+      "order": 12,
       "title": "음식점",
       "source": "unexpected",
       "questions": [
@@ -2069,7 +1991,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-13",
-      "order": 14,
+      "order": 13,
       "title": "재활용",
       "source": "unexpected",
       "questions": [
@@ -2152,7 +2074,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-14",
-      "order": 15,
+      "order": 14,
       "title": "은행",
       "source": "unexpected",
       "questions": [
@@ -2251,7 +2173,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-15",
-      "order": 16,
+      "order": 15,
       "title": "휴대폰 / 전자제품 / 기술",
       "source": "unexpected",
       "questions": [
@@ -2365,7 +2287,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-16",
-      "order": 17,
+      "order": 16,
       "title": "지형",
       "source": "unexpected",
       "questions": [
@@ -2443,7 +2365,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-17",
-      "order": 18,
+      "order": 17,
       "title": "날씨",
       "source": "unexpected",
       "questions": [
@@ -2515,7 +2437,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-18",
-      "order": 19,
+      "order": 18,
       "title": "약속 / 모임 / 기념일 / 휴일",
       "source": "unexpected",
       "questions": [
@@ -2661,7 +2583,7 @@ window.OPIC_DATA = {
   ],
   "minimalStudy": {
     "title": "MP 한 문장부터, 필요한 문장만 이어 말하기",
-    "lead": "질문에 답하는 MP 한 문장을 먼저 말하세요. 이어서 그 주제에 맞는 행동·이유·결과 중 1~2문장을 붙입니다. 문제 경험은 짧게 답할 때도 해결 또는 결과를 포함합니다. 롤플레이는 용건과 질문·대안 순서로 말합니다.",
+    "lead": "질문에 답하는 MP 한 문장을 먼저 말하세요. 평소 집 휴가는 혼자 쉬고 국내여행도 주로 혼자 다니는 설정입니다. 이어서 행동·이유·결과 중 1~2문장을 붙입니다. 특별한 날 친구나 가족과 보낸 경험은 별도 사건으로 말해도 자연스럽습니다.",
     "patterns": [
       {
         "title": "장소·사물 묘사",
@@ -2685,10 +2607,10 @@ window.OPIC_DATA = {
         "title": "최근 경험",
         "use": "최근 방문, 여행, 콘서트",
         "lines": [
-          "Last [time], I went to [place] with [person].",
+          "Last [time], I went to [place] by myself.",
           "We [action], and I [result or feeling]."
         ],
-        "cue": "언제·어디서 → 한 일 → 결과"
+        "cue": "언제·어디서(평소엔 혼자) → 한 일 → 결과; 특별한 동행은 질문에 맞게 변경"
       },
       {
         "title": "문제와 해결",
@@ -2876,7 +2798,7 @@ window.OPIC_DATA = {
       },
       {
         "title": "부산·해운대",
-        "facts": "기차 → 호텔 → 해변 · 해운대에서 친구들의 생일 서프라이즈",
+        "facts": "주로 혼자 기차 → 호텔 → 해변 · 한 번은 친구들의 생일 서프라이즈",
         "use": "국내여행·해변·호텔·기억에 남는 경험",
         "basic": [
           {
@@ -2886,8 +2808,8 @@ window.OPIC_DATA = {
             "role": "MP · 국내여행"
           },
           {
-            "en": "I usually go to Busan by train.",
-            "ko": "저는 보통 기차를 타고 부산에 가요.",
+            "en": "I usually take the train to Busan by myself.",
+            "ko": "저는 보통 혼자 기차를 타고 부산에 가요.",
             "source": "topic-7-q10",
             "role": "MP · 교통수단"
           },
@@ -3074,6 +2996,6 @@ window.OPIC_DATA = {
       "같은 묶음의 이유·행동·결과 중 맞는 원문 문장 1~2개를 이어 말합니다.",
       "다음 날 어제 MP를 잠깐 복습한 뒤 새 묶음으로 넘어갑니다."
     ],
-    "note": "기본 27문장도 한꺼번에 외우지 마세요. MP부터 시작해 질문에 필요한 문장만 고르세요. 문제 경험은 사건→행동→결과, 비교는 차이→예전·지금으로 말합니다. 롤플레이는 원래 구성 그대로 유지합니다. 163개 전체 답변은 참고 예시이며 짧은 문장 암기만으로 등급이 보장되지는 않습니다."
+    "note": "기본 27문장도 한꺼번에 외우지 마세요. MP부터 시작해 질문에 필요한 문장만 고르세요. 문제 경험은 사건→행동→결과, 비교는 차이→예전·지금으로 말합니다. 롤플레이는 원래 구성 그대로 유지합니다. 159개 전체 답변은 참고 예시이며 짧은 문장 암기만으로 등급이 보장되지는 않습니다."
   }
 };
