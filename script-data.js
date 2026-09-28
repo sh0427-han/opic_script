@@ -1,8 +1,8 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v27",
+  "version": "v28",
   "updated": "2026-09-28",
-  "questionCount": 155,
+  "questionCount": 163,
   "survey": {
     "title": "시험 전 설문 선택",
     "note": "클럽·조깅은 연습 및 선택 목록에서 제외했습니다. 걷기와 '운동을 전혀 하지 않음'은 실제 시험에서 본인에게 맞는 항목을 확인하세요. 시험 화면의 선택 개수 조건도 확인하고 준비한 주제 안에서 선택하세요.",
@@ -76,7 +76,8 @@ window.OPIC_DATA = {
           {
             "label": "걷기",
             "topics": [
-              "공원"
+              "공원",
+              "걷기"
             ]
           },
           {
@@ -226,7 +227,11 @@ window.OPIC_DATA = {
             "Someone came the next morning and fixed it.",
             "I was relieved because I could use the kitchen normally again."
           ],
-          "hint": "MP: 저녁 요리 중 주방 조명이 꺼짐 → 스위치 확인 → 관리사무소 → 다음 날 수리"
+          "hint": "MP: 저녁 요리 중 주방 조명이 꺼짐 → 스위치 확인 → 관리사무소 → 다음 날 수리",
+          "shortSupportIndices": [
+            2,
+            3
+          ]
         },
         {
           "id": "topic-1-q9",
@@ -241,7 +246,11 @@ window.OPIC_DATA = {
             "They came the next day and fixed the leg.",
             "Now I can use my sofa again without worrying about it."
           ],
-          "hint": "소파 다리 고장 → 직접 확인했으나 실패 → 수리 서비스 연락 → 다음 날 수리"
+          "hint": "소파 다리 고장 → 직접 확인했으나 실패 → 수리 서비스 연락 → 다음 날 수리",
+          "shortSupportIndices": [
+            3,
+            4
+          ]
         },
         {
           "id": "topic-1-q10",
@@ -356,13 +365,12 @@ window.OPIC_DATA = {
           "question": "집에서 보내는 휴가 중 만나고 싶은 사람을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Honestly, when I take a vacation at home, I usually want to spend most of it alone.",
-            "I get busy on regular days, so I like having some quiet time.",
-            "Still, I would like to see a close friend for dinner one evening.",
-            "We could order some food, talk for a while, and then I could go back to relaxing.",
-            "That would be just enough company for me."
+            "I would like to see a close friend for dinner one evening during my vacation at home.",
+            "We could order some food and talk for a while.",
+            "I also like having some quiet time by myself.",
+            "After dinner, I could go back to relaxing."
           ],
-          "hint": "대부분 혼자 쉬고 싶음 → 바쁜 일상 때문에 조용한 시간 필요 → 친한 친구와 하루 저녁 식사"
+          "hint": "MP: 집 휴가 중 친한 친구와 저녁 식사 → 음식 주문·대화 → 나머지 시간은 혼자 휴식"
         },
         {
           "id": "topic-2-q3",
@@ -436,6 +444,37 @@ window.OPIC_DATA = {
             "Having time to choose what I want to do is the best part."
           ],
           "hint": "MP: 집에서 쉬면 여유로움 → 늦잠·아침·음악 → 자유로운 일정"
+        },
+        {
+          "id": "topic-2-q8",
+          "number": "Q8",
+          "question": "집에서 휴가를 보낼 때 주로 어느 공간에서 쉬고, 왜 그곳을 좋아하나요?",
+          "status": "선택",
+          "answer": [
+            "My favorite room at home is the living room.",
+            "It has a small sofa and a table, and I keep it tidy.",
+            "You know, I watched YouTube, listened to music, and checked my phone.",
+            "I like it because I can relax there without doing anything complicated."
+          ],
+          "hint": "MP: 거실에서 쉼 → 소파·탁자 → 영상·음악 → 편하게 휴식"
+        },
+        {
+          "id": "topic-2-q9",
+          "number": "Q9",
+          "question": "집에서 보낸 휴가 중 예상치 못한 문제가 생긴 경험을 말해 주세요.",
+          "status": "선택",
+          "answer": [
+            "During my last vacation at home, the kitchen light stopped working while I was making dinner.",
+            "I tried the switch again, but nothing happened.",
+            "So I called the building office and explained what was wrong.",
+            "Someone came the next morning and fixed it.",
+            "I was relieved because I could use the kitchen normally again."
+          ],
+          "hint": "MP: 집 휴가 저녁에 주방 조명 고장 → 관리사무소에 연락 → 다음 날 수리",
+          "shortSupportIndices": [
+            2,
+            3
+          ]
         }
       ]
     },
@@ -530,7 +569,11 @@ window.OPIC_DATA = {
             "It was a small mistake, and the staff handled it kindly.",
             "So I still had a good time there."
           ],
-          "hint": "아이스커피 주문했는데 뜨거운 음료 → 직원에게 설명 → 다시 만들어줌 → 친절하게 해결"
+          "hint": "아이스커피 주문했는데 뜨거운 음료 → 직원에게 설명 → 다시 만들어줌 → 친절하게 해결",
+          "shortSupportIndices": [
+            1,
+            2
+          ]
         },
         {
           "id": "topic-3-q7",
@@ -668,7 +711,11 @@ window.OPIC_DATA = {
             "I thanked them and paid the correct amount.",
             "It was a little awkward at first, but the problem was solved quickly."
           ],
-          "hint": "계산서에 주문하지 않은 음료 → 직원에게 영수증 보여줌 → 확인 후 금액 수정"
+          "hint": "계산서에 주문하지 않은 음료 → 직원에게 영수증 보여줌 → 확인 후 금액 수정",
+          "shortSupportIndices": [
+            1,
+            2
+          ]
         },
         {
           "id": "topic-4-q7",
@@ -777,7 +824,11 @@ window.OPIC_DATA = {
             "The rain became lighter after about ten minutes, and I went home.",
             "Now I check the weather before I take a long walk."
           ],
-          "hint": "공원 산책 중 비 → 우산 없음 → 지붕 아래 대기 → 비 약해져 귀가 → 다음엔 날씨 확인"
+          "hint": "공원 산책 중 비 → 우산 없음 → 지붕 아래 대기 → 비 약해져 귀가 → 다음엔 날씨 확인",
+          "shortSupportIndices": [
+            1,
+            3
+          ]
         },
         {
           "id": "topic-5-q7",
@@ -817,13 +868,72 @@ window.OPIC_DATA = {
             "The other park is smaller, quiet, and not too crowded.",
             "So I usually go to the smaller park when I want a quiet walk."
           ],
-          "hint": "MP: 큰 공원이 주말에 붐빔 → 사람 많음 → 조용한 작은 공원 선택"
+          "hint": "MP: 큰 공원이 주말에 붐빔 → 사람 많음 → 조용한 작은 공원 선택",
+          "shortSupportIndices": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic-19",
+      "order": 6,
+      "title": "걷기",
+      "source": "survey",
+      "questions": [
+        {
+          "id": "topic-19-q1",
+          "number": "Q1",
+          "question": "자주 걷는 장소와 산책로의 모습을 묘사해 주세요.",
+          "status": "선택",
+          "answer": [
+            "My favorite park is close to my home.",
+            "I like going there when I want fresh air after a busy day.",
+            "It has a walking path, some trees, and benches along the way.",
+            "It is not very large, so I can walk around it in about twenty minutes.",
+            "The trees and the easy path make it a comfortable place for a short walk."
+          ],
+          "hint": "MP: 집 근처 공원 → 산책로·나무·벤치 → 20분 정도 걷기"
+        },
+        {
+          "id": "topic-19-q2",
+          "number": "Q2",
+          "question": "최근에 산책했던 날 무엇을 했는지 설명해 주세요.",
+          "status": "선택",
+          "answer": [
+            "Last weekend, I took a short walk in the park near my home.",
+            "I followed the path around the trees for about twenty minutes.",
+            "Then I bought a coffee and sat on a bench.",
+            "The air was cool, and I listened to music for a while.",
+            "I went home feeling refreshed.",
+            "It was a simple visit, but that is why I like the park."
+          ],
+          "hint": "MP: 지난 주말 공원 산책 → 나무 사이로 20분 걷기 → 커피·벤치"
+        },
+        {
+          "id": "topic-19-q3",
+          "number": "Q3",
+          "question": "걷는 도중 문제가 생겼던 경험과 해결 방법을 말해 주세요.",
+          "status": "선택",
+          "answer": [
+            "Once, I went to the park for a walk, but it suddenly started raining.",
+            "I did not have an umbrella, so I ran to a covered area near the entrance.",
+            "I waited there and checked the weather on my phone.",
+            "The rain became lighter after about ten minutes, and I went home.",
+            "Now I check the weather before I take a long walk."
+          ],
+          "hint": "MP: 산책 중 갑자기 비 → 입구 근처 지붕으로 이동 → 비 약해져 귀가",
+          "shortSupportIndices": [
+            1,
+            3
+          ]
         }
       ]
     },
     {
       "id": "topic-6",
-      "order": 6,
+      "order": 7,
       "title": "해변",
       "source": "survey",
       "questions": [
@@ -912,7 +1022,11 @@ window.OPIC_DATA = {
             "I moved farther from the water and kept my things beside me.",
             "Now I am more careful when it is windy."
           ],
-          "hint": "해변에서 강한 바람 → 가방 쓰러지고 모자 날아감 → 주변에서 찾음 → 물가에서 이동"
+          "hint": "해변에서 강한 바람 → 가방 쓰러지고 모자 날아감 → 주변에서 찾음 → 물가에서 이동",
+          "shortSupportIndices": [
+            2,
+            3
+          ]
         },
         {
           "id": "topic-6-q7",
@@ -933,7 +1047,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-7",
-      "order": 7,
+      "order": 8,
       "title": "국내여행",
       "source": "survey",
       "questions": [
@@ -1036,7 +1150,11 @@ window.OPIC_DATA = {
             "I reached the station just before the train left.",
             "The trip itself was fine, but I learned to leave home earlier."
           ],
-          "hint": "부산행 기차 놓칠 뻔함 → 역 가는 버스 지연 → 택시로 이동 → 간신히 탑승 → 일찍 출발"
+          "hint": "부산행 기차 놓칠 뻔함 → 역 가는 버스 지연 → 택시로 이동 → 간신히 탑승 → 일찍 출발",
+          "shortSupportIndices": [
+            2,
+            3
+          ]
         },
         {
           "id": "topic-7-q8",
@@ -1080,12 +1198,25 @@ window.OPIC_DATA = {
             "Getting there is easy and comfortable."
           ],
           "hint": "Busan by train → fast/comfortable → station near home → three hours → bus/taxi → beach"
+        },
+        {
+          "id": "topic-7-q11",
+          "number": "Q11",
+          "question": "국내여행을 갈 때 보통 어디에 머물고, 그곳이 편한 이유는 무엇인가요?",
+          "status": "선택",
+          "answer": [
+            "I usually stay at a hotel near Haeundae Beach when I visit Busan.",
+            "I checked in, left my bag in the room, and went for a walk by the sea.",
+            "The room was quiet, so I got a good rest.",
+            "After that, I can leave my bag and go out for a walk."
+          ],
+          "hint": "MP: 부산 해운대 근처 호텔 → 짐을 두고 해변 산책 → 조용한 방에서 휴식"
         }
       ]
     },
     {
       "id": "topic-8",
-      "order": 8,
+      "order": 9,
       "title": "음악",
       "source": "survey",
       "questions": [
@@ -1206,12 +1337,29 @@ window.OPIC_DATA = {
             "I can also make a playlist."
           ],
           "hint": "MP: 무선 이어폰 사용 → 휴대폰 음악 앱 → 쉽게 곡 검색·재생 목록"
+        },
+        {
+          "id": "topic-8-q9",
+          "number": "Q9",
+          "question": "음악을 듣다가 불편한 일이 생겼던 경험과 해결 방법을 말해 주세요.",
+          "status": "선택",
+          "answer": [
+            "One day, my earphones stopped working while I was listening to music.",
+            "I checked my phone, but the song was still playing.",
+            "So I took out my earphones and connected them again.",
+            "Luckily, the sound came back, and I could keep listening."
+          ],
+          "hint": "MP: 음악 듣던 중 이어폰 소리 안 남 → 휴대폰 확인 → 이어폰 다시 연결 → 해결",
+          "shortSupportIndices": [
+            2,
+            3
+          ]
         }
       ]
     },
     {
       "id": "topic-9",
-      "order": 9,
+      "order": 10,
       "title": "콘서트",
       "source": "survey",
       "questions": [
@@ -1311,12 +1459,25 @@ window.OPIC_DATA = {
             "It was exciting, and I wanted to go again."
           ],
           "hint": "MP: 첫 팝 콘서트 → 관객의 환호 → 좋아하는 노래를 따라 부름"
+        },
+        {
+          "id": "topic-9-q8",
+          "number": "Q8",
+          "question": "콘서트에 가기 전 티켓에 문제가 생겼던 경험과 해결 방법을 말해 주세요.",
+          "status": "선택",
+          "answer": [
+            "Once, I noticed that the date on my concert ticket was wrong.",
+            "I called the ticket office and asked them to check my booking.",
+            "The staff changed the date, and I could go to the concert as planned.",
+            "After that, I always check the date as soon as I buy a ticket."
+          ],
+          "hint": "MP: 콘서트 티켓 날짜 오류 → 매표소에 연락 → 날짜 수정·공연 참석"
         }
       ]
     },
     {
       "id": "topic-10",
-      "order": 18,
+      "order": 11,
       "title": "롤플레이 최소암기 세트",
       "source": "roleplay",
       "questions": [
@@ -1704,7 +1865,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-11",
-      "order": 17,
+      "order": 12,
       "title": "호텔",
       "source": "unexpected",
       "questions": [
@@ -1790,13 +1951,17 @@ window.OPIC_DATA = {
             "A staff member checked the key and gave me a new one.",
             "Then I went back to my room and relaxed."
           ],
-          "hint": "MP: 호텔 객실 열쇠가 작동하지 않음 → 당황 → 프런트 → 새 열쇠"
+          "hint": "MP: 호텔 객실 열쇠가 작동하지 않음 → 당황 → 프런트 → 새 열쇠",
+          "shortSupportIndices": [
+            2,
+            3
+          ]
         }
       ]
     },
     {
       "id": "topic-12",
-      "order": 15,
+      "order": 13,
       "title": "음식점",
       "source": "unexpected",
       "questions": [
@@ -1868,7 +2033,11 @@ window.OPIC_DATA = {
             "They changed it right away.",
             "After that, I ate my food and relaxed."
           ],
-          "hint": "MP: 주문한 파스타 대신 다른 음식이 나옴 → 직원에게 설명 → 교체 → 식사"
+          "hint": "MP: 주문한 파스타 대신 다른 음식이 나옴 → 직원에게 설명 → 교체 → 식사",
+          "shortSupportIndices": [
+            2,
+            3
+          ]
         },
         {
           "id": "topic-12-q6",
@@ -1900,7 +2069,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-13",
-      "order": 10,
+      "order": 14,
       "title": "재활용",
       "source": "unexpected",
       "questions": [
@@ -1947,7 +2116,11 @@ window.OPIC_DATA = {
             "Then I went back and put everything in the right bins.",
             "It didn't take very long."
           ],
-          "hint": "MP: 재활용함이 가득 참 → 당황 → 다음 날 다시 와서 분리"
+          "hint": "MP: 재활용함이 가득 참 → 당황 → 다음 날 다시 와서 분리",
+          "shortSupportIndices": [
+            2,
+            3
+          ]
         },
         {
           "id": "topic-13-q4",
@@ -1979,7 +2152,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-14",
-      "order": 12,
+      "order": 15,
       "title": "은행",
       "source": "unexpected",
       "questions": [
@@ -2068,13 +2241,17 @@ window.OPIC_DATA = {
             "They checked my ID and helped me right away.",
             "I got a new card and could use it again."
           ],
-          "hint": "MP: 카드 결제 실패 → 은행 방문 → 신분증 확인·새 카드"
+          "hint": "MP: 카드 결제 실패 → 은행 방문 → 신분증 확인·새 카드",
+          "shortSupportIndices": [
+            1,
+            3
+          ]
         }
       ]
     },
     {
       "id": "topic-15",
-      "order": 13,
+      "order": 16,
       "title": "휴대폰 / 전자제품 / 기술",
       "source": "unexpected",
       "questions": [
@@ -2121,7 +2298,11 @@ window.OPIC_DATA = {
             "Luckily, it turned back on, and I could send my message.",
             "Since then, I try to check the battery before I leave home."
           ],
-          "hint": "휴대폰 갑자기 꺼짐 → 버튼 안 됨 → 충전 후 다시 켜짐 → 친구에게 연락/배터리 확인"
+          "hint": "휴대폰 갑자기 꺼짐 → 버튼 안 됨 → 충전 후 다시 켜짐 → 친구에게 연락/배터리 확인",
+          "shortSupportIndices": [
+            3,
+            4
+          ]
         },
         {
           "id": "topic-15-q4",
@@ -2184,7 +2365,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-16",
-      "order": 14,
+      "order": 17,
       "title": "지형",
       "source": "unexpected",
       "questions": [
@@ -2262,7 +2443,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-17",
-      "order": 16,
+      "order": 18,
       "title": "날씨",
       "source": "unexpected",
       "questions": [
@@ -2309,7 +2490,11 @@ window.OPIC_DATA = {
             "When we finally went to Busan, the weather was clear.",
             "Changing the date worked out well."
           ],
-          "hint": "부산 해변 갈 계획 → 당일 큰비 → 친구에게 전화해 다음 주말로 변경 → 그날 집에서 쉬고 맑은 날 여행"
+          "hint": "부산 해변 갈 계획 → 당일 큰비 → 친구에게 전화해 다음 주말로 변경 → 그날 집에서 쉬고 맑은 날 여행",
+          "shortSupportIndices": [
+            1,
+            2
+          ]
         },
         {
           "id": "topic-17-q4",
@@ -2330,7 +2515,7 @@ window.OPIC_DATA = {
     },
     {
       "id": "topic-18",
-      "order": 11,
+      "order": 19,
       "title": "약속 / 모임 / 기념일 / 휴일",
       "source": "unexpected",
       "questions": [
@@ -2362,7 +2547,11 @@ window.OPIC_DATA = {
             "We met later and had a nice dinner.",
             "I was glad I told my friend early."
           ],
-          "hint": "몸이 안 좋아 약속 변경 → 바로 연락/사과 → 다음 주말 제안 → 나중에 저녁 식사"
+          "hint": "몸이 안 좋아 약속 변경 → 바로 연락/사과 → 다음 주말 제안 → 나중에 저녁 식사",
+          "shortSupportIndices": [
+            2,
+            3
+          ]
         },
         {
           "id": "topic-18-q3",
@@ -2435,7 +2624,11 @@ window.OPIC_DATA = {
             "So I called my family and told them I would be late.",
             "They said it was okay."
           ],
-          "hint": "MP: 명절에 가족 방문길이 막힘 → 늦은 버스 → 가족에게 연락 → 이해"
+          "hint": "MP: 명절에 가족 방문길이 막힘 → 늦은 버스 → 가족에게 연락 → 이해",
+          "shortSupportIndices": [
+            3,
+            4
+          ]
         },
         {
           "id": "topic-18-q8",
@@ -2468,7 +2661,7 @@ window.OPIC_DATA = {
   ],
   "minimalStudy": {
     "title": "MP 한 문장부터, 필요한 문장만 이어 말하기",
-    "lead": "질문을 듣고 주제와 유형을 확인한 뒤 MP 한 문장을 먼저 말하세요. 그 MP에 맞는 원문 문장 1~2개를 붙이면 됩니다. 하루에는 한 묶음만 연습하고, 롤플레이는 기존처럼 용건과 질문·대안 순서로 말합니다.",
+    "lead": "질문에 답하는 MP 한 문장을 먼저 말하세요. 이어서 그 주제에 맞는 행동·이유·결과 중 1~2문장을 붙입니다. 문제 경험은 짧게 답할 때도 해결 또는 결과를 포함합니다. 롤플레이는 용건과 질문·대안 순서로 말합니다.",
     "patterns": [
       {
         "title": "장소·사물 묘사",
@@ -2881,6 +3074,6 @@ window.OPIC_DATA = {
       "같은 묶음의 이유·행동·결과 중 맞는 원문 문장 1~2개를 이어 말합니다.",
       "다음 날 어제 MP를 잠깐 복습한 뒤 새 묶음으로 넘어갑니다."
     ],
-    "note": "기본 27문장도 한꺼번에 외우지 마세요. MP부터 시작해 질문에 필요한 문장만 고르세요. 문제 경험은 사건→행동→결과, 비교는 차이→예전·지금으로 말합니다. 롤플레이는 원래 구성 그대로 유지합니다. 142개 전체 답변은 참고 예시이며 짧은 문장 암기만으로 등급이 보장되지는 않습니다."
+    "note": "기본 27문장도 한꺼번에 외우지 마세요. MP부터 시작해 질문에 필요한 문장만 고르세요. 문제 경험은 사건→행동→결과, 비교는 차이→예전·지금으로 말합니다. 롤플레이는 원래 구성 그대로 유지합니다. 163개 전체 답변은 참고 예시이며 짧은 문장 암기만으로 등급이 보장되지는 않습니다."
   }
 };
