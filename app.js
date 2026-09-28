@@ -145,19 +145,24 @@
       </div>`;
     }
 
-    const [mainPoint, ...support] = question.answer;
+    const [mainPoint] = question.answer;
+    const chosen = question.shortSupportIndices || [1, 2];
+    const brief = chosen.map((index) => question.answer[index]).filter(Boolean);
+    const more = question.answer.slice(1).filter(
+      (_line, index) => !chosen.includes(index + 1),
+    );
     return `<div class="answer answer--structured">
       <div class="answer-mp">
         <strong>MP 먼저</strong>
         <p lang="en">${escapeHtml(mainPoint)}</p>
       </div>
       <div class="answer-support">
-        <strong>이어 말하기 · 원문 1~2문장</strong>
-        ${support.slice(0, 2).map((line) => `<p lang="en">${escapeHtml(line)}</p>`).join("")}
+        <strong>부연설명 · 필요한 1~2문장</strong>
+        ${brief.map((line) => `<p lang="en">${escapeHtml(line)}</p>`).join("")}
       </div>
-      ${support.length > 2 ? `<details class="answer-more">
-        <summary>필요할 때 더 말하기 (${support.length - 2}문장)</summary>
-        ${support.slice(2).map((line) => `<p lang="en">${escapeHtml(line)}</p>`).join("")}
+      ${more.length ? `<details class="answer-more">
+        <summary>전체 답변의 나머지 문장 (${more.length}문장)</summary>
+        ${more.map((line) => `<p lang="en">${escapeHtml(line)}</p>`).join("")}
       </details>` : ""}
     </div>`;
   };
@@ -396,7 +401,7 @@
       state.view === "scripts" ? "scripts-tab" : "questions-tab",
     );
     elements.description.textContent = state.view === "scripts"
-      ? "MP, 이어 말할 원문 문장, 한글 힌트를 확인합니다."
+      ? "MP→부연설명 순서와 한글 힌트를 확인합니다."
       : "질문만 보고 답한 뒤, 필요할 때 한글 흐름만 확인합니다.";
     elements.resultSummary.textContent = `${visibleCount}개 표시 중`;
 
