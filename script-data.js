@@ -1,7 +1,7 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v37",
-  "updated": "2026-09-28",
+  "version": "v38",
+  "updated": "2026-09-29",
   "questionCount": 159,
   "survey": {
     "title": "시험 전 설문 선택",
@@ -112,14 +112,13 @@ window.OPIC_DATA = {
           "question": "본인이 현재 살고 있는 집을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I like living alone in my apartment because it is quiet and I can relax.",
+            "I live alone in a small apartment.",
             "It has two bedrooms, a living room, a kitchen, and a bathroom.",
-            "My favorite room is the living room.",
-            "I have a sofa and a small table there.",
-            "My home is simple, quiet, and easy to clean.",
-            "I like coming back to this quiet place at the end of the day."
+            "I have a sofa and a small table in the living room.",
+            "I sit on my sofa and watch YouTube.",
+            "It's where I relax after work."
           ],
-          "hint": "혼자 아파트 → 구조 → 거실 → sofa/table → simple/quiet → comfortable",
+          "hint": "혼자 사는 작은 아파트 → 방 구성 → 거실 소파·탁자 → 선택: YouTube → 퇴근 후 휴식",
           "supportCount": 2
         },
         {
@@ -161,7 +160,7 @@ window.OPIC_DATA = {
             "I used to live with my family, but now I live alone in a smaller apartment.",
             "The old place was bigger and busier.",
             "My home is quieter and easier to clean.",
-            "My living room has just a sofa and a small table, but I like it that way."
+            "Now I enjoy living here."
           ],
           "hint": "예전 가족과 큰 집 → 지금 혼자 작은 집 → 조용하고 청소 쉬움",
           "supportCount": 2
@@ -172,14 +171,13 @@ window.OPIC_DATA = {
           "question": "본인 집에 있는 가구와 가장 좋아하는 가구를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I love the sofa in my living room because I can relax there every day.",
-            "It's small, so it fits well next to my table.",
+            "I have a bed, a sofa, and a small table, but my favorite is the sofa.",
+            "It's in the living room, next to the table.",
             "I sit on my sofa and watch YouTube.",
             "When a friend visits, we can sit and talk there too.",
-            "It is not expensive or special, but I use it every day.",
-            "That's why I like it so much."
+            "It's where I relax after work."
           ],
-          "hint": "좋아하는 가구=거실 작은 소파 → 유튜브/가끔 친구와 대화 → 매일 사용",
+          "hint": "침대·소파·탁자 중 소파 선호 → 거실 위치 → YouTube → 선택: 친구와 대화",
           "supportCount": 2
         },
         {
@@ -246,8 +244,8 @@ window.OPIC_DATA = {
           "status": "선택",
           "answer": [
             "There are more small apartments in Korea now.",
-            "They suit people who live alone.",
-            "People also want to live near stores or a subway station.",
+            "Small homes work well for people who live alone.",
+            "Many people want to live near stores or a subway station.",
             "But homes in good areas often cost a lot.",
             "I think both size and area matter when people choose a home."
           ],
@@ -261,7 +259,7 @@ window.OPIC_DATA = {
           "status": "선택",
           "answer": [
             "The hardest part is finding a home in a good area that does not cost too much.",
-            "Many people want to live near a subway station or stores.",
+            "Many people want to live near stores or a subway station.",
             "But homes in good areas often cost a lot.",
             "Finding the right home takes time."
           ],
@@ -275,12 +273,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "My favorite room is the living room.",
-            "I have a sofa and a small table there.",
+            "I have a sofa and a small table in the living room.",
             "I sit on my sofa and watch YouTube.",
             "The room is small, but it gets a lot of light.",
             "It's where I relax after work."
           ],
-          "hint": "거실 → 소파·탁자 → YouTube → 선택: 밝은 방 → 퇴근 후 휴식",
+          "hint": "좋아하는 거실 → 소파·탁자 → YouTube → 선택: 밝은 방 → 퇴근 후 휴식",
           "supportCount": 2
         },
         {
@@ -319,11 +317,58 @@ window.OPIC_DATA = {
           "answer": [
             "I usually call for help, while my parents try to fix small things themselves.",
             "When my kitchen light stopped working, I called the building office.",
-            "Someone came the next morning and fixed it.",
+            "My parents usually change a light bulb on their own.",
             "I was glad I asked for help."
           ],
-          "hint": "나: 도움 요청 / 부모님: 직접 수리 → 주방 조명·연락 → 다음 날 수리",
+          "hint": "나는 도움 요청·부모님은 직접 수리 → 관리사무소 연락 / 부모님 전구 교체 → 도움 요청한 선택에 만족",
           "supportCount": 2
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-1-group-1",
+          "title": "집·거실·가구 묘사",
+          "questionIds": [
+            "topic-1-q1",
+            "topic-1-q12",
+            "topic-1-q5"
+          ]
+        },
+        {
+          "id": "topic-1-group-2",
+          "title": "집에서 하는 일·가족 방문",
+          "questionIds": [
+            "topic-1-q2",
+            "topic-1-q13",
+            "topic-1-q14"
+          ]
+        },
+        {
+          "id": "topic-1-group-3",
+          "title": "예전과 지금의 집·가구",
+          "questionIds": [
+            "topic-1-q3",
+            "topic-1-q4",
+            "topic-1-q6"
+          ]
+        },
+        {
+          "id": "topic-1-group-4",
+          "title": "집과 가구의 문제·해결",
+          "questionIds": [
+            "topic-1-q7",
+            "topic-1-q8",
+            "topic-1-q9",
+            "topic-1-q15"
+          ]
+        },
+        {
+          "id": "topic-1-group-5",
+          "title": "한국 주거의 변화·어려움",
+          "questionIds": [
+            "topic-1-q10",
+            "topic-1-q11"
+          ]
         }
       ]
     },
@@ -339,13 +384,13 @@ window.OPIC_DATA = {
           "question": "집에서 휴가를 보내면 보통 무엇을 하나요?",
           "status": "필수",
           "answer": [
-            "I enjoy a slow morning at home on vacation because I have no plans.",
+            "On vacation, I usually stay home by myself.",
             "I sleep a little longer, make breakfast, and listen to music.",
             "I sit on my sofa and watch YouTube.",
             "In the evening, I order food or cook something simple.",
-            "Having time to choose what I want to do is the best part."
+            "I can relax without making big plans."
           ],
-          "hint": "집 휴가=혼자 늦잠·아침·음악 → 소파에서 영상/휴식 → 일정 없이 조용한 저녁",
+          "hint": "혼자 집 휴가 → 늦잠·아침·음악 → 소파·YouTube → 선택: 저녁 → 계획 없이 쉼",
           "supportCount": 2
         },
         {
@@ -372,9 +417,9 @@ window.OPIC_DATA = {
             "I sat on my sofa and watched YouTube.",
             "I also listened to music and checked my phone.",
             "I ordered some food when I got hungry.",
-            "I felt good at home."
+            "I felt much better after the break."
           ],
-          "hint": "지난 휴가 혼자 집 → YouTube → 음악·휴대폰 → 선택: 음식 주문 → 편안함",
+          "hint": "지난 휴가 혼자 집 → YouTube·음악·휴대폰 확인 → 선택: 음식 주문 → 쉰 뒤 좋아짐",
           "supportCount": 2
         },
         {
@@ -426,12 +471,14 @@ window.OPIC_DATA = {
           "question": "집에서 휴가를 보내는 것을 좋아하는 이유는 무엇인가요?",
           "status": "선택",
           "answer": [
-            "I prefer staying home for a vacation because slowing down makes me feel relaxed.",
+            "I like staying home on vacation because I can rest on my own.",
             "I sleep a little longer, make breakfast, and listen to music.",
-            "Having time to choose what I want to do is the best part."
+            "I sit on my sofa and watch YouTube.",
+            "In the evening, I order food or cook something simple.",
+            "I can relax without making big plans."
           ],
-          "hint": "MP: 집에서 쉬면 여유로움 → 늦잠·아침·음악 → 자유로운 일정",
-          "supportCount": 1
+          "hint": "혼자 편히 쉴 수 있어서 집 휴가 선호 → 늦잠·음악 → 소파·YouTube → 선택: 저녁",
+          "supportCount": 2
         },
         {
           "id": "topic-2-q8",
@@ -440,11 +487,12 @@ window.OPIC_DATA = {
           "status": "선택",
           "answer": [
             "I usually relax in my living room during a vacation at home.",
-            "It has a small sofa and a table, and I keep it tidy.",
+            "I have a sofa and a small table in the living room.",
             "I sit on my sofa and watch YouTube.",
-            "It's quiet and I can relax, so I spend most of my vacation there."
+            "The room is small, but it gets a lot of light.",
+            "It's a quiet place where I can relax."
           ],
-          "hint": "휴가 공간: 거실 → 소파·탁자 → YouTube → 조용하고 편안함",
+          "hint": "휴가 때 거실 → 소파·탁자 → YouTube → 선택: 밝은 방 → 조용한 휴식",
           "supportCount": 2
         },
         {
@@ -460,6 +508,47 @@ window.OPIC_DATA = {
           ],
           "hint": "집 휴가 중 저녁 만들 때 조명 고장 → 관리사무소 연락 → 다음 날 수리",
           "supportCount": 2
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-2-group-1",
+          "title": "집 휴가의 일상·선호·공간",
+          "questionIds": [
+            "topic-2-q1",
+            "topic-2-q7",
+            "topic-2-q8"
+          ]
+        },
+        {
+          "id": "topic-2-group-2",
+          "title": "지난 휴가·기억에 남는 일",
+          "questionIds": [
+            "topic-2-q3",
+            "topic-2-q4"
+          ]
+        },
+        {
+          "id": "topic-2-group-3",
+          "title": "만나고 싶은 사람",
+          "questionIds": [
+            "topic-2-q2"
+          ]
+        },
+        {
+          "id": "topic-2-group-4",
+          "title": "휴가 방식의 변화·중요성",
+          "questionIds": [
+            "topic-2-q5",
+            "topic-2-q6"
+          ]
+        },
+        {
+          "id": "topic-2-group-5",
+          "title": "집 휴가 중 문제",
+          "questionIds": [
+            "topic-2-q9"
+          ]
         }
       ]
     },
@@ -478,10 +567,10 @@ window.OPIC_DATA = {
             "I like the small cafe near my home because it is quiet.",
             "It has big windows and a few tables by the wall.",
             "I usually order an iced coffee and sit by the window.",
-            "If I go with a friend, we talk and catch up.",
+            "I sometimes check my phone or listen to music while I drink it.",
             "It's an easy way to take a short break."
           ],
-          "hint": "집 근처 조용한 카페 → 창문·탁자 → 아이스커피·창가 → 선택: 친구 대화 → 휴식",
+          "hint": "조용한 동네 카페 → 큰 창문·탁자 → 아이스커피·창가 → 선택: 휴대폰·음악",
           "supportCount": 2
         },
         {
@@ -493,10 +582,10 @@ window.OPIC_DATA = {
             "The first cafe I ever visited was a small one near my home.",
             "It was quiet and had big windows.",
             "I ordered an iced coffee and sat by the window.",
-            "I stayed there for a while and listened to music.",
-            "I felt good there, so I wanted to go again."
+            "I checked my phone while I drank it.",
+            "It was a nice break, and I wanted to go again."
           ],
-          "hint": "처음 가본 카페 → 집 근처·조용함·큰 창 → 아이스커피·창가 → 선택: 음악 → 재방문 희망",
+          "hint": "처음 간 동네 카페 → 조용함·큰 창 → 아이스커피·창가 → 선택: 휴대폰 → 다시 가고 싶음",
           "supportCount": 2
         },
         {
@@ -524,9 +613,9 @@ window.OPIC_DATA = {
             "There were a lot of people, so I had to wait for a seat.",
             "I ordered an iced coffee and sat by the window.",
             "I checked my phone while I drank it.",
-            "I only stayed for about half an hour, but it was a nice break."
+            "It was a nice break, and I wanted to go again."
           ],
-          "hint": "지난 주말 카페 → 자리 대기 → 아이스커피·창가 → 선택: 휴대폰 → 30분 휴식",
+          "hint": "지난 주말 카페 → 자리 기다림 → 아이스커피·창가 → 선택: 휴대폰 → 다시 가고 싶음",
           "supportCount": 2
         },
         {
@@ -552,12 +641,11 @@ window.OPIC_DATA = {
           "answer": [
             "I ordered an iced coffee, but they gave me a hot one.",
             "I told the staff about the mistake.",
-            "They said sorry and made a new drink for me.",
-            "After that, I sat by the window and drank my coffee.",
+            "They said sorry and brought me the right order.",
             "I thanked them before I left.",
-            "So I still had a nice break."
+            "I was glad they fixed it quickly."
           ],
-          "hint": "아이스커피 대신 뜨거운 커피 → 직원에게 설명 → 새 음료 → 선택: 창가에서 마심·감사",
+          "hint": "아이스 대신 뜨거운 커피 → 직원에게 설명 → 맞는 주문 받음 → 선택: 감사 → 해결",
           "supportCount": 2
         },
         {
@@ -597,12 +685,53 @@ window.OPIC_DATA = {
           "question": "카페에서 보통 무엇을 주문하며, 왜 그것을 좋아하나요?",
           "status": "필수",
           "answer": [
-            "I usually order iced coffee because I like its simple taste.",
+            "I usually order iced coffee because I like the taste.",
             "In the summer, it also helps me cool down after a walk.",
-            "It is an easy choice for me."
+            "It's an easy way to take a short break."
           ],
-          "hint": "아이스커피 → 맛·더위 식힘 → 쉬운 선택",
+          "hint": "아이스커피 맛 선호 → 더울 때 시원함 → 잠깐 쉬기",
           "supportCount": 1
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-3-group-1",
+          "title": "카페 묘사·평소 행동·주문",
+          "questionIds": [
+            "topic-3-q1",
+            "topic-3-q3",
+            "topic-3-q9"
+          ]
+        },
+        {
+          "id": "topic-3-group-2",
+          "title": "처음 방문·최근 방문",
+          "questionIds": [
+            "topic-3-q2",
+            "topic-3-q4"
+          ]
+        },
+        {
+          "id": "topic-3-group-3",
+          "title": "비 오는 날의 기억",
+          "questionIds": [
+            "topic-3-q5"
+          ]
+        },
+        {
+          "id": "topic-3-group-4",
+          "title": "주문 실수와 해결",
+          "questionIds": [
+            "topic-3-q6"
+          ]
+        },
+        {
+          "id": "topic-3-group-5",
+          "title": "카페의 변화·인기 이유",
+          "questionIds": [
+            "topic-3-q7",
+            "topic-3-q8"
+          ]
         }
       ]
     },
@@ -619,13 +748,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I like the pub near my home because I can relax and talk with friends there.",
-            "It has small tables, soft music, and friendly staff.",
+            "It has small tables and soft music.",
             "I usually go there with one or two friends.",
-            "We order drinks and talk because we can hear each other easily.",
-            "It is not a place for a big party.",
-            "I usually go home before it gets too late."
+            "We order drinks and talk about our week.",
+            "It's a nice place to catch up."
           ],
-          "hint": "MP: 집 근처 조용한 펍 → 대화하고 일찍 돌아오기 좋음 → 테이블·음악 → 친구와 대화",
+          "hint": "동네 조용한 펍 → 작은 테이블·음악 → 친구 1~2명 → 선택: 음료·근황",
           "supportCount": 2
         },
         {
@@ -635,12 +763,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I usually go to a quiet pub with one or two friends on weekend evenings.",
-            "We choose a place where the music is not too loud.",
-            "After we order drinks, we talk about work or what we did that week.",
-            "I do not stay out very late.",
-            "A quiet pub is a nice place for us to catch up."
+            "The music is not too loud, so we can talk easily.",
+            "We order drinks and talk about our week.",
+            "I usually go home before it gets too late.",
+            "It's a nice place to catch up."
           ],
-          "hint": "주말 저녁·친구 1~2명 → 조용한 곳 → 음료·대화 → 선택: 일찍 귀가 → 근황 공유",
+          "hint": "주말 저녁 친구와 펍 → 조용한 음악 → 음료·근황 → 선택: 일찍 귀가",
           "supportCount": 2
         },
         {
@@ -650,11 +778,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I went to a pub with a friend a few weeks ago.",
-            "We found a quiet table, ordered drinks, and talked about work and our weekends.",
-            "The music was not too loud, which made it easy to talk.",
-            "I got home early, but I really enjoyed seeing my friend."
+            "We found a quiet table.",
+            "We ordered drinks and talked for about an hour.",
+            "The music was not too loud, so we could talk easily.",
+            "It was a nice way to spend time with my friend."
           ],
-          "hint": "몇 주 전 친구와 펍 → 조용한 자리·근황 대화 → 일찍 귀가",
+          "hint": "몇 주 전 친구와 펍 → 조용한 테이블 → 음료·한 시간 대화 → 선택: 조용한 음악",
           "supportCount": 2
         },
         {
@@ -663,12 +792,13 @@ window.OPIC_DATA = {
           "question": "처음으로 가본 술집을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I first went to a pub with a friend, and it was calmer than I expected.",
+            "I first went to a pub with a friend.",
             "I did not know what to order, so my friend helped me choose a drink.",
-            "We sat near the window and talked for about an hour.",
-            "That first visit made me want to go there again."
+            "We ordered drinks and talked for about an hour.",
+            "The music was not too loud, so we could talk easily.",
+            "It was a nice way to spend time with my friend."
           ],
-          "hint": "첫 펍 방문·친구 → 예상보다 차분함 → 음료 추천 → 창가·1시간 대화 → 재방문",
+          "hint": "친구와 첫 펍 방문 → 친구가 음료 선택 도움 → 한 시간 대화 → 선택: 조용한 음악",
           "supportCount": 2
         },
         {
@@ -715,6 +845,45 @@ window.OPIC_DATA = {
           "hint": "예전 큰 모임·늦은 귀가 → 현재 1~2명·일찍 귀가 → 조용한 대화",
           "supportCount": 2
         }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-4-group-1",
+          "title": "펍 묘사·평소 행동",
+          "questionIds": [
+            "topic-4-q1",
+            "topic-4-q2"
+          ]
+        },
+        {
+          "id": "topic-4-group-2",
+          "title": "최근 방문·처음 방문",
+          "questionIds": [
+            "topic-4-q3",
+            "topic-4-q4"
+          ]
+        },
+        {
+          "id": "topic-4-group-3",
+          "title": "옛 친구와 재회",
+          "questionIds": [
+            "topic-4-q5"
+          ]
+        },
+        {
+          "id": "topic-4-group-4",
+          "title": "계산서 문제",
+          "questionIds": [
+            "topic-4-q6"
+          ]
+        },
+        {
+          "id": "topic-4-group-5",
+          "title": "예전과 지금의 펍 이용",
+          "questionIds": [
+            "topic-4-q7"
+          ]
+        }
       ]
     },
     {
@@ -747,9 +916,9 @@ window.OPIC_DATA = {
             "I take my time and look at the trees.",
             "After about twenty minutes, I get a coffee and sit on a bench.",
             "I sometimes listen to music before I go home.",
-            "It helps me clear my head."
+            "It helps me relax."
           ],
-          "hint": "산책 → 나무 → 20분 후 커피·벤치 → 선택: 음악 → 기분 전환",
+          "hint": "공원 짧은 산책 → 느긋하게 나무 보기 → 커피·벤치 → 선택: 음악 → 휴식",
           "supportCount": 2
         },
         {
@@ -759,12 +928,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I went to the park near my home last weekend.",
-            "I followed the path around the trees.",
+            "I took my time and looked at the trees.",
             "After about twenty minutes, I got a coffee and sat on a bench.",
-            "The air was cool, and I listened to music for a while.",
-            "It was a simple visit, but that is why I like the park."
+            "I listened to music before I went home.",
+            "It helped me relax."
           ],
-          "hint": "지난 주말 동네 공원 → 산책 → 커피·벤치 → 선선한 공기·음악",
+          "hint": "지난 주말 공원 → 느긋하게 나무 보기 → 커피·벤치 → 선택: 음악 → 휴식",
           "supportCount": 2
         },
         {
@@ -816,13 +985,13 @@ window.OPIC_DATA = {
           "question": "서로 다른 두 공원을 비교하고 가장 큰 차이점을 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "The main difference is that one park is bigger and has more people.",
+            "The two parks near my home feel very different.",
             "The big park has a large playground and a lot of people.",
             "The other park is smaller and quiet, with fewer people.",
             "I can sit by the trees and relax there.",
             "That's why I usually choose the smaller one."
           ],
-          "hint": "큰 공원: 놀이터·사람 많음 → 작은 공원: 조용함 → 선택: 나무 옆 휴식 → 작은 공원 선택",
+          "hint": "두 공원 차이 → 큰 공원 놀이터·사람 / 작은 공원 조용함 → 작은 곳 선호",
           "supportCount": 2
         },
         {
@@ -834,10 +1003,44 @@ window.OPIC_DATA = {
             "The big park has too many people on weekends.",
             "So I usually go to a smaller park nearby.",
             "It is quieter, and I can find a bench easily.",
-            "That way, I can enjoy the park with fewer people around."
+            "That's why I usually choose the smaller one."
           ],
           "hint": "주말 큰 공원 붐빔 → 근처 작은 공원 → 조용함·벤치 → 대처",
           "supportCount": 2
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-5-group-1",
+          "title": "공원 묘사·평소 행동",
+          "questionIds": [
+            "topic-5-q1",
+            "topic-5-q2"
+          ]
+        },
+        {
+          "id": "topic-5-group-2",
+          "title": "최근 방문·기억에 남는 경험",
+          "questionIds": [
+            "topic-5-q4",
+            "topic-5-q5"
+          ]
+        },
+        {
+          "id": "topic-5-group-3",
+          "title": "공원 비교·혼잡 대처",
+          "questionIds": [
+            "topic-5-q7",
+            "topic-5-q8",
+            "topic-5-q9"
+          ]
+        },
+        {
+          "id": "topic-5-group-4",
+          "title": "갑자기 비가 온 경험",
+          "questionIds": [
+            "topic-5-q6"
+          ]
         }
       ]
     },
@@ -854,7 +1057,7 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I love Haeundae Beach in Busan because the sea makes me feel relaxed.",
-            "It has a long sandy beach and a wide view of the sea.",
+            "It has a long sandy beach and a nice view of the sea.",
             "There are many places to eat nearby, so it is easy to spend an afternoon there.",
             "It gets busy on weekends.",
             "I really like walking along the water and listening to the waves."
@@ -884,12 +1087,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I visited Haeundae Beach by myself last month.",
-            "I walked along the water for a while and took a few pictures.",
-            "The wind was strong, so I sat near a cafe with a drink.",
-            "I watched the sea before heading back to the station.",
-            "It was a short but relaxing visit."
+            "I walked along the beach and took a few pictures.",
+            "The wind got strong, so I went into a cafe near the beach.",
+            "I had a drink and watched the sea from the window.",
+            "It was a nice break, and I'd like to go again."
           ],
-          "hint": "지난달 혼자 해운대 → 산책·사진 → 바람 불어 카페 근처에서 음료 → 선택: 바다 감상 후 역",
+          "hint": "지난달 혼자 해운대 → 산책·사진 → 바람 불어 카페 안으로 → 선택: 창가 음료·바다",
           "supportCount": 2
         },
         {
@@ -950,6 +1153,45 @@ window.OPIC_DATA = {
           ],
           "hint": "예전 가족·물놀이 → 현재 혼자 산책·앉기 → 선택: 음악·바다 → 여유",
           "supportCount": 2
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-6-group-1",
+          "title": "해운대 묘사·행동·준비",
+          "questionIds": [
+            "topic-6-q1",
+            "topic-6-q2",
+            "topic-6-q4"
+          ]
+        },
+        {
+          "id": "topic-6-group-2",
+          "title": "최근 혼자 방문",
+          "questionIds": [
+            "topic-6-q3"
+          ]
+        },
+        {
+          "id": "topic-6-group-3",
+          "title": "친구들의 생일 선물",
+          "questionIds": [
+            "topic-6-q5"
+          ]
+        },
+        {
+          "id": "topic-6-group-4",
+          "title": "바람에 생긴 문제",
+          "questionIds": [
+            "topic-6-q6"
+          ]
+        },
+        {
+          "id": "topic-6-group-5",
+          "title": "어릴 때와 지금의 해변",
+          "questionIds": [
+            "topic-6-q7"
+          ]
         }
       ]
     },
@@ -1029,11 +1271,12 @@ window.OPIC_DATA = {
           "answer": [
             "I went to Busan by myself last month.",
             "I took the train, left my bag at the hotel, and went to Haeundae.",
-            "I walked near the beach and had dinner at a small restaurant.",
-            "The next morning, I took a few pictures before going home.",
-            "I want to travel that way again."
+            "I walked along the beach and took a few pictures.",
+            "Later, I had dinner at a small restaurant.",
+            "The next morning, I went home by train.",
+            "It was a nice break, and I'd like to go again."
           ],
-          "hint": "지난달 혼자 부산 → 기차·호텔·해변·저녁 → 선택: 사진",
+          "hint": "지난달 혼자 부산 → 기차·호텔·해운대 → 산책·사진 → 선택: 저녁·다음 날 귀가",
           "supportCount": 2
         },
         {
@@ -1071,12 +1314,12 @@ window.OPIC_DATA = {
           "question": "요즘 여행이 예전보다 어려워진 이유는 무엇이라고 생각하나요?",
           "status": "선택",
           "answer": [
-            "Travel is harder now because hotels, food, and tickets cost more.",
-            "Popular places can also have lots of people.",
-            "So people need to plan more carefully.",
-            "I think booking early can help a lot."
+            "Planning a trip takes more work now.",
+            "Hotels, food, and tickets cost more than before.",
+            "Busy places often have long lines.",
+            "I check prices and book early to avoid problems."
           ],
-          "hint": "여행 어려움: 비용 증가 → 혼잡 → 계획·일찍 예약",
+          "hint": "여행 준비가 더 어려워짐 → 오른 비용 → 긴 줄 → 가격 확인·미리 예약",
           "supportCount": 2
         },
         {
@@ -1086,12 +1329,11 @@ window.OPIC_DATA = {
           "status": "선택",
           "answer": [
             "I think people worry about money and busy places when they travel.",
-            "Hotels, food, and tickets can cost a lot.",
-            "Long lines can take up a lot of time.",
-            "So they usually check prices and make plans early.",
-            "I think a little planning can make the trip easier."
+            "Hotels, food, and tickets cost more than before.",
+            "Busy places often have long lines.",
+            "I check prices and book early to avoid problems."
           ],
-          "hint": "여행 걱정: 돈·붐비는 곳 → 비용·긴 줄 → 선택: 미리 가격 확인·계획",
+          "hint": "돈·붐비는 곳 걱정 → 오른 비용 → 긴 줄 → 가격 확인·미리 예약",
           "supportCount": 2
         },
         {
@@ -1123,6 +1365,55 @@ window.OPIC_DATA = {
           "hint": "해운대 근처 호텔 → 해변 접근성 → 조용한 방·휴식 → 혼자 여행 숙소",
           "supportCount": 2
         }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-7-group-1",
+          "title": "부산 여행지·행동·교통·숙소",
+          "questionIds": [
+            "topic-7-q1",
+            "topic-7-q2",
+            "topic-7-q10",
+            "topic-7-q11"
+          ]
+        },
+        {
+          "id": "topic-7-group-2",
+          "title": "여행 준비",
+          "questionIds": [
+            "topic-7-q4"
+          ]
+        },
+        {
+          "id": "topic-7-group-3",
+          "title": "가족 여행·최근 혼자 여행",
+          "questionIds": [
+            "topic-7-q3",
+            "topic-7-q5"
+          ]
+        },
+        {
+          "id": "topic-7-group-4",
+          "title": "해운대 생일 추억",
+          "questionIds": [
+            "topic-7-q6"
+          ]
+        },
+        {
+          "id": "topic-7-group-5",
+          "title": "기차를 놓칠 뻔한 경험",
+          "questionIds": [
+            "topic-7-q7"
+          ]
+        },
+        {
+          "id": "topic-7-group-6",
+          "title": "여행의 어려움·걱정",
+          "questionIds": [
+            "topic-7-q8",
+            "topic-7-q9"
+          ]
+        }
       ]
     },
     {
@@ -1138,11 +1429,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I like slow pop songs like IU's music because they help me relax.",
-            "I often listen to her songs when I'm tired.",
             "I usually listen at home or when I am going somewhere.",
-            "Her songs are an easy choice when I want to rest."
+            "I use my phone and earphones.",
+            "I often listen to her songs when I'm tired.",
+            "It helps me relax after a busy day."
           ],
-          "hint": "잔잔한 팝·IU → 피곤할 때 → 집·이동 중 → 휴식",
+          "hint": "잔잔한 팝·IU → 집·이동 중 → 휴대폰·이어폰 → 선택: 피곤할 때 → 휴식",
           "supportCount": 2
         },
         {
@@ -1166,12 +1458,11 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I used to listen to fast songs, but now I prefer slow ones.",
-            "Fast music gives me energy.",
-            "Slow music helps me relax after a busy day.",
-            "I usually listen at home or when I am going somewhere.",
-            "That's why I choose slow songs more often now."
+            "Fast songs help me wake up in the morning.",
+            "Slow songs help me relax after a busy day.",
+            "These days, I listen to slow songs more often."
           ],
-          "hint": "예전 빠른 곡 → 현재 느린 곡 → 활력 vs 휴식 → 선택: 듣는 장소 → 현재 선호",
+          "hint": "예전 빠른 곡·현재 느린 곡 → 아침에는 에너지 / 바쁜 날 뒤에는 휴식",
           "supportCount": 2
         },
         {
@@ -1197,11 +1488,11 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Fast music gives me energy, while slow music helps me relax.",
-            "I like fast songs when I need to wake up in the morning.",
-            "I choose slow songs after a busy day.",
-            "I enjoy both, but I choose them for different reasons."
+            "Fast songs help me wake up in the morning.",
+            "Slow songs help me relax after a busy day.",
+            "These days, I listen to slow songs more often."
           ],
-          "hint": "빠른 곡: 활력·아침 / 느린 곡: 휴식·하루 끝 → 상황별 선택",
+          "hint": "빠른 곡은 에너지·느린 곡은 휴식 → 아침 / 바쁜 날 뒤 → 요즘 느린 곡",
           "supportCount": 2
         },
         {
@@ -1214,7 +1505,7 @@ window.OPIC_DATA = {
             "I can find almost any song very easily.",
             "I can also make a playlist.",
             "I use wireless earphones now.",
-            "Now I can enjoy music wherever I go."
+            "That makes it easy to listen to the music I want."
           ],
           "hint": "예전 휴대폰에 저장 → 현재 앱 → 검색·재생 목록 → 선택: 무선 이어폰 → 어디서나 음악",
           "supportCount": 2
@@ -1226,12 +1517,11 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I heard my favorite pop song live at a concert.",
-            "I had listened to the singer's songs on my phone many times, but the live sound felt different.",
-            "When my favorite song started, everyone cheered and sang along.",
-            "I sang too, even though I usually just listen quietly at home.",
-            "That is what I remember most about hearing the music live."
+            "When my favorite song started, everyone sang along.",
+            "I sang along too, and it felt different from listening at home.",
+            "I still think of that moment when I hear the song."
           ],
-          "hint": "콘서트에서 좋아하는 팝 노래 라이브 감상 → 함께 노래 → 기억에 남음",
+          "hint": "좋아하는 팝 노래 라이브 → 모두 따라 부름 → 나도 함께 → 노래 들으면 기억",
           "supportCount": 2
         },
         {
@@ -1261,6 +1551,47 @@ window.OPIC_DATA = {
           ],
           "hint": "이어폰 소리 끊김 → 휴대폰 재생 확인 → 이어폰 다시 연결 → 소리 복구",
           "supportCount": 2
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-8-group-1",
+          "title": "취향·평소 듣는 방법",
+          "questionIds": [
+            "topic-8-q1",
+            "topic-8-q4"
+          ]
+        },
+        {
+          "id": "topic-8-group-2",
+          "title": "빠른 곡·느린 곡 비교",
+          "questionIds": [
+            "topic-8-q3",
+            "topic-8-q5"
+          ]
+        },
+        {
+          "id": "topic-8-group-3",
+          "title": "음악 앱·듣는 기기의 변화",
+          "questionIds": [
+            "topic-8-q6",
+            "topic-8-q8"
+          ]
+        },
+        {
+          "id": "topic-8-group-4",
+          "title": "음악을 좋아한 계기·라이브 경험",
+          "questionIds": [
+            "topic-8-q2",
+            "topic-8-q7"
+          ]
+        },
+        {
+          "id": "topic-8-group-5",
+          "title": "이어폰 문제",
+          "questionIds": [
+            "topic-8-q9"
+          ]
         }
       ]
     },
@@ -1309,9 +1640,9 @@ window.OPIC_DATA = {
             "When the show began, everyone started to cheer.",
             "I sang along when my favorite song came on.",
             "I took a few pictures, but I spent most of the time listening.",
-            "I felt tired on my way home, but I was glad I had gone."
+            "I was glad I went, and I'd like to go again."
           ],
-          "hint": "지난달 혼자 공연 → 환호 → 좋아하는 곡 따라 부르기 → 선택: 사진 → 만족",
+          "hint": "지난달 혼자 콘서트 → 환호 → 좋아하는 곡 따라 부름 → 선택: 사진 → 다시 가고 싶음",
           "supportCount": 2
         },
         {
@@ -1321,11 +1652,11 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I heard my favorite pop song live at a concert.",
-            "People around me started singing, so I joined them.",
-            "For a moment, I forgot about everything else and just listened.",
-            "I still think of that moment whenever the song comes on."
+            "When my favorite song started, everyone sang along.",
+            "I sang along too, and it felt different from listening at home.",
+            "I still think of that moment when I hear the song."
           ],
-          "hint": "콘서트에서 좋아하는 팝 노래 라이브로 들음 → 함께 노래 → 지금도 기억",
+          "hint": "좋아하는 팝 노래 라이브 → 모두 따라 부름 → 나도 함께 → 노래 들으면 기억",
           "supportCount": 2
         },
         {
@@ -1334,13 +1665,13 @@ window.OPIC_DATA = {
           "question": "콘서트에 가기 전에 무엇을 준비하나요?",
           "status": "필수",
           "answer": [
-            "Before a concert, I check the time and venue.",
+            "Before a concert, I check the time and place.",
             "I make sure I have my ticket on my phone and charge the battery.",
-            "Then I look up the route so I can arrive early.",
+            "Then I check how to get there so I can arrive early.",
             "I take only a small bag because I do not want to carry much during the show.",
             "With those things ready, I can enjoy the show without worrying."
           ],
-          "hint": "시간·장소 → 티켓·충전 → 경로 → 선택: 작은 가방 → 준비 완료",
+          "hint": "공연 시간·장소 → 휴대폰 티켓·충전 → 가는 길 → 선택: 작은 가방",
           "supportCount": 2
         },
         {
@@ -1366,9 +1697,9 @@ window.OPIC_DATA = {
             "My first concert was a small pop concert.",
             "When the show began, everyone started to cheer.",
             "I sang along when my favorite song came on.",
-            "It was exciting, and I wanted to go again."
+            "I was glad I went, and I'd like to go again."
           ],
-          "hint": "첫 팝 콘서트 → 관객 환호 → 좋아하는 곡 따라 부르기 → 즐거움·재방문",
+          "hint": "첫 팝 콘서트 → 환호 → 좋아하는 곡 따라 부름 → 다시 가고 싶음",
           "supportCount": 2
         },
         {
@@ -1384,6 +1715,46 @@ window.OPIC_DATA = {
           ],
           "hint": "콘서트 티켓 날짜가 틀림 → 매표소 연락 → 날짜 변경·공연 참석",
           "supportCount": 2
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-9-group-1",
+          "title": "좋아하는 공연·관람 방식",
+          "questionIds": [
+            "topic-9-q1",
+            "topic-9-q2",
+            "topic-9-q6"
+          ]
+        },
+        {
+          "id": "topic-9-group-2",
+          "title": "최근 공연·첫 공연",
+          "questionIds": [
+            "topic-9-q3",
+            "topic-9-q7"
+          ]
+        },
+        {
+          "id": "topic-9-group-3",
+          "title": "기억에 남는 노래",
+          "questionIds": [
+            "topic-9-q4"
+          ]
+        },
+        {
+          "id": "topic-9-group-4",
+          "title": "공연 준비",
+          "questionIds": [
+            "topic-9-q5"
+          ]
+        },
+        {
+          "id": "topic-9-group-5",
+          "title": "티켓 날짜 문제",
+          "questionIds": [
+            "topic-9-q8"
+          ]
         }
       ]
     },
@@ -1418,7 +1789,7 @@ window.OPIC_DATA = {
             "What time do you open on Saturday?",
             "Do I need to book ahead?",
             "And how much does it cost?",
-            "Thanks. That will help me plan my visit."
+            "Thank you for the information."
           ],
           "hint": "주말 방문 문의 → 영업시간·예약·비용 → 감사",
           "supportCount": 3
@@ -1436,7 +1807,7 @@ window.OPIC_DATA = {
             "Let me know what works for you."
           ],
           "hint": "몸이 안 좋아 오늘 약속 불가 → 다음 주말 제안 → 다른 시간도 가능 → 확인",
-          "supportCount": 3
+          "supportCount": 2
         },
         {
           "id": "topic-10-rp4",
@@ -1466,7 +1837,7 @@ window.OPIC_DATA = {
             "I was glad I told my friend early."
           ],
           "hint": "아파서 친구 약속 변경 → 바로 연락·사과 → 다음 주말 제안 → 저녁 식사",
-          "supportCount": 4
+          "supportCount": 3
         },
         {
           "id": "topic-10-mp3-rp1",
@@ -1478,7 +1849,7 @@ window.OPIC_DATA = {
             "How much does it cost?",
             "Do you have it in black?",
             "Can I buy it online, or should I come to the store?",
-            "Thank you. I'll think about which option works for me."
+            "Thank you for the information."
           ],
           "hint": "MP3 구매 문의 → 가격·색상·구매 방법 → 감사",
           "supportCount": 3
@@ -1489,7 +1860,7 @@ window.OPIC_DATA = {
           "question": "친구에게 빌린 MP3 플레이어를 고장 냈습니다. 설명하고 대안을 제시하세요.",
           "status": "필수",
           "answer": [
-            "Hey, I'm really sorry because I dropped your MP3 player and it no longer works.",
+            "Hey, I'm sorry. I dropped your MP3 player, and it stopped working.",
             "I can take it to a repair shop and pay for the repair.",
             "If it can't be fixed, I'll buy you a new one.",
             "Which would you prefer?"
@@ -1594,7 +1965,7 @@ window.OPIC_DATA = {
             "How much is the rent each month?",
             "How many bedrooms does it have?",
             "Could I come and see it this Saturday?",
-            "Please let me know if that time is free."
+            "Thank you for the information."
           ],
           "hint": "아파트 임대 문의 → 월세·침실 수·토요일 방문 → 시간 확인",
           "supportCount": 3
@@ -1682,7 +2053,7 @@ window.OPIC_DATA = {
             "Do you have any free times in the afternoon?",
             "How much does a basic haircut cost?",
             "How long does it take?",
-            "Please let me know which times are free."
+            "Thank you for the information."
           ],
           "hint": "예약 용건 → 토요일 오후 가능 시간·비용·소요 시간 → 시간 확인 / 치과: haircut을 dental checkup으로 교체",
           "supportCount": 3,
@@ -1727,7 +2098,7 @@ window.OPIC_DATA = {
             "How much does a meal cost?",
             "Do I need to book a table for two?",
             "And is there parking nearby?",
-            "Thank you. That will help us make a plan."
+            "Thank you for the information."
           ],
           "hint": "토요일 식당 방문 → 마감 시간·가격·2인 예약·주차 → 감사",
           "supportCount": 4
@@ -1757,7 +2128,7 @@ window.OPIC_DATA = {
             "Where is the recycling area?",
             "Which days can I use it?",
             "And do plastic and paper go in different bags?",
-            "Thanks. I'll sort everything before I bring it down."
+            "Thank you for the information."
           ],
           "hint": "재활용 문의 → 장소·요일·분리 방법 → 감사",
           "supportCount": 3
@@ -1807,6 +2178,95 @@ window.OPIC_DATA = {
           "hint": "팬이라고 인사 → 일 시작 계기·즐거운 점·다음 계획 질문",
           "supportCount": 3
         }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-10-group-1",
+          "title": "친구 약속·변경·과거 경험",
+          "questionIds": [
+            "topic-10-rp1",
+            "topic-10-rp3",
+            "topic-10-rp5"
+          ]
+        },
+        {
+          "id": "topic-10-group-2",
+          "title": "일반 문의·예약 날짜 문제",
+          "questionIds": [
+            "topic-10-rp2",
+            "topic-10-rp4"
+          ]
+        },
+        {
+          "id": "topic-10-group-3",
+          "title": "MP3 문의·고장·기기 경험",
+          "questionIds": [
+            "topic-10-mp3-rp1",
+            "topic-10-mp3-rp2",
+            "topic-10-mp3-rp3"
+          ]
+        },
+        {
+          "id": "topic-10-group-4",
+          "title": "콘서트 문의·취소",
+          "questionIds": [
+            "topic-10-concert-rp1",
+            "topic-10-concert-rp2"
+          ]
+        },
+        {
+          "id": "topic-10-group-5",
+          "title": "부산 여행 문의·변경·경험",
+          "questionIds": [
+            "topic-10-travel-rp1",
+            "topic-10-travel-rp2",
+            "topic-10-travel-rp3"
+          ]
+        },
+        {
+          "id": "topic-10-group-6",
+          "title": "집 문의·창문 문제·집 경험",
+          "questionIds": [
+            "topic-10-house-rp1",
+            "topic-10-house-rp2",
+            "topic-10-house-rp3"
+          ]
+        },
+        {
+          "id": "topic-10-group-7",
+          "title": "식물 돌보기·열쇠 문제·경험",
+          "questionIds": [
+            "topic-10-friend-rp1",
+            "topic-10-friend-rp2",
+            "topic-10-friend-rp3"
+          ]
+        },
+        {
+          "id": "topic-10-group-8",
+          "title": "미용실·치과 예약과 변경",
+          "questionIds": [
+            "topic-10-service-rp1",
+            "topic-10-service-rp2"
+          ]
+        },
+        {
+          "id": "topic-10-group-9",
+          "title": "장소·서비스별 정보 문의",
+          "questionIds": [
+            "topic-10-restaurant-rp1",
+            "topic-10-hotel-rp1",
+            "topic-10-recycling-rp1",
+            "topic-10-repair-rp1"
+          ]
+        },
+        {
+          "id": "topic-10-group-10",
+          "title": "모임·유명인에게 질문",
+          "questionIds": [
+            "topic-10-party-rp1",
+            "topic-10-celebrity-rp1"
+          ]
+        }
       ]
     },
     {
@@ -1853,11 +2313,11 @@ window.OPIC_DATA = {
           "answer": [
             "I stayed at a quiet hotel in Busan last month.",
             "I checked in, left my bag in the room, and went for a walk by the sea.",
-            "Later, I came back and looked at the ocean from my window.",
+            "I sat by the window and looked at the sea for a while.",
             "The next morning, I checked out and headed to the station.",
             "I would like to stay there again."
           ],
-          "hint": "지난달 부산 호텔 → 체크인·바다 산책 → 객실 바다 전망 → 다음 날 체크아웃",
+          "hint": "지난달 부산 호텔 → 체크인·바다 산책 → 창가에서 바다 → 다음 날 체크아웃",
           "supportCount": 3
         },
         {
@@ -1868,11 +2328,10 @@ window.OPIC_DATA = {
           "answer": [
             "I stayed at a hotel near Haeundae Beach with a great view.",
             "My room had a window facing the sea, and I could hear the waves when I opened it.",
-            "I sat by the window for a while after walking outside.",
-            "The room itself was simple, but the view made the stay special.",
-            "I would like to stay near the beach again."
+            "I sat by the window and looked at the sea for a while.",
+            "I would like to stay there again."
           ],
-          "hint": "해운대 근처 전망 좋은 호텔 → 바다 보이는 방·파도 소리 → 다시 가고 싶음",
+          "hint": "전망 좋은 해운대 호텔 → 창문·파도 소리 → 창가에서 바다 → 다시 숙박 희망",
           "supportCount": 2
         },
         {
@@ -1904,6 +2363,32 @@ window.OPIC_DATA = {
           "hint": "호텔 열쇠가 작동하지 않아 방에 못 들어감 → 프런트 → 새 열쇠",
           "supportCount": 2
         }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-11-group-1",
+          "title": "호텔 묘사·체크인·예약 준비",
+          "questionIds": [
+            "topic-11-q1",
+            "topic-11-q2",
+            "topic-11-q5"
+          ]
+        },
+        {
+          "id": "topic-11-group-2",
+          "title": "최근 숙박·기억에 남는 호텔",
+          "questionIds": [
+            "topic-11-q3",
+            "topic-11-q4"
+          ]
+        },
+        {
+          "id": "topic-11-group-3",
+          "title": "객실 열쇠 문제",
+          "questionIds": [
+            "topic-11-q6"
+          ]
+        }
       ]
     },
     {
@@ -1918,12 +2403,12 @@ window.OPIC_DATA = {
           "question": "[실제 시험 15번] 체인 음식점과 로컬 음식점에 가본 경험을 비교하고, 가장 큰 차이점을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "The main difference is that I already know the food at chain restaurants.",
-            "At a chain restaurant, I can order the same meal each time.",
-            "At a local restaurant, I can try something new.",
-            "I choose a chain restaurant for food I know and a local one for something new."
+            "The biggest difference was trying new food at the local place.",
+            "At a chain restaurant, I ordered pasta I already knew.",
+            "At a small local place, I tried a dish I had never had before.",
+            "I like chain restaurants for an easy choice and local places for something new."
           ],
-          "hint": "체인점: 매번 같은 음식 → 로컬: 새로운 음식 → 목적에 따라 선택",
+          "hint": "로컬에서 새 음식 경험 → 체인점 익숙한 파스타 / 로컬 처음 먹는 음식 → 상황별 선택",
           "supportCount": 2
         },
         {
@@ -1977,12 +2462,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I ordered pasta, but the wrong food came to my table.",
-            "So I talked to a staff member.",
-            "They changed it right away.",
-            "After that, I ate my food and relaxed.",
-            "I was glad the staff fixed the mistake quickly."
+            "I told the staff about the mistake.",
+            "They said sorry and brought me the right order.",
+            "I thanked them before I left.",
+            "I was glad they fixed it quickly."
           ],
-          "hint": "파스타 주문했는데 다른 음식 → 직원에게 말함 → 바꿔 줌 → 식사",
+          "hint": "파스타 대신 다른 음식 → 직원에게 설명 → 맞는 주문 받음 → 선택: 감사 → 해결",
           "supportCount": 2
         },
         {
@@ -2012,6 +2497,39 @@ window.OPIC_DATA = {
           ],
           "hint": "집 근처 파스타·맛 → 파스타·음료 → 집에서 음악·식사 → 요리하기 피곤할 때 편리",
           "supportCount": 2
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-12-group-1",
+          "title": "파스타 식당·주문·배달",
+          "questionIds": [
+            "topic-12-q3",
+            "topic-12-q4",
+            "topic-12-q7"
+          ]
+        },
+        {
+          "id": "topic-12-group-2",
+          "title": "최근 외식",
+          "questionIds": [
+            "topic-12-q6"
+          ]
+        },
+        {
+          "id": "topic-12-group-3",
+          "title": "잘못 나온 음식",
+          "questionIds": [
+            "topic-12-q5"
+          ]
+        },
+        {
+          "id": "topic-12-group-4",
+          "title": "식당 비교·메뉴 변화",
+          "questionIds": [
+            "topic-12-q1",
+            "topic-12-q2"
+          ]
         }
       ]
     },
@@ -2092,6 +2610,31 @@ window.OPIC_DATA = {
           "hint": "중요성: 쓰레기 감소 → 재료 재사용 → 내 분리배출 → 작은 실천",
           "supportCount": 2
         }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-13-group-1",
+          "title": "재활용 품목·순서",
+          "questionIds": [
+            "topic-13-q1",
+            "topic-13-q2"
+          ]
+        },
+        {
+          "id": "topic-13-group-2",
+          "title": "분리함이 가득 찬 경험",
+          "questionIds": [
+            "topic-13-q3"
+          ]
+        },
+        {
+          "id": "topic-13-group-3",
+          "title": "재활용의 변화·중요성",
+          "questionIds": [
+            "topic-13-q4",
+            "topic-13-q5"
+          ]
+        }
       ]
     },
     {
@@ -2108,7 +2651,7 @@ window.OPIC_DATA = {
           "answer": [
             "Banks in Korea usually have ATMs and desks where people can get help.",
             "The bank near my home is clean and quiet.",
-            "The staff members are kind and helpful.",
+            "The staff are kind and helpful.",
             "I usually use a banking app to send money or check my account.",
             "But I go to the bank when I need help in person."
           ],
@@ -2121,12 +2664,12 @@ window.OPIC_DATA = {
           "question": "최근 은행에 갔던 경험을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I went to the bank recently to get a new bank card.",
+            "I went to the bank recently because my card didn't work.",
             "First, I took a number and waited.",
-            "Then a staff member checked my ID and helped me get the card.",
-            "It didn't take very long."
+            "A staff member checked my ID and gave me a new card.",
+            "After that, I could use my card again."
           ],
-          "hint": "최근 새 카드 → 번호표·대기 → 신분증·발급 → 빠른 처리",
+          "hint": "최근 카드 고장으로 은행 방문 → 번호표 → 신분증 확인·새 카드 → 다시 사용",
           "supportCount": 2
         },
         {
@@ -2178,13 +2721,39 @@ window.OPIC_DATA = {
           "question": "은행 카드에 문제가 생겨 해결했던 경험을 말해 주세요.",
           "status": "선택",
           "answer": [
-            "My bank card didn't work when I tried to pay.",
-            "So I went to a bank near my home.",
-            "They checked my ID and helped me right away.",
-            "I got a new card and could use it again."
+            "My bank card didn't work, so I went to a bank near my home.",
+            "First, I took a number and waited.",
+            "A staff member checked my ID and gave me a new card.",
+            "After that, I could use my card again."
           ],
-          "hint": "카드로 결제하려는데 작동 안 함 → 은행 방문 → 새 카드",
+          "hint": "카드 고장으로 은행 방문 → 번호표 → 신분증 확인·새 카드 → 다시 사용",
           "supportCount": 2
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-14-group-1",
+          "title": "은행 모습·업무·계좌 개설",
+          "questionIds": [
+            "topic-14-q1",
+            "topic-14-q3",
+            "topic-14-q5"
+          ]
+        },
+        {
+          "id": "topic-14-group-2",
+          "title": "최근 방문·카드 문제",
+          "questionIds": [
+            "topic-14-q2",
+            "topic-14-q6"
+          ]
+        },
+        {
+          "id": "topic-14-group-3",
+          "title": "예전 은행과 지금의 앱",
+          "questionIds": [
+            "topic-14-q4"
+          ]
         }
       ]
     },
@@ -2201,12 +2770,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "My phone is the device I use most often.",
-            "I watch YouTube, listen to music, and check my messages.",
+            "I use it to watch YouTube and listen to music.",
             "I also use it to find information and take pictures.",
-            "It's small and easy to use.",
-            "That is why I use it every day."
+            "I check my phone during short breaks.",
+            "It's small and easy to use, so I use it every day."
           ],
-          "hint": "휴대폰 → YouTube·음악·메시지 확인 → 검색·사진 → 선택: 작고 쉬움",
+          "hint": "자주 쓰는 휴대폰 → YouTube·음악 → 검색·사진 → 선택: 휴대폰 확인 → 매일 사용",
           "supportCount": 2
         },
         {
@@ -2289,13 +2858,46 @@ window.OPIC_DATA = {
           "status": "선택",
           "answer": [
             "I recently bought a new phone.",
-            "I watch YouTube, listen to music, and check my messages.",
+            "I use it to watch YouTube and listen to music.",
             "I also use it to find information and take pictures.",
-            "It's small and easy to use.",
-            "I am glad I chose a phone I can use every day."
+            "I check my phone during short breaks.",
+            "It's small and easy to use, so I use it every day."
           ],
-          "hint": "새 휴대폰 → YouTube·음악·메시지 확인 → 검색·사진 → 선택: 작고 쉬움",
+          "hint": "새 휴대폰 → YouTube·음악 → 검색·사진 → 선택: 휴대폰 확인 → 매일 사용",
           "supportCount": 2
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-15-group-1",
+          "title": "자주 쓰는 휴대폰·새 휴대폰",
+          "questionIds": [
+            "topic-15-q1",
+            "topic-15-q7"
+          ]
+        },
+        {
+          "id": "topic-15-group-2",
+          "title": "전원이 꺼진 경험",
+          "questionIds": [
+            "topic-15-q3"
+          ]
+        },
+        {
+          "id": "topic-15-group-3",
+          "title": "휴대폰과 생활의 변화",
+          "questionIds": [
+            "topic-15-q2",
+            "topic-15-q4"
+          ]
+        },
+        {
+          "id": "topic-15-group-4",
+          "title": "AI와 한국의 기술 산업",
+          "questionIds": [
+            "topic-15-q5",
+            "topic-15-q6"
+          ]
         }
       ]
     },
@@ -2355,10 +2957,10 @@ window.OPIC_DATA = {
           "answer": [
             "In big cities, homes cost a lot and roads are busy.",
             "Many people move there for work or school.",
-            "At the same time, small towns have fewer jobs and fewer young people.",
+            "So it takes longer to get around, and finding a home can be hard.",
             "I think more jobs in different areas would help."
           ],
-          "hint": "도시 문제: 집값·도로 → 일·학교로 이동 → 작은 지역 일자리·청년 감소 → 일자리 분산",
+          "hint": "대도시 집값·도로 혼잡 → 일·학교 때문에 모임 → 이동·집 구하기 어려움 → 일자리 분산",
           "supportCount": 2
         },
         {
@@ -2374,6 +2976,25 @@ window.OPIC_DATA = {
           ],
           "hint": "지형별 활동 → 산 등산·강 자전거 → 해변 산책 → 나의 선호",
           "supportCount": 2
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-16-group-1",
+          "title": "한국 풍경·야외 활동",
+          "questionIds": [
+            "topic-16-q1",
+            "topic-16-q5"
+          ]
+        },
+        {
+          "id": "topic-16-group-2",
+          "title": "도시·동네의 비교와 변화",
+          "questionIds": [
+            "topic-16-q2",
+            "topic-16-q3",
+            "topic-16-q4"
+          ]
         }
       ]
     },
@@ -2443,6 +3064,30 @@ window.OPIC_DATA = {
           "hint": "체감 변화: 더운 여름·폭우·짧은 겨울 → 예보 확인 → 일정 대비",
           "supportCount": 2
         }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-17-group-1",
+          "title": "사계절·좋아하는 계절",
+          "questionIds": [
+            "topic-17-q1",
+            "topic-17-q2"
+          ]
+        },
+        {
+          "id": "topic-17-group-2",
+          "title": "비로 바꾼 부산 여행",
+          "questionIds": [
+            "topic-17-q3"
+          ]
+        },
+        {
+          "id": "topic-17-group-3",
+          "title": "예전과 요즘 날씨",
+          "questionIds": [
+            "topic-17-q4"
+          ]
+        }
       ]
     },
     {
@@ -2506,10 +3151,9 @@ window.OPIC_DATA = {
             "We often meet at a restaurant or someone's home.",
             "We order some food and sit together.",
             "We talk about our lives and take a few pictures.",
-            "I don't like parties with too many people.",
             "I like small and quiet groups."
           ],
-          "hint": "가족·친구 몇 명의 작은 모임 → 식당·집 → 음식·대화",
+          "hint": "작은 가족·친구 모임 → 식당·집 → 음식 → 선택: 대화·사진 → 조용한 모임",
           "supportCount": 2
         },
         {
@@ -2563,9 +3207,9 @@ window.OPIC_DATA = {
             "I remember spending Chuseok with my family as a child.",
             "We ate special food and talked together.",
             "My cousins came over, so the house felt lively.",
-            "Those family meals are some of my favorite childhood memories."
+            "It was a simple but happy day."
           ],
-          "hint": "어릴 때 추석 → 음식·대화 → 사촌·활기 → 추억",
+          "hint": "어릴 때 추석 → 가족 식사·대화 → 사촌 방문 → 즐거운 하루",
           "supportCount": 2
         },
         {
@@ -2581,6 +3225,47 @@ window.OPIC_DATA = {
           ],
           "hint": "지난 추석 집·가족 → 명절 음식·대화 → 식후 휴식 → 조용하고 행복한 날",
           "supportCount": 2
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-18-group-1",
+          "title": "약속 잡기·연락 방식 변화",
+          "questionIds": [
+            "topic-18-q1",
+            "topic-18-q3"
+          ]
+        },
+        {
+          "id": "topic-18-group-2",
+          "title": "아파서 약속 변경",
+          "questionIds": [
+            "topic-18-q2"
+          ]
+        },
+        {
+          "id": "topic-18-group-3",
+          "title": "평소 모임·친구들과 저녁",
+          "questionIds": [
+            "topic-18-q4",
+            "topic-18-q5"
+          ]
+        },
+        {
+          "id": "topic-18-group-4",
+          "title": "추석 소개·어릴 때·최근 명절",
+          "questionIds": [
+            "topic-18-q6",
+            "topic-18-q8",
+            "topic-18-q9"
+          ]
+        },
+        {
+          "id": "topic-18-group-5",
+          "title": "명절 버스 지연",
+          "questionIds": [
+            "topic-18-q7"
+          ]
         }
       ]
     }
@@ -2677,20 +3362,20 @@ window.OPIC_DATA = {
         "use": "집 묘사·가구 비교·집 문제·집 휴가",
         "basic": [
           {
-            "en": "I like living alone in my apartment because it is quiet and I can relax.",
-            "ko": "혼자 사는 아파트가 조용하고 쉴 수 있어서 좋아요.",
+            "en": "I live alone in a small apartment.",
+            "ko": "작은 아파트에서 혼자 살아요.",
             "source": "topic-1-q1",
             "role": "MP · 집 묘사"
           },
           {
             "en": "My favorite room is the living room.",
             "ko": "제가 가장 좋아하는 방은 거실이에요.",
-            "source": "topic-1-q1",
+            "source": "topic-1-q12",
             "role": "붙일 문장"
           },
           {
-            "en": "I have a sofa and a small table there.",
-            "ko": "거기에 소파와 작은 탁자가 있어요.",
+            "en": "I have a sofa and a small table in the living room.",
+            "ko": "거실에 소파와 작은 탁자가 있어요.",
             "source": "topic-1-q1",
             "role": "붙일 문장"
           }
@@ -3009,627 +3694,5 @@ window.OPIC_DATA = {
       "같은 행동·사건은 같은 표현으로 연습하고, 질문에 따라 시점이나 장소만 바꿉니다."
     ],
     "note": "159개 답변을 통째로 외우지 마세요. 같은 장소와 사건의 문장을 여러 질문에서 다시 쓰고, 질문에 맞는 첫 문장만 바꿔 연결하세요. 사건·행동·차이·용건을 먼저 말하고, 감정은 필요할 때 뒤에서 자연스럽게 표현합니다. 짧은 답변만으로 필요한 내용을 말합니다. 선택 문장은 행동의 다음 장면이나 새 정보를 덧붙일 때만 사용합니다."
-  },
-  "studySets": {
-    "title": "공통 답변과 질문별 연습",
-    "lead": "먼저 아래의 '실제로 같은 문장'만 통째로 재사용하세요. 나머지 주제별 묶음은 질문 종류를 찾기 위한 목록입니다. 목록의 답변은 질문별로 확인합니다.",
-    "topics": [
-      {
-        "topicId": "topic-1",
-        "groups": [
-          {
-            "title": "집·거실 장면",
-            "cue": "혼자 사는 집 → 거실·소파 → 쉬는 일상",
-            "questionIds": [
-              "topic-1-q1",
-              "topic-1-q2",
-              "topic-1-q5",
-              "topic-1-q12",
-              "topic-1-q13"
-            ]
-          },
-          {
-            "title": "가족·집의 변화",
-            "cue": "예전 가족 집 또는 가족 방문을 말하고 지금과 연결",
-            "questionIds": [
-              "topic-1-q3",
-              "topic-1-q4",
-              "topic-1-q6",
-              "topic-1-q14"
-            ]
-          },
-          {
-            "title": "문제·주거 의견",
-            "cue": "문제라면 고장→연락→수리, 비교라면 양쪽 차이",
-            "questionIds": [
-              "topic-1-q7",
-              "topic-1-q8",
-              "topic-1-q9",
-              "topic-1-q10",
-              "topic-1-q11",
-              "topic-1-q15"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-2",
-        "groups": [
-          {
-            "title": "혼자 쉬는 휴가",
-            "cue": "늦잠·음악·소파에서 YouTube",
-            "questionIds": [
-              "topic-2-q1",
-              "topic-2-q2",
-              "topic-2-q7",
-              "topic-2-q8"
-            ]
-          },
-          {
-            "title": "지난 집 휴가",
-            "cue": "지난 휴가에 실제로 한 행동을 과거형으로",
-            "questionIds": [
-              "topic-2-q3",
-              "topic-2-q4"
-            ]
-          },
-          {
-            "title": "휴가 변화·문제",
-            "cue": "비교는 예전과 지금, 문제는 조명 고장과 해결",
-            "questionIds": [
-              "topic-2-q5",
-              "topic-2-q6",
-              "topic-2-q9"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-3",
-        "groups": [
-          {
-            "title": "동네 카페 장면",
-            "cue": "조용한 카페 → 아이스커피 → 창가",
-            "questionIds": [
-              "topic-3-q1",
-              "topic-3-q2",
-              "topic-3-q3",
-              "topic-3-q9"
-            ]
-          },
-          {
-            "title": "카페 방문 경험",
-            "cue": "방문 시점과 음료·자리부터",
-            "questionIds": [
-              "topic-3-q4",
-              "topic-3-q5"
-            ]
-          },
-          {
-            "title": "카페 문제·변화",
-            "cue": "음료 실수는 주문→직원→새 음료",
-            "questionIds": [
-              "topic-3-q6",
-              "topic-3-q7",
-              "topic-3-q8"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-4",
-        "groups": [
-          {
-            "title": "조용한 펍 장면",
-            "cue": "친구와 조용한 테이블에서 대화",
-            "questionIds": [
-              "topic-4-q1",
-              "topic-4-q2",
-              "topic-4-q4"
-            ]
-          },
-          {
-            "title": "친구와 펍 경험",
-            "cue": "최근 방문 또는 옛 친구와 재회",
-            "questionIds": [
-              "topic-4-q3",
-              "topic-4-q5"
-            ]
-          },
-          {
-            "title": "계산 문제·비교",
-            "cue": "계산서 수정 또는 예전과 현재 차이",
-            "questionIds": [
-              "topic-4-q6",
-              "topic-4-q7"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-5",
-        "groups": [
-          {
-            "title": "동네 공원 장면",
-            "cue": "나무 길을 걷고 커피를 사서 벤치에 앉기",
-            "questionIds": [
-              "topic-5-q1",
-              "topic-5-q2"
-            ]
-          },
-          {
-            "title": "공원 방문 경험",
-            "cue": "지난 주말 또는 친구와 본 일몰",
-            "questionIds": [
-              "topic-5-q4",
-              "topic-5-q5"
-            ]
-          },
-          {
-            "title": "공원 문제·비교",
-            "cue": "비·혼잡은 해결을, 비교는 두 공원의 차이를",
-            "questionIds": [
-              "topic-5-q6",
-              "topic-5-q7",
-              "topic-5-q8",
-              "topic-5-q9"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-6",
-        "groups": [
-          {
-            "title": "해운대 기본 장면",
-            "cue": "바다 보며 걷기와 간단한 준비",
-            "questionIds": [
-              "topic-6-q1",
-              "topic-6-q2",
-              "topic-6-q4"
-            ]
-          },
-          {
-            "title": "해변 방문·생일",
-            "cue": "혼자 최근 방문과 친구들의 생일은 별개 사건",
-            "questionIds": [
-              "topic-6-q3",
-              "topic-6-q5"
-            ]
-          },
-          {
-            "title": "바람 문제·과거 비교",
-            "cue": "모자 문제 해결 또는 어릴 때와 지금 차이",
-            "questionIds": [
-              "topic-6-q6",
-              "topic-6-q7"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-7",
-        "groups": [
-          {
-            "title": "혼자 부산 여행",
-            "cue": "기차 → 호텔 → 해운대·식당",
-            "questionIds": [
-              "topic-7-q1",
-              "topic-7-q2",
-              "topic-7-q4",
-              "topic-7-q10",
-              "topic-7-q11"
-            ]
-          },
-          {
-            "title": "부산 여행 경험",
-            "cue": "최근 혼자 여행과 가족·친구 추억은 구분",
-            "questionIds": [
-              "topic-7-q3",
-              "topic-7-q5",
-              "topic-7-q6"
-            ]
-          },
-          {
-            "title": "여행 문제·의견",
-            "cue": "버스 지연 해결 또는 비용·혼잡에 대한 의견",
-            "questionIds": [
-              "topic-7-q7",
-              "topic-7-q8",
-              "topic-7-q9"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-8",
-        "groups": [
-          {
-            "title": "음악 듣는 일상",
-            "cue": "잔잔한 팝 → 휴대폰·이어폰",
-            "questionIds": [
-              "topic-8-q1",
-              "topic-8-q4",
-              "topic-8-q8"
-            ]
-          },
-          {
-            "title": "처음·라이브 경험",
-            "cue": "음악을 좋아한 계기 또는 콘서트의 한 순간",
-            "questionIds": [
-              "topic-8-q2",
-              "topic-8-q7"
-            ]
-          },
-          {
-            "title": "취향 변화·기기 문제",
-            "cue": "예전과 지금의 차이 또는 이어폰 재연결",
-            "questionIds": [
-              "topic-8-q3",
-              "topic-8-q5",
-              "topic-8-q6",
-              "topic-8-q9"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-9",
-        "groups": [
-          {
-            "title": "콘서트 기본 장면",
-            "cue": "좋아하는 노래를 듣고 따라 부르기",
-            "questionIds": [
-              "topic-9-q1",
-              "topic-9-q2",
-              "topic-9-q5"
-            ]
-          },
-          {
-            "title": "공연 경험",
-            "cue": "최근·첫 공연 또는 기억나는 노래",
-            "questionIds": [
-              "topic-9-q3",
-              "topic-9-q4",
-              "topic-9-q7"
-            ]
-          },
-          {
-            "title": "관람 변화·티켓 문제",
-            "cue": "예전과 지금의 차이 또는 티켓 날짜 수정",
-            "questionIds": [
-              "topic-9-q6",
-              "topic-9-q8"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-10",
-        "groups": [
-          {
-            "title": "정보 묻기",
-            "cue": "상대에게 용건을 말하고 시간·가격 등 요구된 정보 질문",
-            "questionIds": [
-              "topic-10-rp1",
-              "topic-10-rp2",
-              "topic-10-mp3-rp1",
-              "topic-10-concert-rp1",
-              "topic-10-travel-rp1",
-              "topic-10-house-rp1",
-              "topic-10-friend-rp1",
-              "topic-10-service-rp1",
-              "topic-10-restaurant-rp1",
-              "topic-10-hotel-rp1",
-              "topic-10-recycling-rp1",
-              "topic-10-repair-rp1",
-              "topic-10-party-rp1",
-              "topic-10-celebrity-rp1"
-            ]
-          },
-          {
-            "title": "문제 설명·대안",
-            "cue": "문제를 먼저 설명한 뒤 가능한 대안과 선택 확인",
-            "questionIds": [
-              "topic-10-rp3",
-              "topic-10-rp4",
-              "topic-10-mp3-rp2",
-              "topic-10-concert-rp2",
-              "topic-10-travel-rp2",
-              "topic-10-house-rp2",
-              "topic-10-friend-rp2",
-              "topic-10-service-rp2"
-            ]
-          },
-          {
-            "title": "비슷한 과거 경험",
-            "cue": "무슨 일이 있었는지 → 어떻게 해결했는지 → 결과",
-            "questionIds": [
-              "topic-10-rp5",
-              "topic-10-mp3-rp3",
-              "topic-10-travel-rp3",
-              "topic-10-house-rp3",
-              "topic-10-friend-rp3"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-11",
-        "groups": [
-          {
-            "title": "호텔 이용 장면",
-            "cue": "호텔 모습·체크인·예약 전 확인",
-            "questionIds": [
-              "topic-11-q1",
-              "topic-11-q2",
-              "topic-11-q5"
-            ]
-          },
-          {
-            "title": "부산 호텔 경험",
-            "cue": "체크인 뒤 바다를 보고 다음 날 나가기",
-            "questionIds": [
-              "topic-11-q3",
-              "topic-11-q4"
-            ]
-          },
-          {
-            "title": "호텔 열쇠 문제",
-            "cue": "문이 안 열림 → 프런트 → 새 열쇠",
-            "questionIds": [
-              "topic-11-q6"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-12",
-        "groups": [
-          {
-            "title": "파스타 식당 장면",
-            "cue": "조용한 식당에서 파스타와 음료",
-            "questionIds": [
-              "topic-12-q3",
-              "topic-12-q4",
-              "topic-12-q7"
-            ]
-          },
-          {
-            "title": "최근 식사",
-            "cue": "지난 주말 작은 식당 방문",
-            "questionIds": [
-              "topic-12-q6"
-            ]
-          },
-          {
-            "title": "식당 비교·문제",
-            "cue": "체인·로컬 차이, 건강 메뉴 또는 잘못 나온 음식",
-            "questionIds": [
-              "topic-12-q1",
-              "topic-12-q2",
-              "topic-12-q5"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-13",
-        "groups": [
-          {
-            "title": "분리배출 순서",
-            "cue": "종이·플라스틱 등을 모아 맞는 통에 넣기",
-            "questionIds": [
-              "topic-13-q1",
-              "topic-13-q2"
-            ]
-          },
-          {
-            "title": "분리함 문제",
-            "cue": "통이 가득 참 → 다시 가져감 → 다음 날 배출",
-            "questionIds": [
-              "topic-13-q3"
-            ]
-          },
-          {
-            "title": "변화·중요성",
-            "cue": "예전과 지금 비교 또는 재활용 이유",
-            "questionIds": [
-              "topic-13-q4",
-              "topic-13-q5"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-14",
-        "groups": [
-          {
-            "title": "은행·업무",
-            "cue": "은행 모습, 계좌 개설·직원 도움",
-            "questionIds": [
-              "topic-14-q1",
-              "topic-14-q3",
-              "topic-14-q5"
-            ]
-          },
-          {
-            "title": "최근 은행 방문",
-            "cue": "번호표 → 신분증 확인 → 카드 발급",
-            "questionIds": [
-              "topic-14-q2"
-            ]
-          },
-          {
-            "title": "앱 비교·카드 문제",
-            "cue": "예전 은행 방문과 현재 앱, 카드 결제 문제",
-            "questionIds": [
-              "topic-14-q4",
-              "topic-14-q6"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-15",
-        "groups": [
-          {
-            "title": "휴대폰 사용",
-            "cue": "YouTube·음악·메시지 확인·사진",
-            "questionIds": [
-              "topic-15-q1",
-              "topic-15-q7"
-            ]
-          },
-          {
-            "title": "휴대폰 꺼진 경험",
-            "cue": "메시지 보낼 때 꺼짐 → 충전 → 다시 켜짐",
-            "questionIds": [
-              "topic-15-q3"
-            ]
-          },
-          {
-            "title": "기술 변화·의견",
-            "cue": "예전 휴대폰과 지금 비교, AI·산업 의견",
-            "questionIds": [
-              "topic-15-q2",
-              "topic-15-q4",
-              "topic-15-q5",
-              "topic-15-q6"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-16",
-        "groups": [
-          {
-            "title": "한국 풍경·활동",
-            "cue": "산·강·바다와 그곳에서 하는 활동",
-            "questionIds": [
-              "topic-16-q1",
-              "topic-16-q5"
-            ]
-          },
-          {
-            "title": "동네의 변화",
-            "cue": "예전 건물·공간과 지금 상점·도로",
-            "questionIds": [
-              "topic-16-q3"
-            ]
-          },
-          {
-            "title": "도시 비교·문제",
-            "cue": "큰 도시와 작은 지역 차이·집값·도로",
-            "questionIds": [
-              "topic-16-q2",
-              "topic-16-q4"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-17",
-        "groups": [
-          {
-            "title": "사계절·가을",
-            "cue": "네 계절과 좋아하는 가을 산책",
-            "questionIds": [
-              "topic-17-q1",
-              "topic-17-q2"
-            ]
-          },
-          {
-            "title": "비로 바꾼 여행",
-            "cue": "부산 여행 변경 → 다음 주말 바다",
-            "questionIds": [
-              "topic-17-q3"
-            ]
-          },
-          {
-            "title": "날씨 변화",
-            "cue": "여름 더위와 큰비가 예전과 어떻게 다른지",
-            "questionIds": [
-              "topic-17-q4"
-            ]
-          }
-        ]
-      },
-      {
-        "topicId": "topic-18",
-        "groups": [
-          {
-            "title": "작은 모임·명절",
-            "cue": "친구와 약속, 가족과 식사",
-            "questionIds": [
-              "topic-18-q1",
-              "topic-18-q4",
-              "topic-18-q6"
-            ]
-          },
-          {
-            "title": "지난 모임·휴일",
-            "cue": "친구와 저녁 또는 가족과 명절 경험",
-            "questionIds": [
-              "topic-18-q2",
-              "topic-18-q5",
-              "topic-18-q8",
-              "topic-18-q9"
-            ]
-          },
-          {
-            "title": "방식 비교·교통 문제",
-            "cue": "연락 방식 변화 또는 버스 지연 해결",
-            "questionIds": [
-              "topic-18-q3",
-              "topic-18-q7"
-            ]
-          }
-        ]
-      }
-    ],
-    "sharedScripts": [
-      {
-        "title": "집 조명 고장",
-        "questionIds": [
-          "topic-1-q8",
-          "topic-2-q9",
-          "topic-10-house-rp3"
-        ],
-        "prefixCount": 0
-      },
-      {
-        "title": "휴대폰이 꺼짐",
-        "questionIds": [
-          "topic-15-q3",
-          "topic-10-mp3-rp3"
-        ],
-        "prefixCount": 0
-      },
-      {
-        "title": "비로 부산 여행 변경",
-        "questionIds": [
-          "topic-17-q3",
-          "topic-10-travel-rp3"
-        ],
-        "prefixCount": 0
-      },
-      {
-        "title": "아파서 약속 변경",
-        "questionIds": [
-          "topic-18-q2",
-          "topic-10-rp5"
-        ],
-        "prefixCount": 0
-      },
-      {
-        "title": "해운대 생일 추억",
-        "questionIds": [
-          "topic-6-q5",
-          "topic-7-q6"
-        ],
-        "prefixCount": 2
-      }
-    ]
   }
 };

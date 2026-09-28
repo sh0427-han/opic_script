@@ -31,7 +31,7 @@
     if (window.location.hash === "#core") {
       return "core";
     }
-    return "sets";
+    return "scripts";
   };
 
   const initialView = viewFromHash();
@@ -143,29 +143,32 @@
     `;
   };
 
-  const answerHtml = (question) => {
+  const answerHtml = (question, sharedLines = new Set()) => {
     const [mainPoint] = question.answer;
     const supportCount = question.supportCount ?? Math.min(2, question.answer.length - 2);
     const support = question.answer.slice(1, 1 + supportCount);
     const extra = question.answer.slice(1 + supportCount, -1);
     const closing = question.answer.at(-1);
+    const lineHtml = (line) => `<p lang="en"${sharedLines.has(line)
+      ? ' class="reused-line"' : ""}>${sharedLines.has(line)
+      ? '<span class="reuse-label" lang="ko">공통</span>' : ""}${escapeHtml(line)}</p>`;
 
     return `<div class="answer answer--structured">
       <div class="answer-mp">
         <strong>MP · 질문에 바로 답하기</strong>
-        <p lang="en">${escapeHtml(mainPoint)}</p>
+        ${lineHtml(mainPoint)}
       </div>
       <div class="answer-support">
         <strong>필수 부연설명 · ${support.length}문장</strong>
-        ${support.map((line) => `<p lang="en">${escapeHtml(line)}</p>`).join("")}
+        ${support.map(lineHtml).join("")}
       </div>
       ${extra.length ? `<details class="answer-more">
         <summary>선택 · 한두 문장 더 말하기 (${extra.length}문장)</summary>
-        ${extra.map((line) => `<p lang="en">${escapeHtml(line)}</p>`).join("")}
+        ${extra.map(lineHtml).join("")}
       </details>` : ""}
       <div class="answer-closing">
         <strong>마무리 멘트</strong>
-        <p lang="en">${escapeHtml(closing)}</p>
+        ${lineHtml(closing)}
       </div>
     </div>`;
   };
@@ -184,37 +187,74 @@
     </details>
   `).join("");
 
-  const renderScripts = (topics) => topics.map((topic) => `
-    <section class="topic-section" aria-labelledby="${topic.id}-title">
+  const basicAnswer = (question) => [
+    ...question.answer.slice(0, 1 + question.supportCount),
+    question.answer.at(-1),
+  ];
+
+  const renderScripts = (topics) => topics.map((topic) => {
+    const groups = topic.scriptGroups.map((group) => {
+      const questions = group.questionIds.map((id) =>
+        topic.questions.find((question) => question.id === id)).filter(Boolean);
+      if (!questions.length) return "";
+      const allQuestions = group.questionIds.map((id) => questionById.get(id));
+      const frequencies = new Map();
+      allQuestions.forEach((question) => {
+        new Set(question.answer).forEach((line) =>
+          frequencies.set(line, (frequencies.get(line) ?? 0) + 1));
+      });
+      const sharedLines = new Set([...frequencies]
+        .filter(([, count]) => count > 1).map(([line]) => line));
+      const basics = allQuestions.map(basicAnswer);
+      let tailCount = 0;
+      if (basics.length > 1) {
+        while (basics.every((lines) =>
+          lines.length > tailCount
+          && lines.at(-1 - tailCount) === basics[0].at(-1 - tailCount))) {
+          tailCount += 1;
+        }
+      }
+      const tailNote = tailCount > 1
+        ? `선택 문장을 뺀 기본 답변의 마지막 ${tailCount}문장이 같습니다.`
+        : "";
+      const commonNote = sharedLines.size
+        ? "‘공통’ 표시는 이 묶음의 다른 답변에도 똑같이 나오는 문장입니다."
+        : "";
+      return `<section class="script-group" aria-labelledby="${group.id}-title">
+        <div class="script-group__heading">
+          <h3 id="${group.id}-title">${escapeHtml(group.title)}</h3>
+          <span>${questions.length}개 질문</span>
+        </div>
+        ${tailNote || commonNote ? `<p class="script-group__note">
+          ${escapeHtml(tailNote)} ${escapeHtml(commonNote)}
+        </p>` : ""}
+        <div class="card-list">
+          ${questions.map((question) => `
+            <article id="${escapeHtml(question.id)}" class="script-card">
+              ${questionHeadingHtml(question)}
+              ${answerHtml(question, sharedLines)}
+              ${variantsHtml(question)}
+              <div class="flow">
+                <strong>흐름</strong>
+                <span>${escapeHtml(question.hint)}</span>
+              </div>
+              <div class="card-actions">
+                <button class="text-button" type="button" data-action="copy"
+                  data-question-id="${escapeHtml(question.id)}">스크립트 복사</button>
+              </div>
+            </article>
+          `).join("")}
+        </div>
+      </section>`;
+    }).join("");
+    return `<section class="topic-section" aria-labelledby="${topic.id}-title">
       <div class="topic-heading">
         <h2 id="${topic.id}-title">${topic.order}. ${escapeHtml(topic.title)}</h2>
         <span>${topic.questions.length}개 문제</span>
       </div>
-      <div class="card-list">
-        ${topic.questions.map((question) => `
-          <article id="${escapeHtml(question.id)}" class="script-card">
-            ${questionHeadingHtml(question)}
-            ${answerHtml(question)}
-            ${variantsHtml(question)}
-            <div class="flow">
-              <strong>흐름</strong>
-              <span>${escapeHtml(question.hint)}</span>
-            </div>
-            <div class="card-actions">
-              <button
-                class="text-button"
-                type="button"
-                data-action="copy"
-                data-question-id="${escapeHtml(question.id)}"
-              >
-                스크립트 복사
-              </button>
-            </div>
-          </article>
-        `).join("")}
-      </div>
-    </section>
-  `).join("");
+      ${groups}
+    </section>`;
+  }).join("");
 
   const renderQuestions = (topics) => topics.map((topic) => `
     <section class="topic-section" aria-labelledby="${topic.id}-practice-title">
@@ -251,106 +291,6 @@
       </div>
     </section>
   `).join("");
-
-  const renderStudySets = () => {
-    const sets = data.studySets;
-    const visibleSets = sets.topics.filter((item) =>
-      state.topic === "all" || item.topicId === state.topic);
-
-    const sharedCards = sets.sharedScripts.map((item, index) => {
-      const firstAnswer = questionById.get(item.questionIds[0]).answer;
-      const commonLines = firstAnswer.slice(item.prefixCount);
-      const questions = item.questionIds.map((id) => {
-        const question = questionById.get(id);
-        const opening = question.answer.slice(0, item.prefixCount);
-        return `<li>
-          <strong>${escapeHtml(question.question)}</strong>
-          ${opening.length ? `<div class="shared-opening">
-            <small>이 질문에서 먼저 말할 문장</small>
-            ${opening.map((line) =>
-              `<p lang="en">${escapeHtml(line)}</p>`).join("")}
-          </div>` : ""}
-        </li>`;
-      }).join("");
-      return `<details class="shared-card" ${index === 4 ? "open" : ""}>
-        <summary><strong>${escapeHtml(item.title)}</strong>
-          <span>${item.questionIds.length}개 질문 · ${item.prefixCount
-            ? `앞 ${item.prefixCount}문장만 다름` : "답변 전체가 같음"}</span>
-        </summary>
-        <ul class="shared-questions">${questions}</ul>
-        <div class="shared-tail">
-          <strong>${item.prefixCount ? "그 뒤에 똑같이 말할 문장" : "그대로 재사용할 답변"}</strong>
-          ${commonLines.map((line) =>
-            `<p lang="en">${escapeHtml(line)}</p>`).join("")}
-        </div>
-      </details>`;
-    }).join("");
-
-    const cards = visibleSets.map((item) => {
-      const topic = data.topics.find((entry) => entry.id === item.topicId);
-      const groups = item.groups.map((group) => {
-        const questions = group.questionIds.map((id) => {
-          const question = questionById.get(id);
-          const count = question.supportCount
-            ?? Math.min(2, question.answer.length - 2);
-          const essential = [
-            question.answer[0],
-            ...question.answer.slice(1, 1 + count),
-            question.answer.at(-1),
-          ];
-          return `<li class="scene-question">
-            <p><strong>${escapeHtml(question.number)}.</strong>
-              ${escapeHtml(question.question)}</p>
-            <details class="scene-answer">
-              <summary>이 질문의 기본 답변 보기</summary>
-              <ol>${essential.map((line) =>
-                `<li lang="en">${escapeHtml(line)}</li>`).join("")}</ol>
-              <button class="text-button" type="button"
-                data-action="go-question" data-question-id="${escapeHtml(id)}">
-                선택 문장까지 보기
-              </button>
-            </details>
-          </li>`;
-        }).join("");
-        return `<article class="scene-card">
-          <h3>${escapeHtml(group.title)}</h3>
-          <p class="scene-cue">${escapeHtml(group.cue)}</p>
-          <details class="scene-questions">
-            <summary>질문 ${group.questionIds.length}개 · 답변 보기</summary>
-            <ul>${questions}</ul>
-          </details>
-        </article>`;
-      }).join("");
-      return `<details class="scene-topic"
-        ${state.topic === topic.id || topic.id === "topic-5" && state.topic === "all"
-          ? "open" : ""}>
-        <summary>
-          <strong>${escapeHtml(topic.title)}</strong>
-          <span>질문 ${topic.questions.length}개 · 분류 ${item.groups.length}개</span>
-        </summary>
-        <div class="scene-grid">${groups}</div>
-      </details>`;
-    }).join("");
-
-    return `<section class="sets-view" aria-labelledby="sets-title">
-      <div class="core-intro">
-        <p class="topic-label">같은 문장은 그대로, 다른 질문은 따로</p>
-        <h2 id="sets-title">${escapeHtml(sets.title)}</h2>
-        <p>${escapeHtml(sets.lead)}</p>
-      </div>
-      <section class="shared-section" aria-labelledby="shared-title">
-        <h3 id="shared-title">실제로 같은 문장을 쓰는 답변</h3>
-        <p>아래 묶음에서만 공통 문장을 그대로 이어 말할 수 있습니다.
-          '앞 2문장만 다름'은 그 두 문장 뒤에 같은 문장들을 말한다는 뜻입니다.</p>
-        <div class="shared-grid">${sharedCards}</div>
-      </section>
-      <h3 class="core-section-title">나머지는 질문별 기본 답변 확인</h3>
-      <p class="sets-guide">아래의 세 분류는 출제 순서가 아닙니다.
-        질문을 열어 첫 문장부터 마무리까지 확인하세요.
-        같은 분류라고 해서 뒷문장이 모두 같지는 않습니다.</p>
-      ${cards || '<p class="empty-state">선택한 주제에 질문이 없습니다.</p>'}
-    </section>`;
-  };
 
   const renderCore = function renderCore() {
   const study = data.minimalStudy;
@@ -475,7 +415,6 @@
   const render = () => {
     const isSurvey = state.view === "survey";
     const isCore = state.view === "core";
-    const isSets = state.view === "sets";
     const topics = getVisibleTopics();
     const visibleCount = topics.reduce(
       (count, topic) => count + topic.questions.length,
@@ -489,16 +428,7 @@
     });
 
     elements.filters.hidden = isSurvey || isCore;
-    elements.searchBox.hidden = isSurvey || isCore || isSets;
-
-    if (isSets) {
-      elements.content.setAttribute("aria-labelledby", "sets-tab");
-      elements.description.textContent =
-        "같은 문장을 그대로 재사용할 수 있는 답변과 질문별 답변을 구분합니다.";
-      elements.resultSummary.textContent = `${data.studySets.topics.length}개 주제 · 3개 묶음씩`;
-      elements.content.innerHTML = renderStudySets();
-      return;
-    }
+    elements.searchBox.hidden = isSurvey || isCore;
 
     if (isCore) {
       elements.content.setAttribute("aria-labelledby", "core-tab");
@@ -529,7 +459,7 @@
       state.view === "scripts" ? "scripts-tab" : "questions-tab",
     );
     elements.description.textContent = state.view === "scripts"
-      ? "MP→부연설명→선택 문장→마무리 순서와 한글 힌트를 확인합니다."
+      ? "비슷한 질문을 함께 배치했습니다. 각 답변을 위에서 아래로 읽고, 공통 문장을 반복해 익히세요."
       : "질문만 보고 답한 뒤, 필요할 때 한글 흐름만 확인합니다.";
     elements.resultSummary.textContent = `${visibleCount}개 표시 중`;
 
@@ -553,9 +483,7 @@
         ? "#survey"
         : view === "scripts"
           ? "#scripts"
-          : view === "core"
-            ? "#core"
-            : "#sets";
+          : "#core";
     window.history.replaceState(null, "", hash);
     render();
   };
@@ -634,14 +562,7 @@
     if (button.dataset.action === "copy") {
       copyAnswer(button);
     }
-    if (button.dataset.action === "go-question") {
-      state.topic = data.topics.find((topic) =>
-        topic.questions.some((question) => question.id === button.dataset.questionId))?.id
-        ?? "all";
-      renderFilters();
-      setView("scripts");
-      document.getElementById(button.dataset.questionId)?.scrollIntoView();
-    }
+
   });
 
   window.addEventListener("hashchange", () => {
