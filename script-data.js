@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v36",
+  "version": "v37",
   "updated": "2026-09-28",
   "questionCount": 159,
   "survey": {
@@ -3011,8 +3011,8 @@ window.OPIC_DATA = {
     "note": "159개 답변을 통째로 외우지 마세요. 같은 장소와 사건의 문장을 여러 질문에서 다시 쓰고, 질문에 맞는 첫 문장만 바꿔 연결하세요. 사건·행동·차이·용건을 먼저 말하고, 감정은 필요할 때 뒤에서 자연스럽게 표현합니다. 짧은 답변만으로 필요한 내용을 말합니다. 선택 문장은 행동의 다음 장면이나 새 정보를 덧붙일 때만 사용합니다."
   },
   "studySets": {
-    "title": "주제별 공통 장면으로 연습",
-    "lead": "실제 출제 순서를 뜻하지 않습니다. 한 주제에서 질문의 기능을 보고 첫 문장을 고른 뒤, 맞는 장면 문장만 이어 말하세요. 문제·비교·의견은 질문에 맞는 별도 내용을 답합니다.",
+    "title": "공통 답변과 질문별 연습",
+    "lead": "먼저 아래의 '실제로 같은 문장'만 통째로 재사용하세요. 나머지 주제별 묶음은 질문 종류를 찾기 위한 목록입니다. 목록의 답변은 질문별로 확인합니다.",
     "topics": [
       {
         "topicId": "topic-1",
@@ -3026,16 +3026,6 @@ window.OPIC_DATA = {
               "topic-1-q5",
               "topic-1-q12",
               "topic-1-q13"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-1-q1",
-                "index": 0
-              },
-              {
-                "questionId": "topic-1-q2",
-                "index": 1
-              }
             ]
           },
           {
@@ -3046,16 +3036,6 @@ window.OPIC_DATA = {
               "topic-1-q4",
               "topic-1-q6",
               "topic-1-q14"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-1-q4",
-                "index": 0
-              },
-              {
-                "questionId": "topic-1-q14",
-                "index": 1
-              }
             ]
           },
           {
@@ -3068,16 +3048,6 @@ window.OPIC_DATA = {
               "topic-1-q10",
               "topic-1-q11",
               "topic-1-q15"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-1-q8",
-                "index": 0
-              },
-              {
-                "questionId": "topic-1-q8",
-                "index": 1
-              }
             ]
           }
         ]
@@ -3093,16 +3063,6 @@ window.OPIC_DATA = {
               "topic-2-q2",
               "topic-2-q7",
               "topic-2-q8"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-2-q1",
-                "index": 1
-              },
-              {
-                "questionId": "topic-2-q1",
-                "index": 2
-              }
             ]
           },
           {
@@ -3111,16 +3071,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-2-q3",
               "topic-2-q4"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-2-q3",
-                "index": 0
-              },
-              {
-                "questionId": "topic-2-q3",
-                "index": 1
-              }
             ]
           },
           {
@@ -3130,16 +3080,6 @@ window.OPIC_DATA = {
               "topic-2-q5",
               "topic-2-q6",
               "topic-2-q9"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-2-q9",
-                "index": 0
-              },
-              {
-                "questionId": "topic-2-q9",
-                "index": 1
-              }
             ]
           }
         ]
@@ -3155,16 +3095,6 @@ window.OPIC_DATA = {
               "topic-3-q2",
               "topic-3-q3",
               "topic-3-q9"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-3-q1",
-                "index": 0
-              },
-              {
-                "questionId": "topic-3-q1",
-                "index": 2
-              }
             ]
           },
           {
@@ -3173,16 +3103,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-3-q4",
               "topic-3-q5"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-3-q4",
-                "index": 0
-              },
-              {
-                "questionId": "topic-3-q4",
-                "index": 2
-              }
             ]
           },
           {
@@ -3192,16 +3112,6 @@ window.OPIC_DATA = {
               "topic-3-q6",
               "topic-3-q7",
               "topic-3-q8"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-3-q6",
-                "index": 0
-              },
-              {
-                "questionId": "topic-3-q6",
-                "index": 2
-              }
             ]
           }
         ]
@@ -3216,16 +3126,6 @@ window.OPIC_DATA = {
               "topic-4-q1",
               "topic-4-q2",
               "topic-4-q4"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-4-q1",
-                "index": 0
-              },
-              {
-                "questionId": "topic-4-q1",
-                "index": 2
-              }
             ]
           },
           {
@@ -3234,16 +3134,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-4-q3",
               "topic-4-q5"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-4-q3",
-                "index": 0
-              },
-              {
-                "questionId": "topic-4-q5",
-                "index": 0
-              }
             ]
           },
           {
@@ -3252,16 +3142,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-4-q6",
               "topic-4-q7"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-4-q6",
-                "index": 0
-              },
-              {
-                "questionId": "topic-4-q6",
-                "index": 2
-              }
             ]
           }
         ]
@@ -3275,16 +3155,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-5-q1",
               "topic-5-q2"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-5-q1",
-                "index": 1
-              },
-              {
-                "questionId": "topic-5-q2",
-                "index": 2
-              }
             ]
           },
           {
@@ -3293,16 +3163,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-5-q4",
               "topic-5-q5"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-5-q4",
-                "index": 0
-              },
-              {
-                "questionId": "topic-5-q4",
-                "index": 2
-              }
             ]
           },
           {
@@ -3313,16 +3173,6 @@ window.OPIC_DATA = {
               "topic-5-q7",
               "topic-5-q8",
               "topic-5-q9"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-5-q6",
-                "index": 0
-              },
-              {
-                "questionId": "topic-5-q6",
-                "index": 1
-              }
             ]
           }
         ]
@@ -3337,16 +3187,6 @@ window.OPIC_DATA = {
               "topic-6-q1",
               "topic-6-q2",
               "topic-6-q4"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-6-q1",
-                "index": 0
-              },
-              {
-                "questionId": "topic-6-q2",
-                "index": 0
-              }
             ]
           },
           {
@@ -3355,16 +3195,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-6-q3",
               "topic-6-q5"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-6-q3",
-                "index": 0
-              },
-              {
-                "questionId": "topic-6-q5",
-                "index": 0
-              }
             ]
           },
           {
@@ -3373,16 +3203,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-6-q6",
               "topic-6-q7"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-6-q6",
-                "index": 0
-              },
-              {
-                "questionId": "topic-6-q6",
-                "index": 1
-              }
             ]
           }
         ]
@@ -3399,16 +3219,6 @@ window.OPIC_DATA = {
               "topic-7-q4",
               "topic-7-q10",
               "topic-7-q11"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-7-q10",
-                "index": 0
-              },
-              {
-                "questionId": "topic-7-q2",
-                "index": 1
-              }
             ]
           },
           {
@@ -3418,16 +3228,6 @@ window.OPIC_DATA = {
               "topic-7-q3",
               "topic-7-q5",
               "topic-7-q6"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-7-q5",
-                "index": 0
-              },
-              {
-                "questionId": "topic-7-q5",
-                "index": 1
-              }
             ]
           },
           {
@@ -3437,16 +3237,6 @@ window.OPIC_DATA = {
               "topic-7-q7",
               "topic-7-q8",
               "topic-7-q9"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-7-q7",
-                "index": 0
-              },
-              {
-                "questionId": "topic-7-q7",
-                "index": 1
-              }
             ]
           }
         ]
@@ -3461,16 +3251,6 @@ window.OPIC_DATA = {
               "topic-8-q1",
               "topic-8-q4",
               "topic-8-q8"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-8-q1",
-                "index": 0
-              },
-              {
-                "questionId": "topic-8-q4",
-                "index": 2
-              }
             ]
           },
           {
@@ -3479,16 +3259,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-8-q2",
               "topic-8-q7"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-8-q7",
-                "index": 0
-              },
-              {
-                "questionId": "topic-8-q7",
-                "index": 2
-              }
             ]
           },
           {
@@ -3499,16 +3269,6 @@ window.OPIC_DATA = {
               "topic-8-q5",
               "topic-8-q6",
               "topic-8-q9"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-8-q3",
-                "index": 0
-              },
-              {
-                "questionId": "topic-8-q9",
-                "index": 0
-              }
             ]
           }
         ]
@@ -3523,16 +3283,6 @@ window.OPIC_DATA = {
               "topic-9-q1",
               "topic-9-q2",
               "topic-9-q5"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-9-q2",
-                "index": 0
-              },
-              {
-                "questionId": "topic-9-q2",
-                "index": 2
-              }
             ]
           },
           {
@@ -3542,16 +3292,6 @@ window.OPIC_DATA = {
               "topic-9-q3",
               "topic-9-q4",
               "topic-9-q7"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-9-q3",
-                "index": 0
-              },
-              {
-                "questionId": "topic-9-q3",
-                "index": 2
-              }
             ]
           },
           {
@@ -3560,16 +3300,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-9-q6",
               "topic-9-q8"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-9-q8",
-                "index": 0
-              },
-              {
-                "questionId": "topic-9-q8",
-                "index": 1
-              }
             ]
           }
         ]
@@ -3595,16 +3325,6 @@ window.OPIC_DATA = {
               "topic-10-repair-rp1",
               "topic-10-party-rp1",
               "topic-10-celebrity-rp1"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-10-rp2",
-                "index": 0
-              },
-              {
-                "questionId": "topic-10-rp2",
-                "index": 1
-              }
             ]
           },
           {
@@ -3619,16 +3339,6 @@ window.OPIC_DATA = {
               "topic-10-house-rp2",
               "topic-10-friend-rp2",
               "topic-10-service-rp2"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-10-rp3",
-                "index": 0
-              },
-              {
-                "questionId": "topic-10-rp3",
-                "index": 1
-              }
             ]
           },
           {
@@ -3640,16 +3350,6 @@ window.OPIC_DATA = {
               "topic-10-travel-rp3",
               "topic-10-house-rp3",
               "topic-10-friend-rp3"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-10-rp5",
-                "index": 0
-              },
-              {
-                "questionId": "topic-10-rp5",
-                "index": 1
-              }
             ]
           }
         ]
@@ -3664,16 +3364,6 @@ window.OPIC_DATA = {
               "topic-11-q1",
               "topic-11-q2",
               "topic-11-q5"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-11-q2",
-                "index": 0
-              },
-              {
-                "questionId": "topic-11-q2",
-                "index": 1
-              }
             ]
           },
           {
@@ -3682,16 +3372,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-11-q3",
               "topic-11-q4"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-11-q3",
-                "index": 0
-              },
-              {
-                "questionId": "topic-11-q3",
-                "index": 1
-              }
             ]
           },
           {
@@ -3699,16 +3379,6 @@ window.OPIC_DATA = {
             "cue": "문이 안 열림 → 프런트 → 새 열쇠",
             "questionIds": [
               "topic-11-q6"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-11-q6",
-                "index": 0
-              },
-              {
-                "questionId": "topic-11-q6",
-                "index": 2
-              }
             ]
           }
         ]
@@ -3723,16 +3393,6 @@ window.OPIC_DATA = {
               "topic-12-q3",
               "topic-12-q4",
               "topic-12-q7"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-12-q3",
-                "index": 0
-              },
-              {
-                "questionId": "topic-12-q4",
-                "index": 0
-              }
             ]
           },
           {
@@ -3740,16 +3400,6 @@ window.OPIC_DATA = {
             "cue": "지난 주말 작은 식당 방문",
             "questionIds": [
               "topic-12-q6"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-12-q6",
-                "index": 0
-              },
-              {
-                "questionId": "topic-12-q6",
-                "index": 1
-              }
             ]
           },
           {
@@ -3759,16 +3409,6 @@ window.OPIC_DATA = {
               "topic-12-q1",
               "topic-12-q2",
               "topic-12-q5"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-12-q5",
-                "index": 0
-              },
-              {
-                "questionId": "topic-12-q5",
-                "index": 2
-              }
             ]
           }
         ]
@@ -3782,16 +3422,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-13-q1",
               "topic-13-q2"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-13-q1",
-                "index": 0
-              },
-              {
-                "questionId": "topic-13-q2",
-                "index": 1
-              }
             ]
           },
           {
@@ -3799,16 +3429,6 @@ window.OPIC_DATA = {
             "cue": "통이 가득 참 → 다시 가져감 → 다음 날 배출",
             "questionIds": [
               "topic-13-q3"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-13-q3",
-                "index": 0
-              },
-              {
-                "questionId": "topic-13-q3",
-                "index": 1
-              }
             ]
           },
           {
@@ -3817,16 +3437,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-13-q4",
               "topic-13-q5"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-13-q5",
-                "index": 0
-              },
-              {
-                "questionId": "topic-13-q5",
-                "index": 1
-              }
             ]
           }
         ]
@@ -3841,16 +3451,6 @@ window.OPIC_DATA = {
               "topic-14-q1",
               "topic-14-q3",
               "topic-14-q5"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-14-q1",
-                "index": 0
-              },
-              {
-                "questionId": "topic-14-q5",
-                "index": 0
-              }
             ]
           },
           {
@@ -3858,16 +3458,6 @@ window.OPIC_DATA = {
             "cue": "번호표 → 신분증 확인 → 카드 발급",
             "questionIds": [
               "topic-14-q2"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-14-q2",
-                "index": 0
-              },
-              {
-                "questionId": "topic-14-q2",
-                "index": 1
-              }
             ]
           },
           {
@@ -3876,16 +3466,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-14-q4",
               "topic-14-q6"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-14-q6",
-                "index": 0
-              },
-              {
-                "questionId": "topic-14-q6",
-                "index": 1
-              }
             ]
           }
         ]
@@ -3899,16 +3479,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-15-q1",
               "topic-15-q7"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-15-q1",
-                "index": 1
-              },
-              {
-                "questionId": "topic-15-q1",
-                "index": 2
-              }
             ]
           },
           {
@@ -3916,16 +3486,6 @@ window.OPIC_DATA = {
             "cue": "메시지 보낼 때 꺼짐 → 충전 → 다시 켜짐",
             "questionIds": [
               "topic-15-q3"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-15-q3",
-                "index": 0
-              },
-              {
-                "questionId": "topic-15-q3",
-                "index": 1
-              }
             ]
           },
           {
@@ -3936,16 +3496,6 @@ window.OPIC_DATA = {
               "topic-15-q4",
               "topic-15-q5",
               "topic-15-q6"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-15-q2",
-                "index": 0
-              },
-              {
-                "questionId": "topic-15-q4",
-                "index": 0
-              }
             ]
           }
         ]
@@ -3959,16 +3509,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-16-q1",
               "topic-16-q5"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-16-q1",
-                "index": 0
-              },
-              {
-                "questionId": "topic-16-q5",
-                "index": 2
-              }
             ]
           },
           {
@@ -3976,16 +3516,6 @@ window.OPIC_DATA = {
             "cue": "예전 건물·공간과 지금 상점·도로",
             "questionIds": [
               "topic-16-q3"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-16-q3",
-                "index": 0
-              },
-              {
-                "questionId": "topic-16-q3",
-                "index": 1
-              }
             ]
           },
           {
@@ -3994,16 +3524,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-16-q2",
               "topic-16-q4"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-16-q2",
-                "index": 0
-              },
-              {
-                "questionId": "topic-16-q4",
-                "index": 0
-              }
             ]
           }
         ]
@@ -4017,16 +3537,6 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-17-q1",
               "topic-17-q2"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-17-q1",
-                "index": 0
-              },
-              {
-                "questionId": "topic-17-q2",
-                "index": 0
-              }
             ]
           },
           {
@@ -4034,16 +3544,6 @@ window.OPIC_DATA = {
             "cue": "부산 여행 변경 → 다음 주말 바다",
             "questionIds": [
               "topic-17-q3"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-17-q3",
-                "index": 0
-              },
-              {
-                "questionId": "topic-17-q3",
-                "index": 1
-              }
             ]
           },
           {
@@ -4051,16 +3551,6 @@ window.OPIC_DATA = {
             "cue": "여름 더위와 큰비가 예전과 어떻게 다른지",
             "questionIds": [
               "topic-17-q4"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-17-q4",
-                "index": 0
-              },
-              {
-                "questionId": "topic-17-q4",
-                "index": 2
-              }
             ]
           }
         ]
@@ -4075,16 +3565,6 @@ window.OPIC_DATA = {
               "topic-18-q1",
               "topic-18-q4",
               "topic-18-q6"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-18-q1",
-                "index": 0
-              },
-              {
-                "questionId": "topic-18-q4",
-                "index": 1
-              }
             ]
           },
           {
@@ -4095,16 +3575,6 @@ window.OPIC_DATA = {
               "topic-18-q5",
               "topic-18-q8",
               "topic-18-q9"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-18-q8",
-                "index": 0
-              },
-              {
-                "questionId": "topic-18-q8",
-                "index": 1
-              }
             ]
           },
           {
@@ -4113,19 +3583,52 @@ window.OPIC_DATA = {
             "questionIds": [
               "topic-18-q3",
               "topic-18-q7"
-            ],
-            "lineRefs": [
-              {
-                "questionId": "topic-18-q7",
-                "index": 0
-              },
-              {
-                "questionId": "topic-18-q7",
-                "index": 1
-              }
             ]
           }
         ]
+      }
+    ],
+    "sharedScripts": [
+      {
+        "title": "집 조명 고장",
+        "questionIds": [
+          "topic-1-q8",
+          "topic-2-q9",
+          "topic-10-house-rp3"
+        ],
+        "prefixCount": 0
+      },
+      {
+        "title": "휴대폰이 꺼짐",
+        "questionIds": [
+          "topic-15-q3",
+          "topic-10-mp3-rp3"
+        ],
+        "prefixCount": 0
+      },
+      {
+        "title": "비로 부산 여행 변경",
+        "questionIds": [
+          "topic-17-q3",
+          "topic-10-travel-rp3"
+        ],
+        "prefixCount": 0
+      },
+      {
+        "title": "아파서 약속 변경",
+        "questionIds": [
+          "topic-18-q2",
+          "topic-10-rp5"
+        ],
+        "prefixCount": 0
+      },
+      {
+        "title": "해운대 생일 추억",
+        "questionIds": [
+          "topic-6-q5",
+          "topic-7-q6"
+        ],
+        "prefixCount": 2
       }
     ]
   }

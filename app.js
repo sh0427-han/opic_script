@@ -257,36 +257,67 @@
     const visibleSets = sets.topics.filter((item) =>
       state.topic === "all" || item.topicId === state.topic);
 
+    const sharedCards = sets.sharedScripts.map((item, index) => {
+      const firstAnswer = questionById.get(item.questionIds[0]).answer;
+      const commonLines = firstAnswer.slice(item.prefixCount);
+      const questions = item.questionIds.map((id) => {
+        const question = questionById.get(id);
+        const opening = question.answer.slice(0, item.prefixCount);
+        return `<li>
+          <strong>${escapeHtml(question.question)}</strong>
+          ${opening.length ? `<div class="shared-opening">
+            <small>이 질문에서 먼저 말할 문장</small>
+            ${opening.map((line) =>
+              `<p lang="en">${escapeHtml(line)}</p>`).join("")}
+          </div>` : ""}
+        </li>`;
+      }).join("");
+      return `<details class="shared-card" ${index === 4 ? "open" : ""}>
+        <summary><strong>${escapeHtml(item.title)}</strong>
+          <span>${item.questionIds.length}개 질문 · ${item.prefixCount
+            ? `앞 ${item.prefixCount}문장만 다름` : "답변 전체가 같음"}</span>
+        </summary>
+        <ul class="shared-questions">${questions}</ul>
+        <div class="shared-tail">
+          <strong>${item.prefixCount ? "그 뒤에 똑같이 말할 문장" : "그대로 재사용할 답변"}</strong>
+          ${commonLines.map((line) =>
+            `<p lang="en">${escapeHtml(line)}</p>`).join("")}
+        </div>
+      </details>`;
+    }).join("");
+
     const cards = visibleSets.map((item) => {
       const topic = data.topics.find((entry) => entry.id === item.topicId);
       const groups = item.groups.map((group) => {
-        const lines = group.lineRefs.map((ref) => {
-          const question = questionById.get(ref.questionId);
-          return question.answer[ref.index];
-        });
-        const links = group.questionIds.map((id) => {
+        const questions = group.questionIds.map((id) => {
           const question = questionById.get(id);
+          const count = question.supportCount
+            ?? Math.min(2, question.answer.length - 2);
+          const essential = [
+            question.answer[0],
+            ...question.answer.slice(1, 1 + count),
+            question.answer.at(-1),
+          ];
           return `<li class="scene-question">
             <p><strong>${escapeHtml(question.number)}.</strong>
               ${escapeHtml(question.question)}</p>
-            <p class="scene-question__mp" lang="en">${escapeHtml(question.answer[0])}</p>
-            <button class="text-button" type="button"
-              data-action="go-question" data-question-id="${escapeHtml(id)}">
-              전체 답변 보기
-            </button>
+            <details class="scene-answer">
+              <summary>이 질문의 기본 답변 보기</summary>
+              <ol>${essential.map((line) =>
+                `<li lang="en">${escapeHtml(line)}</li>`).join("")}</ol>
+              <button class="text-button" type="button"
+                data-action="go-question" data-question-id="${escapeHtml(id)}">
+                선택 문장까지 보기
+              </button>
+            </details>
           </li>`;
         }).join("");
         return `<article class="scene-card">
           <h3>${escapeHtml(group.title)}</h3>
           <p class="scene-cue">${escapeHtml(group.cue)}</p>
-          <div class="scene-lines">
-            <strong>이 장면에서 골라 쓸 문장</strong>
-            ${lines.map((line) =>
-              `<p lang="en">${escapeHtml(line)}</p>`).join("")}
-          </div>
           <details class="scene-questions">
-            <summary>연결 질문 ${group.questionIds.length}개 · 첫 문장 보기</summary>
-            <ul>${links}</ul>
+            <summary>질문 ${group.questionIds.length}개 · 답변 보기</summary>
+            <ul>${questions}</ul>
           </details>
         </article>`;
       }).join("");
@@ -295,7 +326,7 @@
           ? "open" : ""}>
         <summary>
           <strong>${escapeHtml(topic.title)}</strong>
-          <span>질문 ${topic.questions.length}개 · 학습 묶음 ${item.groups.length}개</span>
+          <span>질문 ${topic.questions.length}개 · 분류 ${item.groups.length}개</span>
         </summary>
         <div class="scene-grid">${groups}</div>
       </details>`;
@@ -303,14 +334,21 @@
 
     return `<section class="sets-view" aria-labelledby="sets-title">
       <div class="core-intro">
-        <p class="topic-label">질문 순서를 예측하는 표가 아닙니다</p>
+        <p class="topic-label">같은 문장은 그대로, 다른 질문은 따로</p>
         <h2 id="sets-title">${escapeHtml(sets.title)}</h2>
         <p>${escapeHtml(sets.lead)}</p>
       </div>
-      <p class="sets-guide">주제를 열고 공통 장면을 익힌 뒤, 연결 질문의
-        첫 문장을 보고 해당 질문에 맞는 내용만 이어 말하세요.
-        모든 문장을 모든 질문에 붙이지 않아도 됩니다.</p>
-      ${cards || '<p class="empty-state">선택한 주제에 학습 묶음이 없습니다.</p>'}
+      <section class="shared-section" aria-labelledby="shared-title">
+        <h3 id="shared-title">실제로 같은 문장을 쓰는 답변</h3>
+        <p>아래 묶음에서만 공통 문장을 그대로 이어 말할 수 있습니다.
+          '앞 2문장만 다름'은 그 두 문장 뒤에 같은 문장들을 말한다는 뜻입니다.</p>
+        <div class="shared-grid">${sharedCards}</div>
+      </section>
+      <h3 class="core-section-title">나머지는 질문별 기본 답변 확인</h3>
+      <p class="sets-guide">아래의 세 분류는 출제 순서가 아닙니다.
+        질문을 열어 첫 문장부터 마무리까지 확인하세요.
+        같은 분류라고 해서 뒷문장이 모두 같지는 않습니다.</p>
+      ${cards || '<p class="empty-state">선택한 주제에 질문이 없습니다.</p>'}
     </section>`;
   };
 
@@ -456,7 +494,7 @@
     if (isSets) {
       elements.content.setAttribute("aria-labelledby", "sets-tab");
       elements.description.textContent =
-        "출제 순서가 아닌 질문 기능별 묶음입니다. 주제를 골라 공통 장면을 연습하세요.";
+        "같은 문장을 그대로 재사용할 수 있는 답변과 질문별 답변을 구분합니다.";
       elements.resultSummary.textContent = `${data.studySets.topics.length}개 주제 · 3개 묶음씩`;
       elements.content.innerHTML = renderStudySets();
       return;
