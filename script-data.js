@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v34",
+  "version": "v35",
   "updated": "2026-09-28",
   "questionCount": 159,
   "survey": {
@@ -158,12 +158,12 @@ window.OPIC_DATA = {
           "question": "어렸을 때 살았던 집과 지금 집을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "I like my quiet home now because I can relax on my own.",
-            "When I was young, I lived with my family in a bigger apartment.",
-            "Now I live alone in a smaller place.",
+            "I used to live with my family, but now I live alone in a smaller apartment.",
+            "The old place was bigger and busier.",
+            "My home is quieter and easier to clean.",
             "My living room has just a sofa and a small table, but I like it that way."
           ],
-          "hint": "MP: 예전 집은 활기차고 지금 집은 조용함 → 예전 가족과 큰 집 → 지금 혼자 작은 집·가구",
+          "hint": "예전 가족과 큰 집 → 지금 혼자 작은 집 → 조용하고 청소 쉬움",
           "supportCount": 2
         },
         {
@@ -304,11 +304,11 @@ window.OPIC_DATA = {
           "question": "집에서 가족과 보낸 특별하거나 기억에 남는 경험을 말해 주세요.",
           "status": "선택",
           "answer": [
-            "I was happy when my family came over for dinner because we rarely have time to meet.",
+            "My family came over for dinner one evening.",
             "We ordered food and talked for hours.",
             "That dinner is a nice family memory for me."
           ],
-          "hint": "가족 방문·기쁨 → 음식 주문·오랜 대화 → 가족 추억",
+          "hint": "가족이 저녁에 방문 → 음식 주문·오랜 대화 → 좋은 추억",
           "supportCount": 1
         },
         {
@@ -383,12 +383,12 @@ window.OPIC_DATA = {
           "question": "집에서 보낸 휴가 중 기억에 남는 에피소드를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I enjoyed cooking dinner alone on my last vacation.",
+            "On my last vacation, I cooked dinner for myself.",
             "I put on some music and made a simple meal.",
             "It took longer than I expected, but the food tasted good.",
             "That small change is why I remember the day."
           ],
-          "hint": "휴가 중 요리 → 음악·간단한 식사 → 오래 걸렸지만 맛있음 → 작은 변화",
+          "hint": "지난 집 휴가에 혼자 저녁 요리 → 음악·간단한 음식 → 생각보다 오래 걸렸지만 맛있었음",
           "supportCount": 2
         },
         {
@@ -649,12 +649,12 @@ window.OPIC_DATA = {
           "question": "최근 술집에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I enjoyed visiting a pub with my friend a few weeks ago because we could finally catch up.",
+            "I went to a pub with a friend a few weeks ago.",
             "We found a quiet table, ordered drinks, and talked about work and our weekends.",
             "The music was not too loud, which made it easy to talk.",
             "I got home early, but I really enjoyed seeing my friend."
           ],
-          "hint": "최근 친구와 펍 → 오랜만에 만나 근황 대화 → 조용한 자리/음악 → 일찍 귀가",
+          "hint": "몇 주 전 친구와 펍 → 조용한 자리·근황 대화 → 일찍 귀가",
           "supportCount": 2
         },
         {
@@ -677,13 +677,13 @@ window.OPIC_DATA = {
           "question": "술집에서 있었던 기억에 남는 에피소드를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I was surprised to run into an old friend at a pub because we had not met in years.",
+            "I ran into an old friend at a pub one night.",
             "We found a table and talked about our old school days.",
             "I had only planned to stay for a short time, but we talked for much longer.",
             "We gave each other our phone numbers before we left.",
             "It was nice to meet again without planning it."
           ],
-          "hint": "펍에서 우연히 오랜 친구 만남 → 학창 시절 이야기 → 연락처 교환 → 뜻밖의 재회",
+          "hint": "펍에서 오래된 친구와 우연히 만남 → 학창 시절 이야기 → 연락처 교환",
           "supportCount": 2
         },
         {
@@ -758,13 +758,13 @@ window.OPIC_DATA = {
           "question": "최근 공원에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I felt good after visiting the park last weekend because I could take a quiet break.",
+            "I went to the park near my home last weekend.",
             "I followed the path around the trees.",
             "After about twenty minutes, I got a coffee and sat on a bench.",
             "The air was cool, and I listened to music for a while.",
             "It was a simple visit, but that is why I like the park."
           ],
-          "hint": "최근 공원 → 20분 산책 → 커피/벤치 → 선선한 공기/음악 → 개운함",
+          "hint": "지난 주말 동네 공원 → 산책 → 커피·벤치 → 선선한 공기·음악",
           "supportCount": 2
         },
         {
@@ -996,14 +996,14 @@ window.OPIC_DATA = {
           "question": "어렸을 때 갔었던 국내여행을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I have happy memories of family trips to Busan because we spent time together at the beach.",
-            "We went to Haeundae Beach a few times.",
+            "When I was a kid, I went to Busan with my family a few times.",
+            "We went to Haeundae Beach on one of those trips.",
             "I remember walking along the beach with my family.",
             "We ate dinner together after the beach.",
             "We took pictures together before going home.",
             "I have liked Busan for a long time."
           ],
-          "hint": "어릴 때 가족과 부산 → 해운대 → 함께 산책 → 선택: 저녁·사진 → 지금도 부산 좋아함",
+          "hint": "어릴 때 가족과 부산 여러 번 → 해운대·산책 → 선택: 저녁·사진",
           "supportCount": 2
         },
         {
@@ -1027,13 +1027,13 @@ window.OPIC_DATA = {
           "question": "최근에 다녀온 국내여행을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I enjoyed my solo trip to Busan last month because I could relax by the sea at my own pace.",
+            "I went to Busan by myself last month.",
             "I took the train, left my bag at the hotel, and went to Haeundae.",
             "I walked near the beach and had dinner at a small restaurant.",
             "The next morning, I took a few pictures before going home.",
             "I want to travel that way again."
           ],
-          "hint": "지난달 혼자 부산 기차여행 → 호텔·해변·저녁 → 다음 날 사진·귀가",
+          "hint": "지난달 혼자 부산 → 기차·호텔·해변·저녁 → 선택: 사진",
           "supportCount": 2
         },
         {
@@ -1057,12 +1057,12 @@ window.OPIC_DATA = {
           "question": "여행 중에 문제가 생겼던 경험을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I got worried when my bus was late because I almost missed my train to Busan.",
+            "My bus was late, and I almost missed my train to Busan.",
             "So I got off the bus and took a taxi for the last part of the trip.",
             "I reached the station just before the train left.",
             "The trip itself was fine, but I learned to leave home earlier."
           ],
-          "hint": "부산행 기차 놓칠 뻔함 → 역 가는 버스 지연 → 택시로 이동 → 간신히 탑승 → 일찍 출발",
+          "hint": "부산행 기차 놓칠 뻔함 → 버스 지연 → 택시 → 가까스로 도착",
           "supportCount": 2
         },
         {
@@ -1180,14 +1180,14 @@ window.OPIC_DATA = {
           "question": "음악을 언제, 어떻게, 어디서 듣는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I enjoy listening to music almost every day because it helps me relax.",
+            "I listen to music almost every day.",
             "I usually listen at home or when I am going somewhere.",
             "I use my phone and earphones.",
             "These days, I mostly listen to slow songs.",
             "Sometimes, I just close my eyes and listen for a while.",
-            "Music is part of my daily life."
+            "It helps me relax after a busy day."
           ],
-          "hint": "almost every day → home/on the way → phone/earphones → slow songs → relax",
+          "hint": "거의 매일 음악 → 집이나 이동 중 → 휴대폰·이어폰 → 선택: 잔잔한 노래",
           "supportCount": 2
         },
         {
@@ -1320,12 +1320,12 @@ window.OPIC_DATA = {
           "question": "기억에 남는 콘서트 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I was excited to hear my favorite song live because it felt new with everyone singing.",
+            "I heard my favorite pop song live at a concert.",
             "People around me started singing, so I joined them.",
             "For a moment, I forgot about everything else and just listened.",
             "I still think of that moment whenever the song comes on."
           ],
-          "hint": "최근 콘서트에서 좋아하는 곡 라이브 → 관객과 함께 노래 → 그 노래를 들으면 떠오름",
+          "hint": "콘서트에서 좋아하는 팝 노래 라이브로 들음 → 함께 노래 → 지금도 기억",
           "supportCount": 2
         },
         {
@@ -1377,12 +1377,12 @@ window.OPIC_DATA = {
           "question": "콘서트에 가기 전 티켓에 문제가 생겼던 경험과 해결 방법을 말해 주세요.",
           "status": "선택",
           "answer": [
-            "I felt worried when I found the wrong date on my concert ticket because I might miss the show.",
+            "The date on my concert ticket was wrong.",
             "I called the ticket office and asked them to check my booking.",
             "The staff changed the date, and I could go to the concert as planned.",
             "After that, I always check the date as soon as I buy a ticket."
           ],
-          "hint": "MP: 콘서트 티켓 날짜 오류 → 매표소에 연락 → 날짜 수정·공연 참석",
+          "hint": "콘서트 티켓 날짜가 틀림 → 매표소 연락 → 날짜 변경·공연 참석",
           "supportCount": 2
         }
       ]
@@ -1458,14 +1458,14 @@ window.OPIC_DATA = {
           "question": "관련 과거 경험 - 계획을 바꾼 경험",
           "status": "필수",
           "answer": [
-            "I felt sorry about changing plans with my friend because I was too sick to meet.",
+            "I had to change plans with my friend because I was sick.",
             "I sent a message right away and said sorry.",
             "I asked if we could meet the next weekend instead.",
             "My friend agreed, so we chose another time.",
             "We finally met for dinner a week later.",
             "I was glad I told my friend early."
           ],
-          "hint": "몸이 아파 친구 약속 변경 → 빠르게 사과·연락 → 다음 주말 재약속 → 식사",
+          "hint": "아파서 친구 약속 변경 → 바로 연락·사과 → 다음 주말 제안 → 저녁 식사",
           "supportCount": 4
         },
         {
@@ -1503,12 +1503,12 @@ window.OPIC_DATA = {
           "question": "전자기기에 문제가 생겼다가 해결한 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "I was worried when my phone turned off because I had to send a message.",
+            "My phone turned off when I needed to send a message.",
             "So I charged it for a while and tried again.",
             "Luckily, it turned back on, and I could send my message.",
             "Since then, I try to check the battery before I leave home."
           ],
-          "hint": "휴대폰 갑자기 꺼짐 → 버튼 안 됨 → 충전 후 다시 켜짐 → 친구에게 연락/배터리 확인",
+          "hint": "메시지 보낼 때 휴대폰 꺼짐 → 충전 → 다시 켜짐 → 배터리 확인",
           "supportCount": 2
         },
         {
@@ -1648,13 +1648,13 @@ window.OPIC_DATA = {
           "question": "친구의 집에 들어갈 수 없습니다. 문제를 설명하고 대안을 제시하세요.",
           "status": "필수",
           "answer": [
-            "Hey, I'm worried because I can't get into your house to water the plants.",
+            "Hey, I can't get into your house to water the plants.",
             "The key you gave me doesn't work.",
             "Is there another key I can use?",
             "Could you ask someone nearby to help me if there isn't one?",
             "Otherwise, I can come back later."
           ],
-          "hint": "친구 집에 들어갈 수 없음 → 열쇠 문제 → 예비 열쇠/근처 도움/나중에 재방문",
+          "hint": "친구 집에 들어갈 수 없음 → 열쇠가 안 됨 → 다른 열쇠·도움 요청",
           "supportCount": 3
         },
         {
@@ -1663,13 +1663,13 @@ window.OPIC_DATA = {
           "question": "친구의 부탁을 처리하다가 문제가 생겼던 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "I felt worried when I could not open my friend's door because I needed to water the plants.",
+            "I couldn't open my friend's door when I went to water the plants.",
             "The key did not work, so I called my friend from outside.",
             "My friend told me where to find another key.",
             "I went in, watered the plants, and locked the door when I left.",
             "I was glad I checked with my friend."
           ],
-          "hint": "친구 식물 돌보러 감 → 열쇠 안 됨 → 친구에게 전화해 예비 열쇠 → 물 주고 잠금",
+          "hint": "식물에 물 주러 갔는데 문이 안 열림 → 연락·다른 열쇠 → 물 주고 잠금",
           "supportCount": 3
         },
         {
@@ -1783,13 +1783,13 @@ window.OPIC_DATA = {
           "question": "친구에게 전화해서 명절 모임이나 파티에 필요한 정보를 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hey, I'm looking forward to your party because I'd love to spend time with everyone.",
+            "Hey, I have a few questions about your party.",
             "What time should I come?",
             "Where exactly is it?",
             "Should I bring any food or drinks?",
             "Send me the details when you can, and I'll see you there."
           ],
-          "hint": "주말 파티 → 시간/정확한 장소/음식 또는 음료 준비",
+          "hint": "파티 문의 → 시간·위치·가져갈 것 질문 → 답장 요청",
           "supportCount": 3
         },
         {
@@ -1798,13 +1798,13 @@ window.OPIC_DATA = {
           "question": "좋아하는 유명인을 만났다고 가정하고 질문을 해보세요.",
           "status": "선택",
           "answer": [
-            "Hi, I'm excited to meet you because I really enjoy your work.",
+            "Hi, I'm a big fan of your work. Can I ask you a few questions?",
             "When did you first become interested in it?",
             "What part of your work do you enjoy most?",
             "And what would you like to try next?",
             "Thank you for answering my questions."
           ],
-          "hint": "유명인에게 인사 → 일을 시작한 계기/가장 좋은 점/다음에 해보고 싶은 것",
+          "hint": "팬이라고 인사 → 일 시작 계기·즐거운 점·다음 계획 질문",
           "supportCount": 3
         }
       ]
@@ -1866,13 +1866,13 @@ window.OPIC_DATA = {
           "question": "기억에 남는 호텔과 그 이유를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I loved a hotel near Haeundae Beach because the ocean view made me feel relaxed.",
+            "I stayed at a hotel near Haeundae Beach with a great view.",
             "My room had a window facing the sea, and I could hear the waves when I opened it.",
             "I sat by the window for a while after walking outside.",
             "The room itself was simple, but the view made the stay special.",
             "I would like to stay near the beach again."
           ],
-          "hint": "기억에 남는 호텔=해운대 근처 → 객실 바다 전망/파도 소리 → 단순한 객실이지만 특별",
+          "hint": "해운대 근처 전망 좋은 호텔 → 바다 보이는 방·파도 소리 → 다시 가고 싶음",
           "supportCount": 2
         },
         {
@@ -1896,12 +1896,12 @@ window.OPIC_DATA = {
           "question": "호텔에서 문제가 생겼던 경험과 해결 방법을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "I felt worried when my hotel key did not work because I could not get into my room.",
-            "So I went back to the front desk.",
+            "My hotel key didn't work, so I couldn't get into my room.",
+            "I went back to the front desk.",
             "A staff member checked the key and gave me a new one.",
             "Once I had a working key, I could finally get into my room."
           ],
-          "hint": "MP: 호텔 객실 열쇠가 작동하지 않음 → 당황 → 프런트 → 새 열쇠",
+          "hint": "호텔 열쇠가 작동하지 않아 방에 못 들어감 → 프런트 → 새 열쇠",
           "supportCount": 2
         }
       ]
@@ -2178,12 +2178,12 @@ window.OPIC_DATA = {
           "question": "은행 카드에 문제가 생겨 해결했던 경험을 말해 주세요.",
           "status": "선택",
           "answer": [
-            "I was worried when my bank card did not work because I could not pay.",
+            "My bank card didn't work when I tried to pay.",
             "So I went to a bank near my home.",
             "They checked my ID and helped me right away.",
             "I got a new card and could use it again."
           ],
-          "hint": "MP: 카드 결제 실패 → 은행 방문 → 신분증 확인·새 카드",
+          "hint": "카드로 결제하려는데 작동 안 함 → 은행 방문 → 새 카드",
           "supportCount": 2
         }
       ]
@@ -2229,12 +2229,12 @@ window.OPIC_DATA = {
           "question": "전자기기에 문제가 생겼다가 해결한 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "I was worried when my phone turned off because I had to send a message.",
+            "My phone turned off when I needed to send a message.",
             "So I charged it for a while and tried again.",
             "Luckily, it turned back on, and I could send my message.",
             "Since then, I try to check the battery before I leave home."
           ],
-          "hint": "휴대폰 갑자기 꺼짐 → 버튼 안 됨 → 충전 후 다시 켜짐 → 친구에게 연락/배터리 확인",
+          "hint": "메시지 보낼 때 휴대폰 꺼짐 → 충전 → 다시 켜짐 → 배터리 확인",
           "supportCount": 2
         },
         {
@@ -2472,14 +2472,14 @@ window.OPIC_DATA = {
           "question": "약속을 바꾸거나 취소했던 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "I felt sorry about changing plans with my friend because I was too sick to meet.",
+            "I had to change plans with my friend because I was sick.",
             "I sent a message right away and said sorry.",
             "I asked if we could meet the next weekend instead.",
             "My friend agreed, so we chose another time.",
             "We finally met for dinner a week later.",
             "I was glad I told my friend early."
           ],
-          "hint": "몸이 안 좋아 친구 약속 변경 → 바로 문자·사과 → 다음 주말 제안 → 동의 → 선택: 나중에 저녁 식사",
+          "hint": "아파서 친구 약속 변경 → 바로 문자·사과 → 다음 주말 제안 → 선택: 저녁 식사",
           "supportCount": 3
         },
         {
@@ -2502,14 +2502,14 @@ window.OPIC_DATA = {
           "question": "보통 가족이나 친구와 갖는 모임을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I like meeting up with a few friends or family because we can talk and relax.",
+            "I usually meet with a few friends or family members.",
             "We often meet at a restaurant or someone's home.",
             "We order some food and sit together.",
             "We talk about our lives and take a few pictures.",
             "I don't like parties with too many people.",
             "I like small and quiet groups."
           ],
-          "hint": "small gathering → restaurant/home → food → talk/pictures → dislike crowds → quiet gathering",
+          "hint": "가족·친구 몇 명의 작은 모임 → 식당·집 → 음식·대화",
           "supportCount": 2
         },
         {
@@ -2587,7 +2587,7 @@ window.OPIC_DATA = {
   ],
   "minimalStudy": {
     "title": "질문에 맞는 MP부터 마무리까지 최소암기",
-    "lead": "MP로 질문에 바로 답하고, 필요한 설명과 마무리를 이어 말하세요. 경험·선호에는 자연스러운 감정과 이유를 담고, 비교·절차·정보 문의에는 차이·순서·용건을 먼저 말합니다. 선택 문장은 생략해도 답변이 완결됩니다.",
+    "lead": "질문이 묻는 사건·행동·차이·용건부터 말하세요. 필요한 설명과 마무리를 이어 말하고, 감정은 맥락에 맞을 때 뒤에서 덧붙입니다. 선택 문장은 생략해도 답변이 완결됩니다.",
     "patterns": [
       {
         "title": "장소·사물 묘사",
@@ -2697,8 +2697,8 @@ window.OPIC_DATA = {
         ],
         "extra": [
           {
-            "en": "When I was young, I lived with my family in a bigger apartment.",
-            "ko": "어릴 때는 가족과 더 큰 아파트에 살았어요.",
+            "en": "I used to live with my family, but now I live alone in a smaller apartment.",
+            "ko": "예전에는 가족과 살았지만 지금은 더 작은 아파트에 혼자 살아요.",
             "source": "topic-1-q4",
             "role": "비교에 붙일 문장"
           },
@@ -2890,28 +2890,28 @@ window.OPIC_DATA = {
         "use": "전자제품 문제·일정 변경·롤플레이",
         "basic": [
           {
-            "en": "I was worried when my phone turned off because I had to send a message.",
-            "ko": "메시지를 보내야 하는데 휴대폰이 꺼져서 걱정됐어요.",
+            "en": "My phone turned off when I needed to send a message.",
+            "ko": "메시지를 보내야 할 때 휴대폰이 꺼졌어요.",
             "source": "topic-15-q3",
             "role": "MP · 휴대폰 문제"
           },
           {
-            "en": "So I charged it for a while and tried again.",
-            "ko": "그래서 잠시 충전한 뒤 다시 시도했어요.",
+            "en": "My phone turned off when I needed to send a message.",
+            "ko": "메시지를 보내야 할 때 휴대폰이 꺼졌어요.",
             "source": "topic-15-q3",
             "role": "붙일 문장"
           },
           {
-            "en": "Luckily, it turned back on, and I could send my message.",
-            "ko": "다행히 다시 켜져서 메시지를 보낼 수 있었어요.",
+            "en": "My phone turned off when I needed to send a message.",
+            "ko": "메시지를 보내야 할 때 휴대폰이 꺼졌어요.",
             "source": "topic-15-q3",
             "role": "결과"
           }
         ],
         "extra": [
           {
-            "en": "I felt sorry about changing plans with my friend because I was too sick to meet.",
-            "ko": "몸이 아파 친구와의 약속을 바꿔야 해서 미안했어요.",
+            "en": "I had to change plans with my friend because I was sick.",
+            "ko": "아파서 친구와의 약속을 바꿔야 했어요.",
             "source": "topic-18-q2",
             "role": "MP · 약속 변경 경험"
           },
@@ -3003,11 +3003,11 @@ window.OPIC_DATA = {
       }
     ],
     "steps": [
-      "질문이 묘사·경험·비교·절차·롤플레이 중 무엇을 요구하는지 먼저 확인합니다.",
+      "질문이 묘사·경험·비교·절차·롤플레이 중 무엇을 요구하는지 확인하고, 첫 문장에서 해당 내용을 바로 말합니다.",
       "MP→필수 부연설명→마무리를 이어 말합니다. 비교는 양쪽, 문제는 조치·결과, 절차는 필요한 단계를 모두 포함합니다.",
       "익숙해지면 선택 문장 1~2개를 중간에 넣습니다. 감정은 상황에 맞게 말하고 같은 뜻을 반복하지 않습니다.",
       "같은 행동·사건은 같은 표현으로 연습하고, 질문에 따라 시점이나 장소만 바꿉니다."
     ],
-    "note": "159개 답변을 통째로 외우지 마세요. 같은 장소와 사건의 문장을 여러 질문에서 다시 쓰고, 질문에 맞는 첫 문장만 바꿔 연결하세요. 짧은 답변만으로 필요한 내용을 말합니다. 선택 문장은 행동의 다음 장면이나 새 정보를 덧붙일 때만 사용합니다. 발음하기 쉬운 일상 표현을 우선합니다."
+    "note": "159개 답변을 통째로 외우지 마세요. 같은 장소와 사건의 문장을 여러 질문에서 다시 쓰고, 질문에 맞는 첫 문장만 바꿔 연결하세요. 사건·행동·차이·용건을 먼저 말하고, 감정은 필요할 때 뒤에서 자연스럽게 표현합니다. 짧은 답변만으로 필요한 내용을 말합니다. 선택 문장은 행동의 다음 장면이나 새 정보를 덧붙일 때만 사용합니다."
   }
 };

@@ -1,6 +1,6 @@
 # OPIc 5-5 최소암기 스크립트
 
-OPIc 질문 159개를 주제별로 연습하는 정적 웹페이지입니다. v34에서는 답변을 **MP(질문에 바로 답하기) → 필수 부연설명 → 선택 문장 0~2문장 → 마무리 멘트**로 정리했습니다. 감정·이유는 경험과 선호에 자연스럽게 사용하고, 비교·절차·문의에는 핵심 정보부터 말합니다. 짧게 연습할 때는 MP·부연설명·마무리만 말합니다.
+OPIc 질문 159개를 주제별로 연습하는 정적 웹페이지입니다. v35에서는 답변을 **MP(질문에 바로 답하기) → 필수 부연설명 → 선택 문장 0~2문장 → 마무리 멘트**로 정리했습니다. 경험·문제는 사건, 일상은 행동, 비교는 차이, 문의는 용건부터 말합니다. 감정은 필요한 곳에서 자연스럽게 덧붙입니다. 짧게 연습할 때는 MP·부연설명·마무리만 말합니다.
 
 기본 답변만 말해도 질문에 답하도록 두고, 선택 문장을 붙일 때 사건 순서와 대화 흐름이 자연스럽게 이어지도록 다듬었습니다. 같은 장소와 사건은 같은 문장을 다시 쓰며, 어색한 감정 표현과 반복 설명을 줄였습니다. 발음이 쉬운 일상 표현을 우선해 `It gets busy on weekends.`, `I watch YouTube, listen to music, and check my messages.`처럼 말합니다. 질문 159개와 핵심 암기 44문장은 유지합니다.
 
@@ -19,7 +19,7 @@ OPIc 질문 159개를 주제별로 연습하는 정적 웹페이지입니다. v3
 | 유형 | MP 예시 | 뒤에 붙이는 내용 |
 | --- | --- | --- |
 | 집 휴가 | I prefer being alone during a vacation at home because the quiet helps me relax. | 혼자 쉬는 행동 → 휴가 뒤에 만날 수 있다는 마무리 |
-| 문제 경험 | I was worried when my phone turned off because I had to send a message. | 충전 → 다시 켜짐 → 다음부터 배터리 확인 |
+| 문제 경험 | My phone turned off when I needed to send a message. | 충전 → 다시 켜짐 → 다음부터 배터리 확인 |
 | 전화 문의 | Hi, I'd like to visit this weekend, and I have a few questions. | 영업시간·예약·가격 질문 → 감사 |
 
 평소에는 집에서 혼자 조용히 쉬고 국내여행도 주로 혼자 갑니다. 해운대 깜짝 생일파티나 가족·친구 모임은 별개의 특별한 경험으로 유지합니다. `watch YouTube`, `check my phone`(화면·메시지 확인), 휴대폰 설명에서의 `check my messages`, 카페의 아이스커피와 창가 자리, 공원의 커피와 벤치, 혼자 타는 부산행 기차처럼 반복되는 행동은 같은 표현을 사용합니다.

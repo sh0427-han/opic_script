@@ -4,7 +4,7 @@
 
 ## MP는 질문에 바로 답하기
 
-What·Feeling·Why는 경험이나 선호를 정리할 때 유용합니다. 세 요소를 모든 첫 문장에 강제로 넣지는 않습니다. 감정은 사건에 맞게 한 번 말하고, 결과에 따라 감정이 달라질 때만 덧붙입니다.
+첫 문장에서는 질문이 묻는 사건·행동·차이·용건을 바로 말합니다. 좋아하는 이유나 의견을 묻는 경우에는 이유를 함께 말해도 자연스럽습니다. 감정은 필요할 때 뒤 문장이나 마무리에 덧붙입니다. What·Feeling·Why를 한 문장에 모두 넣으려 하지 않습니다.
 
 | 질문 유형 | 먼저 말할 내용 | 뒤에 붙일 내용 |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ What·Feeling·Why는 경험이나 선호를 정리할 때 유용합니다. 세 
 
 예를 들어 두 공원 비교는 “The main difference is that one park is bigger and has more people.”로 시작합니다. 큰 공원과 작은 공원의 특징을 말한 뒤 “That's why I usually choose the smaller one.”으로 끝냅니다.
 
-휴대폰 문제는 “I was worried when my phone turned off because I had to send a message.”처럼 걱정의 이유가 분명하므로 그대로 사용합니다. 이어서 충전 → 다시 켜짐 → 다음부터 배터리 확인 순서로 말합니다.
+휴대폰 문제는 “My phone turned off when I needed to send a message.”로 무슨 일이 있었는지 먼저 말합니다. 이어서 충전 → 다시 켜짐 → 다음부터 배터리 확인 순서로 설명합니다.
 
 ## 짧은 답변도 완결되게
 
