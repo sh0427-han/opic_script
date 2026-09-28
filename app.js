@@ -66,6 +66,8 @@
       question.question,
       question.hint,
       ...question.answer,
+      ...(question.variants ?? []).flatMap((variant) =>
+        [variant.label, ...variant.replacements.map((item) => item.to)]),
     ].join(" ");
     return normalize(searchable).includes(state.query);
   };
@@ -147,11 +149,11 @@
 
     return `<div class="answer answer--structured">
       <div class="answer-mp">
-        <strong>MP · 무엇 + 감정 + 이유</strong>
+        <strong>MP · 질문에 바로 답하기</strong>
         <p lang="en">${escapeHtml(mainPoint)}</p>
       </div>
       <div class="answer-support">
-        <strong>부연설명 · 1~2문장</strong>
+        <strong>필수 부연설명 · ${support.length}문장</strong>
         ${support.map((line) => `<p lang="en">${escapeHtml(line)}</p>`).join("")}
       </div>
       ${extra.length ? `<details class="answer-more">
@@ -165,6 +167,20 @@
     </div>`;
   };
 
+  const variantAnswer = (question, variant) => question.answer.map((line) =>
+    variant.replacements.find((item) => item.from === line)?.to ?? line);
+
+  const variantsHtml = (question) => (question.variants ?? []).map((variant, index) => `
+    <details class="answer-more">
+      <summary>${escapeHtml(variant.label)} · 바뀌는 표현만 확인</summary>
+      ${answerHtml({ ...question, answer: variantAnswer(question, variant) })}
+      <button class="text-button" type="button" data-action="copy"
+        data-question-id="${escapeHtml(question.id)}" data-variant-index="${index}">
+        이 상황의 스크립트 복사
+      </button>
+    </details>
+  `).join("");
+
   const renderScripts = (topics) => topics.map((topic) => `
     <section class="topic-section" aria-labelledby="${topic.id}-title">
       <div class="topic-heading">
@@ -176,6 +192,7 @@
           <article id="${escapeHtml(question.id)}" class="script-card">
             ${questionHeadingHtml(question)}
             ${answerHtml(question)}
+            ${variantsHtml(question)}
             <div class="flow">
               <strong>흐름</strong>
               <span>${escapeHtml(question.hint)}</span>
@@ -373,7 +390,7 @@
     if (isCore) {
       elements.content.setAttribute("aria-labelledby", "core-tab");
       elements.description.textContent =
-        "MP(무엇·감정·이유)→부연설명→마무리 순서로 말합니다.";
+        "질문에 맞는 MP→필수 부연설명→마무리 순서로 말합니다.";
       elements.resultSummary.textContent = "8개 영어 문장 묶음";
       elements.content.innerHTML = renderCore();
       return;
@@ -435,7 +452,11 @@
     }
 
     const originalText = button.textContent.trim();
-    const answer = question.answer.join("\n");
+    const variantIndex = button.dataset.variantIndex;
+    const variant = variantIndex === undefined
+      ? undefined
+      : question.variants?.[Number(variantIndex)];
+    const answer = (variant ? variantAnswer(question, variant) : question.answer).join("\n");
 
     try {
       await navigator.clipboard.writeText(answer);
