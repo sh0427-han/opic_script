@@ -650,6 +650,75 @@ button {
   padding-left: 22px;
 }
 
+.anchor-item summary, .core-patterns summary {
+  cursor: pointer;
+}
+
+.anchor-item summary small {
+  display: block;
+  margin-top: 4px;
+}
+
+.chunk-lines {
+  margin-top: 12px;
+  padding: 10px 13px;
+  border-radius: var(--radius-sm);
+  background: #f6faf9;
+}
+
+.chunk-lines--extra {
+  background: var(--cream-100);
+}
+
+.chunk-label {
+  margin: 0 0 6px !important;
+  color: var(--teal-700);
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.chunk-line + .chunk-line {
+  border-top: 1px solid var(--line);
+}
+
+.chunk-line {
+  padding: 8px 0;
+}
+
+.chunk-en {
+  margin: 0 !important;
+  color: var(--navy-900);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.chunk-ko {
+  margin: 2px 0 0 !important;
+  color: var(--ink-500);
+  font-size: 0.84rem;
+}
+
+.core-patterns {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.core-patterns > summary {
+  color: var(--navy-900);
+  font-weight: 800;
+}
+
+.core-patterns > p {
+  color: var(--ink-500);
+}
+
+.core-patterns .core-grid {
+  margin-top: 12px;
+}
+
 .survey-view {
   display: grid;
   gap: 18px;
