@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v29",
+  "version": "v30",
   "updated": "2026-09-28",
   "questionCount": 159,
   "survey": {
@@ -129,12 +129,12 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "On weekdays, I usually get home in the evening and spend time in the living room.",
-            "I sit on my sofa, check my messages, and watch a short video.",
+            "I sit on my sofa and watch YouTube.",
             "Sometimes I make dinner, but I often order food when I am tired.",
             "Before bed, I put things away and listen to music for a few minutes.",
             "It's a simple routine, and it helps me rest after work."
           ],
-          "hint": "평일 저녁 귀가 → 거실 소파/메시지·영상 → 저녁 식사 → 정리·음악 → 휴식"
+          "hint": "평일 저녁 귀가 → 거실 소파에서 유튜브 → 저녁 식사 → 정리·음악 → 휴식"
         },
         {
           "id": "topic-1-q3",
@@ -173,12 +173,12 @@ window.OPIC_DATA = {
           "answer": [
             "My favorite piece of furniture is the sofa in my living room.",
             "It's small, so it fits well next to my table.",
-            "I sit there when I watch YouTube or listen to music.",
+            "I sit on my sofa and watch YouTube.",
             "When a friend visits, we can sit and talk there too.",
             "It is not expensive or special, but I use it every day.",
             "That's why I like it so much."
           ],
-          "hint": "좋아하는 가구=거실의 작은 소파 → 영상·음악/친구 대화 → 매일 사용"
+          "hint": "좋아하는 가구=거실 작은 소파 → 유튜브/가끔 친구와 대화 → 매일 사용"
         },
         {
           "id": "topic-1-q6",
@@ -281,7 +281,7 @@ window.OPIC_DATA = {
           "answer": [
             "My favorite room at home is the living room.",
             "It has a small sofa and a table, and I keep it tidy.",
-            "In the evening, I can sit there with a drink and watch something on my phone.",
+            "I sit on my sofa and watch YouTube.",
             "The room is not large, but the window lets in plenty of light.",
             "I like it because I can relax there without doing anything complicated."
           ],
@@ -345,7 +345,7 @@ window.OPIC_DATA = {
           "answer": [
             "When I take a vacation at home, I like having a slow morning.",
             "I sleep a little longer, make breakfast, and listen to music.",
-            "Later, I watch a video or just sit on my sofa.",
+            "I sit on my sofa and watch YouTube.",
             "I do not make a strict schedule.",
             "In the evening, I order food or cook something simple.",
             "Having time to choose what I want to do is the best part."
@@ -372,8 +372,8 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "During my last vacation, I stayed at home by myself.",
-            "I spent most of my time in the living room and sat on my sofa.",
-            "You know, I watched YouTube, listened to music, and checked my phone.",
+            "I sat on my sofa and watched YouTube.",
+            "I also listened to music and checked my phone.",
             "I also ordered some food.",
             "I didn't really do anything special.",
             "I just sat there and relaxed.",
@@ -405,7 +405,7 @@ window.OPIC_DATA = {
             "These days, many people are okay with staying home for a vacation.",
             "In the past, many people wanted to travel far away.",
             "Travel can be expensive, and people can be tired.",
-            "At home, people can watch videos, listen to music, and order food.",
+            "At home, people can watch YouTube, listen to music, and order food.",
             "They can just rest without making big plans."
           ],
           "hint": "MP: 요즘은 집에서 쉬는 휴가도 좋음 → 예전 먼 여행 → 비용·피로 → 집에서 쉬는 일"
@@ -420,7 +420,7 @@ window.OPIC_DATA = {
             "Most people are busy with work or school.",
             "So they can get tired and stressed.",
             "During a vacation, they can sleep more and slow down.",
-            "They can watch videos, listen to music, or just stay home.",
+            "They can watch YouTube, listen to music, or just stay home.",
             "A short break can make people feel better.",
             "I think everyone needs some time off."
           ],
@@ -511,14 +511,13 @@ window.OPIC_DATA = {
           "question": "커피숍에서 주로 하는 일을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "When I go to a cafe, I usually order an iced coffee first.",
-            "Then I find a seat, preferably by a window.",
-            "I sometimes read messages or listen to music while I drink it.",
-            "If I go with a friend, we talk and catch up instead.",
+            "I usually order an iced coffee and sit by the window.",
+            "I sometimes check my phone or listen to music while I drink it.",
             "I normally stay for about half an hour.",
+            "If I go with a friend, we talk and catch up instead.",
             "It's an easy way to take a short break."
           ],
-          "hint": "카페에서 아이스커피 → 창가 자리 → 혼자 음악·메시지/친구와 대화 → 30분 휴식"
+          "hint": "카페에서 아이스커피 → 창가 자리 → 혼자 휴대폰 확인·음악 → 30분 휴식"
         },
         {
           "id": "topic-3-q4",
@@ -528,11 +527,11 @@ window.OPIC_DATA = {
           "answer": [
             "I went back to a cafe near my home last weekend.",
             "It was a little crowded, so I had to wait for a seat.",
-            "After a few minutes, I found one by the window.",
-            "I ordered my usual iced coffee and checked my phone while I drank it.",
+            "I ordered an iced coffee and sat by the window.",
+            "I checked my phone while I drank it.",
             "I only stayed for about half an hour, but it was a nice break from the day."
           ],
-          "hint": "최근 재방문 → 조금 붐벼 자리 기다림 → 창가 자리/아이스커피 → 짧은 휴식"
+          "hint": "최근 카페 재방문 → 조금 붐벼 자리 기다림 → 아이스커피·창가 자리 → 휴대폰 확인"
         },
         {
           "id": "topic-3-q5",
@@ -767,8 +766,8 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Last weekend, I took a short walk in the park near my home.",
-            "I followed the path around the trees for about twenty minutes.",
-            "Then I bought a coffee and sat on a bench.",
+            "I followed the path around the trees.",
+            "After about twenty minutes, I got a coffee and sat on a bench.",
             "The air was cool, and I listened to music for a while.",
             "I went home feeling refreshed.",
             "It was a simple visit, but that is why I like the park."
@@ -893,7 +892,7 @@ window.OPIC_DATA = {
           "question": "최근 해변에 갔던 경험을 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Recently, I went to Haeundae Beach in Busan by myself.",
+            "Last month, I went to Haeundae Beach in Busan by myself.",
             "I walked along the water for a while and took a few pictures.",
             "The waves were gentle, but the wind was stronger than I expected.",
             "So I found a place away from the water and sat there with a drink.",
@@ -980,10 +979,11 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "My favorite place to visit in Korea is Busan.",
-            "I like going there by train because the journey is easy.",
+            "I usually take the train to Busan by myself.",
             "Haeundae Beach is one reason I go, but I also enjoy the restaurants and the streets nearby.",
             "I can spend one day walking by the sea and another trying local food.",
-            "Busan feels different from my everyday neighborhood."
+            "Busan feels different from my everyday neighborhood.",
+            "The train is fast and comfortable."
           ],
           "hint": "좋아하는 국내여행지=부산 → 기차 → 해운대·근처 식당/거리 → 일상과 다른 분위기"
         },
@@ -1114,10 +1114,8 @@ window.OPIC_DATA = {
             "I usually take the train to Busan by myself.",
             "The train is fast and comfortable.",
             "First, I go to the train station near my home.",
-            "Then, I take the train to Busan.",
-            "It takes about three hours.",
-            "When I arrive, I take a bus or a taxi to the beach.",
-            "Getting there is easy and comfortable."
+            "The ride takes about three hours.",
+            "When I arrive, I take a bus or a taxi to the beach."
           ],
           "hint": "MP: 혼자 부산까지 기차 → 빠르고 편안함 → 역까지 이동·탑승·해운대"
         },
@@ -1825,7 +1823,7 @@ window.OPIC_DATA = {
           "question": "가장 최근에 호텔에 묵었던 경험을 처음부터 끝까지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "A few weeks ago, I took a train to Busan by myself and stayed near Haeundae Beach.",
+            "Last month, I took the train to Busan by myself and stayed near Haeundae Beach.",
             "I checked in, left my bag in the room, and went for a walk by the sea.",
             "Later, I came back and looked at the ocean from my window.",
             "The next morning, I checked out and headed to the station.",
@@ -2185,13 +2183,13 @@ window.OPIC_DATA = {
           "answer": [
             "Well, the electronic device I use the most is my phone.",
             "I use it every day at home and outside.",
-            "I watch YouTube, listen to music, and check messages.",
+            "I watch YouTube, listen to music, and check my phone.",
             "I also use it to find information and take pictures.",
             "It's small and easy to use.",
             "I would feel uncomfortable without it.",
             "My phone is really important to me."
           ],
-          "hint": "phone → every day → YouTube/music/messages → information/pictures → small/easy → important"
+          "hint": "phone → every day → YouTube/music/check my phone → information/pictures → small/easy → important"
         },
         {
           "id": "topic-15-q2",
@@ -2202,7 +2200,7 @@ window.OPIC_DATA = {
             "These days, smartphones can do much more than make calls or send texts.",
             "In the past, phones were mainly for calls and text messages.",
             "They were simple, and people didn't use them all day.",
-            "People watch videos, listen to music, and use banking apps.",
+            "People watch YouTube, listen to music, and use banking apps.",
             "They are faster and much easier to use now."
           ],
           "hint": "MP: 지금 스마트폰으로 통화·문자 이상을 할 수 있음 → 예전 단순한 전화 → 지금 영상·음악·앱"
@@ -2277,11 +2275,11 @@ window.OPIC_DATA = {
           "status": "선택",
           "answer": [
             "I recently got a new phone, and it is very useful at home.",
-            "I watch YouTube, listen to music, and check messages.",
+            "I watch YouTube, listen to music, and check my phone.",
             "I also use it to find information and take pictures.",
             "It's small and easy to use."
           ],
-          "hint": "MP: 최근 새 휴대폰 → 영상·음악·메시지 → 정보 검색·사진"
+          "hint": "MP: 최근 새 휴대폰 → 영상·음악·휴대폰 확인 → 정보 검색·사진"
         }
       ]
     },
@@ -2394,7 +2392,7 @@ window.OPIC_DATA = {
             "Fall is my favorite season because the air is cool and comfortable.",
             "I can walk outside without feeling too hot or too cold.",
             "On weekends, I often go to the park near my home.",
-            "I walk for about twenty minutes and then sit on a bench with a coffee.",
+            "After about twenty minutes, I get a coffee and sit on a bench.",
             "The nice weather makes even a short walk feel refreshing."
           ],
           "hint": "가을 좋아함=선선함 → 주말 공원 20분 산책/커피 → 짧은 산책도 상쾌"
@@ -2408,7 +2406,7 @@ window.OPIC_DATA = {
             "Once, I planned to visit Busan with a friend, but it started raining heavily that morning.",
             "We wanted to walk by the beach, so I called my friend and suggested the next weekend.",
             "My friend agreed.",
-            "I stayed home that day and watched a video instead.",
+            "I stayed home that day and watched YouTube instead.",
             "When we finally went to Busan, the weather was clear.",
             "Changing the date worked out well."
           ],
@@ -2608,7 +2606,7 @@ window.OPIC_DATA = {
         "use": "최근 방문, 여행, 콘서트",
         "lines": [
           "Last [time], I went to [place] by myself.",
-          "We [action], and I [result or feeling]."
+          "I [action], and I [result or feeling]."
         ],
         "cue": "언제·어디서(평소엔 혼자) → 한 일 → 결과; 특별한 동행은 질문에 맞게 변경"
       },
@@ -2814,8 +2812,8 @@ window.OPIC_DATA = {
             "role": "MP · 교통수단"
           },
           {
-            "en": "Then I usually go to Haeundae and walk along the beach.",
-            "ko": "그다음 보통 해운대에 가서 해변을 따라 걸어요.",
+            "en": "Then I usually go to Haeundae and walk along the beach by myself.",
+            "ko": "그다음 보통 혼자 해운대에 가서 해변을 따라 걸어요.",
             "source": "topic-7-q2",
             "role": "붙일 문장"
           }

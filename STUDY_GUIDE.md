@@ -15,6 +15,18 @@
 
 평소에는 집에서 혼자 지내며 조용히 쉬고, 국내여행도 주로 혼자 갑니다. 그래서 ‘집 휴가 중 누구를 만나고 싶나요?’에는 만나지 않고 혼자 쉬고 싶다는 MP부터 답합니다. 한 번 있었던 해운대 깜짝 생일파티나 가족·친구 모임은 별개의 특별한 경험으로 유지합니다. 롤플레이는 제시된 상황에 맞게 친구에게 질문하거나 대안을 제시하세요.
 
+## 같은 행동은 같은 표현으로
+
+| 상황 | 평소 | 지난 경험 |
+| --- | --- | --- |
+| 집에서 영상 보기 | I sit on my sofa and watch YouTube. | I sat on my sofa and watched YouTube. |
+| 휴대폰 확인 | I check my phone. | I checked my phone. |
+| 공원에서 쉬기 | After about twenty minutes, I get a coffee and sit on a bench. | After about twenty minutes, I got a coffee and sat on a bench. |
+| 부산으로 이동 | I usually take the train to Busan by myself. | I took the train to Busan by myself. |
+| 카페에서 쉬기 | I usually order an iced coffee and sit by the window. | I ordered an iced coffee and sat by the window. |
+
+이 표현은 질문의 MP 뒤에 필요한 것만 고릅니다. `check my phone`은 화면이나 메시지를 확인할 때 사용하며, 실제로 메시지를 보내거나 통화를 하는 질문에서는 그 행동을 따로 말합니다. 해운대 깜짝 생일파티와 비 오는 날 카페에서 따뜻한 음료를 주문한 경험은 장면이 다르므로 유지합니다.
+
 ## 하루 5~10분 연습
 
 1. 질문 하나를 골라 유형을 확인하고 MP 한 문장을 두 번 소리 내어 읽습니다.
