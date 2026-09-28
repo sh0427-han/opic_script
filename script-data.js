@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v23",
+  "version": "v24",
   "updated": "2026-09-28",
   "questionCount": 142,
   "survey": {
@@ -2371,8 +2371,8 @@ window.OPIC_DATA = {
     }
   ],
   "minimalStudy": {
-    "title": "142개 답변 대신, 8개 흐름과 7개 소재로 연습하세요",
-    "lead": "아래 영어 문장은 통째로 외울 원고가 아니라 시작을 돕는 예시입니다. 질문을 듣고 맞는 흐름 하나를 고른 뒤, 괄호 안 내용과 소재를 본인 말로 채우세요.",
+    "title": "한국어를 영어로 번역하지 않아도 됩니다",
+    "lead": "하루에 영어 문장 묶음 하나만 고르세요. 기본 문장을 보고 소리 내어 읽은 다음, 가리고 다시 말해 보세요. 아래 한국어는 뜻을 확인하는 용도입니다. 괄호를 채워 즉석에서 문장을 만드는 연습은 나중에 해도 됩니다.",
     "patterns": [
       {
         "title": "장소·사물 묘사",
@@ -2453,44 +2453,257 @@ window.OPIC_DATA = {
       {
         "title": "집",
         "facts": "혼자 사는 작은 아파트 · 거실의 소파 · 예전 가족과 살던 큰 집 · 주방 조명 문제",
-        "use": "집 묘사·가구 비교·집 문제·집 휴가"
+        "use": "집 묘사·가구 비교·집 문제·집 휴가",
+        "basic": [
+          {
+            "en": "I live alone in a small apartment.",
+            "ko": "저는 작은 아파트에 혼자 살아요."
+          },
+          {
+            "en": "My favorite place is the living room.",
+            "ko": "제가 가장 좋아하는 곳은 거실이에요."
+          },
+          {
+            "en": "I sit on the sofa and watch YouTube.",
+            "ko": "소파에 앉아 유튜브를 봐요."
+          }
+        ],
+        "extra": [
+          {
+            "en": "I used to live with my family in a bigger apartment.",
+            "ko": "예전에는 가족과 더 큰 아파트에 살았어요."
+          },
+          {
+            "en": "One day, the kitchen light stopped working.",
+            "ko": "어느 날 주방 조명이 고장 났어요."
+          }
+        ]
       },
       {
         "title": "카페·펍·음식점",
         "facts": "카페의 아이스커피/잘못 나온 음료 · 펍에서 친구와 대화/계산서 오류 · 식당의 파스타/잘못 나온 음식",
-        "use": "장소 묘사·일상·문제 경험"
+        "use": "장소 묘사·일상·문제 경험",
+        "basic": [
+          {
+            "en": "There is a small cafe near my home.",
+            "ko": "집 근처에 작은 카페가 있어요."
+          },
+          {
+            "en": "I usually order an iced coffee.",
+            "ko": "저는 보통 아이스커피를 주문해요."
+          },
+          {
+            "en": "I sit by the window and relax.",
+            "ko": "창가에 앉아서 쉬어요."
+          }
+        ],
+        "extra": [
+          {
+            "en": "I sometimes meet a friend at a quiet pub.",
+            "ko": "가끔 조용한 펍에서 친구를 만나요."
+          },
+          {
+            "en": "I usually order pasta at a restaurant.",
+            "ko": "식당에서는 보통 파스타를 주문해요."
+          },
+          {
+            "en": "I got the wrong drink, so I asked the staff for help.",
+            "ko": "다른 음료가 나와서 직원에게 도움을 요청했어요."
+          }
+        ]
       },
       {
         "title": "공원·날씨",
         "facts": "집 근처 20분 산책과 벤치 · 산책 중 갑자기 온 비",
-        "use": "공원 일상·최근 경험·날씨 문제"
+        "use": "공원 일상·최근 경험·날씨 문제",
+        "basic": [
+          {
+            "en": "There is a park near my home.",
+            "ko": "집 근처에 공원이 있어요."
+          },
+          {
+            "en": "I usually walk there for about twenty minutes.",
+            "ko": "거기서 보통 20분 정도 걸어요."
+          },
+          {
+            "en": "Then I sit on a bench and listen to music.",
+            "ko": "그다음 벤치에 앉아 음악을 들어요."
+          },
+          {
+            "en": "It helps me relax.",
+            "ko": "그러면 마음이 편안해져요."
+          }
+        ],
+        "extra": [
+          {
+            "en": "One day, it suddenly started raining.",
+            "ko": "어느 날 갑자기 비가 오기 시작했어요."
+          },
+          {
+            "en": "I didn't have an umbrella, so I waited under a roof.",
+            "ko": "우산이 없어서 지붕 아래에서 기다렸어요."
+          },
+          {
+            "en": "When the rain got lighter, I went home.",
+            "ko": "비가 약해졌을 때 집에 갔어요."
+          }
+        ]
       },
       {
         "title": "부산·해운대",
         "facts": "기차 → 호텔 → 해변 · 해운대에서 친구들의 생일 서프라이즈",
-        "use": "국내여행·해변·호텔·기억에 남는 경험"
+        "use": "국내여행·해변·호텔·기억에 남는 경험",
+        "basic": [
+          {
+            "en": "I like visiting Busan.",
+            "ko": "저는 부산에 가는 것을 좋아해요."
+          },
+          {
+            "en": "I usually take the train there.",
+            "ko": "보통 기차를 타고 가요."
+          },
+          {
+            "en": "I walk along Haeundae Beach.",
+            "ko": "해운대 해변을 따라 걸어요."
+          }
+        ],
+        "extra": [
+          {
+            "en": "My friends surprised me with a birthday cake there.",
+            "ko": "친구들이 거기서 생일 케이크로 저를 놀라게 했어요."
+          },
+          {
+            "en": "We talked by the sea for a long time.",
+            "ko": "우리는 바다 옆에서 오래 이야기했어요."
+          }
+        ]
       },
       {
         "title": "음악·콘서트",
         "facts": "잔잔한 팝과 IU · 좋아하는 곡을 라이브로 들은 순간",
-        "use": "음악 취향·콘서트 행동·기억에 남는 공연"
+        "use": "음악 취향·콘서트 행동·기억에 남는 공연",
+        "basic": [
+          {
+            "en": "I like slow pop music.",
+            "ko": "저는 잔잔한 팝 음악을 좋아해요."
+          },
+          {
+            "en": "I often listen to IU's songs.",
+            "ko": "아이유 노래를 자주 들어요."
+          },
+          {
+            "en": "Music helps me relax.",
+            "ko": "음악은 제가 쉬는 데 도움이 돼요."
+          }
+        ],
+        "extra": [
+          {
+            "en": "I went to a concert a few weeks ago.",
+            "ko": "몇 주 전에 콘서트에 갔어요."
+          },
+          {
+            "en": "I sang along to my favorite song.",
+            "ko": "좋아하는 노래를 따라 불렀어요."
+          }
+        ]
       },
       {
         "title": "휴대폰·약속",
         "facts": "휴대폰이 꺼져 충전 후 다시 켬 · 몸이 아파 약속을 다음 주말로 변경",
-        "use": "전자제품 문제·일정 변경·롤플레이"
+        "use": "전자제품 문제·일정 변경·롤플레이",
+        "basic": [
+          {
+            "en": "I use my phone every day.",
+            "ko": "휴대폰을 매일 사용해요."
+          },
+          {
+            "en": "One day, it suddenly turned off.",
+            "ko": "어느 날 갑자기 꺼졌어요."
+          },
+          {
+            "en": "I charged it, and it turned back on.",
+            "ko": "충전하니 다시 켜졌어요."
+          }
+        ],
+        "extra": [
+          {
+            "en": "I was sick, so I had to change my plans.",
+            "ko": "몸이 아파서 약속을 바꿔야 했어요."
+          },
+          {
+            "en": "I met my friend the next weekend.",
+            "ko": "다음 주말에 친구를 만났어요."
+          }
+        ]
       },
       {
         "title": "돌발 질문",
         "facts": "재활용=종이/플라스틱 분리 · 은행=앱/창구 · 기술=휴대폰/AI · 지형=산/강/바다",
-        "use": "문장 전체보다 주제별 쉬운 단어만 준비"
+        "use": "문장 전체보다 주제별 쉬운 단어만 준비",
+        "basic": [
+          {
+            "en": "In Korea, people separate paper and plastic.",
+            "ko": "한국에서는 종이와 플라스틱을 분리해요."
+          },
+          {
+            "en": "I use a banking app on my phone.",
+            "ko": "휴대폰으로 은행 앱을 사용해요."
+          },
+          {
+            "en": "Korea has many mountains and beaches.",
+            "ko": "한국에는 산과 해변이 많아요."
+          },
+          {
+            "en": "AI can be useful, but its answers can be wrong.",
+            "ko": "AI는 유용하지만 답이 틀릴 수 있어요."
+          }
+        ],
+        "extra": []
+      },
+      {
+        "title": "롤플레이",
+        "facts": "정보 묻기 4문장 · 약속 변경 3문장",
+        "use": "예약·가격·시간 문의 / 사과와 일정 변경",
+        "basic": [
+          {
+            "en": "Hi, I'm calling because I have a few questions.",
+            "ko": "안녕하세요, 몇 가지 질문이 있어서 전화했어요."
+          },
+          {
+            "en": "What time do you open?",
+            "ko": "몇 시에 문을 여나요?"
+          },
+          {
+            "en": "How much is it?",
+            "ko": "가격은 얼마인가요?"
+          },
+          {
+            "en": "Do I need a reservation?",
+            "ko": "예약이 필요한가요?"
+          }
+        ],
+        "extra": [
+          {
+            "en": "I'm sorry, but I can't make it today.",
+            "ko": "죄송하지만 오늘은 갈 수 없어요."
+          },
+          {
+            "en": "Can we meet next weekend instead?",
+            "ko": "대신 다음 주말에 만날 수 있을까요?"
+          },
+          {
+            "en": "If not, please tell me what works for you.",
+            "ko": "안 되면 가능한 시간을 알려주세요."
+          }
+        ]
       }
     ],
     "steps": [
-      "질문이 묘사·경험·문제·비교·의견·롤플레이 중 무엇을 요구하는지 고릅니다.",
-      "관련 소재 한 개를 떠올려 첫 문장을 질문에 맞게 바꿉니다.",
-      "사건·이유·결과를 쉬운 문장으로 덧붙입니다. 모르는 문장은 건너뛰고 다음 생각을 말합니다."
+      "하루에 한 묶음을 열고 기본 문장 3~4개를 두 번 소리 내어 읽습니다.",
+      "화면을 가리고 같은 영어 문장을 말해 봅니다. 막히면 다시 보고 한 번 더 말합니다.",
+      "문제 연습에서 관련 질문 하나를 고르고, 외운 문장 중 맞는 2~4개만 골라 답합니다.",
+      "다음 날 어제 문장을 짧게 복습한 뒤 새 묶음 하나를 시작합니다."
     ],
-    "note": "전체 스크립트 142개는 막힐 때 참고하는 예시입니다. 실제 경험과 다른 사람·장소·시점은 본인 설정에 맞춰 일관되게 바꾸세요. 8개 흐름만 읽는다고 IM2가 보장되는 것은 아니므로, 무작위 질문을 보고 직접 말하는 연습이 필요합니다."
+    "note": "처음에는 외운 짧은 문장을 그대로 골라 말해도 됩니다. 한국어 키워드를 영어로 번역할 필요는 없습니다. 익숙해지면 한 단어만 바꾸고, 나중에 문장 틀을 응용하세요. 142개 긴 답변은 막힐 때 보는 참고 자료이며 이 문장만으로 IM2가 보장되는 것은 아닙니다."
   }
 };
