@@ -1,53 +1,46 @@
-# OPIc 5-5 IM2 최소암기 스크립트
+# OPIc 5-5 최소암기 스크립트
 
-OPIc 5-5 IM2 준비용 정적 웹페이지입니다. 현재 v30 스크립트의 159개
-질문과 답변을 그대로 웹에서 볼 수 있습니다.
+OPIc 질문 159개를 주제별로 연습하는 정적 웹페이지입니다. v31에서는 모든 답변을 **MP(무엇·감정·이유) → 부연설명 1~2문장 → 선택 문장 0~2문장 → 마무리 멘트**로 정리했습니다. 짧게 연습할 때는 MP·부연설명·마무리만 말합니다.
 
 ## 화면 구성
 
-- **핵심 암기(첫 화면)**: 스크립트와 같은 표현으로 MP·이유·행동·결과를 표시한 8개 문장 묶음(기본 27문장, 선택 17문장)
-- **전체 스크립트(참고)**: MP 먼저, 질문에 맞는 부연설명 1~2문장, 전체 답변의 나머지 문장, 한글 흐름을 표시
-- **문제 연습**: 질문만 표시하고 `힌트 보기`를 눌렀을 때 한글 흐름만 표시
-- **시험 전 설문**: 난이도·주거 설정과 현재 연습 주제에 연결된 설문 선택을 표시
-- 설문조사 기반/돌발 질문/롤플레이로 나눈 주제 필터와 검색 지원
-- 돌발 질문은 공개 후기에서 확인된 출제 빈도가 높은 주제부터 표시
-- 각 주제에서 필수 문항을 먼저, 선택 문항을 다음에 표시
-- 모바일/데스크톱 반응형 화면
-- 각 영어 스크립트 복사 기능
+- **핵심 암기(첫 화면)**: 스크립트에 실제로 나오는 영어 문장 8개 묶음(기본 27문장, 선택 17문장).
+- **전체 스크립트**: 159개 답변의 MP, 부연설명, 필요할 때 펼치는 선택 문장, 마무리 멘트를 순서대로 표시.
+- **문제 연습**: 질문만 보고 답한 뒤 한국어 흐름을 확인.
+- **시험 전 설문**: 난이도와 현재 연습 주제에 맞는 설문 선택.
+- 주제 필터·검색·영어 스크립트 복사, 모바일·데스크톱 반응형 화면.
+
+## 답변 구성
+
+`script-data.js`의 각 질문은 `answer` 배열과 `supportCount`를 가집니다. 첫 문장이 MP, 그다음 `supportCount`개(1~2개)가 부연설명, 마지막 문장이 마무리입니다. 그 사이의 0~2문장은 선택 문장입니다. 복사 기능은 이 순서대로 전체 답변을 복사합니다. 롤플레이도 같은 구분을 표시하되, 전화 상황에서는 자연스러운 인사와 질문·대안을 우선합니다.
+
+| 유형 | MP 예시 | 뒤에 붙이는 내용 |
+| --- | --- | --- |
+| 집 휴가 | I prefer being alone during a vacation at home because the quiet helps me relax. | 혼자 쉬는 행동 → 휴가 뒤에 만날 수 있다는 마무리 |
+| 문제 경험 | I felt worried when my phone suddenly turned off because I needed to contact a friend. | 충전 → 다시 켜짐 → 다음부터 배터리 확인 |
+| 전화 문의 | Hi, I'm looking forward to visiting this weekend, so I'm calling to plan the details. | 영업시간·예약·가격 질문 → 감사 |
+
+평소에는 집에서 혼자 조용히 쉬고 국내여행도 주로 혼자 갑니다. 해운대 깜짝 생일파티나 가족·친구 모임은 별개의 특별한 경험으로 유지합니다. `watch YouTube`, `check my phone`(화면·메시지 확인), 카페의 아이스커피와 창가 자리, 공원의 커피와 벤치, 혼자 타는 부산행 기차처럼 반복되는 행동은 같은 표현을 사용합니다.
+
+클럽·조깅·걷기는 설문 연습 목록에서 제외했습니다. 공원·해변을 설명하면서 잠깐 걷는 행동은 포함됩니다.
 
 ## 파일 구성
 
 - `index.html`: 화면 구조
-- `styles.css`: 디자인과 반응형 스타일
-- `app.js`: 탭, 필터, 검색, 힌트 토글 동작
-- `script-data.js`: 159개 질문·스크립트·한글 흐름 데이터
-- `STUDY_GUIDE.md`: 영어 문장 묶음 중심의 최소암기 연습법
+- `styles.css`: 반응형 디자인
+- `app.js`: 화면 표시, 필터, 검색, 복사 동작
+- `script-data.js`: 질문 159개, 4단계 답변, 한국어 힌트와 핵심 암기 문장
+- `STUDY_GUIDE.md`: MP→부연설명→마무리 최소암기 연습법
 
 ## 공개 질문 변형과 검토 범위
 
-2026-09-28 기준 ACTFL 공식 안내는 문항 풀을 개인별로 선택한다고 설명하며 최신 실제 문항 전체를 공개하지 않습니다. 아래 항목은 공개 모의 문항의 **질문 기능**과 기존 스크립트를 대조한 선택 연습용 변형입니다. 실제 기출 확정 목록이라는 뜻은 아닙니다.
+2026-09-28 기준 공개 자료와 주제별 질문 기능을 비교해 선택 연습 질문을 보강했습니다. 실제 시험 문항 전체는 공개되지 않으므로 이 자료가 모든 출제 문제를 포함한다는 뜻은 아닙니다.
 
-- [ACTFL OPIc 소개](https://www.actfl.org/assessments/postsecondary-assessments/oral-proficiency-interview-computer-opic): 설문과 자기평가에 따른 개별 문항 선택, 평가 기능 안내
-- [ACTFL 응시자 안내](https://www.actfl.org/assessments/postsecondary-assessments/opi/tips-for-opi-and-opic-test-takers): 암기한 답변보다 자연스러운 즉석 발화 권장
-- [링글 프랩 주제별 모의 문항](https://prep.ringleplus.com/questions): 실제 시험 복원 문항이 아닌 자체 제작 문항임을 명시
+- [ACTFL OPIc 소개](https://www.actfl.org/assessments/postsecondary-assessments/oral-proficiency-interview-computer-opic): 설문과 자기평가에 따른 개별 문항 선택.
+- [ACTFL 응시자 안내](https://www.actfl.org/assessments/postsecondary-assessments/opi/tips-for-opi-and-opic-test-takers): 질문에 맞춰 자연스럽게 말하는 연습.
+- [링글 프랩 주제별 모의 문항](https://prep.ringleplus.com/questions): 자체 제작 모의 문항(실제 시험 복원 문항이 아님).
 
-## 보강된 공개 질문 변형
-
-기존 155문항에서 걷기 단독 질문 1문항을 제외하고 선택 연습 5문항을 보강해 159문항이 되었습니다. 집에서 가족과 보낸 경험, 집에서 쉬는 이유, 공원 혼잡, 음악 기기, 첫 콘서트, 최근 외식과 배달, 재활용의 중요성, 은행 카드 문제, 새 전자제품, 과거·최근 명절을 포함합니다. 추가된 선택 연습은 집 휴가(2), 국내여행 숙소(1), 음악 문제(1), 콘서트 티켓 문제(1)입니다. 기존 집·호텔 문장을 재사용하며 첫 화면 핵심 44문장과 롤플레이 27문항은 유지했습니다. 클럽·조깅·걷기는 설문 연습 목록에서 제외했습니다. 공원 주제에서 산책하는 행동 묘사는 그대로 사용합니다.
-
-## 일관된 답변 설정
-
-평소에는 집에서 혼자 조용히 쉬고 국내여행도 주로 혼자 갑니다. 한 번의 특별한 여행에서 친구들이 해운대에서 깜짝 생일파티를 해준 경험은 그대로 유지합니다. 가족·친구와 만나는 모임이나 롤플레이는 질문의 상황에 맞게 답합니다. ‘평소의 선호’와 ‘한 번 있었던 특별한 경험’을 구분하세요.
-
-## 공통 표현 통일
-
-질문의 MP는 직접 답하는 문장으로 유지하고, 반복되는 행동 표현을 통일했습니다. 영상은 `watch YouTube`(과거 `watched YouTube`), 휴대폰을 확인하는 행동은 `check my phone`(과거 `checked my phone`)을 사용합니다. 공원은 20분 산책 뒤 커피와 벤치, 카페는 아이스커피와 창가 자리, 평소 부산 이동은 혼자 기차를 타는 표현을 재사용합니다. 비 오는 카페의 따뜻한 음료, 해운대 깜짝 생일파티 같은 특별한 사건은 유지합니다.
-
-## 최소암기 학습법
-
-159개 답변은 참고 자료입니다. 첫 화면에서 한 묶음의 MP 한 문장을 먼저 읽고 가린 뒤 말합니다. 이어서 그 질문에 필요한 원문 문장 1~2개만 붙입니다. 전체 스크립트의 나머지 문장은 필요할 때 펼쳐 보는 참고 예시입니다. 롤플레이는 기존 순서와 내용을 유지합니다.
-
-[최소암기 학습법](STUDY_GUIDE.md)에서 공원 묶음의 하루 연습 예시를 볼 수 있습니다.
+[최소암기 학습법](STUDY_GUIDE.md)에서 하루 연습 순서와 공통 표현을 볼 수 있습니다.
 
 ## 로컬 실행
 
@@ -59,21 +52,9 @@ python -m http.server 8000
 
 ## GitHub Pages 공개
 
-저장소의 `Settings → Pages`에서 아래처럼 한 번만 설정합니다.
+저장소의 `Settings → Pages`에서 `Source: Deploy from a branch`, `Branch: main`, `Folder: /(root)`로 설정합니다.
 
-1. **Source**: `Deploy from a branch`
-2. **Branch**: `main`
-3. **Folder**: `/(root)`
-4. **Save**
-
-배포가 끝나면 아래 주소로 접속할 수 있습니다.
-
-<https://sh0427-han.github.io/opic_script/>
-
-문제 연습 탭을 바로 열려면 다음 주소를 사용합니다.
-
-<https://sh0427-han.github.io/opic_script/#questions>
-
-시험 전 설문 탭을 바로 열려면 다음 주소를 사용합니다.
-
-<https://sh0427-han.github.io/opic_script/#survey>
+- [첫 화면](https://sh0427-han.github.io/opic_script/)
+- [전체 스크립트](https://sh0427-han.github.io/opic_script/#scripts)
+- [문제 연습](https://sh0427-han.github.io/opic_script/#questions)
+- [시험 전 설문](https://sh0427-han.github.io/opic_script/#survey)

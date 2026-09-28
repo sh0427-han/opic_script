@@ -454,7 +454,8 @@ button {
 }
 
 .answer-mp strong,
-.answer-support strong {
+.answer-support strong,
+.answer-closing strong {
   display: block;
   margin-bottom: 5px;
   color: var(--teal-700);
@@ -464,6 +465,15 @@ button {
 .answer-mp p {
   color: var(--navy-900);
   font-weight: 700;
+}
+
+.answer-closing {
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
+.answer-closing p {
+  color: var(--navy-900);
 }
 
 .answer-more {
