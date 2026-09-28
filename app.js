@@ -138,6 +138,30 @@
     `;
   };
 
+  const answerHtml = (question, topic) => {
+    if (topic.id === "topic-10") {
+      return `<div class="answer" lang="en">
+        ${question.answer.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
+      </div>`;
+    }
+
+    const [mainPoint, ...support] = question.answer;
+    return `<div class="answer answer--structured">
+      <div class="answer-mp">
+        <strong>MP 먼저</strong>
+        <p lang="en">${escapeHtml(mainPoint)}</p>
+      </div>
+      <div class="answer-support">
+        <strong>이어 말하기 · 원문 1~2문장</strong>
+        ${support.slice(0, 2).map((line) => `<p lang="en">${escapeHtml(line)}</p>`).join("")}
+      </div>
+      ${support.length > 2 ? `<details class="answer-more">
+        <summary>필요할 때 더 말하기 (${support.length - 2}문장)</summary>
+        ${support.slice(2).map((line) => `<p lang="en">${escapeHtml(line)}</p>`).join("")}
+      </details>` : ""}
+    </div>`;
+  };
+
   const renderScripts = (topics) => topics.map((topic) => `
     <section class="topic-section" aria-labelledby="${topic.id}-title">
       <div class="topic-heading">
@@ -148,9 +172,7 @@
         ${topic.questions.map((question) => `
           <article id="${escapeHtml(question.id)}" class="script-card">
             ${questionHeadingHtml(question)}
-            <div class="answer" lang="en">
-              ${question.answer.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
-            </div>
+            ${answerHtml(question, topic)}
             <div class="flow">
               <strong>흐름</strong>
               <span>${escapeHtml(question.hint)}</span>
@@ -212,6 +234,7 @@
   const chunks = study.anchors.map((anchor, index) => {
     const renderLines = (lines) => lines.map((line) => `
       <div class="chunk-line">
+        ${line.role ? `<small class="chunk-role">${escapeHtml(line.role)}</small>` : ""}
         <p class="chunk-en" lang="en">${escapeHtml(line.en)}</p>
         <p class="chunk-ko">${escapeHtml(line.ko)}</p>
       </div>
@@ -259,7 +282,7 @@
         <h2 id="core-title">${escapeHtml(study.title)}</h2>
         <p>${escapeHtml(study.lead)}</p>
       </div>
-      <h3 class="core-section-title">1단계 · 스크립트에서 그대로 고른 영어 문장</h3>
+      <h3 class="core-section-title">1단계 · MP부터 시작해 이어 말하기</h3>
       <ul class="anchor-list">${chunks}</ul>
       <div class="core-practice">
         <h3>하루 연습 순서</h3>
@@ -347,7 +370,7 @@
     if (isCore) {
       elements.content.setAttribute("aria-labelledby", "core-tab");
       elements.description.textContent =
-        "답변 전체보다 공통 흐름과 소재를 먼저 익힙니다.";
+        "질문에 맞는 MP를 먼저 말하고 원문 문장 1~2개를 붙입니다.";
       elements.resultSummary.textContent = "8개 영어 문장 묶음";
       elements.content.innerHTML = renderCore();
       return;
@@ -373,7 +396,7 @@
       state.view === "scripts" ? "scripts-tab" : "questions-tab",
     );
     elements.description.textContent = state.view === "scripts"
-      ? "질문, 영어 답변, 한글 흐름을 한 번에 봅니다."
+      ? "MP, 이어 말할 원문 문장, 한글 힌트를 확인합니다."
       : "질문만 보고 답한 뒤, 필요할 때 한글 흐름만 확인합니다.";
     elements.resultSummary.textContent = `${visibleCount}개 표시 중`;
 
