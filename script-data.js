@@ -112,12 +112,12 @@ window.OPIC_DATA = {
           "question": "현재 살고 있는 집을 설명해 주세요. 어떤 방들이 있고, 내부는 어떻게 생겼나요?",
           "status": "필수",
           "answer": [
-            "Well, I live alone in a small apartment, and it's a pretty quiet place.",
-            "It has two bedrooms, a living room, a kitchen, and a bathroom, so there's enough space for me.",
-            "In the living room, there's a small sofa with a little table right next to it.",
-            "The room isn't very big, but it gets a lot of light, so it feels bright.",
-            "The walls are white, and most of the furniture has a simple design.",
-            "So, you know, it's a small home, but it doesn't feel dark or crowded."
+            "Well, I live in an apartment in Yongin, Korea.",
+            "It has two bedrooms, a kitchen, a living room, and a bathroom.",
+            "My favorite room is the living room. It's next to the kitchen, and it has a really comfortable sofa.",
+            "I can relax there.",
+            "There's also a table and a TV in the living room.",
+            "So, that's my home."
           ],
           "hint": "작은 아파트 → 방 구성 → 거실 가구 → 밝기·분위기",
           "questionEn": "Tell me about the home you live in. What rooms does it have, and what does the inside look like?",
@@ -131,10 +131,10 @@ window.OPIC_DATA = {
           "answer": [
             "I usually spend quiet evenings at home, especially after a busy day at work.",
             "First, I make something simple for dinner, or I order food if I'm too tired to cook.",
-            "After dinner, I sit on my sofa and watch YouTube for a while.",
-            "Before bed, I put my things away so I don't have to deal with them in the morning.",
-            "Then I listen to a few songs while I get ready for bed.",
-            "That's pretty much my evening, and I usually go to sleep around eleven."
+            "After dinner, I sit on my sofa and watch TV for a while.",
+            "I don't do anything special.",
+            "Before bed, I put my things away and listen to music for a few minutes.",
+            "I usually go to sleep around ten."
           ],
           "hint": "저녁 식사 → 소파·YouTube → 정리 → 음악 → 취침",
           "questionEn": "What do you usually do at home after work? Walk me through a typical evening, from dinner to bedtime.",
@@ -180,12 +180,12 @@ window.OPIC_DATA = {
           "question": "집에 어떤 가구가 있나요? 가장 좋아하는 가구 하나를 골라 생김새와 위치를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "I have a bed, a sofa, and a small table, but I really like the sofa.",
-            "It's in the living room, with the small table right next to it.",
-            "It's a gray sofa with two seats, so it doesn't take up too much space.",
-            "The seats are really soft, and the back is comfortable too.",
-            "There are two cushions on it, which make it look a little more cozy.",
-            "I mean, it's nothing fancy, but it fits my small living room really well."
+            "At home, I have a bed, a sofa, and a table.",
+            "My favorite piece of furniture is the sofa in the living room, next to the table.",
+            "It's white and has two soft seats.",
+            "It's simple, but it's really comfortable to sit on and relax.",
+            "There are also two cushions on it, which make it look cozy.",
+            "So, that's my favorite piece of furniture."
           ],
           "hint": "침대·소파·탁자 → 소파 위치 → 색·크기·촉감",
           "questionEn": "What furniture do you have at home? Choose your favorite piece and describe its appearance and location.",
@@ -299,12 +299,11 @@ window.OPIC_DATA = {
           "question": "집에서 가장 좋아하는 방을 묘사해 주세요. 어디에 있고, 무엇이 있으며, 어떤 분위기인가요?",
           "status": "필수",
           "answer": [
-            "I really like my living room because it's the brightest room in my apartment.",
-            "It's right next to the kitchen, so the two spaces are close together.",
-            "In the living room, there's a small sofa with a little table right next to it.",
-            "The room isn't very big, but it gets a lot of light, so it feels bright.",
-            "The walls are white, and most of the furniture has a simple design.",
-            "I mean, there isn't much in the room, but that's what makes it feel open and calm."
+            "I love my living room next to the kitchen because it has a really comfy sofa.",
+            "I can relax there.",
+            "Also, the walls are white, so they make me feel comfortable.",
+            "I usually spend a lot of time in the living room watching TV and listening to music.",
+            "So yeah, I really like my living room."
           ],
           "hint": "거실 위치 → 소파·탁자 → 밝기·분위기",
           "questionEn": "Describe your favorite room in your home. Where is it, what is in it, and what is it like?",
