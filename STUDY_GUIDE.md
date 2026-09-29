@@ -41,10 +41,10 @@ MP는 질문에 바로 답하는 첫 문장입니다. 모든 질문의 첫 문�
 
 예를 들어 카페와 음식점의 주문 실수 경험은 각각의 문제를 말한 뒤 다음 문장들을 재사용합니다.
 
-- I told the staff about the mistake.
-- They said sorry and brought me the right order.
-- I thanked them before I left.
-- I was glad they fixed it quickly.
+- I told the staff about the mistake and explained what I'd ordered.
+- They said sorry and brought me the right order after just a few minutes.
+- I thanked them before I left, because they were really nice about it.
+- Honestly, I was just glad they fixed it so quickly without any trouble.
 
 이 문장들은 이미 각 답변에 들어 있습니다. 따로 골라 붙이지 말고 그 답변 전체를 읽으면 됩니다. 반면 휴대폰 배터리 문제에는 직원이나 주문을 끼워 넣지 않습니다.
 
@@ -61,3 +61,14 @@ MP는 질문에 바로 답하는 첫 문장입니다. 모든 질문의 첫 문�
 영·한 질문은 공개 안내의 형식을 참고해 독자적으로 작성한 연습 문항이며 실제 기출 원문이 아닙니다. 실제 시험의 세부 요구가 다르면 그 요구에 맞게 답변을 조절하세요. ‘필수·보강’ 표시는 이 자료 안의 학습 우선순위입니다.
 
 5~7문장은 암기 부담을 줄이기 위한 이번 자료의 길이 기준입니다. IM2를 보장하는 공식 문장 수 기준이 아닙니다. [ACTFL OPIc 안내](https://www.actfl.org/assessments/postsecondary-assessments/oral-proficiency-interview-computer-opic)에서 평가하는 말하기 기능과 내용 적합성 등을 확인할 수 있습니다. 질문 작성에 참고한 자료는 [README의 출처](README.md#질문의-출처와-작성-범위)에 정리했습니다.
+
+## 자연스럽게 이어 말하기
+
+5~7문장 안에서 짧은 문장과 조금 긴 문장을 섞습니다. `and`는 행동 연결, `but`는 차이, `so`는 결과, `because`는 이유를 말할 때 씁니다. 문장이 길어지더라도 질문과 관련된 내용만 담고, 뜻이 이어지는 부분끼리 묶어 연습하세요.
+
+- `Well,`은 대답을 시작하며 잠깐 생각을 정리할 때 씁니다. 모든 답변에 붙이지 않아도 됩니다.
+- `I mean,`은 방금 한 말을 더 쉽게 풀어 설명할 때 씁니다.
+- `you know`는 상대에게 이야기하듯 자연스럽게 연결할 때 가볍게 씁니다.
+- `Honestly,`는 실제 느낌이나 생각을 솔직하게 말할 때 씁니다.
+
+필러 개수를 맞추려고 추가하지 마세요. 쉼표에서 잠깐 쉬고, 중요한 장소·행동·감정을 또렷하게 말하는 데 집중하세요. 이미 익힌 공통 문장은 그대로 활용하되, 자기 경험과 다른 세부 내용은 본인에게 맞게 바꾸면 됩니다. 회화체 참고 범위는 README에 정리했습니다.
