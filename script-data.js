@@ -109,6 +109,7 @@ window.OPIC_DATA = {
         {
           "id": "topic-1-q1",
           "number": "Q1",
+          "scriptOrigin": "user",
           "question": "현재 살고 있는 집을 설명해 주세요. 어떤 방들이 있고, 내부는 어떻게 생겼나요?",
           "status": "필수",
           "answer": [
@@ -126,6 +127,7 @@ window.OPIC_DATA = {
         {
           "id": "topic-1-q2",
           "number": "Q2",
+          "scriptOrigin": "user",
           "question": "퇴근 후 집에서 보통 무엇을 하나요? 저녁 식사부터 잠자리에 들 때까지의 일과를 순서대로 말해 주세요.",
           "status": "필수",
           "answer": [
@@ -177,6 +179,7 @@ window.OPIC_DATA = {
         {
           "id": "topic-1-q5",
           "number": "Q5",
+          "scriptOrigin": "user",
           "question": "집에 어떤 가구가 있나요? 가장 좋아하는 가구 하나를 골라 생김새와 위치를 묘사해 주세요.",
           "status": "필수",
           "answer": [
@@ -296,6 +299,7 @@ window.OPIC_DATA = {
         {
           "id": "topic-1-q12",
           "number": "Q10",
+          "scriptOrigin": "user",
           "question": "집에서 가장 좋아하는 방을 묘사해 주세요. 어디에 있고, 무엇이 있으며, 어떤 분위기인가요?",
           "status": "필수",
           "answer": [
