@@ -400,6 +400,48 @@ button {
   line-height: 1.55;
 }
 
+.question-heading {
+  min-width: 0;
+  flex: 1;
+}
+
+.question-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin: 0 0 9px;
+  font-size: 0.78rem;
+}
+
+.question-type {
+  color: var(--teal-700);
+  font-weight: 800;
+}
+
+.sentence-count {
+  color: #5b6661;
+}
+
+.question-translation {
+  margin: 9px 0 0;
+  color: #56655d;
+  line-height: 1.65;
+  font-size: 0.91rem;
+  overflow-wrap: anywhere;
+}
+
+.question-title,
+.variant-question {
+  overflow-wrap: anywhere;
+}
+
+.source-note {
+  margin-top: 12px;
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
+
 .question-number {
   margin-right: 7px;
   color: var(--teal-700);

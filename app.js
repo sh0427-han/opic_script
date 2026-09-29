@@ -43,9 +43,14 @@
   };
 
   const questionById = new Map();
+  const lineUses = new Map();
   data.topics.forEach((topic) => {
     topic.questions.forEach((question) => {
       questionById.set(question.id, question);
+      new Set(question.answer).forEach((line) => {
+        const key = `${question.type}\u0000${line}`;
+        lineUses.set(key, (lineUses.get(key) ?? 0) + 1);
+      });
     });
   });
 
@@ -67,10 +72,13 @@
       topic.title,
       question.number,
       question.question,
+      question.questionEn,
+      question.type,
       question.hint,
       ...question.answer,
       ...(question.variants ?? []).flatMap((variant) =>
-        [variant.label, ...variant.replacements.map((item) => item.to)]),
+        [variant.label, variant.question, variant.questionEn,
+          ...variant.replacements.map((item) => item.to)]),
     ].join(" ");
     return normalize(searchable).includes(state.query);
   };
@@ -98,10 +106,15 @@
 
   const questionHeadingHtml = (question) => `
     <div class="card-topline">
-      <h3 class="question-title">
-        <span class="question-number">${escapeHtml(question.number)}.</span>
-        ${escapeHtml(question.question)}
-      </h3>
+      <div class="question-heading">
+        <p class="question-meta">
+          <span class="question-number">${escapeHtml(question.number)}</span>
+          <span class="question-type">${escapeHtml(question.type)}</span>
+          <span class="sentence-count">답변 ${question.answer.length}문장</span>
+        </p>
+        <h3 class="question-title" lang="en">${escapeHtml(question.questionEn)}</h3>
+        <p class="question-translation" lang="ko">${escapeHtml(question.question)}</p>
+      </div>
       ${badgeHtml(question.status)}
     </div>
   `;
@@ -145,9 +158,7 @@
 
   const answerHtml = (question, sharedLines = new Set()) => {
     const [mainPoint] = question.answer;
-    const supportCount = question.supportCount ?? Math.min(2, question.answer.length - 2);
-    const support = question.answer.slice(1, 1 + supportCount);
-    const extra = question.answer.slice(1 + supportCount, -1);
+    const support = question.answer.slice(1, -1);
     const closing = question.answer.at(-1);
     const lineHtml = (line) => `<p lang="en"${sharedLines.has(line)
       ? ' class="reused-line"' : ""}>${sharedLines.has(line)
@@ -159,13 +170,9 @@
         ${lineHtml(mainPoint)}
       </div>
       <div class="answer-support">
-        <strong>필수 부연설명 · ${support.length}문장</strong>
+        <strong>부연설명 · ${support.length}문장</strong>
         ${support.map(lineHtml).join("")}
       </div>
-      ${extra.length ? `<details class="answer-more">
-        <summary>선택 · 한두 문장 더 말하기 (${extra.length}문장)</summary>
-        ${extra.map(lineHtml).join("")}
-      </details>` : ""}
       <div class="answer-closing">
         <strong>마무리 멘트</strong>
         ${lineHtml(closing)}
@@ -178,7 +185,9 @@
 
   const variantsHtml = (question) => (question.variants ?? []).map((variant, index) => `
     <details class="answer-more">
-      <summary>${escapeHtml(variant.label)} · 바뀌는 표현만 확인</summary>
+      <summary>${escapeHtml(variant.label)} · 완성 답변 ${question.answer.length}문장</summary>
+      <p class="variant-question" lang="en">${escapeHtml(variant.questionEn)}</p>
+      <p class="question-translation" lang="ko">${escapeHtml(variant.question)}</p>
       ${answerHtml({ ...question, answer: variantAnswer(question, variant) })}
       <button class="text-button" type="button" data-action="copy"
         data-question-id="${escapeHtml(question.id)}" data-variant-index="${index}">
@@ -187,25 +196,16 @@
     </details>
   `).join("");
 
-  const basicAnswer = (question) => [
-    ...question.answer.slice(0, 1 + question.supportCount),
-    question.answer.at(-1),
-  ];
-
   const renderScripts = (topics) => topics.map((topic) => {
     const groups = topic.scriptGroups.map((group) => {
       const questions = group.questionIds.map((id) =>
         topic.questions.find((question) => question.id === id)).filter(Boolean);
       if (!questions.length) return "";
       const allQuestions = group.questionIds.map((id) => questionById.get(id));
-      const frequencies = new Map();
-      allQuestions.forEach((question) => {
-        new Set(question.answer).forEach((line) =>
-          frequencies.set(line, (frequencies.get(line) ?? 0) + 1));
-      });
-      const sharedLines = new Set([...frequencies]
-        .filter(([, count]) => count > 1).map(([line]) => line));
-      const basics = allQuestions.map(basicAnswer);
+      const sharedLines = new Set(allQuestions.flatMap((question) =>
+        question.answer.filter((line) =>
+          lineUses.get(`${question.type}\u0000${line}`) > 1)));
+      const basics = allQuestions.map((question) => question.answer);
       let tailCount = 0;
       if (basics.length > 1) {
         while (basics.every((lines) =>
@@ -215,10 +215,10 @@
         }
       }
       const tailNote = tailCount > 1
-        ? `선택 문장을 뺀 기본 답변의 마지막 ${tailCount}문장이 같습니다.`
+        ? `이 묶음의 답변은 마지막 ${tailCount}문장이 같습니다.`
         : "";
       const commonNote = sharedLines.size
-        ? "‘공통’ 표시는 이 묶음의 다른 답변에도 똑같이 나오는 문장입니다."
+        ? "‘공통’ 표시는 전체 자료의 같은 유형 답변에서 재사용하는 문장입니다."
         : "";
       return `<section class="script-group" aria-labelledby="${group.id}-title">
         <div class="script-group__heading">
@@ -307,37 +307,17 @@
         <details ${index === 2 ? "open" : ""}>
           <summary>
             <strong>${escapeHtml(anchor.title)}</strong>
-            <small>기본 ${anchor.basic.length}문장${anchor.extra.length
-              ? ` · 추가 ${anchor.extra.length}문장` : ""}</small>
+            <small>표현 ${anchor.lines.length}개</small>
           </summary>
           <p class="core-cue">${escapeHtml(anchor.use)}</p>
           <div class="chunk-lines">
-            <p class="chunk-label">먼저 연습할 문장</p>
-            ${renderLines(anchor.basic)}
+            <p class="chunk-label">질문별 완성 답변에서 가져온 표현</p>
+            ${renderLines(anchor.lines)}
           </div>
-          ${anchor.extra.length ? `
-            <div class="chunk-lines chunk-lines--extra">
-              <p class="chunk-label">익숙해지면 추가</p>
-              ${renderLines(anchor.extra)}
-            </div>
-          ` : ""}
         </details>
       </li>
     `;
   }).join("");
-  const patterns = study.patterns.map((pattern, index) => `
-    <article class="core-card">
-      <div class="core-card__heading">
-        <span class="core-number">${index + 1}</span>
-        <h3>${escapeHtml(pattern.title)}</h3>
-      </div>
-      <p class="core-use">${escapeHtml(pattern.use)}</p>
-      <div class="core-lines" lang="en">
-        ${pattern.lines.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
-      </div>
-      <p class="core-cue">${escapeHtml(pattern.cue)}</p>
-    </article>
-  `).join("");
   return `
     <section class="core-view" aria-labelledby="core-title">
       <div class="core-intro">
@@ -345,18 +325,13 @@
         <h2 id="core-title">${escapeHtml(study.title)}</h2>
         <p>${escapeHtml(study.lead)}</p>
       </div>
-      <h3 class="core-section-title">1단계 · MP부터 마무리까지 이어 말하기</h3>
+      <h3 class="core-section-title">같은 의미를 같은 표현으로 연습하기</h3>
       <ul class="anchor-list">${chunks}</ul>
       <div class="core-practice">
         <h3>하루 연습 순서</h3>
         <ol>${study.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol>
         <p>${escapeHtml(study.note)}</p>
       </div>
-      <details class="core-patterns">
-        <summary>2단계 · 익숙해지면 문장 틀 응용하기</summary>
-        <p>지금은 이 부분을 외우지 않아도 됩니다.</p>
-        <div class="core-grid">${patterns}</div>
-      </details>
     </section>
   `;
 };
@@ -433,8 +408,8 @@
     if (isCore) {
       elements.content.setAttribute("aria-labelledby", "core-tab");
       elements.description.textContent =
-        "질문에 맞는 MP→필수 부연설명→마무리 순서로 말합니다.";
-      elements.resultSummary.textContent = "8개 영어 문장 묶음";
+        "유형에 맞는 표현을 익힌 뒤 전체 스크립트의 5~7문장을 이어 말합니다.";
+      elements.resultSummary.textContent = `${data.minimalStudy.anchors.length}개 표현 묶음`;
       elements.content.innerHTML = renderCore();
       return;
     }
@@ -459,8 +434,8 @@
       state.view === "scripts" ? "scripts-tab" : "questions-tab",
     );
     elements.description.textContent = state.view === "scripts"
-      ? "비슷한 질문을 함께 배치했습니다. 각 답변을 위에서 아래로 읽고, 공통 문장을 반복해 익히세요."
-      : "질문만 보고 답한 뒤, 필요할 때 한글 흐름만 확인합니다.";
+      ? "유형별 영·한 질문과 완성 답변 5~7문장입니다. ‘공통’ 문장은 같은 유형의 다른 답변에서도 사용합니다."
+      : "영어 질문과 한국어 번역을 보고 답한 뒤, 필요할 때 흐름 힌트를 확인합니다.";
     elements.resultSummary.textContent = `${visibleCount}개 표시 중`;
 
     if (visibleCount === 0) {
