@@ -111,6 +111,9 @@
           <span class="question-number">${escapeHtml(question.number)}</span>
           <span class="question-type">${escapeHtml(question.type)}</span>
           <span class="sentence-count">답변 ${question.answer.length}문장</span>
+          <span class="origin-label ${question.scriptOrigin === "user"
+    ? "origin-label--user" : "origin-label--original"}">${question.scriptOrigin === "user"
+    ? "직접 작성" : "기존 스크립트"}</span>
         </p>
         <h3 class="question-title" lang="en">${escapeHtml(question.questionEn)}</h3>
         <p class="question-translation" lang="ko">${escapeHtml(question.question)}</p>
@@ -160,8 +163,9 @@
     const [mainPoint] = question.answer;
     const support = question.answer.slice(1, -1);
     const closing = question.answer.at(-1);
-    const lineHtml = (line) => `<p lang="en"${sharedLines.has(line)
-      ? ' class="reused-line"' : ""}>${sharedLines.has(line)
+    const isShared = (line) => question.scriptOrigin !== "user" && sharedLines.has(line);
+    const lineHtml = (line) => `<p lang="en"${isShared(line)
+      ? ' class="reused-line"' : ""}>${isShared(line)
       ? '<span class="reuse-label" lang="ko">공통</span>' : ""}${escapeHtml(line)}</p>`;
 
     return `<div class="answer answer--structured">
