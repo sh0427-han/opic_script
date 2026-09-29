@@ -423,6 +423,22 @@ button {
   color: #5b6661;
 }
 
+.origin-label {
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-weight: 800;
+}
+
+.origin-label--user {
+  background: #d6efe2;
+  color: #176044;
+}
+
+.origin-label--original {
+  background: #e9ebed;
+  color: #52606a;
+}
+
 .question-translation {
   margin: 9px 0 0;
   color: #56655d;
