@@ -1097,9 +1097,15 @@ footer {
   background: var(--teal-100);
 }
 .script-group__heading h3 { margin: 0; color: var(--navy-900); font-size: 1rem; }
+.script-group__heading h4 { margin: 0; color: var(--navy-900); font-size: 1rem; }
 .script-group__heading span { white-space: nowrap; color: var(--ink-700); font-size: .8rem; }
 .script-group__note { margin: 8px 2px 12px; color: var(--ink-700); font-size: .85rem; }
 .script-group .card-list { margin-top: 12px; }
+.roleplay-section { margin-top: 28px; }
+.roleplay-section__heading { margin-bottom: 14px; }
+.roleplay-section__heading h3 { margin: 0 0 5px; color: var(--navy-900); }
+.roleplay-section__heading p { margin: 0; color: var(--ink-700); }
+.roleplay-section .script-group { margin-top: 18px; }
 .answer .reused-line { border-left: 2px solid var(--teal-700); padding-left: 8px; }
 .reuse-label {
   display: inline-block;
