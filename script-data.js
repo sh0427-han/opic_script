@@ -2473,50 +2473,29 @@ window.OPIC_DATA = {
           "type": "정보 문의"
         }
       ],
-      "scriptGroups": [
+      "roleplaySections": [
         {
-          "id": "topic-10-type-7",
-          "title": "문제 경험",
-          "questionIds": [
-            "topic-10-rp5",
-            "topic-10-mp3-rp3",
-            "topic-10-travel-rp3",
-            "topic-10-house-rp3",
-            "topic-10-friend-rp3"
+          "id": "roleplay-ask",
+          "title": "상대에게 질문하는 롤플레이",
+          "description": "정보를 묻거나 문제를 설명하고 해결 방법을 제안하는 통화입니다.",
+          "sets": [
+            { "id": "roleplay-ask-1", "title": "친구에게 일정 묻기", "questionIds": ["topic-10-rp1", "topic-10-friend-rp1", "topic-10-party-rp1"] },
+            { "id": "roleplay-ask-2", "title": "공연·여행 예약 문의", "questionIds": ["topic-10-concert-rp1", "topic-10-travel-rp1", "topic-10-hotel-rp1"] },
+            { "id": "roleplay-ask-3", "title": "집·시설 정보 문의", "questionIds": ["topic-10-house-rp1", "topic-10-recycling-rp1", "topic-10-rp2"] },
+            { "id": "roleplay-ask-4", "title": "물건·서비스 정보 문의", "questionIds": ["topic-10-mp3-rp1", "topic-10-repair-rp1", "topic-10-service-rp1"] },
+            { "id": "roleplay-ask-5", "title": "그 밖의 정보 문의", "questionIds": ["topic-10-restaurant-rp1", "topic-10-celebrity-rp1"] },
+            { "id": "roleplay-ask-6", "title": "일정 변경 제안", "questionIds": ["topic-10-rp3", "topic-10-concert-rp2", "topic-10-travel-rp2"] },
+            { "id": "roleplay-ask-7", "title": "물건·집 문제 해결", "questionIds": ["topic-10-rp4", "topic-10-mp3-rp2", "topic-10-house-rp2"] },
+            { "id": "roleplay-ask-8", "title": "친구·예약 문제 해결", "questionIds": ["topic-10-friend-rp2", "topic-10-service-rp2"] }
           ]
         },
         {
-          "id": "topic-10-type-10",
-          "title": "정보 문의",
-          "questionIds": [
-            "topic-10-rp1",
-            "topic-10-rp2",
-            "topic-10-mp3-rp1",
-            "topic-10-concert-rp1",
-            "topic-10-travel-rp1",
-            "topic-10-house-rp1",
-            "topic-10-friend-rp1",
-            "topic-10-service-rp1",
-            "topic-10-restaurant-rp1",
-            "topic-10-hotel-rp1",
-            "topic-10-recycling-rp1",
-            "topic-10-repair-rp1",
-            "topic-10-party-rp1",
-            "topic-10-celebrity-rp1"
-          ]
-        },
-        {
-          "id": "topic-10-type-11",
-          "title": "문제 해결 역할극",
-          "questionIds": [
-            "topic-10-rp3",
-            "topic-10-rp4",
-            "topic-10-mp3-rp2",
-            "topic-10-concert-rp2",
-            "topic-10-travel-rp2",
-            "topic-10-house-rp2",
-            "topic-10-friend-rp2",
-            "topic-10-service-rp2"
+          "id": "roleplay-answer",
+          "title": "질문에 답하는 경험형",
+          "description": "전화로 질문을 만드는 대신, 실제로 겪은 일과 대처·결과를 말합니다.",
+          "sets": [
+            { "id": "roleplay-answer-1", "title": "친구·여행 경험", "questionIds": ["topic-10-rp5", "topic-10-travel-rp3", "topic-10-friend-rp3"] },
+            { "id": "roleplay-answer-2", "title": "기기·집 문제 경험", "questionIds": ["topic-10-mp3-rp3", "topic-10-house-rp3"] }
           ]
         }
       ]
