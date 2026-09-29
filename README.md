@@ -41,7 +41,7 @@
 
 ## 파일 구성과 실행
 
-- `script-data.js`: `questionEn`, 한국어 `question`, `type`, 완성 `answer`, 흐름 `hint`, 유형별 `scriptGroups`, 핵심 표현과 출처.
+- `script-data.js`: `questionEn`, 한국어 `question`, `type`, 완성 `answer`, 흐름 `hint`, 유형별 `scriptGroups`, 롤플레이 `roleplaySections`, 핵심 표현과 출처.
 - `app.js`: 영·한 질문, 유형과 문장 수 표시, 공통 문장 표시, 검색·복사·연습.
 - `index.html`, `styles.css`: 화면 구조와 반응형 스타일.
 - `STUDY_GUIDE.md`: 학습 순서와 답변 유형별 사용법.
