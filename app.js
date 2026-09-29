@@ -201,7 +201,7 @@
   `).join("");
 
   const renderScripts = (topics) => topics.map((topic) => {
-    const groups = topic.scriptGroups.map((group) => {
+    const renderGroup = (group) => {
       const questions = group.questionIds.map((id) =>
         topic.questions.find((question) => question.id === id)).filter(Boolean);
       if (!questions.length) return "";
@@ -224,9 +224,10 @@
       const commonNote = sharedLines.size
         ? "‘공통’ 표시는 전체 자료의 같은 유형 답변에서 재사용하는 문장입니다."
         : "";
+      const headingTag = topic.roleplaySections ? "h4" : "h3";
       return `<section class="script-group" aria-labelledby="${group.id}-title">
         <div class="script-group__heading">
-          <h3 id="${group.id}-title">${escapeHtml(group.title)}</h3>
+          <${headingTag} id="${group.id}-title">${escapeHtml(group.title)}</${headingTag}>
           <span>${questions.length}개 질문</span>
         </div>
         ${tailNote || commonNote ? `<p class="script-group__note">
@@ -250,7 +251,20 @@
           `).join("")}
         </div>
       </section>`;
-    }).join("");
+    };
+    const groups = topic.roleplaySections
+      ? topic.roleplaySections.map((section) => `
+        <section class="roleplay-section" aria-labelledby="${escapeHtml(section.id)}-title">
+          <div class="roleplay-section__heading">
+            <h3 id="${escapeHtml(section.id)}-title">${escapeHtml(section.title)}</h3>
+            <p>${escapeHtml(section.description)}</p>
+          </div>
+          ${section.sets.map((set, index) => renderGroup({
+            ...set,
+            title: `세트 ${index + 1} · ${set.title}`,
+          })).join("")}
+        </section>`).join("")
+      : topic.scriptGroups.map(renderGroup).join("");
     return `<section class="topic-section" aria-labelledby="${topic.id}-title">
       <div class="topic-heading">
         <h2 id="${topic.id}-title">${topic.order}. ${escapeHtml(topic.title)}</h2>
