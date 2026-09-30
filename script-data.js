@@ -150,7 +150,7 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "The biggest change is that I live alone in a smaller apartment now.",
-            "When I was in university, I lived with my family in a bigger apartment, so we had more rooms and more furniture.",
+            "When I was in university, I lived with my family in a bigger apartment in Seoul, Korea, so we had more rooms and more furniture.",
             "After I graduated from university, I moved to Yongin, Korea, and started living alone.",
             "So now, I only have the things I really need, like a bed, a sofa, and a table."
           ],
@@ -166,7 +166,7 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "The biggest change is that I live alone in a smaller apartment now.",
-            "When I was in university, I lived with my family in a bigger apartment, so we had more rooms and more furniture.",
+            "When I was in university, I lived with my family in a bigger apartment in Seoul, Korea, so we had more rooms and more furniture.",
             "After I graduated from university, I moved to Yongin, Korea, and started living alone.",
             "So now, I only have the things I really need, like a bed, a sofa, and a table."
           ],
