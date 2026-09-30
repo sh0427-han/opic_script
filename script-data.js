@@ -195,17 +195,16 @@ window.OPIC_DATA = {
         {
           "id": "topic-1-q6",
           "number": "Q6",
+          "scriptOrigin": "user",
           "question": "현재 가구와 어릴 때 쓰던 가구는 어떻게 다른가요? 크기와 스타일을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "My furniture is a lot smaller and simpler than the furniture I had as a child.",
-            "Back then, we had a large sofa because the whole family needed room to sit.",
-            "We also had a big table with quite a few chairs around it.",
-            "Now I live alone, so a smaller sofa and a little table are enough for me.",
-            "The old furniture had more colors, but mine is mostly gray or white.",
-            "So, you know, the furniture is simpler now, and it fits my smaller home better."
+            "My furniture is smaller and simpler now.",
+            "When I was a child, I lived with my family, so we had bigger furniture, like a big sofa and a large table.",
+            "The style was more traditional back then.",
+            "Now, I prefer small and simple furniture because I live in a smaller apartment."
           ],
-          "hint": "예전 크고 다양한 가구 → 현재 작고 단순한 가구",
+          "hint": "어릴 때 가족의 큰 가구·전통적인 스타일 → 지금 작은 아파트의 단순한 가구",
           "questionEn": "How is your furniture different from the furniture you had as a child? Compare its size and style.",
           "type": "변화·비교"
         },
