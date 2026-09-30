@@ -145,34 +145,32 @@ window.OPIC_DATA = {
         {
           "id": "topic-1-q3",
           "number": "Q3",
+          "scriptOrigin": "user",
           "question": "주거 환경에 생긴 변화를 말해 주세요. 이전 집은 어땠고, 지금은 무엇이 달라졌나요?",
           "status": "필수",
           "answer": [
-            "The biggest change was moving from my family home to a smaller apartment.",
-            "I used to live with my family, but now I live alone, so I don't need as much space.",
-            "The old place was bigger and busier, with people talking in different rooms.",
-            "Now I just have the furniture I need, like a bed, a sofa, and a small table.",
-            "My home is much quieter now, and it's also easier to clean.",
-            "It felt a little empty at first, but honestly, I'm quite comfortable here now."
+            "The biggest change is that I live alone in a smaller apartment now.",
+            "When I was in university, I lived with my family in a bigger apartment, so we had more rooms and more furniture.",
+            "After I graduated from university, I moved to Yongin, Korea, and started living alone.",
+            "So now, I only have the things I really need, like a bed, a sofa, and a table."
           ],
-          "hint": "가족과 큰 집 → 혼자 작은 집 → 가구·소음·청소 차이",
+          "hint": "대학 시절 가족과 큰 아파트 → 졸업 후 용인 이사·혼자 거주 → 필요한 가구만 둠",
           "questionEn": "Tell me about a change in your living situation. What was your home like before, and what is different now?",
           "type": "변화·비교"
         },
         {
           "id": "topic-1-q4",
           "number": "Q4",
+          "scriptOrigin": "user",
           "question": "어릴 때 살던 집과 지금 집을 비교해 주세요. 크기와 분위기는 어떻게 다른가요?",
           "status": "필수",
           "answer": [
-            "Well, I used to live with my family, but now I live alone in a smaller apartment.",
-            "The old place was bigger and busier, with people talking in different rooms.",
-            "It also had more rooms and furniture, so there wasn't much empty space.",
-            "Now I just have the furniture I need, like a bed, a sofa, and a small table.",
-            "My home is much quieter now, and it's also easier to clean.",
-            "It felt a little empty at first, but honestly, I'm quite comfortable here now."
+            "The biggest change is that I live alone in a smaller apartment now.",
+            "When I was in university, I lived with my family in a bigger apartment, so we had more rooms and more furniture.",
+            "After I graduated from university, I moved to Yongin, Korea, and started living alone.",
+            "So now, I only have the things I really need, like a bed, a sofa, and a table."
           ],
-          "hint": "예전 큰 집·가족 → 현재 작은 집·혼자 → 조용함·청소",
+          "hint": "대학 시절 가족과 큰 아파트 → 졸업 후 용인 이사·혼자 거주 → 필요한 가구만 둠",
           "questionEn": "Compare your childhood home with the home you live in now. How are they different in size and atmosphere?",
           "type": "변화·비교"
         },
