@@ -444,17 +444,18 @@ window.OPIC_DATA = {
         {
           "id": "topic-2-q2",
           "number": "Q2",
+          "scriptOrigin": "user",
           "question": "집에서 휴가를 보낼 때 누구와 시간을 보내고 싶나요? 그 사람의 성격과 관심사를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "If I chose someone to spend time with, it would be a close friend of mine.",
-            "My friend is really calm and easy to talk to, even when I don't have much to say.",
-            "My friend is also a good listener, which makes our conversations feel comfortable.",
-            "We both like quiet places, so neither of us needs a big group around.",
-            "We also enjoy the same kind of music, especially songs with a soft sound.",
-            "I mean, this friend is the kind of person I can feel relaxed around."
+            "Actually, during my vacation, I prefer to stay at home by myself because I’m usually busy with work.",
+            "So I really need some time to rest my body and mind.",
+            "I don’t do anything special.",
+            "I just want to sit on my sofa and relax.",
+            "Sometimes, I order some food and eat it there.",
+            "So yeah, I just want to get some good rest."
           ],
-          "hint": "친한 친구 → 차분한 성격 → 경청 → 음악·조용한 장소",
+          "hint": "혼자 집에서 휴가 → 몸과 마음의 휴식 → 소파 → 음식 주문",
           "questionEn": "Who would you like to spend time with during a vacation at home? Describe that person's personality and interests.",
           "type": "묘사"
         },
