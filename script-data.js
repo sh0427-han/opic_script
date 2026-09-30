@@ -214,15 +214,17 @@ window.OPIC_DATA = {
         {
           "id": "topic-1-q7",
           "number": "Q7",
+          "scriptOrigin": "user",
           "question": "집에서 어떤 문제가 있었나요? 두 가지 예를 들고 각각 어떻게 해결했는지 말해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I've had two small problems at home, and I needed help with both of them.",
-            "Once, a leg on my sofa broke while I was sitting on it, which really surprised me.",
-            "I stopped using it and called a repair service, and they fixed it the next day.",
-            "Another time, my kitchen light went out while I was making dinner.",
-            "I called the building office, and someone came to fix it the next morning.",
-            "Honestly, I was just glad both problems were fixed without a long wait."
+            "Well, I had two problems.",
+            "First, one of the sofa legs broke while I was sitting on it.",
+            "I was really surprised.",
+            "So I called a repair service, and they fixed it the next day.",
+            "Second, my kitchen light stopped working while I was making dinner.",
+            "So I called the building office.",
+            "Someone came the next morning and fixed it."
           ],
           "hint": "소파 다리 고장·수리 → 주방 조명 고장·수리",
           "questionEn": "What problems have you had in your home? Give two examples and explain how each problem was fixed.",
@@ -316,16 +318,17 @@ window.OPIC_DATA = {
         {
           "id": "topic-1-q13",
           "number": "Q11",
+          "scriptOrigin": "user",
           "question": "보통 집을 어떻게 청소하나요? 언제 하는지 말하고 순서를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I usually clean my apartment on weekends when I have a little more time.",
-            "First, I pick up the things I've left around and put them back where they belong.",
-            "Then I clean the floor, especially around the sofa and the small table.",
-            "After that, I clean the kitchen and the bathroom, which usually take the longest.",
-            "Finally, I take out the trash and put the cleaning tools away, and that's about it."
+            "Well, I usually clean my apartment on weekends because I have more time.",
+            "First, I clean my bedroom and sweep up any hair around my bed.",
+            "Then, I go to the living room and clean the floor, especially around the sofa and the table.",
+            "After that, I clean the bathroom.",
+            "Finally, I sort the recycling and empty the trash can."
           ],
-          "hint": "주말 → 물건 정리 → 바닥 → 주방·욕실 → 마무리",
+          "hint": "주말 청소 → 침실·침대 주변 → 거실 바닥 → 욕실 → 분리수거·쓰레기",
           "questionEn": "How do you normally clean your home? Tell me when you do it and explain the steps in order.",
           "type": "일과·절차"
         },
