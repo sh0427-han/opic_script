@@ -535,17 +535,17 @@ window.OPIC_DATA = {
         {
           "id": "topic-2-q7",
           "number": "Q7",
+          "scriptOrigin": "user",
           "question": "집에서 휴가를 보내는 것을 왜 좋아하나요? 선호하는 이유를 몇 가지 말해 주세요.",
           "status": "선택",
           "answer": [
-            "Honestly, I like staying home on vacation because I can rest at my own pace.",
-            "I don't have to spend hours on a train or carry a heavy bag around.",
-            "I also save money because I don't need to pay for tickets or a hotel.",
-            "At home, I can choose what to do whenever I feel like it.",
-            "I can sleep a little longer and take my time, without worrying about a schedule.",
-            "That's really what I want from a vacation, just a few quiet days without pressure."
+            "I like spending my vacations at home for a few reasons.",
+            "First, I’m usually busy with work, so I need some time to relax.",
+            "At home, I can sleep in and do whatever I want.",
+            "I can sit on my sofa, listen to music, and watch TV.",
+            "So yeah, staying at home helps me relax and feel better."
           ],
-          "hint": "혼자 휴식 → 이동 없음 → 비용 절약 → 일정 자유",
+          "hint": "바쁜 업무 → 집에서 늦잠·자유로운 시간 → 소파·음악·TV → 휴식",
           "questionEn": "Why do you enjoy spending vacations at home? Give a few reasons for your preference.",
           "type": "의견·이유"
         },
