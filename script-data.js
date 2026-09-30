@@ -517,16 +517,18 @@ window.OPIC_DATA = {
         {
           "id": "topic-2-q6",
           "number": "Q6",
+          "scriptOrigin": "user",
           "question": "사람들에게 휴가가 왜 필요하다고 생각하나요? 휴식이 어떤 도움이 되는지 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "I think people need vacations because work or school can leave them really tired.",
-            "When you're busy every day, you don't always have enough time to rest properly.",
-            "A few days off can give you time to sleep more and stop thinking about work.",
-            "You can also do something you enjoy, even if it's just listening to music at home.",
-            "So, to me, a vacation doesn't have to be a big trip to be a useful break."
+            "My vacations have changed a lot over time.",
+            "In the past, I usually spent my vacations with my family, and we did many things together.",
+            "But now, I prefer to stay at home by myself because I’m usually busy with work.",
+            "I just sit on my sofa, listen to music, and relax.",
+            "Sometimes, I order some food and eat it at home.",
+            "So yeah, these days, I really enjoy having some quiet time by myself."
           ],
-          "hint": "일·학교로 바쁨 → 피로 → 수면·여유 → 휴식 필요",
+          "hint": "과거 가족과 함께 → 현재 혼자 집에서 휴식 → 소파·음악·음식 주문",
           "questionEn": "Why do you think people need vacations? Explain how taking a break can help them.",
           "type": "의견·이유"
         },
