@@ -427,17 +427,17 @@ window.OPIC_DATA = {
         {
           "id": "topic-2-q1",
           "number": "Q1",
+          "scriptOrigin": "user",
           "question": "집에서 휴가를 보낸다고 하셨네요. 그런 날에는 보통 무엇을 하나요? 아침부터 저녁까지의 일과를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, when I take a vacation at home, I usually spend the day by myself.",
-            "In the morning, I sleep a little longer and make breakfast whenever I feel hungry.",
-            "Then I listen to a few songs while I finish my coffee and take my time.",
-            "In the afternoon, I sit on my sofa and watch YouTube for a while.",
-            "In the evening, I make something simple for dinner, or I order food if I don't feel like cooking.",
-            "After dinner, I just rest until bedtime, without trying to fit too much into the day."
+            "On my vacation, I usually sleep in and wake up late.",
+            "Around lunchtime, I make something simple to eat, such as scrambled eggs.",
+            "After lunch, I usually have a cup of coffee and listen to music for a while.",
+            "In the evening, I just sit on my sofa and relax.",
+            "So yeah, I really enjoy having some quiet time by myself."
           ],
-          "hint": "늦잠·아침 → 음악 → YouTube → 저녁 → 휴식",
+          "hint": "늦잠 → 점심에 스크램블 에그 → 커피·음악 → 저녁 소파 휴식",
           "questionEn": "You said you take vacations at home. What do you usually do on those days? Describe a typical day from morning to evening.",
           "type": "일과·절차"
         },
