@@ -449,13 +449,13 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Actually, during my vacation, I prefer to stay at home by myself because I’m usually busy with work.",
-            "So I really need some time to rest my body and mind.",
-            "I don’t do anything special.",
-            "I just want to sit on my sofa and relax.",
-            "Sometimes, I order some food and eat it there.",
-            "So yeah, I just want to get some good rest."
+            "I’m a very quiet person, and I like spending time alone.",
+            "I usually enjoy watching TV and listening to music.",
+            "Sometimes, I order some food and eat it on my sofa.",
+            "I don’t do anything special because I just want to relax.",
+            "So yeah, I really enjoy having some quiet time by myself."
           ],
-          "hint": "혼자 집에서 휴가 → 몸과 마음의 휴식 → 소파 → 음식 주문",
+          "hint": "혼자 집에서 휴가 → 조용한 성격 → TV·음악 → 음식 주문 → 휴식",
           "questionEn": "Who would you like to spend time with during a vacation at home? Describe that person's personality and interests.",
           "type": "묘사"
         },
