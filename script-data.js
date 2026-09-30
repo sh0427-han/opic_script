@@ -546,17 +546,17 @@ window.OPIC_DATA = {
         {
           "id": "topic-2-q8",
           "number": "Q8",
+          "scriptOrigin": "user",
           "question": "집에서 휴가를 보낼 때 가장 좋아하는 공간은 어디인가요? 그 공간을 묘사하고 좋아하는 이유를 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "My living room is the place I like most when I take a vacation at home.",
-            "In the living room, there's a small sofa with a little table right next to it.",
-            "The room isn't very big, but it gets a lot of light, so it feels bright.",
-            "The sofa is soft and comfortable, which is a big part of why I like the room.",
-            "It's also quiet and familiar, so I don't feel like I need to be anywhere else.",
-            "Honestly, that simple space is enough to make me feel relaxed on a day off."
+            "During my vacation, I love spending time in my living room.",
+            "It’s next to the kitchen, and it has a really comfy sofa.",
+            "Also, the walls are white, so they make me feel comfortable.",
+            "I usually spend a lot of time there watching TV and listening to music.",
+            "So yeah, my living room is my favorite place to relax."
           ],
-          "hint": "거실 → 가구·밝기 → 편안한 소파 → 조용함",
+          "hint": "휴가 중 거실 → 주방 옆 편안한 소파 → 흰 벽 → TV·음악 → 휴식",
           "questionEn": "Which part of your home do you like most during a vacation? Describe the space and explain why you like it.",
           "type": "묘사·이유"
         },
