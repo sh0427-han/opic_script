@@ -462,17 +462,18 @@ window.OPIC_DATA = {
         {
           "id": "topic-2-q3",
           "number": "Q3",
+          "scriptOrigin": "user",
           "question": "가장 최근 집에서 보낸 휴가를 떠올려 보세요. 언제였고, 어떻게 시간을 보냈나요?",
           "status": "필수",
           "answer": [
-            "I spent a few days of my last vacation at home by myself last month.",
-            "I slept a little longer than usual because I didn't have to get ready for work.",
-            "After breakfast, I sat on my sofa and watched YouTube for a while.",
-            "I also listened to music and checked my phone whenever I felt like it.",
-            "When I got hungry, I ordered some food instead of spending time cooking.",
-            "Honestly, I didn't do anything special, but I felt much better after that quiet break."
+            "My most recent vacation at home was last weekend.",
+            "Like I said before, I slept in and woke up late.",
+            "Around lunchtime, I made something simple to eat, like scrambled eggs.",
+            "After lunch, I had a cup of coffee and listened to music for a while.",
+            "In the evening, I just sat on my sofa and relaxed.",
+            "So yeah, I really enjoyed having some quiet time by myself."
           ],
-          "hint": "지난달 혼자 휴가 → YouTube·음악 → 휴대폰 → 음식 → 휴식",
+          "hint": "지난 주말 집에서 휴가 → 늦잠 → 스크램블 에그 → 커피·음악 → 소파 휴식",
           "questionEn": "Think about your most recent vacation at home. When was it, and how did you spend your time?",
           "type": "과거 경험"
         },
