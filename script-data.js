@@ -250,17 +250,17 @@ window.OPIC_DATA = {
         {
           "id": "topic-1-q9",
           "number": "Q9",
+          "scriptOrigin": "user",
           "question": "집에서 가구가 고장 난 적이 있나요? 어떤 문제였고 어떻게 대처했는지 말해 주세요.",
           "status": "필수",
           "answer": [
-            "A leg on my sofa broke while I was sitting on it one evening.",
-            "The sofa suddenly leaned to one side, so I got up and stopped using it.",
-            "I called a repair service and explained what had happened to the sofa.",
-            "They told me someone could come the next morning, so I arranged a time.",
-            "The person arrived as promised and fixed the leg without taking too long.",
-            "Honestly, I was just glad I could sit on my sofa again without worrying."
+            "I remember one problem I had with my sofa in the living room.",
+            "One day, one of the sofa legs suddenly broke while I was sitting on it.",
+            "I was really surprised, so I tried to fix it myself.",
+            "But it didn’t work.",
+            "So I called a repair service, and they fixed it the next day."
           ],
-          "hint": "소파 다리 고장 → 사용 중단 → 수리 요청 → 해결",
+          "hint": "거실 소파 다리 고장 → 직접 수리 시도 → 수리점 연락 → 다음 날 해결",
           "questionEn": "Has a piece of furniture ever broken in your home? Tell me what went wrong and how you dealt with it.",
           "type": "문제 경험"
         },
