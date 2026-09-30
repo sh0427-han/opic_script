@@ -233,17 +233,17 @@ window.OPIC_DATA = {
         {
           "id": "topic-1-q8",
           "number": "Q8",
+          "scriptOrigin": "user",
           "question": "집에서 겪은 문제 한 가지를 말해 주세요. 무슨 일이 있었고, 어떻게 대처했으며, 결과는 어땠나요?",
           "status": "필수",
           "answer": [
-            "My kitchen light went out while I was making dinner one evening.",
-            "It was too dark to keep cooking, so I stopped and moved into the living room.",
-            "I called the building office and explained what had happened to the light.",
-            "They told me someone could come the next morning, so I arranged a time.",
-            "The person arrived as promised and fixed the light without taking too long.",
-            "Honestly, I was just glad I could use the kitchen again and finish a meal safely."
+            "I remember one problem I had with my sofa in the living room.",
+            "One day, one of the sofa legs suddenly broke while I was sitting on it.",
+            "I was really surprised, so I tried to fix it myself.",
+            "But it didn’t work.",
+            "So I called a repair service, and they fixed it the next day."
           ],
-          "hint": "주방 조명 고장 → 요리 중단 → 관리사무소 연락 → 다음 날 수리",
+          "hint": "거실 소파 다리 고장 → 직접 수리 시도 → 수리점 연락 → 다음 날 해결",
           "questionEn": "Tell me about one problem you had at home. What happened, what did you do, and how did it turn out?",
           "type": "문제 경험"
         },
