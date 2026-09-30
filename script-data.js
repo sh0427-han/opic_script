@@ -480,17 +480,20 @@ window.OPIC_DATA = {
         {
           "id": "topic-2-q4",
           "number": "Q4",
+          "scriptOrigin": "user",
           "question": "집에서 보낸 휴가 중 기억에 남는 하루를 말해 주세요. 무슨 일이 있었고, 왜 기억에 남나요?",
           "status": "필수",
           "answer": [
-            "Well, on my last vacation at home, I decided to cook dinner for myself.",
-            "I usually order food, so making a whole meal was a bit different for me.",
-            "I put on some music and followed a simple recipe while I was cooking.",
-            "It took longer than I expected, but the food actually tasted pretty good.",
-            "I felt proud because I'd made it myself, even though it was only a simple meal.",
-            "That's why I remember that evening, and I'd be happy to try it again."
+            "I remember one special day during my vacation at home.",
+            "It was my birthday.",
+            "My friends called me and asked me to stay home.",
+            "A few minutes later, they came to my home with a cake and some gifts.",
+            "Then, they started singing a birthday song for me.",
+            "I was really surprised and almost cried.",
+            "I was so thankful to my friends.",
+            "I will never forget that day."
           ],
-          "hint": "휴가 중 직접 요리 → 음악 → 예상보다 긴 조리 → 맛있는 음식",
+          "hint": "휴가 중 생일 → 친구들 방문 → 케이크·선물·생일 노래 → 놀람·감사",
           "questionEn": "Tell me about a memorable day during a vacation at home. What happened, and why do you remember it?",
           "type": "과거 경험"
         },
