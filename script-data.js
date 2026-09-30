@@ -567,17 +567,17 @@ window.OPIC_DATA = {
         {
           "id": "topic-2-q9",
           "number": "Q9",
+          "scriptOrigin": "user",
           "question": "집에서 휴가를 보내다가 예상하지 못한 문제가 생긴 경험을 말해 주세요. 무슨 일이 있었고 어떻게 해결했나요?",
           "status": "선택",
           "answer": [
-            "During my last vacation, the kitchen light went out while I was making dinner.",
-            "It was too dark to keep cooking, so I stopped and moved into the living room.",
-            "I called the building office and explained what had happened to the light.",
-            "They told me someone could come the next morning, so I arranged a time.",
-            "The person arrived as promised and fixed the light without taking too long.",
-            "Honestly, I was just glad I could use the kitchen again and finish a meal safely."
+            "I remember one problem I had during my vacation at home.",
+            "One day, one of the sofa legs suddenly broke while I was sitting on it.",
+            "I was really surprised, so I tried to fix it myself.",
+            "But it didn’t work.",
+            "So I called a repair service, and they fixed it the next day."
           ],
-          "hint": "휴가 중 주방 조명 고장 → 요리 중단 → 관리사무소 → 수리",
+          "hint": "휴가 중 소파 다리 파손 → 직접 수리 실패 → 수리 서비스 → 다음 날 해결",
           "questionEn": "Tell me about an unexpected problem during a vacation at home. What happened, and what did you do to solve it?",
           "type": "문제 경험"
         }
