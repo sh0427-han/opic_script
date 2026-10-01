@@ -647,17 +647,18 @@ window.OPIC_DATA = {
         {
           "id": "topic-3-q1",
           "number": "Q1",
+          "scriptOrigin": "user",
           "question": "동네의 커피숍 하나를 묘사해 주세요. 어디에 있고, 좌석 공간과 분위기는 어떤가요?",
           "status": "필수",
           "answer": [
-            "Well, there's this small cafe near my home, just a short walk away.",
-            "It has big windows and a few tables along the wall, so the middle feels open.",
-            "There are comfortable chairs by the windows, with small tables between them.",
-            "The room isn't very big, but it gets a lot of light, so it feels bright.",
-            "The music is soft enough that the whole place feels pretty calm.",
-            "I mean, it's a simple little place, but it has a really comfortable feel."
+            "There is a cafe near my home.",
+            "It’s about five minutes away on foot.",
+            "The seating area is not very big, but it has some comfortable chairs and small tables.",
+            "The cafe is usually quiet.",
+            "I like the atmosphere because it feels calm and relaxing.",
+            "So yeah, I often go there when I want to have a cup of coffee and relax."
           ],
-          "hint": "집 근처 → 큰 창문 → 탁자·의자 → 조용한 음악",
+          "hint": "집에서 도보 5분 → 작은 좌석 공간·편안한 의자·탁자 → 조용한 분위기 → 커피·휴식",
           "questionEn": "Describe a coffee shop in your neighborhood. Where is it, and what are the seating area and atmosphere like?",
           "type": "묘사"
         },
