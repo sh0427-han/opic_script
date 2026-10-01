@@ -1035,16 +1035,17 @@ window.OPIC_DATA = {
           "question": "좋아하는 공원을 묘사해 주세요. 어디에 있고, 크기는 어떠하며, 무엇이 보이나요?",
           "status": "필수",
           "answer": [
-            "My favorite park is a small one near my home, so it's easy to find.",
-            "It has a walking path, some trees, and a few benches along the way.",
-            "The path goes around the park, with trees on both sides in some places.",
-            "There's also a small open area near the gate, so that part feels quite wide.",
-            "The benches are under the trees, which gives them plenty of shade.",
-            "You know, the park isn't very big, but it feels green and peaceful."
+            "There is a park near my home.",
+            "It’s about ten minutes away on foot.",
+            "The park is pretty big, and there are many people taking a walk.",
+            "There are also nice walking paths, and I can enjoy the fresh air there.",
+            "The park is peaceful and beautiful.",
+            "So yeah, I like going there when I want to relax."
           ],
-          "hint": "집 근처 → 작은 공원 → 산책로·나무·벤치 → 그늘",
+          "hint": "집에서 도보 10분 → 큰 공원·산책하는 사람들 → 산책로·신선한 공기 → 평화로운 분위기",
           "questionEn": "Describe a park you like. Where is it, how big is it, and what can you see there?",
-          "type": "묘사"
+          "type": "묘사",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-5-q2",
@@ -1052,15 +1053,16 @@ window.OPIC_DATA = {
           "question": "공원에서 보통 무엇을 하나요? 평소 방문할 때 하는 활동을 순서대로 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I usually take a short walk in the park without trying to go too fast.",
-            "I take my time and look at the trees as I walk along the path.",
-            "After about twenty minutes, I get a coffee and sit on a bench for a while.",
-            "I sometimes check my phone while I rest, especially if someone has sent me a message.",
-            "Then I listen to a few songs and head home, so it's a pretty simple routine."
+            "When I go to the park, I usually take a walk first.",
+            "I walk along the walking path and enjoy the fresh air.",
+            "After that, I find a bench and sit down for a while.",
+            "Sometimes, I check my phone or listen to music.",
+            "So yeah, I usually go there when I want to relax."
           ],
-          "hint": "산책 → 나무 구경 → 20분 뒤 커피·벤치 → 음악",
+          "hint": "산책 → 산책로·신선한 공기 → 벤치 → 휴대폰·음악 → 휴식",
           "questionEn": "What do you usually do at the park? Describe the order of your activities during a typical visit.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-5-q4",
@@ -1068,16 +1070,17 @@ window.OPIC_DATA = {
           "question": "가장 최근 공원에 갔던 경험을 말해 주세요. 언제 갔고, 도착해서 떠날 때까지 무엇을 했나요?",
           "status": "필수",
           "answer": [
-            "Well, I went to the park near my home last weekend to get some fresh air.",
-            "I took my time and looked at the trees as I walked along the path.",
-            "After about twenty minutes, I got a coffee and sat on a bench for a while.",
-            "I checked my phone while I rested, then put it away again.",
-            "I listened to a few songs before heading home, without rushing anywhere.",
-            "Honestly, that quiet time outside helped me feel much better after a busy week."
+            "My most recent trip to a park was last weekend.",
+            "Like I said before, I took a walk first.",
+            "I walked along the walking path and enjoyed the fresh air.",
+            "After that, I found a bench and sat down for a while.",
+            "I checked my phone and listened to music.",
+            "Then, I went home after relaxing for a bit."
           ],
-          "hint": "지난 주말 → 산책 → 커피·벤치 → 음악 → 귀가",
+          "hint": "지난 주말 → 산책·신선한 공기 → 벤치 → 휴대폰·음악 → 귀가",
           "questionEn": "Tell me about your most recent trip to a park. When did you go, and what did you do from arrival to departure?",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-5-q5",
@@ -1085,16 +1088,17 @@ window.OPIC_DATA = {
           "question": "공원에서의 특별한 추억을 말해 주세요. 누구와 있었고, 어떤 점이 기억에 남나요?",
           "status": "필수",
           "answer": [
-            "I remember watching the sunset with a friend at the park one evening.",
-            "We'd been walking along the path and talking about our week.",
-            "Just before we left, we noticed the sky turning orange, and it looked really pretty.",
-            "So we sat on a bench and watched it instead of going home right away.",
-            "We stayed until it started getting dark, then walked back together.",
-            "You know, nothing big happened, but that quiet time with my friend really stayed with me."
+            "I remember one special day at a park.",
+            "It was my birthday, and my friends called me and asked me to meet them there.",
+            "When I got there, they were already waiting for me with a cake and some gifts.",
+            "Then, they started singing a birthday song for me.",
+            "I was really surprised and almost cried.",
+            "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "친구와 산책·대화 → 주황빛 하늘 → 벤치에서 노을",
+          "hint": "생일·친구 연락 → 케이크·선물 → 생일 노래 → 놀람·감사",
           "questionEn": "Tell me about a special memory you have of a park. Who were you with, and what made the experience memorable?",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-5-q6",
@@ -1102,16 +1106,17 @@ window.OPIC_DATA = {
           "question": "공원에 갔다가 겪은 문제를 말해 주세요. 어떻게 대처했고, 그 뒤에는 어떻게 되었나요?",
           "status": "필수",
           "answer": [
-            "It suddenly started raining while I was at the park, and I didn't have an umbrella.",
-            "The rain got heavy quite quickly, so I couldn't just keep walking.",
-            "I ran to a place with a roof near the gate and waited there.",
-            "While I waited, I checked the weather on my phone to see if the rain would stop.",
-            "After about ten minutes, it got lighter, so I walked home as quickly as I could.",
-            "Honestly, I was just glad I'd found somewhere dry instead of getting completely wet."
+            "I remember one problem I had at a park.",
+            "I was taking a walk along a walking path and listening to music on my phone.",
+            "I accidentally dropped my phone, and it turned off.",
+            "I was really worried, so I pressed the power button a few times.",
+            "Luckily, it turned on again.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "갑작스러운 비·우산 없음 → 지붕 아래 → 기다림 → 귀가",
+          "hint": "산책·음악 → 휴대폰 떨어뜨림·꺼짐 → 전원 버튼 → 다시 켜짐",
           "questionEn": "Tell me about a problem you had while visiting a park. How did you respond, and what happened afterward?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-5-q7",
@@ -1224,16 +1229,17 @@ window.OPIC_DATA = {
           "question": "가장 좋아하는 해변을 묘사해 주세요. 어디에 있고, 해변과 주변은 어떻게 생겼나요?",
           "status": "필수",
           "answer": [
-            "Well, I really like Haeundae Beach in Busan because the sea looks so wide and open.",
-            "There's a long sandy beach with a clear view of the water.",
-            "There are also plenty of restaurants and cafes just behind the beach.",
-            "Behind those places, you can see tall buildings, so it's still very much part of the city.",
-            "The beach gets busy on weekends, but there's a lot of open space toward the water.",
-            "You know, that mix of city buildings and the sea is what stands out to me."
+            "There is a beach I like in Busan.",
+            "It’s called Haeundae Beach.",
+            "The beach is pretty big, and there are many people taking a walk.",
+            "There are also nice walking paths, and I can enjoy the fresh air there.",
+            "The beach is peaceful and beautiful.",
+            "So yeah, I like going there when I want to relax."
           ],
-          "hint": "부산 해운대 → 모래·바다 → 식당·카페 → 주말 분위기",
+          "hint": "부산 해운대 → 큰 해변·산책하는 사람들 → 산책로·신선한 공기 → 휴식",
           "questionEn": "Describe your favorite beach. Where is it, and what are the beach and the surrounding area like?",
-          "type": "묘사"
+          "type": "묘사",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-6-q2",
@@ -1389,16 +1395,17 @@ window.OPIC_DATA = {
           "question": "좋아하는 국내 여행지 하나를 묘사해 주세요. 어디에 있고, 주요 풍경과 주변은 어떤가요?",
           "status": "필수",
           "answer": [
-            "My favorite place to visit in Korea is Busan, down on the southeast coast.",
-            "It's a big city by the sea, so it has a different feel from the area where I live.",
-            "Haeundae is one of the places that comes to mind when I think of Busan.",
-            "There's a long sandy beach with a clear view of the water.",
-            "There are also plenty of restaurants and cafes just behind the beach.",
-            "You know, that mix of city buildings and the sea is what stands out to me."
+            "There is a beach I like in Busan.",
+            "It’s called Haeundae Beach.",
+            "The beach is pretty big, and there are many people taking a walk.",
+            "There are also nice walking paths, and I can enjoy the fresh air there.",
+            "The beach is peaceful and beautiful.",
+            "So yeah, I like going there when I want to relax."
           ],
-          "hint": "부산 남동쪽 해안 → 해운대 모래·바다 → 주변 거리·식당",
+          "hint": "부산 해운대 → 큰 해변·산책하는 사람들 → 산책로·신선한 공기 → 휴식",
           "questionEn": "Describe a place in Korea that you like to visit. Where is it, and what are its main sights and surroundings like?",
-          "type": "묘사"
+          "type": "묘사",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-7-q2",
@@ -2498,14 +2505,76 @@ window.OPIC_DATA = {
           "title": "상대에게 질문하는 롤플레이",
           "description": "정보를 묻거나 문제를 설명하고 해결 방법을 제안하는 통화입니다.",
           "sets": [
-            { "id": "roleplay-ask-1", "title": "친구에게 일정 묻기", "questionIds": ["topic-10-rp1", "topic-10-friend-rp1", "topic-10-party-rp1"] },
-            { "id": "roleplay-ask-2", "title": "공연·여행 예약 문의", "questionIds": ["topic-10-concert-rp1", "topic-10-travel-rp1", "topic-10-hotel-rp1"] },
-            { "id": "roleplay-ask-3", "title": "집·시설 정보 문의", "questionIds": ["topic-10-house-rp1", "topic-10-recycling-rp1", "topic-10-rp2"] },
-            { "id": "roleplay-ask-4", "title": "물건·서비스 정보 문의", "questionIds": ["topic-10-mp3-rp1", "topic-10-repair-rp1", "topic-10-service-rp1"] },
-            { "id": "roleplay-ask-5", "title": "그 밖의 정보 문의", "questionIds": ["topic-10-restaurant-rp1", "topic-10-celebrity-rp1"] },
-            { "id": "roleplay-ask-6", "title": "일정 변경 제안", "questionIds": ["topic-10-rp3", "topic-10-concert-rp2", "topic-10-travel-rp2"] },
-            { "id": "roleplay-ask-7", "title": "물건·집 문제 해결", "questionIds": ["topic-10-rp4", "topic-10-mp3-rp2", "topic-10-house-rp2"] },
-            { "id": "roleplay-ask-8", "title": "친구·예약 문제 해결", "questionIds": ["topic-10-friend-rp2", "topic-10-service-rp2"] }
+            {
+              "id": "roleplay-ask-1",
+              "title": "친구에게 일정 묻기",
+              "questionIds": [
+                "topic-10-rp1",
+                "topic-10-friend-rp1",
+                "topic-10-party-rp1"
+              ]
+            },
+            {
+              "id": "roleplay-ask-2",
+              "title": "공연·여행 예약 문의",
+              "questionIds": [
+                "topic-10-concert-rp1",
+                "topic-10-travel-rp1",
+                "topic-10-hotel-rp1"
+              ]
+            },
+            {
+              "id": "roleplay-ask-3",
+              "title": "집·시설 정보 문의",
+              "questionIds": [
+                "topic-10-house-rp1",
+                "topic-10-recycling-rp1",
+                "topic-10-rp2"
+              ]
+            },
+            {
+              "id": "roleplay-ask-4",
+              "title": "물건·서비스 정보 문의",
+              "questionIds": [
+                "topic-10-mp3-rp1",
+                "topic-10-repair-rp1",
+                "topic-10-service-rp1"
+              ]
+            },
+            {
+              "id": "roleplay-ask-5",
+              "title": "그 밖의 정보 문의",
+              "questionIds": [
+                "topic-10-restaurant-rp1",
+                "topic-10-celebrity-rp1"
+              ]
+            },
+            {
+              "id": "roleplay-ask-6",
+              "title": "일정 변경 제안",
+              "questionIds": [
+                "topic-10-rp3",
+                "topic-10-concert-rp2",
+                "topic-10-travel-rp2"
+              ]
+            },
+            {
+              "id": "roleplay-ask-7",
+              "title": "물건·집 문제 해결",
+              "questionIds": [
+                "topic-10-rp4",
+                "topic-10-mp3-rp2",
+                "topic-10-house-rp2"
+              ]
+            },
+            {
+              "id": "roleplay-ask-8",
+              "title": "친구·예약 문제 해결",
+              "questionIds": [
+                "topic-10-friend-rp2",
+                "topic-10-service-rp2"
+              ]
+            }
           ]
         },
         {
@@ -2513,8 +2582,23 @@ window.OPIC_DATA = {
           "title": "질문에 답하는 경험형",
           "description": "전화로 질문을 만드는 대신, 실제로 겪은 일과 대처·결과를 말합니다.",
           "sets": [
-            { "id": "roleplay-answer-1", "title": "친구·여행 경험", "questionIds": ["topic-10-rp5", "topic-10-travel-rp3", "topic-10-friend-rp3"] },
-            { "id": "roleplay-answer-2", "title": "기기·집 문제 경험", "questionIds": ["topic-10-mp3-rp3", "topic-10-house-rp3"] }
+            {
+              "id": "roleplay-answer-1",
+              "title": "친구·여행 경험",
+              "questionIds": [
+                "topic-10-rp5",
+                "topic-10-travel-rp3",
+                "topic-10-friend-rp3"
+              ]
+            },
+            {
+              "id": "roleplay-answer-2",
+              "title": "기기·집 문제 경험",
+              "questionIds": [
+                "topic-10-mp3-rp3",
+                "topic-10-house-rp3"
+              ]
+            }
           ]
         }
       ]
