@@ -701,17 +701,19 @@ window.OPIC_DATA = {
         {
           "id": "topic-3-q4",
           "number": "Q4",
+          "scriptOrigin": "user",
           "question": "가장 최근 커피숍에 갔던 경험을 말해 주세요. 언제 갔고, 그곳에서 무엇을 했나요?",
           "status": "필수",
           "answer": [
-            "Well, I went to a cafe near my home last weekend for a short break.",
-            "It was pretty busy, so I had to wait a few minutes for a seat.",
-            "In the end, I ordered an iced coffee and found a seat by the window.",
-            "I checked my phone while I drank it, and just took my time.",
-            "I stayed for about half an hour, then returned my cup and headed home.",
-            "Honestly, it was a nice little break, and I wanted to go back again."
+            "My most recent visit to a cafe was last weekend.",
+            "I went to a cafe near my home.",
+            "It was about five minutes away on foot.",
+            "I ordered a cup of coffee and found a comfortable seat.",
+            "I checked my phone and listened to music for a while.",
+            "Then, I just sat there and relaxed.",
+            "So yeah, I had a really relaxing time."
           ],
-          "hint": "지난 주말 → 자리 대기 → 아이스커피·창가 → 휴대폰 → 만족",
+          "hint": "지난 주말 집 근처 카페 → 도보 5분 → 커피·자리 → 휴대폰·음악 → 휴식",
           "questionEn": "Tell me about your most recent visit to a coffee shop. When did you go, and what did you do there?",
           "type": "과거 경험"
         },
