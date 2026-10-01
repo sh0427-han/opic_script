@@ -724,12 +724,12 @@ window.OPIC_DATA = {
           "answer": [
             "I remember one special day at a cafe.",
             "It was my birthday, and my friends called me and asked me to meet them there.",
-            "When I arrived, they were already waiting for me with a cake and some gifts.",
+            "When I got there, they were already waiting for me with a cake and some gifts.",
             "Then, they started singing a birthday song for me.",
             "I was really surprised and almost cried.",
             "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "카페에서 생일 → 친구들 기다림 → 케이크·선물·노래 → 놀람·감사",
+          "hint": "생일 → 친구의 전화 → 케이크와 선물 → 생일 노래 → 놀람과 감사",
           "questionEn": "Describe a memorable experience at a coffee shop. What happened that day, and what made it stand out?",
           "type": "과거 경험"
         },
@@ -741,13 +741,13 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I remember one problem I had at a cafe.",
-            "I ordered an iced coffee, but they gave me a hot coffee by mistake.",
+            "I ordered an iced coffee, but they gave me the wrong one by mistake.",
             "I was a little surprised, so I told the staff about the problem.",
             "They said sorry and made a new drink for me.",
             "A few minutes later, I got the right coffee.",
             "So yeah, everything was fine in the end."
           ],
-          "hint": "아이스커피 주문 → 뜨거운 커피가 나옴 → 직원에게 말함 → 새 음료 받음",
+          "hint": "아이스커피 주문 → 잘못 나온 음료 → 직원에게 설명 → 새 음료 → 해결",
           "questionEn": "Tell me about a time something went wrong at a coffee shop. Explain the problem and how it was handled.",
           "type": "문제 경험"
         },
@@ -878,85 +878,90 @@ window.OPIC_DATA = {
         {
           "id": "topic-4-q2",
           "number": "Q2",
+          "scriptOrigin": "user",
           "question": "보통 언제 누구와 펍에 가나요? 그곳에서 주로 무엇을 하는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I usually go to a pub with one or two friends on weekend evenings.",
-            "First, we find a table and take a quick look at the menu together.",
-            "We order a drink and talk about our week, especially anything funny that happened.",
-            "Sometimes we get a small snack too, if we feel like having something to eat.",
-            "After about an hour, we check the bill and get ready to leave.",
-            "I don't usually stay out too late, so that's pretty much how the evening goes."
+            "I usually go to a pub on weekends by myself.",
+            "When I get there, I find a comfortable seat and order a drink.",
+            "I usually listen to music or check my phone for a while.",
+            "Sometimes, I order some food and eat it there.",
+            "I don’t do anything special.",
+            "So yeah, I like going to a pub alone because I can relax and have some quiet time."
           ],
-          "hint": "주말 저녁·친구 → 자리 → 음료·대화 → 계산 → 귀가",
+          "hint": "주말에 혼자 → 자리와 음료 → 음악과 휴대폰 → 음식 → 조용한 휴식",
           "questionEn": "When do you usually go to a pub, and who do you go with? Explain what you normally do while you are there.",
           "type": "일과·절차"
         },
         {
           "id": "topic-4-q3",
           "number": "Q3",
+          "scriptOrigin": "user",
           "question": "가장 최근 펍에 갔던 경험을 말해 주세요. 누구와 갔고, 저녁 시간을 어떻게 보냈나요?",
           "status": "필수",
           "answer": [
-            "I went to a pub with a friend a few weeks ago.",
-            "We found a quiet table away from the door, where we could sit comfortably.",
-            "We ordered drinks and spent about an hour talking about our week.",
-            "The music wasn't too loud, so we didn't have to raise our voices.",
-            "We paid the bill and went home before it got too late.",
-            "Honestly, it was nothing special, but it was really nice to catch up with my friend."
+            "The last time I went to a pub was last weekend.",
+            "Like I said before, I went there by myself.",
+            "When I got there, I found a comfortable seat and ordered a drink.",
+            "I checked my phone and listened to music for a while.",
+            "Then, I just sat there and relaxed.",
+            "So yeah, I had a really relaxing evening."
           ],
-          "hint": "몇 주 전 친구 → 조용한 자리 → 음료·대화 → 귀가",
+          "hint": "지난 주말 → 혼자 방문 → 자리와 음료 → 휴대폰과 음악 → 편안한 저녁",
           "questionEn": "Tell me about the last time you went to a pub. Who were you with, and how did you spend the evening?",
           "type": "과거 경험"
         },
         {
           "id": "topic-4-q4",
           "number": "Q4",
+          "scriptOrigin": "user",
           "question": "처음 펍에 갔던 경험을 말해 주세요. 누구와 갔고, 무엇을 했으며, 어떤 점이 기억나나요?",
           "status": "필수",
           "answer": [
-            "Well, I first went to a pub with a friend who had been there before.",
-            "I wasn't sure what to order, so my friend helped me choose a drink.",
-            "We ordered drinks and spent about an hour talking about our week.",
-            "The music wasn't too loud, so we didn't have to raise our voices.",
-            "We paid the bill and went home before it got too late.",
-            "Honestly, it was nothing special, but it was really nice to catch up with my friend."
+            "I remember my first visit to a pub.",
+            "I went there with my friend when I was in university.",
+            "We found a comfortable seat and ordered some drinks.",
+            "We talked for a while and listened to music.",
+            "I was a little nervous because it was my first time, but I really enjoyed it.",
+            "So yeah, I still remember that day."
           ],
-          "hint": "처음 친구와 방문 → 음료 추천 → 대화 → 편한 분위기",
+          "hint": "첫 방문 → 대학 때 친구 → 자리와 음료 → 대화와 음악 → 긴장했지만 즐거움",
           "questionEn": "Tell me about your first visit to a pub. Who went with you, what did you do, and what do you remember about it?",
           "type": "과거 경험"
         },
         {
           "id": "topic-4-q5",
           "number": "Q5",
+          "scriptOrigin": "user",
           "question": "펍에서 겪은 기억에 남는 경험을 말해 주세요. 무슨 일이 있었고 왜 특별했나요?",
           "status": "필수",
           "answer": [
-            "I once ran into an old friend at a pub, completely by chance.",
-            "I was really surprised because we hadn't seen each other for years.",
-            "We found a table and started talking about our old school days.",
-            "I'd only planned to stay briefly, but we ended up talking for much longer.",
-            "Before we left, we exchanged phone numbers so we could keep in touch.",
-            "You know, that unexpected meeting is what made the evening so memorable for me."
+            "I remember one special day at a pub.",
+            "It was my birthday, and my friends called me and asked me to meet them there.",
+            "When I got there, they were already waiting for me with a cake and some gifts.",
+            "Then, they started singing a birthday song for me.",
+            "I was really surprised and almost cried.",
+            "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "옛 친구 우연히 만남 → 학창 시절 대화 → 연락처 교환",
+          "hint": "생일 → 친구의 전화 → 케이크와 선물 → 생일 노래 → 놀람과 감사",
           "questionEn": "Tell me about a memorable experience at a pub. What happened, and why was it special to you?",
           "type": "과거 경험"
         },
         {
           "id": "topic-4-q6",
           "number": "Q6",
+          "scriptOrigin": "user",
           "question": "펍에서 문제가 생긴 적이 있나요? 무슨 문제였고, 어떻게 대처했으며, 결과는 어땠나요?",
           "status": "필수",
           "answer": [
-            "My bill at a pub included a drink that I hadn't ordered.",
-            "I noticed the total looked a bit high, so I checked the list carefully.",
-            "I showed the bill to a staff member and explained which drink wasn't mine.",
-            "They checked the order and took the extra drink off the bill right away.",
-            "I thanked them and paid the correct amount before leaving with my friend.",
-            "Honestly, I was just glad they fixed it so quickly without any trouble."
+            "I remember one problem I had at a pub.",
+            "I ordered a drink, but they gave me the wrong one by mistake.",
+            "I was a little surprised, so I told the staff about the problem.",
+            "They said sorry and made a new drink for me.",
+            "A few minutes later, I got the right drink.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "주문하지 않은 음료 청구 → 직원 확인 → 금액 수정 → 결제",
+          "hint": "잘못 나온 음료 → 직원에게 설명 → 사과와 새 음료 → 해결",
           "questionEn": "Have you ever had a problem at a pub? Describe what went wrong, what you did, and the result.",
           "type": "문제 경험"
         },
