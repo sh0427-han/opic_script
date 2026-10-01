@@ -788,16 +788,17 @@ window.OPIC_DATA = {
         {
           "id": "topic-3-q9",
           "number": "Q7",
+          "scriptOrigin": "user",
           "question": "카페에서 주문하는 가장 좋아하는 음료는 무엇인가요? 그 음료의 어떤 점을 좋아하는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I usually go for iced coffee because I really like its simple taste.",
-            "I don't like drinks that are too sweet, so coffee without much sugar suits me.",
-            "I can drink it slowly while it stays cool, especially when there's plenty of ice.",
-            "It's also really nice after a walk on a hot day, when I want something cold.",
-            "So, you know, I don't spend much time choosing a drink because iced coffee is usually what I want."
+            "My favorite drink to order at a cafe is iced coffee.",
+            "I love it because it’s cold and not too sweet.",
+            "I usually drink it when I want something cold to drink.",
+            "It also helps me feel awake when I’m tired.",
+            "So yeah, iced coffee is my favorite drink."
           ],
-          "hint": "아이스커피 → 맛 → 덜 단 음료 → 더위 → 선호",
+          "hint": "아이스커피 → 차갑고 덜 단 맛 → 피곤할 때 기분 전환 → 가장 좋아하는 음료",
           "questionEn": "What is your favorite drink to order at a coffee shop? Explain what you like about it.",
           "type": "의견·이유"
         }
