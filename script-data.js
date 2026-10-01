@@ -736,17 +736,18 @@ window.OPIC_DATA = {
         {
           "id": "topic-3-q6",
           "number": "Q6",
+          "scriptOrigin": "user",
           "question": "커피숍에서 문제가 생긴 경험을 말해 주세요. 어떤 문제였고 어떻게 처리했는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I ordered an iced coffee, but the staff gave me a hot one by mistake.",
-            "I noticed it as soon as I picked up the cup, so I didn't drink it.",
-            "I told the staff about the mistake and explained what I'd ordered.",
-            "They said sorry and brought me the right order after just a few minutes.",
-            "I thanked them before I left, because they were really nice about it.",
-            "Honestly, I was just glad they fixed it so quickly without any trouble."
+            "I remember one problem I had at a cafe.",
+            "I ordered an iced coffee, but they gave me a hot coffee by mistake.",
+            "I was a little surprised, so I told the staff about the problem.",
+            "They said sorry and made a new drink for me.",
+            "A few minutes later, I got the right coffee.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "아이스 주문·뜨거운 음료 → 직원에게 설명 → 교환 → 감사",
+          "hint": "아이스커피 주문 → 뜨거운 커피가 나옴 → 직원에게 말함 → 새 음료 받음",
           "questionEn": "Tell me about a time something went wrong at a coffee shop. Explain the problem and how it was handled.",
           "type": "문제 경험"
         },
