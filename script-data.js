@@ -653,10 +653,10 @@ window.OPIC_DATA = {
             "It’s about five minutes away on foot.",
             "The seating area is not very big, but it has some comfortable chairs and small tables.",
             "The cafe is usually quiet.",
-            "I like the atmosphere because it feels calm and relaxing.",
+            "I like the atmosphere because it feels calm and cozy.",
             "So yeah, I often go there when I want to have a cup of coffee and relax."
           ],
-          "hint": "집에서 도보 5분 → 작은 좌석 공간·편안한 의자·탁자 → 조용한 분위기 → 커피·휴식",
+          "hint": "집 근처 카페 → 도보 5분 → 의자와 작은 탁자 → 조용하고 아늑한 분위기 → 커피와 휴식",
           "questionEn": "Describe a coffee shop in your neighborhood. Where is it, and what are the seating area and atmosphere like?",
           "type": "묘사"
         },
@@ -860,17 +860,18 @@ window.OPIC_DATA = {
         {
           "id": "topic-4-q1",
           "number": "Q1",
+          "scriptOrigin": "user",
           "question": "좋아하는 펍을 묘사해 주세요. 어디에 있고, 탁자·조명·분위기는 어떤가요?",
           "status": "필수",
           "answer": [
-            "Well, there's a small pub near my home, and it has a really calm feel.",
-            "It has small tables and comfortable chairs, so the inside doesn't look too formal.",
-            "The lights are warm and not too bright, which makes the room feel cozy.",
-            "The music is soft enough that the whole place feels pretty calm.",
-            "There's enough space between the tables, so it doesn't feel too crowded inside.",
-            "I mean, it's a simple little place, but it has a really comfortable feel."
+            "There is a pub near my home.",
+            "It’s about five minutes away on foot.",
+            "The seating area isn’t very big, but it has some comfortable chairs and small tables.",
+            "The pub is usually quiet.",
+            "I like the atmosphere because it feels calm and cozy.",
+            "So yeah, I often go there when I want to have a drink and relax."
           ],
-          "hint": "집 근처 → 작은 탁자 → 편한 의자 → 따뜻한 조명·음악",
+          "hint": "집 근처 펍 → 도보 5분 → 의자와 작은 탁자 → 조용하고 아늑한 분위기 → 술과 휴식",
           "questionEn": "Describe a pub you like. Where is it, and what are the tables, lighting, and atmosphere like?",
           "type": "묘사"
         },
