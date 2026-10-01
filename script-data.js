@@ -720,17 +720,18 @@ window.OPIC_DATA = {
         {
           "id": "topic-3-q5",
           "number": "Q5",
+          "scriptOrigin": "user",
           "question": "커피숍에서 겪은 기억에 남는 경험을 말해 주세요. 그날 무슨 일이 있었고, 어떤 점이 특별했나요?",
           "status": "필수",
           "answer": [
-            "I remember going into a small cafe near my home on a rainy day.",
-            "I ordered a hot drink and found a seat by the window to get out of the rain.",
-            "From there, I watched people hurry down the street with their umbrellas.",
-            "I'd been in a hurry too, but after a few minutes, I started to feel much calmer.",
-            "When the rain finally stopped, I finished my drink and walked back home.",
-            "You know, it was only a short break, but it really changed how I felt that day."
+            "I remember one special day at a cafe.",
+            "It was my birthday, and my friends called me and asked me to meet them there.",
+            "When I arrived, they were already waiting for me with a cake and some gifts.",
+            "Then, they started singing a birthday song for me.",
+            "I was really surprised and almost cried.",
+            "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "비 오는 날 → 따뜻한 음료 → 창밖 구경 → 비 그침·귀가",
+          "hint": "카페에서 생일 → 친구들 기다림 → 케이크·선물·노래 → 놀람·감사",
           "questionEn": "Describe a memorable experience at a coffee shop. What happened that day, and what made it stand out?",
           "type": "과거 경험"
         },
