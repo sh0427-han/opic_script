@@ -665,17 +665,18 @@ window.OPIC_DATA = {
         {
           "id": "topic-3-q2",
           "number": "Q2",
+          "scriptOrigin": "user",
           "question": "처음 커피숍에 갔던 경험을 말해 주세요. 무엇을 주문했고, 무엇을 했으며, 기분은 어땠나요?",
           "status": "필수",
           "answer": [
-            "The first cafe I ever visited was a small one near my home.",
-            "I remember looking at the menu for a while because I didn't know what to get.",
-            "In the end, I ordered an iced coffee and found a seat by the window.",
-            "I checked my phone while I drank it, and just took my time.",
-            "I stayed for about half an hour, then returned my cup and headed home.",
-            "Honestly, it was a nice little break, and I wanted to go back again."
+            "I remember my first visit to a coffee shop.",
+            "I went there with my friend when I was in high school.",
+            "I ordered a cup of coffee and found a comfortable seat.",
+            "We talked for a while and listened to music.",
+            "I was a little nervous because it was my first time, but I really enjoyed it.",
+            "So yeah, I still remember that day."
           ],
-          "hint": "첫 방문 → 메뉴 확인 → 아이스커피·창가 → 휴대폰 → 만족",
+          "hint": "고등학교 때 친구와 첫 방문 → 커피·자리 → 대화·음악 → 긴장했지만 즐거움",
           "questionEn": "Tell me about your first visit to a coffee shop. What did you order, what did you do, and how did you feel?",
           "type": "과거 경험"
         },
