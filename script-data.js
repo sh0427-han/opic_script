@@ -682,17 +682,18 @@ window.OPIC_DATA = {
         {
           "id": "topic-3-q3",
           "number": "Q3",
+          "scriptOrigin": "user",
           "question": "커피숍에 가면 보통 무엇을 하나요? 주문부터 나갈 때까지의 과정을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I usually order an iced coffee and find a seat by the window.",
-            "While I drink it, I check my phone or listen to a few songs.",
-            "If I'm with a friend, we usually talk about what's been happening in our lives.",
-            "I normally stay for about half an hour, so it's more of a short break.",
-            "Before I leave, I return my cup and tray and check that I have everything.",
-            "Then I head home or go on with the rest of my day, and that's about it."
+            "When I go to a cafe, I usually order a cup of coffee first.",
+            "Then, I find a comfortable seat and sit down.",
+            "I usually check my phone or listen to music while I drink my coffee.",
+            "Sometimes, I just sit there and relax for a while.",
+            "Before I leave, I throw away my trash and clean up my table.",
+            "So yeah, that’s what I usually do at a cafe."
           ],
-          "hint": "커피 주문·창가 → 휴대폰·음악 → 30분 → 정리·귀가",
+          "hint": "커피 주문 → 편한 자리 → 휴대폰·음악 → 휴식 → 쓰레기·탁자 정리",
           "questionEn": "What do you normally do when you visit a coffee shop? Describe your usual visit from ordering to leaving.",
           "type": "일과·절차"
         },
