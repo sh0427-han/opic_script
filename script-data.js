@@ -1247,16 +1247,16 @@ window.OPIC_DATA = {
           "question": "해변에서 보통 무엇을 하나요? 평소 하는 활동을 순서대로 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I usually start with a slow walk along Haeundae Beach and look out at the sea.",
-            "I take a few pictures as I walk, especially when the light looks nice.",
-            "I don't normally go swimming, so I mostly stay along the edge of the water.",
-            "After the walk, I buy a drink and find somewhere to sit for a while.",
-            "I just listen to the waves and enjoy the view without doing much else.",
-            "Then I head back to my hotel when I feel ready, and that's about it."
+            "When I go to the beach, I usually take a walk first.",
+            "I walk along the walking path and enjoy the fresh air.",
+            "After that, I find a bench and sit down for a while.",
+            "Sometimes, I check my phone or listen to music.",
+            "So yeah, I usually go there when I want to relax."
           ],
-          "hint": "바닷가 걷기 → 사진 → 음료 → 앉아 바다 감상 → 귀가",
+          "hint": "해변 산책 → 산책로·신선한 공기 → 벤치 → 휴대폰·음악 → 휴식",
           "questionEn": "What do you usually do at the beach? Describe your activities in the order you normally do them.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-6-q3",
@@ -1413,16 +1413,16 @@ window.OPIC_DATA = {
           "question": "짧은 국내여행에서 보통 무엇을 하나요? 여행지에서의 평소 활동을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "When I take a short trip to Busan, I usually spend most of my time near Haeundae.",
-            "First, I leave my bag at the hotel so I don't have to carry it around.",
-            "Then I take a slow walk along the beach by myself and look at the sea.",
-            "Later, I find a small restaurant nearby and have something simple for dinner.",
-            "After dinner, I go back to the hotel and rest instead of staying out late.",
-            "The next morning, I take a few pictures before heading to the station, and that's usually it."
+            "When I go to the beach, I usually take a walk first.",
+            "I walk along the walking path and enjoy the fresh air.",
+            "After that, I find a bench and sit down for a while.",
+            "Sometimes, I check my phone or listen to music.",
+            "So yeah, I usually go there when I want to relax."
           ],
-          "hint": "부산 → 호텔에 짐 → 해변 걷기 → 저녁 → 다음 날 사진·역",
+          "hint": "해변 산책 → 산책로·신선한 공기 → 벤치 → 휴대폰·음악 → 휴식",
           "questionEn": "What do you usually do during a short trip within Korea? Describe your typical activities at the destination.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-7-q3",
