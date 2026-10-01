@@ -485,15 +485,13 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I remember one special day during my vacation at home.",
-            "It was my birthday.",
-            "My friends called me and asked me to stay home.",
-            "A few minutes later, they came to my home with a cake and some gifts.",
+            "It was my birthday, and my friends called me and asked me to stay home.",
+            "A few minutes later, they came over with a cake and some gifts for me.",
             "Then, they started singing a birthday song for me.",
             "I was really surprised and almost cried.",
-            "I was so thankful to my friends.",
-            "I will never forget that day."
+            "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "휴가 중 생일 → 친구들 방문 → 케이크·선물·생일 노래 → 놀람·감사",
+          "hint": "휴가 중 생일 → 친구들 집 방문 → 케이크·선물·생일 노래 → 놀람·감사",
           "questionEn": "Tell me about a memorable day during a vacation at home. What happened, and why do you remember it?",
           "type": "과거 경험"
         },
