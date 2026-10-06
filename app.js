@@ -63,6 +63,80 @@
 
   const normalize = (value) => String(value).toLocaleLowerCase("ko").trim();
 
+  const topicCategories = [
+    { id: "survey", title: "설문조사 기반 주제",
+      description: "주거 설정과 여가·취미·휴가 선택에 연결된 주제입니다." },
+    { id: "unexpected", title: "일반·돌발 주제",
+      description: "현재 설문 선택과 별도로 준비하는 일상 주제입니다." },
+    { id: "roleplay", title: "롤플레이",
+      description: "내가 질문을 만드는 문항과 상황·경험에 답하는 문항을 구분합니다." },
+  ];
+
+  const isAskingQuestion = (question) => question.type === "정보 문의";
+  const matchesTopic = (topic) => state.topic === "all"
+    || topic.id === state.topic
+    || topic.source === state.topic
+    || (topic.source === "roleplay" && state.topic.startsWith("roleplay:"));
+  const matchesRoleplayFilter = (question) => {
+    if (state.topic === "roleplay:ask") return isAskingQuestion(question);
+    if (state.topic === "roleplay:respond") return !isAskingQuestion(question);
+    return true;
+  };
+
+  const getRoleplaySections = (topic) => {
+    const originalSets = topic.roleplaySections.flatMap((section) => section.sets);
+    return [
+      { id: "roleplay-ask", title: "내가 직접 질문하는 문항",
+        description: "상대에게 필요한 정보를 묻습니다. 문항에서 요청한 질문 수를 확인하세요.",
+        type: "정보 문의", group: "ask" },
+      { id: "roleplay-solve", title: "문제 해결 통화",
+        description: "상대에게 문제를 설명하고 대안을 제안합니다. 확인 질문이 포함될 수 있지만 정보 문의 문항과는 구분합니다.",
+        type: "문제 해결 역할극", group: "respond" },
+      { id: "roleplay-experience", title: "과거 경험 답변",
+        description: "평가자의 질문에 답하며 겪은 문제·대처·결과를 말합니다.",
+        type: "문제 경험", group: "respond" },
+    ].map((section) => ({
+      ...section,
+      sets: originalSets.map((set) => ({
+        ...set,
+        id: `${section.id}-${set.id}`,
+        questionIds: set.questionIds.filter((id) =>
+          questionById.get(id)?.type === section.type
+          && topic.questions.some((question) => question.id === id)),
+      })).filter((set) => set.questionIds.length),
+    })).filter((section) => section.sets.length);
+  };
+
+  const renderRoleplaySections = (topic, renderSection) => {
+    const sections = getRoleplaySections(topic);
+    return [
+      { id: "ask", title: "1. 내가 질문해야 하는 문항" },
+      { id: "respond", title: "2. 상황·경험에 답하는 문항" },
+    ].map((group) => {
+      const members = sections.filter((section) => section.group === group.id);
+      if (!members.length) return "";
+      const count = members.reduce((sum, section) => sum
+        + section.sets.reduce((total, set) => total + set.questionIds.length, 0), 0);
+      return `<section class="roleplay-action-group">
+        <div class="roleplay-action-heading"><h3>${group.title}</h3>
+          <span>${count}개 문항</span></div>
+        ${members.map(renderSection).join("")}
+      </section>`;
+    }).join("");
+  };
+
+  const renderCategories = (topics, renderTopics) => topicCategories.map((category) => {
+    const members = topics.filter((topic) => topic.source === category.id);
+    if (!members.length) return "";
+    const count = members.reduce((sum, topic) => sum + topic.questions.length, 0);
+    return `<section class="study-category" aria-labelledby="category-${category.id}">
+      <div class="study-category-heading">
+        <h2 id="category-${category.id}">${category.title}</h2>
+        <p>${category.description} · ${count}개 문항</p>
+      </div>${renderTopics(members)}
+    </section>`;
+  }).join("");
+
   const matchesQuery = (topic, question) => {
     if (!state.query) {
       return true;
@@ -86,11 +160,12 @@
   const getVisibleTopics = () => data.topics
     .slice()
     .sort((first, second) => first.order - second.order)
-    .filter((topic) => state.topic === "all" || topic.id === state.topic)
+    .filter(matchesTopic)
     .map((topic) => ({
       ...topic,
       questions: topic.questions
-        .filter((question) => matchesQuery(topic, question))
+        .filter((question) => matchesQuery(topic, question)
+          && matchesRoleplayFilter(question))
         .sort((first, second) => {
           const firstPriority = first.status === "필수" ? 0 : 1;
           const secondPriority = second.status === "필수" ? 0 : 1;
@@ -135,7 +210,7 @@
     `;
     const filterGroups = [
       { id: "survey", title: "설문조사 기반" },
-      { id: "unexpected", title: "돌발 질문" },
+      { id: "unexpected", title: "일반·돌발 주제" },
       { id: "roleplay", title: "롤플레이" },
     ];
 
@@ -143,8 +218,13 @@
       <div class="topic-filter-all">${chipHtml({ id: "all", title: "전체" })}</div>
       <div class="topic-filter-groups">
         ${filterGroups.map((group) => {
-          const chips = data.topics
+          const chips = chipHtml({ id: group.id, title: `${group.title} 전체` })
+            + (group.id === "roleplay" ? [
+              { id: "roleplay:ask", title: "내가 질문하는 문항" },
+              { id: "roleplay:respond", title: "상황·경험에 답하는 문항" },
+            ].map(chipHtml).join("") : "") + data.topics
             .filter((topic) => topic.source === group.id)
+            .filter((topic) => group.id !== "roleplay")
             .sort((first, second) => first.order - second.order)
             .map((topic) => chipHtml({ id: topic.id, title: topic.title }))
             .join("");
@@ -205,7 +285,7 @@
       const commonNote = sharedLines.size
         ? "‘공통’ 표시는 전체 자료의 같은 유형 답변에서 재사용하는 문장입니다."
         : "";
-      const headingTag = topic.roleplaySections ? "h4" : "h3";
+      const headingTag = topic.roleplaySections ? "h5" : "h3";
       return `<section class="script-group" aria-labelledby="${group.id}-title">
         <div class="script-group__heading">
           <${headingTag} id="${group.id}-title">${escapeHtml(group.title)}</${headingTag}>
@@ -234,17 +314,17 @@
       </section>`;
     };
     const groups = topic.roleplaySections
-      ? topic.roleplaySections.map((section) => `
+      ? renderRoleplaySections(topic, (section) => `
         <section class="roleplay-section" aria-labelledby="${escapeHtml(section.id)}-title">
           <div class="roleplay-section__heading">
-            <h3 id="${escapeHtml(section.id)}-title">${escapeHtml(section.title)}</h3>
+            <h4 id="${escapeHtml(section.id)}-title">${escapeHtml(section.title)}</h4>
             <p>${escapeHtml(section.description)}</p>
           </div>
           ${section.sets.map((set, index) => renderGroup({
             ...set,
             title: `세트 ${index + 1} · ${set.title}`,
           })).join("")}
-        </section>`).join("")
+        </section>`)
       : topic.scriptGroups.map(renderGroup).join("");
     return `<section class="topic-section" aria-labelledby="${topic.id}-title">
       <div class="topic-heading">
@@ -255,12 +335,7 @@
     </section>`;
   }).join("");
 
-  const renderQuestions = (topics) => topics.map((topic) => `
-    <section class="topic-section" aria-labelledby="${topic.id}-practice-title">
-      <div class="topic-heading">
-        <h2 id="${topic.id}-practice-title">${topic.order}. ${escapeHtml(topic.title)}</h2>
-        <span>${topic.questions.length}개 문제</span>
-      </div>
+  const renderQuestionCards = (topic) => `
       <div class="card-list">
         ${topic.questions.map((question) => {
           const panelId = `${question.id}-hint`;
@@ -274,20 +349,28 @@
                 ${escapeHtml(question.hint)}
               </div>
               <div class="question-card__footer">
-                <button
-                  class="hint-button"
-                  type="button"
-                  aria-expanded="false"
-                  aria-controls="${panelId}"
-                  data-action="hint"
-                >
-                  힌트 보기
-                </button>
+                <button class="hint-button" type="button" aria-expanded="false"
+                  aria-controls="${panelId}" data-action="hint">힌트 보기</button>
               </div>
-            </article>
-          `;
+            </article>`;
         }).join("")}
+      </div>`;
+
+  const renderQuestions = (topics) => topics.map((topic) => `
+    <section class="topic-section" aria-labelledby="${topic.id}-practice-title">
+      <div class="topic-heading">
+        <h2 id="${topic.id}-practice-title">${topic.order}. ${escapeHtml(topic.title)}</h2>
+        <span>${topic.questions.length}개 문제</span>
       </div>
+      ${topic.roleplaySections ? renderRoleplaySections(topic, (section) => `
+        <section class="roleplay-section" aria-labelledby="${section.id}-practice-title">
+          <div class="roleplay-section__heading">
+            <h4 id="${section.id}-practice-title">${section.title}</h4>
+            <p>${section.description}</p>
+          </div>
+          ${renderQuestionCards({ ...topic, questions: section.sets.flatMap((set) =>
+            set.questionIds.map((id) => questionById.get(id))) })}
+        </section>`) : renderQuestionCards(topic)}
     </section>
   `).join("");
 
@@ -364,7 +447,13 @@
               <div>
                 <strong>${escapeHtml(item.label)}</strong>
                 ${item.topics.length > 0
-                  ? `<small>연결 주제 · ${escapeHtml(item.topics.join(", "))}</small>`
+                  ? `<small>연결 주제 · ${escapeHtml(item.topics.join(", "))}</small>
+                    <div class="survey-topic-links">${item.topics.map((title) => {
+                      const topic = data.topics.find((entry) => entry.title === title);
+                      return topic ? `<button type="button" class="text-button"
+                        data-action="open-topic" data-topic-id="${topic.id}">
+                        ${escapeHtml(title)} 연습</button>` : "";
+                    }).join("")}</div>`
                   : "<small>선택 기록 · 별도 스크립트 없음</small>"}
               </div>
             </li>
@@ -444,9 +533,8 @@
       return;
     }
 
-    elements.content.innerHTML = state.view === "scripts"
-      ? renderScripts(topics)
-      : renderQuestions(topics);
+    elements.content.innerHTML = renderCategories(topics,
+      state.view === "scripts" ? renderScripts : renderQuestions);
   };
 
   const setView = (view) => {
@@ -535,6 +623,13 @@
     }
     if (button.dataset.action === "copy") {
       copyAnswer(button);
+    }
+    if (button.dataset.action === "open-topic") {
+      state.topic = button.dataset.topicId;
+      state.query = "";
+      elements.search.value = "";
+      renderFilters();
+      setView("scripts");
     }
 
   });
