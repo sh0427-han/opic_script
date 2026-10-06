@@ -1447,15 +1447,16 @@ window.OPIC_DATA = {
           "question": "국내여행을 준비할 때 무엇을 하나요? 평소 준비 과정을 단계별로 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Before a trip to Busan, I usually book my train ticket and hotel first.",
-            "Then I check the weather and pack enough clothes for one or two days.",
-            "I save the train time and hotel address on my phone so I can find them easily.",
-            "I also choose the first place I want to visit, but I don't plan every minute.",
-            "Finally, I charge my phone and check my bag once more before leaving, just to be sure."
+            "Before I go to the beach, I usually check the weather first.",
+            "Then, I pack some water, sunscreen, and my phone.",
+            "I also bring a small towel with me.",
+            "I don’t take too many things because I like to keep it simple.",
+            "Before I leave, I check everything one more time."
           ],
-          "hint": "기차·호텔 예약 → 날씨·옷 → 시간·주소 저장 → 첫 목적지",
+          "hint": "날씨 확인 → 물·선크림·휴대폰 → 작은 수건 → 간단히 준비 → 출발 전 재확인",
           "questionEn": "What do you do to get ready for a domestic trip? Explain your usual preparation step by step.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-7-q5",
