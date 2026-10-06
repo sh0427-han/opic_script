@@ -80,95 +80,7 @@
       `<li>${escapeHtml(step)}</li>`).join("")}</ol>`
     : `<span>${escapeHtml(question.hint)}</span>`;
 
-  const roleplayScenarios = [
-  [
-    "친구와 약속",
-    "rp1",
-    "rp3",
-    "rp5"
-  ],
-  [
-    "전자기기 구매·고장",
-    "mp3-rp1",
-    "mp3-rp2",
-    "mp3-rp3"
-  ],
-  [
-    "콘서트 예매·문제",
-    "concert-rp1",
-    [
-      "concert-rp2",
-      "rp4"
-    ],
-    null
-  ],
-  [
-    "기차 여행",
-    "travel-rp1",
-    "travel-rp2",
-    "travel-rp3"
-  ],
-  [
-    "집 구하기·집 문제",
-    "house-rp1",
-    "house-rp2",
-    "house-rp3"
-  ],
-  [
-    "친구의 부탁·식물 돌보기",
-    "friend-rp1",
-    "friend-rp2",
-    "friend-rp3"
-  ],
-  [
-    "미용실 예약",
-    "service-rp1",
-    "service-rp2",
-    null
-  ],
-  [
-    "음식점 문의",
-    "restaurant-rp1",
-    null,
-    null
-  ],
-  [
-    "호텔 예약",
-    "hotel-rp1",
-    null,
-    null
-  ],
-  [
-    "재활용 문의",
-    "recycling-rp1",
-    null,
-    null
-  ],
-  [
-    "휴대폰 수리 문의",
-    "repair-rp1",
-    null,
-    null
-  ],
-  [
-    "파티 초대",
-    "party-rp1",
-    null,
-    null
-  ],
-  [
-    "박물관 방문",
-    "rp2",
-    null,
-    null
-  ],
-  [
-    "유명인에게 질문",
-    "celebrity-rp1",
-    null,
-    null
-  ]
-];
+  const roleplayScenarios = data.topics.find((topic) => topic.source === "roleplay").roleplayScenarios;
 
   const getRoleplaySections = (topic) => roleplayScenarios.map((scenario, index) => {
     const [title, ...stages] = scenario;
@@ -256,10 +168,10 @@
         <p class="question-meta">
           <span class="question-number">${escapeHtml(question.number)}</span>
           <span class="question-type">${escapeHtml(question.type)}</span>
-          <span class="sentence-count">답변 ${question.answer.length}문장</span>
+          <span class="sentence-count">${question.questionOnly ? "질문만 등록" : `답변 ${question.answer.length}문장`}</span>
           <span class="origin-label ${question.scriptOrigin === "user"
     ? "origin-label--user" : "origin-label--original"}">${question.scriptOrigin === "user"
-    ? "직접 작성" : "기존 스크립트"}</span>
+    ? "직접 작성" : question.questionOnly ? "추가 연습 문항" : "기존 스크립트"}</span>
         </p>
         <h3 class="question-title" lang="en">${escapeHtml(question.questionEn)}</h3>
         <p class="question-translation" lang="ko">${escapeHtml(question.question)}</p>
@@ -307,7 +219,9 @@
     `;
   };
 
-  const answerHtml = (question) => `
+  const answerHtml = (question) => question.questionOnly
+    ? '<p class="source-note">답변 스크립트는 아직 작성되지 않았습니다.</p>'
+    : `
     <div class="answer">
       <p lang="en">${escapeHtml(question.answer.join(" "))}</p>
     </div>
@@ -373,13 +287,13 @@
               ${answerHtml(question, sharedLines)}
               ${variantsHtml(question)}
               <div class="flow">
-                <strong>흐름</strong>
+                <strong>${question.questionOnly ? "답변 구성 힌트" : "흐름"}</strong>
                 ${flowHintHtml(question)}
               </div>
-              <div class="card-actions">
+              ${question.questionOnly ? "" : `<div class="card-actions">
                 <button class="text-button" type="button" data-action="copy"
                   data-question-id="${escapeHtml(question.id)}">스크립트 복사</button>
-              </div>
+              </div>`}
             </article>
           `).join("")}
         </div>
