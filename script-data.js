@@ -1,7 +1,7 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v40",
-  "updated": "2026-09-29",
+  "version": "v41",
+  "updated": "2026-10-06",
   "questionCount": 168,
   "survey": {
     "title": "시험 전 설문 선택",
@@ -2681,15 +2681,22 @@ window.OPIC_DATA = {
           "question": "주말에 친구와 약속을 잡으려고 합니다. 친구에게 전화해서 언제 어디서 만날지 정하기 위한 질문 세 가지를 해보세요.",
           "status": "필수",
           "answer": [
-            "Hey, I'd like to meet up this weekend because we haven't had time to talk lately.",
-            "Are you free on Saturday afternoon, maybe after lunch?",
-            "Would the cafe near the station be okay, or would you prefer somewhere closer to home?",
-            "What time would work best for you that afternoon?",
-            "Just let me know, and I'll plan around that."
+            "Hey, I want to meet you this weekend.",
+            "Are you free on Saturday?",
+            "Where should we meet?",
+            "What time should we meet?",
+            "Let me know what works for you."
           ],
-          "hint": "만날 제안 → 가능한 날 → 장소 → 시간 → 확인",
+          "hint": "이번 주말에 친구를 만나고 싶다고 말하기. → 토요일에 시간이 있는지 묻기. → 어디에서 만날지 묻기. → 몇 시에 만날지 묻기. → 친구에게 가능한 계획을 알려 달라고 하며 마무리하기.",
           "questionEn": "You want to make plans with a friend for the weekend. Call your friend and ask three questions to decide when and where to meet.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "이번 주말에 친구를 만나고 싶다고 말하기.",
+            "토요일에 시간이 있는지 묻기.",
+            "어디에서 만날지 묻기.",
+            "몇 시에 만날지 묻기.",
+            "친구에게 가능한 계획을 알려 달라고 하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-rp2",
@@ -2697,15 +2704,22 @@ window.OPIC_DATA = {
           "question": "이번 주말에 동네 박물관을 방문하려고 합니다. 박물관에 전화해서 방문에 관한 질문 세 가지를 해보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm planning to visit the museum this weekend, and I'd like to check a few things first.",
-            "What time do you open on Saturday morning?",
-            "Do I need to book ahead, or can I just buy a ticket when I arrive?",
-            "And how much does one adult ticket cost?",
-            "Thanks for your help, because I'd like to have everything ready before I come."
+            "Hi, I want to visit your museum this weekend.",
+            "What time do you open on Saturday?",
+            "Do I need to book a ticket?",
+            "How much is one ticket?",
+            "Thank you for your help."
           ],
-          "hint": "방문 용건 → 운영 시간 → 예약 → 가격 → 감사",
+          "hint": "이번 주말에 박물관을 방문하고 싶다고 용건 말하기. → 토요일에 몇 시에 여는지 묻기. → 표를 예약해야 하는지 묻기. → 표 한 장의 가격 묻기. → 안내에 감사하며 마무리하기.",
           "questionEn": "You want to visit a local museum this weekend. Call the museum and ask three questions about visiting.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "이번 주말에 박물관을 방문하고 싶다고 용건 말하기.",
+            "토요일에 몇 시에 여는지 묻기.",
+            "표를 예약해야 하는지 묻기.",
+            "표 한 장의 가격 묻기.",
+            "안내에 감사하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-rp3",
@@ -2713,16 +2727,24 @@ window.OPIC_DATA = {
           "question": "몸이 아파 오늘 친구를 만날 수 없습니다. 친구에게 전화해 상황을 설명하고 다른 계획 두 가지를 제안해 보세요.",
           "status": "필수",
           "answer": [
-            "Hey, I'm really sorry, but I can't meet today because I'm not feeling well.",
-            "I was hoping I'd feel better, but I think I need to stay home and rest.",
-            "Could we meet next weekend instead, when I'm feeling better?",
-            "Or we could just have a short phone call tonight and catch up that way.",
-            "I'm sorry to change our plans at the last minute like this.",
-            "Just let me know what works for you, and we can find a good time."
+            "Hey, I'm really sorry, but I can't meet you today.",
+            "I'm not feeling well, so I need to stay home and rest.",
+            "Could we meet next weekend instead?",
+            "Or we could talk on the phone tonight.",
+            "Let me know what works for you.",
+            "I'm sorry again."
           ],
-          "hint": "사과·몸 상태 → 다음 주말 → 전화 대화 → 확인",
+          "hint": "오늘 만날 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 이유 설명하기. → 첫 번째 대안으로 다음 주말에 만나자고 제안하기. → 두 번째 대안으로 오늘 밤 전화로 이야기하자고 제안하기. → 친구에게 어떤 방법이 좋은지 알려 달라고 하기. → 다시 한번 사과하며 마무리하기.",
           "questionEn": "You are sick and cannot meet your friend today. Call your friend, explain the situation, and suggest two other plans.",
-          "type": "문제 해결 역할극"
+          "type": "문제 해결 역할극",
+          "hintSteps": [
+            "오늘 만날 수 없다고 말하며 사과하기.",
+            "몸이 좋지 않아 집에서 쉬어야 한다고 이유 설명하기.",
+            "첫 번째 대안으로 다음 주말에 만나자고 제안하기.",
+            "두 번째 대안으로 오늘 밤 전화로 이야기하자고 제안하기.",
+            "친구에게 어떤 방법이 좋은지 알려 달라고 하기.",
+            "다시 한번 사과하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-rp4",
@@ -2730,16 +2752,24 @@ window.OPIC_DATA = {
           "question": "날짜가 잘못된 콘서트 티켓을 받았습니다. 예매처에 전화해 문제를 설명하고 해결 방법 두 가지를 제안해 보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because the date on my concert ticket doesn't look right.",
-            "I wanted to go on Saturday, but the ticket on my phone says Friday.",
-            "Could you check my booking and see what happened?",
-            "Would it be possible to change the ticket to Saturday instead?",
-            "If that isn't possible, could I cancel it and get a refund?",
-            "I'd really appreciate your help, because I can't make it on Friday."
+            "Hi, I have a problem with my concert ticket.",
+            "I booked a ticket for Saturday, but it says Friday.",
+            "Could you change it to Saturday?",
+            "If that's not possible, could I get a refund?",
+            "I can't go on Friday.",
+            "Thank you for your help."
           ],
-          "hint": "잘못된 날짜 → 토요일 티켓 요청 → 변경 또는 취소·환불",
+          "hint": "콘서트 티켓에 문제가 있어 전화했다고 말하기. → 토요일 표를 예약했는데 티켓에는 금요일이라고 적혀 있다고 설명하기. → 첫 번째 해결책으로 토요일 표로 바꿔 달라고 요청하기. → 변경이 안 되면 두 번째 해결책으로 환불을 요청하기. → 금요일에는 갈 수 없다고 덧붙이기. → 도움에 감사하며 마무리하기.",
           "questionEn": "You received a ticket for the wrong concert date. Call the ticket office, explain the problem, and suggest two ways to resolve it.",
-          "type": "문제 해결 역할극"
+          "type": "문제 해결 역할극",
+          "hintSteps": [
+            "콘서트 티켓에 문제가 있어 전화했다고 말하기.",
+            "토요일 표를 예약했는데 티켓에는 금요일이라고 적혀 있다고 설명하기.",
+            "첫 번째 해결책으로 토요일 표로 바꿔 달라고 요청하기.",
+            "변경이 안 되면 두 번째 해결책으로 환불을 요청하기.",
+            "금요일에는 갈 수 없다고 덧붙이기.",
+            "도움에 감사하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-rp5",
@@ -2747,16 +2777,24 @@ window.OPIC_DATA = {
           "question": "친구와의 약속을 바꿔야 했던 적이 있나요? 이유·대처·결과를 말해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I once had to change plans with a friend because I wasn't feeling well.",
-            "I sent a message as soon as I knew I couldn't go, and I said I was sorry.",
-            "I asked if we could meet the following weekend instead of canceling completely.",
-            "Luckily, my friend understood, and we found another time that worked for both of us.",
-            "We finally met for dinner a week later, when I was feeling much better.",
-            "Honestly, I was glad I'd said something early instead of making my friend wait."
+            "I remember one time I had to change plans with a friend.",
+            "We planned to meet at a cafe, but I was sick.",
+            "So I called my friend and said sorry.",
+            "I asked if we could meet the next weekend.",
+            "My friend said okay, and we met a week later.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "아파서 취소 → 메시지·사과 → 다음 주말 제안 → 만남",
+          "hint": "친구와 약속을 바꿔야 했던 경험이 기억난다고 시작하기. → 카페에서 만나기로 했지만 몸이 아팠다고 설명하기. → 친구에게 전화해 사과했다고 말하기. → 다음 주말에 만날 수 있는지 물었다고 말하기. → 친구가 괜찮다고 했고 일주일 뒤에 만났다고 결과 설명하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Have you ever had to change plans with a friend? Tell me why the plans changed, what you did, and how it turned out.",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "친구와 약속을 바꿔야 했던 경험이 기억난다고 시작하기.",
+            "카페에서 만나기로 했지만 몸이 아팠다고 설명하기.",
+            "친구에게 전화해 사과했다고 말하기.",
+            "다음 주말에 만날 수 있는지 물었다고 말하기.",
+            "친구가 괜찮다고 했고 일주일 뒤에 만났다고 결과 설명하기.",
+            "결국 잘 해결되었다고 마무리하기."
+          ]
         },
         {
           "id": "topic-10-mp3-rp1",
@@ -2764,15 +2802,22 @@ window.OPIC_DATA = {
           "question": "MP3 플레이어에 관심이 있습니다. 전자제품 매장에 전화해 구매 전에 질문 세 가지를 해보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm interested in your MP3 player, and I'd like to ask a few things before buying it.",
-            "How much does it cost, including any extra charges?",
-            "Do you have it in black, or is it only available in other colors?",
-            "Can I buy it online, or do I need to come to the store?",
-            "Thanks for your help, because I'd like to check those details before I decide."
+            "Hi, I want to buy an MP3 player.",
+            "How much is it?",
+            "Do you have it in black?",
+            "Can I buy it online?",
+            "Thank you for your help."
           ],
-          "hint": "제품 문의 → 가격 → 색상 → 구매 방법 → 감사",
+          "hint": "MP3 플레이어를 사고 싶다고 용건 말하기. → 제품 가격 묻기. → 검은색 제품이 있는지 묻기. → 온라인으로 살 수 있는지 묻기. → 안내에 감사하며 마무리하기.",
           "questionEn": "You are interested in an MP3 player. Call an electronics store and ask three questions before buying it.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "MP3 플레이어를 사고 싶다고 용건 말하기.",
+            "제품 가격 묻기.",
+            "검은색 제품이 있는지 묻기.",
+            "온라인으로 살 수 있는지 묻기.",
+            "안내에 감사하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-mp3-rp2",
@@ -2780,16 +2825,24 @@ window.OPIC_DATA = {
           "question": "친구에게 빌린 MP3 플레이어를 실수로 고장 냈습니다. 친구에게 전화해 상황을 설명하고 해결책 두 가지를 제안해 보세요.",
           "status": "필수",
           "answer": [
-            "Hey, I'm really sorry, but something happened to the MP3 player you lent me.",
-            "I dropped it by accident, and now it won't turn on.",
-            "I tried turning it on again, but, well, nothing happened at all.",
-            "I can take it to a repair shop and pay for the repair myself.",
-            "If it can't be fixed, I'll buy you a new one instead.",
-            "Please tell me which option you'd prefer, because I really want to make this right."
+            "Hey, I'm really sorry, but I broke your MP3 player.",
+            "I dropped it, and now it won't turn on.",
+            "I can take it to a repair shop and pay for the repair.",
+            "Or I can buy you a new one.",
+            "Let me know what works for you.",
+            "I'm sorry again."
           ],
-          "hint": "사과 → 떨어뜨려 고장 → 수리비 부담 → 새 제품 → 선택",
+          "hint": "친구의 MP3 플레이어를 고장 냈다고 말하며 사과하기. → 떨어뜨린 뒤 전원이 켜지지 않는다고 설명하기. → 첫 번째 해결책으로 수리점에 가져가 수리비를 내겠다고 제안하기. → 두 번째 해결책으로 새 제품을 사주겠다고 제안하기. → 친구에게 어떤 방법이 좋은지 알려 달라고 하기. → 다시 한번 사과하며 마무리하기.",
           "questionEn": "You accidentally broke an MP3 player you borrowed from a friend. Call your friend, explain what happened, and offer two solutions.",
-          "type": "문제 해결 역할극"
+          "type": "문제 해결 역할극",
+          "hintSteps": [
+            "친구의 MP3 플레이어를 고장 냈다고 말하며 사과하기.",
+            "떨어뜨린 뒤 전원이 켜지지 않는다고 설명하기.",
+            "첫 번째 해결책으로 수리점에 가져가 수리비를 내겠다고 제안하기.",
+            "두 번째 해결책으로 새 제품을 사주겠다고 제안하기.",
+            "친구에게 어떤 방법이 좋은지 알려 달라고 하기.",
+            "다시 한번 사과하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-mp3-rp3",
@@ -2797,16 +2850,24 @@ window.OPIC_DATA = {
           "question": "전자기기가 작동하지 않았던 경험을 말해 주세요. 무엇을 하려던 중이었고, 어떻게 해결했나요?",
           "status": "필수",
           "answer": [
-            "Well, my phone suddenly turned off when I was trying to send a message.",
-            "The battery was empty, so pressing the power button didn't do anything.",
-            "I found my charger, plugged the phone in, and waited for a while.",
-            "Luckily, it turned back on after it had charged for a few minutes.",
-            "I sent the message again and checked that it had gone through this time.",
-            "Honestly, I was just glad the phone wasn't broken, because I use it for so many things."
+            "I remember one problem I had with my phone.",
+            "One day, it suddenly turned off while I was sending a message.",
+            "I was really surprised, but the battery was empty.",
+            "So I charged it and waited for a few minutes.",
+            "Then, it turned on, and I sent the message.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "메시지 중 휴대폰 꺼짐 → 충전 → 다시 켜짐 → 메시지 전송",
+          "hint": "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기. → 어느 날 메시지를 보내던 중 휴대폰이 갑자기 꺼졌다고 설명하기. → 놀랐지만 배터리가 다 된 것을 알았다고 말하기. → 충전하고 몇 분 기다렸다고 설명하기. → 다시 켜져 메시지를 보냈다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about a time an electronic device stopped working. What were you trying to do, and how did you solve the problem?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기.",
+            "어느 날 메시지를 보내던 중 휴대폰이 갑자기 꺼졌다고 설명하기.",
+            "놀랐지만 배터리가 다 된 것을 알았다고 말하기.",
+            "충전하고 몇 분 기다렸다고 설명하기.",
+            "다시 켜져 메시지를 보냈다고 결과 말하기.",
+            "결국 잘 해결되었다고 마무리하기."
+          ]
         },
         {
           "id": "topic-10-concert-rp1",
@@ -2814,16 +2875,24 @@ window.OPIC_DATA = {
           "question": "콘서트 티켓 두 장을 사려고 합니다. 예매처에 전화해 공연과 티켓에 관한 질문 서너 가지를 해보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'd like to buy two tickets for Saturday's concert, and I have a few questions.",
-            "What time does the show start on Saturday evening?",
-            "Are there still two seats together, preferably somewhere near the middle?",
-            "And how much does each ticket cost for those seats?",
-            "Could you tell me whether I should book them online or at the ticket office?",
-            "Thanks for your help, because I'd like to book them before they sell out."
+            "Hi, I want to buy two tickets for Saturday's concert.",
+            "What time does it start?",
+            "Do you have two seats together?",
+            "How much is each ticket?",
+            "Can I buy the tickets online?",
+            "Thank you for your help."
           ],
-          "hint": "티켓 두 장 → 시작 시간 → 붙은 좌석 → 가격 → 구매 방법",
+          "hint": "토요일 콘서트 티켓 두 장을 사고 싶다고 말하기. → 공연 시작 시간 묻기. → 붙어 있는 좌석 두 개가 있는지 묻기. → 표 한 장의 가격 묻기. → 온라인으로 표를 살 수 있는지 묻기. → 안내에 감사하며 마무리하기.",
           "questionEn": "You want two tickets for a concert. Call the ticket office and ask three or four questions about the show and the tickets.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "토요일 콘서트 티켓 두 장을 사고 싶다고 말하기.",
+            "공연 시작 시간 묻기.",
+            "붙어 있는 좌석 두 개가 있는지 묻기.",
+            "표 한 장의 가격 묻기.",
+            "온라인으로 표를 살 수 있는지 묻기.",
+            "안내에 감사하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-concert-rp2",
@@ -2831,16 +2900,24 @@ window.OPIC_DATA = {
           "question": "친구와 콘서트에 가기로 했지만 몸이 아파 갈 수 없습니다. 전화로 문제를 설명하고 대안 두 가지를 제안해 보세요.",
           "status": "필수",
           "answer": [
-            "Hey, I'm really sorry, but I don't think I can go to the concert because I'm feeling sick.",
-            "I was hoping I'd feel better, but I think I need to stay home and rest.",
-            "Would you like to take another friend instead, so you can still enjoy the show?",
-            "If not, we could call the ticket office and ask about getting a refund.",
-            "I can make that call and check what they can do for us.",
-            "Just let me know what works for you, and we can find a good time."
+            "Hey, I'm really sorry, but I can't go to the concert.",
+            "I'm not feeling well, so I need to stay home and rest.",
+            "Could you go with another friend instead?",
+            "Or we could ask for a refund.",
+            "Let me know what works for you.",
+            "I'm sorry again."
           ],
-          "hint": "사과·몸 상태 → 다른 친구 동행 → 환불 → 선택 확인",
+          "hint": "콘서트에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 대안으로 다른 친구와 가는 것이 어떤지 제안하기. → 두 번째 대안으로 환불을 요청하자고 제안하기. → 친구에게 어떤 방법이 좋은지 알려 달라고 하기. → 다시 한번 사과하며 마무리하기.",
           "questionEn": "You have concert plans with a friend, but you are too sick to go. Call your friend, explain the problem, and suggest two alternatives.",
-          "type": "문제 해결 역할극"
+          "type": "문제 해결 역할극",
+          "hintSteps": [
+            "콘서트에 갈 수 없다고 말하며 사과하기.",
+            "몸이 좋지 않아 집에서 쉬어야 한다고 설명하기.",
+            "첫 번째 대안으로 다른 친구와 가는 것이 어떤지 제안하기.",
+            "두 번째 대안으로 환불을 요청하자고 제안하기.",
+            "친구에게 어떤 방법이 좋은지 알려 달라고 하기.",
+            "다시 한번 사과하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-travel-rp1",
@@ -2848,16 +2925,24 @@ window.OPIC_DATA = {
           "question": "부산으로 기차 여행을 계획하고 있습니다. 역 안내 데스크에 전화해 티켓에 관한 질문 서너 가지를 해보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm planning to go to Busan this Saturday, and I'd like to ask about train tickets.",
-            "What time does the first train leave in the morning?",
-            "Are there still seats available on that train?",
-            "And how much would one ticket cost for an adult?",
-            "Could you tell me whether I should book online or buy the ticket at the station?",
-            "Thanks for your help, because I'd like to sort out the ticket before the weekend."
+            "Hi, I want to go to Busan this Saturday.",
+            "What time does the first train leave?",
+            "Are there any seats left?",
+            "How much is one ticket?",
+            "Can I buy the ticket online?",
+            "Thank you for your help."
           ],
-          "hint": "부산행 문의 → 시간 → 남은 좌석 → 가격 → 예약 방법",
+          "hint": "이번 토요일에 부산에 가려고 한다고 용건 말하기. → 첫 기차가 몇 시에 출발하는지 묻기. → 남은 좌석이 있는지 묻기. → 표 한 장의 가격 묻기. → 온라인으로 표를 살 수 있는지 묻기. → 안내에 감사하며 마무리하기.",
           "questionEn": "You are planning a train trip to Busan. Call the station's information desk and ask three or four questions about tickets.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "이번 토요일에 부산에 가려고 한다고 용건 말하기.",
+            "첫 기차가 몇 시에 출발하는지 묻기.",
+            "남은 좌석이 있는지 묻기.",
+            "표 한 장의 가격 묻기.",
+            "온라인으로 표를 살 수 있는지 묻기.",
+            "안내에 감사하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-travel-rp2",
@@ -2865,16 +2950,24 @@ window.OPIC_DATA = {
           "question": "몸이 아파 친구와 계획한 여행을 갈 수 없습니다. 친구에게 전화해 대안 두 가지를 제안해 보세요.",
           "status": "필수",
           "answer": [
-            "Hey, I'm really sorry, but I can't go to Busan this weekend because I'm feeling sick.",
-            "I was hoping I'd feel better, but I think I need to stay home and rest.",
-            "Could we move the trip to next weekend instead, if you're free then?",
-            "Or we could cancel for now and ask for a refund on the tickets.",
-            "I can call and check whether we can change them without paying too much extra.",
-            "Just let me know what works for you, and we can find a good time."
+            "Hey, I'm really sorry, but I can't go to Busan this weekend.",
+            "I'm not feeling well, so I need to stay home and rest.",
+            "Could we go next weekend instead?",
+            "Or we could cancel the trip and ask for a refund.",
+            "Let me know what works for you.",
+            "I'm sorry again."
           ],
-          "hint": "사과 → 다음 주말로 변경 → 취소·환불 → 도움·확인",
+          "hint": "이번 주말에 부산에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 대안으로 다음 주말에 가자고 제안하기. → 두 번째 대안으로 여행을 취소하고 환불을 요청하자고 제안하기. → 친구에게 어떤 방법이 좋은지 알려 달라고 하기. → 다시 한번 사과하며 마무리하기.",
           "questionEn": "You cannot take a planned trip with your friend because you are sick. Call your friend and suggest two alternatives.",
-          "type": "문제 해결 역할극"
+          "type": "문제 해결 역할극",
+          "hintSteps": [
+            "이번 주말에 부산에 갈 수 없다고 말하며 사과하기.",
+            "몸이 좋지 않아 집에서 쉬어야 한다고 설명하기.",
+            "첫 번째 대안으로 다음 주말에 가자고 제안하기.",
+            "두 번째 대안으로 여행을 취소하고 환불을 요청하자고 제안하기.",
+            "친구에게 어떤 방법이 좋은지 알려 달라고 하기.",
+            "다시 한번 사과하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-travel-rp3",
@@ -2882,17 +2975,24 @@ window.OPIC_DATA = {
           "question": "여행 계획을 바꾼 경험을 말해 주세요. 무엇 때문에 바꾸었고, 대신 어떻게 했나요?",
           "status": "필수",
           "answer": [
-            "I once changed my trip to Busan because there was going to be heavy rain.",
-            "I'd planned to spend most of the weekend walking along Haeundae Beach.",
-            "When I checked the weather, I realized that probably wouldn't be much fun.",
-            "So I changed my train ticket to the next weekend instead of going right away.",
-            "Luckily, the weather was clear then, and I could enjoy a slow walk by the sea.",
-            "I also took a few pictures before going back to my hotel.",
-            "Honestly, I was glad I'd waited, because I got the quiet beach trip I'd wanted."
+            "I remember one time I changed my trip to Busan.",
+            "I wanted to go to Haeundae Beach, but there was heavy rain.",
+            "So I changed my train ticket to the next weekend.",
+            "Luckily, the weather was good that weekend.",
+            "I walked along the beach and took some pictures.",
+            "So yeah, I had a really relaxing time."
           ],
-          "hint": "폭우 → 기차 날짜 변경 → 다음 주말 맑음 → 해변·사진",
+          "hint": "부산 여행 계획을 바꿨던 경험이 기억난다고 시작하기. → 해운대에 가고 싶었지만 비가 많이 왔다고 이유 설명하기. → 기차표를 다음 주말로 바꿨다고 말하기. → 다행히 그 주말에는 날씨가 좋았다고 설명하기. → 해변을 걷고 사진을 찍었다고 말하기. → 정말 편안한 시간을 보냈다고 마무리하기.",
           "questionEn": "Tell me about a time you changed your travel plans. What caused the change, and what did you do instead?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "부산 여행 계획을 바꿨던 경험이 기억난다고 시작하기.",
+            "해운대에 가고 싶었지만 비가 많이 왔다고 이유 설명하기.",
+            "기차표를 다음 주말로 바꿨다고 말하기.",
+            "다행히 그 주말에는 날씨가 좋았다고 설명하기.",
+            "해변을 걷고 사진을 찍었다고 말하기.",
+            "정말 편안한 시간을 보냈다고 마무리하기."
+          ]
         },
         {
           "id": "topic-10-house-rp1",
@@ -2900,15 +3000,22 @@ window.OPIC_DATA = {
           "question": "임대 아파트를 찾고 있습니다. 부동산에 전화해 관심 있는 아파트에 관한 질문 세 가지를 해보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling about the apartment for rent, and I'd like to check a few details.",
-            "How much is the rent each month, including any regular building fees?",
-            "How many bedrooms are there in the apartment?",
-            "Could I come and see it this Saturday afternoon, if that time is available?",
-            "Thanks for your help, because seeing it in person would make it easier for me to decide."
+            "Hi, I'm calling about the apartment for rent.",
+            "How much is the rent each month?",
+            "How many bedrooms are there?",
+            "Can I see the apartment this Saturday?",
+            "Thank you for your help."
           ],
-          "hint": "집 문의 → 월세 → 방 개수 → 방문 가능일 → 감사",
+          "hint": "임대 아파트에 대해 문의하려고 전화했다고 말하기. → 한 달 월세가 얼마인지 묻기. → 침실이 몇 개인지 묻기. → 이번 토요일에 집을 볼 수 있는지 묻기. → 안내에 감사하며 마무리하기.",
           "questionEn": "You are looking for an apartment to rent. Call a real estate office and ask three questions about an apartment you are interested in.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "임대 아파트에 대해 문의하려고 전화했다고 말하기.",
+            "한 달 월세가 얼마인지 묻기.",
+            "침실이 몇 개인지 묻기.",
+            "이번 토요일에 집을 볼 수 있는지 묻기.",
+            "안내에 감사하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-house-rp2",
@@ -2916,16 +3023,24 @@ window.OPIC_DATA = {
           "question": "아파트 창문이 고장 나 닫히지 않습니다. 관리사무소에 전화해 문제를 설명하고 도움받을 방법 두 가지를 제안해 보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm calling because the window in my apartment is broken and won't close.",
-            "Cold air keeps coming in, so the room is getting pretty uncomfortable.",
-            "Could someone come and fix it today, if anyone is available?",
-            "If today isn't possible, could someone come first thing tomorrow morning instead?",
-            "And could you tell me how to cover it safely until someone gets here?",
-            "I'd really appreciate your help, because I don't want to leave it like this overnight."
+            "Hi, I have a problem with my apartment window.",
+            "It's broken, and I can't close it.",
+            "My room is really cold.",
+            "Could someone come and fix it today?",
+            "If today isn't possible, could someone come tomorrow morning?",
+            "Thank you for your help."
           ],
-          "hint": "창문 고장·찬 공기 → 오늘 수리 → 내일 수리·임시 대처",
+          "hint": "아파트 창문에 문제가 있어 전화했다고 말하기. → 창문이 고장 나 닫을 수 없다고 설명하기. → 방이 매우 춥다고 불편한 점 말하기. → 첫 번째 방법으로 오늘 사람을 보내 고쳐 달라고 요청하기. → 오늘이 안 되면 두 번째 방법으로 내일 아침에 와 달라고 요청하기. → 도움에 감사하며 마무리하기.",
           "questionEn": "A window in your apartment is broken and will not close. Call the building office, explain the problem, and suggest two ways to get help.",
-          "type": "문제 해결 역할극"
+          "type": "문제 해결 역할극",
+          "hintSteps": [
+            "아파트 창문에 문제가 있어 전화했다고 말하기.",
+            "창문이 고장 나 닫을 수 없다고 설명하기.",
+            "방이 매우 춥다고 불편한 점 말하기.",
+            "첫 번째 방법으로 오늘 사람을 보내 고쳐 달라고 요청하기.",
+            "오늘이 안 되면 두 번째 방법으로 내일 아침에 와 달라고 요청하기.",
+            "도움에 감사하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-house-rp3",
@@ -2933,16 +3048,24 @@ window.OPIC_DATA = {
           "question": "집에서 도움이 필요했던 문제를 말해 주세요. 누구에게 연락했고, 어떻게 해결했나요?",
           "status": "필수",
           "answer": [
-            "My kitchen light went out while I was making dinner one evening.",
-            "It was too dark to keep cooking, so I stopped and moved into the living room.",
-            "I called the building office and explained what had happened to the light.",
-            "They told me someone could come the next morning, so I arranged a time.",
-            "The person arrived as promised and fixed the light without taking too long.",
-            "Honestly, I was just glad I could use the kitchen again and finish a meal safely."
+            "I remember one problem I had at home.",
+            "My kitchen light stopped working while I was making dinner.",
+            "I was really surprised, so I called the building office.",
+            "I told them about the problem.",
+            "Someone came the next morning and fixed it.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "주방 조명 → 요리 중단 → 관리사무소 → 다음 날 수리",
+          "hint": "집에서 문제가 생겼던 경험이 기억난다고 시작하기. → 저녁을 만들던 중 주방 조명이 작동하지 않았다고 설명하기. → 놀라서 관리사무소에 전화했다고 말하기. → 관리사무소에 문제를 설명했다고 말하기. → 다음 날 아침 사람이 와서 고쳐 주었다고 결과 설명하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about a problem at home that required help. Who did you contact, and how was the problem fixed?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "집에서 문제가 생겼던 경험이 기억난다고 시작하기.",
+            "저녁을 만들던 중 주방 조명이 작동하지 않았다고 설명하기.",
+            "놀라서 관리사무소에 전화했다고 말하기.",
+            "관리사무소에 문제를 설명했다고 말하기.",
+            "다음 날 아침 사람이 와서 고쳐 주었다고 결과 설명하기.",
+            "결국 잘 해결되었다고 마무리하기."
+          ]
         },
         {
           "id": "topic-10-friend-rp1",
@@ -2950,15 +3073,22 @@ window.OPIC_DATA = {
           "question": "친구가 집을 비우는 동안 식물에 물을 줘 달라고 합니다. 친구에게 전화해 준비에 필요한 질문 세 가지를 해보세요.",
           "status": "필수",
           "answer": [
-            "Hey, I'm happy to look after your plants, but I want to make sure I do it properly.",
-            "How often should I water them while you're away?",
-            "Where do you keep the watering can, so I don't have to look around for it?",
-            "And how should I get into your house when you're not there?",
-            "Just send me the details before you leave, and I'll take care of the rest."
+            "Hey, I can water your plants while you're away.",
+            "How often should I water them?",
+            "Where is the watering can?",
+            "Where can I find the house key?",
+            "Thanks, and enjoy your trip."
           ],
-          "hint": "식물 돌봄 → 물 주는 주기 → 물뿌리개 → 출입 방법",
+          "hint": "친구가 없는 동안 식물에 물을 줄 수 있다고 말하기. → 얼마나 자주 물을 줘야 하는지 묻기. → 물뿌리개가 어디에 있는지 묻기. → 집 열쇠를 어디에서 찾을 수 있는지 묻기. → 안내에 감사하고 여행 잘 다녀오라고 마무리하기.",
           "questionEn": "Your friend wants you to water some plants while they are away. Call your friend and ask three questions to get ready.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "친구가 없는 동안 식물에 물을 줄 수 있다고 말하기.",
+            "얼마나 자주 물을 줘야 하는지 묻기.",
+            "물뿌리개가 어디에 있는지 묻기.",
+            "집 열쇠를 어디에서 찾을 수 있는지 묻기.",
+            "안내에 감사하고 여행 잘 다녀오라고 마무리하기."
+          ]
         },
         {
           "id": "topic-10-friend-rp2",
@@ -2966,16 +3096,24 @@ window.OPIC_DATA = {
           "question": "친구의 식물에 물을 주러 갔지만 집 열쇠가 맞지 않습니다. 친구에게 전화해 문제를 설명하고 해결책 두 가지를 제안해 보세요.",
           "status": "필수",
           "answer": [
-            "Hey, I'm outside your house to water the plants, but I can't get in.",
-            "I've tried the key a couple of times, but it just won't turn.",
-            "Is there a spare key somewhere that I could use instead?",
-            "If not, could you ask someone nearby to come and let me in?",
-            "I can wait outside for a little while, so there's no need to rush.",
-            "Just let me know what works for you, and we can find a good time."
+            "Hey, I'm at your house, but I can't get in.",
+            "I tried the key, but it doesn't work.",
+            "Is there another key I can use?",
+            "Or could someone come and open the door?",
+            "I can wait here for a while.",
+            "Let me know what works for you."
           ],
-          "hint": "출입 불가 → 열쇠 문제 → 여분 열쇠 → 주변 사람 도움",
+          "hint": "친구집에 도착했지만 들어갈 수 없다고 말하기. → 열쇠를 써 봤지만 맞지 않는다고 설명하기. → 첫 번째 해결책으로 쓸 수 있는 다른 열쇠가 있는지 묻기. → 두 번째 해결책으로 누군가 와서 문을 열어 줄 수 있는지 묻기. → 여기서 잠시 기다릴 수 있다고 말하기. → 친구에게 가능한 방법을 알려 달라고 하며 마무리하기.",
           "questionEn": "You went to water your friend's plants, but the house key does not work. Call your friend, explain the problem, and suggest two solutions.",
-          "type": "문제 해결 역할극"
+          "type": "문제 해결 역할극",
+          "hintSteps": [
+            "친구집에 도착했지만 들어갈 수 없다고 말하기.",
+            "열쇠를 써 봤지만 맞지 않는다고 설명하기.",
+            "첫 번째 해결책으로 쓸 수 있는 다른 열쇠가 있는지 묻기.",
+            "두 번째 해결책으로 누군가 와서 문을 열어 줄 수 있는지 묻기.",
+            "여기서 잠시 기다릴 수 있다고 말하기.",
+            "친구에게 가능한 방법을 알려 달라고 하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-friend-rp3",
@@ -2983,16 +3121,24 @@ window.OPIC_DATA = {
           "question": "친구의 부탁을 들어주다가 문제가 생긴 경험을 말해 주세요. 무슨 일이 있었고, 어떻게 대처했나요?",
           "status": "필수",
           "answer": [
-            "I once went to water my friend's plants, but I couldn't open the front door.",
-            "I tried the key a few times, then called my friend because I didn't want to force it.",
-            "My friend told me there was another key nearby and explained where to find it.",
-            "Luckily, I found it quickly, and that key opened the door without any trouble.",
-            "I went inside, watered the plants, and made sure the door was locked when I left.",
-            "Honestly, I was glad I'd called instead of trying to handle it on my own."
+            "I remember one problem I had while helping a friend.",
+            "I went to water his plants, but the house key didn't work.",
+            "So I called my friend and told him about the problem.",
+            "He told me where to find another key.",
+            "I found it, opened the door, and watered the plants.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "물 주러 방문 → 열쇠 안 맞음 → 전화 → 여분 열쇠 → 완료",
+          "hint": "친구를 도와주다가 문제가 생긴 경험이 기억난다고 시작하기. → 친구의 식물에 물을 주러 갔지만 집 열쇠가 맞지 않았다고 설명하기. → 친구에게 전화해 문제를 말했다고 설명하기. → 친구가 다른 열쇠의 위치를 알려 주었다고 말하기. → 열쇠를 찾아 문을 열고 식물에 물을 주었다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about a problem you had while doing a favor for a friend. What happened, and how did you handle it?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "친구를 도와주다가 문제가 생긴 경험이 기억난다고 시작하기.",
+            "친구의 식물에 물을 주러 갔지만 집 열쇠가 맞지 않았다고 설명하기.",
+            "친구에게 전화해 문제를 말했다고 설명하기.",
+            "친구가 다른 열쇠의 위치를 알려 주었다고 말하기.",
+            "열쇠를 찾아 문을 열고 식물에 물을 주었다고 결과 말하기.",
+            "결국 잘 해결되었다고 마무리하기."
+          ]
         },
         {
           "id": "topic-10-service-rp1",
@@ -3000,24 +3146,24 @@ window.OPIC_DATA = {
           "question": "머리를 자르려고 예약하려 합니다. 미용실에 전화해 예약과 서비스에 관한 질문 세 가지를 해보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'd like to book a haircut this Saturday, and I have a few questions first.",
-            "Do you have any free times in the afternoon, preferably after two?",
-            "How much does a basic haircut cost, including washing my hair?",
-            "And how long does the appointment usually take from start to finish?",
-            "Thanks for your help, because I'd like to plan the rest of my day around it."
+            "Hi, I'd like to book a haircut this Saturday.",
+            "Do you have any times available in the afternoon?",
+            "How much is a haircut?",
+            "How long does it take?",
+            "Thank you for your help."
           ],
-          "hint": "토요일 예약 → 오후 가능 시간 → 가격 → 소요 시간",
+          "hint": "이번 토요일에 머리 자르는 예약을 하고 싶다고 말하기. → 오후에 예약 가능한 시간이 있는지 묻기. → 머리 자르는 비용 묻기. → 얼마나 오래 걸리는지 묻기. → 안내에 감사하며 마무리하기.",
           "variants": [
             {
               "label": "치과 질문일 때",
               "replacements": [
                 {
-                  "from": "Hi, I'd like to book a haircut this Saturday, and I have a few questions first.",
-                  "to": "Hi, I'd like to book a dental checkup this Saturday, and I have a few questions first."
+                  "from": "Hi, I'd like to book a haircut this Saturday.",
+                  "to": "Hi, I'd like to book a dental checkup this Saturday."
                 },
                 {
-                  "from": "How much does a basic haircut cost, including washing my hair?",
-                  "to": "How much does a basic dental checkup cost at your clinic?"
+                  "from": "How much is a haircut?",
+                  "to": "How much is a dental checkup?"
                 }
               ],
               "questionEn": "You want to book a dental checkup. Call the dental clinic and ask three questions about an appointment and the service.",
@@ -3025,7 +3171,14 @@ window.OPIC_DATA = {
             }
           ],
           "questionEn": "You want to book a haircut. Call the salon and ask three questions about an appointment and the service.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "이번 토요일에 머리 자르는 예약을 하고 싶다고 말하기.",
+            "오후에 예약 가능한 시간이 있는지 묻기.",
+            "머리 자르는 비용 묻기.",
+            "얼마나 오래 걸리는지 묻기.",
+            "안내에 감사하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-service-rp2",
@@ -3033,14 +3186,14 @@ window.OPIC_DATA = {
           "question": "몸이 아파 오늘 미용실 예약에 갈 수 없습니다. 전화해 상황을 설명하고 새로운 예약 시간 두 가지를 제안해 보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'm really sorry, but I need to change my appointment because I'm feeling sick.",
-            "I don't think I can come in today, so I wanted to let you know as soon as possible.",
-            "Could I move the appointment to Saturday afternoon, if you have a free time?",
-            "If that's already full, could I come on Monday morning instead?",
-            "Please let me know which time would be easier for you.",
-            "Thank you for helping me change it, and I'm sorry for the short notice."
+            "Hi, I'm really sorry, but I can't come to my appointment today.",
+            "I'm not feeling well, so I need to stay home and rest.",
+            "Could I come on Saturday afternoon instead?",
+            "Or could I come on Monday morning?",
+            "Let me know which time is okay.",
+            "I'm sorry again."
           ],
-          "hint": "예약 변경·사과 → 오늘 취소 → 토요일 오후 → 월요일 오전",
+          "hint": "오늘 예약에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 새 예약 시간으로 토요일 오후를 제안하기. → 두 번째 새 예약 시간으로 월요일 오전을 제안하기. → 어떤 시간이 가능한지 알려 달라고 하기. → 다시 한번 사과하며 마무리하기.",
           "questionEn": "You are sick and cannot attend your salon appointment today. Call the salon, explain the situation, and suggest two new appointment times.",
           "type": "문제 해결 역할극",
           "variants": [
@@ -3050,6 +3203,14 @@ window.OPIC_DATA = {
               "question": "몸이 아파 오늘 치과 예약에 갈 수 없습니다. 치과에 전화해 상황을 설명하고 새로운 예약 시간 두 가지를 제안해 보세요.",
               "replacements": []
             }
+          ],
+          "hintSteps": [
+            "오늘 예약에 갈 수 없다고 말하며 사과하기.",
+            "몸이 좋지 않아 집에서 쉬어야 한다고 설명하기.",
+            "첫 번째 새 예약 시간으로 토요일 오후를 제안하기.",
+            "두 번째 새 예약 시간으로 월요일 오전을 제안하기.",
+            "어떤 시간이 가능한지 알려 달라고 하기.",
+            "다시 한번 사과하며 마무리하기."
           ]
         },
         {
@@ -3058,16 +3219,24 @@ window.OPIC_DATA = {
           "question": "친구와 음식점에 가려고 합니다. 전화해 마감 시간·식사 가격·예약·주차에 관해 물어보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'd like to visit your restaurant with a friend this Saturday, and I have a few questions.",
-            "What time do you close in the evening?",
-            "About how much does a main dish cost, without drinks?",
-            "Do I need to book a table for two, or can we just come in?",
-            "And is there a parking area nearby that customers can use?",
-            "Thanks for your help, because we'd like to plan everything before we come."
+            "Hi, I want to visit your restaurant with a friend.",
+            "What time do you close?",
+            "How much is a meal?",
+            "Do I need to book a table?",
+            "Is there a parking area?",
+            "Thank you for your help."
           ],
-          "hint": "방문 용건 → 마감 → 가격 → 예약 → 주차 → 감사",
+          "hint": "친구와 음식점에 방문하고 싶다고 말하기. → 마감 시간 묻기. → 식사 가격 묻기. → 테이블을 예약해야 하는지 묻기. → 주차장이 있는지 묻기. → 안내에 감사하며 마무리하기.",
           "questionEn": "You want to visit a restaurant with a friend. Call and ask about closing time, meal prices, reservations, and parking.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "친구와 음식점에 방문하고 싶다고 말하기.",
+            "마감 시간 묻기.",
+            "식사 가격 묻기.",
+            "테이블을 예약해야 하는지 묻기.",
+            "주차장이 있는지 묻기.",
+            "안내에 감사하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-hotel-rp1",
@@ -3075,16 +3244,24 @@ window.OPIC_DATA = {
           "question": "호텔에 머무르려고 합니다. 호텔에 전화해 객실 예약에 필요한 질문 서너 가지를 해보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I'd like to stay at your hotel this Saturday, and I want to check a few things.",
-            "Do you have a quiet room with an ocean view available that night?",
-            "How much would one night cost for one person?",
-            "And is breakfast included in that price, or does it cost extra?",
-            "Could you tell me the easiest way to book the room?",
-            "Thanks for your help, because I'd like to finish my plans for the trip today."
+            "Hi, I'd like to book a room this Saturday.",
+            "Do you have a room with an ocean view?",
+            "How much is one night?",
+            "Is breakfast included?",
+            "Can I book the room online?",
+            "Thank you for your help."
           ],
-          "hint": "토요일 객실 → 바다 전망 → 1박 가격 → 조식 → 예약",
+          "hint": "이번 토요일에 객실을 예약하고 싶다고 말하기. → 바다가 보이는 방이 있는지 묻기. → 1박 가격 묻기. → 조식이 포함되어 있는지 묻기. → 온라인으로 방을 예약할 수 있는지 묻기. → 안내에 감사하며 마무리하기.",
           "questionEn": "You are planning a hotel stay. Call the hotel and ask three or four questions to help you book a room.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "이번 토요일에 객실을 예약하고 싶다고 말하기.",
+            "바다가 보이는 방이 있는지 묻기.",
+            "1박 가격 묻기.",
+            "조식이 포함되어 있는지 묻기.",
+            "온라인으로 방을 예약할 수 있는지 묻기.",
+            "안내에 감사하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-recycling-rp1",
@@ -3092,15 +3269,22 @@ window.OPIC_DATA = {
           "question": "아파트로 이사해서 재활용 정보를 알아야 합니다. 관리사무소에 전화해 질문 세 가지를 해보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I've just moved into the building, and I'm not sure how recycling works here.",
-            "Where exactly is the recycling area for residents?",
-            "Which days of the week can I use the recycling area?",
-            "And should I put plastic and paper in separate bags before bringing them down?",
-            "Thanks for explaining, because I want to make sure I put everything in the right place."
+            "Hi, I just moved into this building.",
+            "Where is the recycling area?",
+            "What days can I use it?",
+            "Should I separate plastic and paper?",
+            "Thank you for your help."
           ],
-          "hint": "재활용 문의 → 장소 → 이용일 → 분리 방법 → 감사",
+          "hint": "이 건물에 막 이사 왔다고 말하기. → 재활용장이 어디에 있는지 묻기. → 어떤 요일에 이용할 수 있는지 묻기. → 플라스틱과 종이를 따로 분리해야 하는지 묻기. → 안내에 감사하며 마무리하기.",
           "questionEn": "You have moved into an apartment and need information about recycling. Call the building office and ask three questions.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "이 건물에 막 이사 왔다고 말하기.",
+            "재활용장이 어디에 있는지 묻기.",
+            "어떤 요일에 이용할 수 있는지 묻기.",
+            "플라스틱과 종이를 따로 분리해야 하는지 묻기.",
+            "안내에 감사하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-repair-rp1",
@@ -3108,15 +3292,22 @@ window.OPIC_DATA = {
           "question": "휴대폰이 작동하지 않습니다. 수리점에 전화해 점검받는 데 필요한 질문 세 가지를 해보세요.",
           "status": "필수",
           "answer": [
-            "Hi, my phone has stopped working, and I'd like to bring it in to have it checked.",
-            "Would this afternoon be a good time to come, or should I book ahead?",
-            "How long does a basic check usually take?",
-            "And is there a checking fee if I decide not to go ahead with a repair?",
-            "Thanks for your help, because I use the phone every day and would like to get it sorted out soon."
+            "Hi, my phone isn't working, and I want to get it checked.",
+            "Can I bring it in this afternoon?",
+            "How long does it take to check it?",
+            "How much does the check cost?",
+            "Thank you for your help."
           ],
-          "hint": "고장·점검 용건 → 방문 시간 → 소요 시간 → 점검비",
+          "hint": "휴대폰이 작동하지 않아 점검받고 싶다고 말하기. → 오늘 오후에 가져가도 되는지 묻기. → 점검하는 데 얼마나 걸리는지 묻기. → 점검 비용이 얼마인지 묻기. → 안내에 감사하며 마무리하기.",
           "questionEn": "Your phone has stopped working. Call a repair shop and ask three questions about having it checked.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "휴대폰이 작동하지 않아 점검받고 싶다고 말하기.",
+            "오늘 오후에 가져가도 되는지 묻기.",
+            "점검하는 데 얼마나 걸리는지 묻기.",
+            "점검 비용이 얼마인지 묻기.",
+            "안내에 감사하며 마무리하기."
+          ]
         },
         {
           "id": "topic-10-party-rp1",
@@ -3124,15 +3315,22 @@ window.OPIC_DATA = {
           "question": "친구가 파티에 초대했습니다. 친구에게 전화해 파티 계획에 관한 질문 세 가지를 해보세요.",
           "status": "필수",
           "answer": [
-            "Hey, thanks for inviting me to your party, but I'd like to check a few things.",
-            "What time should I get there, so I don't arrive too early?",
-            "Could you send me the exact address of the party?",
-            "Should I bring any food or drinks for everyone to share?",
-            "Just send me the details when you have time, and I'll see you there."
+            "Hey, thanks for inviting me to your party.",
+            "What time does it start?",
+            "Where is the party?",
+            "Should I bring any food or drinks?",
+            "Thanks, and see you there."
           ],
-          "hint": "파티 문의 → 시간 → 위치 → 준비물 → 확인",
+          "hint": "파티에 초대해 줘서 고맙다고 말하기. → 파티가 몇 시에 시작하는지 묻기. → 파티 장소 묻기. → 음식이나 음료를 가져가야 하는지 묻기. → 고맙다고 말하고 파티에서 보자고 마무리하기.",
           "questionEn": "A friend has invited you to a party. Call your friend and ask three questions about the plans.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "파티에 초대해 줘서 고맙다고 말하기.",
+            "파티가 몇 시에 시작하는지 묻기.",
+            "파티 장소 묻기.",
+            "음식이나 음료를 가져가야 하는지 묻기.",
+            "고맙다고 말하고 파티에서 보자고 마무리하기."
+          ]
         },
         {
           "id": "topic-10-celebrity-rp1",
@@ -3140,15 +3338,22 @@ window.OPIC_DATA = {
           "question": "좋아하는 유명인과 이야기할 기회가 생겼다고 상상해 보세요. 팬이라고 소개하고 활동에 관한 질문 세 가지를 해보세요.",
           "status": "선택",
           "answer": [
-            "Hi, I'm a big fan of your work, so it's really nice to meet you.",
-            "When did you first become interested in the kind of work you do now?",
-            "What part of your work do you enjoy the most these days?",
-            "And is there something new you'd like to try in the future?",
-            "Thanks for taking the time to answer, because I've always wanted to hear about your work in your own words."
+            "Hi, I'm a big fan, and it's really nice to meet you.",
+            "How did you start your career?",
+            "What do you like most about your work?",
+            "What do you want to do next?",
+            "Thank you for your time."
           ],
-          "hint": "팬 인사 → 시작 계기 → 좋아하는 부분 → 다음 계획 → 감사",
+          "hint": "팬이라고 소개하고 만나서 반갑다고 말하기. → 활동을 어떻게 시작했는지 묻기. → 일에서 가장 좋아하는 부분 묻기. → 앞으로 무엇을 하고 싶은지 묻기. → 시간을 내줘서 고맙다고 마무리하기.",
           "questionEn": "Imagine you have a chance to speak with a celebrity you like. Introduce yourself as a fan and ask three questions about their work.",
-          "type": "정보 문의"
+          "type": "정보 문의",
+          "hintSteps": [
+            "팬이라고 소개하고 만나서 반갑다고 말하기.",
+            "활동을 어떻게 시작했는지 묻기.",
+            "일에서 가장 좋아하는 부분 묻기.",
+            "앞으로 무엇을 하고 싶은지 묻기.",
+            "시간을 내줘서 고맙다고 마무리하기."
+          ]
         },
         {
           "id": "topic-10-relative-rp1",
@@ -3157,14 +3362,21 @@ window.OPIC_DATA = {
           "questionEn": "Your relative will be away on vacation, and you have offered to look after their home. Phone your relative before they leave and ask three or four questions to find out what you need to do.",
           "question": "친척이 휴가를 가는 동안 집을 봐주기로 했습니다. 친척이 떠나기 전에 전화해서 해야 할 일을 알아보기 위한 질문 서너 가지를 해보세요.",
           "hintSteps": [
-            "친척이 없는 동안 집을 봐주기로 했다는 용건을 말하기.",
-            "방문 횟수, 해야 할 집안일, 집에 들어가는 방법 등 필요한 질문 서너 가지를 하기.",
-            "답변에 감사하고 통화를 마무리하기."
+            "친척이 없는 동안 집을 봐줄 수 있다고 말하기.",
+            "얼마나 자주 방문해야 하는지 묻기.",
+            "집에서 어떤 일을 해야 하는지 묻기.",
+            "집 열쇠를 어디에서 찾을 수 있는지 묻기.",
+            "안내에 감사하고 여행 잘 다녀오라고 마무리하기."
           ],
           "status": "필수",
-          "questionOnly": true,
-          "answer": [],
-          "hint": "친척이 없는 동안 집을 봐주기로 했다는 용건을 말하기. → 방문 횟수, 해야 할 집안일, 집에 들어가는 방법 등 필요한 질문 서너 가지를 하기. → 답변에 감사하고 통화를 마무리하기."
+          "answer": [
+            "Hi, I can look after your house while you're away.",
+            "How often should I visit?",
+            "What should I do at your house?",
+            "Where can I find the house key?",
+            "Thanks, and enjoy your trip."
+          ],
+          "hint": "친척이 없는 동안 집을 봐줄 수 있다고 말하기. → 얼마나 자주 방문해야 하는지 묻기. → 집에서 어떤 일을 해야 하는지 묻기. → 집 열쇠를 어디에서 찾을 수 있는지 묻기. → 안내에 감사하고 여행 잘 다녀오라고 마무리하기."
         },
         {
           "id": "topic-10-relative-rp2",
@@ -3173,14 +3385,25 @@ window.OPIC_DATA = {
           "questionEn": "At your relative's home, you find the door locked and cannot locate the key. Phone the front desk of the hotel where your relative is staying. Leave a message describing your difficulty and asking your relative to contact you with instructions.",
           "question": "친척집에 도착했는데 문이 잠겨 있고 열쇠를 찾을 수 없습니다. 친척이 머무는 호텔의 프런트에 전화하세요. 집에 들어갈 수 없는 상황을 설명하고, 어떻게 해야 하는지 알려 달라며 친척에게 연락을 요청하는 메시지를 남겨 보세요.",
           "hintSteps": [
-            "호텔 직원에게 친척을 위한 메시지를 남기려 한다고 말하기.",
-            "친척집 문이 잠겨 있고 열쇠를 찾지 못해 들어갈 수 없다고 설명하기.",
-            "친척이 연락해서 열쇠 위치나 집에 들어가는 방법을 알려 달라는 메시지를 전달해 달라고 요청하기."
+            "호텔에 머무는 친척을 김 씨인 이모라고 소개하기.",
+            "이모에게 메시지를 전달해 줄 수 있는지 호텔 직원에게 묻기.",
+            "지금 이모 집 앞인데 문이 잠겨 있다고 설명하기.",
+            "열쇠를 찾을 수 없어 집에 들어갈 수 없다고 말하기.",
+            "이모가 전화해서 열쇠 위치를 알려 달라는 메시지를 전해 달라고 요청하기.",
+            "메시지를 받을 수 있도록 예시 이름 한과 예시 전화번호 010-1234-5678을 말하기.",
+            "도움에 감사하며 마무리하기."
           ],
           "status": "필수",
-          "questionOnly": true,
-          "answer": [],
-          "hint": "호텔 직원에게 친척을 위한 메시지를 남기려 한다고 말하기. → 친척집 문이 잠겨 있고 열쇠를 찾지 못해 들어갈 수 없다고 설명하기. → 친척이 연락해서 열쇠 위치나 집에 들어가는 방법을 알려 달라는 메시지를 전달해 달라고 요청하기."
+          "answer": [
+            "Hi, my aunt, Ms. Kim, is staying at your hotel.",
+            "Could you give her a message?",
+            "I'm at her house, but the door is locked.",
+            "I can't find the key, so I can't get in.",
+            "Please ask her to call me and tell me where the key is.",
+            "My name is Han, and my number is 010-1234-5678.",
+            "Thank you for your help."
+          ],
+          "hint": "호텔에 머무는 친척을 김 씨인 이모라고 소개하기. → 이모에게 메시지를 전달해 줄 수 있는지 호텔 직원에게 묻기. → 지금 이모 집 앞인데 문이 잠겨 있다고 설명하기. → 열쇠를 찾을 수 없어 집에 들어갈 수 없다고 말하기. → 이모가 전화해서 열쇠 위치를 알려 달라는 메시지를 전해 달라고 요청하기. → 메시지를 받을 수 있도록 예시 이름 한과 예시 전화번호 010-1234-5678을 말하기. → 도움에 감사하며 마무리하기."
         },
         {
           "id": "topic-10-relative-rp3",
@@ -3189,14 +3412,23 @@ window.OPIC_DATA = {
           "questionEn": "Describe an occasion when you were unable to keep a promise or follow through on plans with a family member or friend. Explain what prevented you, how you let them know, and what happened afterward.",
           "question": "가족이나 친구에게 한 약속을 지키지 못했던 경험을 말해 주세요. 무엇 때문에 약속을 지키지 못했는지, 상대에게 어떻게 알렸는지, 그 후 어떻게 되었는지 설명해 주세요.",
           "hintSteps": [
-            "가족이나 친구와 어떤 약속을 했는지 말하기.",
-            "약속을 지키지 못한 이유와 상대에게 알린 방법을 설명하기.",
-            "상대의 반응과 이후의 결과를 말하기."
+            "친구와 만나기로 한 약속을 지키지 못했던 경험이 기억난다고 시작하기.",
+            "카페에서 만나기로 했지만 몸이 아팠다고 설명하기.",
+            "친구에게 전화해 사과했다고 말하기.",
+            "다음 주말에 만날 수 있는지 물었다고 말하기.",
+            "친구가 괜찮다고 했고 일주일 뒤에 만났다고 결과 설명하기.",
+            "결국 잘 해결되었다고 마무리하기."
           ],
           "status": "필수",
-          "questionOnly": true,
-          "answer": [],
-          "hint": "가족이나 친구와 어떤 약속을 했는지 말하기. → 약속을 지키지 못한 이유와 상대에게 알린 방법을 설명하기. → 상대의 반응과 이후의 결과를 말하기."
+          "answer": [
+            "I remember one time I couldn't meet a friend.",
+            "We planned to meet at a cafe, but I was sick.",
+            "So I called my friend and said sorry.",
+            "I asked if we could meet the next weekend.",
+            "My friend said okay, and we met a week later.",
+            "So yeah, everything was fine in the end."
+          ],
+          "hint": "친구와 만나기로 한 약속을 지키지 못했던 경험이 기억난다고 시작하기. → 카페에서 만나기로 했지만 몸이 아팠다고 설명하기. → 친구에게 전화해 사과했다고 말하기. → 다음 주말에 만날 수 있는지 물었다고 말하기. → 친구가 괜찮다고 했고 일주일 뒤에 만났다고 결과 설명하기. → 결국 잘 해결되었다고 마무리하기."
         },
         {
           "id": "topic-10-phone-buy-rp1",
@@ -3205,14 +3437,21 @@ window.OPIC_DATA = {
           "questionEn": "You are considering buying a new mobile phone. Phone a mobile phone store and ask three or four questions that would help you choose a phone and decide whether to buy it.",
           "question": "새 휴대전화 구매를 생각하고 있습니다. 휴대전화 매장에 전화해서 제품을 고르고 구매 여부를 결정하는 데 도움이 되는 질문 서너 가지를 해보세요.",
           "hintSteps": [
-            "새 휴대전화를 사려고 전화했다고 말하기.",
-            "추천 모델, 가격, 기능 등 구매 결정에 필요한 질문 서너 가지를 하기.",
-            "안내에 감사하고 통화를 마무리하기."
+            "새 휴대전화를 사고 싶다고 용건 말하기.",
+            "어떤 모델을 추천하는지 묻기.",
+            "가격이 얼마인지 묻기.",
+            "카메라 성능이 좋은지 묻기.",
+            "안내에 감사하며 마무리하기."
           ],
           "status": "필수",
-          "questionOnly": true,
-          "answer": [],
-          "hint": "새 휴대전화를 사려고 전화했다고 말하기. → 추천 모델, 가격, 기능 등 구매 결정에 필요한 질문 서너 가지를 하기. → 안내에 감사하고 통화를 마무리하기."
+          "answer": [
+            "Hi, I want to buy a new phone.",
+            "Which model do you recommend?",
+            "How much is it?",
+            "Does it have a good camera?",
+            "Thank you for your help."
+          ],
+          "hint": "새 휴대전화를 사고 싶다고 용건 말하기. → 어떤 모델을 추천하는지 묻기. → 가격이 얼마인지 묻기. → 카메라 성능이 좋은지 묻기. → 안내에 감사하며 마무리하기."
         },
         {
           "id": "topic-10-phone-buy-rp2",
@@ -3221,14 +3460,23 @@ window.OPIC_DATA = {
           "questionEn": "After trying the mobile phone you recently bought, you realize it does not suit you. Phone the store, explain what you are unhappy with, and request an exchange for a different model. Ask how to arrange the exchange.",
           "question": "최근 구입한 휴대전화를 사용해 보니 마음에 들지 않습니다. 매장에 전화해서 어떤 점이 마음에 들지 않는지 설명하고 다른 모델로 교환해 달라고 요청하세요. 교환을 어떻게 진행하면 되는지도 물어보세요.",
           "hintSteps": [
-            "최근 구매한 휴대전화가 마음에 들지 않아 전화했다고 말하기.",
-            "마음에 들지 않는 점을 구체적으로 설명하기.",
-            "다른 모델로 교환을 요청하고 필요한 절차를 확인하기."
+            "어제 이 매장에서 휴대전화를 샀다고 말하기.",
+            "사용해 보니 너무 커서 마음에 들지 않는다고 설명하기.",
+            "더 작은 모델로 교환할 수 있는지 요청하기.",
+            "영수증과 상자를 가져가야 하는지 절차 확인하기.",
+            "오늘 오후에 방문해도 되는지 묻기.",
+            "도움에 감사하며 마무리하기."
           ],
           "status": "필수",
-          "questionOnly": true,
-          "answer": [],
-          "hint": "최근 구매한 휴대전화가 마음에 들지 않아 전화했다고 말하기. → 마음에 들지 않는 점을 구체적으로 설명하기. → 다른 모델로 교환을 요청하고 필요한 절차를 확인하기."
+          "answer": [
+            "Hi, I bought a phone from your store yesterday.",
+            "I tried it, but it's too big for me.",
+            "Could I exchange it for a smaller model?",
+            "Should I bring the receipt and the box?",
+            "Can I come in this afternoon?",
+            "Thank you for your help."
+          ],
+          "hint": "어제 이 매장에서 휴대전화를 샀다고 말하기. → 사용해 보니 너무 커서 마음에 들지 않는다고 설명하기. → 더 작은 모델로 교환할 수 있는지 요청하기. → 영수증과 상자를 가져가야 하는지 절차 확인하기. → 오늘 오후에 방문해도 되는지 묻기. → 도움에 감사하며 마무리하기."
         },
         {
           "id": "topic-10-phone-buy-rp3",
@@ -3237,14 +3485,23 @@ window.OPIC_DATA = {
           "questionEn": "Recall a time when a new product you bought did not meet your expectations. Describe the product, why you were disappointed, and what you did about it. How did things turn out?",
           "question": "새로 구입한 제품이 기대에 미치지 못했던 경험을 말해 주세요. 어떤 제품이었는지, 왜 실망했는지, 어떻게 대처했는지 설명해 주세요. 결과는 어땠나요?",
           "hintSteps": [
-            "새로 구입한 제품과 구매 당시 기대를 말하기.",
-            "사용해 보니 어떤 점이 기대와 달라 실망했는지 설명하기.",
-            "교환 요청 등 대처 방법과 최종 결과를 말하기."
+            "새 휴대전화를 샀다가 실망했던 경험이 기억난다고 시작하기.",
+            "카메라가 좋아 보여서 샀다고 구매 당시 기대 설명하기.",
+            "실제로 써 보니 크기가 너무 컸다고 실망한 점 말하기.",
+            "매장에 전화해 더 작은 모델을 요청했다고 설명하기.",
+            "영수증을 들고 방문했고 교환해 주었다고 결과 말하기.",
+            "교환한 새 제품이 마음에 들었다고 마무리하기."
           ],
           "status": "필수",
-          "questionOnly": true,
-          "answer": [],
-          "hint": "새로 구입한 제품과 구매 당시 기대를 말하기. → 사용해 보니 어떤 점이 기대와 달라 실망했는지 설명하기. → 교환 요청 등 대처 방법과 최종 결과를 말하기."
+          "answer": [
+            "I remember one problem I had with a new phone.",
+            "I bought it because the camera looked really good.",
+            "But when I used it, it was too big for me.",
+            "So I called the store and asked for a smaller model.",
+            "I went there with the receipt, and they exchanged it.",
+            "So yeah, I was happy with the new one."
+          ],
+          "hint": "새 휴대전화를 샀다가 실망했던 경험이 기억난다고 시작하기. → 카메라가 좋아 보여서 샀다고 구매 당시 기대 설명하기. → 실제로 써 보니 크기가 너무 컸다고 실망한 점 말하기. → 매장에 전화해 더 작은 모델을 요청했다고 설명하기. → 영수증을 들고 방문했고 교환해 주었다고 결과 말하기. → 교환한 새 제품이 마음에 들었다고 마무리하기."
         },
         {
           "id": "topic-10-pub-rp1",
@@ -3253,14 +3510,21 @@ window.OPIC_DATA = {
           "questionEn": "You are interested in a bar that recently opened. A friend has already visited it. Phone your friend and ask three or four questions to help you plan your own visit.",
           "question": "최근 문을 연 술집에 가보고 싶습니다. 그곳에 이미 가본 친구에게 전화해서 방문을 계획하는 데 도움이 되는 질문 서너 가지를 해보세요.",
           "hintSteps": [
-            "새로 문을 연 술집에 가보고 싶다고 용건을 말하기.",
-            "위치, 분위기, 음식이나 음료 등 방문에 필요한 질문 서너 가지를 하기.",
+            "친구가 가본 새 술집에 가보고 싶다고 말하기.",
+            "술집 위치 묻기.",
+            "분위기가 어떤지 묻기.",
+            "괜찮은 음식이 있는지 묻기.",
             "정보를 알려 준 친구에게 감사하며 마무리하기."
           ],
           "status": "필수",
-          "questionOnly": true,
-          "answer": [],
-          "hint": "새로 문을 연 술집에 가보고 싶다고 용건을 말하기. → 위치, 분위기, 음식이나 음료 등 방문에 필요한 질문 서너 가지를 하기. → 정보를 알려 준 친구에게 감사하며 마무리하기."
+          "answer": [
+            "Hey, I want to visit the new pub you went to.",
+            "Where is it?",
+            "What's the atmosphere like?",
+            "Do they have any good food?",
+            "Thanks for your help."
+          ],
+          "hint": "친구가 가본 새 술집에 가보고 싶다고 말하기. → 술집 위치 묻기. → 분위기가 어떤지 묻기. → 괜찮은 음식이 있는지 묻기. → 정보를 알려 준 친구에게 감사하며 마무리하기."
         },
         {
           "id": "topic-10-pub-rp2",
@@ -3269,14 +3533,23 @@ window.OPIC_DATA = {
           "questionEn": "You arranged to meet a friend at the new bar, but you are feeling too ill to go. Phone your friend to explain, apologize for the change, and suggest two other plans.",
           "question": "새 술집에서 친구를 만나기로 했지만 몸이 아파 갈 수 없습니다. 친구에게 전화해서 상황을 설명하고 약속을 바꾸게 된 것에 대해 사과한 뒤, 다른 계획 두 가지를 제안해 보세요.",
           "hintSteps": [
-            "몸이 아파 오늘 술집에 갈 수 없다고 설명하고 사과하기.",
-            "다른 날짜에 함께 가는 등 첫 번째 대안을 제안하기.",
-            "친구가 다른 사람과 가는 등 다른 대안을 제안하고 의견을 묻기."
+            "오늘 술집에 갈 수 없다고 말하며 사과하기.",
+            "몸이 좋지 않아 집에서 쉬어야 한다고 설명하기.",
+            "첫 번째 대안으로 다음 주말에 함께 가자고 제안하기.",
+            "두 번째 대안으로 오늘 다른 친구와 가는 것이 어떤지 제안하기.",
+            "친구에게 어떤 방법이 좋은지 알려 달라고 하기.",
+            "다시 한번 사과하며 마무리하기."
           ],
           "status": "필수",
-          "questionOnly": true,
-          "answer": [],
-          "hint": "몸이 아파 오늘 술집에 갈 수 없다고 설명하고 사과하기. → 다른 날짜에 함께 가는 등 첫 번째 대안을 제안하기. → 친구가 다른 사람과 가는 등 다른 대안을 제안하고 의견을 묻기."
+          "answer": [
+            "Hey, I'm really sorry, but I can't go to the pub today.",
+            "I'm not feeling well, so I need to stay home and rest.",
+            "Could we go next weekend instead?",
+            "Or you could go with another friend today.",
+            "Let me know what works for you.",
+            "I'm sorry again."
+          ],
+          "hint": "오늘 술집에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 대안으로 다음 주말에 함께 가자고 제안하기. → 두 번째 대안으로 오늘 다른 친구와 가는 것이 어떤지 제안하기. → 친구에게 어떤 방법이 좋은지 알려 달라고 하기. → 다시 한번 사과하며 마무리하기."
         },
         {
           "id": "topic-10-pub-rp3",
@@ -3285,14 +3558,23 @@ window.OPIC_DATA = {
           "questionEn": "Share a memorable experience you had at a bar or pub. Describe when it happened, who was with you, and what took place. What made the occasion stand out?",
           "question": "술집이나 펍에서 있었던 기억에 남는 경험을 말해 주세요. 언제였는지, 누구와 함께 있었는지, 무슨 일이 있었는지 설명해 주세요. 어떤 점 때문에 기억에 남나요?",
           "hintSteps": [
-            "언제 어느 술집에서 누구와 있었는지 말하기.",
-            "그날 있었던 일을 순서대로 설명하기.",
-            "당시 기분과 그 경험이 기억에 남는 이유로 마무리하기."
+            "작년에 술집에서 보낸 특별한 하루가 기억난다고 시작하기.",
+            "생일이었고 친구들이 전화해 그곳에서 만나자고 했다고 설명하기.",
+            "도착하니 친구들이 케이크와 선물을 들고 기다리고 있었다고 말하기.",
+            "친구들이 생일 축하 노래를 불러 주었다고 설명하기.",
+            "너무 놀라 거의 울 뻔했다고 감정 말하기.",
+            "친구들에게 정말 고마웠고 그날을 잊지 못할 것이라고 마무리하기."
           ],
           "status": "필수",
-          "questionOnly": true,
-          "answer": [],
-          "hint": "언제 어느 술집에서 누구와 있었는지 말하기. → 그날 있었던 일을 순서대로 설명하기. → 당시 기분과 그 경험이 기억에 남는 이유로 마무리하기."
+          "answer": [
+            "I remember one special day at a pub last year.",
+            "It was my birthday, and my friends called me and asked me to meet them there.",
+            "When I got there, they were already waiting for me with a cake and some gifts.",
+            "Then, they started singing a birthday song for me.",
+            "I was really surprised and almost cried.",
+            "I was so thankful to my friends, and I will never forget that day."
+          ],
+          "hint": "작년에 술집에서 보낸 특별한 하루가 기억난다고 시작하기. → 생일이었고 친구들이 전화해 그곳에서 만나자고 했다고 설명하기. → 도착하니 친구들이 케이크와 선물을 들고 기다리고 있었다고 말하기. → 친구들이 생일 축하 노래를 불러 주었다고 설명하기. → 너무 놀라 거의 울 뻔했다고 감정 말하기. → 친구들에게 정말 고마웠고 그날을 잊지 못할 것이라고 마무리하기."
         }
       ],
       "roleplaySections": [
@@ -3518,16 +3800,24 @@ window.OPIC_DATA = {
           "question": "한국의 일반적인 호텔을 묘사해 주세요. 어디에 있으며, 객실과 시설은 어떤가요?",
           "status": "필수",
           "answer": [
-            "Hotels in Korea usually have clean rooms and quite a few places to eat or rest.",
-            "Many are near popular areas or downtown, so there are often shops and restaurants nearby.",
-            "Inside, there's usually a lobby with seats and a front desk near the entrance.",
-            "A typical room has a bed, a small desk, and its own bathroom.",
-            "Some hotels also have a sea view, which can make the room feel much more open.",
-            "You know, the rooms aren't always large, but they're usually simple and comfortable."
+            "Hotels in Korea are usually near stations or popular places.",
+            "There is a lobby and a front desk near the entrance.",
+            "A room usually has a bed, a desk, and a bathroom.",
+            "Some hotels also have a restaurant and a gym.",
+            "The rooms are usually clean and comfortable.",
+            "So yeah, those are typical hotels in Korea."
           ],
-          "hint": "위치 → 로비·식당 → 침대·책상·욕실 → 전망",
+          "hint": "한국 호텔은 보통 역이나 인기 있는 장소 근처에 있다고 말하기. → 입구 근처에 로비와 프런트가 있다고 설명하기. → 객실에는 침대, 책상, 욕실이 있다고 묘사하기. → 일부 호텔에는 음식점과 헬스장도 있다고 덧붙이기. → 객실은 보통 깨끗하고 편안하다고 말하기. → 이것이 한국의 일반적인 호텔 모습이라고 마무리하기.",
           "questionEn": "Describe typical hotels in Korea. Where are they located, and what are the rooms and facilities like?",
-          "type": "묘사"
+          "type": "묘사",
+          "hintSteps": [
+            "한국 호텔은 보통 역이나 인기 있는 장소 근처에 있다고 말하기.",
+            "입구 근처에 로비와 프런트가 있다고 설명하기.",
+            "객실에는 침대, 책상, 욕실이 있다고 묘사하기.",
+            "일부 호텔에는 음식점과 헬스장도 있다고 덧붙이기.",
+            "객실은 보통 깨끗하고 편안하다고 말하기.",
+            "이것이 한국의 일반적인 호텔 모습이라고 마무리하기."
+          ]
         },
         {
           "id": "topic-11-q2",
@@ -3535,16 +3825,24 @@ window.OPIC_DATA = {
           "question": "호텔에 도착하면 보통 무엇을 하나요? 체크인 과정과 그다음 하는 일을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, when I arrive at a hotel, I usually go straight to the front desk.",
-            "I show my ID and give my name so the staff can find my booking.",
-            "Once I have the room key, I take my bag upstairs and find the room.",
-            "I check that the room is clean, then put my things away so I can rest.",
-            "I also make sure I know the checkout time before I forget.",
-            "After that, I usually head out to enjoy the trip, and that's about it."
+            "When I arrive at a hotel, I go to the front desk first.",
+            "I tell the staff my name and show my ID.",
+            "Then, I get my room key and go to my room.",
+            "I put my bag down and check the room.",
+            "After that, I sit on the bed and rest for a while.",
+            "So yeah, that's what I usually do at a hotel."
           ],
-          "hint": "프런트 → 신분증·열쇠 → 방·짐 → 청결·체크아웃 확인",
+          "hint": "호텔에 도착하면 먼저 프런트에 간다고 말하기. → 직원에게 이름을 말하고 신분증을 보여 준다고 설명하기. → 열쇠를 받아 객실로 간다고 말하기. → 가방을 내려놓고 방을 확인한다고 설명하기. → 침대에 앉아 잠시 쉰다고 말하기. → 이것이 호텔에서 보통 하는 일이라고 마무리하기.",
           "questionEn": "What do you usually do when you arrive at a hotel? Explain the check-in process and what you do next.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "hintSteps": [
+            "호텔에 도착하면 먼저 프런트에 간다고 말하기.",
+            "직원에게 이름을 말하고 신분증을 보여 준다고 설명하기.",
+            "열쇠를 받아 객실로 간다고 말하기.",
+            "가방을 내려놓고 방을 확인한다고 설명하기.",
+            "침대에 앉아 잠시 쉰다고 말하기.",
+            "이것이 호텔에서 보통 하는 일이라고 마무리하기."
+          ]
         },
         {
           "id": "topic-11-q3",
@@ -3552,16 +3850,24 @@ window.OPIC_DATA = {
           "question": "가장 최근 호텔에 묵었던 경험을 말해 주세요. 체크인부터 체크아웃까지 무엇을 했는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I stayed at a quiet hotel in Busan last month during a short trip.",
-            "I checked in at the front desk, then took my bag up to the room.",
-            "After putting my things away, I went out for a slow walk by the sea.",
-            "When I came back, I sat by the window and rested for a while.",
-            "The next morning, I packed my bag, checked out, and headed to the station.",
-            "Honestly, the stay was simple and comfortable, so I'd be happy to go back."
+            "The last time I stayed at a hotel was last month.",
+            "I went to a hotel near Haeundae Beach in Busan.",
+            "First, I checked in and put my bag in my room.",
+            "Then, I walked along the beach and took some pictures.",
+            "The next morning, I packed my bag and checked out.",
+            "So yeah, I had a really relaxing time."
           ],
-          "hint": "지난달 부산 → 체크인 → 바닷가 산책 → 방에서 휴식 → 퇴실",
+          "hint": "최근 호텔에 묵은 때는 지난달이었다고 말하기. → 부산 해운대 근처 호텔에 갔다고 장소 설명하기. → 체크인하고 방에 가방을 두었다고 말하기. → 해변을 걷고 사진을 찍었다고 설명하기. → 다음 날 아침 짐을 싸고 체크아웃했다고 말하기. → 정말 편안한 시간을 보냈다고 마무리하기.",
           "questionEn": "Tell me about your most recent hotel stay. Explain what you did from checking in to checking out.",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "hintSteps": [
+            "최근 호텔에 묵은 때는 지난달이었다고 말하기.",
+            "부산 해운대 근처 호텔에 갔다고 장소 설명하기.",
+            "체크인하고 방에 가방을 두었다고 말하기.",
+            "해변을 걷고 사진을 찍었다고 설명하기.",
+            "다음 날 아침 짐을 싸고 체크아웃했다고 말하기.",
+            "정말 편안한 시간을 보냈다고 마무리하기."
+          ]
         },
         {
           "id": "topic-11-q4",
@@ -3569,16 +3875,24 @@ window.OPIC_DATA = {
           "question": "기억에 남는 호텔 숙박 경험을 말해 주세요. 머무는 동안 무엇을 했고, 왜 기억에 남나요?",
           "status": "필수",
           "answer": [
-            "I remember staying at a hotel near Haeundae Beach last month.",
-            "When I walked into the room, the first thing I noticed was the sea through the window.",
-            "I opened it a little and could hear the waves outside, which was really nice.",
-            "After a busy day of traveling, I just sat there and looked at the water.",
-            "I hadn't planned to spend much time in the room, but I ended up staying by the window for quite a while.",
-            "Honestly, that quiet moment is what I remember most about the hotel."
+            "I remember one special day at a hotel.",
+            "It was near Haeundae Beach, and I went there last month.",
+            "I could see the sea from my room.",
+            "I sat by the window and listened to music for a while.",
+            "I felt really relaxed because the view was beautiful.",
+            "So yeah, I still remember that day."
           ],
-          "hint": "해운대 호텔 → 바다 창문 → 파도 → 창가 휴식 → 기억",
+          "hint": "호텔에서 보낸 특별한 하루가 기억난다고 시작하기. → 지난달 해운대 근처 호텔에 갔다고 때와 장소 말하기. → 객실에서 바다를 볼 수 있었다고 설명하기. → 창가에 앉아 잠시 음악을 들었다고 말하기. → 아름다운 전망 덕분에 매우 편안했다고 감정 말하기. → 그래서 아직 그날이 기억난다고 마무리하기.",
           "questionEn": "Tell me about a hotel stay you remember well. What happened during your stay, and why was it memorable?",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "hintSteps": [
+            "호텔에서 보낸 특별한 하루가 기억난다고 시작하기.",
+            "지난달 해운대 근처 호텔에 갔다고 때와 장소 말하기.",
+            "객실에서 바다를 볼 수 있었다고 설명하기.",
+            "창가에 앉아 잠시 음악을 들었다고 말하기.",
+            "아름다운 전망 덕분에 매우 편안했다고 감정 말하기.",
+            "그래서 아직 그날이 기억난다고 마무리하기."
+          ]
         },
         {
           "id": "topic-11-q5",
@@ -3586,15 +3900,24 @@ window.OPIC_DATA = {
           "question": "호텔을 어떻게 고르고 예약하나요? 예약 전에 보통 무엇을 확인하는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, before booking a hotel, I usually check the location and price first.",
-            "Then I look at photos of the room so I have some idea of what to expect.",
-            "I try to find a quiet room with a nice view, but I don't need anything too fancy.",
-            "I also check what's included, especially whether breakfast costs extra or comes with the room.",
-            "Once I've checked those things, I book online and save the details on my phone."
+            "When I book a hotel, I check the location and price first.",
+            "Then, I look at pictures of the room.",
+            "I like a quiet room with a nice view.",
+            "I also check if breakfast is included.",
+            "After that, I book the room online and save the details on my phone.",
+            "So yeah, that's how I usually book a hotel."
           ],
-          "hint": "지역·가격 → 사진 → 조용한 방·전망 → 조식 → 온라인 예약",
+          "hint": "예약할 때 먼저 호텔 위치와 가격을 확인한다고 말하기. → 그다음 객실 사진을 본다고 설명하기. → 조용하고 전망이 좋은 방을 좋아한다고 말하기. → 조식 포함 여부도 확인한다고 설명하기. → 온라인으로 예약하고 휴대폰에 정보를 저장한다고 말하기. → 이것이 평소 호텔 예약 방법이라고 마무리하기.",
           "questionEn": "How do you choose and book a hotel? Explain what you normally check before making a reservation.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "hintSteps": [
+            "예약할 때 먼저 호텔 위치와 가격을 확인한다고 말하기.",
+            "그다음 객실 사진을 본다고 설명하기.",
+            "조용하고 전망이 좋은 방을 좋아한다고 말하기.",
+            "조식 포함 여부도 확인한다고 설명하기.",
+            "온라인으로 예약하고 휴대폰에 정보를 저장한다고 말하기.",
+            "이것이 평소 호텔 예약 방법이라고 마무리하기."
+          ]
         },
         {
           "id": "topic-11-q6",
@@ -3602,16 +3925,24 @@ window.OPIC_DATA = {
           "question": "호텔에서 겪은 문제를 말해 주세요. 무슨 문제였고, 누가 도와주었으며, 어떻게 해결했나요?",
           "status": "필수",
           "answer": [
-            "My hotel key didn't work once, so I couldn't get into my room.",
-            "I tried it again a few times, but the door still wouldn't open.",
-            "So I went back to the front desk and explained what was happening.",
-            "A staff member checked the key and gave me a new one right away.",
-            "I went upstairs and tried again, and luckily the new key worked the first time.",
-            "Honestly, I was just glad I could finally get inside and rest after the trip."
+            "I remember one problem I had at a hotel.",
+            "I tried to open my room, but the key didn't work.",
+            "So I went to the front desk and told the staff.",
+            "They said sorry and gave me a new key.",
+            "I tried it, and the door opened.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "객실 키 고장 → 재시도 → 프런트 → 새 키 → 입실",
+          "hint": "호텔에서 문제가 생겼던 경험으로 시작하기. → 객실 문을 열려고 했지만 열쇠가 작동하지 않았다고 설명하기. → 프런트에 가서 직원에게 문제를 말했다고 말하기. → 직원이 사과하고 새 열쇠를 주었다고 설명하기. → 새 열쇠로 시도하자 문이 열렸다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about a problem you had at a hotel. What went wrong, who helped you, and how was it resolved?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "호텔에서 문제가 생겼던 경험으로 시작하기.",
+            "객실 문을 열려고 했지만 열쇠가 작동하지 않았다고 설명하기.",
+            "프런트에 가서 직원에게 문제를 말했다고 말하기.",
+            "직원이 사과하고 새 열쇠를 주었다고 설명하기.",
+            "새 열쇠로 시도하자 문이 열렸다고 결과 말하기.",
+            "결국 잘 해결되었다고 마무리하기."
+          ]
         }
       ],
       "scriptGroups": [
@@ -3659,16 +3990,24 @@ window.OPIC_DATA = {
           "question": "체인 음식점과 동네 음식점에서 식사한 경험을 떠올려 보세요. 두 경험을 비교하고 가장 큰 차이를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "The biggest difference was how familiar the food felt at each restaurant.",
-            "At a chain restaurant, I ordered pasta I'd had before, so I knew what to expect.",
-            "It tasted the same as at the other branches, which made it an easy choice.",
-            "At a small local restaurant, the menu was new to me, so I took longer to choose.",
-            "I tried a dish I'd never had before, and that made the meal more interesting.",
-            "So, you know, I liked the chain for a simple choice and the local place for something new."
+            "I went to a chain restaurant and a small local restaurant last month.",
+            "At the chain restaurant, I ordered pasta I had eaten before.",
+            "It tasted the same, so I knew what to expect.",
+            "At the local restaurant, I tried a new dish.",
+            "It was different, but I really enjoyed it.",
+            "So yeah, the biggest difference was the food."
           ],
-          "hint": "체인 익숙한 파스타 → 동네 새로운 음식 → 선택 편리함·새로움",
+          "hint": "지난달 체인점과 동네의 작은 음식점에 갔다고 시작하기. → 체인점에서는 전에 먹어 본 파스타를 주문했다고 설명하기. → 맛이 같아서 어떤 음식이 나올지 알고 있었다고 말하기. → 동네 음식점에서는 새 요리를 먹어 봤다고 설명하기. → 다른 맛이었지만 정말 맛있게 먹었다고 말하기. → 가장 큰 차이는 음식이었다고 비교 마무리하기.",
           "questionEn": "Think of meals you have had at a chain restaurant and a local restaurant. Compare the two experiences and explain the biggest difference.",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "hintSteps": [
+            "지난달 체인점과 동네의 작은 음식점에 갔다고 시작하기.",
+            "체인점에서는 전에 먹어 본 파스타를 주문했다고 설명하기.",
+            "맛이 같아서 어떤 음식이 나올지 알고 있었다고 말하기.",
+            "동네 음식점에서는 새 요리를 먹어 봤다고 설명하기.",
+            "다른 맛이었지만 정말 맛있게 먹었다고 말하기.",
+            "가장 큰 차이는 음식이었다고 비교 마무리하기."
+          ]
         },
         {
           "id": "topic-12-q2",
@@ -3676,16 +4015,24 @@ window.OPIC_DATA = {
           "question": "사람들이 건강에 관심을 가지면서 음식점 메뉴가 어떻게 달라졌나요? 예전과 지금 선택할 수 있는 메뉴를 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I think restaurants offer more healthy choices now than they used to.",
-            "In the past, I didn't see many choices for people who wanted a lighter meal.",
-            "These days, some places offer dishes with less sugar or less salt.",
-            "I also notice more meals with plenty of vegetables, instead of just meat or fried food.",
-            "I guess this is because more people care about what they eat and how it affects their health.",
-            "So it feels easier now to find something light without giving up eating out completely."
+            "I think restaurant menus have changed a lot.",
+            "In the past, there were fewer healthy choices.",
+            "People often ordered fried food or meat.",
+            "But now, many restaurants also have salads and vegetable dishes.",
+            "Some dishes have less sugar or salt because people care more about health.",
+            "So yeah, it's easier to choose healthy food now."
           ],
-          "hint": "예전 선택 적음 → 현재 저당·저염·채소 → 건강 관심",
+          "hint": "음식점 메뉴가 많이 달라졌다고 시작하기. → 예전에는 건강한 메뉴가 더 적었다고 설명하기. → 튀긴 음식이나 고기를 자주 주문했다고 말하기. → 지금은 샐러드와 채소 요리가 있는 음식점이 많다고 비교하기. → 건강에 관심이 많아져 설탕이나 소금이 적은 요리도 있다고 설명하기. → 지금은 건강한 음식을 고르기 더 쉬워졌다고 마무리하기.",
           "questionEn": "How have restaurant menus changed as people have become more interested in health? Compare past and present choices.",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "hintSteps": [
+            "음식점 메뉴가 많이 달라졌다고 시작하기.",
+            "예전에는 건강한 메뉴가 더 적었다고 설명하기.",
+            "튀긴 음식이나 고기를 자주 주문했다고 말하기.",
+            "지금은 샐러드와 채소 요리가 있는 음식점이 많다고 비교하기.",
+            "건강에 관심이 많아져 설탕이나 소금이 적은 요리도 있다고 설명하기.",
+            "지금은 건강한 음식을 고르기 더 쉬워졌다고 마무리하기."
+          ]
         },
         {
           "id": "topic-12-q3",
@@ -3693,16 +4040,24 @@ window.OPIC_DATA = {
           "question": "좋아하는 음식점을 묘사해 주세요. 어디에 있고, 어떤 음식을 팔며, 내부는 어떻게 생겼나요?",
           "status": "필수",
           "answer": [
-            "There's a small pasta restaurant near my home that I really like.",
-            "It serves pasta, salads, and a few drinks, so the menu isn't too complicated.",
-            "Inside, there are just a few tables along the wall, which keeps the middle fairly open.",
-            "There are comfortable chairs by the windows, with small tables between them.",
-            "The lights are warm and not too bright, which makes the room feel cozy.",
-            "I mean, it's a simple little place, but it has a really comfortable feel."
+            "There is a pasta restaurant near my home.",
+            "It's about five minutes away on foot.",
+            "It serves pasta, salads, and drinks.",
+            "The seating area isn't very big, but it has comfortable chairs and small tables.",
+            "I like the atmosphere because it feels calm and cozy.",
+            "So yeah, it's my favorite restaurant."
           ],
-          "hint": "집 근처 파스타 → 작은 탁자 → 창가 자리 → 조명·분위기",
+          "hint": "집 근처에 파스타 음식점이 있다고 말하기. → 걸어서 약 5분 거리라고 위치 설명하기. → 파스타, 샐러드, 음료를 판다고 설명하기. → 좌석 공간은 작지만 편안한 의자와 작은 테이블이 있다고 묘사하기. → 차분하고 아늑한 분위기를 좋아한다고 말하기. → 가장 좋아하는 음식점이라고 마무리하기.",
           "questionEn": "Describe a restaurant you like. Where is it, what kind of food does it serve, and what does the inside look like?",
-          "type": "묘사"
+          "type": "묘사",
+          "hintSteps": [
+            "집 근처에 파스타 음식점이 있다고 말하기.",
+            "걸어서 약 5분 거리라고 위치 설명하기.",
+            "파스타, 샐러드, 음료를 판다고 설명하기.",
+            "좌석 공간은 작지만 편안한 의자와 작은 테이블이 있다고 묘사하기.",
+            "차분하고 아늑한 분위기를 좋아한다고 말하기.",
+            "가장 좋아하는 음식점이라고 마무리하기."
+          ]
         },
         {
           "id": "topic-12-q4",
@@ -3710,15 +4065,24 @@ window.OPIC_DATA = {
           "question": "음식점에서 식사할 때 보통 무엇을 하나요? 주문하는 방법과 식사 중·후에 하는 일을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I usually sit down and look at the menu before deciding what to order.",
-            "I often choose pasta and a drink, so I don't spend too long making up my mind.",
-            "If I'm with a friend, we talk about our day while we wait for the food.",
-            "Once it arrives, I take my time and enjoy the meal instead of eating in a hurry.",
-            "Before leaving, I check the bill, pay, and thank the staff, and that's pretty much it."
+            "When I go to a restaurant, I find a seat and look at the menu.",
+            "I usually order pasta and a drink.",
+            "While I wait, I talk with my friend or check my phone.",
+            "Then, I enjoy my meal and relax for a while.",
+            "Before I leave, I pay the bill and thank the staff.",
+            "So yeah, that's what I usually do at a restaurant."
           ],
-          "hint": "메뉴 확인 → 파스타·음료 → 대기·대화 → 식사 → 계산",
+          "hint": "음식점에서 자리를 찾아 메뉴를 본다고 말하기. → 보통 파스타와 음료를 주문한다고 설명하기. → 기다리는 동안 친구와 이야기하거나 휴대폰을 확인한다고 말하기. → 식사를 즐기고 잠시 쉰다고 설명하기. → 떠나기 전에 계산하고 직원에게 감사한다고 말하기. → 이것이 음식점에서 보통 하는 일이라고 마무리하기.",
           "questionEn": "What do you normally do when you eat at a restaurant? Explain how you order and what you do during and after the meal.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "hintSteps": [
+            "음식점에서 자리를 찾아 메뉴를 본다고 말하기.",
+            "보통 파스타와 음료를 주문한다고 설명하기.",
+            "기다리는 동안 친구와 이야기하거나 휴대폰을 확인한다고 말하기.",
+            "식사를 즐기고 잠시 쉰다고 설명하기.",
+            "떠나기 전에 계산하고 직원에게 감사한다고 말하기.",
+            "이것이 음식점에서 보통 하는 일이라고 마무리하기."
+          ]
         },
         {
           "id": "topic-12-q5",
@@ -3726,16 +4090,24 @@ window.OPIC_DATA = {
           "question": "음식점에서 겪은 문제를 말해 주세요. 어떻게 설명했고, 직원은 어떻게 대응했나요?",
           "status": "필수",
           "answer": [
-            "Well, I ordered pasta at a restaurant, but the staff brought a different dish to my table.",
-            "I noticed it didn't look like what I'd chosen, so I checked before taking a bite.",
-            "I told the staff about the mistake and explained what I'd ordered.",
-            "They said sorry and brought me the right order after just a few minutes.",
-            "I thanked them before I left, because they were really nice about it.",
-            "Honestly, I was just glad they fixed it so quickly without any trouble."
+            "I remember one problem I had at a restaurant.",
+            "I ordered pasta, but they gave me the wrong dish.",
+            "I was a little surprised, so I told the staff what I had ordered.",
+            "They said sorry and brought me the right dish.",
+            "A few minutes later, I could enjoy my meal.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "잘못 나온 음식 → 직원에게 설명 → 교환 → 감사",
+          "hint": "음식점에서 문제가 생겼던 경험으로 시작하기. → 파스타를 주문했는데 다른 음식이 나왔다고 설명하기. → 조금 놀라 직원에게 주문한 음식을 말했다고 설명하기. → 직원이 사과하고 맞는 음식을 가져다주었다고 말하기. → 몇 분 뒤 식사를 즐길 수 있었다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about a problem you had at a restaurant. How did you explain it, and what did the staff do?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "음식점에서 문제가 생겼던 경험으로 시작하기.",
+            "파스타를 주문했는데 다른 음식이 나왔다고 설명하기.",
+            "조금 놀라 직원에게 주문한 음식을 말했다고 설명하기.",
+            "직원이 사과하고 맞는 음식을 가져다주었다고 말하기.",
+            "몇 분 뒤 식사를 즐길 수 있었다고 결과 말하기.",
+            "결국 잘 해결되었다고 마무리하기."
+          ]
         },
         {
           "id": "topic-12-q6",
@@ -3743,16 +4115,24 @@ window.OPIC_DATA = {
           "question": "가장 최근 외식한 경험을 말해 주세요. 어디에 갔고, 무엇을 주문했으며, 식사는 어땠나요?",
           "status": "선택",
           "answer": [
-            "I ate at a small pasta restaurant near my home last weekend.",
-            "I found a seat and ordered pasta with a drink, which is what I usually choose there.",
-            "The food came out hot, and it tasted just as good as I'd hoped.",
-            "I took my time with the meal because I didn't have anything else planned afterward.",
-            "When I finished, I paid the bill and thanked the staff before heading home.",
-            "Honestly, it was just a simple meal, but it was a nice way to spend part of the weekend."
+            "The last time I ate out was last weekend.",
+            "I went to a pasta restaurant near my home.",
+            "I found a comfortable seat and ordered pasta and a drink.",
+            "The pasta was really good, and I enjoyed it.",
+            "Before I left, I paid the bill and thanked the staff.",
+            "So yeah, I had a really nice meal."
           ],
-          "hint": "지난 주말 파스타집 → 주문 → 따뜻한 음식 → 천천히 식사",
+          "hint": "가장 최근 외식은 지난 주말이었다고 말하기. → 집 근처 파스타 음식점에 갔다고 설명하기. → 편안한 자리를 찾아 파스타와 음료를 주문했다고 말하기. → 파스타가 맛있었고 맛있게 먹었다고 설명하기. → 떠나기 전에 계산하고 직원에게 감사했다고 말하기. → 정말 좋은 식사였다고 마무리하기.",
           "questionEn": "Tell me about the last time you ate out. Where did you go, what did you order, and how was the meal?",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "hintSteps": [
+            "가장 최근 외식은 지난 주말이었다고 말하기.",
+            "집 근처 파스타 음식점에 갔다고 설명하기.",
+            "편안한 자리를 찾아 파스타와 음료를 주문했다고 말하기.",
+            "파스타가 맛있었고 맛있게 먹었다고 설명하기.",
+            "떠나기 전에 계산하고 직원에게 감사했다고 말하기.",
+            "정말 좋은 식사였다고 마무리하기."
+          ]
         },
         {
           "id": "topic-12-q7",
@@ -3760,16 +4140,24 @@ window.OPIC_DATA = {
           "question": "배달이나 포장으로 어떤 음식을 주문하는 것을 좋아하나요? 본인에게 좋은 선택인 이유를 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "I like ordering pasta from a restaurant near my home when I don't feel like cooking.",
-            "I've ordered from there before, so I know what the food will taste like.",
-            "It's also close to my apartment, which usually means the food arrives fairly quickly.",
-            "That helps on a busy evening when I just want to eat and rest.",
-            "I mean, I don't have to cook a whole meal or wash lots of dishes afterward.",
-            "So it's an easy choice for me, especially when I'm tired after work."
+            "I like ordering pasta from a restaurant near my home.",
+            "I usually order it when I'm tired after work.",
+            "The food is really good, and it arrives quickly.",
+            "I don't have to cook or wash many dishes.",
+            "So I can sit on my sofa, eat, and relax.",
+            "So yeah, it's an easy choice for me."
           ],
-          "hint": "파스타 → 좋아하는 맛 → 빠른 배달 → 요리·설거지 절약",
+          "hint": "집 근처 음식점에서 파스타를 주문하는 것을 좋아한다고 말하기. → 퇴근 후 피곤할 때 보통 주문한다고 설명하기. → 음식이 맛있고 빨리 도착한다고 이유 말하기. → 요리와 많은 설거지를 할 필요가 없다고 덧붙이기. → 소파에서 먹고 쉴 수 있다고 말하기. → 나에게 편리한 선택이라고 마무리하기.",
           "questionEn": "What food do you like to order for delivery or takeout? Explain why it is a good choice for you.",
-          "type": "의견·이유"
+          "type": "의견·이유",
+          "hintSteps": [
+            "집 근처 음식점에서 파스타를 주문하는 것을 좋아한다고 말하기.",
+            "퇴근 후 피곤할 때 보통 주문한다고 설명하기.",
+            "음식이 맛있고 빨리 도착한다고 이유 말하기.",
+            "요리와 많은 설거지를 할 필요가 없다고 덧붙이기.",
+            "소파에서 먹고 쉴 수 있다고 말하기.",
+            "나에게 편리한 선택이라고 마무리하기."
+          ]
         }
       ],
       "scriptGroups": [
@@ -3830,16 +4218,24 @@ window.OPIC_DATA = {
           "question": "한국에서는 사람들이 어떻게 재활용하나요? 물건을 분류하는 방법과 가져가는 곳을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, in Korea, people usually separate things like paper, plastic, glass, and cans for recycling.",
-            "First, they empty the containers and clean them if there's food or drink left inside.",
-            "Then they sort everything by type instead of putting it all in one bag.",
-            "After that, they take the items to a recycling area near their home.",
-            "Each type goes in its own bin, so people check the signs before putting things in.",
-            "That's what I do at my apartment too, just following the signs for each kind of item."
+            "In Korea, people usually separate paper, plastic, glass, and cans.",
+            "First, they empty and clean the containers.",
+            "Then, they sort the items by type.",
+            "After that, they take them to a recycling area near their home.",
+            "They put each type in the right bin.",
+            "So yeah, that's how people usually recycle."
           ],
-          "hint": "종이·플라스틱·유리·캔 → 세척 → 분리 → 지정 장소",
+          "hint": "한국에서는 종이, 플라스틱, 유리, 캔을 분리한다고 말하기. → 먼저 용기를 비우고 씻는다고 설명하기. → 그다음 물건을 종류별로 나눈다고 말하기. → 집 근처 재활용장에 가져간다고 설명하기. → 종류에 맞는 수거함에 넣는다고 말하기. → 이것이 일반적인 재활용 방법이라고 마무리하기.",
           "questionEn": "How do people recycle in Korea? Explain how items are sorted and where people take them.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "hintSteps": [
+            "한국에서는 종이, 플라스틱, 유리, 캔을 분리한다고 말하기.",
+            "먼저 용기를 비우고 씻는다고 설명하기.",
+            "그다음 물건을 종류별로 나눈다고 말하기.",
+            "집 근처 재활용장에 가져간다고 설명하기.",
+            "종류에 맞는 수거함에 넣는다고 말하기.",
+            "이것이 일반적인 재활용 방법이라고 마무리하기."
+          ]
         },
         {
           "id": "topic-13-q2",
@@ -3847,16 +4243,24 @@ window.OPIC_DATA = {
           "question": "집에서 하는 재활용 일과를 설명해 주세요. 얼마나 자주 하며, 어떤 순서로 하나요?",
           "status": "필수",
           "answer": [
-            "I usually take out the recycling once or twice a week, depending on how much I have.",
-            "First, I collect things like paper, plastic, glass, and cans in one place at home.",
-            "I empty the containers and clean them if there's food or drink left inside.",
-            "Then I put each type in a separate bag so they're easier to carry and sort.",
-            "After that, I take the bags down to the recycling area near my apartment.",
-            "I put everything in the right bins and take the empty bags home, and that's about it."
+            "I usually take out the recycling on weekends.",
+            "First, I collect paper, plastic, glass, and cans at home.",
+            "Then, I empty and clean the containers.",
+            "After that, I put each type in a separate bag.",
+            "I take the bags to the recycling area and put the items in the right bins.",
+            "So yeah, that's my recycling routine."
           ],
-          "hint": "주 1~2회 → 모으기 → 종류별 봉투 → 분리수거장",
+          "hint": "보통 주말에 재활용품을 내놓는다고 말하기. → 집에서 종이, 플라스틱, 유리, 캔을 모은다고 설명하기. → 용기를 비우고 씻는다고 말하기. → 종류마다 다른 봉투에 담는다고 설명하기. → 재활용장에 가져가 맞는 수거함에 넣는다고 말하기. → 이것이 나의 재활용 일과라고 마무리하기.",
           "questionEn": "Walk me through your recycling routine at home. How often do you recycle, and what steps do you follow?",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "hintSteps": [
+            "보통 주말에 재활용품을 내놓는다고 말하기.",
+            "집에서 종이, 플라스틱, 유리, 캔을 모은다고 설명하기.",
+            "용기를 비우고 씻는다고 말하기.",
+            "종류마다 다른 봉투에 담는다고 설명하기.",
+            "재활용장에 가져가 맞는 수거함에 넣는다고 말하기.",
+            "이것이 나의 재활용 일과라고 마무리하기."
+          ]
         },
         {
           "id": "topic-13-q3",
@@ -3864,16 +4268,24 @@ window.OPIC_DATA = {
           "question": "재활용을 하다가 겪은 문제를 말해 주세요. 무슨 일이 있었고, 어떻게 대처했나요?",
           "status": "필수",
           "answer": [
-            "I once went to take out the recycling, but all the bins were full.",
-            "I checked the other bins too, hoping there might be a little space left.",
-            "There wasn't, and I didn't want to leave my bags on the ground.",
-            "So I took everything back home and decided to try again the next morning.",
-            "When I went back, the bins had been emptied, so I could put everything in the right place.",
-            "Honestly, it was a bit annoying at first, but it was easy enough to deal with."
+            "I remember one problem I had while recycling.",
+            "One day, I went to the recycling area, but the bins were full.",
+            "So I took my bags back home.",
+            "I went there again the next morning.",
+            "Luckily, the bins were empty, so I put my recycling in them.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "가득 찬 수거함 → 집으로 가져오기 → 다음 날 확인 → 분리배출",
+          "hint": "재활용하다가 문제가 생긴 경험으로 시작하기. → 재활용장에 갔는데 수거함이 가득 차 있었다고 설명하기. → 봉투를 다시 집으로 가져왔다고 말하기. → 다음 날 아침에 다시 갔다고 설명하기. → 수거함이 비어 있어서 재활용품을 넣었다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about a problem you had while recycling. What happened, and what did you do about it?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "재활용하다가 문제가 생긴 경험으로 시작하기.",
+            "재활용장에 갔는데 수거함이 가득 차 있었다고 설명하기.",
+            "봉투를 다시 집으로 가져왔다고 말하기.",
+            "다음 날 아침에 다시 갔다고 설명하기.",
+            "수거함이 비어 있어서 재활용품을 넣었다고 결과 말하기.",
+            "결국 잘 해결되었다고 마무리하기."
+          ]
         },
         {
           "id": "topic-13-q4",
@@ -3881,16 +4293,24 @@ window.OPIC_DATA = {
           "question": "본인 지역의 재활용 방식은 어떻게 달라졌나요? 예전과 지금의 시설과 사람들의 습관을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, recycling is a lot easier in my area now than it used to be.",
-            "In the past, there were fewer bins, and it wasn't always clear where things should go.",
-            "The signs were small or hard to understand, so people sometimes mixed things together.",
-            "Now there are separate bins for each type, with much clearer signs above them.",
-            "People around me also seem more careful about cleaning and sorting what they throw away.",
-            "So, you know, the whole process feels less confusing than it did before."
+            "Recycling in my area has changed a lot.",
+            "In the past, there were fewer bins, and the signs were hard to read.",
+            "People sometimes mixed paper and plastic together.",
+            "But now, there are more bins with clear signs.",
+            "People also clean and separate their recycling more carefully.",
+            "So yeah, recycling is easier now."
           ],
-          "hint": "예전 수거함·표시 부족 → 현재 종류별 수거함·분리 습관",
+          "hint": "우리 지역 재활용 방식이 많이 달라졌다고 시작하기. → 예전에는 수거함이 적고 안내판을 읽기 어려웠다고 말하기. → 사람들이 가끔 종이와 플라스틱을 섞어 버렸다고 설명하기. → 지금은 수거함이 더 많고 안내판도 명확하다고 비교하기. → 사람들도 더 신경 써서 씻고 분리한다고 습관 변화 말하기. → 지금은 재활용이 더 쉬워졌다고 마무리하기.",
           "questionEn": "How has recycling changed in your area? Compare the facilities and people's habits in the past and now.",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "hintSteps": [
+            "우리 지역 재활용 방식이 많이 달라졌다고 시작하기.",
+            "예전에는 수거함이 적고 안내판을 읽기 어려웠다고 말하기.",
+            "사람들이 가끔 종이와 플라스틱을 섞어 버렸다고 설명하기.",
+            "지금은 수거함이 더 많고 안내판도 명확하다고 비교하기.",
+            "사람들도 더 신경 써서 씻고 분리한다고 습관 변화 말하기.",
+            "지금은 재활용이 더 쉬워졌다고 마무리하기."
+          ]
         },
         {
           "id": "topic-13-q5",
@@ -3898,16 +4318,24 @@ window.OPIC_DATA = {
           "question": "재활용은 왜 중요한가요? 어떤 도움이 되는지 설명하고 사람들이 할 수 있는 행동의 예를 들어 주세요.",
           "status": "선택",
           "answer": [
-            "I think recycling matters because it helps us throw away less useful material.",
-            "Things like paper and plastic can be used again instead of just becoming more trash.",
-            "That also means we don't always have to make everything from new materials.",
-            "For example, I sort paper, plastic, glass, and cans at home before taking them out.",
-            "I also try to clean containers, because dirty items can be harder to recycle.",
-            "I mean, it's only a small habit, but it's something I can keep doing every week."
+            "I think recycling is important because it reduces trash.",
+            "We can use materials like paper and plastic again.",
+            "That helps protect the environment.",
+            "For example, I separate paper, plastic, glass, and cans at home.",
+            "I also clean the containers before I take them out.",
+            "So yeah, it's a small habit, but it's helpful."
           ],
-          "hint": "쓰레기 감소 → 자원 재사용 → 집에서 분리 → 작은 실천",
+          "hint": "쓰레기를 줄여 주기 때문에 재활용이 중요하다고 말하기. → 종이와 플라스틱 같은 재료를 다시 쓸 수 있다고 설명하기. → 환경 보호에 도움이 된다고 말하기. → 나는 집에서 종이, 플라스틱, 유리, 캔을 분리한다고 예를 들기. → 내놓기 전에 용기도 씻는다고 덧붙이기. → 작은 습관이지만 도움이 된다고 마무리하기.",
           "questionEn": "Why is recycling important? Explain how it helps and give an example of something people can do.",
-          "type": "의견·이유"
+          "type": "의견·이유",
+          "hintSteps": [
+            "쓰레기를 줄여 주기 때문에 재활용이 중요하다고 말하기.",
+            "종이와 플라스틱 같은 재료를 다시 쓸 수 있다고 설명하기.",
+            "환경 보호에 도움이 된다고 말하기.",
+            "나는 집에서 종이, 플라스틱, 유리, 캔을 분리한다고 예를 들기.",
+            "내놓기 전에 용기도 씻는다고 덧붙이기.",
+            "작은 습관이지만 도움이 된다고 마무리하기."
+          ]
         }
       ],
       "scriptGroups": [
@@ -3954,16 +4382,24 @@ window.OPIC_DATA = {
           "question": "한국의 일반적인 은행을 묘사해 주세요. 내부는 어떻게 생겼고, 어떤 시설이 보이나요?",
           "status": "필수",
           "answer": [
-            "Banks in Korea usually have ATMs near the entrance and desks farther inside.",
-            "The bank near my home looks clean and quiet, with a fairly open waiting area.",
-            "There are rows of chairs facing the desks, so people can see when it's their turn.",
-            "Near the door, there's a small machine that gives out numbered tickets.",
-            "The signs above the desks show the next number in large writing.",
-            "You know, it's a simple space, but it makes the inside look neat and easy to understand."
+            "There is a bank near my home.",
+            "It has ATMs near the entrance.",
+            "Inside, there are desks and chairs for customers.",
+            "There is also a machine that gives you a number.",
+            "The bank is usually clean and quiet.",
+            "So yeah, that's a typical bank in Korea."
           ],
-          "hint": "ATM·창구 → 대기 의자 → 번호표 기계 → 안내판·분위기",
+          "hint": "집 근처에 은행이 있다고 시작하기. → 입구 근처에 ATM이 있다고 말하기. → 안에 창구와 고객용 의자가 있다고 묘사하기. → 번호표를 주는 기계도 있다고 덧붙이기. → 보통 깨끗하고 조용하다고 말하기. → 이것이 한국의 일반적인 은행 모습이라고 마무리하기.",
           "questionEn": "Describe a typical bank in Korea. What does the inside look like, and what facilities can you see?",
-          "type": "묘사"
+          "type": "묘사",
+          "hintSteps": [
+            "집 근처에 은행이 있다고 시작하기.",
+            "입구 근처에 ATM이 있다고 말하기.",
+            "안에 창구와 고객용 의자가 있다고 묘사하기.",
+            "번호표를 주는 기계도 있다고 덧붙이기.",
+            "보통 깨끗하고 조용하다고 말하기.",
+            "이것이 한국의 일반적인 은행 모습이라고 마무리하기."
+          ]
         },
         {
           "id": "topic-14-q2",
@@ -3971,16 +4407,24 @@ window.OPIC_DATA = {
           "question": "가장 최근 은행에 갔던 경험을 말해 주세요. 왜 갔고, 방문 중 어떤 일이 있었나요?",
           "status": "필수",
           "answer": [
-            "Well, I went to the bank recently because my card had stopped working.",
-            "First, I took a number and waited in the seating area until it was my turn.",
-            "When my number came up, I explained the problem and showed the staff my card.",
-            "A staff member checked my ID, looked at the card, and helped me get a new one.",
-            "I tried the new card before leaving, just to make sure everything was working properly.",
-            "Luckily, it worked, so I could finally stop worrying about how to pay for things."
+            "The last time I went to a bank was last month.",
+            "My bank card wasn't working, so I went there to get help.",
+            "First, I took a number and waited.",
+            "Then, I told the staff about the problem and showed my ID.",
+            "They gave me a new card, and it worked.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "카드 문제 → 번호표·대기 → 문제 설명 → 신분증·새 카드",
+          "hint": "최근 은행에 간 때는 지난달이었다고 말하기. → 카드가 작동하지 않아 도움받으러 갔다고 이유 설명하기. → 번호표를 뽑고 기다렸다고 말하기. → 직원에게 문제를 말하고 신분증을 보여 주었다고 설명하기. → 새 카드를 받았고 작동했다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about your most recent visit to a bank. Why did you go, and what happened during your visit?",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "hintSteps": [
+            "최근 은행에 간 때는 지난달이었다고 말하기.",
+            "카드가 작동하지 않아 도움받으러 갔다고 이유 설명하기.",
+            "번호표를 뽑고 기다렸다고 말하기.",
+            "직원에게 문제를 말하고 신분증을 보여 주었다고 설명하기.",
+            "새 카드를 받았고 작동했다고 결과 말하기.",
+            "결국 잘 해결되었다고 마무리하기."
+          ]
         },
         {
           "id": "topic-14-q3",
@@ -3988,16 +4432,24 @@ window.OPIC_DATA = {
           "question": "은행 계좌를 개설해야 한다고 가정해 보세요. 서류 준비부터 계좌 개설까지 할 일을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "If I needed a new bank account, I'd first check which documents I should bring.",
-            "I'd take my ID and those papers to the bank, so I wouldn't have to go back home.",
-            "Once I arrived, I'd take a number and wait until a staff member could help me.",
-            "Then I'd fill out the forms, asking for help if I didn't understand something.",
-            "I'd check the details before signing, especially my name and contact information.",
-            "After the account was open, I'd ask how to use it on my phone, and that would be it."
+            "If I need a new bank account, I'll check what documents I need first.",
+            "I'll take my ID and the documents to the bank.",
+            "Then, I'll take a number and wait.",
+            "When it's my turn, I'll fill out a form with help from the staff.",
+            "After they open the account, I'll ask how to use it on my phone.",
+            "So yeah, that's what I'll do."
           ],
-          "hint": "필요 서류 확인 → 신분증 → 은행 → 작성 → 계좌",
+          "hint": "계좌를 만들 때 먼저 필요한 서류를 확인하겠다고 말하기. → 신분증과 서류를 은행에 가져가겠다고 설명하기. → 번호표를 뽑고 기다리겠다고 말하기. → 차례가 되면 직원 도움을 받아 신청서를 쓰겠다고 설명하기. → 계좌 개설 후 휴대폰으로 사용하는 방법을 묻겠다고 말하기. → 이런 순서로 하겠다고 마무리하기.",
           "questionEn": "Suppose you need to open a bank account. Explain the steps you would take, from preparing documents to opening the account.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "hintSteps": [
+            "계좌를 만들 때 먼저 필요한 서류를 확인하겠다고 말하기.",
+            "신분증과 서류를 은행에 가져가겠다고 설명하기.",
+            "번호표를 뽑고 기다리겠다고 말하기.",
+            "차례가 되면 직원 도움을 받아 신청서를 쓰겠다고 설명하기.",
+            "계좌 개설 후 휴대폰으로 사용하는 방법을 묻겠다고 말하기.",
+            "이런 순서로 하겠다고 마무리하기."
+          ]
         },
         {
           "id": "topic-14-q4",
@@ -4005,16 +4457,24 @@ window.OPIC_DATA = {
           "question": "은행을 이용하는 방식이 어떻게 달라졌나요? 예전의 지점 방문과 지금의 이용 방식을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "People used to visit the bank for many things, but now they often use an app.",
-            "Before, they had to go to a branch, take a number, and wait for a staff member.",
-            "They also had to fit the visit into the bank's opening hours, which wasn't always easy.",
-            "Now they can send money or check their account at home with just a phone.",
-            "I mean, something that once took a whole trip can now take only a few minutes.",
-            "So banking feels much quicker and easier to fit into daily life these days."
+            "The way people use banks has changed a lot.",
+            "In the past, people went to a bank to send money.",
+            "They took a number and waited for a long time.",
+            "But now, they can use a banking app on their phone.",
+            "They can send money and check their account at home.",
+            "So yeah, banking is faster and easier now."
           ],
-          "hint": "예전 방문·대기·운영 시간 → 현재 앱·집 → 시간 절약",
+          "hint": "은행을 이용하는 방식이 많이 달라졌다고 시작하기. → 예전에는 송금하려고 은행에 갔다고 말하기. → 번호표를 뽑고 오래 기다렸다고 설명하기. → 지금은 휴대폰의 은행 앱을 쓸 수 있다고 비교하기. → 집에서 송금하고 계좌를 확인할 수 있다고 설명하기. → 지금은 더 빠르고 쉬워졌다고 마무리하기.",
           "questionEn": "How has the way people use banks changed? Compare visiting a branch in the past with using banking services now.",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "hintSteps": [
+            "은행을 이용하는 방식이 많이 달라졌다고 시작하기.",
+            "예전에는 송금하려고 은행에 갔다고 말하기.",
+            "번호표를 뽑고 오래 기다렸다고 설명하기.",
+            "지금은 휴대폰의 은행 앱을 쓸 수 있다고 비교하기.",
+            "집에서 송금하고 계좌를 확인할 수 있다고 설명하기.",
+            "지금은 더 빠르고 쉬워졌다고 마무리하기."
+          ]
         },
         {
           "id": "topic-14-q5",
@@ -4022,15 +4482,24 @@ window.OPIC_DATA = {
           "question": "사람들은 은행에서 보통 무엇을 하나요? 흔한 업무 몇 가지와 직원이 돕는 방법을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, people usually go to banks to open accounts, get cash, or ask for help with a problem.",
-            "The staff first check what the customer needs and ask for ID when it's necessary.",
-            "For a new account, they explain the forms and help people fill in the details.",
-            "People who only need cash often use an ATM, which can save them some waiting time.",
-            "If something doesn't work, a staff member checks the problem and explains what to do next."
+            "People go to banks to open accounts or get help.",
+            "They also use ATMs to get cash.",
+            "The staff ask what the customer needs.",
+            "Then, they check the customer's ID and explain what to do.",
+            "For example, they help people fill out forms for a new account.",
+            "So yeah, that's what people usually do at banks."
           ],
-          "hint": "계좌·현금·도움 → 신분증 확인 → ATM·창구 → 상담",
+          "hint": "사람들은 계좌를 만들거나 도움받으러 은행에 간다고 말하기. → 현금을 찾기 위해 ATM도 쓴다고 설명하기. → 직원은 고객에게 필요한 업무를 묻는다고 말하기. → 신분증을 확인하고 해야 할 일을 설명한다고 말하기. → 새 계좌 신청서 작성을 도와주는 예를 들기. → 이것이 은행에서 보통 하는 일이라고 마무리하기.",
           "questionEn": "What do people usually do at banks? Explain a few common tasks and how bank staff help with them.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "hintSteps": [
+            "사람들은 계좌를 만들거나 도움받으러 은행에 간다고 말하기.",
+            "현금을 찾기 위해 ATM도 쓴다고 설명하기.",
+            "직원은 고객에게 필요한 업무를 묻는다고 말하기.",
+            "신분증을 확인하고 해야 할 일을 설명한다고 말하기.",
+            "새 계좌 신청서 작성을 도와주는 예를 들기.",
+            "이것이 은행에서 보통 하는 일이라고 마무리하기."
+          ]
         },
         {
           "id": "topic-14-q6",
@@ -4038,16 +4507,24 @@ window.OPIC_DATA = {
           "question": "은행 카드가 작동하지 않았던 경험을 말해 주세요. 어떻게 대처했고, 문제는 어떻게 해결됐나요?",
           "status": "선택",
           "answer": [
-            "My bank card stopped working once, so I went to a bank near my home.",
-            "First, I took a number and waited in the seating area until it was my turn.",
-            "When my number came up, I explained the problem and showed the staff my card.",
-            "A staff member checked my ID, looked at the card, and helped me get a new one.",
-            "I tried the new card before leaving, just to make sure everything was working properly.",
-            "Luckily, it worked, so I could finally stop worrying about how to pay for things."
+            "I remember one problem I had with my bank card.",
+            "One day, it stopped working, so I went to the bank.",
+            "First, I took a number and waited.",
+            "Then, I told the staff about the problem and showed my ID.",
+            "They gave me a new card, and it worked.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "카드 고장 → 은행·번호표 → 문제 설명 → 새 카드 → 해결",
+          "hint": "은행 카드에 문제가 생긴 경험으로 시작하기. → 어느 날 카드가 작동하지 않아 은행에 갔다고 설명하기. → 번호표를 뽑고 기다렸다고 말하기. → 직원에게 문제를 말하고 신분증을 보여 주었다고 설명하기. → 새 카드를 받았고 작동했다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about a time your bank card did not work. What did you do, and how was the problem solved?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "은행 카드에 문제가 생긴 경험으로 시작하기.",
+            "어느 날 카드가 작동하지 않아 은행에 갔다고 설명하기.",
+            "번호표를 뽑고 기다렸다고 말하기.",
+            "직원에게 문제를 말하고 신분증을 보여 주었다고 설명하기.",
+            "새 카드를 받았고 작동했다고 결과 말하기.",
+            "결국 잘 해결되었다고 마무리하기."
+          ]
         }
       ],
       "scriptGroups": [
@@ -4101,16 +4578,24 @@ window.OPIC_DATA = {
           "question": "가장 자주 사용하는 전자기기는 무엇인가요? 일상 활동 몇 가지에 어떻게 사용하는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "My phone is the device I use most, because it helps with lots of everyday things.",
-            "I use it to watch YouTube and listen to music whenever I have a short break.",
-            "I also use it to look up information or take a picture of something I want to remember.",
-            "When I want music, I open an app and choose a song from my playlist.",
-            "For pictures, I open the camera, check the screen, and tap the button.",
-            "So, you know, I keep using the same few apps throughout the day without really thinking about it."
+            "The device I use most is my phone.",
+            "I use it every day to watch YouTube and listen to music.",
+            "For music, I open an app and choose a song.",
+            "I also use it to take pictures and send messages.",
+            "When I need information, I search for it on my phone.",
+            "So yeah, my phone is really useful."
           ],
-          "hint": "휴대폰 → YouTube·음악 → 검색·사진 → 쉬는 시간 확인",
+          "hint": "가장 많이 쓰는 기기는 휴대폰이라고 말하기. → 매일 유튜브와 음악 감상에 쓴다고 설명하기. → 음악 앱을 열고 노래를 고른다고 사용 방법 말하기. → 사진 촬영과 메시지 전송에도 쓴다고 덧붙이기. → 정보가 필요하면 휴대폰으로 검색한다고 말하기. → 휴대폰이 정말 유용하다고 마무리하기.",
           "questionEn": "Which electronic device do you use most often? Explain how you use it for a few everyday activities.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "hintSteps": [
+            "가장 많이 쓰는 기기는 휴대폰이라고 말하기.",
+            "매일 유튜브와 음악 감상에 쓴다고 설명하기.",
+            "음악 앱을 열고 노래를 고른다고 사용 방법 말하기.",
+            "사진 촬영과 메시지 전송에도 쓴다고 덧붙이기.",
+            "정보가 필요하면 휴대폰으로 검색한다고 말하기.",
+            "휴대폰이 정말 유용하다고 마무리하기."
+          ]
         },
         {
           "id": "topic-15-q2",
@@ -4118,16 +4603,24 @@ window.OPIC_DATA = {
           "question": "예전 휴대폰과 지금 사용하는 휴대폰을 비교해 주세요. 할 수 있는 일이 어떻게 달라졌나요?",
           "status": "필수",
           "answer": [
-            "Well, phones can do so much more now than the ones people used in the past.",
-            "Older phones were mainly for making calls and sending short text messages.",
-            "Their screens were smaller, and there weren't many other things you could do with them.",
-            "Now people can watch YouTube, listen to music, and use banking apps on one device.",
-            "They can also take pretty clear pictures, so they don't always need a separate camera.",
-            "I mean, today's phone does the jobs of several things we used to carry around."
+            "My phone is much more useful now.",
+            "My old phone had a small screen and a simple camera.",
+            "I mainly used it to make calls and send messages.",
+            "But now, I can watch YouTube and use banking apps.",
+            "I can also take better pictures with my new phone.",
+            "So yeah, I can do more things on it now."
           ],
-          "hint": "예전 전화·문자 → 현재 영상·음악·은행·사진 → 기능 증가",
+          "hint": "지금 휴대폰은 훨씬 더 유용하다고 시작하기. → 예전 휴대폰은 화면이 작고 카메라도 단순했다고 설명하기. → 주로 전화와 메시지에 사용했다고 말하기. → 지금은 유튜브와 은행 앱을 쓸 수 있다고 비교하기. → 더 좋은 사진도 찍을 수 있다고 덧붙이기. → 지금은 더 많은 일을 할 수 있다고 마무리하기.",
           "questionEn": "Compare mobile phones from the past with the phones people use now. What can people do with them today that was different before?",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "hintSteps": [
+            "지금 휴대폰은 훨씬 더 유용하다고 시작하기.",
+            "예전 휴대폰은 화면이 작고 카메라도 단순했다고 설명하기.",
+            "주로 전화와 메시지에 사용했다고 말하기.",
+            "지금은 유튜브와 은행 앱을 쓸 수 있다고 비교하기.",
+            "더 좋은 사진도 찍을 수 있다고 덧붙이기.",
+            "지금은 더 많은 일을 할 수 있다고 마무리하기."
+          ]
         },
         {
           "id": "topic-15-q3",
@@ -4135,16 +4628,24 @@ window.OPIC_DATA = {
           "question": "휴대폰이 작동하지 않았던 경험을 말해 주세요. 무엇을 하던 중이었고, 어떻게 대처했으며, 그다음 어떻게 됐나요?",
           "status": "필수",
           "answer": [
-            "My phone suddenly turned off when I was trying to send a message.",
-            "The battery was empty, so pressing the power button didn't do anything.",
-            "I found my charger, plugged the phone in, and waited for a while.",
-            "Luckily, it turned back on after it had charged for a few minutes.",
-            "I sent the message again and checked that it had gone through this time.",
-            "Honestly, I was just glad the phone wasn't broken, because I use it for so many things."
+            "I remember one problem I had with my phone.",
+            "One day, it suddenly turned off while I was sending a message.",
+            "I was really surprised, but the battery was empty.",
+            "So I charged it and waited for a few minutes.",
+            "Then, it turned on, and I sent the message.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "메시지 중 꺼짐 → 배터리 → 충전 → 다시 켜기 → 전송",
+          "hint": "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기. → 어느 날 메시지를 보내던 중 휴대폰이 갑자기 꺼졌다고 설명하기. → 놀랐지만 배터리가 다 된 것을 알았다고 말하기. → 충전하고 몇 분 기다렸다고 설명하기. → 다시 켜져 메시지를 보냈다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about a time your phone stopped working. What were you doing, how did you respond, and what happened next?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기.",
+            "어느 날 메시지를 보내던 중 휴대폰이 갑자기 꺼졌다고 설명하기.",
+            "놀랐지만 배터리가 다 된 것을 알았다고 말하기.",
+            "충전하고 몇 분 기다렸다고 설명하기.",
+            "다시 켜져 메시지를 보냈다고 결과 말하기.",
+            "결국 잘 해결되었다고 마무리하기."
+          ]
         },
         {
           "id": "topic-15-q4",
@@ -4152,16 +4653,24 @@ window.OPIC_DATA = {
           "question": "기술이 일상생활을 어떻게 바꾸었나요? 사람들이 예전에 일상 업무를 하던 방법과 지금의 방법을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "I think technology has made a lot of everyday tasks much easier to finish.",
-            "In the past, people often had to visit a bank or a store in person.",
-            "That meant spending time getting there, waiting, and then coming all the way back home.",
-            "Now people can send money or buy things on their phones without going anywhere.",
-            "They can also look up information right away instead of asking around or searching through books.",
-            "I mean, the biggest change is being able to do so many things from one place."
+            "I think technology has made daily life easier.",
+            "In the past, people went to banks and stores in person.",
+            "It took a lot of time.",
+            "But now, they can send money and buy things on their phones.",
+            "They can also find information quickly online.",
+            "So yeah, technology saves us time."
           ],
-          "hint": "예전 은행·가게 방문 → 현재 휴대폰 → 이동·대기 시간 절약",
+          "hint": "기술 덕분에 일상생활이 쉬워졌다고 말하기. → 예전에는 은행과 가게에 직접 갔다고 설명하기. → 시간이 많이 걸렸다고 말하기. → 지금은 휴대폰으로 송금하고 물건을 살 수 있다고 비교하기. → 온라인에서 정보를 빨리 찾을 수도 있다고 덧붙이기. → 기술이 시간을 절약해 준다고 마무리하기.",
           "questionEn": "How has technology changed everyday life? Compare how people did common tasks before with how they do them now.",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "hintSteps": [
+            "기술 덕분에 일상생활이 쉬워졌다고 말하기.",
+            "예전에는 은행과 가게에 직접 갔다고 설명하기.",
+            "시간이 많이 걸렸다고 말하기.",
+            "지금은 휴대폰으로 송금하고 물건을 살 수 있다고 비교하기.",
+            "온라인에서 정보를 빨리 찾을 수도 있다고 덧붙이기.",
+            "기술이 시간을 절약해 준다고 마무리하기."
+          ]
         },
         {
           "id": "topic-15-q5",
@@ -4169,16 +4678,24 @@ window.OPIC_DATA = {
           "question": "사람들이 AI 도구에 관심을 갖는 이유는 무엇인가요? 유용하게 느끼는 점과 걱정할 수 있는 점 하나를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I think people are interested in AI because it can help them finish small tasks more quickly.",
-            "They can use it on a phone or computer without needing a lot of special equipment.",
-            "For example, it can help them write a message or organize ideas when they don't know where to start.",
-            "That can save some time, especially during a busy day at work.",
-            "But, you know, the answers aren't always right, even when they sound clear.",
-            "So I think it's useful, as long as people still check anything important before using it."
+            "I think people like AI because it saves time.",
+            "They can use it on their phones or computers.",
+            "For example, it can help them write messages and organize ideas.",
+            "That's useful when they are busy.",
+            "But sometimes, AI gives wrong answers.",
+            "So I think people should check important information."
           ],
-          "hint": "질문·업무 도움 → 휴대폰·컴퓨터 → 속도 → 오류·확인",
+          "hint": "AI가 시간을 절약해 줘서 사람들이 좋아한다고 말하기. → 휴대폰이나 컴퓨터에서 쓸 수 있다고 설명하기. → 메시지 작성과 생각 정리를 도와주는 예를 들기. → 바쁠 때 유용하다고 말하기. → 가끔 틀린 답을 준다는 걱정을 설명하기. → 중요한 정보는 확인해야 한다고 마무리하기.",
           "questionEn": "Why are people interested in AI tools? Explain what they find useful and one concern they may have.",
-          "type": "의견·이유"
+          "type": "의견·이유",
+          "hintSteps": [
+            "AI가 시간을 절약해 줘서 사람들이 좋아한다고 말하기.",
+            "휴대폰이나 컴퓨터에서 쓸 수 있다고 설명하기.",
+            "메시지 작성과 생각 정리를 도와주는 예를 들기.",
+            "바쁠 때 유용하다고 말하기.",
+            "가끔 틀린 답을 준다는 걱정을 설명하기.",
+            "중요한 정보는 확인해야 한다고 마무리하기."
+          ]
         },
         {
           "id": "topic-15-q6",
@@ -4186,16 +4703,24 @@ window.OPIC_DATA = {
           "question": "한국의 중요한 산업 하나를 골라 최근 변화를 설명해 주세요. 기업들은 예전에 무엇에 집중했고, 지금은 무엇을 개발하나요?",
           "status": "선택",
           "answer": [
-            "The tech industry is important in Korea, and I've noticed more interest in AI recently.",
-            "Companies have made phones, computers, and other devices for a long time.",
-            "Before, many of the changes I noticed were things like better screens or faster parts.",
-            "Now I see more tools that help people write, find information, or get small tasks done.",
-            "I mean, the focus seems to be more on what a device can help you do.",
-            "So that's the change that stands out to me, although I don't know every part of the industry."
+            "I think the tech industry is important in Korea.",
+            "Korean companies make phones and computers.",
+            "In the past, they focused on better screens and cameras.",
+            "But now, they are also developing AI tools.",
+            "These tools can help people write messages and find information.",
+            "So yeah, I think AI is an important change."
           ],
-          "hint": "기술 산업 → 기기 → AI 도구·기능 → 일상 도움",
+          "hint": "한국에서 기술 산업이 중요하다고 생각한다고 말하기. → 한국 기업들이 휴대폰과 컴퓨터를 만든다고 설명하기. → 예전에는 더 좋은 화면과 카메라에 집중했다고 말하기. → 지금은 AI 도구도 개발한다고 비교하기. → 메시지 작성과 정보 찾기를 도와주는 도구라고 설명하기. → AI가 중요한 변화라고 생각한다고 마무리하기.",
           "questionEn": "Choose an important industry in Korea and describe a recent change in it. What did companies focus on before, and what are they working on now?",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "hintSteps": [
+            "한국에서 기술 산업이 중요하다고 생각한다고 말하기.",
+            "한국 기업들이 휴대폰과 컴퓨터를 만든다고 설명하기.",
+            "예전에는 더 좋은 화면과 카메라에 집중했다고 말하기.",
+            "지금은 AI 도구도 개발한다고 비교하기.",
+            "메시지 작성과 정보 찾기를 도와주는 도구라고 설명하기.",
+            "AI가 중요한 변화라고 생각한다고 마무리하기."
+          ]
         },
         {
           "id": "topic-15-q7",
@@ -4203,16 +4728,24 @@ window.OPIC_DATA = {
           "question": "최근 구입한 전자제품을 말해 주세요. 언제 샀고, 지금은 어떻게 사용하나요?",
           "status": "선택",
           "answer": [
-            "I bought a new phone last month, and I've been using it every day since then.",
-            "I use it to watch YouTube and listen to music whenever I have a short break.",
-            "I also use it to look up information or take a picture of something I want to remember.",
-            "For music, I just open an app and choose a song from my playlist.",
-            "For pictures, I open the camera, check the screen, and tap the button.",
-            "Honestly, I don't use every feature, but those simple things already make it really useful for me."
+            "I bought a new phone last month.",
+            "I use it every day to watch YouTube and listen to music.",
+            "For music, I open an app and choose a song.",
+            "I also use it to take pictures and send messages.",
+            "When I need information, I search for it on my phone.",
+            "So yeah, I'm really happy with my new phone."
           ],
-          "hint": "지난달 새 휴대폰 → 영상·음악 → 검색·사진 → 매일 사용",
+          "hint": "지난달 새 휴대폰을 샀다고 말하기. → 매일 유튜브와 음악 감상에 쓴다고 설명하기. → 음악 앱을 열고 노래를 고른다고 방법 말하기. → 사진 촬영과 메시지 전송에도 쓴다고 덧붙이기. → 정보가 필요하면 휴대폰으로 검색한다고 말하기. → 새 휴대폰이 정말 마음에 든다고 마무리하기.",
           "questionEn": "Tell me about an electronic device you bought recently. When did you buy it, and how do you use it now?",
-          "type": "과거 경험·사용"
+          "type": "과거 경험·사용",
+          "hintSteps": [
+            "지난달 새 휴대폰을 샀다고 말하기.",
+            "매일 유튜브와 음악 감상에 쓴다고 설명하기.",
+            "음악 앱을 열고 노래를 고른다고 방법 말하기.",
+            "사진 촬영과 메시지 전송에도 쓴다고 덧붙이기.",
+            "정보가 필요하면 휴대폰으로 검색한다고 말하기.",
+            "새 휴대폰이 정말 마음에 든다고 마무리하기."
+          ]
         }
       ],
       "scriptGroups": [
@@ -4267,16 +4800,24 @@ window.OPIC_DATA = {
           "question": "한국의 지형을 묘사해 주세요. 어떤 자연 지형과 풍경을 볼 수 있나요?",
           "status": "필수",
           "answer": [
-            "Well, Korea has lots of mountains and rivers, with the sea on three sides.",
-            "There are mountains in many parts of the country, so the land often looks quite hilly.",
-            "Seoul has a large river running through it, with buildings on both sides.",
-            "Busan has long beaches and open views of the sea, which feel very different.",
-            "There are also places with wide fields and small towns away from the big cities.",
-            "So, you know, the scenery can change quite a lot even within a fairly small country."
+            "Korea has many mountains and rivers.",
+            "The sea is on three sides of the country.",
+            "Seoul has a big river called the Han River.",
+            "Busan has beautiful beaches, like Haeundae Beach.",
+            "There are also fields and small towns.",
+            "So yeah, Korea has many different kinds of scenery."
           ],
-          "hint": "산·강·삼면 바다 → 서울 강 → 부산 해변 → 다양한 풍경",
+          "hint": "한국에는 산과 강이 많다고 말하기. → 나라의 세 면이 바다라고 설명하기. → 서울에는 한강이라는 큰 강이 있다고 예를 들기. → 부산에는 해운대 같은 아름다운 해변이 있다고 말하기. → 들판과 작은 마을도 있다고 덧붙이기. → 여러 종류의 풍경을 볼 수 있다고 마무리하기.",
           "questionEn": "Describe the geography of Korea. What kinds of natural features and scenery can people find there?",
-          "type": "묘사"
+          "type": "묘사",
+          "hintSteps": [
+            "한국에는 산과 강이 많다고 말하기.",
+            "나라의 세 면이 바다라고 설명하기.",
+            "서울에는 한강이라는 큰 강이 있다고 예를 들기.",
+            "부산에는 해운대 같은 아름다운 해변이 있다고 말하기.",
+            "들판과 작은 마을도 있다고 덧붙이기.",
+            "여러 종류의 풍경을 볼 수 있다고 마무리하기."
+          ]
         },
         {
           "id": "topic-16-q2",
@@ -4284,16 +4825,24 @@ window.OPIC_DATA = {
           "question": "한국의 대도시와 작은 지역을 비교해 주세요. 건물·거리·분위기가 어떻게 다른가요?",
           "status": "필수",
           "answer": [
-            "Big cities and small towns in Korea can feel quite different, especially in how busy they are.",
-            "Big cities have lots of tall buildings, stores, and people moving around all day.",
-            "Their main streets often have heavy traffic, so they can be pretty noisy too.",
-            "Small towns usually have fewer tall buildings and more open space between places.",
-            "The streets tend to be less crowded, which gives the whole area a calmer feel.",
-            "So, to me, the biggest difference is how fast or slow everyday life seems to move."
+            "Big cities and small towns are quite different.",
+            "Big cities have tall buildings and many stores.",
+            "The streets are busy and noisy because there are many cars and people.",
+            "But small towns have fewer buildings and more open spaces.",
+            "Their streets are quieter and less crowded.",
+            "So yeah, small towns feel more relaxing to me."
           ],
-          "hint": "대도시 높은 건물·혼잡 → 작은 지역 낮은 건물·여유",
+          "hint": "대도시와 작은 지역은 꽤 다르다고 시작하기. → 대도시에는 높은 건물과 가게가 많다고 묘사하기. → 차와 사람이 많아 거리가 복잡하고 시끄럽다고 설명하기. → 작은 지역은 건물이 적고 탁 트인 공간이 더 많다고 비교하기. → 거리도 조용하고 덜 붐빈다고 말하기. → 작은 지역이 더 편안하게 느껴진다고 마무리하기.",
           "questionEn": "Compare a big city with a small town in Korea. How do their buildings, streets, and atmosphere differ?",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "hintSteps": [
+            "대도시와 작은 지역은 꽤 다르다고 시작하기.",
+            "대도시에는 높은 건물과 가게가 많다고 묘사하기.",
+            "차와 사람이 많아 거리가 복잡하고 시끄럽다고 설명하기.",
+            "작은 지역은 건물이 적고 탁 트인 공간이 더 많다고 비교하기.",
+            "거리도 조용하고 덜 붐빈다고 말하기.",
+            "작은 지역이 더 편안하게 느껴진다고 마무리하기."
+          ]
         },
         {
           "id": "topic-16-q3",
@@ -4301,16 +4850,24 @@ window.OPIC_DATA = {
           "question": "사는 지역은 어떻게 달라졌나요? 예전의 건물·도로와 지금의 모습을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "The area near my home has more stores and roads than it used to.",
-            "When I was younger, there were fewer buildings and quite a bit of open space.",
-            "The streets were quieter too, because there weren't as many cars going through the area.",
-            "Now there are more places to eat and shop, so daily life is more convenient.",
-            "It's easier to get around, but there are also more people and more traffic.",
-            "Honestly, I like having everything nearby, although I sometimes miss how quiet it used to be."
+            "The area near my home has changed a lot.",
+            "In the past, there were fewer buildings and more open spaces.",
+            "The roads were also quiet.",
+            "But now, there are more stores and wider roads.",
+            "There are more cars, so the area is busier.",
+            "So yeah, life is easier now, but I miss the quiet streets."
           ],
-          "hint": "예전 건물 적고 빈 공간 → 현재 가게·도로·사람 → 편리함",
+          "hint": "집 주변 지역이 많이 달라졌다고 시작하기. → 예전에는 건물이 적고 빈 공간이 많았다고 말하기. → 도로도 조용했다고 설명하기. → 지금은 가게가 많고 도로가 더 넓다고 비교하기. → 차가 많아져 더 복잡해졌다고 말하기. → 생활은 편해졌지만 조용했던 거리가 그립다고 마무리하기.",
           "questionEn": "How has the area where you live changed? Compare its buildings and roads in the past with what you see now.",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "hintSteps": [
+            "집 주변 지역이 많이 달라졌다고 시작하기.",
+            "예전에는 건물이 적고 빈 공간이 많았다고 말하기.",
+            "도로도 조용했다고 설명하기.",
+            "지금은 가게가 많고 도로가 더 넓다고 비교하기.",
+            "차가 많아져 더 복잡해졌다고 말하기.",
+            "생활은 편해졌지만 조용했던 거리가 그립다고 마무리하기."
+          ]
         },
         {
           "id": "topic-16-q4",
@@ -4318,16 +4875,24 @@ window.OPIC_DATA = {
           "question": "많은 사람이 대도시로 이동하면 어떤 문제가 생길 수 있나요? 주요 문제와 개선 방법 하나를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, when lots of people move to big cities, finding an affordable home can become harder.",
-            "Many people go there for work or school, so more people need homes in the same area.",
-            "As a result, people may have to pay more or live farther from where they need to be.",
-            "More cars and people can also make daily travel slower and more tiring.",
-            "I mean, spending a long time on the road every day can make people really tired.",
-            "I think creating more jobs in other areas could help spread things out a little."
+            "I think too many people in big cities can cause problems.",
+            "There are more cars, so the roads get crowded.",
+            "People spend a lot of time going to work.",
+            "Also, homes can be more expensive because more people need them.",
+            "I think more jobs in smaller cities could help.",
+            "Then, people would have more places to live and work."
           ],
-          "hint": "일·학교로 집중 → 집값·교통 → 이동·집 구하기 → 지역 일자리",
+          "hint": "대도시에 사람이 너무 많으면 문제가 생긴다고 말하기. → 차가 많아 도로가 붐빈다고 설명하기. → 출근하는 데 시간이 많이 걸린다고 말하기. → 집을 원하는 사람이 많아 집값이 비싸질 수 있다고 덧붙이기. → 작은 도시의 일자리를 늘리자고 개선 방법 제안하기. → 그러면 사람들이 살고 일할 곳을 더 다양하게 고를 수 있다고 설명하기.",
           "questionEn": "What problems can arise when many people move to big cities? Explain the main problems and one possible improvement.",
-          "type": "의견·이유"
+          "type": "의견·이유",
+          "hintSteps": [
+            "대도시에 사람이 너무 많으면 문제가 생긴다고 말하기.",
+            "차가 많아 도로가 붐빈다고 설명하기.",
+            "출근하는 데 시간이 많이 걸린다고 말하기.",
+            "집을 원하는 사람이 많아 집값이 비싸질 수 있다고 덧붙이기.",
+            "작은 도시의 일자리를 늘리자고 개선 방법 제안하기.",
+            "그러면 사람들이 살고 일할 곳을 더 다양하게 고를 수 있다고 설명하기."
+          ]
         },
         {
           "id": "topic-16-q5",
@@ -4335,16 +4900,24 @@ window.OPIC_DATA = {
           "question": "한국에서 사람들은 어떤 야외 활동을 즐기나요? 어디에서 어떤 활동을 하는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "People in Korea enjoy quite a few outdoor activities, depending on where they live.",
-            "Some go hiking in the mountains, usually following a path up to a good view.",
-            "Others ride bikes along rivers, where there are long routes away from busy roads.",
-            "At the coast, people walk by the sea, take pictures, and stop somewhere for a drink.",
-            "They often sit on a bench to rest afterward, so it doesn't have to be a busy day.",
-            "You know, spending a little time outside is enough for a lot of people to enjoy themselves."
+            "People in Korea enjoy many outdoor activities.",
+            "Some people go hiking in the mountains.",
+            "Others ride bikes along rivers.",
+            "At the beach, people walk and take pictures.",
+            "They also sit on benches and relax for a while.",
+            "So yeah, people enjoy spending time outside."
           ],
-          "hint": "산에서 등산 → 강변 자전거 → 해안 산책 → 벤치·사진",
+          "hint": "한국 사람들은 여러 야외 활동을 즐긴다고 말하기. → 산에서 등산하는 예를 들기. → 강을 따라 자전거를 타는 사람들도 있다고 말하기. → 해변에서는 걷고 사진을 찍는다고 설명하기. → 벤치에 앉아 잠시 쉬기도 한다고 덧붙이기. → 밖에서 시간 보내는 것을 즐긴다고 마무리하기.",
           "questionEn": "What outdoor activities do people enjoy in Korea? Explain where they do those activities and what they usually do.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "hintSteps": [
+            "한국 사람들은 여러 야외 활동을 즐긴다고 말하기.",
+            "산에서 등산하는 예를 들기.",
+            "강을 따라 자전거를 타는 사람들도 있다고 말하기.",
+            "해변에서는 걷고 사진을 찍는다고 설명하기.",
+            "벤치에 앉아 잠시 쉬기도 한다고 덧붙이기.",
+            "밖에서 시간 보내는 것을 즐긴다고 마무리하기."
+          ]
         }
       ],
       "scriptGroups": [
@@ -4391,16 +4964,24 @@ window.OPIC_DATA = {
           "question": "한국의 일 년 동안 날씨는 어떤가요? 사계절 각각의 날씨를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Korea has four seasons, and the weather changes quite a lot during the year.",
-            "Spring is usually warm, with flowers coming out as the cold weather ends.",
-            "Summer gets hot and rainy, so the air can feel quite heavy and wet.",
-            "Fall is cooler, and there are often days when the air feels clear and dry.",
-            "Winter is cold, sometimes with snow, especially when the temperature drops for several days.",
-            "So, you know, it isn't the kind of place where the weather stays the same all year."
+            "Korea has four seasons.",
+            "Spring is warm, and there are many flowers.",
+            "Summer is hot, and it rains a lot.",
+            "Fall is cool, and the air feels nice.",
+            "Winter is very cold, and it sometimes snows.",
+            "So yeah, the weather changes a lot during the year."
           ],
-          "hint": "봄 따뜻함 → 여름 더위·비 → 가을 선선함 → 겨울 추위·눈",
+          "hint": "한국에는 사계절이 있다고 시작하기. → 봄은 따뜻하고 꽃이 많다고 묘사하기. → 여름은 덥고 비가 많이 온다고 말하기. → 가을은 선선하고 공기가 좋다고 설명하기. → 겨울은 매우 춥고 가끔 눈이 온다고 말하기. → 일 년 동안 날씨가 많이 달라진다고 마무리하기.",
           "questionEn": "What is the weather like in Korea throughout the year? Describe the weather in each of the four seasons.",
-          "type": "묘사"
+          "type": "묘사",
+          "hintSteps": [
+            "한국에는 사계절이 있다고 시작하기.",
+            "봄은 따뜻하고 꽃이 많다고 묘사하기.",
+            "여름은 덥고 비가 많이 온다고 말하기.",
+            "가을은 선선하고 공기가 좋다고 설명하기.",
+            "겨울은 매우 춥고 가끔 눈이 온다고 말하기.",
+            "일 년 동안 날씨가 많이 달라진다고 마무리하기."
+          ]
         },
         {
           "id": "topic-17-q2",
@@ -4408,16 +4989,24 @@ window.OPIC_DATA = {
           "question": "가장 좋아하는 계절은 무엇인가요? 그 계절의 날씨를 묘사하고 평소 하는 활동을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I really like fall because the weather feels comfortable, especially after a hot summer.",
-            "The air is cool, but it usually isn't cold enough to make being outside unpleasant.",
-            "On weekends, I often go to the park near my home for a short walk.",
-            "I take my time and look at the trees as I walk along the path.",
-            "After about twenty minutes, I get a coffee and sit on a bench for a while.",
-            "Honestly, that simple routine feels even better when the weather is nice like that."
+            "My favorite season is fall because the weather is cool.",
+            "It's not too hot or too cold.",
+            "I usually go to the park near my home on weekends.",
+            "I walk along the path and look at the trees.",
+            "Then, I sit on a bench and listen to music.",
+            "So yeah, I really enjoy fall."
           ],
-          "hint": "가을·선선함 → 산책 → 공원 → 커피·벤치 → 기분",
+          "hint": "날씨가 선선해서 가을을 가장 좋아한다고 말하기. → 너무 덥지도 춥지도 않다고 설명하기. → 주말에 집 근처 공원에 간다고 말하기. → 길을 따라 걸으며 나무를 본다고 활동 설명하기. → 벤치에 앉아 음악을 듣는다고 말하기. → 가을을 정말 좋아한다고 마무리하기.",
           "questionEn": "What is your favorite season? Describe its weather and explain what you usually do during that season.",
-          "type": "묘사·일과"
+          "type": "묘사·일과",
+          "hintSteps": [
+            "날씨가 선선해서 가을을 가장 좋아한다고 말하기.",
+            "너무 덥지도 춥지도 않다고 설명하기.",
+            "주말에 집 근처 공원에 간다고 말하기.",
+            "길을 따라 걸으며 나무를 본다고 활동 설명하기.",
+            "벤치에 앉아 음악을 듣는다고 말하기.",
+            "가을을 정말 좋아한다고 마무리하기."
+          ]
         },
         {
           "id": "topic-17-q3",
@@ -4425,17 +5014,24 @@ window.OPIC_DATA = {
           "question": "날씨 때문에 계획을 바꾼 경험을 말해 주세요. 원래 계획은 무엇이었고, 대신 어떻게 했나요?",
           "status": "필수",
           "answer": [
-            "I once changed my trip to Busan because there was going to be heavy rain.",
-            "I'd planned to spend most of the weekend walking along Haeundae Beach.",
-            "When I checked the weather, I realized that probably wouldn't be much fun.",
-            "So I changed my train ticket to the next weekend instead of going right away.",
-            "Luckily, the weather was clear then, and I could enjoy a slow walk by the sea.",
-            "I also took a few pictures before going back to my hotel.",
-            "Honestly, I was glad I'd waited, because I got the quiet beach trip I'd wanted."
+            "I remember one time I changed my trip to Busan.",
+            "I wanted to go to Haeundae Beach, but there was heavy rain.",
+            "So I changed my train ticket to the next weekend.",
+            "Luckily, the weather was good that weekend.",
+            "I walked along the beach and took some pictures.",
+            "So yeah, I had a really relaxing time."
           ],
-          "hint": "부산 여행·폭우 → 다음 주말로 변경 → 맑은 해변 → 사진",
+          "hint": "부산 여행 계획을 바꿨던 경험이 기억난다고 시작하기. → 해운대에 가고 싶었지만 비가 많이 왔다고 이유 설명하기. → 기차표를 다음 주말로 바꿨다고 말하기. → 다행히 그 주말에는 날씨가 좋았다고 설명하기. → 해변을 걷고 사진을 찍었다고 말하기. → 정말 편안한 시간을 보냈다고 마무리하기.",
           "questionEn": "Tell me about a time the weather changed your plans. What was the original plan, and what did you do instead?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "부산 여행 계획을 바꿨던 경험이 기억난다고 시작하기.",
+            "해운대에 가고 싶었지만 비가 많이 왔다고 이유 설명하기.",
+            "기차표를 다음 주말로 바꿨다고 말하기.",
+            "다행히 그 주말에는 날씨가 좋았다고 설명하기.",
+            "해변을 걷고 사진을 찍었다고 말하기.",
+            "정말 편안한 시간을 보냈다고 마무리하기."
+          ]
         },
         {
           "id": "topic-17-q4",
@@ -4443,16 +5039,24 @@ window.OPIC_DATA = {
           "question": "어릴 때와 비교해 날씨가 달라졌다고 생각하나요? 기억 속 여름·겨울과 최근의 날씨를 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Summers feel hotter to me now than they did when I was younger.",
-            "I remember having more days when being outside in summer still felt fairly comfortable.",
-            "These days, the heat seems to stay around longer, even into the evening.",
-            "Heavy rain also seems more common, although that's just what I've noticed myself.",
-            "In my memory, winters felt longer and colder, while recent ones seem a little shorter.",
-            "So, you know, I feel a difference, but I'm talking about my own memory rather than exact weather records."
+            "I think the weather has changed since I was a child.",
+            "In the past, summers didn't feel as hot as they do now.",
+            "But these days, summer feels hotter and lasts longer.",
+            "I also feel that heavy rain is more common now.",
+            "In my memory, winters were longer and colder.",
+            "So yeah, the weather feels different to me now."
           ],
-          "hint": "체감상 여름 더움·비 많음 → 예전 겨울 김 → 현재 겨울 짧음",
+          "hint": "어릴 때와 비교해 날씨가 달라졌다고 생각한다고 말하기. → 예전 여름은 지금만큼 덥게 느껴지지 않았다고 설명하기. → 요즘 여름은 더 덥고 더 오래 이어지는 것 같다고 비교하기. → 폭우도 더 자주 오는 것 같다고 느낀 점 말하기. → 기억 속 겨울은 더 길고 추웠다고 비교하기. → 내가 느끼는 날씨는 예전과 다르다고 마무리하기.",
           "questionEn": "Do you think the weather has changed since you were younger? Compare the summers and winters you remember with recent ones.",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "hintSteps": [
+            "어릴 때와 비교해 날씨가 달라졌다고 생각한다고 말하기.",
+            "예전 여름은 지금만큼 덥게 느껴지지 않았다고 설명하기.",
+            "요즘 여름은 더 덥고 더 오래 이어지는 것 같다고 비교하기.",
+            "폭우도 더 자주 오는 것 같다고 느낀 점 말하기.",
+            "기억 속 겨울은 더 길고 추웠다고 비교하기.",
+            "내가 느끼는 날씨는 예전과 다르다고 마무리하기."
+          ]
         }
       ],
       "scriptGroups": [
@@ -4498,15 +5102,24 @@ window.OPIC_DATA = {
           "question": "친구들과 보통 어떻게 약속을 잡나요? 날짜·시간·장소를 정하는 방법을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I usually make plans with friends by message, because it's easy to check when they're free.",
-            "First, I ask which day works for them instead of choosing everything on my own.",
-            "Then we decide on a place and time, usually somewhere that's easy for both of us to reach.",
-            "We often choose a cafe or restaurant, so we can sit down and talk properly.",
-            "Before the day, I send one more message to check the details, just to make sure we're thinking of the same plan."
+            "I usually make plans with friends by message.",
+            "First, I ask when they are free.",
+            "Then, we choose a day and time.",
+            "We usually meet at a cafe or restaurant near the station.",
+            "Before we meet, I send a message to check the plan.",
+            "So yeah, that's how I make plans with my friends."
           ],
-          "hint": "메시지 → 가능한 날 → 장소·시간 → 카페·식당 → 확인",
+          "hint": "보통 메시지로 친구들과 약속을 잡는다고 말하기. → 먼저 언제 시간이 있는지 묻는다고 설명하기. → 그다음 날짜와 시간을 정한다고 말하기. → 장소는 보통 역 근처 카페나 음식점이라고 설명하기. → 만나기 전에 메시지로 계획을 확인한다고 말하기. → 이것이 약속을 잡는 방법이라고 마무리하기.",
           "questionEn": "How do you usually make plans with friends? Explain how you decide on a day, a time, and a place.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "hintSteps": [
+            "보통 메시지로 친구들과 약속을 잡는다고 말하기.",
+            "먼저 언제 시간이 있는지 묻는다고 설명하기.",
+            "그다음 날짜와 시간을 정한다고 말하기.",
+            "장소는 보통 역 근처 카페나 음식점이라고 설명하기.",
+            "만나기 전에 메시지로 계획을 확인한다고 말하기.",
+            "이것이 약속을 잡는 방법이라고 마무리하기."
+          ]
         },
         {
           "id": "topic-18-q2",
@@ -4514,16 +5127,24 @@ window.OPIC_DATA = {
           "question": "약속을 취소하거나 변경한 경험을 말해 주세요. 무슨 일이 있었고, 새 계획은 어떻게 정했나요?",
           "status": "필수",
           "answer": [
-            "I once had to change plans with a friend because I wasn't feeling well.",
-            "I sent a message as soon as I knew I couldn't go, and I said I was sorry.",
-            "I asked if we could meet the following weekend instead of canceling completely.",
-            "Luckily, my friend understood, and we found another time that worked for both of us.",
-            "We finally met for dinner a week later, when I was feeling much better.",
-            "Honestly, I was glad I'd said something early instead of making my friend wait."
+            "I remember one time I had to change plans with a friend.",
+            "We planned to meet at a cafe, but I was sick.",
+            "So I called my friend and said sorry.",
+            "I asked if we could meet the next weekend.",
+            "My friend said okay, and we met a week later.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "아파서 변경 → 메시지·사과 → 다음 주말 → 동의·만남",
+          "hint": "친구와 약속을 바꿔야 했던 경험이 기억난다고 시작하기. → 카페에서 만나기로 했지만 몸이 아팠다고 설명하기. → 친구에게 전화해 사과했다고 말하기. → 다음 주말에 만날 수 있는지 물었다고 말하기. → 친구가 괜찮다고 했고 일주일 뒤에 만났다고 결과 설명하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about a time you canceled or changed an appointment. What happened, and how did you arrange a new plan?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "친구와 약속을 바꿔야 했던 경험이 기억난다고 시작하기.",
+            "카페에서 만나기로 했지만 몸이 아팠다고 설명하기.",
+            "친구에게 전화해 사과했다고 말하기.",
+            "다음 주말에 만날 수 있는지 물었다고 말하기.",
+            "친구가 괜찮다고 했고 일주일 뒤에 만났다고 결과 설명하기.",
+            "결국 잘 해결되었다고 마무리하기."
+          ]
         },
         {
           "id": "topic-18-q3",
@@ -4531,16 +5152,24 @@ window.OPIC_DATA = {
           "question": "사람들이 약속을 잡는 방식은 어떻게 달라졌나요? 연락 방법과 갑작스러운 변경을 예전과 지금으로 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "People used to make plans by phone, but now they often just send messages.",
-            "In the past, they usually decided on the place and time before leaving home.",
-            "If something changed afterward, it could be hard to reach the other person quickly.",
-            "Now people can send a short message, even when they're already on the way.",
-            "They can also share the exact location on their phones, which makes meeting up easier.",
-            "I mean, it's much simpler now to change a small part of the plan without starting over."
+            "The way people make plans has changed a lot.",
+            "In the past, people usually called each other.",
+            "They decided on a time and place before leaving home.",
+            "But now, people often send messages.",
+            "They can quickly change plans and share their location.",
+            "So yeah, making plans is easier now."
           ],
-          "hint": "예전 전화·미리 결정 → 현재 메시지·즉시 변경 → 편리함",
+          "hint": "약속 잡는 방식이 많이 달라졌다고 시작하기. → 예전에는 서로 전화했다고 설명하기. → 집을 나서기 전에 시간과 장소를 정했다고 말하기. → 지금은 메시지를 자주 보낸다고 비교하기. → 계획을 빨리 바꾸고 위치를 공유할 수 있다고 설명하기. → 지금은 약속을 잡기가 더 쉬워졌다고 마무리하기.",
           "questionEn": "How has the way people make plans changed? Compare communication and last-minute changes in the past and now.",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "hintSteps": [
+            "약속 잡는 방식이 많이 달라졌다고 시작하기.",
+            "예전에는 서로 전화했다고 설명하기.",
+            "집을 나서기 전에 시간과 장소를 정했다고 말하기.",
+            "지금은 메시지를 자주 보낸다고 비교하기.",
+            "계획을 빨리 바꾸고 위치를 공유할 수 있다고 설명하기.",
+            "지금은 약속을 잡기가 더 쉬워졌다고 마무리하기."
+          ]
         },
         {
           "id": "topic-18-q4",
@@ -4548,15 +5177,24 @@ window.OPIC_DATA = {
           "question": "가족이나 친구 모임에서 보통 무엇을 하나요? 어디서 만나고, 함께 어떻게 시간을 보내는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I usually get together with a few friends or family members rather than a big crowd.",
-            "We often meet at a restaurant or someone's home, depending on what's easiest for everyone.",
-            "Once we're together, we order some food and sit down to enjoy the meal.",
-            "We talk about what's been happening in our lives and sometimes take a few pictures.",
-            "After eating, we stay and talk a little longer before going home, so it's usually a relaxed kind of gathering."
+            "I usually meet my friends at a restaurant.",
+            "Sometimes, my family comes to my home.",
+            "We order some food and eat together.",
+            "We talk about work and everyday life.",
+            "After eating, we take some pictures and talk for a while.",
+            "So yeah, I enjoy spending time with them."
           ],
-          "hint": "소수 모임 → 음식점·집 → 음식 → 대화·사진 → 귀가",
+          "hint": "보통 친구들을 음식점에서 만난다고 말하기. → 가끔 가족은 우리 집에 온다고 설명하기. → 음식을 주문해서 함께 먹는다고 말하기. → 일과 일상에 관해 이야기한다고 설명하기. → 식사 후 사진을 찍고 잠시 더 이야기한다고 말하기. → 함께 시간 보내는 것이 좋다고 마무리하기.",
           "questionEn": "What do you usually do at gatherings with family or friends? Explain where you meet and how you spend time together.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "hintSteps": [
+            "보통 친구들을 음식점에서 만난다고 말하기.",
+            "가끔 가족은 우리 집에 온다고 설명하기.",
+            "음식을 주문해서 함께 먹는다고 말하기.",
+            "일과 일상에 관해 이야기한다고 설명하기.",
+            "식사 후 사진을 찍고 잠시 더 이야기한다고 말하기.",
+            "함께 시간 보내는 것이 좋다고 마무리하기."
+          ]
         },
         {
           "id": "topic-18-q5",
@@ -4564,16 +5202,24 @@ window.OPIC_DATA = {
           "question": "기억에 남는 모임이나 기념일을 말해 주세요. 누가 있었고, 무엇을 했으며, 왜 기억에 남나요?",
           "status": "필수",
           "answer": [
-            "I remember having dinner with some friends after we'd all been busy for a while.",
-            "It took us some time to find a free evening, but we finally managed to meet.",
-            "We ordered food together, and one friend started showing us old pictures on their phone.",
-            "We laughed about how different we looked and talked about things we'd done back then.",
-            "Before we left, we took a new picture together so we'd have another memory to keep.",
-            "Honestly, I was just happy we'd made time for each other instead of putting it off again."
+            "I remember one special day with my friends.",
+            "It was my birthday, and my friends asked me to meet them at a pub.",
+            "When I got there, they were already waiting for me with a cake and some gifts.",
+            "Then, they started singing a birthday song for me.",
+            "I was really surprised and almost cried.",
+            "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "바빴던 친구들 → 함께 저녁 → 옛 사진 → 웃음·반가움",
+          "hint": "친구들과 보낸 특별한 하루가 기억난다고 시작하기. → 생일에 친구들이 술집에서 만나자고 했다고 설명하기. → 도착하니 케이크와 선물을 들고 기다리고 있었다고 말하기. → 친구들이 생일 축하 노래를 불러 주었다고 설명하기. → 너무 놀라 거의 울 뻔했다고 감정 말하기. → 친구들에게 정말 고마웠고 그날을 잊지 못할 것이라고 마무리하기.",
           "questionEn": "Tell me about a gathering or celebration you remember well. Who was there, what did you do, and why was it memorable?",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "hintSteps": [
+            "친구들과 보낸 특별한 하루가 기억난다고 시작하기.",
+            "생일에 친구들이 술집에서 만나자고 했다고 설명하기.",
+            "도착하니 케이크와 선물을 들고 기다리고 있었다고 말하기.",
+            "친구들이 생일 축하 노래를 불러 주었다고 설명하기.",
+            "너무 놀라 거의 울 뻔했다고 감정 말하기.",
+            "친구들에게 정말 고마웠고 그날을 잊지 못할 것이라고 마무리하기."
+          ]
         },
         {
           "id": "topic-18-q6",
@@ -4581,16 +5227,24 @@ window.OPIC_DATA = {
           "question": "한국의 중요한 명절 하나를 골라 주세요. 그 명절에 사람들은 보통 무엇을 하고, 본인 가족은 무엇을 하나요?",
           "status": "필수",
           "answer": [
-            "Chuseok is a major holiday in Korea, when many families spend time together.",
-            "A lot of people travel to their hometowns so they can see relatives they don't meet often.",
-            "They usually share special food and talk about what's been happening in their lives.",
-            "My family normally gets together for a quiet meal, without making the day too busy.",
-            "After eating, we help clean up and sit around talking for a little longer.",
-            "Then we rest or see other relatives, so the day is mostly about being with family."
+            "Chuseok is an important holiday in Korea.",
+            "People usually visit their families and eat special food.",
+            "They also spend time with relatives.",
+            "My family usually has a meal together at home.",
+            "After eating, we talk and relax for a while.",
+            "So yeah, I enjoy spending Chuseok with my family."
           ],
-          "hint": "추석 → 고향 방문 → 명절 음식·대화 → 가족 식사",
+          "hint": "한국의 중요한 명절로 추석을 소개하기. → 가족을 방문하고 특별한 음식을 먹는다고 설명하기. → 친척들과도 시간을 보낸다고 말하기. → 우리 가족은 보통 집에서 함께 식사한다고 설명하기. → 식사 후 잠시 이야기하고 쉰다고 말하기. → 가족과 추석을 보내는 것이 좋다고 마무리하기.",
           "questionEn": "Choose an important holiday in Korea. What do people normally do during that holiday, and what does your family do?",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "hintSteps": [
+            "한국의 중요한 명절로 추석을 소개하기.",
+            "가족을 방문하고 특별한 음식을 먹는다고 설명하기.",
+            "친척들과도 시간을 보낸다고 말하기.",
+            "우리 가족은 보통 집에서 함께 식사한다고 설명하기.",
+            "식사 후 잠시 이야기하고 쉰다고 말하기.",
+            "가족과 추석을 보내는 것이 좋다고 마무리하기."
+          ]
         },
         {
           "id": "topic-18-q7",
@@ -4598,16 +5252,26 @@ window.OPIC_DATA = {
           "question": "명절이나 휴일에 겪은 문제를 말해 주세요. 무슨 일이 있었고, 어떻게 대처했으며, 결과는 어땠나요?",
           "status": "필수",
           "answer": [
-            "Well, my bus was delayed during a holiday because there was so much traffic.",
-            "I kept checking the time and realized I'd miss the start of the family meal.",
-            "So I called my family and explained that I was still on the road.",
-            "They said it was okay and that they'd save some food for me.",
-            "When I finally arrived, I joined them for dinner and told them about the long ride.",
-            "Honestly, calling ahead made me feel much better, because I knew they weren't waiting and worrying."
+            "I remember one problem I had during Chuseok.",
+            "I was on a bus, but there was a lot of traffic.",
+            "I knew I would be late for the family meal.",
+            "So I called my family and told them about the problem.",
+            "They said it was okay and saved some food for me.",
+            "When I arrived, I ate with them.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "명절 버스 지연 → 가족 연락 → 기다림 → 도착·식사",
+          "hint": "추석에 문제가 생겼던 경험으로 시작하기. → 버스를 탔는데 차가 많이 막혔다고 설명하기. → 가족 식사에 늦을 것이라는 사실을 알았다고 말하기. → 가족에게 전화해 상황을 설명했다고 말하기. → 가족이 괜찮다고 하고 음식을 남겨 주었다고 설명하기. → 도착해서 함께 식사했다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about a problem during a holiday. What happened, how did you deal with it, and what was the outcome?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "hintSteps": [
+            "추석에 문제가 생겼던 경험으로 시작하기.",
+            "버스를 탔는데 차가 많이 막혔다고 설명하기.",
+            "가족 식사에 늦을 것이라는 사실을 알았다고 말하기.",
+            "가족에게 전화해 상황을 설명했다고 말하기.",
+            "가족이 괜찮다고 하고 음식을 남겨 주었다고 설명하기.",
+            "도착해서 함께 식사했다고 결과 말하기.",
+            "결국 잘 해결되었다고 마무리하기."
+          ]
         },
         {
           "id": "topic-18-q8",
@@ -4616,15 +5280,23 @@ window.OPIC_DATA = {
           "status": "선택",
           "answer": [
             "I remember spending Chuseok with my family when I was a child.",
-            "My cousins came over, so the house felt much busier than it did on a normal day.",
-            "We ate special food together and listened to the adults talk about their lives.",
-            "After the meal, my cousins and I played games while everyone else rested.",
-            "Before people went home, we took a few pictures together to remember the day.",
-            "You know, it wasn't a big event, but being with everyone made it feel special."
+            "My cousins came to our house.",
+            "We ate special food and talked together.",
+            "After eating, we played games for a while.",
+            "I was really happy because I could spend time with my cousins.",
+            "So yeah, I still remember that day."
           ],
-          "hint": "어릴 때 추석 → 사촌들 → 음식·대화 → 놀이·사진",
+          "hint": "어릴 때 가족과 추석을 보낸 경험으로 시작하기. → 사촌들이 우리 집에 왔다고 말하기. → 특별한 음식을 먹고 함께 이야기했다고 설명하기. → 식사 후 잠시 게임을 했다고 말하기. → 사촌들과 시간을 보낼 수 있어 행복했다고 감정 말하기. → 아직 그날이 기억난다고 마무리하기.",
           "questionEn": "Tell me about a holiday you spent with your family as a child. What did you do, and what do you remember about that day?",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "hintSteps": [
+            "어릴 때 가족과 추석을 보낸 경험으로 시작하기.",
+            "사촌들이 우리 집에 왔다고 말하기.",
+            "특별한 음식을 먹고 함께 이야기했다고 설명하기.",
+            "식사 후 잠시 게임을 했다고 말하기.",
+            "사촌들과 시간을 보낼 수 있어 행복했다고 감정 말하기.",
+            "아직 그날이 기억난다고 마무리하기."
+          ]
         },
         {
           "id": "topic-18-q9",
@@ -4632,16 +5304,24 @@ window.OPIC_DATA = {
           "question": "가장 최근 명절을 어떻게 보냈나요? 누구와 있었고, 그날 무엇을 했는지 말해 주세요.",
           "status": "선택",
           "answer": [
-            "I spent last Chuseok at home with my family, and we kept things pretty simple.",
-            "We ate special food together and took our time with the meal.",
-            "While we ate, we shared news about work and things that had happened recently.",
-            "Afterward, I helped clear the table and wash up so we could all rest.",
-            "Then we spent the rest of the evening talking and relaxing at home.",
-            "Honestly, we didn't do anything unusual, but it was nice to have that time together."
+            "Last Chuseok, I spent time with my family at home.",
+            "We ate special food together.",
+            "We talked about work and everyday life.",
+            "After eating, I helped clean the table and wash the dishes.",
+            "Then, we sat together and relaxed.",
+            "So yeah, I had a really nice holiday."
           ],
-          "hint": "지난 추석 가족 → 식사·대화 → 정리 → 휴식",
+          "hint": "지난 추석에 집에서 가족과 시간을 보냈다고 시작하기. → 특별한 음식을 함께 먹었다고 말하기. → 일과 일상에 관해 이야기했다고 설명하기. → 식사 후 상을 치우고 설거지를 도왔다고 말하기. → 그다음 함께 앉아 쉬었다고 설명하기. → 정말 좋은 명절이었다고 마무리하기.",
           "questionEn": "How did you spend your most recent holiday? Tell me who you were with and what you did that day.",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "hintSteps": [
+            "지난 추석에 집에서 가족과 시간을 보냈다고 시작하기.",
+            "특별한 음식을 함께 먹었다고 말하기.",
+            "일과 일상에 관해 이야기했다고 설명하기.",
+            "식사 후 상을 치우고 설거지를 도왔다고 말하기.",
+            "그다음 함께 앉아 쉬었다고 설명하기.",
+            "정말 좋은 명절이었다고 마무리하기."
+          ]
         }
       ],
       "scriptGroups": [
@@ -4954,38 +5634,38 @@ window.OPIC_DATA = {
         "use": "용건 → 요청된 질문 또는 대안 → 확인 순서로 말합니다.",
         "lines": [
           {
-            "en": "Hi, I'm planning to visit the museum this weekend, and I'd like to check a few things first.",
-            "ko": "안녕하세요, 이번 주말에 박물관을 방문할 예정인데 먼저 몇 가지 확인하고 싶어요.",
+            "en": "Hi, I want to visit your museum this weekend.",
+            "ko": "안녕하세요, 이번 주말에 박물관을 방문하고 싶어요.",
             "source": "topic-10-rp2",
             "role": "정보 문의"
           },
           {
-            "en": "Do I need to book ahead, or can I just buy a ticket when I arrive?",
-            "ko": "미리 예약해야 하나요, 아니면 도착해서 표를 사도 되나요?",
+            "en": "Do I need to book a ticket?",
+            "ko": "표를 예약해야 하나요?",
             "source": "topic-10-rp2",
             "role": "정보 문의"
           },
           {
-            "en": "Thanks for your help, because I'd like to have everything ready before I come.",
-            "ko": "방문 전에 준비를 다 해두고 싶었는데 도와주셔서 감사해요.",
+            "en": "Thank you for your help.",
+            "ko": "도와주셔서 감사합니다.",
             "source": "topic-10-rp2",
             "role": "정보 문의"
           },
           {
-            "en": "Hey, I'm really sorry, but I can't meet today because I'm not feeling well.",
-            "ko": "정말 미안한데 몸이 좋지 않아서 오늘 못 만나겠어.",
+            "en": "Hey, I'm really sorry, but I can't meet you today.",
+            "ko": "정말 미안한데 오늘 너를 못 만나겠어.",
             "source": "topic-10-rp3",
             "role": "문제 해결 역할극"
           },
           {
-            "en": "Could we meet next weekend instead, when I'm feeling better?",
-            "ko": "몸이 좀 나아지면 다음 주말에 대신 만날 수 있을까?",
+            "en": "Could we meet next weekend instead?",
+            "ko": "대신 다음 주말에 만날 수 있을까?",
             "source": "topic-10-rp3",
             "role": "문제 해결 역할극"
           },
           {
-            "en": "Just let me know what works for you, and we can find a good time.",
-            "ko": "네가 편한 방법을 알려주면 같이 괜찮은 시간을 찾으면 되겠다.",
+            "en": "Let me know what works for you.",
+            "ko": "어떤 방법이 좋은지 알려줘.",
             "source": "topic-10-rp3",
             "role": "문제 해결 역할극"
           }
