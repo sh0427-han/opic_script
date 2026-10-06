@@ -72,6 +72,25 @@
       description: "같은 상황을 정보 문의 → 문제 해결 → 관련 과거 경험 순서로 연습합니다." },
   ];
 
+  const studyTopics = data.topics.flatMap((topic) => {
+    if (topic.source !== "roleplay") return [topic];
+    return topic.roleplayScenarios.map(([title, ...stages], index) => {
+      const ids = stages.flatMap((stage) => Array.isArray(stage)
+        ? stage : stage ? [stage] : []).map((id) => `topic-10-${id}`);
+      return {
+        ...topic,
+        id: `roleplay-scenario-${index + 1}`,
+        title: index === 1 ? "MP3 플레이어 구매·고장" : title,
+        order: topic.order + index / 100,
+        questions: ids.map((id) => questionById.get(id)).filter(Boolean),
+      };
+    });
+  });
+
+  const topicTitleHtml = (topic) => topic.source === "roleplay"
+    ? `롤플레이 · ${escapeHtml(topic.title)}`
+    : `${topic.order}. ${escapeHtml(topic.title)}`;
+
   const matchesTopic = (topic) => state.topic === "all"
     || topic.id === state.topic || topic.source === state.topic;
 
@@ -106,9 +125,6 @@
     };
   }).filter((section) => section.sets.some((set) => set.questionIds.length));
 
-  const renderRoleplaySections = (topic, renderSection) =>
-    getRoleplaySections(topic).map(renderSection).join("");
-
   const renderCategories = (topics, renderTopics) => topicCategories.map((category) => {
     const members = topics.filter((topic) => topic.source === category.id);
     if (!members.length) return "";
@@ -128,6 +144,7 @@
 
     const searchable = [
       topic.title,
+      topic.source === "roleplay" ? "롤플레이" : "",
       question.number,
       question.question,
       question.questionEn,
@@ -141,7 +158,7 @@
     return normalize(searchable).includes(state.query);
   };
 
-  const getVisibleTopics = () => data.topics
+  const getVisibleTopics = () => studyTopics
     .slice()
     .sort((first, second) => first.order - second.order)
     .filter(matchesTopic)
@@ -202,9 +219,8 @@
       <div class="topic-filter-groups">
         ${filterGroups.map((group) => {
           const chips = chipHtml({ id: group.id, title: `${group.title} 전체` })
-            + data.topics
+            + studyTopics
             .filter((topic) => topic.source === group.id)
-            .filter((topic) => group.id !== "roleplay")
             .sort((first, second) => first.order - second.order)
             .map((topic) => chipHtml({ id: topic.id, title: topic.title }))
             .join("");
@@ -300,18 +316,12 @@
       </section>`;
     };
     const groups = topic.roleplaySections
-      ? renderRoleplaySections(topic, (section) => `
-        <section class="roleplay-section" aria-labelledby="${escapeHtml(section.id)}-title">
-          <div class="roleplay-section__heading">
-            <h4 id="${escapeHtml(section.id)}-title">${escapeHtml(section.title)}</h4>
-            <p>${escapeHtml(section.description)}</p>
-          </div>
-          ${section.sets.map(renderGroup).join("")}
-        </section>`)
+      ? getRoleplaySections(topic).flatMap((section) => section.sets)
+        .map(renderGroup).join("")
       : topic.scriptGroups.map(renderGroup).join("");
     return `<section class="topic-section" aria-labelledby="${topic.id}-title">
       <div class="topic-heading">
-        <h2 id="${topic.id}-title">${topic.order}. ${escapeHtml(topic.title)}</h2>
+        <h2 id="${topic.id}-title">${topicTitleHtml(topic)}</h2>
         <span>${topic.questions.length}개 문제</span>
       </div>
       ${groups}
@@ -342,25 +352,20 @@
   const renderQuestions = (topics) => topics.map((topic) => `
     <section class="topic-section" aria-labelledby="${topic.id}-practice-title">
       <div class="topic-heading">
-        <h2 id="${topic.id}-practice-title">${topic.order}. ${escapeHtml(topic.title)}</h2>
+        <h2 id="${topic.id}-practice-title">${topicTitleHtml(topic)}</h2>
         <span>${topic.questions.length}개 문제</span>
       </div>
-      ${topic.roleplaySections ? renderRoleplaySections(topic, (section) => `
-        <section class="roleplay-section" aria-labelledby="${section.id}-practice-title">
-          <div class="roleplay-section__heading">
-            <h4 id="${section.id}-practice-title">${section.title}</h4>
-            <p>${section.description}</p>
-          </div>
-          ${section.sets.map((set) => set.questionIds.length
-            ? `<section class="script-group">
-                <div class="script-group__heading"><h5>${escapeHtml(set.title)}</h5></div>
-                ${renderQuestionCards({ ...topic, questions: set.questionIds.map((id) =>
-                  questionById.get(id)) })}
-              </section>`
-            : set.missing && !state.query
-              ? `<div class="roleplay-missing"><strong>${escapeHtml(set.title)}</strong>
-                  <p>현재 등록된 문항이 없습니다.</p></div>` : "").join("")}
-        </section>`) : renderQuestionCards(topic)}
+      ${topic.roleplaySections ? getRoleplaySections(topic).flatMap((section) =>
+        section.sets).map((set) => set.questionIds.length
+          ? `<section class="script-group">
+              <div class="script-group__heading"><h3>${escapeHtml(set.title)}</h3></div>
+              ${renderQuestionCards({ ...topic, questions: set.questionIds.map((id) =>
+                questionById.get(id)) })}
+            </section>`
+          : set.missing && !state.query
+            ? `<div class="roleplay-missing"><strong>${escapeHtml(set.title)}</strong>
+                <p>현재 등록된 문항이 없습니다.</p></div>` : "").join("")
+        : renderQuestionCards(topic)}
     </section>
   `).join("");
 
@@ -640,6 +645,7 @@
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
+  document.querySelector("#topic-count").textContent = studyTopics.length;
   elements.questionCount.textContent = data.questionCount;
   renderFilters();
   render();
