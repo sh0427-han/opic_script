@@ -72,16 +72,13 @@
       description: "같은 상황을 정보 문의 → 문제 해결 → 관련 과거 경험 순서로 연습합니다." },
   ];
 
-  const isAskingQuestion = (question) => question.type === "정보 문의";
   const matchesTopic = (topic) => state.topic === "all"
-    || topic.id === state.topic
-    || topic.source === state.topic
-    || (topic.source === "roleplay" && state.topic.startsWith("roleplay:"));
-  const matchesRoleplayFilter = (question) => {
-    if (state.topic === "roleplay:ask") return isAskingQuestion(question);
-    if (state.topic === "roleplay:respond") return !isAskingQuestion(question);
-    return true;
-  };
+    || topic.id === state.topic || topic.source === state.topic;
+
+  const flowHintHtml = (question) => question.hintSteps?.length
+    ? `<ol class="flow-steps">${question.hintSteps.map((step) =>
+      `<li>${escapeHtml(step)}</li>`).join("")}</ol>`
+    : `<span>${escapeHtml(question.hint)}</span>`;
 
   const roleplayScenarios = [
   [
@@ -239,8 +236,7 @@
     .map((topic) => ({
       ...topic,
       questions: topic.questions
-        .filter((question) => matchesQuery(topic, question)
-          && matchesRoleplayFilter(question))
+        .filter((question) => matchesQuery(topic, question))
         .sort((first, second) => {
           const firstPriority = first.status === "필수" ? 0 : 1;
           const secondPriority = second.status === "필수" ? 0 : 1;
@@ -294,10 +290,7 @@
       <div class="topic-filter-groups">
         ${filterGroups.map((group) => {
           const chips = chipHtml({ id: group.id, title: `${group.title} 전체` })
-            + (group.id === "roleplay" ? [
-              { id: "roleplay:ask", title: "내가 질문하는 문항" },
-              { id: "roleplay:respond", title: "상황·경험에 답하는 문항" },
-            ].map(chipHtml).join("") : "") + data.topics
+            + data.topics
             .filter((topic) => topic.source === group.id)
             .filter((topic) => group.id !== "roleplay")
             .sort((first, second) => first.order - second.order)
@@ -341,8 +334,7 @@
       const questions = group.questionIds.map((id) =>
         topic.questions.find((question) => question.id === id)).filter(Boolean);
       if (!questions.length) {
-        return group.missing && !state.query && state.topic !== "roleplay:ask"
-          && state.topic !== "roleplay:respond"
+        return group.missing && !state.query
           ? `<div class="roleplay-missing"><strong>${escapeHtml(group.title)}</strong>
               <p>현재 등록된 문항이 없습니다.</p></div>` : "";
       }
@@ -382,7 +374,7 @@
               ${variantsHtml(question)}
               <div class="flow">
                 <strong>흐름</strong>
-                <span>${escapeHtml(question.hint)}</span>
+                ${flowHintHtml(question)}
               </div>
               <div class="card-actions">
                 <button class="text-button" type="button" data-action="copy"
@@ -423,7 +415,7 @@
                 ${questionHeadingHtml(question)}
               </div>
               <div id="${panelId}" class="hint-panel" hidden>
-                ${escapeHtml(question.hint)}
+                ${flowHintHtml(question)}
               </div>
               <div class="question-card__footer">
                 <button class="hint-button" type="button" aria-expanded="false"
@@ -451,8 +443,7 @@
                 ${renderQuestionCards({ ...topic, questions: set.questionIds.map((id) =>
                   questionById.get(id)) })}
               </section>`
-            : set.missing && !state.query && state.topic !== "roleplay:ask"
-              && state.topic !== "roleplay:respond"
+            : set.missing && !state.query
               ? `<div class="roleplay-missing"><strong>${escapeHtml(set.title)}</strong>
                   <p>현재 등록된 문항이 없습니다.</p></div>` : "").join("")}
         </section>`) : renderQuestionCards(topic)}
