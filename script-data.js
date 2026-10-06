@@ -2,7 +2,7 @@ window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
   "version": "v40",
   "updated": "2026-09-29",
-  "questionCount": 159,
+  "questionCount": 168,
   "survey": {
     "title": "시험 전 설문 선택",
     "note": "클럽·조깅·걷기는 연습 및 선택 목록에서 제외했습니다. 운동 항목은 실제 시험에서 본인에게 맞게 선택하고, 시험 화면의 선택 개수 조건을 확인하세요.",
@@ -3149,6 +3149,150 @@ window.OPIC_DATA = {
           "hint": "팬 인사 → 시작 계기 → 좋아하는 부분 → 다음 계획 → 감사",
           "questionEn": "Imagine you have a chance to speak with a celebrity you like. Introduce yourself as a fan and ask three questions about their work.",
           "type": "정보 문의"
+        },
+        {
+          "id": "topic-10-relative-rp1",
+          "number": "RELATIVE-RP1",
+          "type": "정보 문의",
+          "questionEn": "Your relative will be away on vacation, and you have offered to look after their home. Phone your relative before they leave and ask three or four questions to find out what you need to do.",
+          "question": "친척이 휴가를 가는 동안 집을 봐주기로 했습니다. 친척이 떠나기 전에 전화해서 해야 할 일을 알아보기 위한 질문 서너 가지를 해보세요.",
+          "hintSteps": [
+            "친척이 없는 동안 집을 봐주기로 했다는 용건을 말하기.",
+            "방문 횟수, 해야 할 집안일, 집에 들어가는 방법 등 필요한 질문 서너 가지를 하기.",
+            "답변에 감사하고 통화를 마무리하기."
+          ],
+          "status": "필수",
+          "questionOnly": true,
+          "answer": [],
+          "hint": "친척이 없는 동안 집을 봐주기로 했다는 용건을 말하기. → 방문 횟수, 해야 할 집안일, 집에 들어가는 방법 등 필요한 질문 서너 가지를 하기. → 답변에 감사하고 통화를 마무리하기."
+        },
+        {
+          "id": "topic-10-relative-rp2",
+          "number": "RELATIVE-RP2",
+          "type": "문제 해결 역할극",
+          "questionEn": "At your relative's home, you find the door locked and cannot locate the key. Phone the front desk of the hotel where your relative is staying. Leave a message describing your difficulty and asking your relative to contact you with instructions.",
+          "question": "친척집에 도착했는데 문이 잠겨 있고 열쇠를 찾을 수 없습니다. 친척이 머무는 호텔의 프런트에 전화하세요. 집에 들어갈 수 없는 상황을 설명하고, 어떻게 해야 하는지 알려 달라며 친척에게 연락을 요청하는 메시지를 남겨 보세요.",
+          "hintSteps": [
+            "호텔 직원에게 친척을 위한 메시지를 남기려 한다고 말하기.",
+            "친척집 문이 잠겨 있고 열쇠를 찾지 못해 들어갈 수 없다고 설명하기.",
+            "친척이 연락해서 열쇠 위치나 집에 들어가는 방법을 알려 달라는 메시지를 전달해 달라고 요청하기."
+          ],
+          "status": "필수",
+          "questionOnly": true,
+          "answer": [],
+          "hint": "호텔 직원에게 친척을 위한 메시지를 남기려 한다고 말하기. → 친척집 문이 잠겨 있고 열쇠를 찾지 못해 들어갈 수 없다고 설명하기. → 친척이 연락해서 열쇠 위치나 집에 들어가는 방법을 알려 달라는 메시지를 전달해 달라고 요청하기."
+        },
+        {
+          "id": "topic-10-relative-rp3",
+          "number": "RELATIVE-RP3",
+          "type": "문제 경험",
+          "questionEn": "Describe an occasion when you were unable to keep a promise or follow through on plans with a family member or friend. Explain what prevented you, how you let them know, and what happened afterward.",
+          "question": "가족이나 친구에게 한 약속을 지키지 못했던 경험을 말해 주세요. 무엇 때문에 약속을 지키지 못했는지, 상대에게 어떻게 알렸는지, 그 후 어떻게 되었는지 설명해 주세요.",
+          "hintSteps": [
+            "가족이나 친구와 어떤 약속을 했는지 말하기.",
+            "약속을 지키지 못한 이유와 상대에게 알린 방법을 설명하기.",
+            "상대의 반응과 이후의 결과를 말하기."
+          ],
+          "status": "필수",
+          "questionOnly": true,
+          "answer": [],
+          "hint": "가족이나 친구와 어떤 약속을 했는지 말하기. → 약속을 지키지 못한 이유와 상대에게 알린 방법을 설명하기. → 상대의 반응과 이후의 결과를 말하기."
+        },
+        {
+          "id": "topic-10-phone-buy-rp1",
+          "number": "PHONE-BUY-RP1",
+          "type": "정보 문의",
+          "questionEn": "You are considering buying a new mobile phone. Phone a mobile phone store and ask three or four questions that would help you choose a phone and decide whether to buy it.",
+          "question": "새 휴대전화 구매를 생각하고 있습니다. 휴대전화 매장에 전화해서 제품을 고르고 구매 여부를 결정하는 데 도움이 되는 질문 서너 가지를 해보세요.",
+          "hintSteps": [
+            "새 휴대전화를 사려고 전화했다고 말하기.",
+            "추천 모델, 가격, 기능 등 구매 결정에 필요한 질문 서너 가지를 하기.",
+            "안내에 감사하고 통화를 마무리하기."
+          ],
+          "status": "필수",
+          "questionOnly": true,
+          "answer": [],
+          "hint": "새 휴대전화를 사려고 전화했다고 말하기. → 추천 모델, 가격, 기능 등 구매 결정에 필요한 질문 서너 가지를 하기. → 안내에 감사하고 통화를 마무리하기."
+        },
+        {
+          "id": "topic-10-phone-buy-rp2",
+          "number": "PHONE-BUY-RP2",
+          "type": "문제 해결 역할극",
+          "questionEn": "After trying the mobile phone you recently bought, you realize it does not suit you. Phone the store, explain what you are unhappy with, and request an exchange for a different model. Ask how to arrange the exchange.",
+          "question": "최근 구입한 휴대전화를 사용해 보니 마음에 들지 않습니다. 매장에 전화해서 어떤 점이 마음에 들지 않는지 설명하고 다른 모델로 교환해 달라고 요청하세요. 교환을 어떻게 진행하면 되는지도 물어보세요.",
+          "hintSteps": [
+            "최근 구매한 휴대전화가 마음에 들지 않아 전화했다고 말하기.",
+            "마음에 들지 않는 점을 구체적으로 설명하기.",
+            "다른 모델로 교환을 요청하고 필요한 절차를 확인하기."
+          ],
+          "status": "필수",
+          "questionOnly": true,
+          "answer": [],
+          "hint": "최근 구매한 휴대전화가 마음에 들지 않아 전화했다고 말하기. → 마음에 들지 않는 점을 구체적으로 설명하기. → 다른 모델로 교환을 요청하고 필요한 절차를 확인하기."
+        },
+        {
+          "id": "topic-10-phone-buy-rp3",
+          "number": "PHONE-BUY-RP3",
+          "type": "문제 경험",
+          "questionEn": "Recall a time when a new product you bought did not meet your expectations. Describe the product, why you were disappointed, and what you did about it. How did things turn out?",
+          "question": "새로 구입한 제품이 기대에 미치지 못했던 경험을 말해 주세요. 어떤 제품이었는지, 왜 실망했는지, 어떻게 대처했는지 설명해 주세요. 결과는 어땠나요?",
+          "hintSteps": [
+            "새로 구입한 제품과 구매 당시 기대를 말하기.",
+            "사용해 보니 어떤 점이 기대와 달라 실망했는지 설명하기.",
+            "교환 요청 등 대처 방법과 최종 결과를 말하기."
+          ],
+          "status": "필수",
+          "questionOnly": true,
+          "answer": [],
+          "hint": "새로 구입한 제품과 구매 당시 기대를 말하기. → 사용해 보니 어떤 점이 기대와 달라 실망했는지 설명하기. → 교환 요청 등 대처 방법과 최종 결과를 말하기."
+        },
+        {
+          "id": "topic-10-pub-rp1",
+          "number": "PUB-RP1",
+          "type": "정보 문의",
+          "questionEn": "You are interested in a bar that recently opened. A friend has already visited it. Phone your friend and ask three or four questions to help you plan your own visit.",
+          "question": "최근 문을 연 술집에 가보고 싶습니다. 그곳에 이미 가본 친구에게 전화해서 방문을 계획하는 데 도움이 되는 질문 서너 가지를 해보세요.",
+          "hintSteps": [
+            "새로 문을 연 술집에 가보고 싶다고 용건을 말하기.",
+            "위치, 분위기, 음식이나 음료 등 방문에 필요한 질문 서너 가지를 하기.",
+            "정보를 알려 준 친구에게 감사하며 마무리하기."
+          ],
+          "status": "필수",
+          "questionOnly": true,
+          "answer": [],
+          "hint": "새로 문을 연 술집에 가보고 싶다고 용건을 말하기. → 위치, 분위기, 음식이나 음료 등 방문에 필요한 질문 서너 가지를 하기. → 정보를 알려 준 친구에게 감사하며 마무리하기."
+        },
+        {
+          "id": "topic-10-pub-rp2",
+          "number": "PUB-RP2",
+          "type": "문제 해결 역할극",
+          "questionEn": "You arranged to meet a friend at the new bar, but you are feeling too ill to go. Phone your friend to explain, apologize for the change, and suggest two other plans.",
+          "question": "새 술집에서 친구를 만나기로 했지만 몸이 아파 갈 수 없습니다. 친구에게 전화해서 상황을 설명하고 약속을 바꾸게 된 것에 대해 사과한 뒤, 다른 계획 두 가지를 제안해 보세요.",
+          "hintSteps": [
+            "몸이 아파 오늘 술집에 갈 수 없다고 설명하고 사과하기.",
+            "다른 날짜에 함께 가는 등 첫 번째 대안을 제안하기.",
+            "친구가 다른 사람과 가는 등 다른 대안을 제안하고 의견을 묻기."
+          ],
+          "status": "필수",
+          "questionOnly": true,
+          "answer": [],
+          "hint": "몸이 아파 오늘 술집에 갈 수 없다고 설명하고 사과하기. → 다른 날짜에 함께 가는 등 첫 번째 대안을 제안하기. → 친구가 다른 사람과 가는 등 다른 대안을 제안하고 의견을 묻기."
+        },
+        {
+          "id": "topic-10-pub-rp3",
+          "number": "PUB-RP3",
+          "type": "과거 경험",
+          "questionEn": "Share a memorable experience you had at a bar or pub. Describe when it happened, who was with you, and what took place. What made the occasion stand out?",
+          "question": "술집이나 펍에서 있었던 기억에 남는 경험을 말해 주세요. 언제였는지, 누구와 함께 있었는지, 무슨 일이 있었는지 설명해 주세요. 어떤 점 때문에 기억에 남나요?",
+          "hintSteps": [
+            "언제 어느 술집에서 누구와 있었는지 말하기.",
+            "그날 있었던 일을 순서대로 설명하기.",
+            "당시 기분과 그 경험이 기억에 남는 이유로 마무리하기."
+          ],
+          "status": "필수",
+          "questionOnly": true,
+          "answer": [],
+          "hint": "언제 어느 술집에서 누구와 있었는지 말하기. → 그날 있었던 일을 순서대로 설명하기. → 당시 기분과 그 경험이 기억에 남는 이유로 마무리하기."
         }
       ],
       "roleplaySections": [
@@ -3253,6 +3397,113 @@ window.OPIC_DATA = {
             }
           ]
         }
+      ],
+      "roleplayScenarios": [
+        [
+          "친구와 약속",
+          "rp1",
+          "rp3",
+          "rp5"
+        ],
+        [
+          "전자기기 구매·고장",
+          "mp3-rp1",
+          "mp3-rp2",
+          "mp3-rp3"
+        ],
+        [
+          "콘서트 예매·문제",
+          "concert-rp1",
+          [
+            "concert-rp2",
+            "rp4"
+          ],
+          null
+        ],
+        [
+          "기차 여행",
+          "travel-rp1",
+          "travel-rp2",
+          "travel-rp3"
+        ],
+        [
+          "집 구하기·집 문제",
+          "house-rp1",
+          "house-rp2",
+          "house-rp3"
+        ],
+        [
+          "친구의 부탁·식물 돌보기",
+          "friend-rp1",
+          "friend-rp2",
+          "friend-rp3"
+        ],
+        [
+          "미용실 예약",
+          "service-rp1",
+          "service-rp2",
+          null
+        ],
+        [
+          "음식점 문의",
+          "restaurant-rp1",
+          null,
+          null
+        ],
+        [
+          "호텔 예약",
+          "hotel-rp1",
+          null,
+          null
+        ],
+        [
+          "재활용 문의",
+          "recycling-rp1",
+          null,
+          null
+        ],
+        [
+          "휴대폰 수리 문의",
+          "repair-rp1",
+          null,
+          null
+        ],
+        [
+          "파티 초대",
+          "party-rp1",
+          null,
+          null
+        ],
+        [
+          "박물관 방문",
+          "rp2",
+          null,
+          null
+        ],
+        [
+          "유명인에게 질문",
+          "celebrity-rp1",
+          null,
+          null
+        ],
+        [
+          "친척집 돌보기·약속 경험",
+          "relative-rp1",
+          "relative-rp2",
+          "relative-rp3"
+        ],
+        [
+          "새 휴대전화 구매·교환",
+          "phone-buy-rp1",
+          "phone-buy-rp2",
+          "phone-buy-rp3"
+        ],
+        [
+          "새 술집 방문·약속 변경",
+          "pub-rp1",
+          "pub-rp2",
+          "pub-rp3"
+        ]
       ]
     },
     {
