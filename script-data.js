@@ -1685,16 +1685,17 @@ window.OPIC_DATA = {
           "question": "음악 취향이 어떻게 달라졌나요? 예전에 좋아하던 음악과 지금 선호하는 음악을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "I used to listen to fast songs, but these days I prefer slower ones.",
-            "When I was younger, I liked a strong beat because it made me feel full of energy.",
-            "Those were the songs I wanted when I was getting ready or going somewhere.",
-            "Now I like a softer sound, especially when I feel tired after work.",
-            "Slow songs help me relax at the end of a busy day, without making me feel more awake.",
-            "So, you know, I still like both kinds, but I choose slow songs more often now."
+            "My taste in music has changed over time.",
+            "In the past, I liked fast and exciting music.",
+            "I usually listened to it when I was with my friends.",
+            "But now, I prefer calm and relaxing music.",
+            "I usually listen to music when I take a walk or relax at home.",
+            "So now, I like music that makes me feel comfortable."
           ],
-          "hint": "예전 빠른 곡·활력 → 현재 느린 곡·휴식 → 선호",
+          "hint": "예전 빠르고 신나는 음악·친구들 → 현재 잔잔한 음악·산책·집에서 휴식",
           "questionEn": "How has your taste in music changed? Compare the music you liked before with the music you prefer now.",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-8-q4",
@@ -1719,16 +1720,16 @@ window.OPIC_DATA = {
           "question": "빠른 음악과 잔잔한 음악을 비교해 주세요. 소리와 느껴지는 기분이 어떻게 다른가요?",
           "status": "필수",
           "answer": [
-            "Fast music gives me energy, while slow music makes me feel calmer.",
-            "Fast songs usually have a strong beat, so they make me want to move around.",
-            "They're nice when I need to wake up or get ready to do something.",
-            "Slow songs have a softer sound, which is easier on me when I'm tired.",
-            "Slow songs help me relax at the end of a busy day, without making me feel more awake.",
-            "So, you know, I still like both kinds, but I choose slow songs more often now."
+            "Fast music is loud and exciting, and it makes me feel energetic.",
+            "I like listening to it when I want to feel more active.",
+            "On the other hand, slow music is soft and relaxing.",
+            "It makes me feel calm and comfortable.",
+            "These days, I prefer slow music because I usually listen to music when I take a walk or relax at home."
           ],
-          "hint": "빠른 박자·활력 → 느린 박자·차분함 → 선호",
+          "hint": "빠른 음악·활력 → 느린 음악·편안함 → 요즘 느린 음악 선호",
           "questionEn": "Compare fast music with slow music. How do they sound different, and how do they make you feel?",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-8-q6",
@@ -1736,16 +1737,17 @@ window.OPIC_DATA = {
           "question": "음악을 듣는 방식이 어떻게 달라졌나요? 예전과 지금의 기기와 방법을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "I used to save songs on my phone, but now I mostly use a music app.",
-            "Before, I had to get each song first, so I couldn't always listen to something right away.",
-            "Now I can search for a song and start playing it in just a few seconds.",
-            "I also used wired earphones before, but now I don't have to deal with wires.",
-            "Making a playlist is easier too, because I can add songs whenever I find one I like.",
-            "Honestly, listening to music just takes a lot less effort than it used to."
+            "The way I listen to music has changed a lot.",
+            "In the past, I used an MP3 player and saved songs on it.",
+            "It was a little inconvenient because I had to download songs first.",
+            "But now, I use a music app on my smartphone.",
+            "I can search for songs and listen to them anytime and anywhere.",
+            "So now, listening to music is much easier and more convenient."
           ],
-          "hint": "예전 파일 저장·유선 → 현재 앱·무선 → 검색·재생목록",
+          "hint": "예전 MP3·곡 다운로드 → 현재 스마트폰 음악 앱 → 언제 어디서나 편리하게 감상",
           "questionEn": "How has the way you listen to music changed? Compare the devices and methods you used before with those you use now.",
-          "type": "변화·비교"
+          "type": "변화·비교",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-8-q7",
@@ -1753,16 +1755,17 @@ window.OPIC_DATA = {
           "question": "라이브 음악을 들었던 경험을 말해 주세요. 어디에 있었고, 무슨 일이 있었으며, 무엇이 가장 기억나나요?",
           "status": "필수",
           "answer": [
-            "Well, I heard one of my favorite pop songs live at a concert last month.",
-            "I went alone and found my seat early, so I had time to look around.",
-            "When that song started, people around me began singing along right away.",
-            "I joined in too, and hearing all those voices felt very different from listening at home.",
-            "I was really excited because the singer was right there in front of us.",
-            "Honestly, I still remember that feeling whenever I hear the song on my phone."
+            "I remember one time I heard live music at a small cafe.",
+            "I went there with my friend on the weekend.",
+            "A singer was singing and playing the guitar.",
+            "The music was calm and relaxing, and I really liked the singer’s voice.",
+            "I was surprised because the live music was better than I thought.",
+            "That’s why I still remember that day."
           ],
-          "hint": "지난달 콘서트 → 좋아하는 곡 → 함께 노래 → 감동",
+          "hint": "주말 친구와 작은 카페 → 기타·라이브 음악 → 목소리·기대보다 좋아 기억",
           "questionEn": "Tell me about a time you heard live music. Where were you, what happened, and what do you remember most?",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-8-q8",
