@@ -1145,3 +1145,13 @@ footer {
   font-weight: 800;
   vertical-align: middle;
 }
+
+.roleplay-missing {
+  margin-top: 18px;
+  padding: 14px;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius-sm);
+  color: var(--ink-500);
+  font-size: .85rem;
+}
+.roleplay-missing p { margin: 6px 0 0; }
