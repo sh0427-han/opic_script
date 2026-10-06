@@ -69,7 +69,7 @@
     { id: "unexpected", title: "일반·돌발 주제",
       description: "현재 설문 선택과 별도로 준비하는 일상 주제입니다." },
     { id: "roleplay", title: "롤플레이",
-      description: "내가 질문을 만드는 문항과 상황·경험에 답하는 문항을 구분합니다." },
+      description: "같은 상황을 정보 문의 → 문제 해결 → 관련 과거 경험 순서로 연습합니다." },
   ];
 
   const isAskingQuestion = (question) => question.type === "정보 문의";
@@ -83,47 +83,122 @@
     return true;
   };
 
-  const getRoleplaySections = (topic) => {
-    const originalSets = topic.roleplaySections.flatMap((section) => section.sets);
-    return [
-      { id: "roleplay-ask", title: "내가 직접 질문하는 문항",
-        description: "상대에게 필요한 정보를 묻습니다. 문항에서 요청한 질문 수를 확인하세요.",
-        type: "정보 문의", group: "ask" },
-      { id: "roleplay-solve", title: "문제 해결 통화",
-        description: "상대에게 문제를 설명하고 대안을 제안합니다. 확인 질문이 포함될 수 있지만 정보 문의 문항과는 구분합니다.",
-        type: "문제 해결 역할극", group: "respond" },
-      { id: "roleplay-experience", title: "과거 경험 답변",
-        description: "평가자의 질문에 답하며 겪은 문제·대처·결과를 말합니다.",
-        type: "문제 경험", group: "respond" },
-    ].map((section) => ({
-      ...section,
-      sets: originalSets.map((set) => ({
-        ...set,
-        id: `${section.id}-${set.id}`,
-        questionIds: set.questionIds.filter((id) =>
-          questionById.get(id)?.type === section.type
-          && topic.questions.some((question) => question.id === id)),
-      })).filter((set) => set.questionIds.length),
-    })).filter((section) => section.sets.length);
-  };
+  const roleplayScenarios = [
+  [
+    "친구와 약속",
+    "rp1",
+    "rp3",
+    "rp5"
+  ],
+  [
+    "전자기기 구매·고장",
+    "mp3-rp1",
+    "mp3-rp2",
+    "mp3-rp3"
+  ],
+  [
+    "콘서트 예매·문제",
+    "concert-rp1",
+    [
+      "concert-rp2",
+      "rp4"
+    ],
+    null
+  ],
+  [
+    "기차 여행",
+    "travel-rp1",
+    "travel-rp2",
+    "travel-rp3"
+  ],
+  [
+    "집 구하기·집 문제",
+    "house-rp1",
+    "house-rp2",
+    "house-rp3"
+  ],
+  [
+    "친구의 부탁·식물 돌보기",
+    "friend-rp1",
+    "friend-rp2",
+    "friend-rp3"
+  ],
+  [
+    "미용실 예약",
+    "service-rp1",
+    "service-rp2",
+    null
+  ],
+  [
+    "음식점 문의",
+    "restaurant-rp1",
+    null,
+    null
+  ],
+  [
+    "호텔 예약",
+    "hotel-rp1",
+    null,
+    null
+  ],
+  [
+    "재활용 문의",
+    "recycling-rp1",
+    null,
+    null
+  ],
+  [
+    "휴대폰 수리 문의",
+    "repair-rp1",
+    null,
+    null
+  ],
+  [
+    "파티 초대",
+    "party-rp1",
+    null,
+    null
+  ],
+  [
+    "박물관 방문",
+    "rp2",
+    null,
+    null
+  ],
+  [
+    "유명인에게 질문",
+    "celebrity-rp1",
+    null,
+    null
+  ]
+];
 
-  const renderRoleplaySections = (topic, renderSection) => {
-    const sections = getRoleplaySections(topic);
-    return [
-      { id: "ask", title: "1. 내가 질문해야 하는 문항" },
-      { id: "respond", title: "2. 상황·경험에 답하는 문항" },
-    ].map((group) => {
-      const members = sections.filter((section) => section.group === group.id);
-      if (!members.length) return "";
-      const count = members.reduce((sum, section) => sum
-        + section.sets.reduce((total, set) => total + set.questionIds.length, 0), 0);
-      return `<section class="roleplay-action-group">
-        <div class="roleplay-action-heading"><h3>${group.title}</h3>
-          <span>${count}개 문항</span></div>
-        ${members.map(renderSection).join("")}
-      </section>`;
-    }).join("");
-  };
+  const getRoleplaySections = (topic) => roleplayScenarios.map((scenario, index) => {
+    const [title, ...stages] = scenario;
+    const sectionId = `roleplay-scenario-${index + 1}`;
+    const sets = stages.map((stage, stageIndex) => {
+      const questionIds = (Array.isArray(stage) ? stage : stage ? [stage] : [])
+        .map((id) => `topic-10-${id}`);
+      return {
+        id: `${sectionId}-stage-${stageIndex + 1}`,
+        title: ["1. 정보 문의 · 내가 질문하기",
+          "2. 문제 해결 · 상황 설명과 대안 제안",
+          "3. 관련 과거 경험 · 질문에 답하기"][stageIndex],
+        missing: questionIds.length === 0,
+        questionIds: questionIds.filter((id) =>
+          topic.questions.some((question) => question.id === id)),
+      };
+    });
+    return {
+      id: sectionId,
+      title: `세트 ${index + 1} · ${title}`,
+      description: "정보 문의 → 문제 해결 → 관련 과거 경험 순서로 연습하세요.",
+      sets,
+    };
+  }).filter((section) => section.sets.some((set) => set.questionIds.length));
+
+  const renderRoleplaySections = (topic, renderSection) =>
+    getRoleplaySections(topic).map(renderSection).join("");
 
   const renderCategories = (topics, renderTopics) => topicCategories.map((category) => {
     const members = topics.filter((topic) => topic.source === category.id);
@@ -265,7 +340,12 @@
     const renderGroup = (group) => {
       const questions = group.questionIds.map((id) =>
         topic.questions.find((question) => question.id === id)).filter(Boolean);
-      if (!questions.length) return "";
+      if (!questions.length) {
+        return group.missing && !state.query && state.topic !== "roleplay:ask"
+          && state.topic !== "roleplay:respond"
+          ? `<div class="roleplay-missing"><strong>${escapeHtml(group.title)}</strong>
+              <p>현재 등록된 문항이 없습니다.</p></div>` : "";
+      }
       const allQuestions = group.questionIds.map((id) => questionById.get(id));
       const sharedLines = new Set(allQuestions.flatMap((question) =>
         question.answer.filter((line) =>
@@ -320,10 +400,7 @@
             <h4 id="${escapeHtml(section.id)}-title">${escapeHtml(section.title)}</h4>
             <p>${escapeHtml(section.description)}</p>
           </div>
-          ${section.sets.map((set, index) => renderGroup({
-            ...set,
-            title: `세트 ${index + 1} · ${set.title}`,
-          })).join("")}
+          ${section.sets.map(renderGroup).join("")}
         </section>`)
       : topic.scriptGroups.map(renderGroup).join("");
     return `<section class="topic-section" aria-labelledby="${topic.id}-title">
@@ -368,8 +445,16 @@
             <h4 id="${section.id}-practice-title">${section.title}</h4>
             <p>${section.description}</p>
           </div>
-          ${renderQuestionCards({ ...topic, questions: section.sets.flatMap((set) =>
-            set.questionIds.map((id) => questionById.get(id))) })}
+          ${section.sets.map((set) => set.questionIds.length
+            ? `<section class="script-group">
+                <div class="script-group__heading"><h5>${escapeHtml(set.title)}</h5></div>
+                ${renderQuestionCards({ ...topic, questions: set.questionIds.map((id) =>
+                  questionById.get(id)) })}
+              </section>`
+            : set.missing && !state.query && state.topic !== "roleplay:ask"
+              && state.topic !== "roleplay:respond"
+              ? `<div class="roleplay-missing"><strong>${escapeHtml(set.title)}</strong>
+                  <p>현재 등록된 문항이 없습니다.</p></div>` : "").join("")}
         </section>`) : renderQuestionCards(topic)}
     </section>
   `).join("");
