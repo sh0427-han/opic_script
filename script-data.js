@@ -1430,16 +1430,17 @@ window.OPIC_DATA = {
           "question": "어릴 때 다녀온 국내여행을 말해 주세요. 어디에 누구와 갔고, 무엇을 했나요?",
           "status": "필수",
           "answer": [
-            "Well, I remember going to Busan with my family when I was a child.",
-            "We went to Haeundae Beach, and I was excited because I didn't see the sea very often.",
-            "I walked along the beach with my family and played near the water.",
-            "Afterward, we found a restaurant nearby and had dinner together.",
-            "Before going home, we took a few pictures, which we kept for a long time.",
-            "You know, it was a simple trip, but I was happy to spend the whole day with my family."
+            "When I was a child, I went to Haeundae Beach in Busan with my family.",
+            "We went there during summer vacation.",
+            "We took a walk along the beach and enjoyed the fresh air.",
+            "We also ate some delicious food near the beach.",
+            "I was really happy because I had a great time with my family.",
+            "So yeah, I still remember that trip."
           ],
-          "hint": "어릴 때 가족과 부산 → 해운대 걷기 → 저녁 → 사진",
+          "hint": "어릴 때 가족과 여름휴가 → 해운대 산책·신선한 공기 → 맛있는 음식 → 행복한 기억",
           "questionEn": "Tell me about a trip you took in Korea as a child. Where did you go, who went with you, and what did you do?",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-7-q4",
@@ -1464,16 +1465,17 @@ window.OPIC_DATA = {
           "question": "가장 최근 국내여행을 말해 주세요. 어디에 갔는지, 여행 시작부터 끝까지 무엇을 했는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I went to Busan by myself last month for a short break.",
-            "I took the train, left my bag at the hotel, and went straight to Haeundae.",
-            "I walked along the beach and took a few pictures of the sea.",
-            "Later, I found a small restaurant nearby and had a quiet dinner.",
-            "The next morning, I packed my bag and took the train back home.",
-            "Honestly, it was a nice little break, and I'd be happy to do it again."
+            "My most recent trip in Korea was to Haeundae Beach in Busan last weekend.",
+            "First, I took a bus to the train station and then took a train to Busan.",
+            "When I got there, I went to Haeundae Beach and took a walk along the walking path.",
+            "I enjoyed the fresh air and sat on a bench for a while.",
+            "Sometimes, I checked my phone and listened to music.",
+            "So yeah, I had a really relaxing time and came back home in the evening."
           ],
-          "hint": "지난달 혼자 부산 → 기차·호텔 → 해운대 → 저녁 → 귀가",
+          "hint": "지난 주말 해운대 → 버스·기차 → 산책·벤치 → 휴대폰·음악 → 저녁 귀가",
           "questionEn": "Tell me about your most recent trip in Korea. Explain where you went and what happened from the start to the end of the trip.",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-7-q6",
@@ -1481,16 +1483,17 @@ window.OPIC_DATA = {
           "question": "국내여행 중 잊을 수 없는 일을 말해 주세요. 무슨 일이 있었고, 누가 함께했으며, 왜 기억에 남나요?",
           "status": "필수",
           "answer": [
-            "Well, my friends once surprised me with a birthday cake during a trip to Busan.",
-            "It was about three years ago, and I took the train to meet them at Haeundae Beach.",
-            "When I arrived, they brought out the cake and started singing, which really surprised me.",
-            "We sat by the sea and talked for a long time while we shared the cake.",
-            "Before we left, we took a few pictures together to remember the evening.",
-            "Honestly, I felt really lucky to have friends who'd planned something like that for me."
+            "I remember one special day during a trip to Haeundae Beach in Busan.",
+            "It was my birthday, and my friends called me and asked me to meet them there.",
+            "When I got there, they were already waiting for me with a cake and some gifts.",
+            "Then, they started singing a birthday song for me.",
+            "I was really surprised and almost cried.",
+            "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "부산에서 친구들 → 생일 케이크 → 바닷가 대화·사진 → 감동",
+          "hint": "해운대 여행 중 생일 → 친구 연락 → 케이크·선물·노래 → 놀람·감사",
           "questionEn": "Tell me about an unforgettable event during a trip in Korea. What happened, who was there, and why do you remember it?",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-7-q7",
@@ -1498,16 +1501,17 @@ window.OPIC_DATA = {
           "question": "여행 중 겪은 문제를 말해 주세요. 원인·대처 방법·결과를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I almost missed my train to Busan because my bus got stuck in traffic.",
-            "I kept checking the time, and I started to worry that I wouldn't make it.",
-            "So I got off at the next stop and took a taxi to the station.",
-            "Luckily, I arrived just before the train left and managed to get on.",
-            "Once I found my seat, I could finally relax and stop worrying about the time.",
-            "Honestly, I was really glad I'd changed my plan instead of just staying on the bus."
+            "I remember one problem I had during a trip in Korea.",
+            "I was taking a walk along a walking path and listening to music on my phone.",
+            "I accidentally dropped my phone, and it turned off.",
+            "I was really worried, so I pressed the power button a few times.",
+            "Luckily, it turned on again.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "버스 지연 → 기차 놓칠 위험 → 택시 → 출발 직전 도착",
+          "hint": "산책·음악 → 휴대폰 떨어뜨림·꺼짐 → 전원 버튼 → 다시 켜짐",
           "questionEn": "Tell me about a problem you faced during a trip. What caused it, how did you handle it, and what was the result?",
-          "type": "문제 경험"
+          "type": "문제 경험",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-7-q8",
@@ -1549,15 +1553,16 @@ window.OPIC_DATA = {
           "question": "국내 여행지까지 보통 어떻게 이동하나요? 집을 나서서 목적지에 도착할 때까지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I usually take the train to Busan by myself because it's a pretty simple trip.",
-            "First, I leave home early enough to get to the station without rushing.",
-            "At the station, I check the platform number and find the seat on my ticket.",
-            "The train ride takes about three hours, so I usually listen to music along the way.",
-            "Once I arrive, I take a bus or taxi to the beach, and that's the last part of the trip."
+            "When I travel in Korea, I usually go to Haeundae Beach in Busan.",
+            "First, I take a bus from my home to the train station.",
+            "Then, I take a train to Busan.",
+            "When I get there, I take the subway to Haeundae Beach.",
+            "It takes some time, but the trip is pretty easy."
           ],
-          "hint": "집 → 역 → 부산행 기차 3시간 → 버스·택시 → 해변",
+          "hint": "부산 해운대 → 집에서 버스 → 기차로 부산 → 지하철 → 쉬운 이동",
           "questionEn": "How do you usually get to a travel destination in Korea? Explain the trip from leaving home to arriving there.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-7-q11",
@@ -1645,16 +1650,17 @@ window.OPIC_DATA = {
           "question": "좋아하는 음악과 가수 한 명을 묘사해 주세요. 노래와 가수의 목소리는 어떤가요?",
           "status": "필수",
           "answer": [
-            "Well, I really like slow pop songs, especially some of IU's music.",
-            "Her voice sounds soft and clear to me, so it isn't tiring to listen to.",
-            "A lot of the songs I like have a gentle sound without too much loud background music.",
-            "The words are also fairly easy for me to follow, which helps me enjoy the songs.",
-            "I mean, the music feels calm, but it still has plenty of feeling in it.",
-            "That's the kind of sound I like most, something soft that doesn't feel too busy."
+            "I usually like calm and relaxing music.",
+            "My favorite singer is IU, a famous singer in Korea.",
+            "Her songs are soft and easy to listen to.",
+            "I really like her voice because it is clear and beautiful.",
+            "I usually listen to her music when I want to relax.",
+            "So yeah, her music always makes me feel comfortable."
           ],
-          "hint": "잔잔한 팝 → 아이유 → 부드러운 목소리 → 느린 곡·잔잔함",
+          "hint": "잔잔한 음악 → 아이유 → 부드러운 노래·맑은 목소리 → 편안함",
           "questionEn": "Describe the music you enjoy and a singer you like. What are the songs and the singer's voice like?",
-          "type": "묘사"
+          "type": "묘사",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-8-q2",
@@ -1662,16 +1668,16 @@ window.OPIC_DATA = {
           "question": "처음 음악에 관심을 갖게 된 계기는 무엇인가요? 관심을 갖게 만든 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "I first became interested in music after hearing a song in high school.",
-            "I was walking alone one day when I heard it, and the sound caught my attention.",
-            "It was a slow song with a soft voice, so it was easy to listen to.",
-            "I looked for it on my phone and ended up playing it again and again.",
-            "After that, I started looking for other songs with the same kind of sound.",
-            "You know, that one song was really what got me interested in listening to music."
+            "I first became interested in music when I was in high school.",
+            "One of my friends recommended a song to me, so I listened to it on my phone.",
+            "I really liked the song because it was calm and relaxing.",
+            "After that, I listened to music when I was taking a walk or resting at home.",
+            "That’s how I became interested in music."
           ],
-          "hint": "고등학교 → 혼자 걷다가 노래 → 반복 재생 → 더 많은 음악",
+          "hint": "고등학교 친구 추천 → 휴대폰으로 듣기 → 잔잔한 노래 → 산책·집에서 음악",
           "questionEn": "How did you first become interested in music? Tell me about the experience that got you interested.",
-          "type": "과거 경험"
+          "type": "과거 경험",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-8-q3",
@@ -1696,16 +1702,16 @@ window.OPIC_DATA = {
           "question": "보통 언제 어디서 음악을 듣나요? 음악을 고르고 재생하는 방법을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I listen to music almost every day, usually at home or while I'm going somewhere.",
-            "I use my phone and earphones, so I don't need to carry anything extra.",
-            "First, I open my music app and choose a playlist with songs I already know.",
-            "Then I pick a slow song and keep the volume low enough to feel comfortable.",
-            "If I'm at home, I sometimes close my eyes and just listen for a while.",
-            "That's pretty much how I listen, without spending too long looking for the perfect song."
+            "I usually listen to music when I take a walk or relax at home.",
+            "I use a music app on my smartphone.",
+            "First, I open the app and choose a song from my playlist.",
+            "Then, I press play and listen to it with my earphones.",
+            "So yeah, listening to music is very easy and relaxing for me."
           ],
-          "hint": "매일·집·이동 → 휴대폰·이어폰 → 앱·목록 → 감상",
+          "hint": "산책·집에서 휴식 → 스마트폰 앱 → 재생목록 선택 → 재생·이어폰 → 편안함",
           "questionEn": "When and where do you usually listen to music? Explain how you choose and play your music.",
-          "type": "일과·절차"
+          "type": "일과·절차",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-8-q5",
@@ -1764,16 +1770,17 @@ window.OPIC_DATA = {
           "question": "음악을 들을 때 사용하는 기기나 앱을 묘사해 주세요. 어떤 기능이 있고, 무엇이 편리한가요?",
           "status": "선택",
           "answer": [
-            "I use a music app on my phone, along with a small pair of wireless earphones.",
-            "The app has a search box, so it's easy to find a song by its name.",
-            "It also has a playlist feature that keeps my favorite songs together in one place.",
-            "I mean, I don't have to look for the same songs every time I open the app.",
-            "The earphones are light and have no wires, so they're easy to carry around.",
-            "Those simple features make the whole setup really convenient for me."
+            "I usually listen to music on my smartphone.",
+            "I use a music app, and it has many useful features.",
+            "I can search for songs, make playlists, and save my favorite songs.",
+            "It is very convenient because I can listen to music anytime and anywhere.",
+            "I usually use it when I take a walk or want to relax.",
+            "So yeah, my smartphone makes listening to music really easy."
           ],
-          "hint": "음악 앱·무선 이어폰 → 검색·목록 → 선 없는 편리함",
+          "hint": "스마트폰 음악 앱 → 검색·재생목록·저장 → 언제 어디서나 → 산책·휴식",
           "questionEn": "Describe the device or app you use for music. What features does it have, and what is convenient about it?",
-          "type": "묘사"
+          "type": "묘사",
+          "scriptOrigin": "user"
         },
         {
           "id": "topic-8-q9",
