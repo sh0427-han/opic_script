@@ -1104,6 +1104,32 @@ footer {
 .roleplay-section { margin-top: 28px; }
 .roleplay-section__heading { margin-bottom: 14px; }
 .roleplay-section__heading h3 { margin: 0 0 5px; color: var(--navy-900); }
+.roleplay-section__heading h4 { margin: 0 0 5px; color: var(--navy-900); font-size: 1rem; }
+.script-group__heading h5 { margin: 0; color: var(--navy-900); font-size: 1rem; }
+.study-category + .study-category { margin-top: 48px; }
+.study-category-heading {
+  padding: 20px;
+  border-radius: var(--radius-md);
+  background: var(--navy-900);
+  color: var(--white);
+  margin-bottom: 24px;
+}
+.study-category-heading h2 { margin: 0; font-size: 1.25rem; }
+.study-category-heading p { margin: 8px 0 0; line-height: 1.6; font-size: .9rem; }
+.roleplay-action-group + .roleplay-action-group { margin-top: 36px; }
+.roleplay-action-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 14px;
+  background: var(--teal-100);
+  border-radius: var(--radius-sm);
+}
+.roleplay-action-heading h3 { margin: 0; color: var(--navy-900); font-size: 1.1rem; }
+.roleplay-action-heading span { color: var(--teal-700); font-size: .85rem; }
+.survey-topic-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
 .roleplay-section__heading p { margin: 0; color: var(--ink-700); }
 .roleplay-section .script-group { margin-top: 18px; }
 .answer .reused-line { border-left: 2px solid var(--teal-700); padding-left: 8px; }
