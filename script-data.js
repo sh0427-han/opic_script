@@ -2851,21 +2851,21 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I remember one problem I had with my phone.",
-            "One day, it suddenly turned off while I was sending a message.",
-            "I was really surprised, but the battery was empty.",
-            "So I charged it and waited for a few minutes.",
-            "Then, it turned on, and I sent the message.",
+            "One day, I dropped it while I was sending a message.",
+            "I was really surprised because it turned off and wouldn't turn on.",
+            "So I pressed the power button several times.",
+            "Luckily, it turned on again, and I could send the message.",
             "So yeah, everything was fine in the end."
           ],
-          "hint": "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기. → 어느 날 메시지를 보내던 중 휴대폰이 갑자기 꺼졌다고 설명하기. → 놀랐지만 배터리가 다 된 것을 알았다고 말하기. → 충전하고 몇 분 기다렸다고 설명하기. → 다시 켜져 메시지를 보냈다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
+          "hint": "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기. → 어느 날 메시지를 보내다가 휴대폰을 떨어뜨렸다고 설명하기. → 휴대폰이 꺼지고 다시 켜지지 않아 정말 놀랐다고 말하기. → 전원 버튼을 여러 번 눌렀다고 대처 방법 설명하기. → 다행히 다시 켜져 메시지를 보낼 수 있었다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about a time an electronic device stopped working. What were you trying to do, and how did you solve the problem?",
           "type": "문제 경험",
           "hintSteps": [
             "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기.",
-            "어느 날 메시지를 보내던 중 휴대폰이 갑자기 꺼졌다고 설명하기.",
-            "놀랐지만 배터리가 다 된 것을 알았다고 말하기.",
-            "충전하고 몇 분 기다렸다고 설명하기.",
-            "다시 켜져 메시지를 보냈다고 결과 말하기.",
+            "어느 날 메시지를 보내다가 휴대폰을 떨어뜨렸다고 설명하기.",
+            "휴대폰이 꺼지고 다시 켜지지 않아 정말 놀랐다고 말하기.",
+            "전원 버튼을 여러 번 눌렀다고 대처 방법 설명하기.",
+            "다행히 다시 켜져 메시지를 보낼 수 있었다고 결과 말하기.",
             "결국 잘 해결되었다고 마무리하기."
           ]
         },
@@ -4629,21 +4629,21 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I remember one problem I had with my phone.",
-            "One day, it suddenly turned off while I was sending a message.",
-            "I was really surprised, but the battery was empty.",
-            "So I charged it and waited for a few minutes.",
-            "Then, it turned on, and I sent the message.",
+            "One day, I dropped it while I was sending a message.",
+            "I was really surprised because it turned off and wouldn't turn on.",
+            "So I pressed the power button several times.",
+            "Luckily, it turned on again, and I could send the message.",
             "So yeah, everything was fine in the end."
           ],
-          "hint": "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기. → 어느 날 메시지를 보내던 중 휴대폰이 갑자기 꺼졌다고 설명하기. → 놀랐지만 배터리가 다 된 것을 알았다고 말하기. → 충전하고 몇 분 기다렸다고 설명하기. → 다시 켜져 메시지를 보냈다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
+          "hint": "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기. → 어느 날 메시지를 보내다가 휴대폰을 떨어뜨렸다고 설명하기. → 휴대폰이 꺼지고 다시 켜지지 않아 정말 놀랐다고 말하기. → 전원 버튼을 여러 번 눌렀다고 대처 방법 설명하기. → 다행히 다시 켜져 메시지를 보낼 수 있었다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
           "questionEn": "Tell me about a time your phone stopped working. What were you doing, how did you respond, and what happened next?",
           "type": "문제 경험",
           "hintSteps": [
             "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기.",
-            "어느 날 메시지를 보내던 중 휴대폰이 갑자기 꺼졌다고 설명하기.",
-            "놀랐지만 배터리가 다 된 것을 알았다고 말하기.",
-            "충전하고 몇 분 기다렸다고 설명하기.",
-            "다시 켜져 메시지를 보냈다고 결과 말하기.",
+            "어느 날 메시지를 보내다가 휴대폰을 떨어뜨렸다고 설명하기.",
+            "휴대폰이 꺼지고 다시 켜지지 않아 정말 놀랐다고 말하기.",
+            "전원 버튼을 여러 번 눌렀다고 대처 방법 설명하기.",
+            "다행히 다시 켜져 메시지를 보낼 수 있었다고 결과 말하기.",
             "결국 잘 해결되었다고 마무리하기."
           ]
         },
@@ -5574,20 +5574,20 @@ window.OPIC_DATA = {
             "role": "문제 경험"
           },
           {
-            "en": "My phone suddenly turned off when I was trying to send a message.",
-            "ko": "메시지를 보내려는데 휴대폰이 갑자기 꺼졌어요.",
+            "en": "One day, I dropped it while I was sending a message.",
+            "ko": "어느 날 메시지를 보내다가 휴대폰을 떨어뜨렸어요.",
             "source": "topic-15-q3",
             "role": "문제 경험"
           },
           {
-            "en": "I found my charger, plugged the phone in, and waited for a while.",
-            "ko": "충전기를 찾아 휴대폰에 연결하고 잠깐 기다렸어요.",
+            "en": "So I pressed the power button several times.",
+            "ko": "그래서 전원 버튼을 여러 번 눌렀어요.",
             "source": "topic-15-q3",
             "role": "문제 경험"
           },
           {
-            "en": "Luckily, it turned back on after it had charged for a few minutes.",
-            "ko": "다행히 몇 분 충전하니 다시 켜졌어요.",
+            "en": "Luckily, it turned on again, and I could send the message.",
+            "ko": "다행히 다시 켜져서 메시지를 보낼 수 있었어요.",
             "source": "topic-15-q3",
             "role": "문제 경험"
           }
