@@ -159,30 +159,11 @@
     `;
   };
 
-  const answerHtml = (question, sharedLines = new Set()) => {
-    const [mainPoint] = question.answer;
-    const support = question.answer.slice(1, -1);
-    const closing = question.answer.at(-1);
-    const isShared = (line) => question.scriptOrigin !== "user" && sharedLines.has(line);
-    const lineHtml = (line) => `<p lang="en"${isShared(line)
-      ? ' class="reused-line"' : ""}>${isShared(line)
-      ? '<span class="reuse-label" lang="ko">공통</span>' : ""}${escapeHtml(line)}</p>`;
-
-    return `<div class="answer answer--structured">
-      <div class="answer-mp">
-        <strong>MP · 질문에 바로 답하기</strong>
-        ${lineHtml(mainPoint)}
-      </div>
-      <div class="answer-support">
-        <strong>부연설명 · ${support.length}문장</strong>
-        ${support.map(lineHtml).join("")}
-      </div>
-      <div class="answer-closing">
-        <strong>마무리 멘트</strong>
-        ${lineHtml(closing)}
-      </div>
-    </div>`;
-  };
+  const answerHtml = (question) => `
+    <div class="answer">
+      <p lang="en">${escapeHtml(question.answer.join(" "))}</p>
+    </div>
+  `;
 
   const variantAnswer = (question, variant) => question.answer.map((line) =>
     variant.replacements.find((item) => item.from === line)?.to ?? line);
