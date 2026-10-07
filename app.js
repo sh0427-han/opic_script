@@ -259,6 +259,15 @@
     </details>
   `).join("");
 
+  const getPrioritizedScriptGroups = (topic) => ["필수", "선택"].flatMap((status) =>
+    topic.scriptGroups.map((group) => ({
+      ...group,
+      id: `${group.id}-${status === "필수" ? "required" : "optional"}`,
+      title: `${group.title} · ${status}`,
+      questionIds: group.questionIds.filter((id) =>
+        questionById.get(id)?.status === status),
+    })).filter((group) => group.questionIds.length));
+
   const renderScripts = (topics) => topics.map((topic) => {
     const renderGroup = (group) => {
       const questions = group.questionIds.map((id) =>
@@ -318,7 +327,7 @@
     const groups = topic.roleplaySections
       ? getRoleplaySections(topic).flatMap((section) => section.sets)
         .map(renderGroup).join("")
-      : topic.scriptGroups.map(renderGroup).join("");
+      : getPrioritizedScriptGroups(topic).map(renderGroup).join("");
     return `<section class="topic-section" aria-labelledby="${topic.id}-title">
       <div class="topic-heading">
         <h2 id="${topic.id}-title">${topicTitleHtml(topic)}</h2>
