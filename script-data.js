@@ -618,23 +618,27 @@ window.OPIC_DATA = {
           "question": "집에서 보낸 휴가 중 기억에 남는 하루를 말해 주세요. 무슨 일이 있었고, 왜 기억에 남나요?",
           "status": "필수",
           "answer": [
-            "I remember one special day during my vacation at home.",
-            "It was my birthday, and my friends called me and asked me to stay home.",
-            "A few minutes later, they came over with a cake and some gifts for me.",
+            "Actually, I remember one really special day at home.",
+            "It was my birthday, and I was out for a bit.",
+            "My friends suddenly called me and asked me to meet them there.",
+            "When I got there, they were already waiting for me with a cake and some gifts.",
             "Then, they started singing a birthday song for me.",
-            "I was really surprised and almost cried.",
-            "I was so thankful to my friends, and I will never forget that day."
+            "I was really surprised, and I almost cried.",
+            "I was so thankful to my friends.",
+            "I’ll never forget that day."
           ],
-          "hint": "집에서 휴가를 보내던 중 특별한 하루가 기억난다고 시작하기. → 생일이었고 친구들이 전화해서 집에 있으라고 했다고 설명하기. → 몇 분 뒤 친구들이 케이크와 선물을 들고 집에 왔다고 말하기. → 이어서 생일 축하 노래를 불러 주었다고 말하기. → 너무 놀라 거의 울 뻔했다고 감정을 말하기. → 친구들에게 정말 고마웠고 그날을 잊지 못할 것이라고 마무리하기.",
+          "hint": "집에서 보낸 정말 특별한 하루가 기억난다고 시작하기. → 생일이었고 잠깐 밖에 나가 있었다고 설명하기. → 친구들이 갑자기 전화해서 그곳에서 만나자고 했다고 말하기. → 도착하니 친구들이 케이크와 선물을 들고 이미 기다리고 있었다고 설명하기. → 친구들이 생일 축하 노래를 불러 주었다고 말하기. → 정말 놀랐고 거의 울 뻔했다고 감정 표현하기. → 친구들에게 정말 고마웠다고 말하기. → 그날을 절대 잊지 못할 것이라고 마무리하기.",
           "questionEn": "Tell me about a memorable day during a vacation at home. What happened, and why do you remember it?",
           "type": "과거 경험",
           "hintSteps": [
-            "집에서 휴가를 보내던 중 특별한 하루가 기억난다고 시작하기.",
-            "생일이었고 친구들이 전화해서 집에 있으라고 했다고 설명하기.",
-            "몇 분 뒤 친구들이 케이크와 선물을 들고 집에 왔다고 말하기.",
-            "이어서 생일 축하 노래를 불러 주었다고 말하기.",
-            "너무 놀라 거의 울 뻔했다고 감정을 말하기.",
-            "친구들에게 정말 고마웠고 그날을 잊지 못할 것이라고 마무리하기."
+            "집에서 보낸 정말 특별한 하루가 기억난다고 시작하기.",
+            "생일이었고 잠깐 밖에 나가 있었다고 설명하기.",
+            "친구들이 갑자기 전화해서 그곳에서 만나자고 했다고 말하기.",
+            "도착하니 친구들이 케이크와 선물을 들고 이미 기다리고 있었다고 설명하기.",
+            "친구들이 생일 축하 노래를 불러 주었다고 말하기.",
+            "정말 놀랐고 거의 울 뻔했다고 감정 표현하기.",
+            "친구들에게 정말 고마웠다고 말하기.",
+            "그날을 절대 잊지 못할 것이라고 마무리하기."
           ]
         },
         {
