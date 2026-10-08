@@ -1,7 +1,7 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v41",
-  "updated": "2026-10-06",
+  "version": "v42",
+  "updated": "2026-10-08",
   "questionCount": 168,
   "survey": {
     "title": "시험 전 설문 선택",
@@ -673,23 +673,23 @@ window.OPIC_DATA = {
           "question": "사람들에게 휴가가 왜 필요하다고 생각하나요? 휴식이 어떤 도움이 되는지 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "My vacations have changed a lot over time.",
-            "In the past, I usually spent my vacations with my family, and we did many things together.",
-            "But now, I prefer to stay at home by myself because I’m usually busy with work.",
-            "I just sit on my sofa, listen to music, and relax.",
-            "Sometimes, I order some food and eat it at home.",
-            "So yeah, these days, I really enjoy having some quiet time by myself."
+            "I think people need vacations because they are usually busy with work or school.",
+            "After working for a long time, people can feel tired and stressed.",
+            "A vacation gives them time to rest and forget about work for a while.",
+            "For me, I like staying at home, sitting on my sofa, and listening to music.",
+            "I don’t do anything special because I just want to relax.",
+            "So yeah, I think vacations help people feel better and get their energy back."
           ],
-          "hint": "시간이 지나면서 휴가를 보내는 방식이 많이 달라졌다고 시작하기. → 예전에는 주로 가족과 휴가를 보내며 함께 여러 활동을 했다고 설명하기. → 지금은 평소 일이 바빠 집에서 혼자 지내는 것을 선호한다고 비교하기. → 소파에 앉아 음악을 듣고 쉰다고 말하기. → 가끔 음식을 주문해 집에서 먹는다고 덧붙이기. → 요즘은 혼자 조용한 시간을 보내는 것이 정말 좋다고 마무리하기.",
+          "hint": "사람들은 보통 일이나 학교로 바쁘기 때문에 휴가가 필요하다고 말하기. → 오랫동안 일하면 피곤하고 스트레스를 받을 수 있다고 설명하기. → 휴가는 잠시 쉬고 일을 잊을 시간을 준다고 말하기. → 나는 집에서 소파에 앉아 음악을 들으며 쉬는 것을 좋아한다고 예를 들기. → 특별한 일은 하지 않고 그냥 쉬고 싶다고 설명하기. → 휴가는 기분을 나아지게 하고 에너지를 되찾는 데 도움이 된다고 마무리하기.",
           "questionEn": "Why do you think people need vacations? Explain how taking a break can help them.",
           "type": "의견·이유",
           "hintSteps": [
-            "시간이 지나면서 휴가를 보내는 방식이 많이 달라졌다고 시작하기.",
-            "예전에는 주로 가족과 휴가를 보내며 함께 여러 활동을 했다고 설명하기.",
-            "지금은 평소 일이 바빠 집에서 혼자 지내는 것을 선호한다고 비교하기.",
-            "소파에 앉아 음악을 듣고 쉰다고 말하기.",
-            "가끔 음식을 주문해 집에서 먹는다고 덧붙이기.",
-            "요즘은 혼자 조용한 시간을 보내는 것이 정말 좋다고 마무리하기."
+            "사람들은 보통 일이나 학교로 바쁘기 때문에 휴가가 필요하다고 말하기.",
+            "오랫동안 일하면 피곤하고 스트레스를 받을 수 있다고 설명하기.",
+            "휴가는 잠시 쉬고 일을 잊을 시간을 준다고 말하기.",
+            "나는 집에서 소파에 앉아 음악을 들으며 쉬는 것을 좋아한다고 예를 들기.",
+            "특별한 일은 하지 않고 그냥 쉬고 싶다고 설명하기.",
+            "휴가는 기분을 나아지게 하고 에너지를 되찾는 데 도움이 된다고 마무리하기."
           ]
         },
         {
@@ -1274,23 +1274,23 @@ window.OPIC_DATA = {
           "question": "펍에서 시간을 보내는 방식이 어떻게 달라졌나요? 예전과 지금의 장소·동행인·머무는 시간을 비교해 주세요.",
           "status": "선택",
           "answer": [
-            "Well, I used to go to busy pubs, but now I prefer quieter places.",
-            "When I was younger, I usually went with a larger group of friends.",
-            "We often stayed out late, and there was always a lot going on.",
-            "These days, I usually go with just one or two friends so we can talk properly.",
-            "We stay for about an hour and head home before it gets too late.",
-            "Honestly, that feels better to me because I can enjoy the evening without feeling tired the next day."
+            "Well, the way I spend time at pubs has changed a lot.",
+            "When I was in university, I usually went to pubs with my friends.",
+            "We talked a lot, listened to music, and sometimes stayed out late.",
+            "But these days, I usually go to a quiet pub by myself on weekends.",
+            "I just order a drink, check my phone, or listen to music for a while.",
+            "So yeah, I prefer going alone now because I can relax and have some quiet time."
           ],
-          "hint": "예전에는 붐비는 펍에 갔지만 지금은 더 조용한 곳을 선호한다고 말하기. → 어릴 때는 보통 더 많은 친구와 함께 갔다고 설명하기. → 늦게까지 밖에 있었고 늘 여러 일이 벌어졌다고 말하기. → 요즘은 대화하기 좋도록 친구 1~2명과 간다고 비교하기. → 약 1시간 머무르고 너무 늦기 전에 귀가한다고 설명하기. → 다음 날 피곤하지 않게 저녁을 즐길 수 있어 더 좋다고 마무리하기.",
+          "hint": "펍에서 시간을 보내는 방식이 많이 달라졌다고 시작하기. → 대학생 때는 보통 친구들과 펍에 갔다고 말하기. → 친구들과 이야기하고 음악을 들으며 가끔 늦게까지 있었다고 설명하기. → 요즘에는 주말에 조용한 펍에 혼자 가는 편이라고 비교하기. → 음료를 주문하고 휴대폰을 확인하거나 잠시 음악을 듣는다고 말하기. → 혼자 가면 조용히 쉬면서 편안한 시간을 보낼 수 있어 더 좋다고 마무리하기.",
           "questionEn": "How has the way you spend time at pubs changed? Compare the places, people, and length of your visits then and now.",
           "type": "변화·비교",
           "hintSteps": [
-            "예전에는 붐비는 펍에 갔지만 지금은 더 조용한 곳을 선호한다고 말하기.",
-            "어릴 때는 보통 더 많은 친구와 함께 갔다고 설명하기.",
-            "늦게까지 밖에 있었고 늘 여러 일이 벌어졌다고 말하기.",
-            "요즘은 대화하기 좋도록 친구 1~2명과 간다고 비교하기.",
-            "약 1시간 머무르고 너무 늦기 전에 귀가한다고 설명하기.",
-            "다음 날 피곤하지 않게 저녁을 즐길 수 있어 더 좋다고 마무리하기."
+            "펍에서 시간을 보내는 방식이 많이 달라졌다고 시작하기.",
+            "대학생 때는 보통 친구들과 펍에 갔다고 말하기.",
+            "친구들과 이야기하고 음악을 들으며 가끔 늦게까지 있었다고 설명하기.",
+            "요즘에는 주말에 조용한 펍에 혼자 가는 편이라고 비교하기.",
+            "음료를 주문하고 휴대폰을 확인하거나 잠시 음악을 듣는다고 말하기.",
+            "혼자 가면 조용히 쉬면서 편안한 시간을 보낼 수 있어 더 좋다고 마무리하기."
           ]
         }
       ],
@@ -1726,23 +1726,23 @@ window.OPIC_DATA = {
           "question": "해변에서 문제가 생긴 경험을 말해 주세요. 어떤 문제였고, 어떻게 해결했나요?",
           "status": "필수",
           "answer": [
-            "The wind knocked my bag over at the beach, and my hat was suddenly missing.",
-            "At first, I was worried it had blown into the water because the wind was so strong.",
-            "I looked around the bag, then checked the sand a little farther away.",
-            "Luckily, I found the hat just a few steps away before it blew any farther.",
-            "I moved to a place away from the water and kept my things close beside me.",
-            "Honestly, it was a small problem, but I was glad I hadn't lost my hat."
+            "I remember one problem I had at Haeundae Beach.",
+            "I was taking a walk along a walking path and listening to music on my phone.",
+            "I accidentally dropped my phone, and it turned off.",
+            "I was really worried, so I pressed the power button a few times.",
+            "Luckily, it turned on again.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "해변에서 바람에 가방이 넘어졌고 모자가 보이지 않았다고 말하기. → 바람이 강해서 모자가 물로 날아갔을까 걱정했다고 설명하기. → 가방 주변을 보고 조금 떨어진 모래도 살펴봤다고 말하기. → 다행히 더 멀리 날아가기 전에 몇 걸음 떨어진 곳에서 찾았다고 설명하기. → 물에서 떨어진 곳으로 옮겨 물건을 바로 옆에 두었다고 말하기. → 작은 문제였지만 모자를 잃지 않아 다행이었다고 마무리하기.",
+          "hint": "해운대 해변에서 겪은 문제 하나가 기억난다고 시작하기. → 산책로를 걸으며 휴대폰으로 음악을 듣고 있었다고 설명하기. → 실수로 휴대폰을 떨어뜨렸고 전원이 꺼졌다고 말하기. → 걱정되어 전원 버튼을 몇 번 눌렀다고 설명하기. → 다행히 휴대폰이 다시 켜졌다고 말하기. → 결국 모든 것이 괜찮았다고 마무리하기.",
           "questionEn": "Tell me about something that went wrong at the beach. What was the problem, and how did you solve it?",
           "type": "문제 경험",
           "hintSteps": [
-            "해변에서 바람에 가방이 넘어졌고 모자가 보이지 않았다고 말하기.",
-            "바람이 강해서 모자가 물로 날아갔을까 걱정했다고 설명하기.",
-            "가방 주변을 보고 조금 떨어진 모래도 살펴봤다고 말하기.",
-            "다행히 더 멀리 날아가기 전에 몇 걸음 떨어진 곳에서 찾았다고 설명하기.",
-            "물에서 떨어진 곳으로 옮겨 물건을 바로 옆에 두었다고 말하기.",
-            "작은 문제였지만 모자를 잃지 않아 다행이었다고 마무리하기."
+            "해운대 해변에서 겪은 문제 하나가 기억난다고 시작하기.",
+            "산책로를 걸으며 휴대폰으로 음악을 듣고 있었다고 설명하기.",
+            "실수로 휴대폰을 떨어뜨렸고 전원이 꺼졌다고 말하기.",
+            "걱정되어 전원 버튼을 몇 번 눌렀다고 설명하기.",
+            "다행히 휴대폰이 다시 켜졌다고 말하기.",
+            "결국 모든 것이 괜찮았다고 마무리하기."
           ]
         },
         {
