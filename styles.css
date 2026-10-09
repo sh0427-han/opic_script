@@ -1165,3 +1165,366 @@ footer {
   overflow-wrap: anywhere;
 }
 .flow-steps li + li { margin-top: 5px; }
+
+
+/* 3문제 콤보 연습: 기존 스크립트·문제 연습 스타일과 독립적으로 관리 */
+.combo-intro {
+  margin-bottom: 28px;
+  padding: 25px;
+  border-radius: var(--radius-md);
+  background: var(--cream-100);
+}
+
+.combo-kicker,
+.combo-topic-category {
+  margin: 0;
+  color: var(--teal-700);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.045em;
+}
+
+.combo-intro h2,
+.combo-topic-heading h2 {
+  margin: 4px 0 10px;
+  color: var(--navy-900);
+  font-size: clamp(1.35rem, 3vw, 1.7rem);
+}
+
+.combo-intro > p:not(.combo-kicker) {
+  max-width: 780px;
+  margin: 7px 0;
+  color: var(--ink-700);
+}
+
+.combo-disclaimer {
+  margin: 16px 0 0;
+  color: var(--ink-500);
+  font-size: 0.84rem;
+  line-height: 1.7;
+}
+
+.combo-category + .combo-category {
+  margin-top: 28px;
+}
+
+.combo-category > h3 {
+  margin: 0 0 12px;
+  color: var(--navy-900);
+  font-size: 1.1rem;
+}
+
+.combo-topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));
+  gap: 12px;
+}
+
+.combo-topic-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--white);
+}
+
+.combo-topic-card h3 {
+  margin: 0;
+  color: var(--navy-900);
+  font-size: 1.08rem;
+}
+
+.combo-topic-card > p:not(.combo-topic-category) {
+  margin: 0 0 8px;
+  color: var(--ink-700);
+  font-size: 0.86rem;
+}
+
+.combo-primary-button,
+.combo-secondary-button {
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: 11px;
+  font-size: 0.92rem;
+  font-weight: 800;
+}
+
+.combo-primary-button {
+  border: 1px solid var(--navy-900);
+  background: var(--navy-900);
+  color: var(--white);
+}
+
+.combo-secondary-button {
+  border: 1px solid var(--line);
+  background: var(--white);
+  color: var(--navy-900);
+}
+
+.combo-secondary-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.combo-primary-button:focus-visible,
+.combo-secondary-button:focus-visible,
+.combo-set-tab:focus-visible,
+.combo-step:focus-visible,
+.combo-back:focus-visible,
+.combo-link-button:focus-visible {
+  outline: 3px solid var(--teal-700);
+  outline-offset: 3px;
+}
+
+.combo-topic-card .combo-primary-button {
+  margin-top: auto;
+}
+
+.combo-roleplay-note {
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid var(--line);
+  color: var(--ink-700);
+  font-size: 0.88rem;
+}
+
+.combo-link-button,
+.combo-back {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--teal-700);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.combo-back {
+  margin-bottom: 14px;
+  padding: 6px 0;
+  text-decoration: none;
+}
+
+.combo-topic-heading {
+  margin-bottom: 19px;
+}
+
+.combo-topic-heading p {
+  margin: 0;
+  color: var(--teal-700);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.combo-topic-heading span {
+  color: var(--ink-500);
+  font-size: 0.85rem;
+}
+
+.combo-set-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+  margin-bottom: 22px;
+}
+
+.combo-set-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+  padding: 13px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: var(--cream-50);
+  color: var(--ink-700);
+  text-align: left;
+}
+
+.combo-set-tab.is-active {
+  border-color: var(--teal-700);
+  background: var(--teal-100);
+  color: var(--navy-900);
+}
+
+.combo-set-tab strong {
+  font-size: 1.1rem;
+}
+
+.combo-set-tab span,
+.combo-set-tab small {
+  overflow-wrap: anywhere;
+  font-size: 0.77rem;
+}
+
+.combo-set-tab small {
+  color: var(--ink-500);
+}
+
+.combo-progress {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.combo-progress strong {
+  color: var(--navy-900);
+}
+
+.combo-progress span {
+  color: var(--ink-500);
+  font-size: 0.83rem;
+}
+
+.combo-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 13px;
+}
+
+.combo-step {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  min-width: 0;
+  padding: 9px 11px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--white);
+  color: var(--ink-700);
+  text-align: left;
+}
+
+.combo-step.is-active {
+  border-color: var(--navy-900);
+  background: var(--navy-900);
+  color: var(--white);
+}
+
+.combo-step > span {
+  display: grid;
+  flex: 0 0 25px;
+  height: 25px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--cream-100);
+  color: var(--navy-900);
+  font-weight: 800;
+}
+
+.combo-step small {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-size: 0.8rem;
+}
+
+.combo-question {
+  min-height: 255px;
+  padding: 23px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--white);
+}
+
+.combo-question-meta,
+.combo-reveal-actions,
+.combo-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.combo-question h3 {
+  margin: 14px 0 0;
+  font-size: clamp(1.15rem, 2.4vw, 1.38rem);
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.combo-korean {
+  margin: 12px 0 24px;
+  color: var(--ink-700);
+  font-size: 0.94rem;
+  overflow-wrap: anywhere;
+}
+
+.combo-reveal {
+  margin-top: 15px;
+  padding: 16px;
+  border-radius: var(--radius-sm);
+  background: #f6faf9;
+}
+
+.combo-reveal--hint {
+  background: var(--cream-100);
+}
+
+.combo-reveal h4 {
+  margin: 0 0 8px;
+  color: var(--navy-900);
+  font-size: 0.88rem;
+}
+
+.combo-answer {
+  margin: 0 0 10px;
+  color: var(--navy-900);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.03rem;
+  line-height: 1.8;
+}
+
+.combo-navigation {
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+@media (max-width: 620px) {
+  .combo-intro,
+  .combo-question {
+    padding: 16px;
+  }
+
+  .combo-set-tabs,
+  .combo-steps {
+    gap: 5px;
+  }
+
+  .combo-set-tab {
+    padding: 10px 8px;
+  }
+
+  .combo-set-tab small {
+    display: none;
+  }
+
+  .combo-step {
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px 5px;
+    text-align: center;
+  }
+
+  .combo-progress {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .combo-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .combo-navigation button {
+    min-width: 0;
+  }
+}
