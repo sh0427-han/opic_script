@@ -19,6 +19,9 @@
   };
 
   const viewFromHash = () => {
+    if (window.location.hash === "#combos") {
+      return "combos";
+    }
     if (window.location.hash === "#questions") {
       return "questions";
     }
@@ -38,7 +41,7 @@
 
   const state = {
     query: "",
-    topic: "all",
+    topic: initialView === "combos" ? "survey" : "all",
     view: initialView,
   };
 
@@ -211,7 +214,9 @@
     const filterGroups = [
       { id: "survey", title: "설문조사 기반" },
       { id: "unexpected", title: "일반·돌발 주제" },
-      { id: "roleplay", title: "롤플레이" },
+      ...(state.view === "combos" ? [] : [
+        { id: "roleplay", title: "롤플레이" },
+      ]),
     ];
 
     elements.filters.innerHTML = `
@@ -482,6 +487,7 @@
   const render = () => {
     const isSurvey = state.view === "survey";
     const isCore = state.view === "core";
+    const isCombos = state.view === "combos";
     const topics = getVisibleTopics();
     const visibleCount = topics.reduce(
       (count, topic) => count + topic.questions.length,
@@ -495,7 +501,21 @@
     });
 
     elements.filters.hidden = isSurvey || isCore;
-    elements.searchBox.hidden = isSurvey || isCore;
+    elements.searchBox.hidden = isSurvey || isCore || isCombos;
+
+    if (isCombos) {
+      const isDetail = Boolean(window.OPIC_COMBOS[state.topic]);
+      const shown = data.topics.filter((topic) =>
+        window.OPIC_COMBOS[topic.id] && (state.topic === "all"
+          || state.topic === topic.source || topic.id === state.topic));
+      elements.content.setAttribute("aria-labelledby", "combos-tab");
+      elements.description.textContent =
+        "기존 질문을 3문제씩 이어서 연습합니다. A세트부터 시작하세요.";
+      elements.resultSummary.textContent = isDetail
+        ? "3세트 · 각 3문제" : `${shown.length}개 주제 · 각 3세트`;
+      elements.content.innerHTML = window.OPIC_COMBO_VIEW.render(state.topic);
+      return;
+    }
 
     if (isCore) {
       elements.content.setAttribute("aria-labelledby", "core-tab");
@@ -543,8 +563,16 @@
 
   const setView = (view) => {
     state.view = view;
-    const hash = view === "questions"
-      ? "#questions"
+    if (view === "combos" && (state.topic === "all"
+      || state.topic === "roleplay"
+      || state.topic.startsWith("roleplay-scenario-"))) {
+      state.topic = "survey";
+      renderFilters();
+    }
+    const hash = view === "combos"
+      ? "#combos"
+      : view === "questions"
+        ? "#questions"
       : view === "survey"
         ? "#survey"
         : view === "scripts"
@@ -621,6 +649,30 @@
     const button = event.target.closest("[data-action]");
     if (!button) {
       return;
+    }
+    if (state.view === "combos") {
+      if (button.dataset.action === "combo-open-topic") {
+        state.topic = button.dataset.topicId;
+        renderFilters();
+        render();
+        return;
+      }
+      if (button.dataset.action === "combo-back") {
+        state.topic = button.dataset.category;
+        renderFilters();
+        render();
+        return;
+      }
+      if (button.dataset.action === "combo-open-roleplay") {
+        state.topic = "roleplay";
+        renderFilters();
+        setView("scripts");
+        return;
+      }
+      if (window.OPIC_COMBO_VIEW.handleClick(button)) {
+        render();
+        return;
+      }
     }
     if (button.dataset.action === "hint") {
       toggleHint(button);
