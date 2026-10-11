@@ -1,5 +1,6 @@
-// 세트는 기존 질문 ID만 참조합니다. 질문·답변은 script-data.js에서 관리합니다.
-// 실제 시험의 확정 출제 순서가 아닌 3문제 콤보 연습용 구성입니다.
+// 기존 질문 ID만 참조하며, A/B/C 세트 사이에서 동일 질문을 반복하지 않습니다.
+// 주제별 질문 수에 따라 1~3세트로 구성하고 남은 질문은 별도로 보여줍니다.
+// 실제 시험의 확정된 기출 순서가 아닌 학습용 3문제 콤보입니다.
 window.OPIC_COMBOS = {
   "topic-1": {
     "A": [
@@ -10,7 +11,7 @@ window.OPIC_COMBOS = {
     "B": [
       "topic-1-q5",
       "topic-1-q6",
-      "topic-1-q9"
+      "topic-1-q7"
     ],
     "C": [
       "topic-1-q10",
@@ -20,18 +21,18 @@ window.OPIC_COMBOS = {
   },
   "topic-2": {
     "A": [
+      "topic-2-q2",
       "topic-2-q1",
-      "topic-2-q3",
       "topic-2-q4"
     ],
     "B": [
-      "topic-2-q2",
-      "topic-2-q1",
+      "topic-2-q8",
+      "topic-2-q7",
       "topic-2-q3"
     ],
     "C": [
-      "topic-2-q8",
-      "topic-2-q1",
+      "topic-2-q5",
+      "topic-2-q6",
       "topic-2-q9"
     ]
   },
@@ -42,13 +43,13 @@ window.OPIC_COMBOS = {
       "topic-3-q4"
     ],
     "B": [
-      "topic-3-q7",
-      "topic-3-q3",
+      "topic-3-q9",
+      "topic-3-q2",
       "topic-3-q6"
     ],
     "C": [
-      "topic-3-q1",
-      "topic-3-q3",
+      "topic-3-q7",
+      "topic-3-q8",
       "topic-3-q5"
     ]
   },
@@ -59,14 +60,9 @@ window.OPIC_COMBOS = {
       "topic-4-q3"
     ],
     "B": [
-      "topic-4-q1",
-      "topic-4-q2",
-      "topic-4-q6"
-    ],
-    "C": [
-      "topic-4-q1",
+      "topic-4-q4",
       "topic-4-q7",
-      "topic-4-q5"
+      "topic-4-q6"
     ]
   },
   "topic-5": {
@@ -76,14 +72,9 @@ window.OPIC_COMBOS = {
       "topic-5-q4"
     ],
     "B": [
-      "topic-5-q1",
-      "topic-5-q2",
+      "topic-5-q8",
+      "topic-5-q5",
       "topic-5-q6"
-    ],
-    "C": [
-      "topic-5-q1",
-      "topic-5-q7",
-      "topic-5-q5"
     ]
   },
   "topic-6": {
@@ -93,14 +84,9 @@ window.OPIC_COMBOS = {
       "topic-6-q3"
     ],
     "B": [
-      "topic-6-q1",
       "topic-6-q4",
+      "topic-6-q5",
       "topic-6-q6"
-    ],
-    "C": [
-      "topic-6-q1",
-      "topic-6-q2",
-      "topic-6-q5"
     ]
   },
   "topic-7": {
@@ -110,13 +96,13 @@ window.OPIC_COMBOS = {
       "topic-7-q5"
     ],
     "B": [
-      "topic-7-q1",
       "topic-7-q4",
+      "topic-7-q10",
       "topic-7-q7"
     ],
     "C": [
-      "topic-7-q1",
-      "topic-7-q8",
+      "topic-7-q11",
+      "topic-7-q3",
       "topic-7-q6"
     ]
   },
@@ -127,14 +113,14 @@ window.OPIC_COMBOS = {
       "topic-8-q7"
     ],
     "B": [
-      "topic-8-q1",
-      "topic-8-q4",
+      "topic-8-q8",
+      "topic-8-q5",
       "topic-8-q2"
     ],
     "C": [
-      "topic-8-q1",
       "topic-8-q3",
-      "topic-8-q6"
+      "topic-8-q6",
+      "topic-8-q9"
     ]
   },
   "topic-9": {
@@ -144,13 +130,8 @@ window.OPIC_COMBOS = {
       "topic-9-q3"
     ],
     "B": [
-      "topic-9-q1",
       "topic-9-q5",
-      "topic-9-q4"
-    ],
-    "C": [
-      "topic-9-q1",
-      "topic-9-q2",
+      "topic-9-q4",
       "topic-9-q8"
     ]
   },
@@ -161,14 +142,9 @@ window.OPIC_COMBOS = {
       "topic-11-q3"
     ],
     "B": [
-      "topic-11-q1",
       "topic-11-q5",
+      "topic-11-q4",
       "topic-11-q6"
-    ],
-    "C": [
-      "topic-11-q1",
-      "topic-11-q2",
-      "topic-11-q4"
     ]
   },
   "topic-12": {
@@ -178,30 +154,15 @@ window.OPIC_COMBOS = {
       "topic-12-q5"
     ],
     "B": [
-      "topic-12-q3",
-      "topic-12-q4",
-      "topic-12-q6"
-    ],
-    "C": [
-      "topic-12-q3",
       "topic-12-q1",
-      "topic-12-q2"
+      "topic-12-q2",
+      "topic-12-q6"
     ]
   },
   "topic-13": {
     "A": [
       "topic-13-q1",
       "topic-13-q2",
-      "topic-13-q3"
-    ],
-    "B": [
-      "topic-13-q1",
-      "topic-13-q4",
-      "topic-13-q3"
-    ],
-    "C": [
-      "topic-13-q2",
-      "topic-13-q5",
       "topic-13-q3"
     ]
   },
@@ -212,14 +173,9 @@ window.OPIC_COMBOS = {
       "topic-14-q2"
     ],
     "B": [
-      "topic-14-q1",
       "topic-14-q5",
-      "topic-14-q6"
-    ],
-    "C": [
-      "topic-14-q1",
       "topic-14-q4",
-      "topic-14-q2"
+      "topic-14-q6"
     ]
   },
   "topic-15": {
@@ -229,14 +185,9 @@ window.OPIC_COMBOS = {
       "topic-15-q3"
     ],
     "B": [
-      "topic-15-q1",
       "topic-15-q4",
-      "topic-15-q3"
-    ],
-    "C": [
-      "topic-15-q2",
       "topic-15-q5",
-      "topic-15-q7"
+      "topic-15-q6"
     ]
   },
   "topic-16": {
@@ -244,16 +195,6 @@ window.OPIC_COMBOS = {
       "topic-16-q1",
       "topic-16-q5",
       "topic-16-q3"
-    ],
-    "B": [
-      "topic-16-q1",
-      "topic-16-q2",
-      "topic-16-q4"
-    ],
-    "C": [
-      "topic-16-q1",
-      "topic-16-q3",
-      "topic-16-q4"
     ]
   },
   "topic-17": {
@@ -261,28 +202,18 @@ window.OPIC_COMBOS = {
       "topic-17-q1",
       "topic-17-q2",
       "topic-17-q3"
-    ],
-    "B": [
-      "topic-17-q2",
-      "topic-17-q4",
-      "topic-17-q3"
-    ],
-    "C": [
-      "topic-17-q1",
-      "topic-17-q4",
-      "topic-17-q3"
     ]
   },
   "topic-18": {
     "A": [
       "topic-18-q1",
-      "topic-18-q4",
-      "topic-18-q5"
-    ],
-    "B": [
-      "topic-18-q1",
       "topic-18-q3",
       "topic-18-q2"
+    ],
+    "B": [
+      "topic-18-q4",
+      "topic-18-q5",
+      "topic-18-q9"
     ],
     "C": [
       "topic-18-q6",
