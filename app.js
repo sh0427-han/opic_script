@@ -511,8 +511,13 @@
       elements.content.setAttribute("aria-labelledby", "combos-tab");
       elements.description.textContent =
         "기존 질문을 3문제씩 이어서 연습합니다. A세트부터 시작하세요.";
+      const setCount = shown.reduce((count, topic) =>
+        count + Object.keys(window.OPIC_COMBOS[topic.id]).length, 0);
+      const detailCount = isDetail
+        ? Object.keys(window.OPIC_COMBOS[state.topic]).length : 0;
       elements.resultSummary.textContent = isDetail
-        ? "3세트 · 각 3문제" : `${shown.length}개 주제 · 각 3세트`;
+        ? `${detailCount}세트 · 각 3문제`
+        : `${shown.length}개 주제 · ${setCount}개 세트`;
       elements.content.innerHTML = window.OPIC_COMBO_VIEW.render(state.topic);
       return;
     }
