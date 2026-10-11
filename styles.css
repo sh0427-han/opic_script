@@ -1528,3 +1528,82 @@ footer {
     min-width: 0;
   }
 }
+
+
+/* 콤보 세트 수가 주제별로 달라지는 경우 */
+.combo-set-tabs[data-set-count="1"] {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.combo-set-tabs[data-set-count="2"] {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.combo-remaining {
+  margin-top: 24px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--cream-50);
+}
+
+.combo-remaining > summary {
+  cursor: pointer;
+  color: var(--navy-900);
+  font-size: 0.99rem;
+  font-weight: 800;
+}
+
+.combo-remaining > summary small {
+  color: var(--ink-700);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.combo-extra-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.combo-extra-item {
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--white);
+}
+
+.combo-extra-item > summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.combo-extra-item > summary > span:nth-child(2) {
+  flex: 1 1 170px;
+}
+
+.combo-extra-item > summary small {
+  color: var(--teal-700);
+  font-size: 0.76rem;
+}
+
+.combo-extra-item .combo-answer {
+  margin-top: 13px;
+  padding: 14px;
+  border-radius: 8px;
+  background: #f6faf9;
+}
+
+@media (max-width: 620px) {
+  .combo-remaining {
+    padding: 12px;
+  }
+}
