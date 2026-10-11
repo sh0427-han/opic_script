@@ -14,8 +14,8 @@ window.OPIC_COMBOS = {
       "topic-1-q7"
     ],
     "C": [
-      "topic-1-q10",
-      "topic-1-q11",
+      "topic-1-q12",
+      "topic-1-q13",
       "topic-1-q3"
     ]
   },
