@@ -18,6 +18,18 @@
     C: "확장 콤보 · 비교와 변형",
   };
   const setOrder = ["A", "B", "C"];
+  const availableSets = (topic) => setOrder.filter(
+    (set) => Boolean(comboData[topic.id][set]),
+  );
+  const remainingQuestions = (topic) => {
+    const assigned = new Set(Object.values(comboData[topic.id]).flat());
+    return topic.questions.filter((question) => !assigned.has(question.id))
+      .sort((first, second) => {
+        const a = first.status === "필수" ? 0 : 1;
+        const b = second.status === "필수" ? 0 : 1;
+        return a - b;
+      });
+  };
 
   let currentTopicId = null;
   let currentSet = "A";
@@ -42,17 +54,19 @@
 
   const renderTopicCard = (topic) => {
     const required = topic.questions.filter((q) => q.status === "필수").length;
+    const count = availableSets(topic).length;
+    const remaining = remainingQuestions(topic).length;
     return [
       '<article class="combo-topic-card">',
       '<p class="combo-topic-category">',
       topic.source === "survey" ? "설문조사 기반" : "일반·돌발",
       "</p>",
       '<h3>', escapeHtml(topic.title), "</h3>",
-      '<p>', required, "개 필수 질문을 포함한 ", topic.questions.length,
-      "개 기존 질문 활용</p>",
+      '<p>기존 ', topic.questions.length, "개 질문 중 필수 ", required,
+      "개 · ", count, "세트 · 개별 질문 ", remaining, "개</p>",
       '<button type="button" class="combo-primary-button"',
       ' data-action="combo-open-topic" data-topic-id="',
-      escapeHtml(topic.id), '">3세트 연습하기 →</button>',
+      escapeHtml(topic.id), '">', count, '세트 연습하기 →</button>',
       "</article>",
     ].join("");
   };
@@ -78,8 +92,9 @@
       '<div class="combo-intro">',
       '<p class="combo-kicker">OPIc 3-QUESTION COMBO</p>',
       "<h2>3문제 콤보 연습</h2>",
-      '<p>주제마다 A·B·C 세트가 있으며, 각 세트의 3문제를 순서대로 연습합니다.',
-      ' 먼저 A세트로 익숙해진 다음 B·C세트로 확장하세요.</p>',
+      '<p>주제별 질문 수에 맞춰 1~3세트를 구성했습니다.',
+      ' 각 세트는 중복되지 않는 3개 질문으로 이루어집니다.',
+      ' A세트부터 연습하고, 세트에 없는 질문은 개별 질문에서 확인하세요.</p>',
       '<p class="combo-disclaimer">실제 기출 세트나 확정 출제 순서가 아닙니다.',
       " 질문과 완성 답변은 기존 스크립트를 그대로 사용합니다.</p>",
       "</div>",
@@ -92,8 +107,9 @@
   };
 
   const renderSetTabs = (topic) => [
-    '<div class="combo-set-tabs" role="group" aria-label="연습 세트 선택">',
-    setOrder.map((set) => {
+    '<div class="combo-set-tabs" role="group" aria-label="연습 세트 선택"',
+    ' data-set-count="', availableSets(topic).length, '">',
+    availableSets(topic).map((set) => {
       const first = questionById.get(comboData[topic.id][set][0]);
       return [
         '<button type="button" class="combo-set-tab',
@@ -169,13 +185,43 @@
     ].join("");
   };
 
+
+  const renderRemaining = (topic) => {
+    const remaining = remainingQuestions(topic);
+    if (!remaining.length) return "";
+    const required = remaining.filter((q) => q.status === "필수").length;
+    return [
+      '<details class="combo-remaining">',
+      '<summary>세트 외 개별 질문 ', remaining.length,
+      '개 <small>(필수 ', required, '개 포함)</small></summary>',
+      '<p class="combo-disclaimer">3문제 세트에 억지로 중복 배치하지 않은 질문입니다.',
+      ' 이곳에서 원래 질문과 답변을 그대로 연습할 수 있습니다.</p>',
+      '<div class="combo-extra-list">',
+      remaining.map((question) => [
+        '<details class="combo-extra-item">',
+        '<summary>',
+        '<span class="question-number">', escapeHtml(question.number), '</span>',
+        '<span>', escapeHtml(question.questionEn), '</span>',
+        '<small>', escapeHtml(question.status), '</small>',
+        '</summary>',
+        '<p class="question-translation" lang="ko">',
+        escapeHtml(question.question), '</p>',
+        '<p class="combo-answer" lang="en">',
+        escapeHtml(question.answer.join(" ")), '</p>',
+        '</details>',
+      ].join("")).join(""),
+      '</div></details>',
+    ].join("");
+  };
+
   const renderDetail = (topic) => {
     if (currentTopicId !== topic.id) reset(topic.id);
     const ids = comboData[topic.id][currentSet];
     const questions = ids.map((id) => questionById.get(id));
     const question = questions[currentQuestionIndex];
     const isLast = currentQuestionIndex === 2;
-    const nextSet = setOrder[setOrder.indexOf(currentSet) + 1];
+    const sets = availableSets(topic);
+    const nextSet = sets[sets.indexOf(currentSet) + 1];
     const nextLabel = !isLast ? "다음 문제 →"
       : nextSet ? "다음 Set " + nextSet + " →" : "Set A로 다시 시작 ↻";
     return [
@@ -186,7 +232,9 @@
       '<div class="combo-topic-heading">',
       '<p>', topic.source === "survey" ? "설문조사 기반" : "일반·돌발", "</p>",
       "<h2>", escapeHtml(topic.title), "</h2>",
-      '<span>3세트 · 총 9문제 위치 (일부 질문 재사용)</span>',
+      '<span>', sets.length, '세트 · ', sets.length * 3,
+      '개 중복 없는 콤보 질문 · 개별 질문 ', remainingQuestions(topic).length,
+      '개</span>',
       "</div>",
       renderSetTabs(topic),
       '<div class="combo-progress">',
@@ -203,6 +251,7 @@
       '<button type="button" class="combo-primary-button"',
       ' data-action="combo-next">', nextLabel, "</button>",
       "</div>",
+      renderRemaining(topic),
       '<p class="combo-disclaimer">문제가 바뀌면 답변과 힌트는 다시 가려집니다.',
       " 실전에서는 질문의 요구에 맞춰 표현을 조절하세요.</p>",
       "</section>",
@@ -217,7 +266,9 @@
 
   const handleClick = (button) => {
     const action = button.dataset.action;
-    if (action === "combo-set" && setOrder.includes(button.dataset.set)) {
+    if (action === "combo-set" && currentTopicId
+      && availableSets(topics.find((topic) => topic.id === currentTopicId))
+        .includes(button.dataset.set)) {
       currentSet = button.dataset.set;
       currentQuestionIndex = 0;
     } else if (action === "combo-step") {
@@ -230,7 +281,9 @@
       if (currentQuestionIndex < 2) {
         currentQuestionIndex += 1;
       } else {
-        currentSet = setOrder[setOrder.indexOf(currentSet) + 1] || "A";
+        const topic = topics.find((item) => item.id === currentTopicId);
+        const sets = availableSets(topic);
+        currentSet = sets[sets.indexOf(currentSet) + 1] || "A";
         currentQuestionIndex = 0;
       }
     } else if (action === "combo-toggle-answer") {
