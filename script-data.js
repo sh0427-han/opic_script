@@ -1,7 +1,7 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v42",
-  "updated": "2026-10-08",
+  "version": "v43",
+  "updated": "2026-10-13",
   "questionCount": 168,
   "survey": {
     "title": "시험 전 설문 선택",
@@ -2734,20 +2734,18 @@ window.OPIC_DATA = {
             "Hey, I'm really sorry, but I can't meet you today.",
             "I'm not feeling well, so I need to stay home and rest.",
             "Could we meet next weekend instead?",
-            "Or we could talk on the phone tonight.",
-            "Let me know what works for you.",
-            "I'm sorry again."
+            "Or could we talk on the phone tonight?",
+            "What do you think?"
           ],
-          "hint": "오늘 만날 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 이유 설명하기. → 첫 번째 대안으로 다음 주말에 만나자고 제안하기. → 두 번째 대안으로 오늘 밤 전화로 이야기하자고 제안하기. → 친구에게 어떤 방법이 좋은지 알려 달라고 하기. → 다시 한번 사과하며 마무리하기.",
+          "hint": "오늘 친구를 만날 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 대안으로 다음 주말에 만나자고 제안하기. → 두 번째 대안으로 오늘 밤 전화로 이야기하자고 제안하기. → 어떤 방법이 좋은지 친구에게 물으며 마무리하기.",
           "questionEn": "You are sick and cannot meet your friend today. Call your friend, explain the situation, and suggest two other plans.",
           "type": "문제 해결 역할극",
           "hintSteps": [
-            "오늘 만날 수 없다고 말하며 사과하기.",
-            "몸이 좋지 않아 집에서 쉬어야 한다고 이유 설명하기.",
+            "오늘 친구를 만날 수 없다고 말하며 사과하기.",
+            "몸이 좋지 않아 집에서 쉬어야 한다고 설명하기.",
             "첫 번째 대안으로 다음 주말에 만나자고 제안하기.",
             "두 번째 대안으로 오늘 밤 전화로 이야기하자고 제안하기.",
-            "친구에게 어떤 방법이 좋은지 알려 달라고 하기.",
-            "다시 한번 사과하며 마무리하기."
+            "어떤 방법이 좋은지 친구에게 물으며 마무리하기."
           ]
         },
         {
@@ -2831,21 +2829,19 @@ window.OPIC_DATA = {
           "answer": [
             "Hey, I'm really sorry, but I broke your MP3 player.",
             "I dropped it, and now it won't turn on.",
-            "I can take it to a repair shop and pay for the repair.",
-            "Or I can buy you a new one.",
-            "Let me know what works for you.",
-            "I'm sorry again."
+            "Could I take it to a repair shop and pay for the repair?",
+            "Or could I buy you a new one?",
+            "What do you think?"
           ],
-          "hint": "친구의 MP3 플레이어를 고장 냈다고 말하며 사과하기. → 떨어뜨린 뒤 전원이 켜지지 않는다고 설명하기. → 첫 번째 해결책으로 수리점에 가져가 수리비를 내겠다고 제안하기. → 두 번째 해결책으로 새 제품을 사주겠다고 제안하기. → 친구에게 어떤 방법이 좋은지 알려 달라고 하기. → 다시 한번 사과하며 마무리하기.",
+          "hint": "친구의 MP3 플레이어를 고장 냈다고 말하며 사과하기. → 떨어뜨린 뒤 전원이 켜지지 않는다고 설명하기. → 첫 번째 해결책으로 수리점에 가져가 수리비를 내겠다고 제안하기. → 두 번째 해결책으로 새 MP3 플레이어를 사주겠다고 제안하기. → 어떤 방법이 좋은지 친구에게 물으며 마무리하기.",
           "questionEn": "You accidentally broke an MP3 player you borrowed from a friend. Call your friend, explain what happened, and offer two solutions.",
           "type": "문제 해결 역할극",
           "hintSteps": [
             "친구의 MP3 플레이어를 고장 냈다고 말하며 사과하기.",
             "떨어뜨린 뒤 전원이 켜지지 않는다고 설명하기.",
             "첫 번째 해결책으로 수리점에 가져가 수리비를 내겠다고 제안하기.",
-            "두 번째 해결책으로 새 제품을 사주겠다고 제안하기.",
-            "친구에게 어떤 방법이 좋은지 알려 달라고 하기.",
-            "다시 한번 사과하며 마무리하기."
+            "두 번째 해결책으로 새 MP3 플레이어를 사주겠다고 제안하기.",
+            "어떤 방법이 좋은지 친구에게 물으며 마무리하기."
           ]
         },
         {
@@ -2907,11 +2903,10 @@ window.OPIC_DATA = {
             "Hey, I'm really sorry, but I can't go to the concert.",
             "I'm not feeling well, so I need to stay home and rest.",
             "Could you go with another friend instead?",
-            "Or we could ask for a refund.",
-            "Let me know what works for you.",
-            "I'm sorry again."
+            "Or could we ask for a refund?",
+            "What do you think?"
           ],
-          "hint": "콘서트에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 대안으로 다른 친구와 가는 것이 어떤지 제안하기. → 두 번째 대안으로 환불을 요청하자고 제안하기. → 친구에게 어떤 방법이 좋은지 알려 달라고 하기. → 다시 한번 사과하며 마무리하기.",
+          "hint": "콘서트에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 대안으로 다른 친구와 가는 것이 어떤지 제안하기. → 두 번째 대안으로 환불을 요청하자고 제안하기. → 어떤 방법이 좋은지 친구에게 물으며 마무리하기.",
           "questionEn": "You have concert plans with a friend, but you are too sick to go. Call your friend, explain the problem, and suggest two alternatives.",
           "type": "문제 해결 역할극",
           "hintSteps": [
@@ -2919,8 +2914,7 @@ window.OPIC_DATA = {
             "몸이 좋지 않아 집에서 쉬어야 한다고 설명하기.",
             "첫 번째 대안으로 다른 친구와 가는 것이 어떤지 제안하기.",
             "두 번째 대안으로 환불을 요청하자고 제안하기.",
-            "친구에게 어떤 방법이 좋은지 알려 달라고 하기.",
-            "다시 한번 사과하며 마무리하기."
+            "어떤 방법이 좋은지 친구에게 물으며 마무리하기."
           ]
         },
         {
@@ -2957,11 +2951,10 @@ window.OPIC_DATA = {
             "Hey, I'm really sorry, but I can't go to Busan this weekend.",
             "I'm not feeling well, so I need to stay home and rest.",
             "Could we go next weekend instead?",
-            "Or we could cancel the trip and ask for a refund.",
-            "Let me know what works for you.",
-            "I'm sorry again."
+            "Or could we cancel the trip and ask for a refund?",
+            "What do you think?"
           ],
-          "hint": "이번 주말에 부산에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 대안으로 다음 주말에 가자고 제안하기. → 두 번째 대안으로 여행을 취소하고 환불을 요청하자고 제안하기. → 친구에게 어떤 방법이 좋은지 알려 달라고 하기. → 다시 한번 사과하며 마무리하기.",
+          "hint": "이번 주말에 부산에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 대안으로 다음 주말에 가자고 제안하기. → 두 번째 대안으로 여행을 취소하고 환불을 요청하자고 제안하기. → 어떤 방법이 좋은지 친구에게 물으며 마무리하기.",
           "questionEn": "You cannot take a planned trip with your friend because you are sick. Call your friend and suggest two alternatives.",
           "type": "문제 해결 역할극",
           "hintSteps": [
@@ -2969,8 +2962,7 @@ window.OPIC_DATA = {
             "몸이 좋지 않아 집에서 쉬어야 한다고 설명하기.",
             "첫 번째 대안으로 다음 주말에 가자고 제안하기.",
             "두 번째 대안으로 여행을 취소하고 환불을 요청하자고 제안하기.",
-            "친구에게 어떤 방법이 좋은지 알려 달라고 하기.",
-            "다시 한번 사과하며 마무리하기."
+            "어떤 방법이 좋은지 친구에게 물으며 마무리하기."
           ]
         },
         {
@@ -2979,22 +2971,22 @@ window.OPIC_DATA = {
           "question": "여행 계획을 바꾼 경험을 말해 주세요. 무엇 때문에 바꾸었고, 대신 어떻게 했나요?",
           "status": "필수",
           "answer": [
-            "I remember one time I changed my trip to Busan.",
-            "I wanted to go to Haeundae Beach, but there was heavy rain.",
+            "I remember one time I had to change my trip to Busan.",
+            "I wanted to go to Haeundae Beach, but it rained a lot.",
             "So I changed my train ticket to the next weekend.",
             "Luckily, the weather was good that weekend.",
-            "I walked along the beach and took some pictures.",
+            "I took a walk along the beach and listened to slow music.",
             "So yeah, I had a really relaxing time."
           ],
-          "hint": "부산 여행 계획을 바꿨던 경험이 기억난다고 시작하기. → 해운대에 가고 싶었지만 비가 많이 왔다고 이유 설명하기. → 기차표를 다음 주말로 바꿨다고 말하기. → 다행히 그 주말에는 날씨가 좋았다고 설명하기. → 해변을 걷고 사진을 찍었다고 말하기. → 정말 편안한 시간을 보냈다고 마무리하기.",
+          "hint": "부산 여행 계획을 바꿔야 했던 경험으로 시작하기. → 해운대에 가고 싶었지만 비가 많이 왔다고 설명하기. → 그래서 기차표를 다음 주말로 바꿨다고 말하기. → 다행히 그 주말에는 날씨가 좋았다고 말하기. → 해변을 산책하고 잔잔한 음악을 들었다고 설명하기. → 정말 편안한 시간을 보냈다고 마무리하기.",
           "questionEn": "Tell me about a time you changed your travel plans. What caused the change, and what did you do instead?",
           "type": "문제 경험",
           "hintSteps": [
-            "부산 여행 계획을 바꿨던 경험이 기억난다고 시작하기.",
-            "해운대에 가고 싶었지만 비가 많이 왔다고 이유 설명하기.",
-            "기차표를 다음 주말로 바꿨다고 말하기.",
-            "다행히 그 주말에는 날씨가 좋았다고 설명하기.",
-            "해변을 걷고 사진을 찍었다고 말하기.",
+            "부산 여행 계획을 바꿔야 했던 경험으로 시작하기.",
+            "해운대에 가고 싶었지만 비가 많이 왔다고 설명하기.",
+            "그래서 기차표를 다음 주말로 바꿨다고 말하기.",
+            "다행히 그 주말에는 날씨가 좋았다고 말하기.",
+            "해변을 산책하고 잔잔한 음악을 들었다고 설명하기.",
             "정말 편안한 시간을 보냈다고 마무리하기."
           ]
         },
@@ -3028,21 +3020,19 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Hi, I have a problem with my apartment window.",
-            "It's broken, and I can't close it.",
-            "My room is really cold.",
+            "It won't close, so my room is really cold.",
             "Could someone come and fix it today?",
-            "If today isn't possible, could someone come tomorrow morning?",
+            "Or could you tell me what to do for now?",
             "Thank you for your help."
           ],
-          "hint": "아파트 창문에 문제가 있어 전화했다고 말하기. → 창문이 고장 나 닫을 수 없다고 설명하기. → 방이 매우 춥다고 불편한 점 말하기. → 첫 번째 방법으로 오늘 사람을 보내 고쳐 달라고 요청하기. → 오늘이 안 되면 두 번째 방법으로 내일 아침에 와 달라고 요청하기. → 도움에 감사하며 마무리하기.",
+          "hint": "아파트 창문에 문제가 있다고 말하기. → 창문이 닫히지 않아 방이 매우 춥다고 설명하기. → 첫 번째 해결책으로 오늘 수리하러 와줄 수 있는지 묻기. → 두 번째 해결책으로 당장 어떻게 해야 할지 알려 달라고 요청하기. → 도움에 감사하며 마무리하기.",
           "questionEn": "A window in your apartment is broken and will not close. Call the building office, explain the problem, and suggest two ways to get help.",
           "type": "문제 해결 역할극",
           "hintSteps": [
-            "아파트 창문에 문제가 있어 전화했다고 말하기.",
-            "창문이 고장 나 닫을 수 없다고 설명하기.",
-            "방이 매우 춥다고 불편한 점 말하기.",
-            "첫 번째 방법으로 오늘 사람을 보내 고쳐 달라고 요청하기.",
-            "오늘이 안 되면 두 번째 방법으로 내일 아침에 와 달라고 요청하기.",
+            "아파트 창문에 문제가 있다고 말하기.",
+            "창문이 닫히지 않아 방이 매우 춥다고 설명하기.",
+            "첫 번째 해결책으로 오늘 수리하러 와줄 수 있는지 묻기.",
+            "두 번째 해결책으로 당장 어떻게 해야 할지 알려 달라고 요청하기.",
             "도움에 감사하며 마무리하기."
           ]
         },
@@ -3194,10 +3184,9 @@ window.OPIC_DATA = {
             "I'm not feeling well, so I need to stay home and rest.",
             "Could I come on Saturday afternoon instead?",
             "Or could I come on Monday morning?",
-            "Let me know which time is okay.",
-            "I'm sorry again."
+            "Which time is available?"
           ],
-          "hint": "오늘 예약에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 새 예약 시간으로 토요일 오후를 제안하기. → 두 번째 새 예약 시간으로 월요일 오전을 제안하기. → 어떤 시간이 가능한지 알려 달라고 하기. → 다시 한번 사과하며 마무리하기.",
+          "hint": "오늘 예약에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 새 예약 시간으로 토요일 오후를 제안하기. → 두 번째 새 예약 시간으로 월요일 오전을 제안하기. → 두 시간 중 어느 때 예약이 가능한지 물으며 마무리하기.",
           "questionEn": "You are sick and cannot attend your salon appointment today. Call the salon, explain the situation, and suggest two new appointment times.",
           "type": "문제 해결 역할극",
           "variants": [
@@ -3213,8 +3202,7 @@ window.OPIC_DATA = {
             "몸이 좋지 않아 집에서 쉬어야 한다고 설명하기.",
             "첫 번째 새 예약 시간으로 토요일 오후를 제안하기.",
             "두 번째 새 예약 시간으로 월요일 오전을 제안하기.",
-            "어떤 시간이 가능한지 알려 달라고 하기.",
-            "다시 한번 사과하며 마무리하기."
+            "두 시간 중 어느 때 예약이 가능한지 물으며 마무리하기."
           ]
         },
         {
@@ -3342,20 +3330,22 @@ window.OPIC_DATA = {
           "question": "좋아하는 유명인과 이야기할 기회가 생겼다고 상상해 보세요. 팬이라고 소개하고 활동에 관한 질문 세 가지를 해보세요.",
           "status": "선택",
           "answer": [
-            "Hi, I'm a big fan, and it's really nice to meet you.",
-            "How did you start your career?",
-            "What do you like most about your work?",
-            "What do you want to do next?",
+            "Hi, I'm a big fan of your music.",
+            "I really like your songs.",
+            "When did you start singing?",
+            "What's your favorite song to sing?",
+            "Are you working on a new song?",
             "Thank you for your time."
           ],
-          "hint": "팬이라고 소개하고 만나서 반갑다고 말하기. → 활동을 어떻게 시작했는지 묻기. → 일에서 가장 좋아하는 부분 묻기. → 앞으로 무엇을 하고 싶은지 묻기. → 시간을 내줘서 고맙다고 마무리하기.",
+          "hint": "상대방의 음악을 좋아하는 팬이라고 소개하기. → 상대방의 노래를 정말 좋아한다고 말하기. → 언제 노래를 시작했는지 묻기. → 부르기 가장 좋아하는 노래가 무엇인지 묻기. → 새 노래를 준비하고 있는지 묻기. → 시간을 내줘서 고맙다고 마무리하기.",
           "questionEn": "Imagine you have a chance to speak with a celebrity you like. Introduce yourself as a fan and ask three questions about their work.",
           "type": "정보 문의",
           "hintSteps": [
-            "팬이라고 소개하고 만나서 반갑다고 말하기.",
-            "활동을 어떻게 시작했는지 묻기.",
-            "일에서 가장 좋아하는 부분 묻기.",
-            "앞으로 무엇을 하고 싶은지 묻기.",
+            "상대방의 음악을 좋아하는 팬이라고 소개하기.",
+            "상대방의 노래를 정말 좋아한다고 말하기.",
+            "언제 노래를 시작했는지 묻기.",
+            "부르기 가장 좋아하는 노래가 무엇인지 묻기.",
+            "새 노래를 준비하고 있는지 묻기.",
             "시간을 내줘서 고맙다고 마무리하기."
           ]
         },
@@ -3389,25 +3379,23 @@ window.OPIC_DATA = {
           "questionEn": "At your relative's home, you find the door locked and cannot locate the key. Phone the front desk of the hotel where your relative is staying. Leave a message describing your difficulty and asking your relative to contact you with instructions.",
           "question": "친척집에 도착했는데 문이 잠겨 있고 열쇠를 찾을 수 없습니다. 친척이 머무는 호텔의 프런트에 전화하세요. 집에 들어갈 수 없는 상황을 설명하고, 어떻게 해야 하는지 알려 달라며 친척에게 연락을 요청하는 메시지를 남겨 보세요.",
           "hintSteps": [
-            "호텔에 머무는 친척을 김 씨인 이모라고 소개하기.",
-            "이모에게 메시지를 전달해 줄 수 있는지 호텔 직원에게 묻기.",
-            "지금 이모 집 앞인데 문이 잠겨 있다고 설명하기.",
-            "열쇠를 찾을 수 없어 집에 들어갈 수 없다고 말하기.",
-            "이모가 전화해서 열쇠 위치를 알려 달라는 메시지를 전해 달라고 요청하기.",
-            "메시지를 받을 수 있도록 예시 이름 한과 예시 전화번호 010-1234-5678을 말하기.",
+            "김 씨인 이모가 그 호텔에 머무른다고 설명하기.",
+            "이모에게 메시지를 전달해 줄 수 있는지 묻기.",
+            "이모 집에 와 있지만 열쇠를 찾지 못해 들어갈 수 없다고 설명하기.",
+            "이모가 전화해서 열쇠 위치를 알려 달라는 메시지를 남기기.",
+            "연락받을 수 있도록 예시 이름과 예시 전화번호를 말하기.",
             "도움에 감사하며 마무리하기."
           ],
           "status": "필수",
           "answer": [
             "Hi, my aunt, Ms. Kim, is staying at your hotel.",
             "Could you give her a message?",
-            "I'm at her house, but the door is locked.",
-            "I can't find the key, so I can't get in.",
+            "I'm at her house, but I can't get in because I can't find the key.",
             "Please ask her to call me and tell me where the key is.",
             "My name is Han, and my number is 010-1234-5678.",
             "Thank you for your help."
           ],
-          "hint": "호텔에 머무는 친척을 김 씨인 이모라고 소개하기. → 이모에게 메시지를 전달해 줄 수 있는지 호텔 직원에게 묻기. → 지금 이모 집 앞인데 문이 잠겨 있다고 설명하기. → 열쇠를 찾을 수 없어 집에 들어갈 수 없다고 말하기. → 이모가 전화해서 열쇠 위치를 알려 달라는 메시지를 전해 달라고 요청하기. → 메시지를 받을 수 있도록 예시 이름 한과 예시 전화번호 010-1234-5678을 말하기. → 도움에 감사하며 마무리하기."
+          "hint": "김 씨인 이모가 그 호텔에 머무른다고 설명하기. → 이모에게 메시지를 전달해 줄 수 있는지 묻기. → 이모 집에 와 있지만 열쇠를 찾지 못해 들어갈 수 없다고 설명하기. → 이모가 전화해서 열쇠 위치를 알려 달라는 메시지를 남기기. → 연락받을 수 있도록 예시 이름과 예시 전화번호를 말하기. → 도움에 감사하며 마무리하기."
         },
         {
           "id": "topic-10-relative-rp3",
@@ -3466,8 +3454,8 @@ window.OPIC_DATA = {
           "hintSteps": [
             "어제 이 매장에서 휴대전화를 샀다고 말하기.",
             "사용해 보니 너무 커서 마음에 들지 않는다고 설명하기.",
-            "더 작은 모델로 교환할 수 있는지 요청하기.",
-            "영수증과 상자를 가져가야 하는지 절차 확인하기.",
+            "더 작은 휴대전화로 교환할 수 있는지 묻기.",
+            "교환할 때 무엇을 가져가야 하는지 묻기.",
             "오늘 오후에 방문해도 되는지 묻기.",
             "도움에 감사하며 마무리하기."
           ],
@@ -3475,12 +3463,12 @@ window.OPIC_DATA = {
           "answer": [
             "Hi, I bought a phone from your store yesterday.",
             "I tried it, but it's too big for me.",
-            "Could I exchange it for a smaller model?",
-            "Should I bring the receipt and the box?",
+            "Can I exchange it for a smaller one?",
+            "What should I bring?",
             "Can I come in this afternoon?",
-            "Thank you for your help."
+            "Thanks for your help."
           ],
-          "hint": "어제 이 매장에서 휴대전화를 샀다고 말하기. → 사용해 보니 너무 커서 마음에 들지 않는다고 설명하기. → 더 작은 모델로 교환할 수 있는지 요청하기. → 영수증과 상자를 가져가야 하는지 절차 확인하기. → 오늘 오후에 방문해도 되는지 묻기. → 도움에 감사하며 마무리하기."
+          "hint": "어제 이 매장에서 휴대전화를 샀다고 말하기. → 사용해 보니 너무 커서 마음에 들지 않는다고 설명하기. → 더 작은 휴대전화로 교환할 수 있는지 묻기. → 교환할 때 무엇을 가져가야 하는지 묻기. → 오늘 오후에 방문해도 되는지 묻기. → 도움에 감사하며 마무리하기."
         },
         {
           "id": "topic-10-phone-buy-rp3",
@@ -3514,21 +3502,23 @@ window.OPIC_DATA = {
           "questionEn": "You are interested in a bar that recently opened. A friend has already visited it. Phone your friend and ask three or four questions to help you plan your own visit.",
           "question": "최근 문을 연 술집에 가보고 싶습니다. 그곳에 이미 가본 친구에게 전화해서 방문을 계획하는 데 도움이 되는 질문 서너 가지를 해보세요.",
           "hintSteps": [
-            "친구가 가본 새 술집에 가보고 싶다고 말하기.",
-            "술집 위치 묻기.",
-            "분위기가 어떤지 묻기.",
-            "괜찮은 음식이 있는지 묻기.",
+            "친구가 새로 생긴 펍에 다녀왔다고 들었다며 시작하기.",
+            "펍이 어디 있는지 묻기.",
+            "보통 조용한 곳인지 묻기.",
+            "맛있는 음식이 있는지 묻기.",
+            "몇 시에 문을 닫는지 묻기.",
             "정보를 알려 준 친구에게 감사하며 마무리하기."
           ],
           "status": "필수",
           "answer": [
-            "Hey, I want to visit the new pub you went to.",
+            "Hey, I heard you went to the new pub.",
             "Where is it?",
-            "What's the atmosphere like?",
-            "Do they have any good food?",
+            "Is it usually quiet?",
+            "Do they have good food?",
+            "What time does it close?",
             "Thanks for your help."
           ],
-          "hint": "친구가 가본 새 술집에 가보고 싶다고 말하기. → 술집 위치 묻기. → 분위기가 어떤지 묻기. → 괜찮은 음식이 있는지 묻기. → 정보를 알려 준 친구에게 감사하며 마무리하기."
+          "hint": "친구가 새로 생긴 펍에 다녀왔다고 들었다며 시작하기. → 펍이 어디 있는지 묻기. → 보통 조용한 곳인지 묻기. → 맛있는 음식이 있는지 묻기. → 몇 시에 문을 닫는지 묻기. → 정보를 알려 준 친구에게 감사하며 마무리하기."
         },
         {
           "id": "topic-10-pub-rp2",
@@ -3537,23 +3527,21 @@ window.OPIC_DATA = {
           "questionEn": "You arranged to meet a friend at the new bar, but you are feeling too ill to go. Phone your friend to explain, apologize for the change, and suggest two other plans.",
           "question": "새 술집에서 친구를 만나기로 했지만 몸이 아파 갈 수 없습니다. 친구에게 전화해서 상황을 설명하고 약속을 바꾸게 된 것에 대해 사과한 뒤, 다른 계획 두 가지를 제안해 보세요.",
           "hintSteps": [
-            "오늘 술집에 갈 수 없다고 말하며 사과하기.",
+            "오늘 펍에 갈 수 없다고 말하며 사과하기.",
             "몸이 좋지 않아 집에서 쉬어야 한다고 설명하기.",
             "첫 번째 대안으로 다음 주말에 함께 가자고 제안하기.",
-            "두 번째 대안으로 오늘 다른 친구와 가는 것이 어떤지 제안하기.",
-            "친구에게 어떤 방법이 좋은지 알려 달라고 하기.",
-            "다시 한번 사과하며 마무리하기."
+            "두 번째 대안으로 오늘은 다른 친구와 가는 것이 어떤지 제안하기.",
+            "어떤 방법이 좋은지 친구에게 물으며 마무리하기."
           ],
           "status": "필수",
           "answer": [
             "Hey, I'm really sorry, but I can't go to the pub today.",
             "I'm not feeling well, so I need to stay home and rest.",
             "Could we go next weekend instead?",
-            "Or you could go with another friend today.",
-            "Let me know what works for you.",
-            "I'm sorry again."
+            "Or could you go with another friend today?",
+            "What do you think?"
           ],
-          "hint": "오늘 술집에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 대안으로 다음 주말에 함께 가자고 제안하기. → 두 번째 대안으로 오늘 다른 친구와 가는 것이 어떤지 제안하기. → 친구에게 어떤 방법이 좋은지 알려 달라고 하기. → 다시 한번 사과하며 마무리하기."
+          "hint": "오늘 펍에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 대안으로 다음 주말에 함께 가자고 제안하기. → 두 번째 대안으로 오늘은 다른 친구와 가는 것이 어떤지 제안하기. → 어떤 방법이 좋은지 친구에게 물으며 마무리하기."
         },
         {
           "id": "topic-10-pub-rp3",
