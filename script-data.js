@@ -5656,8 +5656,8 @@ window.OPIC_DATA = {
             "role": "문제 해결 역할극"
           },
           {
-            "en": "Let me know what works for you.",
-            "ko": "어떤 방법이 좋은지 알려줘.",
+            "en": "What do you think?",
+            "ko": "어떻게 생각해?",
             "source": "topic-10-rp3",
             "role": "문제 해결 역할극"
           }
