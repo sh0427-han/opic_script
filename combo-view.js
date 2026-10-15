@@ -62,6 +62,10 @@
       : "";
   };
 
+  const revisedTypeHtml = (question) =>
+    question.levelAdjusted && question.scriptOrigin !== "user"
+      ? '<span class="revision-label">맞춤 수정됨</span>' : "";
+
   const frequencyText = (topic) => topic.source === "unexpected"
     ? unexpectedTopics[topic.id]?.sampleLabel || "" : "";
 
@@ -161,6 +165,7 @@
       '><span>', index + 1, "</span>",
       '<small>', escapeHtml(question.type),
       advancedQuestions[question.id] ? ` · ${advancedQuestions[question.id]}번 유형` : "",
+      question.levelAdjusted ? " · 맞춤 수정됨" : "",
       "</small></button>",
     ].join("")).join(""),
     "</nav>",
@@ -169,7 +174,7 @@
   const renderCurrentQuestion = (question) => {
     const answer = answerVisible ? [
       '<section class="combo-reveal" aria-label="영어 답변">',
-      "<h4>기존 완성 답변 · ", question.answer.length, "문장</h4>",
+      "<h4>완성 답변 · ", question.answer.length, "문장</h4>",
       '<p class="combo-answer" lang="en">',
       escapeHtml(question.answer.join(" ")), "</p>",
       '<button type="button" class="text-button" data-action="copy"',
@@ -194,6 +199,7 @@
       '<span class="question-number">', escapeHtml(question.number), "</span>",
       '<span class="question-type">', escapeHtml(question.type), "</span>",
       advancedTypeHtml(question),
+      revisedTypeHtml(question),
       '<span class="badge badge--',
       question.status === "필수" ? "required" : "optional", '">',
       escapeHtml(question.status), "</span>",
@@ -233,6 +239,7 @@
         '<span>', escapeHtml(question.questionEn), '</span>',
         '<small>', escapeHtml(question.status), '</small>',
         advancedTypeHtml(question),
+        revisedTypeHtml(question),
         '</summary>',
         '<p class="question-translation" lang="ko">',
         escapeHtml(question.question), '</p>',
