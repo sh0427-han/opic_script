@@ -4,11 +4,22 @@
   // 원본 질문과 답변을 변경하지 않고 세트별 연습 화면만 구성합니다.
   const data = window.OPIC_DATA;
   const comboData = window.OPIC_COMBOS;
+  const studyMeta = window.OPIC_STUDY_META || {};
+  const advancedQuestions = studyMeta.advancedQuestions || {};
+  const unexpectedTopics = studyMeta.unexpectedTopics || {};
   if (!data || !comboData) {
     throw new Error("Combo practice data was not loaded.");
   }
 
-  const topics = data.topics.filter((topic) => comboData[topic.id]);
+  const topics = data.topics.filter((topic) => comboData[topic.id])
+    .sort((first, second) => {
+      if (first.source !== second.source) return first.order - second.order;
+      if (first.source === "unexpected") {
+        return (unexpectedTopics[first.id]?.priority ?? 99)
+          - (unexpectedTopics[second.id]?.priority ?? 99);
+      }
+      return first.order - second.order;
+    });
   const questionById = new Map(
     topics.flatMap((topic) => topic.questions.map((q) => [q.id, q])),
   );
@@ -44,6 +55,16 @@
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 
+  const advancedTypeHtml = (question) => {
+    const type = advancedQuestions[question.id];
+    return type === "14" || type === "15"
+      ? `<span class="advanced-tag advanced-tag--${type}">${type}번 유형</span>`
+      : "";
+  };
+
+  const frequencyText = (topic) => topic.source === "unexpected"
+    ? unexpectedTopics[topic.id]?.sampleLabel || "" : "";
+
   const reset = (topicId) => {
     currentTopicId = topicId;
     currentSet = "A";
@@ -59,7 +80,8 @@
     return [
       '<article class="combo-topic-card">',
       '<p class="combo-topic-category">',
-      topic.source === "survey" ? "설문조사 기반" : "일반·돌발",
+      topic.source === "survey" ? "설문조사 기반"
+        : `일반·돌발 · ${escapeHtml(frequencyText(topic))}`,
       "</p>",
       '<h3>', escapeHtml(topic.title), "</h3>",
       '<p>기존 ', topic.questions.length, "개 질문 중 필수 ", required,
@@ -80,8 +102,12 @@
       return [
         '<section class="combo-category">',
         "<h3>", source === "survey"
-          ? "설문조사 기반 · 먼저 연습" : "일반·돌발 · 후순위 연습",
+          ? "설문조사 기반 · 먼저 연습" : "일반·돌발 · 표본 빈도순",
         "</h3>",
+        source === "unexpected" && studyMeta.frequencySource
+          ? `<p class="frequency-note">${escapeHtml(studyMeta.frequencyNote)}
+            <a href="${escapeHtml(studyMeta.frequencySource)}" target="_blank"
+              rel="noopener noreferrer">표본 집계 출처</a></p>` : "",
         '<div class="combo-topic-grid">',
         group.map(renderTopicCard).join(""),
         "</div></section>",
@@ -133,7 +159,9 @@
       '" data-action="combo-step" data-index="', index,
       '"', index === currentQuestionIndex ? ' aria-current="step"' : '',
       '><span>', index + 1, "</span>",
-      '<small>', escapeHtml(question.type), "</small></button>",
+      '<small>', escapeHtml(question.type),
+      advancedQuestions[question.id] ? ` · ${advancedQuestions[question.id]}번 유형` : "",
+      "</small></button>",
     ].join("")).join(""),
     "</nav>",
   ].join("");
@@ -165,6 +193,7 @@
       '<div class="combo-question-meta">',
       '<span class="question-number">', escapeHtml(question.number), "</span>",
       '<span class="question-type">', escapeHtml(question.type), "</span>",
+      advancedTypeHtml(question),
       '<span class="badge badge--',
       question.status === "필수" ? "required" : "optional", '">',
       escapeHtml(question.status), "</span>",
@@ -203,6 +232,7 @@
         '<span class="question-number">', escapeHtml(question.number), '</span>',
         '<span>', escapeHtml(question.questionEn), '</span>',
         '<small>', escapeHtml(question.status), '</small>',
+        advancedTypeHtml(question),
         '</summary>',
         '<p class="question-translation" lang="ko">',
         escapeHtml(question.question), '</p>',
@@ -230,7 +260,8 @@
       ' data-category="', escapeHtml(topic.source),
       '">← 주제 목록으로</button>',
       '<div class="combo-topic-heading">',
-      '<p>', topic.source === "survey" ? "설문조사 기반" : "일반·돌발", "</p>",
+      '<p>', topic.source === "survey" ? "설문조사 기반"
+        : `일반·돌발 · ${escapeHtml(frequencyText(topic))}`, "</p>",
       "<h2>", escapeHtml(topic.title), "</h2>",
       '<span>', sets.length, '세트 · ', sets.length * 3,
       '개 중복 없는 콤보 질문 · 개별 질문 ', remainingQuestions(topic).length,
