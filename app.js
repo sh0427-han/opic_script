@@ -222,6 +222,9 @@
           <span class="origin-label ${question.scriptOrigin === "user"
     ? "origin-label--user" : "origin-label--original"}">${question.scriptOrigin === "user"
     ? "직접 작성" : question.questionOnly ? "추가 연습 문항" : "기존 스크립트"}</span>
+          ${question.levelAdjusted && question.scriptOrigin !== "user"
+    ? '<span class="revision-label" title="말하기 수준에 맞춰 답변과 한국어 힌트를 수정함">맞춤 수정됨</span>'
+    : ""}
         </p>
         <h3 class="question-title" lang="en">${escapeHtml(question.questionEn)}</h3>
         <p class="question-translation" lang="ko">${escapeHtml(question.question)}</p>
