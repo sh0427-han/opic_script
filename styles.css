@@ -419,6 +419,36 @@ button {
   font-weight: 800;
 }
 
+.advanced-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid #cdd8e4;
+  border-radius: 999px;
+  background: #eef3f8;
+  color: #34536e;
+  font-size: 0.76rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.advanced-tag--15 {
+  border-color: #bddbd0;
+  background: #edf7f1;
+  color: #245849;
+}
+
+.frequency-note {
+  margin: 8px 0 14px;
+  color: var(--ink-700);
+  font-size: 0.81rem;
+  line-height: 1.65;
+}
+
+.frequency-note a {
+  color: var(--navy-700);
+  text-decoration: underline;
+}
+
 .sentence-count {
   color: #5b6661;
 }
