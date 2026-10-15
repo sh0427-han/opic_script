@@ -82,5 +82,5 @@ window.OPIC_STUDY_META = {
     }
   },
   "frequencySource": "https://mansour.tistory.com/entry/%EC%98%A4%ED%94%BD-%ED%86%B5%EA%B3%84-%EC%9E%90%EC%A3%BC-%EB%82%98%EC%98%A4%EB%8A%94-%EC%A3%BC%EC%A0%9C-5-6",
-  "frequencyNote": "5-5·6-6 응답 50명, 일반 주제 시험 사례 33회에서 보고된 횟수. 2024~2025 공개 집계이며 2026 공식 출제 확률이 아닙니다."
+  "frequencyNote": "5-5·6-6 응답 50명, 일반 주제 시험 사례 33회 기준. 게시글 제목은 2025-03-11 기준, 본문 최종 업데이트 표기는 2024-09-04입니다. 2026 공식 출제 통계나 실제 출제 확률은 아닙니다."
 };
