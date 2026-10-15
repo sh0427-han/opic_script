@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v46",
+  "version": "v47",
   "updated": "2026-10-15",
   "questionCount": 168,
   "survey": {
@@ -349,7 +349,9 @@ window.OPIC_DATA = {
             "작은 집은 청소가 쉽고 비용도 적게 든다고 설명하기.",
             "상점과 지하철역 근처에 살기를 원한다고 말하기.",
             "가격과 위치가 모두 중요하다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-1-q11",
@@ -374,7 +376,9 @@ window.OPIC_DATA = {
             "하지만 그런 지역의 집은 보통 비싸다고 설명하기.",
             "저렴한 집은 직장에서 너무 멀 수 있다고 말하기.",
             "그래서 가격과 위치를 모두 생각해야 한다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-1-q12",
@@ -447,7 +451,9 @@ window.OPIC_DATA = {
             "가족과 친구들이 생일 축하 노래를 불러 줬다고 설명하기.",
             "정말 놀라서 거의 울 뻔했다고 말하기.",
             "가족과 친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-1-q15",
@@ -472,7 +478,9 @@ window.OPIC_DATA = {
             "어느 날 주방 조명이 고장 났다고 예를 들기.",
             "관리사무소에 연락하자 다음 날 고쳐 주었다고 말하기.",
             "나에게는 도움을 요청하는 편이 더 쉽다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         }
       ],
       "scriptGroups": [
@@ -664,7 +672,9 @@ window.OPIC_DATA = {
             "지금은 혼자 집에서 쉬는 것을 더 좋아한다고 비교하기.",
             "늦잠을 자고 간단히 요리하고 소파에서 쉰다고 설명하기.",
             "지금은 조용한 휴가가 더 좋다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-2-q6",
@@ -1006,7 +1016,9 @@ window.OPIC_DATA = {
             "많은 카페에 와이파이와 편안한 의자가 있다고 말하기.",
             "나처럼 혼자 앉아 쉬는 사람도 있다고 설명하기.",
             "지금은 카페를 다양한 용도로 이용한다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-3-q8",
@@ -1031,7 +1043,9 @@ window.OPIC_DATA = {
             "와이파이와 좋은 좌석도 있다고 덧붙이기.",
             "나는 음악을 듣거나 휴대폰을 확인한다고 설명하기.",
             "그래서 나도 카페를 좋아한다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-3-q9",
@@ -1491,7 +1505,9 @@ window.OPIC_DATA = {
             "지금은 공원에서 짧게 산책한다고 비교하기.",
             "벤치를 찾아 잔잔한 음악을 듣는다고 설명하기.",
             "공원을 즐기는 방식이 달라졌다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-5-q8",
@@ -1516,7 +1532,9 @@ window.OPIC_DATA = {
             "두 번째 공원은 더 작고 조용하다고 비교하기.",
             "산책로와 벤치가 있다고 설명하기.",
             "그곳에서 쉴 수 있어 두 번째 공원이 좋다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-5-q9",
@@ -1541,7 +1559,9 @@ window.OPIC_DATA = {
             "조용한 곳을 좋아해서 불편하다고 설명하기.",
             "그럴 때 집 근처 작은 공원에 간다고 말하기.",
             "그곳에서 조용히 앉아 쉴 수 있다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         }
       ],
       "scriptGroups": [
@@ -1670,7 +1690,9 @@ window.OPIC_DATA = {
             "벤치를 찾아 바다 풍경을 감상했다고 설명하기.",
             "편안한 기분이 들어 잔잔한 음악을 들었다고 말하기.",
             "마지막 바닷가 여행에서 한 일을 정리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-6-q4",
@@ -1695,7 +1717,9 @@ window.OPIC_DATA = {
             "휴대폰에서 가는 길을 확인한다고 설명하기.",
             "짐을 많이 들고 싶지 않아 작은 가방을 가져간다고 말하기.",
             "해변에 갈 준비를 이렇게 한다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-6-q5",
@@ -1720,7 +1744,9 @@ window.OPIC_DATA = {
             "친구들이 생일 축하 노래를 불러 줬다고 설명하기.",
             "정말 놀라서 거의 울 뻔했다고 말하기.",
             "친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-6-q6",
@@ -1770,7 +1796,9 @@ window.OPIC_DATA = {
             "요즘은 보통 혼자 바닷가에 간다고 비교하기.",
             "짧게 산책하고 벤치에 앉아 음악을 듣는다고 설명하기.",
             "지금은 조용한 바닷가 여행이 좋다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         }
       ],
       "scriptGroups": [
@@ -2020,7 +2048,9 @@ window.OPIC_DATA = {
             "인기 장소는 매우 붐빌 수도 있다고 말하기.",
             "그래서 가격을 확인하고 일찍 예약한다고 설명하기.",
             "그러면 여행 계획이 조금 더 쉬워진다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-7-q9",
@@ -2045,7 +2075,9 @@ window.OPIC_DATA = {
             "휴가를 기다리는 데만 쓰고 싶지는 않다고 설명하기.",
             "그래서 먼저 가격을 확인하는 것이 좋다고 말하기.",
             "티켓을 일찍 예약하는 것도 도움이 된다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-7-q10",
@@ -2094,7 +2126,9 @@ window.OPIC_DATA = {
             "해변이 가까워 쉽게 산책할 수 있다고 설명하기.",
             "바쁜 하루 뒤에는 객실에서 앉아 쉰다고 말하기.",
             "단순하고 조용한 호텔이 나에게 좋다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         }
       ],
       "scriptGroups": [
@@ -2384,7 +2418,9 @@ window.OPIC_DATA = {
             "이어폰 연결이 끊긴 것을 발견했다고 설명하기.",
             "다시 연결하자 다행히 음악이 들렸다고 말하기.",
             "결국 모든 일이 잘 해결됐다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         }
       ],
       "scriptGroups": [
@@ -2458,7 +2494,9 @@ window.OPIC_DATA = {
             "관객들이 무대 앞에 앉거나 서 있다고 설명하기.",
             "함께 노래하면 분위기가 정말 좋다고 말하기.",
             "콘서트에서 라이브 음악을 듣는 것을 좋아한다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-9-q2",
@@ -2483,7 +2521,9 @@ window.OPIC_DATA = {
             "가끔 따라 부르거나 박수를 친다고 설명하기.",
             "휴대폰으로 사진도 몇 장 찍는다고 말하기.",
             "공연 뒤에 나와 집에 간다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-9-q3",
@@ -2508,7 +2548,9 @@ window.OPIC_DATA = {
             "음악이 시작되자 가수를 보고 집중해서 들었다고 설명하기.",
             "좋아하는 노래를 따라 부르고 사진도 찍었다고 말하기.",
             "정말 좋은 시간을 보냈다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-9-q4",
@@ -2533,7 +2575,9 @@ window.OPIC_DATA = {
             "친구들이 생일 축하 노래를 불러 줬다고 설명하기.",
             "정말 놀라서 거의 울 뻔했다고 말하기.",
             "친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-9-q5",
@@ -2558,7 +2602,9 @@ window.OPIC_DATA = {
             "공연장까지 가는 길을 확인한다고 설명하기.",
             "작은 가방을 챙기고 일찍 출발한다고 말하기.",
             "이렇게 공연을 준비한다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-9-q6",
@@ -2583,7 +2629,9 @@ window.OPIC_DATA = {
             "지금은 사진을 몇 장만 찍는다고 비교하기.",
             "음악을 듣고 공연을 즐긴다고 설명하기.",
             "지금이 콘서트를 더 재미있게 즐기는 것 같다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-9-q7",
@@ -2608,7 +2656,9 @@ window.OPIC_DATA = {
             "아는 노래를 따라 불렀다고 설명하기.",
             "첫 라이브 콘서트라 정말 신났다고 말하기.",
             "그날이 아직 기억난다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-9-q8",
@@ -2633,7 +2683,9 @@ window.OPIC_DATA = {
             "직원에게 문제를 설명했다고 말하기.",
             "다행히 정확한 날짜로 변경해 주었다고 설명하기.",
             "결국 잘 해결됐다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         }
       ],
       "scriptGroups": [
@@ -2832,21 +2884,23 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "Hey, I'm really sorry, but I broke your MP3 player.",
-            "I dropped it, and now it won't turn on.",
-            "Could I take it to a repair shop and pay for the repair?",
-            "Or could I buy you a new one?",
+            "I accidentally dropped it, and now it won't turn on.",
+            "Could I take it to a repair shop and pay for it?",
+            "Or could I buy you a new one instead?",
             "What do you think?"
           ],
-          "hint": "친구의 MP3 플레이어를 고장 냈다고 말하며 사과하기. → 떨어뜨린 뒤 전원이 켜지지 않는다고 설명하기. → 첫 번째 해결책으로 수리점에 가져가 수리비를 내겠다고 제안하기. → 두 번째 해결책으로 새 MP3 플레이어를 사주겠다고 제안하기. → 어떤 방법이 좋은지 친구에게 물으며 마무리하기.",
+          "hint": "빌린 MP3 플레이어를 망가뜨려 미안하다고 말하기. → 실수로 떨어뜨린 뒤 전원이 켜지지 않는다고 설명하기. → 수리점에 가져가 수리비를 내도 되는지 첫 번째 대안 제시하기. → 아니면 새것을 사 줘도 되는지 두 번째 대안 제시하기. → 상대방의 생각을 물으며 마무리하기.",
           "questionEn": "You accidentally broke an MP3 player you borrowed from a friend. Call your friend, explain what happened, and offer two solutions.",
           "type": "문제 해결 역할극",
           "hintSteps": [
-            "친구의 MP3 플레이어를 고장 냈다고 말하며 사과하기.",
-            "떨어뜨린 뒤 전원이 켜지지 않는다고 설명하기.",
-            "첫 번째 해결책으로 수리점에 가져가 수리비를 내겠다고 제안하기.",
-            "두 번째 해결책으로 새 MP3 플레이어를 사주겠다고 제안하기.",
-            "어떤 방법이 좋은지 친구에게 물으며 마무리하기."
-          ]
+            "빌린 MP3 플레이어를 망가뜨려 미안하다고 말하기.",
+            "실수로 떨어뜨린 뒤 전원이 켜지지 않는다고 설명하기.",
+            "수리점에 가져가 수리비를 내도 되는지 첫 번째 대안 제시하기.",
+            "아니면 새것을 사 줘도 되는지 두 번째 대안 제시하기.",
+            "상대방의 생각을 물으며 마무리하기."
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-10-mp3-rp3",
@@ -2871,7 +2925,9 @@ window.OPIC_DATA = {
             "다시 켜려고 했지만 안 됐다고 설명하기.",
             "전원 버튼을 몇 번 누르자 다행히 켜졌다고 말하기.",
             "모든 일이 잘 해결됐다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-10-concert-rp1",
@@ -2919,7 +2975,9 @@ window.OPIC_DATA = {
             "티켓 날짜를 다른 날로 바꿀 수 있는지 제안하기.",
             "아니면 다른 친구와 대신 갈 수 있는지 제안하기.",
             "상대방의 생각을 묻고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-10-travel-rp1",
@@ -2975,24 +3033,26 @@ window.OPIC_DATA = {
           "question": "여행 계획을 바꾼 경험을 말해 주세요. 무엇 때문에 바꾸었고, 대신 어떻게 했나요?",
           "status": "필수",
           "answer": [
-            "I remember one time I had to change my trip to Busan.",
-            "I wanted to go to Haeundae Beach, but it rained a lot.",
+            "Well, I remember one time I had to change my trip to Busan.",
+            "I wanted to visit Haeundae Beach, but it rained a lot.",
             "So I changed my train ticket to the next weekend.",
-            "Luckily, the weather was good that weekend.",
-            "I took a walk along the beach and listened to slow music.",
-            "So yeah, I had a really relaxing time."
+            "Luckily, the weather was nice the next weekend.",
+            "I took a walk along the beach and listened to music.",
+            "So yeah, I had a really relaxing trip."
           ],
-          "hint": "부산 여행 계획을 바꿔야 했던 경험으로 시작하기. → 해운대에 가고 싶었지만 비가 많이 왔다고 설명하기. → 그래서 기차표를 다음 주말로 바꿨다고 말하기. → 다행히 그 주말에는 날씨가 좋았다고 말하기. → 해변을 산책하고 잔잔한 음악을 들었다고 설명하기. → 정말 편안한 시간을 보냈다고 마무리하기.",
+          "hint": "부산 여행 계획을 바꾼 경험을 떠올린다고 말하기. → 해운대에 가려 했지만 비가 많이 왔다고 설명하기. → 기차표를 다음 주말로 변경했다고 말하기. → 다행히 다음 주말에는 날씨가 좋았다고 설명하기. → 해변을 걸으며 음악을 들었다고 말하기. → 정말 편안한 여행이었다고 마무리하기.",
           "questionEn": "Tell me about a time you changed your travel plans. What caused the change, and what did you do instead?",
           "type": "문제 경험",
           "hintSteps": [
-            "부산 여행 계획을 바꿔야 했던 경험으로 시작하기.",
-            "해운대에 가고 싶었지만 비가 많이 왔다고 설명하기.",
-            "그래서 기차표를 다음 주말로 바꿨다고 말하기.",
-            "다행히 그 주말에는 날씨가 좋았다고 말하기.",
-            "해변을 산책하고 잔잔한 음악을 들었다고 설명하기.",
-            "정말 편안한 시간을 보냈다고 마무리하기."
-          ]
+            "부산 여행 계획을 바꾼 경험을 떠올린다고 말하기.",
+            "해운대에 가려 했지만 비가 많이 왔다고 설명하기.",
+            "기차표를 다음 주말로 변경했다고 말하기.",
+            "다행히 다음 주말에는 날씨가 좋았다고 설명하기.",
+            "해변을 걸으며 음악을 들었다고 말하기.",
+            "정말 편안한 여행이었다고 마무리하기."
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-10-house-rp1",
@@ -3040,7 +3100,9 @@ window.OPIC_DATA = {
             "대신 내일 아침에 올 수 있는지 다른 대안 제시하기.",
             "가능한 시간을 알려 달라고 요청하기.",
             "도움에 감사하며 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-10-house-rp3",
@@ -3401,7 +3463,9 @@ window.OPIC_DATA = {
             "My name is Han, and she has my phone number.",
             "Thank you for your help."
           ],
-          "hint": "이모가 호텔에 투숙 중이라고 말하기. → 이모에게 메시지를 전해 줄 수 있는지 물어보기. → 집 열쇠를 찾지 못해 들어갈 수 없다고 설명하기. → 열쇠가 어디 있는지 전화로 알려 달라고 요청하기. → 이름을 알려 주고 이모가 내 전화번호를 알고 있다고 말하기. → 감사 인사로 마무리하기."
+          "hint": "이모가 호텔에 투숙 중이라고 말하기. → 이모에게 메시지를 전해 줄 수 있는지 물어보기. → 집 열쇠를 찾지 못해 들어갈 수 없다고 설명하기. → 열쇠가 어디 있는지 전화로 알려 달라고 요청하기. → 이름을 알려 주고 이모가 내 전화번호를 알고 있다고 말하기. → 감사 인사로 마무리하기.",
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-10-relative-rp3",
@@ -3483,23 +3547,25 @@ window.OPIC_DATA = {
           "questionEn": "Recall a time when a new product you bought did not meet your expectations. Describe the product, why you were disappointed, and what you did about it. How did things turn out?",
           "question": "새로 구입한 제품이 기대에 미치지 못했던 경험을 말해 주세요. 어떤 제품이었는지, 왜 실망했는지, 어떻게 대처했는지 설명해 주세요. 결과는 어땠나요?",
           "hintSteps": [
-            "새 휴대전화를 샀다가 실망했던 경험이 기억난다고 시작하기.",
-            "카메라가 좋아 보여서 샀다고 구매 당시 기대 설명하기.",
-            "실제로 써 보니 크기가 너무 컸다고 실망한 점 말하기.",
-            "매장에 전화해 더 작은 모델을 요청했다고 설명하기.",
-            "영수증을 들고 방문했고 교환해 주었다고 결과 말하기.",
-            "교환한 새 제품이 마음에 들었다고 마무리하기."
+            "새 휴대폰을 구매한 뒤 생긴 문제를 떠올린다고 말하기.",
+            "카메라가 마음에 들어 샀다고 설명하기.",
+            "그런데 휴대폰이 나에게 너무 컸다고 말하기.",
+            "가게에 전화해 문제를 이야기했다고 설명하기.",
+            "더 작은 휴대폰으로 교환해 줘서 만족했다고 말하기.",
+            "결국 잘 해결됐다고 마무리하기."
           ],
           "status": "필수",
           "answer": [
             "I remember one problem I had with a new phone.",
-            "I bought it because the camera looked really good.",
-            "But when I used it, it was too big for me.",
-            "So I called the store and asked for a smaller model.",
-            "I went there with the receipt, and they exchanged it.",
-            "So yeah, I was happy with the new one."
+            "I bought it because I liked the camera.",
+            "But the phone was too big for me.",
+            "So I called the store and told them about the problem.",
+            "They exchanged it for a smaller phone, and I was happy.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "새 휴대전화를 샀다가 실망했던 경험이 기억난다고 시작하기. → 카메라가 좋아 보여서 샀다고 구매 당시 기대 설명하기. → 실제로 써 보니 크기가 너무 컸다고 실망한 점 말하기. → 매장에 전화해 더 작은 모델을 요청했다고 설명하기. → 영수증을 들고 방문했고 교환해 주었다고 결과 말하기. → 교환한 새 제품이 마음에 들었다고 마무리하기."
+          "hint": "새 휴대폰을 구매한 뒤 생긴 문제를 떠올린다고 말하기. → 카메라가 마음에 들어 샀다고 설명하기. → 그런데 휴대폰이 나에게 너무 컸다고 말하기. → 가게에 전화해 문제를 이야기했다고 설명하기. → 더 작은 휴대폰으로 교환해 줘서 만족했다고 말하기. → 결국 잘 해결됐다고 마무리하기.",
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-10-pub-rp1",
@@ -3572,7 +3638,9 @@ window.OPIC_DATA = {
             "I was really surprised and almost cried.",
             "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "펍에서 있었던 특별한 날을 떠올린다고 말하기. → 내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기. → 도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기. → 친구들이 생일 축하 노래를 불러 줬다고 설명하기. → 정말 놀라서 거의 울 뻔했다고 말하기. → 친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
+          "hint": "펍에서 있었던 특별한 날을 떠올린다고 말하기. → 내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기. → 도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기. → 친구들이 생일 축하 노래를 불러 줬다고 설명하기. → 정말 놀라서 거의 울 뻔했다고 말하기. → 친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기.",
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         }
       ],
       "roleplaySections": [
@@ -3826,21 +3894,23 @@ window.OPIC_DATA = {
             "When I arrive at a hotel, I go to the front desk first.",
             "I tell the staff my name and show my ID.",
             "Then, I get my room key and go to my room.",
-            "I put my bag down and check the room.",
-            "After that, I sit on the bed and rest for a while.",
-            "So yeah, that's what I usually do at a hotel."
+            "I put my luggage down and check the room.",
+            "After that, I sit on the bed and relax for a while.",
+            "So yeah, that's what I usually do when I check in."
           ],
-          "hint": "호텔에 도착하면 먼저 프런트에 간다고 말하기. → 직원에게 이름을 말하고 신분증을 보여 준다고 설명하기. → 열쇠를 받아 객실로 간다고 말하기. → 가방을 내려놓고 방을 확인한다고 설명하기. → 침대에 앉아 잠시 쉰다고 말하기. → 이것이 호텔에서 보통 하는 일이라고 마무리하기.",
+          "hint": "호텔에 도착하면 먼저 프런트에 간다고 말하기. → 직원에게 이름과 신분증을 보여 준다고 설명하기. → 객실 열쇠를 받고 방으로 간다고 말하기. → 짐을 내려놓고 방을 확인한다고 설명하기. → 침대에 앉아 잠시 쉰다고 말하기. → 체크인할 때 하는 일을 마무리하기.",
           "questionEn": "What do you usually do when you arrive at a hotel? Explain the check-in process and what you do next.",
           "type": "일과·절차",
           "hintSteps": [
             "호텔에 도착하면 먼저 프런트에 간다고 말하기.",
-            "직원에게 이름을 말하고 신분증을 보여 준다고 설명하기.",
-            "열쇠를 받아 객실로 간다고 말하기.",
-            "가방을 내려놓고 방을 확인한다고 설명하기.",
+            "직원에게 이름과 신분증을 보여 준다고 설명하기.",
+            "객실 열쇠를 받고 방으로 간다고 말하기.",
+            "짐을 내려놓고 방을 확인한다고 설명하기.",
             "침대에 앉아 잠시 쉰다고 말하기.",
-            "이것이 호텔에서 보통 하는 일이라고 마무리하기."
-          ]
+            "체크인할 때 하는 일을 마무리하기."
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-11-q3",
@@ -3865,7 +3935,9 @@ window.OPIC_DATA = {
             "해변에 가서 짧게 산책했다고 설명하기.",
             "다음 날 아침 짐을 챙기고 체크아웃했다고 말하기.",
             "편안한 여행이었다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-11-q4",
@@ -3890,7 +3962,9 @@ window.OPIC_DATA = {
             "친구들이 생일 축하 노래를 불러 줬다고 설명하기.",
             "정말 놀라서 거의 울 뻔했다고 말하기.",
             "친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-11-q5",
@@ -3925,22 +3999,24 @@ window.OPIC_DATA = {
           "answer": [
             "I remember one problem I had at a hotel.",
             "I tried to open my room, but the key didn't work.",
-            "So I went to the front desk and told the staff.",
+            "So I went to the front desk and told the staff about the problem.",
             "They said sorry and gave me a new key.",
-            "I tried it, and the door opened.",
+            "I tried the new key, and luckily, the door opened.",
             "So yeah, everything was fine in the end."
           ],
-          "hint": "호텔에서 문제가 생겼던 경험으로 시작하기. → 객실 문을 열려고 했지만 열쇠가 작동하지 않았다고 설명하기. → 프런트에 가서 직원에게 문제를 말했다고 말하기. → 직원이 사과하고 새 열쇠를 주었다고 설명하기. → 새 열쇠로 시도하자 문이 열렸다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
+          "hint": "호텔에서 겪었던 문제를 말하기. → 객실 문을 열려고 했지만 열쇠가 작동하지 않았다고 설명하기. → 프런트에 가서 직원에게 문제를 말했다고 말하기. → 직원이 사과하고 새 열쇠를 줬다고 설명하기. → 새 열쇠를 사용하자 다행히 문이 열렸다고 말하기. → 결국 잘 해결됐다고 마무리하기.",
           "questionEn": "Tell me about a problem you had at a hotel. What went wrong, who helped you, and how was it resolved?",
           "type": "문제 경험",
           "hintSteps": [
-            "호텔에서 문제가 생겼던 경험으로 시작하기.",
+            "호텔에서 겪었던 문제를 말하기.",
             "객실 문을 열려고 했지만 열쇠가 작동하지 않았다고 설명하기.",
             "프런트에 가서 직원에게 문제를 말했다고 말하기.",
-            "직원이 사과하고 새 열쇠를 주었다고 설명하기.",
-            "새 열쇠로 시도하자 문이 열렸다고 결과 말하기.",
-            "결국 잘 해결되었다고 마무리하기."
-          ]
+            "직원이 사과하고 새 열쇠를 줬다고 설명하기.",
+            "새 열쇠를 사용하자 다행히 문이 열렸다고 말하기.",
+            "결국 잘 해결됐다고 마무리하기."
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         }
       ],
       "scriptGroups": [
@@ -4005,7 +4081,9 @@ window.OPIC_DATA = {
             "동네 음식점에서는 새로운 음식을 먹어 봤다고 비교하기.",
             "맛이 달랐지만 정말 마음에 들었다고 말하기.",
             "가장 큰 차이는 음식이었다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-12-q2",
@@ -4030,7 +4108,9 @@ window.OPIC_DATA = {
             "지금은 샐러드나 채소 요리도 찾을 수 있다고 비교하기.",
             "건강에 관심 있는 사람들이 더 다양한 선택지를 원한다고 설명하기.",
             "지금은 건강한 음식을 먹기 더 쉽다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-12-q3",
@@ -4063,24 +4143,26 @@ window.OPIC_DATA = {
           "question": "음식점에서 식사할 때 보통 무엇을 하나요? 주문하는 방법과 식사 중·후에 하는 일을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "When I go to a restaurant, I find a seat and look at the menu.",
+            "When I go to a restaurant, I find a nice seat first.",
+            "Then, I look at the menu and order some food.",
             "I usually order pasta and a drink.",
-            "While I wait, I talk with my friend or check my phone.",
-            "Then, I enjoy my meal and relax for a while.",
-            "Before I leave, I pay the bill and thank the staff.",
+            "While I wait, I check my phone for a while.",
+            "After eating, I pay the bill and thank the staff.",
             "So yeah, that's what I usually do at a restaurant."
           ],
-          "hint": "음식점에서 자리를 찾아 메뉴를 본다고 말하기. → 보통 파스타와 음료를 주문한다고 설명하기. → 기다리는 동안 친구와 이야기하거나 휴대폰을 확인한다고 말하기. → 식사를 즐기고 잠시 쉰다고 설명하기. → 떠나기 전에 계산하고 직원에게 감사한다고 말하기. → 이것이 음식점에서 보통 하는 일이라고 마무리하기.",
+          "hint": "음식점에 가면 먼저 좋은 자리를 찾는다고 말하기. → 메뉴를 보고 음식을 주문한다고 설명하기. → 보통 파스타와 음료를 주문한다고 말하기. → 음식을 기다리며 휴대폰을 확인한다고 설명하기. → 식사 후 계산하고 직원에게 감사 인사를 한다고 말하기. → 평소 음식점에서 하는 일을 정리하기.",
           "questionEn": "What do you normally do when you eat at a restaurant? Explain how you order and what you do during and after the meal.",
           "type": "일과·절차",
           "hintSteps": [
-            "음식점에서 자리를 찾아 메뉴를 본다고 말하기.",
-            "보통 파스타와 음료를 주문한다고 설명하기.",
-            "기다리는 동안 친구와 이야기하거나 휴대폰을 확인한다고 말하기.",
-            "식사를 즐기고 잠시 쉰다고 설명하기.",
-            "떠나기 전에 계산하고 직원에게 감사한다고 말하기.",
-            "이것이 음식점에서 보통 하는 일이라고 마무리하기."
-          ]
+            "음식점에 가면 먼저 좋은 자리를 찾는다고 말하기.",
+            "메뉴를 보고 음식을 주문한다고 설명하기.",
+            "보통 파스타와 음료를 주문한다고 말하기.",
+            "음식을 기다리며 휴대폰을 확인한다고 설명하기.",
+            "식사 후 계산하고 직원에게 감사 인사를 한다고 말하기.",
+            "평소 음식점에서 하는 일을 정리하기."
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-12-q5",
@@ -4105,7 +4187,9 @@ window.OPIC_DATA = {
             "직원이 사과하고 올바른 음식을 가져다주었다고 설명하기.",
             "그 뒤 식사를 즐겼다고 말하기.",
             "결국 모든 일이 잘 해결됐다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-12-q6",
@@ -4138,24 +4222,26 @@ window.OPIC_DATA = {
           "question": "배달이나 포장으로 어떤 음식을 주문하는 것을 좋아하나요? 본인에게 좋은 선택인 이유를 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "I like ordering pasta from a restaurant near my home.",
-            "I usually order it when I'm tired after work.",
-            "The food is really good, and it arrives quickly.",
-            "I don't have to cook or wash many dishes.",
-            "So I can sit on my sofa, eat, and relax.",
-            "So yeah, it's an easy choice for me."
+            "When I'm too tired to cook, I order some food.",
+            "I usually order pasta from a restaurant near my home.",
+            "The food is good, and I don't have to cook.",
+            "I also don't have to wash many dishes.",
+            "I just sit on my sofa, eat my food, and relax.",
+            "So yeah, ordering food is really convenient for me."
           ],
-          "hint": "집 근처 음식점에서 파스타를 주문하는 것을 좋아한다고 말하기. → 퇴근 후 피곤할 때 보통 주문한다고 설명하기. → 음식이 맛있고 빨리 도착한다고 이유 말하기. → 요리와 많은 설거지를 할 필요가 없다고 덧붙이기. → 소파에서 먹고 쉴 수 있다고 말하기. → 나에게 편리한 선택이라고 마무리하기.",
+          "hint": "요리하기 너무 피곤할 때 음식을 주문한다고 말하기. → 보통 집 근처 음식점에서 파스타를 주문한다고 설명하기. → 맛도 좋고 직접 요리하지 않아도 된다고 말하기. → 설거지도 많이 하지 않아도 된다고 설명하기. → 소파에 앉아 먹고 쉰다고 말하기. → 배달 음식이 나에게 편리하다고 마무리하기.",
           "questionEn": "What food do you like to order for delivery or takeout? Explain why it is a good choice for you.",
           "type": "의견·이유",
           "hintSteps": [
-            "집 근처 음식점에서 파스타를 주문하는 것을 좋아한다고 말하기.",
-            "퇴근 후 피곤할 때 보통 주문한다고 설명하기.",
-            "음식이 맛있고 빨리 도착한다고 이유 말하기.",
-            "요리와 많은 설거지를 할 필요가 없다고 덧붙이기.",
-            "소파에서 먹고 쉴 수 있다고 말하기.",
-            "나에게 편리한 선택이라고 마무리하기."
-          ]
+            "요리하기 너무 피곤할 때 음식을 주문한다고 말하기.",
+            "보통 집 근처 음식점에서 파스타를 주문한다고 설명하기.",
+            "맛도 좋고 직접 요리하지 않아도 된다고 말하기.",
+            "설거지도 많이 하지 않아도 된다고 설명하기.",
+            "소파에 앉아 먹고 쉰다고 말하기.",
+            "배달 음식이 나에게 편리하다고 마무리하기."
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         }
       ],
       "scriptGroups": [
@@ -4216,24 +4302,26 @@ window.OPIC_DATA = {
           "question": "한국에서는 사람들이 어떻게 재활용하나요? 물건을 분류하는 방법과 가져가는 곳을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "In Korea, people usually separate paper, plastic, glass, and cans.",
+            "In Korea, recycling is common and very important.",
+            "People have to separate paper, plastic, glass, and cans.",
             "First, they empty and clean the containers.",
-            "Then, they sort the items by type.",
-            "After that, they take them to a recycling area near their home.",
-            "They put each type in the right bin.",
-            "So yeah, that's how people usually recycle."
+            "Then, they take everything to the recycling area.",
+            "They put each item in the right bin.",
+            "In some places, people may have to pay a fine if they don't follow the rules."
           ],
-          "hint": "한국에서는 종이, 플라스틱, 유리, 캔을 분리한다고 말하기. → 먼저 용기를 비우고 씻는다고 설명하기. → 그다음 물건을 종류별로 나눈다고 말하기. → 집 근처 재활용장에 가져간다고 설명하기. → 종류에 맞는 수거함에 넣는다고 말하기. → 이것이 일반적인 재활용 방법이라고 마무리하기.",
+          "hint": "한국에서 재활용이 흔하고 중요하다고 말하기. → 종이, 플라스틱, 유리, 캔을 분리해야 한다고 설명하기. → 먼저 용기를 비우고 씻는다고 말하기. → 재활용품을 수거 장소로 가져간다고 설명하기. → 종류에 맞는 수거함에 넣는다고 말하기. → 지역에 따라 규칙을 어기면 과태료를 낼 수 있다고 덧붙이기.",
           "questionEn": "How do people recycle in Korea? Explain how items are sorted and where people take them.",
           "type": "일과·절차",
           "hintSteps": [
-            "한국에서는 종이, 플라스틱, 유리, 캔을 분리한다고 말하기.",
-            "먼저 용기를 비우고 씻는다고 설명하기.",
-            "그다음 물건을 종류별로 나눈다고 말하기.",
-            "집 근처 재활용장에 가져간다고 설명하기.",
+            "한국에서 재활용이 흔하고 중요하다고 말하기.",
+            "종이, 플라스틱, 유리, 캔을 분리해야 한다고 설명하기.",
+            "먼저 용기를 비우고 씻는다고 말하기.",
+            "재활용품을 수거 장소로 가져간다고 설명하기.",
             "종류에 맞는 수거함에 넣는다고 말하기.",
-            "이것이 일반적인 재활용 방법이라고 마무리하기."
-          ]
+            "지역에 따라 규칙을 어기면 과태료를 낼 수 있다고 덧붙이기."
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-13-q2",
@@ -4291,24 +4379,26 @@ window.OPIC_DATA = {
           "question": "본인 지역의 재활용 방식은 어떻게 달라졌나요? 예전과 지금의 시설과 사람들의 습관을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "Recycling in my area has changed a lot.",
-            "In the past, there were fewer bins, and the signs were hard to read.",
-            "People sometimes mixed paper and plastic together.",
-            "But now, there are more bins with clear signs.",
-            "People also clean and separate their recycling more carefully.",
-            "So yeah, recycling is easier now."
+            "I think recycling has changed a lot in my area.",
+            "In the past, there were fewer recycling bins.",
+            "Sometimes, people put different things in the same bin.",
+            "But now, the bins have clearer signs.",
+            "People also separate paper, plastic, and cans more carefully.",
+            "So yeah, I think recycling is easier now."
           ],
-          "hint": "우리 지역 재활용 방식이 많이 달라졌다고 시작하기. → 예전에는 수거함이 적고 안내판을 읽기 어려웠다고 말하기. → 사람들이 가끔 종이와 플라스틱을 섞어 버렸다고 설명하기. → 지금은 수거함이 더 많고 안내판도 명확하다고 비교하기. → 사람들도 더 신경 써서 씻고 분리한다고 습관 변화 말하기. → 지금은 재활용이 더 쉬워졌다고 마무리하기.",
+          "hint": "동네 재활용 방식이 많이 달라졌다고 말하기. → 예전에는 재활용 수거함이 더 적었다고 설명하기. → 종류가 다른 물건을 같은 곳에 넣는 경우도 있었다고 말하기. → 지금은 수거함 표시가 더 명확하다고 비교하기. → 종이, 플라스틱, 캔을 더 꼼꼼히 분리한다고 설명하기. → 지금이 재활용하기 더 쉽다고 마무리하기.",
           "questionEn": "How has recycling changed in your area? Compare the facilities and people's habits in the past and now.",
           "type": "변화·비교",
           "hintSteps": [
-            "우리 지역 재활용 방식이 많이 달라졌다고 시작하기.",
-            "예전에는 수거함이 적고 안내판을 읽기 어려웠다고 말하기.",
-            "사람들이 가끔 종이와 플라스틱을 섞어 버렸다고 설명하기.",
-            "지금은 수거함이 더 많고 안내판도 명확하다고 비교하기.",
-            "사람들도 더 신경 써서 씻고 분리한다고 습관 변화 말하기.",
-            "지금은 재활용이 더 쉬워졌다고 마무리하기."
-          ]
+            "동네 재활용 방식이 많이 달라졌다고 말하기.",
+            "예전에는 재활용 수거함이 더 적었다고 설명하기.",
+            "종류가 다른 물건을 같은 곳에 넣는 경우도 있었다고 말하기.",
+            "지금은 수거함 표시가 더 명확하다고 비교하기.",
+            "종이, 플라스틱, 캔을 더 꼼꼼히 분리한다고 설명하기.",
+            "지금이 재활용하기 더 쉽다고 마무리하기."
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-13-q5",
@@ -4333,7 +4423,9 @@ window.OPIC_DATA = {
             "예를 들어 자신은 주말에 재활용품을 배출한다고 설명하기.",
             "용기를 씻어 알맞은 수거함에 넣는다고 말하기.",
             "좋은 습관이라고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         }
       ],
       "scriptGroups": [
@@ -4447,7 +4539,9 @@ window.OPIC_DATA = {
             "직원의 도움을 받아 신청서를 작성한다고 설명하기.",
             "그 후 휴대폰으로 새 계좌를 이용할 수 있다고 말하기.",
             "이렇게 계좌를 만들겠다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-14-q4",
@@ -4643,7 +4737,9 @@ window.OPIC_DATA = {
             "다시 켜려고 했지만 작동하지 않았다고 설명하기.",
             "전원 버튼을 몇 번 눌렀더니 다행히 다시 켜졌다고 말하기.",
             "결국 모든 일이 잘 해결됐다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-15-q4",
@@ -4693,7 +4789,9 @@ window.OPIC_DATA = {
             "휴대폰이나 컴퓨터에서 사용할 수 있다고 설명하기.",
             "하지만 AI가 잘못된 답변을 주기도 한다고 문제를 언급하기.",
             "그래서 정보를 확인하는 것이 중요하다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-15-q6",
@@ -4718,7 +4816,9 @@ window.OPIC_DATA = {
             "지금은 많은 기업이 AI도 개발한다고 비교하기.",
             "AI는 정보를 찾거나 일을 빨리 하는 데 도움을 줄 수 있다고 말하기.",
             "이것이 큰 변화라고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-15-q7",
@@ -4726,24 +4826,26 @@ window.OPIC_DATA = {
           "question": "최근 구입한 전자제품을 말해 주세요. 언제 샀고, 지금은 어떻게 사용하나요?",
           "status": "선택",
           "answer": [
-            "I bought a new phone last month.",
-            "I use it every day to watch YouTube and listen to music.",
-            "For music, I open an app and choose a song.",
-            "I also use it to take pictures and send messages.",
+            "Well, I bought a new phone not long ago.",
+            "I use it almost every day.",
+            "I usually watch YouTube and listen to music on it.",
+            "I also take pictures and send messages.",
             "When I need information, I search for it on my phone.",
             "So yeah, I'm really happy with my new phone."
           ],
-          "hint": "지난달 새 휴대폰을 샀다고 말하기. → 매일 유튜브와 음악 감상에 쓴다고 설명하기. → 음악 앱을 열고 노래를 고른다고 방법 말하기. → 사진 촬영과 메시지 전송에도 쓴다고 덧붙이기. → 정보가 필요하면 휴대폰으로 검색한다고 말하기. → 새 휴대폰이 정말 마음에 든다고 마무리하기.",
+          "hint": "얼마 전에 새 휴대폰을 샀다고 말하기. → 거의 매일 사용한다고 설명하기. → 유튜브를 보고 음악을 듣는다고 말하기. → 사진을 찍고 메시지도 보낸다고 설명하기. → 정보가 필요할 때 휴대폰으로 찾아본다고 말하기. → 새 휴대폰에 매우 만족한다고 마무리하기.",
           "questionEn": "Tell me about an electronic device you bought recently. When did you buy it, and how do you use it now?",
           "type": "과거 경험·사용",
           "hintSteps": [
-            "지난달 새 휴대폰을 샀다고 말하기.",
-            "매일 유튜브와 음악 감상에 쓴다고 설명하기.",
-            "음악 앱을 열고 노래를 고른다고 방법 말하기.",
-            "사진 촬영과 메시지 전송에도 쓴다고 덧붙이기.",
-            "정보가 필요하면 휴대폰으로 검색한다고 말하기.",
-            "새 휴대폰이 정말 마음에 든다고 마무리하기."
-          ]
+            "얼마 전에 새 휴대폰을 샀다고 말하기.",
+            "거의 매일 사용한다고 설명하기.",
+            "유튜브를 보고 음악을 듣는다고 말하기.",
+            "사진을 찍고 메시지도 보낸다고 설명하기.",
+            "정보가 필요할 때 휴대폰으로 찾아본다고 말하기.",
+            "새 휴대폰에 매우 만족한다고 마무리하기."
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         }
       ],
       "scriptGroups": [
@@ -4840,7 +4942,9 @@ window.OPIC_DATA = {
             "반면 작은 마을은 건물이 적고 거리가 더 조용하다고 비교하기.",
             "조용한 장소가 자신을 편안하게 해서 좋아한다고 말하기.",
             "작은 마을이 더 평화롭게 느껴진다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-16-q3",
@@ -4865,7 +4969,9 @@ window.OPIC_DATA = {
             "지금은 건물이 많아지고 도로가 넓어졌다고 비교하기.",
             "이전보다 동네가 더 복잡해졌다고 말하기.",
             "지금은 더 편리하지만 조용한 거리가 그립다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-16-q4",
@@ -4890,7 +4996,9 @@ window.OPIC_DATA = {
             "작은 도시에도 일자리가 더 필요하다고 해결책을 제시하기.",
             "그러면 사람들이 큰 도시로 이사할 필요가 줄어든다고 설명하기.",
             "그 방법이 도움이 될 것 같다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-16-q5",
@@ -5029,7 +5137,9 @@ window.OPIC_DATA = {
             "대신 집에 머물며 TV를 봤다고 설명하기.",
             "소파에서 음악을 듣고 쉬기도 했다고 말하기.",
             "결국 괜찮은 하루였다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-17-q4",
@@ -5038,23 +5148,25 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I think the weather has changed since I was a child.",
-            "In the past, summers didn't feel as hot as they do now.",
-            "But these days, summer feels hotter and lasts longer.",
-            "I also feel that heavy rain is more common now.",
-            "In my memory, winters were longer and colder.",
-            "So yeah, the weather feels different to me now."
+            "In the past, summers didn't feel so hot to me.",
+            "But these days, summers feel much hotter.",
+            "Sometimes, it also rains very heavily.",
+            "Winters feel a little warmer than before, too.",
+            "So yeah, the weather feels different now."
           ],
-          "hint": "어릴 때와 비교해 날씨가 달라졌다고 생각한다고 말하기. → 예전 여름은 지금만큼 덥게 느껴지지 않았다고 설명하기. → 요즘 여름은 더 덥고 더 오래 이어지는 것 같다고 비교하기. → 폭우도 더 자주 오는 것 같다고 느낀 점 말하기. → 기억 속 겨울은 더 길고 추웠다고 비교하기. → 내가 느끼는 날씨는 예전과 다르다고 마무리하기.",
+          "hint": "어릴 때와 비교하면 날씨가 변한 것 같다고 말하기. → 예전 여름은 지금만큼 덥게 느껴지지 않았다고 설명하기. → 요즘 여름은 훨씬 덥다고 비교하기. → 비가 매우 많이 내릴 때도 있다고 말하기. → 겨울도 예전보다 조금 따뜻하게 느껴진다고 설명하기. → 날씨가 예전과 달라진 느낌이라고 마무리하기.",
           "questionEn": "Do you think the weather has changed since you were younger? Compare the summers and winters you remember with recent ones.",
           "type": "변화·비교",
           "hintSteps": [
-            "어릴 때와 비교해 날씨가 달라졌다고 생각한다고 말하기.",
+            "어릴 때와 비교하면 날씨가 변한 것 같다고 말하기.",
             "예전 여름은 지금만큼 덥게 느껴지지 않았다고 설명하기.",
-            "요즘 여름은 더 덥고 더 오래 이어지는 것 같다고 비교하기.",
-            "폭우도 더 자주 오는 것 같다고 느낀 점 말하기.",
-            "기억 속 겨울은 더 길고 추웠다고 비교하기.",
-            "내가 느끼는 날씨는 예전과 다르다고 마무리하기."
-          ]
+            "요즘 여름은 훨씬 덥다고 비교하기.",
+            "비가 매우 많이 내릴 때도 있다고 말하기.",
+            "겨울도 예전보다 조금 따뜻하게 느껴진다고 설명하기.",
+            "날씨가 예전과 달라진 느낌이라고 마무리하기."
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         }
       ],
       "scriptGroups": [
@@ -5142,7 +5254,9 @@ window.OPIC_DATA = {
             "대신 다음 주말에 만날 수 있는지 물었다고 설명하기.",
             "친구가 괜찮다고 해서 다음 주말에 만났다고 말하기.",
             "결국 모든 일이 잘 해결됐다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-18-q3",
@@ -5217,7 +5331,9 @@ window.OPIC_DATA = {
             "친구들이 생일 축하 노래를 불러 줬다고 설명하기.",
             "정말 놀라서 거의 울 뻔했다고 말하기.",
             "친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
-          ]
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-18-q6",
@@ -5252,24 +5368,24 @@ window.OPIC_DATA = {
           "answer": [
             "I remember one problem I had during Chuseok.",
             "I was on a bus, but there was a lot of traffic.",
-            "I knew I would be late for the family meal.",
-            "So I called my family and told them about the problem.",
+            "I knew I would be late for dinner with my family.",
+            "So I called them and told them about the problem.",
             "They said it was okay and saved some food for me.",
-            "When I arrived, I ate with them.",
             "So yeah, everything was fine in the end."
           ],
-          "hint": "추석에 문제가 생겼던 경험으로 시작하기. → 버스를 탔는데 차가 많이 막혔다고 설명하기. → 가족 식사에 늦을 것이라는 사실을 알았다고 말하기. → 가족에게 전화해 상황을 설명했다고 말하기. → 가족이 괜찮다고 하고 음식을 남겨 주었다고 설명하기. → 도착해서 함께 식사했다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
+          "hint": "추석에 생긴 문제를 떠올린다고 말하기. → 버스를 탔는데 교통 체증이 심했다고 설명하기. → 가족과의 저녁 식사에 늦을 것 같았다고 말하기. → 가족에게 전화해서 문제를 알렸다고 설명하기. → 괜찮다고 하며 음식을 남겨 두었다고 말하기. → 결국 잘 해결됐다고 마무리하기.",
           "questionEn": "Tell me about a problem during a holiday. What happened, how did you deal with it, and what was the outcome?",
           "type": "문제 경험",
           "hintSteps": [
-            "추석에 문제가 생겼던 경험으로 시작하기.",
-            "버스를 탔는데 차가 많이 막혔다고 설명하기.",
-            "가족 식사에 늦을 것이라는 사실을 알았다고 말하기.",
-            "가족에게 전화해 상황을 설명했다고 말하기.",
-            "가족이 괜찮다고 하고 음식을 남겨 주었다고 설명하기.",
-            "도착해서 함께 식사했다고 결과 말하기.",
-            "결국 잘 해결되었다고 마무리하기."
-          ]
+            "추석에 생긴 문제를 떠올린다고 말하기.",
+            "버스를 탔는데 교통 체증이 심했다고 설명하기.",
+            "가족과의 저녁 식사에 늦을 것 같았다고 말하기.",
+            "가족에게 전화해서 문제를 알렸다고 설명하기.",
+            "괜찮다고 하며 음식을 남겨 두었다고 말하기.",
+            "결국 잘 해결됐다고 마무리하기."
+          ],
+          "levelAdjusted": true,
+          "levelAdjustedAt": "2026-10-15"
         },
         {
           "id": "topic-18-q8",
