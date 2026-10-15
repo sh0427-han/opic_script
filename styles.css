@@ -469,6 +469,20 @@ button {
   color: #52606a;
 }
 
+.revision-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  border: 1px solid #d5c391;
+  border-radius: 999px;
+  background: #fff7e4;
+  color: #735515;
+  font-size: 0.76rem;
+  font-weight: 800;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+
 .question-translation {
   margin: 9px 0 0;
   color: #56655d;
