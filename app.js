@@ -5,6 +5,10 @@
   const studyMeta = window.OPIC_STUDY_META || {};
   const advancedQuestions = studyMeta.advancedQuestions || {};
   const unexpectedTopics = studyMeta.unexpectedTopics || {};
+  const advancedFilterTypes = {
+    "advanced-14": "14",
+    "advanced-15": "15",
+  };
   if (!data) {
     throw new Error("OPIc data was not loaded.");
   }
@@ -112,6 +116,7 @@
   };
 
   const matchesTopic = (topic) => state.topic === "all"
+    || Boolean(advancedFilterTypes[state.topic])
     || topic.id === state.topic || topic.source === state.topic;
 
   const flowHintHtml = (question) => question.hintSteps?.length
@@ -190,7 +195,9 @@
     .map((topic) => ({
       ...topic,
       questions: topic.questions
-        .filter((question) => matchesQuery(topic, question))
+        .filter((question) => matchesQuery(topic, question)
+          && (!advancedFilterTypes[state.topic]
+            || advancedQuestions[question.id] === advancedFilterTypes[state.topic]))
         .sort((first, second) => {
           const firstPriority = first.status === "필수" ? 0 : 1;
           const secondPriority = second.status === "필수" ? 0 : 1;
@@ -235,6 +242,14 @@
       </button>
     `;
     const filterGroups = [
+      ...(state.view === "combos" ? [] : [{
+        id: "advanced",
+        title: "14·15번 대비",
+        chips: [
+          { id: "advanced-14", type: "14", title: "14번 유형 · 변화·비교" },
+          { id: "advanced-15", type: "15", title: "15번 유형 · 사회 문제·의견" },
+        ],
+      }]),
       { id: "survey", title: "설문조사 기반" },
       { id: "unexpected", title: "일반·돌발 주제" },
       ...(state.view === "combos" ? [] : [
@@ -246,14 +261,21 @@
       <div class="topic-filter-all">${chipHtml({ id: "all", title: "전체" })}</div>
       <div class="topic-filter-groups">
         ${filterGroups.map((group) => {
-          const chips = chipHtml({ id: group.id, title: `${group.title} 전체` })
-            + studyTopics
-            .filter((topic) => topic.source === group.id)
-            .sort((first, second) => first.order - second.order)
-            .map((topic) => chipHtml({ id: topic.id, title: topic.source === "unexpected"
-              ? `${topic.title} · 표본 ${unexpectedTopics[topic.id]?.sampleCount ?? "?"}회`
-              : topic.title }))
-            .join("");
+          const chips = group.id === "advanced"
+            ? group.chips.map((chip) => {
+              const count = Object.entries(advancedQuestions)
+                .filter(([id, type]) => type === chip.type && questionById.has(id))
+                .length;
+              return chipHtml({ id: chip.id, title: `${chip.title} (${count}문항)` });
+            }).join("")
+            : chipHtml({ id: group.id, title: `${group.title} 전체` })
+              + studyTopics
+              .filter((topic) => topic.source === group.id)
+              .sort((first, second) => first.order - second.order)
+              .map((topic) => chipHtml({ id: topic.id, title: topic.source === "unexpected"
+                ? `${topic.title} · 표본 ${unexpectedTopics[topic.id]?.sampleCount ?? "?"}회`
+                : topic.title }))
+              .join("");
           return `
             <section class="topic-filter-group" aria-labelledby="${group.id}-filter-title">
               <strong id="${group.id}-filter-title">${group.title}</strong>
@@ -597,9 +619,9 @@
     state.view = view;
     if (view === "combos" && (state.topic === "all"
       || state.topic === "roleplay"
+      || advancedFilterTypes[state.topic]
       || state.topic.startsWith("roleplay-scenario-"))) {
       state.topic = "survey";
-      renderFilters();
     }
     const hash = view === "combos"
       ? "#combos"
@@ -611,6 +633,7 @@
           ? "#scripts"
           : "#core";
     window.history.replaceState(null, "", hash);
+    renderFilters();
     render();
   };
 
@@ -726,6 +749,10 @@
     const nextView = viewFromHash();
     if (nextView !== state.view) {
       state.view = nextView;
+      if (nextView === "combos" && advancedFilterTypes[state.topic]) {
+        state.topic = "survey";
+      }
+      renderFilters();
       render();
     }
   });
