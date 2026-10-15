@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v44",
+  "version": "v45",
   "updated": "2026-10-15",
   "questionCount": 168,
   "survey": {
@@ -332,23 +332,23 @@ window.OPIC_DATA = {
           "question": "한국의 주거 형태가 어떻게 달라졌다고 생각하나요? 예전에 선호하던 집과 지금 찾는 집을 비교해 주세요.",
           "status": "선택",
           "answer": [
-            "Well, I think more people are looking for small apartments in Korea these days.",
-            "In the past, many families wanted a big home with enough rooms for everyone.",
-            "Now, more people seem to live alone, so they don't always need that much space.",
-            "A small apartment can be easier to clean and less work to look after.",
-            "People also seem to care more about being close to stores or a subway station.",
-            "So, to me, a good location has become just as important as the size of a home."
+            "Well, I think homes in Korea have changed a lot.",
+            "In the past, many families wanted big apartments.",
+            "But now, more people live alone, so they often choose smaller homes.",
+            "Small homes are easier to clean, and they cost less.",
+            "People also want to live near stores and subway stations.",
+            "So I think both price and location are very important."
           ],
-          "hint": "요즘 한국에서는 작은 아파트를 찾는 사람이 더 많아진 것 같다고 말하기. → 예전에는 많은 가족이 모두를 위한 방이 충분한 큰 집을 원했다고 설명하기. → 지금은 혼자 사는 사람이 많아져 그렇게 넓은 공간이 필요하지 않다고 비교하기. → 작은 아파트는 청소와 관리가 더 쉽다고 이유를 말하기. → 가게나 지하철역과 가까운지도 더 중요하게 생각하는 것 같다고 덧붙이기. → 좋은 위치가 집 크기만큼 중요해졌다고 마무리하기.",
+          "hint": "한국의 집이 많이 바뀌었다고 시작하기. → 예전에는 가족들이 큰 아파트를 원했다고 말하기. → 지금은 혼자 사는 사람이 많아 작은 집을 고르기도 한다고 비교하기. → 작은 집은 청소가 쉽고 비용도 적게 든다고 설명하기. → 상점과 지하철역 근처에 살기를 원한다고 말하기. → 가격과 위치가 모두 중요하다고 마무리하기.",
           "questionEn": "How do you think housing in Korea has changed? Compare the homes people wanted in the past with the homes they look for now.",
           "type": "변화·비교",
           "hintSteps": [
-            "요즘 한국에서는 작은 아파트를 찾는 사람이 더 많아진 것 같다고 말하기.",
-            "예전에는 많은 가족이 모두를 위한 방이 충분한 큰 집을 원했다고 설명하기.",
-            "지금은 혼자 사는 사람이 많아져 그렇게 넓은 공간이 필요하지 않다고 비교하기.",
-            "작은 아파트는 청소와 관리가 더 쉽다고 이유를 말하기.",
-            "가게나 지하철역과 가까운지도 더 중요하게 생각하는 것 같다고 덧붙이기.",
-            "좋은 위치가 집 크기만큼 중요해졌다고 마무리하기."
+            "한국의 집이 많이 바뀌었다고 시작하기.",
+            "예전에는 가족들이 큰 아파트를 원했다고 말하기.",
+            "지금은 혼자 사는 사람이 많아 작은 집을 고르기도 한다고 비교하기.",
+            "작은 집은 청소가 쉽고 비용도 적게 든다고 설명하기.",
+            "상점과 지하철역 근처에 살기를 원한다고 말하기.",
+            "가격과 위치가 모두 중요하다고 마무리하기."
           ]
         },
         {
@@ -357,23 +357,23 @@ window.OPIC_DATA = {
           "question": "한국에서 집을 구할 때 무엇이 어렵나요? 가장 큰 어려움과 그 이유를 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "I think the hardest part is finding a home in a good area at a price you can afford.",
-            "A lot of people want to live near stores or a subway station.",
-            "The problem is, homes in those areas often cost more than people expect.",
-            "A cheaper place may be farther from work, which means a longer trip every day.",
-            "So you really have to think about both the price and the location.",
-            "Honestly, finding a place that works for you can take quite a bit of time."
+            "I think finding a home in Korea is not easy.",
+            "The biggest problem is the price.",
+            "Many people want to live near work or a subway station.",
+            "But homes in those areas are usually expensive.",
+            "A cheaper home may be too far from work.",
+            "So people have to think about both price and location."
           ],
-          "hint": "좋은 지역에서 감당할 수 있는 가격의 집을 찾는 것이 가장 어렵다고 말하기. → 많은 사람이 가게나 지하철역 근처에 살고 싶어 한다고 설명하기. → 하지만 그런 지역의 집은 예상보다 비싼 경우가 많다고 말하기. → 더 싼 집은 직장에서 멀어 매일 이동 시간이 길어질 수 있다고 설명하기. → 그래서 가격과 위치를 모두 고려해야 한다고 말하기. → 자신에게 맞는 집을 찾는 데 시간이 꽤 걸린다고 마무리하기.",
+          "hint": "한국에서 집을 구하는 것이 쉽지 않다고 말하기. → 가장 큰 문제는 가격이라고 설명하기. → 직장이나 지하철역 근처에 살고 싶어 한다고 말하기. → 하지만 그런 지역의 집은 보통 비싸다고 설명하기. → 저렴한 집은 직장에서 너무 멀 수 있다고 말하기. → 그래서 가격과 위치를 모두 생각해야 한다고 마무리하기.",
           "questionEn": "What makes finding a home difficult in Korea? Explain the main difficulty and why it is a problem.",
           "type": "의견·이유",
           "hintSteps": [
-            "좋은 지역에서 감당할 수 있는 가격의 집을 찾는 것이 가장 어렵다고 말하기.",
-            "많은 사람이 가게나 지하철역 근처에 살고 싶어 한다고 설명하기.",
-            "하지만 그런 지역의 집은 예상보다 비싼 경우가 많다고 말하기.",
-            "더 싼 집은 직장에서 멀어 매일 이동 시간이 길어질 수 있다고 설명하기.",
-            "그래서 가격과 위치를 모두 고려해야 한다고 말하기.",
-            "자신에게 맞는 집을 찾는 데 시간이 꽤 걸린다고 마무리하기."
+            "한국에서 집을 구하는 것이 쉽지 않다고 말하기.",
+            "가장 큰 문제는 가격이라고 설명하기.",
+            "직장이나 지하철역 근처에 살고 싶어 한다고 말하기.",
+            "하지만 그런 지역의 집은 보통 비싸다고 설명하기.",
+            "저렴한 집은 직장에서 너무 멀 수 있다고 말하기.",
+            "그래서 가격과 위치를 모두 생각해야 한다고 마무리하기."
           ]
         },
         {
@@ -430,23 +430,23 @@ window.OPIC_DATA = {
           "question": "집에서 가족과 보낸 기억에 남는 시간을 말해 주세요. 언제였고, 무엇을 했으며, 왜 특별했나요?",
           "status": "선택",
           "answer": [
-            "My family came over for dinner one evening last month, and it was really nice.",
-            "I ordered some food before they arrived, so we didn't have to spend time cooking.",
-            "Once everyone was there, we sat together and enjoyed the meal.",
-            "We talked about work and everyday life, and somehow we ended up talking for hours.",
-            "Before they left, we took a few pictures together to remember the evening.",
-            "Honestly, it was a simple dinner, but I was happy we finally had time together."
+            "Well, I remember one nice dinner with my family at home.",
+            "It was last month, and my family came to visit me.",
+            "I ordered some food because I didn't want to spend time cooking.",
+            "We sat together, ate dinner, and talked about everyday life.",
+            "After dinner, we took some pictures together.",
+            "So yeah, it was a simple but special evening."
           ],
-          "hint": "지난달 어느 저녁 가족이 식사하러 집에 와서 좋았다고 말하기. → 가족이 오기 전에 음식을 주문해 요리할 필요가 없었다고 설명하기. → 모두 도착한 뒤 함께 앉아 식사를 즐겼다고 말하기. → 일과 일상 이야기를 하다 몇 시간 동안 대화했다고 설명하기. → 가족이 떠나기 전에 기념사진을 몇 장 찍었다고 말하기. → 간단한 저녁이었지만 함께 시간을 보낼 수 있어 행복했다고 마무리하기.",
+          "hint": "집에서 가족과 함께한 좋은 저녁을 떠올린다고 시작하기. → 지난달 가족이 집에 놀러 왔다고 말하기. → 요리에 시간을 쓰지 않으려고 음식을 주문했다고 설명하기. → 함께 저녁을 먹고 일상 이야기를 나눴다고 말하기. → 저녁 뒤 사진을 함께 찍었다고 설명하기. → 소박하지만 특별한 저녁이었다고 마무리하기.",
           "questionEn": "Tell me about a memorable time you spent with your family at home. When was it, what did you do, and what made it special?",
           "type": "과거 경험",
           "hintSteps": [
-            "지난달 어느 저녁 가족이 식사하러 집에 와서 좋았다고 말하기.",
-            "가족이 오기 전에 음식을 주문해 요리할 필요가 없었다고 설명하기.",
-            "모두 도착한 뒤 함께 앉아 식사를 즐겼다고 말하기.",
-            "일과 일상 이야기를 하다 몇 시간 동안 대화했다고 설명하기.",
-            "가족이 떠나기 전에 기념사진을 몇 장 찍었다고 말하기.",
-            "간단한 저녁이었지만 함께 시간을 보낼 수 있어 행복했다고 마무리하기."
+            "집에서 가족과 함께한 좋은 저녁을 떠올린다고 시작하기.",
+            "지난달 가족이 집에 놀러 왔다고 말하기.",
+            "요리에 시간을 쓰지 않으려고 음식을 주문했다고 설명하기.",
+            "함께 저녁을 먹고 일상 이야기를 나눴다고 말하기.",
+            "저녁 뒤 사진을 함께 찍었다고 설명하기.",
+            "소박하지만 특별한 저녁이었다고 마무리하기."
           ]
         },
         {
@@ -455,23 +455,23 @@ window.OPIC_DATA = {
           "question": "집안 문제를 해결하는 방식이 본인과 부모님은 어떻게 다른가요? 평소 대처 방식을 비교하고 예를 들어 주세요.",
           "status": "선택",
           "answer": [
-            "I usually call for help, while my parents try to fix small things themselves.",
-            "For example, if a light doesn't work, I call the building office and explain the problem.",
-            "My parents would usually try changing the light bulb before asking anyone for help.",
-            "They've done small repairs for years, so they feel more comfortable doing that.",
-            "I don't have as much experience, and I worry about making the problem worse.",
-            "So, you know, I prefer asking someone who knows what to do, even for a small repair."
+            "Well, my parents and I solve problems at home in different ways.",
+            "My parents usually try to fix things themselves.",
+            "But I often call the building office for help.",
+            "For example, my kitchen light stopped working one day.",
+            "I called the building office, and someone fixed it the next day.",
+            "So I think asking for help is easier for me."
           ],
-          "hint": "나는 보통 도움을 요청하지만 부모님은 작은 문제를 직접 고치려 한다고 비교하기. → 예를 들어 조명이 안 켜지면 나는 관리사무소에 전화해 설명한다고 말하기. → 부모님은 도움을 요청하기 전에 전구를 바꿔 보실 것이라고 말하기. → 부모님은 오랫동안 작은 수리를 해 와서 더 익숙하다고 설명하기. → 나는 경험이 적고 문제를 더 악화시킬까 걱정된다고 말하기. → 그래서 작은 수리도 방법을 아는 사람에게 부탁하는 편이라고 마무리하기.",
+          "hint": "부모님과 나는 집 문제를 다른 방식으로 해결한다고 말하기. → 부모님은 보통 직접 고치려고 한다고 설명하기. → 나는 관리사무소에 도움을 요청한다고 비교하기. → 어느 날 주방 조명이 고장 났다고 예를 들기. → 관리사무소에 연락하자 다음 날 고쳐 주었다고 말하기. → 나에게는 도움을 요청하는 편이 더 쉽다고 마무리하기.",
           "questionEn": "How do you and your parents deal with problems at home differently? Compare your usual approaches and give an example.",
           "type": "변화·비교",
           "hintSteps": [
-            "나는 보통 도움을 요청하지만 부모님은 작은 문제를 직접 고치려 한다고 비교하기.",
-            "예를 들어 조명이 안 켜지면 나는 관리사무소에 전화해 설명한다고 말하기.",
-            "부모님은 도움을 요청하기 전에 전구를 바꿔 보실 것이라고 말하기.",
-            "부모님은 오랫동안 작은 수리를 해 와서 더 익숙하다고 설명하기.",
-            "나는 경험이 적고 문제를 더 악화시킬까 걱정된다고 말하기.",
-            "그래서 작은 수리도 방법을 아는 사람에게 부탁하는 편이라고 마무리하기."
+            "부모님과 나는 집 문제를 다른 방식으로 해결한다고 말하기.",
+            "부모님은 보통 직접 고치려고 한다고 설명하기.",
+            "나는 관리사무소에 도움을 요청한다고 비교하기.",
+            "어느 날 주방 조명이 고장 났다고 예를 들기.",
+            "관리사무소에 연락하자 다음 날 고쳐 주었다고 말하기.",
+            "나에게는 도움을 요청하는 편이 더 쉽다고 마무리하기."
           ]
         }
       ],
@@ -647,23 +647,23 @@ window.OPIC_DATA = {
           "question": "휴가를 보내는 방식이 어떻게 달라졌나요? 예전과 지금의 방식을 비교해 주세요.",
           "status": "선택",
           "answer": [
-            "I used to travel during vacations, but now I prefer staying home.",
-            "Back then, I booked tickets and made plans for almost every day of the trip.",
-            "The trips were fun, but they cost a lot and sometimes left me feeling tired.",
-            "Now I spend less money and stay somewhere I already feel comfortable.",
-            "I can sleep a little longer and take my time, without worrying about a schedule.",
-            "Honestly, I think that kind of quiet break suits me better these days."
+            "Well, the way I spend my vacations has changed a lot.",
+            "In the past, I usually traveled and made a lot of plans.",
+            "It was fun, but sometimes I felt tired after the trip.",
+            "But now, I prefer staying at home by myself.",
+            "I sleep in, make something simple to eat, and relax on my sofa.",
+            "So yeah, a quiet vacation is better for me now."
           ],
-          "hint": "예전에는 휴가에 여행했지만 지금은 집에 있는 것을 선호한다고 비교하기. → 그때는 표를 예약하고 여행 기간 거의 매일 계획을 세웠다고 설명하기. → 여행은 재미있었지만 돈이 많이 들고 가끔 더 피곤해졌다고 말하기. → 지금은 돈을 덜 쓰고 이미 편안하게 느끼는 곳에서 지낸다고 설명하기. → 일정 걱정 없이 더 자고 여유롭게 시간을 보낼 수 있다고 말하기. → 요즘은 이런 조용한 휴식이 나에게 더 잘 맞는다고 마무리하기.",
+          "hint": "휴가 보내는 방식이 많이 달라졌다고 말하기. → 예전에는 여행을 다니고 계획을 많이 세웠다고 설명하기. → 즐거웠지만 여행 뒤에 피곤하기도 했다고 말하기. → 지금은 혼자 집에서 쉬는 것을 더 좋아한다고 비교하기. → 늦잠을 자고 간단히 요리하고 소파에서 쉰다고 설명하기. → 지금은 조용한 휴가가 더 좋다고 마무리하기.",
           "questionEn": "How have your vacations changed over time? Compare the way you spent vacations in the past with what you do now.",
           "type": "변화·비교",
           "hintSteps": [
-            "예전에는 휴가에 여행했지만 지금은 집에 있는 것을 선호한다고 비교하기.",
-            "그때는 표를 예약하고 여행 기간 거의 매일 계획을 세웠다고 설명하기.",
-            "여행은 재미있었지만 돈이 많이 들고 가끔 더 피곤해졌다고 말하기.",
-            "지금은 돈을 덜 쓰고 이미 편안하게 느끼는 곳에서 지낸다고 설명하기.",
-            "일정 걱정 없이 더 자고 여유롭게 시간을 보낼 수 있다고 말하기.",
-            "요즘은 이런 조용한 휴식이 나에게 더 잘 맞는다고 마무리하기."
+            "휴가 보내는 방식이 많이 달라졌다고 말하기.",
+            "예전에는 여행을 다니고 계획을 많이 세웠다고 설명하기.",
+            "즐거웠지만 여행 뒤에 피곤하기도 했다고 말하기.",
+            "지금은 혼자 집에서 쉬는 것을 더 좋아한다고 비교하기.",
+            "늦잠을 자고 간단히 요리하고 소파에서 쉰다고 설명하기.",
+            "지금은 조용한 휴가가 더 좋다고 마무리하기."
           ]
         },
         {
@@ -989,23 +989,23 @@ window.OPIC_DATA = {
           "question": "카페는 시간이 지나면서 어떻게 달라졌나요? 사람들이 예전에 하던 일과 지금 하는 일을 비교해 주세요.",
           "status": "선택",
           "answer": [
-            "Well, I think people use cafes for a lot more things now than they used to.",
-            "In the past, people mainly went there to have coffee or meet a friend.",
-            "These days, people also study, use their laptops, or spend some quiet time alone.",
-            "Many cafes now have Wi-Fi and comfortable seats, so it's easier to stay longer.",
-            "I mean, some people spend a whole afternoon there instead of just having a quick drink.",
-            "So cafes feel more like places for both work and rest now."
+            "Well, I think cafes have changed a lot.",
+            "In the past, people usually went to cafes to drink coffee or meet friends.",
+            "But now, people also go there to study or work.",
+            "Many cafes have Wi-Fi and comfortable chairs.",
+            "Some people just sit alone and relax, like I do.",
+            "So yeah, people use cafes in many different ways now."
           ],
-          "hint": "사람들이 카페에서 예전보다 더 다양한 일을 하는 것 같다고 말하기. → 예전에는 주로 커피를 마시거나 친구를 만나러 갔다고 설명하기. → 지금은 공부하거나 노트북을 쓰거나 혼자 조용히 쉬기도 한다고 비교하기. → 와이파이와 편안한 좌석 덕분에 오래 머무르기 쉬워졌다고 설명하기. → 잠깐 음료만 마시는 대신 오후 내내 머무르는 사람도 있다고 덧붙이기. → 카페가 일과 휴식 모두를 위한 공간이 된 것 같다고 마무리하기.",
+          "hint": "카페가 많이 바뀌었다고 말하기. → 예전에는 커피를 마시거나 친구를 만나러 갔다고 설명하기. → 요즘은 공부나 일을 하러도 간다고 비교하기. → 많은 카페에 와이파이와 편안한 의자가 있다고 말하기. → 나처럼 혼자 앉아 쉬는 사람도 있다고 설명하기. → 지금은 카페를 다양한 용도로 이용한다고 마무리하기.",
           "questionEn": "How have coffee shops changed over the years? Compare what people used to do there with what they do now.",
           "type": "변화·비교",
           "hintSteps": [
-            "사람들이 카페에서 예전보다 더 다양한 일을 하는 것 같다고 말하기.",
-            "예전에는 주로 커피를 마시거나 친구를 만나러 갔다고 설명하기.",
-            "지금은 공부하거나 노트북을 쓰거나 혼자 조용히 쉬기도 한다고 비교하기.",
-            "와이파이와 편안한 좌석 덕분에 오래 머무르기 쉬워졌다고 설명하기.",
-            "잠깐 음료만 마시는 대신 오후 내내 머무르는 사람도 있다고 덧붙이기.",
-            "카페가 일과 휴식 모두를 위한 공간이 된 것 같다고 마무리하기."
+            "카페가 많이 바뀌었다고 말하기.",
+            "예전에는 커피를 마시거나 친구를 만나러 갔다고 설명하기.",
+            "요즘은 공부나 일을 하러도 간다고 비교하기.",
+            "많은 카페에 와이파이와 편안한 의자가 있다고 말하기.",
+            "나처럼 혼자 앉아 쉬는 사람도 있다고 설명하기.",
+            "지금은 카페를 다양한 용도로 이용한다고 마무리하기."
           ]
         },
         {
@@ -1014,23 +1014,23 @@ window.OPIC_DATA = {
           "question": "카페가 인기 있는 이유는 무엇이라고 생각하나요? 사람들이 어떤 점을 편리하거나 즐겁게 느끼는지 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "I think cafes are popular because they're easy places to take a break.",
-            "You can get a drink and sit down for a while without making a big plan.",
-            "They're good for meeting a friend, but they're also comfortable when you're alone.",
-            "Many cafes have Wi-Fi and nice seats, which is useful if you bring a laptop.",
-            "I mean, you can study, do some work, or just enjoy your coffee.",
-            "That's probably why so many people like spending time there, including me."
+            "I think cafes are popular because they are comfortable places to relax.",
+            "People can order a drink and sit there for a while.",
+            "They can meet friends or spend some time alone.",
+            "Many cafes also have Wi-Fi and nice seats.",
+            "I usually listen to music or check my phone when I go there.",
+            "So yeah, that's why I like cafes, too."
           ],
-          "hint": "카페가 쉬어 가기 편한 장소라서 인기가 있다고 말하기. → 큰 계획 없이 음료를 사고 잠시 앉아 있을 수 있다고 설명하기. → 친구를 만나기에도 좋고 혼자 있어도 편안하다고 말하기. → 와이파이와 좋은 좌석이 있어 노트북을 가져오면 유용하다고 설명하기. → 공부하거나 일하거나 그냥 커피를 즐길 수 있다고 덧붙이기. → 나를 포함한 많은 사람이 카페에서 시간을 보내는 이유라고 마무리하기.",
+          "hint": "카페는 편하게 쉴 수 있어 인기가 많다고 말하기. → 음료를 주문하고 잠시 앉아 있을 수 있다고 설명하기. → 친구를 만나거나 혼자 시간을 보낼 수 있다고 말하기. → 와이파이와 좋은 좌석도 있다고 덧붙이기. → 나는 음악을 듣거나 휴대폰을 확인한다고 설명하기. → 그래서 나도 카페를 좋아한다고 마무리하기.",
           "questionEn": "Why do you think coffee shops are popular? Explain what people find useful or enjoyable about them.",
           "type": "의견·이유",
           "hintSteps": [
-            "카페가 쉬어 가기 편한 장소라서 인기가 있다고 말하기.",
-            "큰 계획 없이 음료를 사고 잠시 앉아 있을 수 있다고 설명하기.",
-            "친구를 만나기에도 좋고 혼자 있어도 편안하다고 말하기.",
-            "와이파이와 좋은 좌석이 있어 노트북을 가져오면 유용하다고 설명하기.",
-            "공부하거나 일하거나 그냥 커피를 즐길 수 있다고 덧붙이기.",
-            "나를 포함한 많은 사람이 카페에서 시간을 보내는 이유라고 마무리하기."
+            "카페는 편하게 쉴 수 있어 인기가 많다고 말하기.",
+            "음료를 주문하고 잠시 앉아 있을 수 있다고 설명하기.",
+            "친구를 만나거나 혼자 시간을 보낼 수 있다고 말하기.",
+            "와이파이와 좋은 좌석도 있다고 덧붙이기.",
+            "나는 음악을 듣거나 휴대폰을 확인한다고 설명하기.",
+            "그래서 나도 카페를 좋아한다고 마무리하기."
           ]
         },
         {
@@ -1474,23 +1474,23 @@ window.OPIC_DATA = {
           "question": "어릴 때 공원에서 하던 일과 지금 하는 일을 비교해 주세요. 활동이 어떻게 달라졌나요?",
           "status": "선택",
           "answer": [
-            "Well, I used to go to the park to play, but now I mainly go there to relax.",
-            "As a child, I spent a lot of time on the swings and in the playground.",
-            "I usually played with other children, so our visits were pretty noisy and busy.",
-            "Now I take a short walk and find a bench where I can sit for a while.",
-            "I might listen to music or check my phone, but I don't do very much.",
-            "So, you know, the park is still part of my life, but I use it quite differently now."
+            "Well, I used to go to parks to play, but now I go there to relax.",
+            "When I was a child, I played on the swings with other children.",
+            "I was always running around and having fun.",
+            "But now, I usually take a short walk in the park.",
+            "Then, I find a bench and listen to slow music.",
+            "So yeah, I enjoy parks in a different way now."
           ],
-          "hint": "예전에는 놀러 공원에 갔지만 지금은 주로 쉬러 간다고 비교하기. → 어릴 때는 그네와 놀이터에서 많은 시간을 보냈다고 설명하기. → 다른 아이들과 놀아서 시끄럽고 바쁜 방문이었다고 말하기. → 지금은 짧게 산책한 뒤 벤치를 찾아 잠시 앉는다고 설명하기. → 음악을 듣거나 휴대폰을 확인하지만 많은 활동은 하지 않는다고 말하기. → 여전히 공원에 가지만 이용하는 방식은 많이 달라졌다고 마무리하기.",
+          "hint": "어릴 때는 놀러 공원에 갔지만 지금은 쉬러 간다고 말하기. → 어릴 때 다른 아이들과 그네를 탔다고 설명하기. → 뛰어놀며 재미있게 보냈다고 말하기. → 지금은 공원에서 짧게 산책한다고 비교하기. → 벤치를 찾아 잔잔한 음악을 듣는다고 설명하기. → 공원을 즐기는 방식이 달라졌다고 마무리하기.",
           "questionEn": "Compare what you did at parks as a child with what you do now. What has changed about your activities?",
           "type": "변화·비교",
           "hintSteps": [
-            "예전에는 놀러 공원에 갔지만 지금은 주로 쉬러 간다고 비교하기.",
-            "어릴 때는 그네와 놀이터에서 많은 시간을 보냈다고 설명하기.",
-            "다른 아이들과 놀아서 시끄럽고 바쁜 방문이었다고 말하기.",
-            "지금은 짧게 산책한 뒤 벤치를 찾아 잠시 앉는다고 설명하기.",
-            "음악을 듣거나 휴대폰을 확인하지만 많은 활동은 하지 않는다고 말하기.",
-            "여전히 공원에 가지만 이용하는 방식은 많이 달라졌다고 마무리하기."
+            "어릴 때는 놀러 공원에 갔지만 지금은 쉬러 간다고 말하기.",
+            "어릴 때 다른 아이들과 그네를 탔다고 설명하기.",
+            "뛰어놀며 재미있게 보냈다고 말하기.",
+            "지금은 공원에서 짧게 산책한다고 비교하기.",
+            "벤치를 찾아 잔잔한 음악을 듣는다고 설명하기.",
+            "공원을 즐기는 방식이 달라졌다고 마무리하기."
           ]
         },
         {
@@ -1499,23 +1499,23 @@ window.OPIC_DATA = {
           "question": "알고 있는 공원 두 곳을 비교해 주세요. 크기·시설·분위기가 어떻게 다른가요?",
           "status": "선택",
           "answer": [
-            "The two parks near my home feel pretty different, especially on weekends.",
-            "The bigger park has a large playground, so there are usually lots of families there.",
-            "The smaller one just has a short path and some benches under the trees.",
-            "The big park can be quite noisy, while the small one is usually much calmer.",
-            "I can often find an empty bench in the smaller park without looking for long.",
-            "So I usually choose that one when I want a little peace and quiet."
+            "There are two parks I know near my home.",
+            "The first park is big and has a playground.",
+            "There are many families, so it's usually noisy.",
+            "But the second park is smaller and quieter.",
+            "It has a walking path and some benches.",
+            "So I prefer the second park because I can relax there."
           ],
-          "hint": "집 근처 두 공원이 특히 주말에 상당히 다르게 느껴진다고 말하기. → 큰 공원은 큰 놀이터가 있어 보통 가족이 많다고 설명하기. → 작은 공원은 짧은 길과 나무 아래 벤치가 있다고 묘사하기. → 큰 공원은 시끄러울 수 있지만 작은 공원은 더 차분하다고 비교하기. → 작은 공원에서는 빈 벤치를 금방 찾을 수 있다고 말하기. → 조용하게 쉬고 싶을 때는 작은 공원을 선택한다고 마무리하기.",
+          "hint": "집 근처에서 아는 공원 두 곳이 있다고 말하기. → 첫 번째 공원은 크고 놀이터가 있다고 설명하기. → 가족이 많아 대체로 시끄럽다고 말하기. → 두 번째 공원은 더 작고 조용하다고 비교하기. → 산책로와 벤치가 있다고 설명하기. → 그곳에서 쉴 수 있어 두 번째 공원이 좋다고 마무리하기.",
           "questionEn": "Compare two parks you know. How do their size, facilities, and atmosphere differ?",
           "type": "변화·비교",
           "hintSteps": [
-            "집 근처 두 공원이 특히 주말에 상당히 다르게 느껴진다고 말하기.",
-            "큰 공원은 큰 놀이터가 있어 보통 가족이 많다고 설명하기.",
-            "작은 공원은 짧은 길과 나무 아래 벤치가 있다고 묘사하기.",
-            "큰 공원은 시끄러울 수 있지만 작은 공원은 더 차분하다고 비교하기.",
-            "작은 공원에서는 빈 벤치를 금방 찾을 수 있다고 말하기.",
-            "조용하게 쉬고 싶을 때는 작은 공원을 선택한다고 마무리하기."
+            "집 근처에서 아는 공원 두 곳이 있다고 말하기.",
+            "첫 번째 공원은 크고 놀이터가 있다고 설명하기.",
+            "가족이 많아 대체로 시끄럽다고 말하기.",
+            "두 번째 공원은 더 작고 조용하다고 비교하기.",
+            "산책로와 벤치가 있다고 설명하기.",
+            "그곳에서 쉴 수 있어 두 번째 공원이 좋다고 마무리하기."
           ]
         },
         {
@@ -1524,23 +1524,23 @@ window.OPIC_DATA = {
           "question": "공원에서 불편하게 느끼는 점 한 가지는 무엇인가요? 이유와 평소 대처 방법을 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "The biggest problem for me is how crowded the big park gets on weekends.",
-            "The paths get busy, and sometimes all the benches are taken.",
-            "I mean, it's hard to have a quiet break when there are people everywhere.",
-            "So I usually go to a smaller park nearby instead of waiting around.",
-            "It's calmer, and I can often find a bench under the trees right away.",
-            "So I usually choose that one when I want a little peace and quiet."
+            "Well, one problem with parks is that they can be too crowded.",
+            "On weekends, there are sometimes too many people.",
+            "Then, it's hard to find an empty bench.",
+            "I like quiet places, so that bothers me.",
+            "When that happens, I go to a smaller park near my home.",
+            "It's usually quiet, so I can sit there and relax."
           ],
-          "hint": "가장 큰 불편은 큰 공원이 주말에 너무 붐빈다는 점이라고 말하기. → 산책로가 붐비고 벤치가 모두 차 있을 때도 있다고 설명하기. → 사람이 많으면 조용히 쉬기 어렵다고 말하기. → 그래서 기다리는 대신 근처의 작은 공원으로 간다고 설명하기. → 더 차분하고 나무 아래 벤치를 바로 찾을 수 있는 경우가 많다고 말하기. → 조용하게 쉬고 싶을 때는 작은 공원을 선택한다고 마무리하기.",
+          "hint": "공원이 너무 붐빌 수 있다는 점이 문제라고 말하기. → 주말에 사람이 너무 많을 때가 있다고 설명하기. → 빈 벤치를 찾기 어렵다고 말하기. → 조용한 곳을 좋아해서 불편하다고 설명하기. → 그럴 때 집 근처 작은 공원에 간다고 말하기. → 그곳에서 조용히 앉아 쉴 수 있다고 마무리하기.",
           "questionEn": "What is one thing you find inconvenient about parks? Explain why it bothers you and how you usually deal with it.",
           "type": "의견·이유",
           "hintSteps": [
-            "가장 큰 불편은 큰 공원이 주말에 너무 붐빈다는 점이라고 말하기.",
-            "산책로가 붐비고 벤치가 모두 차 있을 때도 있다고 설명하기.",
-            "사람이 많으면 조용히 쉬기 어렵다고 말하기.",
-            "그래서 기다리는 대신 근처의 작은 공원으로 간다고 설명하기.",
-            "더 차분하고 나무 아래 벤치를 바로 찾을 수 있는 경우가 많다고 말하기.",
-            "조용하게 쉬고 싶을 때는 작은 공원을 선택한다고 마무리하기."
+            "공원이 너무 붐빌 수 있다는 점이 문제라고 말하기.",
+            "주말에 사람이 너무 많을 때가 있다고 설명하기.",
+            "빈 벤치를 찾기 어렵다고 말하기.",
+            "조용한 곳을 좋아해서 불편하다고 설명하기.",
+            "그럴 때 집 근처 작은 공원에 간다고 말하기.",
+            "그곳에서 조용히 앉아 쉴 수 있다고 마무리하기."
           ]
         }
       ],
@@ -1653,23 +1653,23 @@ window.OPIC_DATA = {
           "question": "가장 최근 해변에 갔던 경험을 말해 주세요. 언제 누구와 갔고, 무엇을 했나요?",
           "status": "필수",
           "answer": [
-            "I visited Haeundae Beach by myself last month during a short trip to Busan.",
-            "I walked along the beach and took a few pictures of the sea.",
-            "After a while, the wind got pretty strong, so I went into a nearby cafe.",
-            "I ordered a drink and watched the sea through the window instead.",
-            "When I'd finished, I walked back to my hotel and rested for the evening.",
-            "Honestly, it was a nice little break, and I'd be happy to do it again."
+            "Well, the last time I went to the beach was about three years ago.",
+            "I went to Haeundae Beach in Busan by myself.",
+            "First, I took a short walk along the beach.",
+            "Then, I found a bench and enjoyed the ocean view.",
+            "I listened to slow music because it made me feel relaxed.",
+            "So yeah, that's what I did on my last beach trip."
           ],
-          "hint": "지난달 짧은 부산 여행 중 혼자 해운대 해변에 갔다고 말하기. → 해변을 따라 걷고 바다 사진을 몇 장 찍었다고 설명하기. → 바람이 꽤 강해져 근처 카페에 들어갔다고 말하기. → 음료를 주문하고 대신 창문을 통해 바다를 바라봤다고 설명하기. → 마친 뒤 호텔로 걸어 돌아가 저녁에 쉬었다고 말하기. → 좋은 짧은 휴식이었고 다시 가고 싶다고 마무리하기.",
+          "hint": "마지막 바닷가 방문은 약 3년 전이었다고 말하기. → 혼자 부산 해운대에 갔다고 설명하기. → 먼저 해변을 따라 짧게 걸었다고 말하기. → 벤치를 찾아 바다 풍경을 감상했다고 설명하기. → 편안한 기분이 들어 잔잔한 음악을 들었다고 말하기. → 마지막 바닷가 여행에서 한 일을 정리하기.",
           "questionEn": "Tell me about your last visit to a beach. When did you go, who were you with, and what did you do?",
           "type": "과거 경험",
           "hintSteps": [
-            "지난달 짧은 부산 여행 중 혼자 해운대 해변에 갔다고 말하기.",
-            "해변을 따라 걷고 바다 사진을 몇 장 찍었다고 설명하기.",
-            "바람이 꽤 강해져 근처 카페에 들어갔다고 말하기.",
-            "음료를 주문하고 대신 창문을 통해 바다를 바라봤다고 설명하기.",
-            "마친 뒤 호텔로 걸어 돌아가 저녁에 쉬었다고 말하기.",
-            "좋은 짧은 휴식이었고 다시 가고 싶다고 마무리하기."
+            "마지막 바닷가 방문은 약 3년 전이었다고 말하기.",
+            "혼자 부산 해운대에 갔다고 설명하기.",
+            "먼저 해변을 따라 짧게 걸었다고 말하기.",
+            "벤치를 찾아 바다 풍경을 감상했다고 설명하기.",
+            "편안한 기분이 들어 잔잔한 음악을 들었다고 말하기.",
+            "마지막 바닷가 여행에서 한 일을 정리하기."
           ]
         },
         {
@@ -1678,21 +1678,23 @@ window.OPIC_DATA = {
           "question": "해변에서 하루를 보내기 위해 어떻게 준비하나요? 확인하는 것과 챙기는 물건을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, before going to the beach, I check the weather so I know what to take.",
-            "I pack a hat, sunscreen, and a bottle of water, especially if it's going to be sunny.",
-            "Then I check the route on my phone and make sure I know where to get off.",
-            "If I plan to stay until evening, I take a light jacket in case it gets cool.",
-            "Finally, I put everything in a small bag, because I don't want to carry too much around."
+            "Before I go to the beach, I check the weather first.",
+            "Then, I put my phone, some water, and sunscreen in my bag.",
+            "I also take a hat if it's sunny.",
+            "After that, I check the route on my phone.",
+            "I don't want to carry too many things, so I take a small bag.",
+            "So yeah, that's how I get ready for the beach."
           ],
-          "hint": "해변에 가기 전 무엇을 챙길지 알기 위해 날씨를 확인한다고 말하기. → 특히 맑을 예정이면 모자, 선크림, 물 한 병을 챙긴다고 설명하기. → 휴대폰으로 경로를 확인하고 어디에서 내릴지 알아둔다고 말하기. → 저녁까지 있을 계획이면 추워질 때를 대비해 얇은 재킷을 가져간다고 설명하기. → 짐을 많이 들고 싶지 않아 모두 작은 가방에 넣는다고 마무리하기.",
+          "hint": "해변에 가기 전에 먼저 날씨를 확인한다고 말하기. → 휴대폰, 물, 선크림을 가방에 넣는다고 설명하기. → 햇볕이 강하면 모자도 챙긴다고 말하기. → 휴대폰에서 가는 길을 확인한다고 설명하기. → 짐을 많이 들고 싶지 않아 작은 가방을 가져간다고 말하기. → 해변에 갈 준비를 이렇게 한다고 마무리하기.",
           "questionEn": "How do you prepare for a day at the beach? Explain what you check and what you take with you.",
           "type": "일과·절차",
           "hintSteps": [
-            "해변에 가기 전 무엇을 챙길지 알기 위해 날씨를 확인한다고 말하기.",
-            "특히 맑을 예정이면 모자, 선크림, 물 한 병을 챙긴다고 설명하기.",
-            "휴대폰으로 경로를 확인하고 어디에서 내릴지 알아둔다고 말하기.",
-            "저녁까지 있을 계획이면 추워질 때를 대비해 얇은 재킷을 가져간다고 설명하기.",
-            "짐을 많이 들고 싶지 않아 모두 작은 가방에 넣는다고 마무리하기."
+            "해변에 가기 전에 먼저 날씨를 확인한다고 말하기.",
+            "휴대폰, 물, 선크림을 가방에 넣는다고 설명하기.",
+            "햇볕이 강하면 모자도 챙긴다고 말하기.",
+            "휴대폰에서 가는 길을 확인한다고 설명하기.",
+            "짐을 많이 들고 싶지 않아 작은 가방을 가져간다고 말하기.",
+            "해변에 갈 준비를 이렇게 한다고 마무리하기."
           ]
         },
         {
@@ -1701,23 +1703,23 @@ window.OPIC_DATA = {
           "question": "아직도 생생하게 기억나는 해변 여행을 말해 주세요. 무슨 일이 있었고, 왜 기억에 남나요?",
           "status": "필수",
           "answer": [
-            "My friends once surprised me with a birthday cake at Haeundae Beach.",
-            "It was about three years ago, and they'd asked me to meet them without telling me why.",
-            "When I arrived, they brought out the cake and started singing, which really surprised me.",
-            "We sat by the sea and talked for a long time while we shared the cake.",
-            "Before we left, we took a few pictures together to remember the evening.",
-            "Honestly, I felt really lucky to have friends who'd planned something like that for me."
+            "Well, I remember one special trip to Haeundae Beach.",
+            "I went there by myself about three years ago.",
+            "The weather was nice, and the ocean looked really beautiful.",
+            "I took a walk along the beach and found a bench.",
+            "Then, I listened to slow music and enjoyed the view.",
+            "I felt really relaxed, so I still remember that day."
           ],
-          "hint": "친구들이 해운대 해변에서 생일 케이크로 깜짝 축하해 준 적이 있다고 말하기. → 약 3년 전 친구들이 이유를 말하지 않고 만나자고 했다고 설명하기. → 도착하니 케이크를 꺼내고 노래를 불러 정말 놀랐다고 말하기. → 바닷가에 앉아 케이크를 나누며 오랫동안 대화했다고 설명하기. → 떠나기 전에 함께 사진을 몇 장 찍었다고 말하기. → 나를 위해 준비해 준 친구들이 있어 행운이라고 느꼈다고 마무리하기.",
+          "hint": "해운대에서 기억에 남는 여행을 떠올린다고 말하기. → 약 3년 전에 혼자 갔다고 설명하기. → 날씨가 좋고 바다가 아름다웠다고 말하기. → 해변을 걷고 벤치를 찾았다고 설명하기. → 잔잔한 음악을 들으며 풍경을 즐겼다고 말하기. → 편안한 기분이 들어 그날이 기억난다고 마무리하기.",
           "questionEn": "Tell me about a beach trip you still remember clearly. What happened, and why was it so memorable?",
           "type": "과거 경험",
           "hintSteps": [
-            "친구들이 해운대 해변에서 생일 케이크로 깜짝 축하해 준 적이 있다고 말하기.",
-            "약 3년 전 친구들이 이유를 말하지 않고 만나자고 했다고 설명하기.",
-            "도착하니 케이크를 꺼내고 노래를 불러 정말 놀랐다고 말하기.",
-            "바닷가에 앉아 케이크를 나누며 오랫동안 대화했다고 설명하기.",
-            "떠나기 전에 함께 사진을 몇 장 찍었다고 말하기.",
-            "나를 위해 준비해 준 친구들이 있어 행운이라고 느꼈다고 마무리하기."
+            "해운대에서 기억에 남는 여행을 떠올린다고 말하기.",
+            "약 3년 전에 혼자 갔다고 설명하기.",
+            "날씨가 좋고 바다가 아름다웠다고 말하기.",
+            "해변을 걷고 벤치를 찾았다고 설명하기.",
+            "잔잔한 음악을 들으며 풍경을 즐겼다고 말하기.",
+            "편안한 기분이 들어 그날이 기억난다고 마무리하기."
           ]
         },
         {
@@ -1751,23 +1753,23 @@ window.OPIC_DATA = {
           "question": "지금 해변에 가는 방식은 어릴 때와 어떻게 다른가요? 누구와 가는지와 하는 일을 비교해 주세요.",
           "status": "선택",
           "answer": [
-            "Well, I used to play in the water at the beach, but now I prefer quiet walks.",
-            "When I was a child, I went with my family and wanted to stay in the water all day.",
-            "We also built things in the sand, so I was always busy doing something.",
-            "These days, I usually go alone and just walk slowly along the beach.",
-            "Then I find somewhere to sit and enjoy the sea view for a while.",
-            "You know, I still enjoy the beach, but my visits are a lot calmer now."
+            "Well, my beach trips are very different now.",
+            "When I was a child, I went to the beach with my family.",
+            "I usually played in the water and on the sand.",
+            "But these days, I usually go to the beach alone.",
+            "I take a short walk, sit on a bench, and listen to music.",
+            "So yeah, I prefer quiet beach trips now."
           ],
-          "hint": "예전에는 해변에서 물놀이를 했지만 지금은 조용한 산책을 선호한다고 비교하기. → 어릴 때는 가족과 가서 온종일 물속에 있고 싶어 했다고 설명하기. → 모래로 무언가를 만들며 계속 활동했다고 말하기. → 요즘은 보통 혼자 가서 해변을 천천히 걷는다고 설명하기. → 그다음 앉을 곳을 찾아 잠시 바다 풍경을 즐긴다고 말하기. → 여전히 해변을 좋아하지만 지금의 방문은 훨씬 차분하다고 마무리하기.",
+          "hint": "지금은 바닷가 여행 방식이 많이 다르다고 말하기. → 어릴 때는 가족과 함께 바닷가에 갔다고 설명하기. → 물과 모래에서 놀았다고 말하기. → 요즘은 보통 혼자 바닷가에 간다고 비교하기. → 짧게 산책하고 벤치에 앉아 음악을 듣는다고 설명하기. → 지금은 조용한 바닷가 여행이 좋다고 마무리하기.",
           "questionEn": "How are your beach visits different now from when you were a child? Compare who you go with and what you do.",
           "type": "변화·비교",
           "hintSteps": [
-            "예전에는 해변에서 물놀이를 했지만 지금은 조용한 산책을 선호한다고 비교하기.",
-            "어릴 때는 가족과 가서 온종일 물속에 있고 싶어 했다고 설명하기.",
-            "모래로 무언가를 만들며 계속 활동했다고 말하기.",
-            "요즘은 보통 혼자 가서 해변을 천천히 걷는다고 설명하기.",
-            "그다음 앉을 곳을 찾아 잠시 바다 풍경을 즐긴다고 말하기.",
-            "여전히 해변을 좋아하지만 지금의 방문은 훨씬 차분하다고 마무리하기."
+            "지금은 바닷가 여행 방식이 많이 다르다고 말하기.",
+            "어릴 때는 가족과 함께 바닷가에 갔다고 설명하기.",
+            "물과 모래에서 놀았다고 말하기.",
+            "요즘은 보통 혼자 바닷가에 간다고 비교하기.",
+            "짧게 산책하고 벤치에 앉아 음악을 듣는다고 설명하기.",
+            "지금은 조용한 바닷가 여행이 좋다고 마무리하기."
           ]
         }
       ],
@@ -2001,23 +2003,23 @@ window.OPIC_DATA = {
           "question": "여행 준비가 예전보다 쉬워졌나요, 어려워졌나요? 예전과 지금의 비용과 다른 어려움을 비교해 주세요.",
           "status": "선택",
           "answer": [
-            "Planning a trip feels a bit harder to me now, mainly because of the cost.",
-            "In the past, I could take a short trip without worrying too much about the price.",
-            "Now, hotel rooms, food, and tickets all seem to cost more than I remember.",
-            "Popular places also seem busier, so I have to think about long lines and crowded times.",
-            "I mean, there's more to check before I can just pack my bag and leave.",
-            "That's why I compare prices and try to book earlier than I used to."
+            "I think planning a trip is a little harder now because of the cost.",
+            "In the past, hotels and tickets felt cheaper to me.",
+            "But now, I have to spend more money on them.",
+            "Popular places can also be very crowded.",
+            "So I usually check prices and book early.",
+            "That makes planning my trip a little easier."
           ],
-          "hint": "주로 비용 때문에 지금 여행 계획이 조금 더 어렵게 느껴진다고 말하기. → 예전에는 가격을 크게 걱정하지 않고 짧게 여행할 수 있었다고 설명하기. → 지금은 호텔, 음식, 표가 기억하는 것보다 비싸진 것 같다고 비교하기. → 인기 장소도 더 붐벼 긴 줄과 혼잡한 시간을 고려해야 한다고 말하기. → 그냥 짐을 싸서 떠나기 전에 확인할 것이 더 많다고 설명하기. → 그래서 예전보다 가격을 비교하고 일찍 예약한다고 마무리하기.",
+          "hint": "여행 계획은 비용 때문에 지금이 조금 더 어렵다고 말하기. → 예전에는 호텔과 티켓이 더 저렴하게 느껴졌다고 설명하기. → 지금은 더 많은 돈을 써야 한다고 비교하기. → 인기 장소는 매우 붐빌 수도 있다고 말하기. → 그래서 가격을 확인하고 일찍 예약한다고 설명하기. → 그러면 여행 계획이 조금 더 쉬워진다고 마무리하기.",
           "questionEn": "Do you find travel planning easier or harder than before? Compare the costs and other difficulties then and now.",
           "type": "변화·비교",
           "hintSteps": [
-            "주로 비용 때문에 지금 여행 계획이 조금 더 어렵게 느껴진다고 말하기.",
-            "예전에는 가격을 크게 걱정하지 않고 짧게 여행할 수 있었다고 설명하기.",
-            "지금은 호텔, 음식, 표가 기억하는 것보다 비싸진 것 같다고 비교하기.",
-            "인기 장소도 더 붐벼 긴 줄과 혼잡한 시간을 고려해야 한다고 말하기.",
-            "그냥 짐을 싸서 떠나기 전에 확인할 것이 더 많다고 설명하기.",
-            "그래서 예전보다 가격을 비교하고 일찍 예약한다고 마무리하기."
+            "여행 계획은 비용 때문에 지금이 조금 더 어렵다고 말하기.",
+            "예전에는 호텔과 티켓이 더 저렴하게 느껴졌다고 설명하기.",
+            "지금은 더 많은 돈을 써야 한다고 비교하기.",
+            "인기 장소는 매우 붐빌 수도 있다고 말하기.",
+            "그래서 가격을 확인하고 일찍 예약한다고 설명하기.",
+            "그러면 여행 계획이 조금 더 쉬워진다고 마무리하기."
           ]
         },
         {
@@ -2026,23 +2028,23 @@ window.OPIC_DATA = {
           "question": "여행을 계획할 때 사람들은 무엇을 걱정하나요? 몇 가지 걱정과 그 이유를 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "Well, I think people mainly worry about the cost and how crowded places will be.",
-            "Hotel rooms, food, and tickets can add up quickly, even on a short trip.",
-            "People don't want to get home and realize they've spent much more than planned.",
-            "They also worry about long lines, especially when they only have a day or two.",
-            "I mean, nobody wants to spend most of a trip just waiting around.",
-            "So checking prices and booking ahead can take away some of that worry."
+            "Well, I think people worry about the cost when they plan a trip.",
+            "Hotels, food, and tickets can be expensive.",
+            "They also worry about crowded places and long lines.",
+            "Nobody wants to spend a vacation just waiting.",
+            "So I think it's a good idea to check prices first.",
+            "Booking tickets early can also help."
           ],
-          "hint": "사람들은 주로 비용과 장소가 얼마나 붐빌지를 걱정한다고 말하기. → 짧은 여행도 호텔, 음식, 표 비용이 빠르게 늘어날 수 있다고 설명하기. → 여행 후 예상보다 훨씬 많이 썼다는 사실을 알고 싶지 않다고 말하기. → 여행이 하루나 이틀이면 긴 대기 줄도 걱정된다고 설명하기. → 여행 대부분을 기다리며 보내고 싶은 사람은 없다고 덧붙이기. → 가격 확인과 사전 예약으로 걱정을 줄일 수 있다고 마무리하기.",
+          "hint": "여행을 계획할 때 사람들이 비용을 걱정한다고 말하기. → 호텔과 음식, 티켓이 비쌀 수 있다고 설명하기. → 붐비는 장소와 긴 대기 줄도 걱정한다고 말하기. → 휴가를 기다리는 데만 쓰고 싶지는 않다고 설명하기. → 그래서 먼저 가격을 확인하는 것이 좋다고 말하기. → 티켓을 일찍 예약하는 것도 도움이 된다고 마무리하기.",
           "questionEn": "What do people worry about when planning a trip? Describe a few concerns and explain why they matter.",
           "type": "의견·이유",
           "hintSteps": [
-            "사람들은 주로 비용과 장소가 얼마나 붐빌지를 걱정한다고 말하기.",
-            "짧은 여행도 호텔, 음식, 표 비용이 빠르게 늘어날 수 있다고 설명하기.",
-            "여행 후 예상보다 훨씬 많이 썼다는 사실을 알고 싶지 않다고 말하기.",
-            "여행이 하루나 이틀이면 긴 대기 줄도 걱정된다고 설명하기.",
-            "여행 대부분을 기다리며 보내고 싶은 사람은 없다고 덧붙이기.",
-            "가격 확인과 사전 예약으로 걱정을 줄일 수 있다고 마무리하기."
+            "여행을 계획할 때 사람들이 비용을 걱정한다고 말하기.",
+            "호텔과 음식, 티켓이 비쌀 수 있다고 설명하기.",
+            "붐비는 장소와 긴 대기 줄도 걱정한다고 말하기.",
+            "휴가를 기다리는 데만 쓰고 싶지는 않다고 설명하기.",
+            "그래서 먼저 가격을 확인하는 것이 좋다고 말하기.",
+            "티켓을 일찍 예약하는 것도 도움이 된다고 마무리하기."
           ]
         },
         {
@@ -2075,23 +2077,23 @@ window.OPIC_DATA = {
           "question": "국내여행에서 보통 어떤 숙소에 머무나요? 숙소를 묘사하고 본인에게 맞는 이유를 설명해 주세요.",
           "status": "선택",
           "answer": [
-            "I usually stay at a quiet hotel near Haeundae Beach when I visit Busan.",
-            "The room has a bed, a small table, and a window, so it's simple but comfortable.",
-            "Some rooms have a sea view, which makes the place feel a little more special.",
-            "The beach is close enough to reach easily, so I don't spend much time getting around.",
-            "The room is also quiet at night, which helps me get a good rest.",
-            "Honestly, that's all I really need for a short trip by myself."
+            "When I visit Busan, I usually stay at a hotel near Haeundae Beach.",
+            "The room has a bed, a small table, and a bathroom.",
+            "I like a quiet room with a nice view.",
+            "The beach is close, so I can easily take a walk there.",
+            "After a busy day, I just sit in my room and relax.",
+            "So yeah, a simple and quiet hotel is perfect for me."
           ],
-          "hint": "부산에 가면 보통 해운대 근처의 조용한 호텔에 머문다고 말하기. → 객실에 침대, 작은 테이블, 창문이 있어 단순하지만 편안하다고 설명하기. → 일부 객실은 바다가 보여 조금 더 특별하게 느껴진다고 말하기. → 해변이 가까워 이동에 많은 시간을 쓰지 않는다고 설명하기. → 밤에도 조용해서 충분히 쉬는 데 도움이 된다고 말하기. → 혼자 짧게 여행할 때 필요한 것은 이 정도라고 마무리하기.",
+          "hint": "부산에 가면 보통 해운대 근처 호텔에 묵는다고 말하기. → 방에 침대, 작은 탁자, 욕실이 있다고 설명하기. → 조용하고 전망 좋은 방을 좋아한다고 말하기. → 해변이 가까워 쉽게 산책할 수 있다고 설명하기. → 바쁜 하루 뒤에는 객실에서 앉아 쉰다고 말하기. → 단순하고 조용한 호텔이 나에게 좋다고 마무리하기.",
           "questionEn": "What kind of place do you usually stay in on a domestic trip? Describe it and explain why it suits you.",
           "type": "묘사·이유",
           "hintSteps": [
-            "부산에 가면 보통 해운대 근처의 조용한 호텔에 머문다고 말하기.",
-            "객실에 침대, 작은 테이블, 창문이 있어 단순하지만 편안하다고 설명하기.",
-            "일부 객실은 바다가 보여 조금 더 특별하게 느껴진다고 말하기.",
-            "해변이 가까워 이동에 많은 시간을 쓰지 않는다고 설명하기.",
-            "밤에도 조용해서 충분히 쉬는 데 도움이 된다고 말하기.",
-            "혼자 짧게 여행할 때 필요한 것은 이 정도라고 마무리하기."
+            "부산에 가면 보통 해운대 근처 호텔에 묵는다고 말하기.",
+            "방에 침대, 작은 탁자, 욕실이 있다고 설명하기.",
+            "조용하고 전망 좋은 방을 좋아한다고 말하기.",
+            "해변이 가까워 쉽게 산책할 수 있다고 설명하기.",
+            "바쁜 하루 뒤에는 객실에서 앉아 쉰다고 말하기.",
+            "단순하고 조용한 호텔이 나에게 좋다고 마무리하기."
           ]
         }
       ],
@@ -2365,23 +2367,23 @@ window.OPIC_DATA = {
           "question": "음악을 듣다가 문제가 생긴 경험을 말해 주세요. 무엇이 작동하지 않았고, 어떻게 해결했나요?",
           "status": "선택",
           "answer": [
-            "My earphones suddenly stopped making any sound while I was listening to music.",
-            "I checked my phone, but the song was still playing, so that wasn't the problem.",
-            "Then I noticed the earphones weren't connected properly, which explained why I couldn't hear anything.",
-            "I connected them to my phone again and tried playing the same song.",
-            "Luckily, the sound came back right away, and I could keep listening.",
-            "Honestly, I was just glad they weren't broken, because I didn't want to buy another pair."
+            "Well, I remember one problem I had while listening to music.",
+            "One day, my earphones suddenly stopped working.",
+            "I checked my phone, but the music was still playing.",
+            "Then, I found that the earphones were not connected.",
+            "So I connected them again, and luckily, I could hear the music.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "음악을 듣던 중 이어폰에서 갑자기 소리가 나지 않았다고 말하기. → 휴대폰을 확인했지만 노래는 재생 중이라 휴대폰 문제는 아니었다고 설명하기. → 이어폰이 제대로 연결되지 않았다는 것을 알아챘다고 말하기. → 휴대폰에 다시 연결하고 같은 노래를 재생해 봤다고 설명하기. → 다행히 소리가 바로 돌아와 계속 들을 수 있었다고 말하기. → 새로 사고 싶지 않았는데 고장이 아니라 다행이었다고 마무리하기.",
+          "hint": "음악을 듣다가 겪은 문제를 떠올린다고 말하기. → 어느 날 이어폰이 갑자기 작동하지 않았다고 설명하기. → 휴대폰을 확인했지만 음악은 재생 중이었다고 말하기. → 이어폰 연결이 끊긴 것을 발견했다고 설명하기. → 다시 연결하자 다행히 음악이 들렸다고 말하기. → 결국 모든 일이 잘 해결됐다고 마무리하기.",
           "questionEn": "Tell me about a problem you had while listening to music. What stopped working, and how did you fix it?",
           "type": "문제 경험",
           "hintSteps": [
-            "음악을 듣던 중 이어폰에서 갑자기 소리가 나지 않았다고 말하기.",
-            "휴대폰을 확인했지만 노래는 재생 중이라 휴대폰 문제는 아니었다고 설명하기.",
-            "이어폰이 제대로 연결되지 않았다는 것을 알아챘다고 말하기.",
-            "휴대폰에 다시 연결하고 같은 노래를 재생해 봤다고 설명하기.",
-            "다행히 소리가 바로 돌아와 계속 들을 수 있었다고 말하기.",
-            "새로 사고 싶지 않았는데 고장이 아니라 다행이었다고 마무리하기."
+            "음악을 듣다가 겪은 문제를 떠올린다고 말하기.",
+            "어느 날 이어폰이 갑자기 작동하지 않았다고 설명하기.",
+            "휴대폰을 확인했지만 음악은 재생 중이었다고 말하기.",
+            "이어폰 연결이 끊긴 것을 발견했다고 설명하기.",
+            "다시 연결하자 다행히 음악이 들렸다고 말하기.",
+            "결국 모든 일이 잘 해결됐다고 마무리하기."
           ]
         }
       ],
