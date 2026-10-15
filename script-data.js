@@ -1,7 +1,7 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v43",
-  "updated": "2026-10-13",
+  "version": "v44",
+  "updated": "2026-10-15",
   "questionCount": 168,
   "survey": {
     "title": "시험 전 설문 선택",
@@ -3842,23 +3842,23 @@ window.OPIC_DATA = {
           "question": "가장 최근 호텔에 묵었던 경험을 말해 주세요. 체크인부터 체크아웃까지 무엇을 했는지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "The last time I stayed at a hotel was last month.",
-            "I went to a hotel near Haeundae Beach in Busan.",
+            "The last time I stayed at a hotel was about three years ago.",
+            "It was near Haeundae Beach in Busan.",
             "First, I checked in and put my bag in my room.",
-            "Then, I walked along the beach and took some pictures.",
+            "Then, I went to the beach and took a short walk.",
             "The next morning, I packed my bag and checked out.",
-            "So yeah, I had a really relaxing time."
+            "So yeah, it was a really relaxing trip."
           ],
-          "hint": "최근 호텔에 묵은 때는 지난달이었다고 말하기. → 부산 해운대 근처 호텔에 갔다고 장소 설명하기. → 체크인하고 방에 가방을 두었다고 말하기. → 해변을 걷고 사진을 찍었다고 설명하기. → 다음 날 아침 짐을 싸고 체크아웃했다고 말하기. → 정말 편안한 시간을 보냈다고 마무리하기.",
+          "hint": "마지막 호텔 숙박은 약 3년 전이었다고 말하기. → 호텔은 부산 해운대 근처에 있었다고 설명하기. → 먼저 체크인하고 객실에 가방을 두었다고 말하기. → 해변에 가서 짧게 산책했다고 설명하기. → 다음 날 아침 짐을 챙기고 체크아웃했다고 말하기. → 편안한 여행이었다고 마무리하기.",
           "questionEn": "Tell me about your most recent hotel stay. Explain what you did from checking in to checking out.",
           "type": "과거 경험",
           "hintSteps": [
-            "최근 호텔에 묵은 때는 지난달이었다고 말하기.",
-            "부산 해운대 근처 호텔에 갔다고 장소 설명하기.",
-            "체크인하고 방에 가방을 두었다고 말하기.",
-            "해변을 걷고 사진을 찍었다고 설명하기.",
-            "다음 날 아침 짐을 싸고 체크아웃했다고 말하기.",
-            "정말 편안한 시간을 보냈다고 마무리하기."
+            "마지막 호텔 숙박은 약 3년 전이었다고 말하기.",
+            "호텔은 부산 해운대 근처에 있었다고 설명하기.",
+            "먼저 체크인하고 객실에 가방을 두었다고 말하기.",
+            "해변에 가서 짧게 산책했다고 설명하기.",
+            "다음 날 아침 짐을 챙기고 체크아웃했다고 말하기.",
+            "편안한 여행이었다고 마무리하기."
           ]
         },
         {
@@ -3867,23 +3867,23 @@ window.OPIC_DATA = {
           "question": "기억에 남는 호텔 숙박 경험을 말해 주세요. 머무는 동안 무엇을 했고, 왜 기억에 남나요?",
           "status": "필수",
           "answer": [
-            "I remember one special day at a hotel.",
-            "It was near Haeundae Beach, and I went there last month.",
-            "I could see the sea from my room.",
-            "I sat by the window and listened to music for a while.",
-            "I felt really relaxed because the view was beautiful.",
+            "Well, I remember one hotel stay near Haeundae Beach.",
+            "I went there about three years ago.",
+            "I could see the ocean from my room.",
+            "I sat by the window and listened to slow music.",
+            "The view was beautiful, so I felt really relaxed.",
             "So yeah, I still remember that day."
           ],
-          "hint": "호텔에서 보낸 특별한 하루가 기억난다고 시작하기. → 지난달 해운대 근처 호텔에 갔다고 때와 장소 말하기. → 객실에서 바다를 볼 수 있었다고 설명하기. → 창가에 앉아 잠시 음악을 들었다고 말하기. → 아름다운 전망 덕분에 매우 편안했다고 감정 말하기. → 그래서 아직 그날이 기억난다고 마무리하기.",
+          "hint": "해운대 근처 호텔에서 보낸 기억을 이야기하기. → 약 3년 전에 방문했다고 말하기. → 객실에서 바다가 보였다고 설명하기. → 창가에 앉아 잔잔한 음악을 들었다고 말하기. → 전망이 아름다워서 편안한 기분이었다고 설명하기. → 그날이 아직도 기억난다고 마무리하기.",
           "questionEn": "Tell me about a hotel stay you remember well. What happened during your stay, and why was it memorable?",
           "type": "과거 경험",
           "hintSteps": [
-            "호텔에서 보낸 특별한 하루가 기억난다고 시작하기.",
-            "지난달 해운대 근처 호텔에 갔다고 때와 장소 말하기.",
-            "객실에서 바다를 볼 수 있었다고 설명하기.",
-            "창가에 앉아 잠시 음악을 들었다고 말하기.",
-            "아름다운 전망 덕분에 매우 편안했다고 감정 말하기.",
-            "그래서 아직 그날이 기억난다고 마무리하기."
+            "해운대 근처 호텔에서 보낸 기억을 이야기하기.",
+            "약 3년 전에 방문했다고 말하기.",
+            "객실에서 바다가 보였다고 설명하기.",
+            "창가에 앉아 잔잔한 음악을 들었다고 말하기.",
+            "전망이 아름다워서 편안한 기분이었다고 설명하기.",
+            "그날이 아직도 기억난다고 마무리하기."
           ]
         },
         {
@@ -3983,22 +3983,22 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I went to a chain restaurant and a small local restaurant last month.",
-            "At the chain restaurant, I ordered pasta I had eaten before.",
-            "It tasted the same, so I knew what to expect.",
-            "At the local restaurant, I tried a new dish.",
-            "It was different, but I really enjoyed it.",
+            "At the chain restaurant, I ordered pasta.",
+            "I had eaten it before, so I knew the taste.",
+            "But at the local restaurant, I tried a new dish.",
+            "It was different, but I really liked it.",
             "So yeah, the biggest difference was the food."
           ],
-          "hint": "지난달 체인점과 동네의 작은 음식점에 갔다고 시작하기. → 체인점에서는 전에 먹어 본 파스타를 주문했다고 설명하기. → 맛이 같아서 어떤 음식이 나올지 알고 있었다고 말하기. → 동네 음식점에서는 새 요리를 먹어 봤다고 설명하기. → 다른 맛이었지만 정말 맛있게 먹었다고 말하기. → 가장 큰 차이는 음식이었다고 비교 마무리하기.",
+          "hint": "지난달 체인 음식점과 동네의 작은 음식점에 갔다고 말하기. → 체인점에서는 파스타를 주문했다고 설명하기. → 전에 먹어 봐서 맛을 알고 있었다고 말하기. → 동네 음식점에서는 새로운 음식을 먹어 봤다고 비교하기. → 맛이 달랐지만 정말 마음에 들었다고 말하기. → 가장 큰 차이는 음식이었다고 마무리하기.",
           "questionEn": "Think of meals you have had at a chain restaurant and a local restaurant. Compare the two experiences and explain the biggest difference.",
           "type": "변화·비교",
           "hintSteps": [
-            "지난달 체인점과 동네의 작은 음식점에 갔다고 시작하기.",
-            "체인점에서는 전에 먹어 본 파스타를 주문했다고 설명하기.",
-            "맛이 같아서 어떤 음식이 나올지 알고 있었다고 말하기.",
-            "동네 음식점에서는 새 요리를 먹어 봤다고 설명하기.",
-            "다른 맛이었지만 정말 맛있게 먹었다고 말하기.",
-            "가장 큰 차이는 음식이었다고 비교 마무리하기."
+            "지난달 체인 음식점과 동네의 작은 음식점에 갔다고 말하기.",
+            "체인점에서는 파스타를 주문했다고 설명하기.",
+            "전에 먹어 봐서 맛을 알고 있었다고 말하기.",
+            "동네 음식점에서는 새로운 음식을 먹어 봤다고 비교하기.",
+            "맛이 달랐지만 정말 마음에 들었다고 말하기.",
+            "가장 큰 차이는 음식이었다고 마무리하기."
           ]
         },
         {
@@ -4008,22 +4008,22 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I think restaurant menus have changed a lot.",
-            "In the past, there were fewer healthy choices.",
-            "People often ordered fried food or meat.",
-            "But now, many restaurants also have salads and vegetable dishes.",
-            "Some dishes have less sugar or salt because people care more about health.",
-            "So yeah, it's easier to choose healthy food now."
+            "In the past, I didn't see many healthy dishes on menus.",
+            "Most of the time, I saw meat or fried food.",
+            "But now, I can find salads and vegetable dishes, too.",
+            "Many people care about their health, so they want more choices.",
+            "So yeah, it's easier to eat healthy food now."
           ],
-          "hint": "음식점 메뉴가 많이 달라졌다고 시작하기. → 예전에는 건강한 메뉴가 더 적었다고 설명하기. → 튀긴 음식이나 고기를 자주 주문했다고 말하기. → 지금은 샐러드와 채소 요리가 있는 음식점이 많다고 비교하기. → 건강에 관심이 많아져 설탕이나 소금이 적은 요리도 있다고 설명하기. → 지금은 건강한 음식을 고르기 더 쉬워졌다고 마무리하기.",
+          "hint": "음식점 메뉴가 많이 달라졌다고 말하기. → 예전에는 건강한 음식을 메뉴에서 많이 보지 못했다고 설명하기. → 대부분 고기나 튀긴 음식을 봤다고 말하기. → 지금은 샐러드나 채소 요리도 찾을 수 있다고 비교하기. → 건강에 관심 있는 사람들이 더 다양한 선택지를 원한다고 설명하기. → 지금은 건강한 음식을 먹기 더 쉽다고 마무리하기.",
           "questionEn": "How have restaurant menus changed as people have become more interested in health? Compare past and present choices.",
           "type": "변화·비교",
           "hintSteps": [
-            "음식점 메뉴가 많이 달라졌다고 시작하기.",
-            "예전에는 건강한 메뉴가 더 적었다고 설명하기.",
-            "튀긴 음식이나 고기를 자주 주문했다고 말하기.",
-            "지금은 샐러드와 채소 요리가 있는 음식점이 많다고 비교하기.",
-            "건강에 관심이 많아져 설탕이나 소금이 적은 요리도 있다고 설명하기.",
-            "지금은 건강한 음식을 고르기 더 쉬워졌다고 마무리하기."
+            "음식점 메뉴가 많이 달라졌다고 말하기.",
+            "예전에는 건강한 음식을 메뉴에서 많이 보지 못했다고 설명하기.",
+            "대부분 고기나 튀긴 음식을 봤다고 말하기.",
+            "지금은 샐러드나 채소 요리도 찾을 수 있다고 비교하기.",
+            "건강에 관심 있는 사람들이 더 다양한 선택지를 원한다고 설명하기.",
+            "지금은 건강한 음식을 먹기 더 쉽다고 마무리하기."
           ]
         },
         {
@@ -4082,23 +4082,23 @@ window.OPIC_DATA = {
           "question": "음식점에서 겪은 문제를 말해 주세요. 어떻게 설명했고, 직원은 어떻게 대응했나요?",
           "status": "필수",
           "answer": [
-            "I remember one problem I had at a restaurant.",
-            "I ordered pasta, but they gave me the wrong dish.",
-            "I was a little surprised, so I told the staff what I had ordered.",
+            "Well, I remember one problem I had at a restaurant.",
+            "One day, I ordered pasta, but they gave me the wrong dish.",
+            "I was a little surprised, so I told the staff about the problem.",
             "They said sorry and brought me the right dish.",
-            "A few minutes later, I could enjoy my meal.",
+            "After that, I enjoyed my meal.",
             "So yeah, everything was fine in the end."
           ],
-          "hint": "음식점에서 문제가 생겼던 경험으로 시작하기. → 파스타를 주문했는데 다른 음식이 나왔다고 설명하기. → 조금 놀라 직원에게 주문한 음식을 말했다고 설명하기. → 직원이 사과하고 맞는 음식을 가져다주었다고 말하기. → 몇 분 뒤 식사를 즐길 수 있었다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
+          "hint": "음식점에서 겪은 문제를 떠올렸다고 말하기. → 파스타를 주문했는데 다른 음식이 나왔다고 설명하기. → 조금 놀랐지만 직원에게 문제를 말했다고 말하기. → 직원이 사과하고 올바른 음식을 가져다주었다고 설명하기. → 그 뒤 식사를 즐겼다고 말하기. → 결국 모든 일이 잘 해결됐다고 마무리하기.",
           "questionEn": "Tell me about a problem you had at a restaurant. How did you explain it, and what did the staff do?",
           "type": "문제 경험",
           "hintSteps": [
-            "음식점에서 문제가 생겼던 경험으로 시작하기.",
+            "음식점에서 겪은 문제를 떠올렸다고 말하기.",
             "파스타를 주문했는데 다른 음식이 나왔다고 설명하기.",
-            "조금 놀라 직원에게 주문한 음식을 말했다고 설명하기.",
-            "직원이 사과하고 맞는 음식을 가져다주었다고 말하기.",
-            "몇 분 뒤 식사를 즐길 수 있었다고 결과 말하기.",
-            "결국 잘 해결되었다고 마무리하기."
+            "조금 놀랐지만 직원에게 문제를 말했다고 말하기.",
+            "직원이 사과하고 올바른 음식을 가져다주었다고 설명하기.",
+            "그 뒤 식사를 즐겼다고 말하기.",
+            "결국 모든 일이 잘 해결됐다고 마무리하기."
           ]
         },
         {
@@ -4310,23 +4310,23 @@ window.OPIC_DATA = {
           "question": "재활용은 왜 중요한가요? 어떤 도움이 되는지 설명하고 사람들이 할 수 있는 행동의 예를 들어 주세요.",
           "status": "선택",
           "answer": [
-            "I think recycling is important because it reduces trash.",
-            "We can use materials like paper and plastic again.",
-            "That helps protect the environment.",
-            "For example, I separate paper, plastic, glass, and cans at home.",
-            "I also clean the containers before I take them out.",
-            "So yeah, it's a small habit, but it's helpful."
+            "Well, I think recycling is very important in Korea.",
+            "We need to separate paper, plastic, glass, and cans.",
+            "That helps reduce trash and protect the environment.",
+            "For example, I usually take out the recycling on weekends.",
+            "I clean the containers and put them in the right bins.",
+            "So yeah, I think it's a good habit."
           ],
-          "hint": "쓰레기를 줄여 주기 때문에 재활용이 중요하다고 말하기. → 종이와 플라스틱 같은 재료를 다시 쓸 수 있다고 설명하기. → 환경 보호에 도움이 된다고 말하기. → 나는 집에서 종이, 플라스틱, 유리, 캔을 분리한다고 예를 들기. → 내놓기 전에 용기도 씻는다고 덧붙이기. → 작은 습관이지만 도움이 된다고 마무리하기.",
+          "hint": "한국에서 재활용이 중요하다고 생각한다고 말하기. → 종이, 플라스틱, 유리, 캔을 분리해야 한다고 설명하기. → 쓰레기를 줄이고 환경을 보호하는 데 도움이 된다고 말하기. → 예를 들어 자신은 주말에 재활용품을 배출한다고 설명하기. → 용기를 씻어 알맞은 수거함에 넣는다고 말하기. → 좋은 습관이라고 마무리하기.",
           "questionEn": "Why is recycling important? Explain how it helps and give an example of something people can do.",
           "type": "의견·이유",
           "hintSteps": [
-            "쓰레기를 줄여 주기 때문에 재활용이 중요하다고 말하기.",
-            "종이와 플라스틱 같은 재료를 다시 쓸 수 있다고 설명하기.",
-            "환경 보호에 도움이 된다고 말하기.",
-            "나는 집에서 종이, 플라스틱, 유리, 캔을 분리한다고 예를 들기.",
-            "내놓기 전에 용기도 씻는다고 덧붙이기.",
-            "작은 습관이지만 도움이 된다고 마무리하기."
+            "한국에서 재활용이 중요하다고 생각한다고 말하기.",
+            "종이, 플라스틱, 유리, 캔을 분리해야 한다고 설명하기.",
+            "쓰레기를 줄이고 환경을 보호하는 데 도움이 된다고 말하기.",
+            "예를 들어 자신은 주말에 재활용품을 배출한다고 설명하기.",
+            "용기를 씻어 알맞은 수거함에 넣는다고 말하기.",
+            "좋은 습관이라고 마무리하기."
           ]
         }
       ],
@@ -4424,23 +4424,23 @@ window.OPIC_DATA = {
           "question": "은행 계좌를 개설해야 한다고 가정해 보세요. 서류 준비부터 계좌 개설까지 할 일을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "If I need a new bank account, I'll check what documents I need first.",
-            "I'll take my ID and the documents to the bank.",
-            "Then, I'll take a number and wait.",
-            "When it's my turn, I'll fill out a form with help from the staff.",
-            "After they open the account, I'll ask how to use it on my phone.",
-            "So yeah, that's what I'll do."
+            "If I need to open a bank account, I check what documents I need first.",
+            "Then, I take my ID and the documents to the bank.",
+            "When I get there, I tell the staff I want to open an account.",
+            "The staff helps me fill out a form.",
+            "After that, I can use my new account on my phone.",
+            "So yeah, that's how I would open a bank account."
           ],
-          "hint": "계좌를 만들 때 먼저 필요한 서류를 확인하겠다고 말하기. → 신분증과 서류를 은행에 가져가겠다고 설명하기. → 번호표를 뽑고 기다리겠다고 말하기. → 차례가 되면 직원 도움을 받아 신청서를 쓰겠다고 설명하기. → 계좌 개설 후 휴대폰으로 사용하는 방법을 묻겠다고 말하기. → 이런 순서로 하겠다고 마무리하기.",
+          "hint": "계좌를 만들려면 먼저 필요한 서류를 확인하겠다고 말하기. → 신분증과 필요한 서류를 은행에 가져가겠다고 설명하기. → 은행에 도착하면 직원에게 계좌를 만들고 싶다고 말하기. → 직원의 도움을 받아 신청서를 작성한다고 설명하기. → 그 후 휴대폰으로 새 계좌를 이용할 수 있다고 말하기. → 이렇게 계좌를 만들겠다고 마무리하기.",
           "questionEn": "Suppose you need to open a bank account. Explain the steps you would take, from preparing documents to opening the account.",
           "type": "일과·절차",
           "hintSteps": [
-            "계좌를 만들 때 먼저 필요한 서류를 확인하겠다고 말하기.",
-            "신분증과 서류를 은행에 가져가겠다고 설명하기.",
-            "번호표를 뽑고 기다리겠다고 말하기.",
-            "차례가 되면 직원 도움을 받아 신청서를 쓰겠다고 설명하기.",
-            "계좌 개설 후 휴대폰으로 사용하는 방법을 묻겠다고 말하기.",
-            "이런 순서로 하겠다고 마무리하기."
+            "계좌를 만들려면 먼저 필요한 서류를 확인하겠다고 말하기.",
+            "신분증과 필요한 서류를 은행에 가져가겠다고 설명하기.",
+            "은행에 도착하면 직원에게 계좌를 만들고 싶다고 말하기.",
+            "직원의 도움을 받아 신청서를 작성한다고 설명하기.",
+            "그 후 휴대폰으로 새 계좌를 이용할 수 있다고 말하기.",
+            "이렇게 계좌를 만들겠다고 마무리하기."
           ]
         },
         {
@@ -4620,23 +4620,23 @@ window.OPIC_DATA = {
           "question": "휴대폰이 작동하지 않았던 경험을 말해 주세요. 무엇을 하던 중이었고, 어떻게 대처했으며, 그다음 어떻게 됐나요?",
           "status": "필수",
           "answer": [
-            "I remember one problem I had with my phone.",
-            "One day, I dropped it while I was sending a message.",
-            "I was really surprised because it turned off and wouldn't turn on.",
-            "So I pressed the power button several times.",
-            "Luckily, it turned on again, and I could send the message.",
+            "Well, I remember one problem I had with my phone.",
+            "One day, I was taking a walk and listening to music.",
+            "I accidentally dropped my phone, and it turned off.",
+            "I tried to turn it on, but it didn't work.",
+            "So I pressed the power button a few times, and luckily, it turned on again.",
             "So yeah, everything was fine in the end."
           ],
-          "hint": "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기. → 어느 날 메시지를 보내다가 휴대폰을 떨어뜨렸다고 설명하기. → 휴대폰이 꺼지고 다시 켜지지 않아 정말 놀랐다고 말하기. → 전원 버튼을 여러 번 눌렀다고 대처 방법 설명하기. → 다행히 다시 켜져 메시지를 보낼 수 있었다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
+          "hint": "휴대폰에 문제가 생겼던 경험을 떠올렸다고 말하기. → 어느 날 산책하면서 음악을 듣고 있었다고 설명하기. → 실수로 휴대폰을 떨어뜨렸고 전원이 꺼졌다고 말하기. → 다시 켜려고 했지만 작동하지 않았다고 설명하기. → 전원 버튼을 몇 번 눌렀더니 다행히 다시 켜졌다고 말하기. → 결국 모든 일이 잘 해결됐다고 마무리하기.",
           "questionEn": "Tell me about a time your phone stopped working. What were you doing, how did you respond, and what happened next?",
           "type": "문제 경험",
           "hintSteps": [
-            "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기.",
-            "어느 날 메시지를 보내다가 휴대폰을 떨어뜨렸다고 설명하기.",
-            "휴대폰이 꺼지고 다시 켜지지 않아 정말 놀랐다고 말하기.",
-            "전원 버튼을 여러 번 눌렀다고 대처 방법 설명하기.",
-            "다행히 다시 켜져 메시지를 보낼 수 있었다고 결과 말하기.",
-            "결국 잘 해결되었다고 마무리하기."
+            "휴대폰에 문제가 생겼던 경험을 떠올렸다고 말하기.",
+            "어느 날 산책하면서 음악을 듣고 있었다고 설명하기.",
+            "실수로 휴대폰을 떨어뜨렸고 전원이 꺼졌다고 말하기.",
+            "다시 켜려고 했지만 작동하지 않았다고 설명하기.",
+            "전원 버튼을 몇 번 눌렀더니 다행히 다시 켜졌다고 말하기.",
+            "결국 모든 일이 잘 해결됐다고 마무리하기."
           ]
         },
         {
@@ -4670,23 +4670,23 @@ window.OPIC_DATA = {
           "question": "사람들이 AI 도구에 관심을 갖는 이유는 무엇인가요? 유용하게 느끼는 점과 걱정할 수 있는 점 하나를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I think people like AI because it saves time.",
-            "They can use it on their phones or computers.",
-            "For example, it can help them write messages and organize ideas.",
-            "That's useful when they are busy.",
-            "But sometimes, AI gives wrong answers.",
-            "So I think people should check important information."
+            "I think people like AI tools because they save time.",
+            "For example, AI can help people write messages and find information.",
+            "That's really useful when they are busy.",
+            "People can use AI on their phones or computers.",
+            "But sometimes AI gives wrong answers.",
+            "So I think it's important to check the information."
           ],
-          "hint": "AI가 시간을 절약해 줘서 사람들이 좋아한다고 말하기. → 휴대폰이나 컴퓨터에서 쓸 수 있다고 설명하기. → 메시지 작성과 생각 정리를 도와주는 예를 들기. → 바쁠 때 유용하다고 말하기. → 가끔 틀린 답을 준다는 걱정을 설명하기. → 중요한 정보는 확인해야 한다고 마무리하기.",
+          "hint": "AI 도구가 시간을 절약해 주기 때문에 사람들이 좋아한다고 말하기. → 예를 들어 메시지를 쓰거나 정보를 찾는 데 도움이 된다고 설명하기. → 바쁠 때 특히 유용하다고 말하기. → 휴대폰이나 컴퓨터에서 사용할 수 있다고 설명하기. → 하지만 AI가 잘못된 답변을 주기도 한다고 문제를 언급하기. → 그래서 정보를 확인하는 것이 중요하다고 마무리하기.",
           "questionEn": "Why are people interested in AI tools? Explain what they find useful and one concern they may have.",
           "type": "의견·이유",
           "hintSteps": [
-            "AI가 시간을 절약해 줘서 사람들이 좋아한다고 말하기.",
-            "휴대폰이나 컴퓨터에서 쓸 수 있다고 설명하기.",
-            "메시지 작성과 생각 정리를 도와주는 예를 들기.",
-            "바쁠 때 유용하다고 말하기.",
-            "가끔 틀린 답을 준다는 걱정을 설명하기.",
-            "중요한 정보는 확인해야 한다고 마무리하기."
+            "AI 도구가 시간을 절약해 주기 때문에 사람들이 좋아한다고 말하기.",
+            "예를 들어 메시지를 쓰거나 정보를 찾는 데 도움이 된다고 설명하기.",
+            "바쁠 때 특히 유용하다고 말하기.",
+            "휴대폰이나 컴퓨터에서 사용할 수 있다고 설명하기.",
+            "하지만 AI가 잘못된 답변을 주기도 한다고 문제를 언급하기.",
+            "그래서 정보를 확인하는 것이 중요하다고 마무리하기."
           ]
         },
         {
@@ -4695,23 +4695,23 @@ window.OPIC_DATA = {
           "question": "한국의 중요한 산업 하나를 골라 최근 변화를 설명해 주세요. 기업들은 예전에 무엇에 집중했고, 지금은 무엇을 개발하나요?",
           "status": "선택",
           "answer": [
-            "I think the tech industry is important in Korea.",
-            "Korean companies make phones and computers.",
-            "In the past, they focused on better screens and cameras.",
-            "But now, they are also developing AI tools.",
-            "These tools can help people write messages and find information.",
-            "So yeah, I think AI is an important change."
+            "I think the technology industry is very important in Korea.",
+            "In the past, companies tried to make better phones and computers.",
+            "For example, they made better screens and cameras.",
+            "But now, many companies are also working on AI.",
+            "AI can help people find information and do things faster.",
+            "So yeah, I think that's a big change."
           ],
-          "hint": "한국에서 기술 산업이 중요하다고 생각한다고 말하기. → 한국 기업들이 휴대폰과 컴퓨터를 만든다고 설명하기. → 예전에는 더 좋은 화면과 카메라에 집중했다고 말하기. → 지금은 AI 도구도 개발한다고 비교하기. → 메시지 작성과 정보 찾기를 도와주는 도구라고 설명하기. → AI가 중요한 변화라고 생각한다고 마무리하기.",
+          "hint": "한국에서 기술 산업이 중요하다고 말하기. → 예전에는 기업들이 더 좋은 휴대폰과 컴퓨터를 만드는 데 집중했다고 설명하기. → 예를 들어 화면과 카메라를 개선했다고 말하기. → 지금은 많은 기업이 AI도 개발한다고 비교하기. → AI는 정보를 찾거나 일을 빨리 하는 데 도움을 줄 수 있다고 말하기. → 이것이 큰 변화라고 마무리하기.",
           "questionEn": "Choose an important industry in Korea and describe a recent change in it. What did companies focus on before, and what are they working on now?",
           "type": "변화·비교",
           "hintSteps": [
-            "한국에서 기술 산업이 중요하다고 생각한다고 말하기.",
-            "한국 기업들이 휴대폰과 컴퓨터를 만든다고 설명하기.",
-            "예전에는 더 좋은 화면과 카메라에 집중했다고 말하기.",
-            "지금은 AI 도구도 개발한다고 비교하기.",
-            "메시지 작성과 정보 찾기를 도와주는 도구라고 설명하기.",
-            "AI가 중요한 변화라고 생각한다고 마무리하기."
+            "한국에서 기술 산업이 중요하다고 말하기.",
+            "예전에는 기업들이 더 좋은 휴대폰과 컴퓨터를 만드는 데 집중했다고 설명하기.",
+            "예를 들어 화면과 카메라를 개선했다고 말하기.",
+            "지금은 많은 기업이 AI도 개발한다고 비교하기.",
+            "AI는 정보를 찾거나 일을 빨리 하는 데 도움을 줄 수 있다고 말하기.",
+            "이것이 큰 변화라고 마무리하기."
           ]
         },
         {
@@ -4817,23 +4817,23 @@ window.OPIC_DATA = {
           "question": "한국의 대도시와 작은 지역을 비교해 주세요. 건물·거리·분위기가 어떻게 다른가요?",
           "status": "필수",
           "answer": [
-            "Big cities and small towns are quite different.",
-            "Big cities have tall buildings and many stores.",
-            "The streets are busy and noisy because there are many cars and people.",
-            "But small towns have fewer buildings and more open spaces.",
-            "Their streets are quieter and less crowded.",
-            "So yeah, small towns feel more relaxing to me."
+            "Well, big cities and small towns in Korea are very different.",
+            "In big cities, there are many tall buildings and busy streets.",
+            "There are also many cars and people, so it can be noisy.",
+            "But small towns have fewer buildings and quieter streets.",
+            "I like quiet places because they make me feel relaxed.",
+            "So yeah, I think small towns are more peaceful."
           ],
-          "hint": "대도시와 작은 지역은 꽤 다르다고 시작하기. → 대도시에는 높은 건물과 가게가 많다고 묘사하기. → 차와 사람이 많아 거리가 복잡하고 시끄럽다고 설명하기. → 작은 지역은 건물이 적고 탁 트인 공간이 더 많다고 비교하기. → 거리도 조용하고 덜 붐빈다고 말하기. → 작은 지역이 더 편안하게 느껴진다고 마무리하기.",
+          "hint": "한국의 큰 도시와 작은 마을이 매우 다르다고 말하기. → 큰 도시는 높은 건물과 복잡한 거리가 많다고 설명하기. → 차와 사람이 많아 시끄러울 수 있다고 말하기. → 반면 작은 마을은 건물이 적고 거리가 더 조용하다고 비교하기. → 조용한 장소가 자신을 편안하게 해서 좋아한다고 말하기. → 작은 마을이 더 평화롭게 느껴진다고 마무리하기.",
           "questionEn": "Compare a big city with a small town in Korea. How do their buildings, streets, and atmosphere differ?",
           "type": "변화·비교",
           "hintSteps": [
-            "대도시와 작은 지역은 꽤 다르다고 시작하기.",
-            "대도시에는 높은 건물과 가게가 많다고 묘사하기.",
-            "차와 사람이 많아 거리가 복잡하고 시끄럽다고 설명하기.",
-            "작은 지역은 건물이 적고 탁 트인 공간이 더 많다고 비교하기.",
-            "거리도 조용하고 덜 붐빈다고 말하기.",
-            "작은 지역이 더 편안하게 느껴진다고 마무리하기."
+            "한국의 큰 도시와 작은 마을이 매우 다르다고 말하기.",
+            "큰 도시는 높은 건물과 복잡한 거리가 많다고 설명하기.",
+            "차와 사람이 많아 시끄러울 수 있다고 말하기.",
+            "반면 작은 마을은 건물이 적고 거리가 더 조용하다고 비교하기.",
+            "조용한 장소가 자신을 편안하게 해서 좋아한다고 말하기.",
+            "작은 마을이 더 평화롭게 느껴진다고 마무리하기."
           ]
         },
         {
@@ -4842,23 +4842,23 @@ window.OPIC_DATA = {
           "question": "사는 지역은 어떻게 달라졌나요? 예전의 건물·도로와 지금의 모습을 비교해 주세요.",
           "status": "필수",
           "answer": [
-            "The area near my home has changed a lot.",
-            "In the past, there were fewer buildings and more open spaces.",
-            "The roads were also quiet.",
-            "But now, there are more stores and wider roads.",
-            "There are more cars, so the area is busier.",
-            "So yeah, life is easier now, but I miss the quiet streets."
+            "The area near my home in Yongin has changed a lot.",
+            "When I first moved here, there were fewer buildings and stores.",
+            "The roads were quiet, and there weren't many cars.",
+            "But now, there are more buildings and wider roads.",
+            "The area is busier than before.",
+            "So yeah, it's more convenient now, but I miss the quiet streets."
           ],
-          "hint": "집 주변 지역이 많이 달라졌다고 시작하기. → 예전에는 건물이 적고 빈 공간이 많았다고 말하기. → 도로도 조용했다고 설명하기. → 지금은 가게가 많고 도로가 더 넓다고 비교하기. → 차가 많아져 더 복잡해졌다고 말하기. → 생활은 편해졌지만 조용했던 거리가 그립다고 마무리하기.",
+          "hint": "용인 집 근처 지역이 많이 달라졌다고 말하기. → 처음 이사 왔을 때는 건물과 상점이 더 적었다고 설명하기. → 도로가 조용했고 차도 많지 않았다고 말하기. → 지금은 건물이 많아지고 도로가 넓어졌다고 비교하기. → 이전보다 동네가 더 복잡해졌다고 말하기. → 지금은 더 편리하지만 조용한 거리가 그립다고 마무리하기.",
           "questionEn": "How has the area where you live changed? Compare its buildings and roads in the past with what you see now.",
           "type": "변화·비교",
           "hintSteps": [
-            "집 주변 지역이 많이 달라졌다고 시작하기.",
-            "예전에는 건물이 적고 빈 공간이 많았다고 말하기.",
-            "도로도 조용했다고 설명하기.",
-            "지금은 가게가 많고 도로가 더 넓다고 비교하기.",
-            "차가 많아져 더 복잡해졌다고 말하기.",
-            "생활은 편해졌지만 조용했던 거리가 그립다고 마무리하기."
+            "용인 집 근처 지역이 많이 달라졌다고 말하기.",
+            "처음 이사 왔을 때는 건물과 상점이 더 적었다고 설명하기.",
+            "도로가 조용했고 차도 많지 않았다고 말하기.",
+            "지금은 건물이 많아지고 도로가 넓어졌다고 비교하기.",
+            "이전보다 동네가 더 복잡해졌다고 말하기.",
+            "지금은 더 편리하지만 조용한 거리가 그립다고 마무리하기."
           ]
         },
         {
@@ -4867,23 +4867,23 @@ window.OPIC_DATA = {
           "question": "많은 사람이 대도시로 이동하면 어떤 문제가 생길 수 있나요? 주요 문제와 개선 방법 하나를 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "I think too many people in big cities can cause problems.",
-            "There are more cars, so the roads get crowded.",
-            "People spend a lot of time going to work.",
-            "Also, homes can be more expensive because more people need them.",
-            "I think more jobs in smaller cities could help.",
-            "Then, people would have more places to live and work."
+            "Well, I think there are too many people in big cities.",
+            "First, there are too many cars, so the roads are very busy.",
+            "Also, houses are very expensive.",
+            "I think we need more jobs in smaller cities.",
+            "Then, people don't have to move to big cities.",
+            "So, I think that could help."
           ],
-          "hint": "대도시에 사람이 너무 많으면 문제가 생긴다고 말하기. → 차가 많아 도로가 붐빈다고 설명하기. → 출근하는 데 시간이 많이 걸린다고 말하기. → 집을 원하는 사람이 많아 집값이 비싸질 수 있다고 덧붙이기. → 작은 도시의 일자리를 늘리자고 개선 방법 제안하기. → 그러면 사람들이 살고 일할 곳을 더 다양하게 고를 수 있다고 설명하기.",
+          "hint": "큰 도시에 사람들이 너무 많다고 생각한다고 말하기. → 차가 너무 많아 도로가 혼잡하다고 첫 번째 문제를 설명하기. → 집값도 비싸다고 두 번째 문제를 말하기. → 작은 도시에도 일자리가 더 필요하다고 해결책을 제시하기. → 그러면 사람들이 큰 도시로 이사할 필요가 줄어든다고 설명하기. → 그 방법이 도움이 될 것 같다고 마무리하기.",
           "questionEn": "What problems can arise when many people move to big cities? Explain the main problems and one possible improvement.",
           "type": "의견·이유",
           "hintSteps": [
-            "대도시에 사람이 너무 많으면 문제가 생긴다고 말하기.",
-            "차가 많아 도로가 붐빈다고 설명하기.",
-            "출근하는 데 시간이 많이 걸린다고 말하기.",
-            "집을 원하는 사람이 많아 집값이 비싸질 수 있다고 덧붙이기.",
-            "작은 도시의 일자리를 늘리자고 개선 방법 제안하기.",
-            "그러면 사람들이 살고 일할 곳을 더 다양하게 고를 수 있다고 설명하기."
+            "큰 도시에 사람들이 너무 많다고 생각한다고 말하기.",
+            "차가 너무 많아 도로가 혼잡하다고 첫 번째 문제를 설명하기.",
+            "집값도 비싸다고 두 번째 문제를 말하기.",
+            "작은 도시에도 일자리가 더 필요하다고 해결책을 제시하기.",
+            "그러면 사람들이 큰 도시로 이사할 필요가 줄어든다고 설명하기.",
+            "그 방법이 도움이 될 것 같다고 마무리하기."
           ]
         },
         {
@@ -5006,23 +5006,23 @@ window.OPIC_DATA = {
           "question": "날씨 때문에 계획을 바꾼 경험을 말해 주세요. 원래 계획은 무엇이었고, 대신 어떻게 했나요?",
           "status": "필수",
           "answer": [
-            "I remember one time I changed my trip to Busan.",
-            "I wanted to go to Haeundae Beach, but there was heavy rain.",
-            "So I changed my train ticket to the next weekend.",
-            "Luckily, the weather was good that weekend.",
-            "I walked along the beach and took some pictures.",
-            "So yeah, I had a really relaxing time."
+            "Well, I remember one time I had to change my plans because of the weather.",
+            "I wanted to go to the park near my home.",
+            "But it started raining a lot, so I couldn't go.",
+            "So I stayed at home and watched TV instead.",
+            "I also listened to music and relaxed on my sofa.",
+            "So yeah, it was fine in the end."
           ],
-          "hint": "부산 여행 계획을 바꿨던 경험이 기억난다고 시작하기. → 해운대에 가고 싶었지만 비가 많이 왔다고 이유 설명하기. → 기차표를 다음 주말로 바꿨다고 말하기. → 다행히 그 주말에는 날씨가 좋았다고 설명하기. → 해변을 걷고 사진을 찍었다고 말하기. → 정말 편안한 시간을 보냈다고 마무리하기.",
+          "hint": "날씨 때문에 계획을 바꿔야 했던 경험이 있다고 말하기. → 집 근처 공원에 가려고 했다고 설명하기. → 비가 많이 와서 갈 수 없었다고 말하기. → 대신 집에 머물며 TV를 봤다고 설명하기. → 소파에서 음악을 듣고 쉬기도 했다고 말하기. → 결국 괜찮은 하루였다고 마무리하기.",
           "questionEn": "Tell me about a time the weather changed your plans. What was the original plan, and what did you do instead?",
           "type": "문제 경험",
           "hintSteps": [
-            "부산 여행 계획을 바꿨던 경험이 기억난다고 시작하기.",
-            "해운대에 가고 싶었지만 비가 많이 왔다고 이유 설명하기.",
-            "기차표를 다음 주말로 바꿨다고 말하기.",
-            "다행히 그 주말에는 날씨가 좋았다고 설명하기.",
-            "해변을 걷고 사진을 찍었다고 말하기.",
-            "정말 편안한 시간을 보냈다고 마무리하기."
+            "날씨 때문에 계획을 바꿔야 했던 경험이 있다고 말하기.",
+            "집 근처 공원에 가려고 했다고 설명하기.",
+            "비가 많이 와서 갈 수 없었다고 말하기.",
+            "대신 집에 머물며 TV를 봤다고 설명하기.",
+            "소파에서 음악을 듣고 쉬기도 했다고 말하기.",
+            "결국 괜찮은 하루였다고 마무리하기."
           ]
         },
         {
@@ -5120,22 +5120,22 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I remember one time I had to change plans with a friend.",
-            "We planned to meet at a cafe, but I was sick.",
-            "So I called my friend and said sorry.",
-            "I asked if we could meet the next weekend.",
-            "My friend said okay, and we met a week later.",
+            "We planned to meet at a cafe, but I wasn't feeling well.",
+            "So I called my friend and said I was sorry.",
+            "I asked if we could meet next weekend instead.",
+            "My friend said okay, so we met the next weekend.",
             "So yeah, everything was fine in the end."
           ],
-          "hint": "친구와 약속을 바꿔야 했던 경험이 기억난다고 시작하기. → 카페에서 만나기로 했지만 몸이 아팠다고 설명하기. → 친구에게 전화해 사과했다고 말하기. → 다음 주말에 만날 수 있는지 물었다고 말하기. → 친구가 괜찮다고 했고 일주일 뒤에 만났다고 결과 설명하기. → 결국 잘 해결되었다고 마무리하기.",
+          "hint": "친구와의 약속을 바꿨던 경험을 떠올린다고 말하기. → 카페에서 만나기로 했지만 몸이 좋지 않았다고 설명하기. → 친구에게 전화해서 미안하다고 했다고 말하기. → 대신 다음 주말에 만날 수 있는지 물었다고 설명하기. → 친구가 괜찮다고 해서 다음 주말에 만났다고 말하기. → 결국 모든 일이 잘 해결됐다고 마무리하기.",
           "questionEn": "Tell me about a time you canceled or changed an appointment. What happened, and how did you arrange a new plan?",
           "type": "문제 경험",
           "hintSteps": [
-            "친구와 약속을 바꿔야 했던 경험이 기억난다고 시작하기.",
-            "카페에서 만나기로 했지만 몸이 아팠다고 설명하기.",
-            "친구에게 전화해 사과했다고 말하기.",
-            "다음 주말에 만날 수 있는지 물었다고 말하기.",
-            "친구가 괜찮다고 했고 일주일 뒤에 만났다고 결과 설명하기.",
-            "결국 잘 해결되었다고 마무리하기."
+            "친구와의 약속을 바꿨던 경험을 떠올린다고 말하기.",
+            "카페에서 만나기로 했지만 몸이 좋지 않았다고 설명하기.",
+            "친구에게 전화해서 미안하다고 했다고 말하기.",
+            "대신 다음 주말에 만날 수 있는지 물었다고 설명하기.",
+            "친구가 괜찮다고 해서 다음 주말에 만났다고 말하기.",
+            "결국 모든 일이 잘 해결됐다고 마무리하기."
           ]
         },
         {
