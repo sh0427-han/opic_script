@@ -2,6 +2,9 @@
   "use strict";
 
   const data = window.OPIC_DATA;
+  const studyMeta = window.OPIC_STUDY_META || {};
+  const advancedQuestions = studyMeta.advancedQuestions || {};
+  const unexpectedTopics = studyMeta.unexpectedTopics || {};
   if (!data) {
     throw new Error("OPIc data was not loaded.");
   }
@@ -70,12 +73,16 @@
     { id: "survey", title: "설문조사 기반 주제",
       description: "주거 설정과 여가·취미·휴가 선택에 연결된 주제입니다." },
     { id: "unexpected", title: "일반·돌발 주제",
-      description: "현재 설문 선택과 별도로 준비하는 일상 주제입니다." },
+      description: "공개 수험생 표본 출제 횟수 기준으로 정렬한 연습 주제입니다." },
     { id: "roleplay", title: "롤플레이",
       description: "같은 상황을 정보 문의 → 문제 해결 → 관련 과거 경험 순서로 연습합니다." },
   ];
 
   const studyTopics = data.topics.flatMap((topic) => {
+    if (topic.source === "unexpected") {
+      const priority = unexpectedTopics[topic.id]?.priority ?? topic.order;
+      return [{ ...topic, order: 10 + priority }];
+    }
     if (topic.source !== "roleplay") return [topic];
     return topic.roleplayScenarios.map(([title, ...stages], index) => {
       const ids = stages.flatMap((stage) => Array.isArray(stage)
@@ -93,6 +100,16 @@
   const topicTitleHtml = (topic) => topic.source === "roleplay"
     ? `롤플레이 · ${escapeHtml(topic.title)}`
     : `${topic.order}. ${escapeHtml(topic.title)}`;
+
+  const unexpectedFrequencyText = (topic) => topic.source === "unexpected"
+    ? unexpectedTopics[topic.id]?.sampleLabel || "" : "";
+
+  const advancedTypeHtml = (question) => {
+    const type = advancedQuestions[question.id];
+    return type === "14" || type === "15"
+      ? `<span class="advanced-tag advanced-tag--${type}">${type}번 유형</span>`
+      : "";
+  };
 
   const matchesTopic = (topic) => state.topic === "all"
     || topic.id === state.topic || topic.source === state.topic;
@@ -136,6 +153,10 @@
       <div class="study-category-heading">
         <h2 id="category-${category.id}">${category.title}</h2>
         <p>${category.description} · ${count}개 문항</p>
+        ${category.id === "unexpected" && studyMeta.frequencySource
+    ? `<p class="frequency-note">${escapeHtml(studyMeta.frequencyNote)}
+            <a href="${escapeHtml(studyMeta.frequencySource)}" target="_blank"
+              rel="noopener noreferrer">표본 집계 출처</a></p>` : ""}
       </div>${renderTopics(members)}
     </section>`;
   }).join("");
@@ -152,6 +173,7 @@
       question.question,
       question.questionEn,
       question.type,
+      advancedQuestions[question.id] ? `${advancedQuestions[question.id]}번 유형` : "",
       question.hint,
       ...question.answer,
       ...(question.variants ?? []).flatMap((variant) =>
@@ -188,6 +210,7 @@
         <p class="question-meta">
           <span class="question-number">${escapeHtml(question.number)}</span>
           <span class="question-type">${escapeHtml(question.type)}</span>
+          ${advancedTypeHtml(question)}
           <span class="sentence-count">${question.questionOnly ? "질문만 등록" : `답변 ${question.answer.length}문장`}</span>
           <span class="origin-label ${question.scriptOrigin === "user"
     ? "origin-label--user" : "origin-label--original"}">${question.scriptOrigin === "user"
@@ -227,7 +250,9 @@
             + studyTopics
             .filter((topic) => topic.source === group.id)
             .sort((first, second) => first.order - second.order)
-            .map((topic) => chipHtml({ id: topic.id, title: topic.title }))
+            .map((topic) => chipHtml({ id: topic.id, title: topic.source === "unexpected"
+              ? `${topic.title} · 표본 ${unexpectedTopics[topic.id]?.sampleCount ?? "?"}회`
+              : topic.title }))
             .join("");
           return `
             <section class="topic-filter-group" aria-labelledby="${group.id}-filter-title">
@@ -336,7 +361,8 @@
     return `<section class="topic-section" aria-labelledby="${topic.id}-title">
       <div class="topic-heading">
         <h2 id="${topic.id}-title">${topicTitleHtml(topic)}</h2>
-        <span>${topic.questions.length}개 문제</span>
+        <span>${topic.questions.length}개 문제${unexpectedFrequencyText(topic)
+    ? ` · ${escapeHtml(unexpectedFrequencyText(topic))}` : ""}</span>
       </div>
       ${groups}
     </section>`;
@@ -367,7 +393,8 @@
     <section class="topic-section" aria-labelledby="${topic.id}-practice-title">
       <div class="topic-heading">
         <h2 id="${topic.id}-practice-title">${topicTitleHtml(topic)}</h2>
-        <span>${topic.questions.length}개 문제</span>
+        <span>${topic.questions.length}개 문제${unexpectedFrequencyText(topic)
+    ? ` · ${escapeHtml(unexpectedFrequencyText(topic))}` : ""}</span>
       </div>
       ${topic.roleplaySections ? getRoleplaySections(topic).flatMap((section) =>
         section.sets).map((set) => set.questionIds.length
