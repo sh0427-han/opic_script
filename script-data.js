@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v45",
+  "version": "v46",
   "updated": "2026-10-15",
   "questionCount": 168,
   "survey": {
@@ -430,23 +430,23 @@ window.OPIC_DATA = {
           "question": "집에서 가족과 보낸 기억에 남는 시간을 말해 주세요. 언제였고, 무엇을 했으며, 왜 특별했나요?",
           "status": "선택",
           "answer": [
-            "Well, I remember one nice dinner with my family at home.",
-            "It was last month, and my family came to visit me.",
-            "I ordered some food because I didn't want to spend time cooking.",
-            "We sat together, ate dinner, and talked about everyday life.",
-            "After dinner, we took some pictures together.",
-            "So yeah, it was a simple but special evening."
+            "I remember one special day at home with my family.",
+            "It was my birthday, and my friends called me and asked me to meet them there.",
+            "When I got there, my family and friends were waiting for me with a cake and some gifts.",
+            "Then, they started singing a birthday song for me.",
+            "I was really surprised and almost cried.",
+            "I was so thankful to my family and friends, and I will never forget that day."
           ],
-          "hint": "집에서 가족과 함께한 좋은 저녁을 떠올린다고 시작하기. → 지난달 가족이 집에 놀러 왔다고 말하기. → 요리에 시간을 쓰지 않으려고 음식을 주문했다고 설명하기. → 함께 저녁을 먹고 일상 이야기를 나눴다고 말하기. → 저녁 뒤 사진을 함께 찍었다고 설명하기. → 소박하지만 특별한 저녁이었다고 마무리하기.",
+          "hint": "집에서 가족과 함께한 특별한 날을 떠올린다고 말하기. → 내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기. → 도착해 보니 가족과 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기. → 가족과 친구들이 생일 축하 노래를 불러 줬다고 설명하기. → 정말 놀라서 거의 울 뻔했다고 말하기. → 가족과 친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기.",
           "questionEn": "Tell me about a memorable time you spent with your family at home. When was it, what did you do, and what made it special?",
           "type": "과거 경험",
           "hintSteps": [
-            "집에서 가족과 함께한 좋은 저녁을 떠올린다고 시작하기.",
-            "지난달 가족이 집에 놀러 왔다고 말하기.",
-            "요리에 시간을 쓰지 않으려고 음식을 주문했다고 설명하기.",
-            "함께 저녁을 먹고 일상 이야기를 나눴다고 말하기.",
-            "저녁 뒤 사진을 함께 찍었다고 설명하기.",
-            "소박하지만 특별한 저녁이었다고 마무리하기."
+            "집에서 가족과 함께한 특별한 날을 떠올린다고 말하기.",
+            "내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기.",
+            "도착해 보니 가족과 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기.",
+            "가족과 친구들이 생일 축하 노래를 불러 줬다고 설명하기.",
+            "정말 놀라서 거의 울 뻔했다고 말하기.",
+            "가족과 친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
           ]
         },
         {
@@ -1703,23 +1703,23 @@ window.OPIC_DATA = {
           "question": "아직도 생생하게 기억나는 해변 여행을 말해 주세요. 무슨 일이 있었고, 왜 기억에 남나요?",
           "status": "필수",
           "answer": [
-            "Well, I remember one special trip to Haeundae Beach.",
-            "I went there by myself about three years ago.",
-            "The weather was nice, and the ocean looked really beautiful.",
-            "I took a walk along the beach and found a bench.",
-            "Then, I listened to slow music and enjoyed the view.",
-            "I felt really relaxed, so I still remember that day."
+            "I remember one special day at Haeundae Beach in Busan.",
+            "It was my birthday, and my friends called me and asked me to meet them there.",
+            "When I got there, they were already waiting for me with a cake and some gifts.",
+            "Then, they started singing a birthday song for me.",
+            "I was really surprised and almost cried.",
+            "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "해운대에서 기억에 남는 여행을 떠올린다고 말하기. → 약 3년 전에 혼자 갔다고 설명하기. → 날씨가 좋고 바다가 아름다웠다고 말하기. → 해변을 걷고 벤치를 찾았다고 설명하기. → 잔잔한 음악을 들으며 풍경을 즐겼다고 말하기. → 편안한 기분이 들어 그날이 기억난다고 마무리하기.",
+          "hint": "부산 해운대에서 있었던 특별한 날을 떠올린다고 말하기. → 내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기. → 도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기. → 친구들이 생일 축하 노래를 불러 줬다고 설명하기. → 정말 놀라서 거의 울 뻔했다고 말하기. → 친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기.",
           "questionEn": "Tell me about a beach trip you still remember clearly. What happened, and why was it so memorable?",
           "type": "과거 경험",
           "hintSteps": [
-            "해운대에서 기억에 남는 여행을 떠올린다고 말하기.",
-            "약 3년 전에 혼자 갔다고 설명하기.",
-            "날씨가 좋고 바다가 아름다웠다고 말하기.",
-            "해변을 걷고 벤치를 찾았다고 설명하기.",
-            "잔잔한 음악을 들으며 풍경을 즐겼다고 말하기.",
-            "편안한 기분이 들어 그날이 기억난다고 마무리하기."
+            "부산 해운대에서 있었던 특별한 날을 떠올린다고 말하기.",
+            "내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기.",
+            "도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기.",
+            "친구들이 생일 축하 노래를 불러 줬다고 설명하기.",
+            "정말 놀라서 거의 울 뻔했다고 말하기.",
+            "친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
           ]
         },
         {
@@ -2516,23 +2516,23 @@ window.OPIC_DATA = {
           "question": "잊을 수 없는 콘서트의 한 순간을 말해 주세요. 무슨 일이 있었고, 왜 특별했나요?",
           "status": "필수",
           "answer": [
-            "I remember one special moment at a concert.",
-            "The singer started singing one of my favorite songs.",
-            "Everyone around me began singing along.",
-            "I sang along, too, and I felt really happy.",
-            "It was much more exciting than listening to music at home.",
-            "So yeah, I'll never forget that moment."
+            "I remember one special day at a concert.",
+            "It was my birthday, and my friends called me and asked me to meet them there.",
+            "When I got there, they were already waiting for me with a cake and some gifts.",
+            "Then, they started singing a birthday song for me.",
+            "I was really surprised and almost cried.",
+            "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "콘서트에서 특별한 순간을 기억한다고 말하기. → 가수가 좋아하는 노래 중 하나를 부르기 시작했다고 설명하기. → 주변 사람들이 따라 부르기 시작했다고 말하기. → 나도 따라 부르며 정말 행복했다고 설명하기. → 집에서 듣는 것보다 훨씬 신났다고 말하기. → 그 순간을 잊지 못할 거라고 마무리하기.",
+          "hint": "콘서트에서 있었던 특별한 날을 떠올린다고 말하기. → 내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기. → 도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기. → 친구들이 생일 축하 노래를 불러 줬다고 설명하기. → 정말 놀라서 거의 울 뻔했다고 말하기. → 친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기.",
           "questionEn": "Tell me about a concert moment you will never forget. What happened, and why was it special?",
           "type": "과거 경험",
           "hintSteps": [
-            "콘서트에서 특별한 순간을 기억한다고 말하기.",
-            "가수가 좋아하는 노래 중 하나를 부르기 시작했다고 설명하기.",
-            "주변 사람들이 따라 부르기 시작했다고 말하기.",
-            "나도 따라 부르며 정말 행복했다고 설명하기.",
-            "집에서 듣는 것보다 훨씬 신났다고 말하기.",
-            "그 순간을 잊지 못할 거라고 마무리하기."
+            "콘서트에서 있었던 특별한 날을 떠올린다고 말하기.",
+            "내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기.",
+            "도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기.",
+            "친구들이 생일 축하 노래를 불러 줬다고 설명하기.",
+            "정말 놀라서 거의 울 뻔했다고 말하기.",
+            "친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
           ]
         },
         {
@@ -3556,23 +3556,23 @@ window.OPIC_DATA = {
           "questionEn": "Share a memorable experience you had at a bar or pub. Describe when it happened, who was with you, and what took place. What made the occasion stand out?",
           "question": "술집이나 펍에서 있었던 기억에 남는 경험을 말해 주세요. 언제였는지, 누구와 함께 있었는지, 무슨 일이 있었는지 설명해 주세요. 어떤 점 때문에 기억에 남나요?",
           "hintSteps": [
-            "작년에 술집에서 보낸 특별한 하루가 기억난다고 시작하기.",
-            "생일이었고 친구들이 전화해 그곳에서 만나자고 했다고 설명하기.",
-            "도착하니 친구들이 케이크와 선물을 들고 기다리고 있었다고 말하기.",
-            "친구들이 생일 축하 노래를 불러 주었다고 설명하기.",
-            "너무 놀라 거의 울 뻔했다고 감정 말하기.",
-            "친구들에게 정말 고마웠고 그날을 잊지 못할 것이라고 마무리하기."
+            "펍에서 있었던 특별한 날을 떠올린다고 말하기.",
+            "내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기.",
+            "도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기.",
+            "친구들이 생일 축하 노래를 불러 줬다고 설명하기.",
+            "정말 놀라서 거의 울 뻔했다고 말하기.",
+            "친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
           ],
           "status": "필수",
           "answer": [
-            "I remember one special day at a pub last year.",
+            "I remember one special day at a pub.",
             "It was my birthday, and my friends called me and asked me to meet them there.",
             "When I got there, they were already waiting for me with a cake and some gifts.",
             "Then, they started singing a birthday song for me.",
             "I was really surprised and almost cried.",
             "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "작년에 술집에서 보낸 특별한 하루가 기억난다고 시작하기. → 생일이었고 친구들이 전화해 그곳에서 만나자고 했다고 설명하기. → 도착하니 친구들이 케이크와 선물을 들고 기다리고 있었다고 말하기. → 친구들이 생일 축하 노래를 불러 주었다고 설명하기. → 너무 놀라 거의 울 뻔했다고 감정 말하기. → 친구들에게 정말 고마웠고 그날을 잊지 못할 것이라고 마무리하기."
+          "hint": "펍에서 있었던 특별한 날을 떠올린다고 말하기. → 내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기. → 도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기. → 친구들이 생일 축하 노래를 불러 줬다고 설명하기. → 정말 놀라서 거의 울 뻔했다고 말하기. → 친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
         }
       ],
       "roleplaySections": [
@@ -3873,23 +3873,23 @@ window.OPIC_DATA = {
           "question": "기억에 남는 호텔 숙박 경험을 말해 주세요. 머무는 동안 무엇을 했고, 왜 기억에 남나요?",
           "status": "필수",
           "answer": [
-            "Well, I remember one hotel stay near Haeundae Beach.",
-            "I went there about three years ago.",
-            "I could see the ocean from my room.",
-            "I sat by the window and listened to slow music.",
-            "The view was beautiful, so I felt really relaxed.",
-            "So yeah, I still remember that day."
+            "I remember one special day at a hotel.",
+            "It was my birthday, and my friends called me and asked me to meet them there.",
+            "When I got there, they were already waiting for me with a cake and some gifts.",
+            "Then, they started singing a birthday song for me.",
+            "I was really surprised and almost cried.",
+            "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "해운대 근처 호텔에서 보낸 기억을 이야기하기. → 약 3년 전에 방문했다고 말하기. → 객실에서 바다가 보였다고 설명하기. → 창가에 앉아 잔잔한 음악을 들었다고 말하기. → 전망이 아름다워서 편안한 기분이었다고 설명하기. → 그날이 아직도 기억난다고 마무리하기.",
+          "hint": "호텔에서 있었던 특별한 날을 떠올린다고 말하기. → 내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기. → 도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기. → 친구들이 생일 축하 노래를 불러 줬다고 설명하기. → 정말 놀라서 거의 울 뻔했다고 말하기. → 친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기.",
           "questionEn": "Tell me about a hotel stay you remember well. What happened during your stay, and why was it memorable?",
           "type": "과거 경험",
           "hintSteps": [
-            "해운대 근처 호텔에서 보낸 기억을 이야기하기.",
-            "약 3년 전에 방문했다고 말하기.",
-            "객실에서 바다가 보였다고 설명하기.",
-            "창가에 앉아 잔잔한 음악을 들었다고 말하기.",
-            "전망이 아름다워서 편안한 기분이었다고 설명하기.",
-            "그날이 아직도 기억난다고 마무리하기."
+            "호텔에서 있었던 특별한 날을 떠올린다고 말하기.",
+            "내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기.",
+            "도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기.",
+            "친구들이 생일 축하 노래를 불러 줬다고 설명하기.",
+            "정말 놀라서 거의 울 뻔했다고 말하기.",
+            "친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
           ]
         },
         {
@@ -5201,22 +5201,22 @@ window.OPIC_DATA = {
           "status": "필수",
           "answer": [
             "I remember one special day with my friends.",
-            "It was my birthday, and my friends asked me to meet them at a pub.",
+            "It was my birthday, and my friends called me and asked me to meet them there.",
             "When I got there, they were already waiting for me with a cake and some gifts.",
             "Then, they started singing a birthday song for me.",
             "I was really surprised and almost cried.",
             "I was so thankful to my friends, and I will never forget that day."
           ],
-          "hint": "친구들과 보낸 특별한 하루가 기억난다고 시작하기. → 생일에 친구들이 술집에서 만나자고 했다고 설명하기. → 도착하니 케이크와 선물을 들고 기다리고 있었다고 말하기. → 친구들이 생일 축하 노래를 불러 주었다고 설명하기. → 너무 놀라 거의 울 뻔했다고 감정 말하기. → 친구들에게 정말 고마웠고 그날을 잊지 못할 것이라고 마무리하기.",
+          "hint": "친구들과 함께한 특별한 날을 떠올린다고 말하기. → 내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기. → 도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기. → 친구들이 생일 축하 노래를 불러 줬다고 설명하기. → 정말 놀라서 거의 울 뻔했다고 말하기. → 친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기.",
           "questionEn": "Tell me about a gathering or celebration you remember well. Who was there, what did you do, and why was it memorable?",
           "type": "과거 경험",
           "hintSteps": [
-            "친구들과 보낸 특별한 하루가 기억난다고 시작하기.",
-            "생일에 친구들이 술집에서 만나자고 했다고 설명하기.",
-            "도착하니 케이크와 선물을 들고 기다리고 있었다고 말하기.",
-            "친구들이 생일 축하 노래를 불러 주었다고 설명하기.",
-            "너무 놀라 거의 울 뻔했다고 감정 말하기.",
-            "친구들에게 정말 고마웠고 그날을 잊지 못할 것이라고 마무리하기."
+            "친구들과 함께한 특별한 날을 떠올린다고 말하기.",
+            "내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기.",
+            "도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기.",
+            "친구들이 생일 축하 노래를 불러 줬다고 설명하기.",
+            "정말 놀라서 거의 울 뻔했다고 말하기.",
+            "친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
           ]
         },
         {
