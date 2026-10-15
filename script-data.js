@@ -2441,23 +2441,23 @@ window.OPIC_DATA = {
           "question": "어떤 종류의 콘서트를 좋아하나요? 그런 공연의 음악·무대·분위기를 묘사해 주세요.",
           "status": "필수",
           "answer": [
-            "Well, I like pop concerts with songs I already know, especially ones with a lively atmosphere.",
-            "The singer's voice sounds loud and clear through the speakers, even from the back.",
-            "There's usually a big stage with bright lights that change as the songs change.",
-            "In front of the stage, there are lots of people facing the singer.",
-            "You know, when the audience sings together, the whole place sounds full of energy.",
-            "It feels like a big shared moment, and that's the atmosphere I really like."
+            "Well, I like pop concerts, especially concerts with slow songs.",
+            "There is usually a big stage with bright lights.",
+            "The singer stands on the stage and sings into a microphone.",
+            "Many people sit or stand in front of the stage.",
+            "When everyone sings together, the atmosphere is really nice.",
+            "So yeah, I like listening to live music at concerts."
           ],
-          "hint": "아는 노래가 나오고 분위기가 활기찬 팝 콘서트를 좋아한다고 말하기. → 뒤쪽에서도 가수 목소리가 스피커를 통해 크고 또렷하게 들린다고 설명하기. → 큰 무대가 있고 노래에 따라 밝은 조명이 바뀐다고 묘사하기. → 무대 앞에는 가수를 바라보는 사람이 많다고 말하기. → 관객이 함께 노래하면 공연장 전체가 활기차게 느껴진다고 설명하기. → 모두가 함께하는 큰 순간처럼 느껴지는 분위기를 좋아한다고 마무리하기.",
+          "hint": "잔잔한 노래가 있는 팝 콘서트를 좋아한다고 말하기. → 밝은 조명이 있는 큰 무대가 있다고 설명하기. → 가수가 무대에서 마이크로 노래한다고 말하기. → 관객들이 무대 앞에 앉거나 서 있다고 설명하기. → 함께 노래하면 분위기가 정말 좋다고 말하기. → 콘서트에서 라이브 음악을 듣는 것을 좋아한다고 마무리하기.",
           "questionEn": "What kind of concerts do you like? Describe the music, stage, and atmosphere at those concerts.",
           "type": "묘사",
           "hintSteps": [
-            "아는 노래가 나오고 분위기가 활기찬 팝 콘서트를 좋아한다고 말하기.",
-            "뒤쪽에서도 가수 목소리가 스피커를 통해 크고 또렷하게 들린다고 설명하기.",
-            "큰 무대가 있고 노래에 따라 밝은 조명이 바뀐다고 묘사하기.",
-            "무대 앞에는 가수를 바라보는 사람이 많다고 말하기.",
-            "관객이 함께 노래하면 공연장 전체가 활기차게 느껴진다고 설명하기.",
-            "모두가 함께하는 큰 순간처럼 느껴지는 분위기를 좋아한다고 마무리하기."
+            "잔잔한 노래가 있는 팝 콘서트를 좋아한다고 말하기.",
+            "밝은 조명이 있는 큰 무대가 있다고 설명하기.",
+            "가수가 무대에서 마이크로 노래한다고 말하기.",
+            "관객들이 무대 앞에 앉거나 서 있다고 설명하기.",
+            "함께 노래하면 분위기가 정말 좋다고 말하기.",
+            "콘서트에서 라이브 음악을 듣는 것을 좋아한다고 마무리하기."
           ]
         },
         {
@@ -2466,23 +2466,23 @@ window.OPIC_DATA = {
           "question": "콘서트에서 보통 무엇을 하나요? 자리를 찾는 순간부터 공연 후 나갈 때까지 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "At a concert, I mainly listen to the music and sing along when I know the words.",
-            "First, I find my seat and put my bag somewhere it won't get in the way.",
-            "When the show starts, I put my phone away and focus on the stage.",
-            "I sing along to the songs I know and clap with the people around me.",
-            "I might take a few pictures between songs, but I don't keep my phone out.",
-            "After the last song, I clap again and slowly leave with the crowd, and that's about it."
+            "When I go to a concert, I find my seat first.",
+            "Then, I put my bag down and wait for the show.",
+            "When the music starts, I watch the singer on the stage.",
+            "Sometimes I sing along or clap my hands.",
+            "I take a few pictures with my phone, too.",
+            "After the concert, I leave and go home."
           ],
-          "hint": "콘서트에서는 주로 음악을 듣고 가사를 알면 따라 부른다고 말하기. → 먼저 좌석을 찾고 방해되지 않게 가방을 둔다고 설명하기. → 공연이 시작되면 휴대폰을 넣고 무대에 집중한다고 말하기. → 아는 노래는 따라 부르고 주변 사람들과 박수 친다고 설명하기. → 노래 사이에 사진을 조금 찍지만 계속 휴대폰을 꺼내 두지는 않는다고 말하기. → 마지막 노래 뒤 다시 박수 치고 사람들과 천천히 나간다고 마무리하기.",
+          "hint": "콘서트에 가면 먼저 자리를 찾는다고 말하기. → 가방을 내려놓고 공연을 기다린다고 설명하기. → 음악이 시작되면 무대 위 가수를 본다고 말하기. → 가끔 따라 부르거나 박수를 친다고 설명하기. → 휴대폰으로 사진도 몇 장 찍는다고 말하기. → 공연 뒤에 나와 집에 간다고 마무리하기.",
           "questionEn": "What do you usually do at a concert? Explain your activities from finding your seat to leaving after the show.",
           "type": "일과·절차",
           "hintSteps": [
-            "콘서트에서는 주로 음악을 듣고 가사를 알면 따라 부른다고 말하기.",
-            "먼저 좌석을 찾고 방해되지 않게 가방을 둔다고 설명하기.",
-            "공연이 시작되면 휴대폰을 넣고 무대에 집중한다고 말하기.",
-            "아는 노래는 따라 부르고 주변 사람들과 박수 친다고 설명하기.",
-            "노래 사이에 사진을 조금 찍지만 계속 휴대폰을 꺼내 두지는 않는다고 말하기.",
-            "마지막 노래 뒤 다시 박수 치고 사람들과 천천히 나간다고 마무리하기."
+            "콘서트에 가면 먼저 자리를 찾는다고 말하기.",
+            "가방을 내려놓고 공연을 기다린다고 설명하기.",
+            "음악이 시작되면 무대 위 가수를 본다고 말하기.",
+            "가끔 따라 부르거나 박수를 친다고 설명하기.",
+            "휴대폰으로 사진도 몇 장 찍는다고 말하기.",
+            "공연 뒤에 나와 집에 간다고 마무리하기."
           ]
         },
         {
@@ -2491,23 +2491,23 @@ window.OPIC_DATA = {
           "question": "가장 최근에 참석한 콘서트를 말해 주세요. 언제 갔고, 공연 중 무엇을 했나요?",
           "status": "필수",
           "answer": [
-            "I went to a pop concert alone last month, and I really enjoyed it.",
-            "I found my seat before the show started, so I didn't have to rush.",
-            "When the lights came on and the music started, everyone began cheering.",
-            "I sang along when my favorite song came on, even though I was there by myself.",
-            "I took a few pictures, but I spent most of the time watching and listening.",
-            "Honestly, I was really glad I went, and I'd love to hear those songs live again."
+            "Well, the last time I went to a concert was a while ago.",
+            "I went to a pop concert by myself.",
+            "First, I found my seat and waited for the show.",
+            "When the music started, I watched the singer and listened carefully.",
+            "I sang along to my favorite song and took a few pictures.",
+            "So yeah, I had a really good time."
           ],
-          "hint": "지난달 혼자 팝 콘서트에 갔고 정말 즐거웠다고 말하기. → 공연 전에 자리를 찾아 서두를 필요가 없었다고 설명하기. → 조명이 켜지고 음악이 시작되자 모두 환호했다고 말하기. → 혼자였지만 좋아하는 노래가 나오자 따라 불렀다고 설명하기. → 사진을 조금 찍었지만 대부분 보고 듣는 데 시간을 썼다고 말하기. → 가길 잘했고 그 노래들을 다시 라이브로 듣고 싶다고 마무리하기.",
+          "hint": "마지막 콘서트 방문은 얼마 전이었다고 말하기. → 혼자 팝 콘서트에 갔다고 설명하기. → 먼저 자리를 찾아 공연을 기다렸다고 말하기. → 음악이 시작되자 가수를 보고 집중해서 들었다고 설명하기. → 좋아하는 노래를 따라 부르고 사진도 찍었다고 말하기. → 정말 좋은 시간을 보냈다고 마무리하기.",
           "questionEn": "Tell me about the last concert you attended. When did you go, and what did you do during the show?",
           "type": "과거 경험",
           "hintSteps": [
-            "지난달 혼자 팝 콘서트에 갔고 정말 즐거웠다고 말하기.",
-            "공연 전에 자리를 찾아 서두를 필요가 없었다고 설명하기.",
-            "조명이 켜지고 음악이 시작되자 모두 환호했다고 말하기.",
-            "혼자였지만 좋아하는 노래가 나오자 따라 불렀다고 설명하기.",
-            "사진을 조금 찍었지만 대부분 보고 듣는 데 시간을 썼다고 말하기.",
-            "가길 잘했고 그 노래들을 다시 라이브로 듣고 싶다고 마무리하기."
+            "마지막 콘서트 방문은 얼마 전이었다고 말하기.",
+            "혼자 팝 콘서트에 갔다고 설명하기.",
+            "먼저 자리를 찾아 공연을 기다렸다고 말하기.",
+            "음악이 시작되자 가수를 보고 집중해서 들었다고 설명하기.",
+            "좋아하는 노래를 따라 부르고 사진도 찍었다고 말하기.",
+            "정말 좋은 시간을 보냈다고 마무리하기."
           ]
         },
         {
@@ -2516,23 +2516,23 @@ window.OPIC_DATA = {
           "question": "잊을 수 없는 콘서트의 한 순간을 말해 주세요. 무슨 일이 있었고, 왜 특별했나요?",
           "status": "필수",
           "answer": [
-            "Well, I heard one of my favorite pop songs live at a concert last month.",
-            "I went alone and found my seat early, so I had time to look around.",
-            "When that song started, people around me began singing along right away.",
-            "I joined in too, and hearing all those voices felt very different from listening at home.",
-            "I was really excited because the singer was right there in front of us.",
-            "Honestly, I still remember that feeling whenever I hear the song on my phone."
+            "I remember one special moment at a concert.",
+            "The singer started singing one of my favorite songs.",
+            "Everyone around me began singing along.",
+            "I sang along, too, and I felt really happy.",
+            "It was much more exciting than listening to music at home.",
+            "So yeah, I'll never forget that moment."
           ],
-          "hint": "지난달 콘서트에서 좋아하는 팝송 하나를 라이브로 들었다고 말하기. → 혼자 가서 일찍 자리를 찾아 주변을 둘러볼 시간이 있었다고 설명하기. → 그 노래가 시작되자 주변 사람들이 바로 따라 불렀다고 말하기. → 나도 함께 불렀고 여러 목소리를 듣는 것이 집에서 듣는 것과 달랐다고 설명하기. → 가수가 바로 앞에 있어 정말 신났다고 감정을 말하기. → 휴대폰으로 그 노래를 들을 때마다 아직 그 기분이 기억난다고 마무리하기.",
+          "hint": "콘서트에서 특별한 순간을 기억한다고 말하기. → 가수가 좋아하는 노래 중 하나를 부르기 시작했다고 설명하기. → 주변 사람들이 따라 부르기 시작했다고 말하기. → 나도 따라 부르며 정말 행복했다고 설명하기. → 집에서 듣는 것보다 훨씬 신났다고 말하기. → 그 순간을 잊지 못할 거라고 마무리하기.",
           "questionEn": "Tell me about a concert moment you will never forget. What happened, and why was it special?",
           "type": "과거 경험",
           "hintSteps": [
-            "지난달 콘서트에서 좋아하는 팝송 하나를 라이브로 들었다고 말하기.",
-            "혼자 가서 일찍 자리를 찾아 주변을 둘러볼 시간이 있었다고 설명하기.",
-            "그 노래가 시작되자 주변 사람들이 바로 따라 불렀다고 말하기.",
-            "나도 함께 불렀고 여러 목소리를 듣는 것이 집에서 듣는 것과 달랐다고 설명하기.",
-            "가수가 바로 앞에 있어 정말 신났다고 감정을 말하기.",
-            "휴대폰으로 그 노래를 들을 때마다 아직 그 기분이 기억난다고 마무리하기."
+            "콘서트에서 특별한 순간을 기억한다고 말하기.",
+            "가수가 좋아하는 노래 중 하나를 부르기 시작했다고 설명하기.",
+            "주변 사람들이 따라 부르기 시작했다고 말하기.",
+            "나도 따라 부르며 정말 행복했다고 설명하기.",
+            "집에서 듣는 것보다 훨씬 신났다고 말하기.",
+            "그 순간을 잊지 못할 거라고 마무리하기."
           ]
         },
         {
@@ -2541,21 +2541,23 @@ window.OPIC_DATA = {
           "question": "콘서트에 가기 위해 어떻게 준비하나요? 집을 나서기 전에 확인하고 준비하는 것을 설명해 주세요.",
           "status": "필수",
           "answer": [
-            "Before a concert, I check the time and place so I know when to leave home.",
-            "I make sure the ticket is saved on my phone and that the battery is fully charged.",
-            "Then I check the route and give myself a little extra time in case it's busy.",
-            "I take only a small bag, because I don't want to carry much during the show.",
-            "Finally, I check the ticket once more before leaving, just to make sure I haven't missed anything."
+            "Before I go to a concert, I check the date and time first.",
+            "Then, I check my ticket on my phone.",
+            "I also make sure my phone is fully charged.",
+            "After that, I check how to get to the concert hall.",
+            "I usually take a small bag and leave home early.",
+            "So yeah, that's how I get ready for a concert."
           ],
-          "hint": "출발 시간을 정하기 위해 공연 시간과 장소를 확인한다고 말하기. → 표가 휴대폰에 저장돼 있고 배터리가 완충됐는지 확인한다고 설명하기. → 경로를 확인하고 붐빌 때를 대비해 여유 시간을 둔다고 말하기. → 공연 중 짐을 많이 들기 싫어 작은 가방만 가져간다고 설명하기. → 놓친 것이 없는지 출발 전에 표를 한 번 더 확인한다고 마무리하기.",
+          "hint": "콘서트 전에 날짜와 시간을 먼저 확인한다고 말하기. → 휴대폰에서 티켓을 확인한다고 설명하기. → 휴대폰 배터리가 충분한지도 확인한다고 말하기. → 공연장까지 가는 길을 확인한다고 설명하기. → 작은 가방을 챙기고 일찍 출발한다고 말하기. → 이렇게 공연을 준비한다고 마무리하기.",
           "questionEn": "How do you get ready to attend a concert? Explain what you check and prepare before leaving home.",
           "type": "일과·절차",
           "hintSteps": [
-            "출발 시간을 정하기 위해 공연 시간과 장소를 확인한다고 말하기.",
-            "표가 휴대폰에 저장돼 있고 배터리가 완충됐는지 확인한다고 설명하기.",
-            "경로를 확인하고 붐빌 때를 대비해 여유 시간을 둔다고 말하기.",
-            "공연 중 짐을 많이 들기 싫어 작은 가방만 가져간다고 설명하기.",
-            "놓친 것이 없는지 출발 전에 표를 한 번 더 확인한다고 마무리하기."
+            "콘서트 전에 날짜와 시간을 먼저 확인한다고 말하기.",
+            "휴대폰에서 티켓을 확인한다고 설명하기.",
+            "휴대폰 배터리가 충분한지도 확인한다고 말하기.",
+            "공연장까지 가는 길을 확인한다고 설명하기.",
+            "작은 가방을 챙기고 일찍 출발한다고 말하기.",
+            "이렇게 공연을 준비한다고 마무리하기."
           ]
         },
         {
@@ -2564,23 +2566,23 @@ window.OPIC_DATA = {
           "question": "콘서트를 즐기는 방식이 어떻게 달라졌나요? 예전과 지금 집중하는 것을 비교해 주세요.",
           "status": "선택",
           "answer": [
-            "I used to take a lot of photos at concerts, but now I focus more on the music.",
-            "When I was younger, I watched a large part of the show through my phone.",
-            "I kept trying to get a good picture, so I sometimes missed what was happening on stage.",
-            "Now I take just a few pictures and put my phone away for most of the show.",
-            "That gives me more time to listen carefully and sing along with everyone else.",
-            "Honestly, I think I enjoy concerts much more when I'm not worrying about photos."
+            "Well, the way I enjoy concerts has changed.",
+            "In the past, I took a lot of pictures during concerts.",
+            "I spent too much time looking at my phone.",
+            "But now, I take only a few pictures.",
+            "I just listen to the music and enjoy the show.",
+            "So yeah, I think concerts are more fun for me now."
           ],
-          "hint": "예전에는 콘서트 사진을 많이 찍었지만 지금은 음악에 더 집중한다고 비교하기. → 어릴 때는 공연의 상당 부분을 휴대폰 화면으로 봤다고 설명하기. → 좋은 사진을 찍으려다 무대에서 벌어지는 일을 놓치기도 했다고 말하기. → 지금은 사진을 조금만 찍고 공연 대부분 휴대폰을 넣어 둔다고 설명하기. → 그 덕분에 자세히 듣고 함께 노래할 시간이 늘었다고 말하기. → 사진을 걱정하지 않을 때 콘서트를 훨씬 더 즐긴다고 마무리하기.",
+          "hint": "콘서트를 즐기는 방식이 달라졌다고 말하기. → 예전에는 공연 중에 사진을 많이 찍었다고 설명하기. → 휴대폰만 보느라 시간을 많이 썼다고 말하기. → 지금은 사진을 몇 장만 찍는다고 비교하기. → 음악을 듣고 공연을 즐긴다고 설명하기. → 지금이 콘서트를 더 재미있게 즐기는 것 같다고 마무리하기.",
           "questionEn": "How has the way you enjoy concerts changed? Compare what you focused on in the past with what you focus on now.",
           "type": "변화·비교",
           "hintSteps": [
-            "예전에는 콘서트 사진을 많이 찍었지만 지금은 음악에 더 집중한다고 비교하기.",
-            "어릴 때는 공연의 상당 부분을 휴대폰 화면으로 봤다고 설명하기.",
-            "좋은 사진을 찍으려다 무대에서 벌어지는 일을 놓치기도 했다고 말하기.",
-            "지금은 사진을 조금만 찍고 공연 대부분 휴대폰을 넣어 둔다고 설명하기.",
-            "그 덕분에 자세히 듣고 함께 노래할 시간이 늘었다고 말하기.",
-            "사진을 걱정하지 않을 때 콘서트를 훨씬 더 즐긴다고 마무리하기."
+            "콘서트를 즐기는 방식이 달라졌다고 말하기.",
+            "예전에는 공연 중에 사진을 많이 찍었다고 설명하기.",
+            "휴대폰만 보느라 시간을 많이 썼다고 말하기.",
+            "지금은 사진을 몇 장만 찍는다고 비교하기.",
+            "음악을 듣고 공연을 즐긴다고 설명하기.",
+            "지금이 콘서트를 더 재미있게 즐기는 것 같다고 마무리하기."
           ]
         },
         {
@@ -2589,23 +2591,23 @@ window.OPIC_DATA = {
           "question": "처음 참석한 콘서트를 말해 주세요. 어떤 공연이었고, 그곳에서 무엇을 했나요?",
           "status": "선택",
           "answer": [
-            "Well, my first concert was a small pop concert, and I was pretty excited about it.",
-            "I'd never heard a singer live before, so I wasn't sure what it would feel like.",
-            "When the show started, everyone began cheering, and I joined in too.",
-            "I sang along when my favorite song came on, even though I didn't know every word.",
-            "I took a few pictures, but I spent most of the time watching and listening.",
-            "Honestly, I was really glad I went, and I wanted to try another concert after that."
+            "Well, my first concert was a small pop concert.",
+            "I went there with a friend when I was younger.",
+            "When the music started, everyone began cheering.",
+            "I sang along to the songs I knew.",
+            "I was really excited because it was my first live concert.",
+            "So yeah, I still remember that day."
           ],
-          "hint": "첫 콘서트는 작은 팝 콘서트였고 꽤 설렜다고 말하기. → 가수를 라이브로 들어 본 적이 없어 어떤 느낌일지 몰랐다고 설명하기. → 공연이 시작되자 모두 환호했고 나도 함께했다고 말하기. → 좋아하는 노래가 나오자 모든 가사는 몰라도 따라 불렀다고 설명하기. → 사진을 조금 찍었지만 대부분 보고 듣는 데 시간을 썼다고 말하기. → 가길 잘했고 이후 다른 콘서트에도 가고 싶었다고 마무리하기.",
+          "hint": "첫 콘서트는 작은 팝 콘서트였다고 말하기. → 어렸을 때 친구와 함께 갔다고 설명하기. → 음악이 시작되자 모두 환호했다고 말하기. → 아는 노래를 따라 불렀다고 설명하기. → 첫 라이브 콘서트라 정말 신났다고 말하기. → 그날이 아직 기억난다고 마무리하기.",
           "questionEn": "Tell me about the first concert you attended. What kind of concert was it, and what did you do there?",
           "type": "과거 경험",
           "hintSteps": [
-            "첫 콘서트는 작은 팝 콘서트였고 꽤 설렜다고 말하기.",
-            "가수를 라이브로 들어 본 적이 없어 어떤 느낌일지 몰랐다고 설명하기.",
-            "공연이 시작되자 모두 환호했고 나도 함께했다고 말하기.",
-            "좋아하는 노래가 나오자 모든 가사는 몰라도 따라 불렀다고 설명하기.",
-            "사진을 조금 찍었지만 대부분 보고 듣는 데 시간을 썼다고 말하기.",
-            "가길 잘했고 이후 다른 콘서트에도 가고 싶었다고 마무리하기."
+            "첫 콘서트는 작은 팝 콘서트였다고 말하기.",
+            "어렸을 때 친구와 함께 갔다고 설명하기.",
+            "음악이 시작되자 모두 환호했다고 말하기.",
+            "아는 노래를 따라 불렀다고 설명하기.",
+            "첫 라이브 콘서트라 정말 신났다고 말하기.",
+            "그날이 아직 기억난다고 마무리하기."
           ]
         },
         {
@@ -2614,23 +2616,23 @@ window.OPIC_DATA = {
           "question": "콘서트 티켓에 문제가 생긴 경험을 말해 주세요. 어떻게 발견했고, 어떻게 해결했나요?",
           "status": "선택",
           "answer": [
-            "I once noticed that the date on my concert ticket was wrong.",
-            "I was checking it on my phone before the concert, so luckily I still had time to fix it.",
-            "I called the ticket office and explained which date I actually needed.",
-            "The staff checked my booking and told me they could move it to the right date.",
-            "They sent me a new ticket, and I was able to go to the concert as planned.",
-            "Honestly, I was just glad I'd checked it early instead of finding out at the door."
+            "I remember one problem I had with a concert ticket.",
+            "One day, I checked my ticket and saw the wrong date.",
+            "I was really surprised, so I called the ticket office.",
+            "I told the staff about the problem.",
+            "Luckily, they changed the ticket to the right date.",
+            "So yeah, everything was fine in the end."
           ],
-          "hint": "콘서트 표에 적힌 날짜가 잘못된 것을 발견한 적이 있다고 말하기. → 공연 전에 휴대폰으로 확인해 수정할 시간이 남아 있었다고 설명하기. → 예매처에 전화해 실제로 필요한 날짜를 설명했다고 말하기. → 직원이 예약을 확인하고 올바른 날짜로 바꿀 수 있다고 알려 줬다고 설명하기. → 새 표를 받아 계획대로 콘서트에 갈 수 있었다고 말하기. → 입구에서 알게 되는 대신 일찍 확인해서 다행이었다고 마무리하기.",
+          "hint": "콘서트 티켓에 문제가 있었던 경험을 떠올린다고 말하기. → 티켓에서 잘못된 날짜를 발견했다고 설명하기. → 놀라서 티켓 판매처에 전화했다고 말하기. → 직원에게 문제를 설명했다고 말하기. → 다행히 정확한 날짜로 변경해 주었다고 설명하기. → 결국 잘 해결됐다고 마무리하기.",
           "questionEn": "Tell me about a problem with a concert ticket. How did you discover it, and what did you do to solve it?",
           "type": "문제 경험",
           "hintSteps": [
-            "콘서트 표에 적힌 날짜가 잘못된 것을 발견한 적이 있다고 말하기.",
-            "공연 전에 휴대폰으로 확인해 수정할 시간이 남아 있었다고 설명하기.",
-            "예매처에 전화해 실제로 필요한 날짜를 설명했다고 말하기.",
-            "직원이 예약을 확인하고 올바른 날짜로 바꿀 수 있다고 알려 줬다고 설명하기.",
-            "새 표를 받아 계획대로 콘서트에 갈 수 있었다고 말하기.",
-            "입구에서 알게 되는 대신 일찍 확인해서 다행이었다고 마무리하기."
+            "콘서트 티켓에 문제가 있었던 경험을 떠올린다고 말하기.",
+            "티켓에서 잘못된 날짜를 발견했다고 설명하기.",
+            "놀라서 티켓 판매처에 전화했다고 말하기.",
+            "직원에게 문제를 설명했다고 말하기.",
+            "다행히 정확한 날짜로 변경해 주었다고 설명하기.",
+            "결국 잘 해결됐다고 마무리하기."
           ]
         }
       ],
@@ -2852,23 +2854,23 @@ window.OPIC_DATA = {
           "question": "전자기기가 작동하지 않았던 경험을 말해 주세요. 무엇을 하려던 중이었고, 어떻게 해결했나요?",
           "status": "필수",
           "answer": [
-            "I remember one problem I had with my phone.",
-            "One day, I dropped it while I was sending a message.",
-            "I was really surprised because it turned off and wouldn't turn on.",
-            "So I pressed the power button several times.",
-            "Luckily, it turned on again, and I could send the message.",
+            "Well, I remember one problem I had with my phone.",
+            "One day, I was taking a walk and listening to music.",
+            "I accidentally dropped my phone, and it turned off.",
+            "I tried to turn it on, but it didn't work.",
+            "So I pressed the power button a few times, and luckily, it turned on again.",
             "So yeah, everything was fine in the end."
           ],
-          "hint": "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기. → 어느 날 메시지를 보내다가 휴대폰을 떨어뜨렸다고 설명하기. → 휴대폰이 꺼지고 다시 켜지지 않아 정말 놀랐다고 말하기. → 전원 버튼을 여러 번 눌렀다고 대처 방법 설명하기. → 다행히 다시 켜져 메시지를 보낼 수 있었다고 결과 말하기. → 결국 잘 해결되었다고 마무리하기.",
+          "hint": "휴대폰에 문제가 생긴 경험을 떠올린다고 말하기. → 산책하면서 음악을 듣고 있었다고 설명하기. → 휴대폰을 떨어뜨려 전원이 꺼졌다고 말하기. → 다시 켜려고 했지만 안 됐다고 설명하기. → 전원 버튼을 몇 번 누르자 다행히 켜졌다고 말하기. → 모든 일이 잘 해결됐다고 마무리하기.",
           "questionEn": "Tell me about a time an electronic device stopped working. What were you trying to do, and how did you solve the problem?",
           "type": "문제 경험",
           "hintSteps": [
-            "휴대폰에 문제가 생겼던 경험이 기억난다고 시작하기.",
-            "어느 날 메시지를 보내다가 휴대폰을 떨어뜨렸다고 설명하기.",
-            "휴대폰이 꺼지고 다시 켜지지 않아 정말 놀랐다고 말하기.",
-            "전원 버튼을 여러 번 눌렀다고 대처 방법 설명하기.",
-            "다행히 다시 켜져 메시지를 보낼 수 있었다고 결과 말하기.",
-            "결국 잘 해결되었다고 마무리하기."
+            "휴대폰에 문제가 생긴 경험을 떠올린다고 말하기.",
+            "산책하면서 음악을 듣고 있었다고 설명하기.",
+            "휴대폰을 떨어뜨려 전원이 꺼졌다고 말하기.",
+            "다시 켜려고 했지만 안 됐다고 설명하기.",
+            "전원 버튼을 몇 번 누르자 다행히 켜졌다고 말하기.",
+            "모든 일이 잘 해결됐다고 마무리하기."
           ]
         },
         {
@@ -2904,19 +2906,19 @@ window.OPIC_DATA = {
           "answer": [
             "Hey, I'm really sorry, but I can't go to the concert.",
             "I'm not feeling well, so I need to stay home and rest.",
-            "Could you go with another friend instead?",
-            "Or could we ask for a refund?",
+            "Could we change our tickets to another day?",
+            "Or could you go with another friend instead?",
             "What do you think?"
           ],
-          "hint": "콘서트에 갈 수 없다고 말하며 사과하기. → 몸이 좋지 않아 집에서 쉬어야 한다고 설명하기. → 첫 번째 대안으로 다른 친구와 가는 것이 어떤지 제안하기. → 두 번째 대안으로 환불을 요청하자고 제안하기. → 어떤 방법이 좋은지 친구에게 물으며 마무리하기.",
+          "hint": "몸이 좋지 않아 콘서트에 못 간다고 미안함을 전하기. → 집에서 쉬어야 한다고 이유 설명하기. → 티켓 날짜를 다른 날로 바꿀 수 있는지 제안하기. → 아니면 다른 친구와 대신 갈 수 있는지 제안하기. → 상대방의 생각을 묻고 마무리하기.",
           "questionEn": "You have concert plans with a friend, but you are too sick to go. Call your friend, explain the problem, and suggest two alternatives.",
           "type": "문제 해결 역할극",
           "hintSteps": [
-            "콘서트에 갈 수 없다고 말하며 사과하기.",
-            "몸이 좋지 않아 집에서 쉬어야 한다고 설명하기.",
-            "첫 번째 대안으로 다른 친구와 가는 것이 어떤지 제안하기.",
-            "두 번째 대안으로 환불을 요청하자고 제안하기.",
-            "어떤 방법이 좋은지 친구에게 물으며 마무리하기."
+            "몸이 좋지 않아 콘서트에 못 간다고 미안함을 전하기.",
+            "집에서 쉬어야 한다고 이유 설명하기.",
+            "티켓 날짜를 다른 날로 바꿀 수 있는지 제안하기.",
+            "아니면 다른 친구와 대신 갈 수 있는지 제안하기.",
+            "상대방의 생각을 묻고 마무리하기."
           ]
         },
         {
@@ -3021,20 +3023,22 @@ window.OPIC_DATA = {
           "question": "아파트 창문이 고장 나 닫히지 않습니다. 관리사무소에 전화해 문제를 설명하고 도움받을 방법 두 가지를 제안해 보세요.",
           "status": "필수",
           "answer": [
-            "Hi, I have a problem with my apartment window.",
+            "Hi, I'm calling about my apartment window.",
             "It won't close, so my room is really cold.",
             "Could someone come and fix it today?",
-            "Or could you tell me what to do for now?",
-            "Thank you for your help."
+            "Or could someone come tomorrow morning instead?",
+            "Please let me know which time is possible.",
+            "Thanks for your help."
           ],
-          "hint": "아파트 창문에 문제가 있다고 말하기. → 창문이 닫히지 않아 방이 매우 춥다고 설명하기. → 첫 번째 해결책으로 오늘 수리하러 와줄 수 있는지 묻기. → 두 번째 해결책으로 당장 어떻게 해야 할지 알려 달라고 요청하기. → 도움에 감사하며 마무리하기.",
+          "hint": "아파트 창문 때문에 전화했다고 말하기. → 창문이 닫히지 않아 방이 매우 춥다고 설명하기. → 오늘 누가 와서 고쳐 줄 수 있는지 물어보기. → 대신 내일 아침에 올 수 있는지 다른 대안 제시하기. → 가능한 시간을 알려 달라고 요청하기. → 도움에 감사하며 마무리하기.",
           "questionEn": "A window in your apartment is broken and will not close. Call the building office, explain the problem, and suggest two ways to get help.",
           "type": "문제 해결 역할극",
           "hintSteps": [
-            "아파트 창문에 문제가 있다고 말하기.",
+            "아파트 창문 때문에 전화했다고 말하기.",
             "창문이 닫히지 않아 방이 매우 춥다고 설명하기.",
-            "첫 번째 해결책으로 오늘 수리하러 와줄 수 있는지 묻기.",
-            "두 번째 해결책으로 당장 어떻게 해야 할지 알려 달라고 요청하기.",
+            "오늘 누가 와서 고쳐 줄 수 있는지 물어보기.",
+            "대신 내일 아침에 올 수 있는지 다른 대안 제시하기.",
+            "가능한 시간을 알려 달라고 요청하기.",
             "도움에 감사하며 마무리하기."
           ]
         },
@@ -3381,23 +3385,23 @@ window.OPIC_DATA = {
           "questionEn": "At your relative's home, you find the door locked and cannot locate the key. Phone the front desk of the hotel where your relative is staying. Leave a message describing your difficulty and asking your relative to contact you with instructions.",
           "question": "친척집에 도착했는데 문이 잠겨 있고 열쇠를 찾을 수 없습니다. 친척이 머무는 호텔의 프런트에 전화하세요. 집에 들어갈 수 없는 상황을 설명하고, 어떻게 해야 하는지 알려 달라며 친척에게 연락을 요청하는 메시지를 남겨 보세요.",
           "hintSteps": [
-            "김 씨인 이모가 그 호텔에 머무른다고 설명하기.",
-            "이모에게 메시지를 전달해 줄 수 있는지 묻기.",
-            "이모 집에 와 있지만 열쇠를 찾지 못해 들어갈 수 없다고 설명하기.",
-            "이모가 전화해서 열쇠 위치를 알려 달라는 메시지를 남기기.",
-            "연락받을 수 있도록 예시 이름과 예시 전화번호를 말하기.",
-            "도움에 감사하며 마무리하기."
+            "이모가 호텔에 투숙 중이라고 말하기.",
+            "이모에게 메시지를 전해 줄 수 있는지 물어보기.",
+            "집 열쇠를 찾지 못해 들어갈 수 없다고 설명하기.",
+            "열쇠가 어디 있는지 전화로 알려 달라고 요청하기.",
+            "이름을 알려 주고 이모가 내 전화번호를 알고 있다고 말하기.",
+            "감사 인사로 마무리하기."
           ],
           "status": "필수",
           "answer": [
-            "Hi, my aunt, Ms. Kim, is staying at your hotel.",
+            "Hi, my aunt is staying at your hotel.",
             "Could you give her a message?",
             "I'm at her house, but I can't get in because I can't find the key.",
             "Please ask her to call me and tell me where the key is.",
-            "My name is Han, and my number is 010-1234-5678.",
+            "My name is Han, and she has my phone number.",
             "Thank you for your help."
           ],
-          "hint": "김 씨인 이모가 그 호텔에 머무른다고 설명하기. → 이모에게 메시지를 전달해 줄 수 있는지 묻기. → 이모 집에 와 있지만 열쇠를 찾지 못해 들어갈 수 없다고 설명하기. → 이모가 전화해서 열쇠 위치를 알려 달라는 메시지를 남기기. → 연락받을 수 있도록 예시 이름과 예시 전화번호를 말하기. → 도움에 감사하며 마무리하기."
+          "hint": "이모가 호텔에 투숙 중이라고 말하기. → 이모에게 메시지를 전해 줄 수 있는지 물어보기. → 집 열쇠를 찾지 못해 들어갈 수 없다고 설명하기. → 열쇠가 어디 있는지 전화로 알려 달라고 요청하기. → 이름을 알려 주고 이모가 내 전화번호를 알고 있다고 말하기. → 감사 인사로 마무리하기."
         },
         {
           "id": "topic-10-relative-rp3",
