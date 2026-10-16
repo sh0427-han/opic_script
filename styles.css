@@ -1652,7 +1652,7 @@ footer {
   }
 }
 
-/* Unified script reading and self-practice view (v48). */
+/* Unified script reading and self-practice view (v49). */
 .script-controls {
   display: flex;
   justify-content: flex-end;
@@ -1669,21 +1669,18 @@ footer {
 }
 
 .script-card__tools {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 10px;
   margin-top: 18px;
 }
 
-.practice-hint,
-.script-reveal {
-  min-width: 0;
+.script-card__controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.practice-hint > summary,
-.script-reveal > summary {
-  display: block;
+.script-action {
+  flex: 0 0 auto;
   padding: 9px 14px;
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -1691,57 +1688,43 @@ footer {
   background: var(--white);
   font-size: 0.86rem;
   font-weight: 800;
+  text-align: center;
   cursor: pointer;
-  list-style: none;
 }
 
-.practice-hint > summary::-webkit-details-marker,
-.script-reveal > summary::-webkit-details-marker {
-  display: none;
+.script-action--script {
+  min-width: 190px;
 }
 
-.practice-hint > summary::before,
-.script-reveal > summary::before {
+.script-action::before {
   content: "＋";
   margin-right: 6px;
   color: var(--teal-700);
 }
 
-.practice-hint[open] > summary::before,
-.script-reveal[open] > summary::before {
+.script-action.is-expanded::before {
   content: "−";
 }
 
-.practice-hint > summary:hover,
-.script-reveal > summary:hover,
-.practice-hint > summary:focus-visible,
-.script-reveal > summary:focus-visible {
+.script-action:hover,
+.script-action:focus-visible {
   border-color: var(--teal-700);
   outline-color: var(--teal-700);
 }
 
-.practice-hint[open],
-.script-reveal[open] {
-  flex: 1 0 100%;
-}
-
-.practice-hint[open] > summary,
-.script-reveal[open] > summary {
+.script-action.is-expanded {
   border-color: var(--teal-700);
   background: #f6faf9;
 }
 
-.practice-hint .flow {
+.practice-hint,
+.script-reveal {
+  width: 100%;
   margin-top: 10px;
 }
 
-.script-reveal__opened,
-.script-reveal[open] .script-reveal__closed {
-  display: none;
-}
-
-.script-reveal[open] .script-reveal__opened {
-  display: inline;
+.practice-hint .flow {
+  margin-top: 0;
 }
 
 .script-reveal__body {
