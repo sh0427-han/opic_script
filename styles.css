@@ -1651,3 +1651,115 @@ footer {
     padding: 12px;
   }
 }
+
+/* Unified script reading and self-practice view (v48). */
+.script-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin: 10px 0 22px;
+}
+
+.script-controls > span {
+  margin-right: auto;
+  color: var(--ink-700);
+  font-size: 0.84rem;
+}
+
+.script-card__tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.practice-hint,
+.script-reveal {
+  min-width: 0;
+}
+
+.practice-hint > summary,
+.script-reveal > summary {
+  display: block;
+  padding: 9px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--navy-900);
+  background: var(--white);
+  font-size: 0.86rem;
+  font-weight: 800;
+  cursor: pointer;
+  list-style: none;
+}
+
+.practice-hint > summary::-webkit-details-marker,
+.script-reveal > summary::-webkit-details-marker {
+  display: none;
+}
+
+.practice-hint > summary::before,
+.script-reveal > summary::before {
+  content: "＋";
+  margin-right: 6px;
+  color: var(--teal-700);
+}
+
+.practice-hint[open] > summary::before,
+.script-reveal[open] > summary::before {
+  content: "−";
+}
+
+.practice-hint > summary:hover,
+.script-reveal > summary:hover,
+.practice-hint > summary:focus-visible,
+.script-reveal > summary:focus-visible {
+  border-color: var(--teal-700);
+  outline-color: var(--teal-700);
+}
+
+.practice-hint[open],
+.script-reveal[open] {
+  flex: 1 0 100%;
+}
+
+.practice-hint[open] > summary,
+.script-reveal[open] > summary {
+  border-color: var(--teal-700);
+  background: #f6faf9;
+}
+
+.practice-hint .flow {
+  margin-top: 10px;
+}
+
+.script-reveal__opened,
+.script-reveal[open] .script-reveal__closed {
+  display: none;
+}
+
+.script-reveal[open] .script-reveal__opened {
+  display: inline;
+}
+
+.script-reveal__body {
+  padding-top: 3px;
+}
+
+.script-unavailable {
+  align-self: center;
+  font-size: 0.85rem;
+  color: var(--ink-500);
+}
+
+@media (max-width: 720px) {
+  .script-controls > span {
+    flex-basis: 100%;
+  }
+
+  .script-controls {
+    justify-content: flex-start;
+  }
+}
