@@ -530,19 +530,6 @@
       0,
     );
 
-    // Keep controls fixed while revealing the content below the button row.
-  const setPanelExpanded = (button, expanded) => {
-    const panelId = button.getAttribute("aria-controls");
-    const panel = document.getElementById(panelId);
-    if (!panel) return;
-
-    panel.hidden = !expanded;
-    button.setAttribute("aria-expanded", String(expanded));
-    button.textContent = expanded
-      ? button.dataset.expandedText : button.dataset.collapsedText;
-    button.classList.toggle("is-expanded", expanded);
-  };
-
   elements.tabs.forEach((tab) => {
       const isActive = tab.dataset.view === state.view;
       tab.classList.toggle("is-active", isActive);
@@ -669,6 +656,19 @@
     window.setTimeout(() => {
       button.textContent = originalText;
     }, 1300);
+  };
+
+  // Keep controls fixed while revealing the content below the button row.
+  const setPanelExpanded = (button, expanded) => {
+    const panelId = button.getAttribute("aria-controls");
+    const panel = document.getElementById(panelId);
+    if (!panel) return;
+
+    panel.hidden = !expanded;
+    button.setAttribute("aria-expanded", String(expanded));
+    button.textContent = expanded
+      ? button.dataset.expandedText : button.dataset.collapsedText;
+    button.classList.toggle("is-expanded", expanded);
   };
 
   elements.tabs.forEach((tab) => {
