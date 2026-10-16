@@ -30,7 +30,7 @@
       return "combos";
     }
     if (window.location.hash === "#questions") {
-      return "questions";
+      return "scripts";
     }
     if (window.location.hash === "#survey") {
       return "survey";
@@ -364,16 +364,31 @@
           ${questions.map((question) => `
             <article id="${escapeHtml(question.id)}" class="script-card">
               ${questionHeadingHtml(question)}
-              ${answerHtml(question, sharedLines)}
-              ${variantsHtml(question)}
-              <div class="flow">
-                <strong>${question.questionOnly ? "답변 구성 힌트" : "흐름"}</strong>
-                ${flowHintHtml(question)}
+              <div class="script-card__tools">
+                <details class="practice-hint">
+                  <summary>힌트 보기</summary>
+                  <div class="flow">
+                    <strong>${question.questionOnly ? "답변 구성 힌트" : "흐름"}</strong>
+                    ${flowHintHtml(question)}
+                  </div>
+                </details>
+                ${question.questionOnly
+    ? '<span class="script-unavailable">답변 스크립트 준비 중</span>'
+    : `<details class="script-reveal" data-script-reveal>
+                    <summary>
+                      <span class="script-reveal__closed">스크립트 펼치기 · ${question.answer.length}문장</span>
+                      <span class="script-reveal__opened">스크립트 닫기</span>
+                    </summary>
+                    <div class="script-reveal__body">
+                      ${answerHtml(question, sharedLines)}
+                      ${variantsHtml(question)}
+                      <div class="card-actions">
+                        <button class="text-button" type="button" data-action="copy"
+                          data-question-id="${escapeHtml(question.id)}">스크립트 복사</button>
+                      </div>
+                    </div>
+                  </details>`}
               </div>
-              ${question.questionOnly ? "" : `<div class="card-actions">
-                <button class="text-button" type="button" data-action="copy"
-                  data-question-id="${escapeHtml(question.id)}">스크립트 복사</button>
-              </div>`}
             </article>
           `).join("")}
         </div>
@@ -392,48 +407,6 @@
       ${groups}
     </section>`;
   }).join("");
-
-  const renderQuestionCards = (topic) => `
-      <div class="card-list">
-        ${topic.questions.map((question) => {
-          const panelId = `${question.id}-hint`;
-          return `
-            <article class="question-card">
-              <div class="question-card__main">
-                <p class="topic-label">${escapeHtml(topic.title)}</p>
-                ${questionHeadingHtml(question)}
-              </div>
-              <div id="${panelId}" class="hint-panel" hidden>
-                ${flowHintHtml(question)}
-              </div>
-              <div class="question-card__footer">
-                <button class="hint-button" type="button" aria-expanded="false"
-                  aria-controls="${panelId}" data-action="hint">힌트 보기</button>
-              </div>
-            </article>`;
-        }).join("")}
-      </div>`;
-
-  const renderQuestions = (topics) => topics.map((topic) => `
-    <section class="topic-section" aria-labelledby="${topic.id}-practice-title">
-      <div class="topic-heading">
-        <h2 id="${topic.id}-practice-title">${topicTitleHtml(topic)}</h2>
-        <span>${topic.questions.length}개 문제${unexpectedFrequencyText(topic)
-    ? ` · ${escapeHtml(unexpectedFrequencyText(topic))}` : ""}</span>
-      </div>
-      ${topic.roleplaySections ? getRoleplaySections(topic).flatMap((section) =>
-        section.sets).map((set) => set.questionIds.length
-          ? `<section class="script-group">
-              <div class="script-group__heading"><h3>${escapeHtml(set.title)}</h3></div>
-              ${renderQuestionCards({ ...topic, questions: set.questionIds.map((id) =>
-                questionById.get(id)) })}
-            </section>`
-          : set.missing && !state.query
-            ? `<div class="roleplay-missing"><strong>${escapeHtml(set.title)}</strong>
-                <p>현재 등록된 문항이 없습니다.</p></div>` : "").join("")
-        : renderQuestionCards(topic)}
-    </section>
-  `).join("");
 
   const renderCore = function renderCore() {
   const study = data.minimalStudy;
@@ -598,24 +571,29 @@
       return;
     }
 
-    elements.content.setAttribute(
-      "aria-labelledby",
-      state.view === "scripts" ? "scripts-tab" : "questions-tab",
-    );
-    elements.description.textContent = state.view === "scripts"
-      ? "유형별 영·한 질문과 완성 답변 5~7문장입니다. ‘공통’ 문장은 같은 유형의 다른 답변에서도 사용합니다."
-      : "영어 질문과 한국어 번역을 보고 답한 뒤, 필요할 때 흐름 힌트를 확인합니다.";
+    elements.content.setAttribute("aria-labelledby", "scripts-tab");
+    elements.description.textContent =
+      "질문을 먼저 보고 답해 보세요. 힌트와 스크립트를 각각 펼쳐 확인할 수 있습니다.";
     elements.resultSummary.textContent = `${visibleCount}개 표시 중`;
 
     if (visibleCount === 0) {
-      elements.content.innerHTML = `
-        <p class="empty-state">검색 조건에 맞는 문제가 없습니다.</p>
-      `;
+      elements.content.innerHTML =
+        '<p class="empty-state">검색 조건에 맞는 문제가 없습니다.</p>';
       return;
     }
 
-    elements.content.innerHTML = renderCategories(topics,
-      state.view === "scripts" ? renderScripts : renderQuestions);
+    elements.content.innerHTML = `
+      <div class="script-controls" aria-label="스크립트 표시 설정">
+        <span>답변은 기본적으로 접혀 있습니다.</span>
+        <button type="button" class="text-button" data-action="reveal-all">
+          전체 펼치기
+        </button>
+        <button type="button" class="text-button" data-action="hide-all">
+          전체 닫기
+        </button>
+      </div>
+      ${renderCategories(topics, renderScripts)}
+    `;
   };
 
   const setView = (view) => {
@@ -628,8 +606,6 @@
     }
     const hash = view === "combos"
       ? "#combos"
-      : view === "questions"
-        ? "#questions"
       : view === "survey"
         ? "#survey"
         : view === "scripts"
@@ -669,19 +645,6 @@
     window.setTimeout(() => {
       button.textContent = originalText;
     }, 1300);
-  };
-
-  const toggleHint = (button) => {
-    const panelId = button.getAttribute("aria-controls");
-    const panel = document.getElementById(panelId);
-    if (!panel) {
-      return;
-    }
-
-    const willOpen = button.getAttribute("aria-expanded") !== "true";
-    button.setAttribute("aria-expanded", String(willOpen));
-    button.textContent = willOpen ? "힌트 닫기" : "힌트 보기";
-    panel.hidden = !willOpen;
   };
 
   elements.tabs.forEach((tab) => {
@@ -732,8 +695,12 @@
         return;
       }
     }
-    if (button.dataset.action === "hint") {
-      toggleHint(button);
+    if (button.dataset.action === "reveal-all"
+      || button.dataset.action === "hide-all") {
+      const shouldOpen = button.dataset.action === "reveal-all";
+      elements.content.querySelectorAll("[data-script-reveal]")
+        .forEach((details) => { details.open = shouldOpen; });
+      return;
     }
     if (button.dataset.action === "copy") {
       copyAnswer(button);
