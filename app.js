@@ -365,20 +365,30 @@
             <article id="${escapeHtml(question.id)}" class="script-card">
               ${questionHeadingHtml(question)}
               <div class="script-card__tools">
-                <details class="practice-hint">
-                  <summary>힌트 보기</summary>
+                <div class="script-card__controls">
+                  <button class="script-action" type="button"
+                    data-action="toggle-panel" data-collapsed-text="힌트 보기"
+                    data-expanded-text="힌트 닫기" aria-expanded="false"
+                    aria-controls="${escapeHtml(question.id)}-hint">힌트 보기</button>
+                  ${question.questionOnly
+    ? '<span class="script-unavailable">답변 스크립트 준비 중</span>'
+    : `<button class="script-action script-action--script" type="button"
+                      data-action="toggle-panel"
+                      data-collapsed-text="스크립트 펼치기 · ${question.answer.length}문장"
+                      data-expanded-text="스크립트 닫기" aria-expanded="false"
+                      aria-controls="${escapeHtml(question.id)}-script">
+                    스크립트 펼치기 · ${question.answer.length}문장
+                   </button>`}
+                </div>
+                <div class="practice-hint" id="${escapeHtml(question.id)}-hint" hidden>
                   <div class="flow">
                     <strong>${question.questionOnly ? "답변 구성 힌트" : "흐름"}</strong>
                     ${flowHintHtml(question)}
                   </div>
-                </details>
-                ${question.questionOnly
-    ? '<span class="script-unavailable">답변 스크립트 준비 중</span>'
-    : `<details class="script-reveal" data-script-reveal>
-                    <summary>
-                      <span class="script-reveal__closed">스크립트 펼치기 · ${question.answer.length}문장</span>
-                      <span class="script-reveal__opened">스크립트 닫기</span>
-                    </summary>
+                </div>
+                ${question.questionOnly ? "" : `
+                  <div class="script-reveal" id="${escapeHtml(question.id)}-script"
+                    data-script-panel hidden>
                     <div class="script-reveal__body">
                       ${answerHtml(question, sharedLines)}
                       ${variantsHtml(question)}
@@ -387,7 +397,8 @@
                           data-question-id="${escapeHtml(question.id)}">스크립트 복사</button>
                       </div>
                     </div>
-                  </details>`}
+                  </div>
+                `}
               </div>
             </article>
           `).join("")}
@@ -519,7 +530,20 @@
       0,
     );
 
-    elements.tabs.forEach((tab) => {
+    // Keep controls fixed while revealing the content below the button row.
+  const setPanelExpanded = (button, expanded) => {
+    const panelId = button.getAttribute("aria-controls");
+    const panel = document.getElementById(panelId);
+    if (!panel) return;
+
+    panel.hidden = !expanded;
+    button.setAttribute("aria-expanded", String(expanded));
+    button.textContent = expanded
+      ? button.dataset.expandedText : button.dataset.collapsedText;
+    button.classList.toggle("is-expanded", expanded);
+  };
+
+  elements.tabs.forEach((tab) => {
       const isActive = tab.dataset.view === state.view;
       tab.classList.toggle("is-active", isActive);
       tab.setAttribute("aria-selected", String(isActive));
@@ -695,11 +719,17 @@
         return;
       }
     }
+    if (button.dataset.action === "toggle-panel") {
+      const expanded = button.getAttribute("aria-expanded") !== "true";
+      setPanelExpanded(button, expanded);
+      return;
+    }
     if (button.dataset.action === "reveal-all"
       || button.dataset.action === "hide-all") {
-      const shouldOpen = button.dataset.action === "reveal-all";
-      elements.content.querySelectorAll("[data-script-reveal]")
-        .forEach((details) => { details.open = shouldOpen; });
+      const expanded = button.dataset.action === "reveal-all";
+      elements.content.querySelectorAll(
+        '[data-action="toggle-panel"][aria-controls$="-script"]',
+      ).forEach((toggle) => setPanelExpanded(toggle, expanded));
       return;
     }
     if (button.dataset.action === "copy") {
