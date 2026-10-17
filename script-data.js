@@ -1,6 +1,6 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v50",
+  "version": "v51",
   "updated": "2026-10-17",
   "questionCount": 161,
   "survey": {
@@ -98,7 +98,7 @@ window.OPIC_DATA = {
       "id": "topic-intro",
       "order": 0,
       "title": "자기소개",
-      "source": "intro",
+      "source": "survey",
       "questions": [
         {
           "id": "topic-intro-q1",

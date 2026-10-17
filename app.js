@@ -74,8 +74,6 @@
   const normalize = (value) => String(value).toLocaleLowerCase("ko").trim();
 
   const topicCategories = [
-    { id: "intro", title: "자기소개",
-      description: "시험 시작 전 짧은 자기소개를 연습합니다." },
     { id: "survey", title: "설문조사 기반 주제",
       description: "주거 설정과 여가·취미·휴가 선택에 연결된 주제입니다." },
     { id: "unexpected", title: "일반·돌발 주제",
@@ -105,7 +103,7 @@
 
   const topicTitleHtml = (topic) => topic.source === "roleplay"
     ? `롤플레이 · ${escapeHtml(topic.title)}`
-    : topic.source === "intro"
+    : topic.id === "topic-intro"
       ? escapeHtml(topic.title)
       : `${topic.order}. ${escapeHtml(topic.title)}`;
 
@@ -257,9 +255,6 @@
           { id: "advanced-15", type: "15", title: "15번 유형 · 사회 문제·의견" },
         ],
       }]),
-      ...(state.view === "combos" ? [] : [
-        { id: "intro", title: "자기소개" },
-      ]),
       { id: "survey", title: "설문조사 기반" },
       { id: "unexpected", title: "일반·돌발 주제" },
       ...(state.view === "combos" ? [] : [
@@ -280,7 +275,8 @@
             }).join("")
             : chipHtml({ id: group.id, title: `${group.title} 전체` })
               + studyTopics
-              .filter((topic) => topic.source === group.id)
+              .filter((topic) => topic.source === group.id
+                && (state.view !== "combos" || window.OPIC_COMBOS[topic.id]))
               .sort((first, second) => first.order - second.order)
               .map((topic) => chipHtml({ id: topic.id, title: topic.source === "unexpected"
                 ? `${topic.title} · 표본 ${unexpectedTopics[topic.id]?.sampleCount ?? "?"}회`
@@ -379,7 +375,8 @@
                     aria-controls="${escapeHtml(question.id)}-hint">힌트 보기</button>
                   ${question.questionOnly
     ? '<span class="script-unavailable">답변 스크립트 준비 중</span>'
-    : `<button class="script-action script-action--script" type="button"
+    : topic.id === "topic-intro" ? ""
+      : `<button class="script-action script-action--script" type="button"
                       data-action="toggle-panel"
                       data-collapsed-text="스크립트 펼치기 · ${question.answer.length}문장"
                       data-expanded-text="스크립트 닫기" aria-expanded="false"
@@ -395,7 +392,7 @@
                 </div>
                 ${question.questionOnly ? "" : `
                   <div class="script-reveal" id="${escapeHtml(question.id)}-script"
-                    data-script-panel hidden>
+                    data-script-panel ${topic.id === "topic-intro" ? "" : "hidden"}>
                     <div class="script-reveal__body">
                       ${answerHtml(question, sharedLines)}
                       ${variantsHtml(question)}
@@ -602,7 +599,7 @@
 
     elements.content.innerHTML = `
       <div class="script-controls" aria-label="스크립트 표시 설정">
-        <span>답변은 기본적으로 접혀 있습니다.</span>
+        <span>자기소개는 항상 표시되며, 나머지 답변은 기본적으로 접혀 있습니다.</span>
         <button type="button" class="text-button" data-action="reveal-all">
           전체 펼치기
         </button>
@@ -617,7 +614,6 @@
   const setView = (view) => {
     state.view = view;
     if (view === "combos" && (state.topic === "all"
-      || state.topic === "intro"
       || state.topic === "topic-intro"
       || state.topic === "roleplay"
       || advancedFilterTypes[state.topic]
@@ -759,7 +755,7 @@
     if (nextView !== state.view) {
       state.view = nextView;
       if (nextView === "combos" && (advancedFilterTypes[state.topic]
-        || state.topic === "intro" || state.topic === "topic-intro")) {
+        || state.topic === "topic-intro")) {
         state.topic = "survey";
       }
       renderFilters();
