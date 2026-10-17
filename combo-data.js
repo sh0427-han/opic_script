@@ -123,18 +123,6 @@ window.OPIC_COMBOS = {
       "topic-8-q9"
     ]
   },
-  "topic-9": {
-    "A": [
-      "topic-9-q1",
-      "topic-9-q2",
-      "topic-9-q3"
-    ],
-    "B": [
-      "topic-9-q5",
-      "topic-9-q4",
-      "topic-9-q8"
-    ]
-  },
   "topic-11": {
     "A": [
       "topic-11-q1",

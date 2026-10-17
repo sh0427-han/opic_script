@@ -1,8 +1,8 @@
 window.OPIC_DATA = {
   "title": "OPIc 5-5 IM2 최소암기 스크립트",
-  "version": "v47",
-  "updated": "2026-10-15",
-  "questionCount": 168,
+  "version": "v50",
+  "updated": "2026-10-17",
+  "questionCount": 161,
   "survey": {
     "title": "시험 전 설문 선택",
     "note": "클럽·조깅·걷기는 연습 및 선택 목록에서 제외했습니다. 운동 항목은 실제 시험에서 본인에게 맞게 선택하고, 시험 화면의 선택 개수 조건을 확인하세요.",
@@ -50,12 +50,6 @@ window.OPIC_DATA = {
             "topics": [
               "해변"
             ]
-          },
-          {
-            "label": "콘서트 가기",
-            "topics": [
-              "콘서트"
-            ]
           }
         ]
       },
@@ -100,6 +94,43 @@ window.OPIC_DATA = {
     ]
   },
   "topics": [
+    {
+      "id": "topic-intro",
+      "order": 0,
+      "title": "자기소개",
+      "source": "intro",
+      "questions": [
+        {
+          "id": "topic-intro-q1",
+          "number": "Q1",
+          "scriptOrigin": "user",
+          "question": "자기소개를 해 주세요.",
+          "status": "필수",
+          "answer": [
+            "My name is Sanghun.",
+            "I'm really nervous right now because the OPIc test is difficult for me.",
+            "But I'm trying my best."
+          ],
+          "hint": "이름을 말하기. → OPIc 시험이 어려워서 지금 긴장된다고 이야기하기. → 그래도 최선을 다하고 있다고 마무리하기.",
+          "questionEn": "Tell me about yourself.",
+          "type": "자기소개",
+          "hintSteps": [
+            "이름을 말하기.",
+            "OPIc 시험이 어려워서 지금 긴장된다고 이야기하기.",
+            "그래도 최선을 다하고 있다고 마무리하기."
+          ]
+        }
+      ],
+      "scriptGroups": [
+        {
+          "id": "topic-intro-introduction",
+          "title": "자기소개",
+          "questionIds": [
+            "topic-intro-q1"
+          ]
+        }
+      ]
+    },
     {
       "id": "topic-1",
       "order": 1,
@@ -2461,270 +2492,6 @@ window.OPIC_DATA = {
             "topic-8-q3",
             "topic-8-q5",
             "topic-8-q6"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "topic-9",
-      "order": 9,
-      "title": "콘서트",
-      "source": "survey",
-      "questions": [
-        {
-          "id": "topic-9-q1",
-          "number": "Q1",
-          "question": "어떤 종류의 콘서트를 좋아하나요? 그런 공연의 음악·무대·분위기를 묘사해 주세요.",
-          "status": "필수",
-          "answer": [
-            "Well, I like pop concerts, especially concerts with slow songs.",
-            "There is usually a big stage with bright lights.",
-            "The singer stands on the stage and sings into a microphone.",
-            "Many people sit or stand in front of the stage.",
-            "When everyone sings together, the atmosphere is really nice.",
-            "So yeah, I like listening to live music at concerts."
-          ],
-          "hint": "잔잔한 노래가 있는 팝 콘서트를 좋아한다고 말하기. → 밝은 조명이 있는 큰 무대가 있다고 설명하기. → 가수가 무대에서 마이크로 노래한다고 말하기. → 관객들이 무대 앞에 앉거나 서 있다고 설명하기. → 함께 노래하면 분위기가 정말 좋다고 말하기. → 콘서트에서 라이브 음악을 듣는 것을 좋아한다고 마무리하기.",
-          "questionEn": "What kind of concerts do you like? Describe the music, stage, and atmosphere at those concerts.",
-          "type": "묘사",
-          "hintSteps": [
-            "잔잔한 노래가 있는 팝 콘서트를 좋아한다고 말하기.",
-            "밝은 조명이 있는 큰 무대가 있다고 설명하기.",
-            "가수가 무대에서 마이크로 노래한다고 말하기.",
-            "관객들이 무대 앞에 앉거나 서 있다고 설명하기.",
-            "함께 노래하면 분위기가 정말 좋다고 말하기.",
-            "콘서트에서 라이브 음악을 듣는 것을 좋아한다고 마무리하기."
-          ],
-          "levelAdjusted": true,
-          "levelAdjustedAt": "2026-10-15"
-        },
-        {
-          "id": "topic-9-q2",
-          "number": "Q2",
-          "question": "콘서트에서 보통 무엇을 하나요? 자리를 찾는 순간부터 공연 후 나갈 때까지 설명해 주세요.",
-          "status": "필수",
-          "answer": [
-            "When I go to a concert, I find my seat first.",
-            "Then, I put my bag down and wait for the show.",
-            "When the music starts, I watch the singer on the stage.",
-            "Sometimes I sing along or clap my hands.",
-            "I take a few pictures with my phone, too.",
-            "After the concert, I leave and go home."
-          ],
-          "hint": "콘서트에 가면 먼저 자리를 찾는다고 말하기. → 가방을 내려놓고 공연을 기다린다고 설명하기. → 음악이 시작되면 무대 위 가수를 본다고 말하기. → 가끔 따라 부르거나 박수를 친다고 설명하기. → 휴대폰으로 사진도 몇 장 찍는다고 말하기. → 공연 뒤에 나와 집에 간다고 마무리하기.",
-          "questionEn": "What do you usually do at a concert? Explain your activities from finding your seat to leaving after the show.",
-          "type": "일과·절차",
-          "hintSteps": [
-            "콘서트에 가면 먼저 자리를 찾는다고 말하기.",
-            "가방을 내려놓고 공연을 기다린다고 설명하기.",
-            "음악이 시작되면 무대 위 가수를 본다고 말하기.",
-            "가끔 따라 부르거나 박수를 친다고 설명하기.",
-            "휴대폰으로 사진도 몇 장 찍는다고 말하기.",
-            "공연 뒤에 나와 집에 간다고 마무리하기."
-          ],
-          "levelAdjusted": true,
-          "levelAdjustedAt": "2026-10-15"
-        },
-        {
-          "id": "topic-9-q3",
-          "number": "Q3",
-          "question": "가장 최근에 참석한 콘서트를 말해 주세요. 언제 갔고, 공연 중 무엇을 했나요?",
-          "status": "필수",
-          "answer": [
-            "Well, the last time I went to a concert was a while ago.",
-            "I went to a pop concert by myself.",
-            "First, I found my seat and waited for the show.",
-            "When the music started, I watched the singer and listened carefully.",
-            "I sang along to my favorite song and took a few pictures.",
-            "So yeah, I had a really good time."
-          ],
-          "hint": "마지막 콘서트 방문은 얼마 전이었다고 말하기. → 혼자 팝 콘서트에 갔다고 설명하기. → 먼저 자리를 찾아 공연을 기다렸다고 말하기. → 음악이 시작되자 가수를 보고 집중해서 들었다고 설명하기. → 좋아하는 노래를 따라 부르고 사진도 찍었다고 말하기. → 정말 좋은 시간을 보냈다고 마무리하기.",
-          "questionEn": "Tell me about the last concert you attended. When did you go, and what did you do during the show?",
-          "type": "과거 경험",
-          "hintSteps": [
-            "마지막 콘서트 방문은 얼마 전이었다고 말하기.",
-            "혼자 팝 콘서트에 갔다고 설명하기.",
-            "먼저 자리를 찾아 공연을 기다렸다고 말하기.",
-            "음악이 시작되자 가수를 보고 집중해서 들었다고 설명하기.",
-            "좋아하는 노래를 따라 부르고 사진도 찍었다고 말하기.",
-            "정말 좋은 시간을 보냈다고 마무리하기."
-          ],
-          "levelAdjusted": true,
-          "levelAdjustedAt": "2026-10-15"
-        },
-        {
-          "id": "topic-9-q4",
-          "number": "Q4",
-          "question": "잊을 수 없는 콘서트의 한 순간을 말해 주세요. 무슨 일이 있었고, 왜 특별했나요?",
-          "status": "필수",
-          "answer": [
-            "I remember one special day at a concert.",
-            "It was my birthday, and my friends called me and asked me to meet them there.",
-            "When I got there, they were already waiting for me with a cake and some gifts.",
-            "Then, they started singing a birthday song for me.",
-            "I was really surprised and almost cried.",
-            "I was so thankful to my friends, and I will never forget that day."
-          ],
-          "hint": "콘서트에서 있었던 특별한 날을 떠올린다고 말하기. → 내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기. → 도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기. → 친구들이 생일 축하 노래를 불러 줬다고 설명하기. → 정말 놀라서 거의 울 뻔했다고 말하기. → 친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기.",
-          "questionEn": "Tell me about a concert moment you will never forget. What happened, and why was it special?",
-          "type": "과거 경험",
-          "hintSteps": [
-            "콘서트에서 있었던 특별한 날을 떠올린다고 말하기.",
-            "내 생일이었고 친구들이 전화해서 그곳에서 만나자고 했다고 설명하기.",
-            "도착해 보니 친구들이 케이크와 선물을 준비하고 기다리고 있었다고 말하기.",
-            "친구들이 생일 축하 노래를 불러 줬다고 설명하기.",
-            "정말 놀라서 거의 울 뻔했다고 말하기.",
-            "친구들에게 고마웠고 그날을 절대 잊지 못한다고 마무리하기."
-          ],
-          "levelAdjusted": true,
-          "levelAdjustedAt": "2026-10-15"
-        },
-        {
-          "id": "topic-9-q5",
-          "number": "Q5",
-          "question": "콘서트에 가기 위해 어떻게 준비하나요? 집을 나서기 전에 확인하고 준비하는 것을 설명해 주세요.",
-          "status": "필수",
-          "answer": [
-            "Before I go to a concert, I check the date and time first.",
-            "Then, I check my ticket on my phone.",
-            "I also make sure my phone is fully charged.",
-            "After that, I check how to get to the concert hall.",
-            "I usually take a small bag and leave home early.",
-            "So yeah, that's how I get ready for a concert."
-          ],
-          "hint": "콘서트 전에 날짜와 시간을 먼저 확인한다고 말하기. → 휴대폰에서 티켓을 확인한다고 설명하기. → 휴대폰 배터리가 충분한지도 확인한다고 말하기. → 공연장까지 가는 길을 확인한다고 설명하기. → 작은 가방을 챙기고 일찍 출발한다고 말하기. → 이렇게 공연을 준비한다고 마무리하기.",
-          "questionEn": "How do you get ready to attend a concert? Explain what you check and prepare before leaving home.",
-          "type": "일과·절차",
-          "hintSteps": [
-            "콘서트 전에 날짜와 시간을 먼저 확인한다고 말하기.",
-            "휴대폰에서 티켓을 확인한다고 설명하기.",
-            "휴대폰 배터리가 충분한지도 확인한다고 말하기.",
-            "공연장까지 가는 길을 확인한다고 설명하기.",
-            "작은 가방을 챙기고 일찍 출발한다고 말하기.",
-            "이렇게 공연을 준비한다고 마무리하기."
-          ],
-          "levelAdjusted": true,
-          "levelAdjustedAt": "2026-10-15"
-        },
-        {
-          "id": "topic-9-q6",
-          "number": "Q6",
-          "question": "콘서트를 즐기는 방식이 어떻게 달라졌나요? 예전과 지금 집중하는 것을 비교해 주세요.",
-          "status": "선택",
-          "answer": [
-            "Well, the way I enjoy concerts has changed.",
-            "In the past, I took a lot of pictures during concerts.",
-            "I spent too much time looking at my phone.",
-            "But now, I take only a few pictures.",
-            "I just listen to the music and enjoy the show.",
-            "So yeah, I think concerts are more fun for me now."
-          ],
-          "hint": "콘서트를 즐기는 방식이 달라졌다고 말하기. → 예전에는 공연 중에 사진을 많이 찍었다고 설명하기. → 휴대폰만 보느라 시간을 많이 썼다고 말하기. → 지금은 사진을 몇 장만 찍는다고 비교하기. → 음악을 듣고 공연을 즐긴다고 설명하기. → 지금이 콘서트를 더 재미있게 즐기는 것 같다고 마무리하기.",
-          "questionEn": "How has the way you enjoy concerts changed? Compare what you focused on in the past with what you focus on now.",
-          "type": "변화·비교",
-          "hintSteps": [
-            "콘서트를 즐기는 방식이 달라졌다고 말하기.",
-            "예전에는 공연 중에 사진을 많이 찍었다고 설명하기.",
-            "휴대폰만 보느라 시간을 많이 썼다고 말하기.",
-            "지금은 사진을 몇 장만 찍는다고 비교하기.",
-            "음악을 듣고 공연을 즐긴다고 설명하기.",
-            "지금이 콘서트를 더 재미있게 즐기는 것 같다고 마무리하기."
-          ],
-          "levelAdjusted": true,
-          "levelAdjustedAt": "2026-10-15"
-        },
-        {
-          "id": "topic-9-q7",
-          "number": "Q7",
-          "question": "처음 참석한 콘서트를 말해 주세요. 어떤 공연이었고, 그곳에서 무엇을 했나요?",
-          "status": "선택",
-          "answer": [
-            "Well, my first concert was a small pop concert.",
-            "I went there with a friend when I was younger.",
-            "When the music started, everyone began cheering.",
-            "I sang along to the songs I knew.",
-            "I was really excited because it was my first live concert.",
-            "So yeah, I still remember that day."
-          ],
-          "hint": "첫 콘서트는 작은 팝 콘서트였다고 말하기. → 어렸을 때 친구와 함께 갔다고 설명하기. → 음악이 시작되자 모두 환호했다고 말하기. → 아는 노래를 따라 불렀다고 설명하기. → 첫 라이브 콘서트라 정말 신났다고 말하기. → 그날이 아직 기억난다고 마무리하기.",
-          "questionEn": "Tell me about the first concert you attended. What kind of concert was it, and what did you do there?",
-          "type": "과거 경험",
-          "hintSteps": [
-            "첫 콘서트는 작은 팝 콘서트였다고 말하기.",
-            "어렸을 때 친구와 함께 갔다고 설명하기.",
-            "음악이 시작되자 모두 환호했다고 말하기.",
-            "아는 노래를 따라 불렀다고 설명하기.",
-            "첫 라이브 콘서트라 정말 신났다고 말하기.",
-            "그날이 아직 기억난다고 마무리하기."
-          ],
-          "levelAdjusted": true,
-          "levelAdjustedAt": "2026-10-15"
-        },
-        {
-          "id": "topic-9-q8",
-          "number": "Q8",
-          "question": "콘서트 티켓에 문제가 생긴 경험을 말해 주세요. 어떻게 발견했고, 어떻게 해결했나요?",
-          "status": "선택",
-          "answer": [
-            "I remember one problem I had with a concert ticket.",
-            "One day, I checked my ticket and saw the wrong date.",
-            "I was really surprised, so I called the ticket office.",
-            "I told the staff about the problem.",
-            "Luckily, they changed the ticket to the right date.",
-            "So yeah, everything was fine in the end."
-          ],
-          "hint": "콘서트 티켓에 문제가 있었던 경험을 떠올린다고 말하기. → 티켓에서 잘못된 날짜를 발견했다고 설명하기. → 놀라서 티켓 판매처에 전화했다고 말하기. → 직원에게 문제를 설명했다고 말하기. → 다행히 정확한 날짜로 변경해 주었다고 설명하기. → 결국 잘 해결됐다고 마무리하기.",
-          "questionEn": "Tell me about a problem with a concert ticket. How did you discover it, and what did you do to solve it?",
-          "type": "문제 경험",
-          "hintSteps": [
-            "콘서트 티켓에 문제가 있었던 경험을 떠올린다고 말하기.",
-            "티켓에서 잘못된 날짜를 발견했다고 설명하기.",
-            "놀라서 티켓 판매처에 전화했다고 말하기.",
-            "직원에게 문제를 설명했다고 말하기.",
-            "다행히 정확한 날짜로 변경해 주었다고 설명하기.",
-            "결국 잘 해결됐다고 마무리하기."
-          ],
-          "levelAdjusted": true,
-          "levelAdjustedAt": "2026-10-15"
-        }
-      ],
-      "scriptGroups": [
-        {
-          "id": "topic-9-type-1",
-          "title": "묘사",
-          "questionIds": [
-            "topic-9-q1"
-          ]
-        },
-        {
-          "id": "topic-9-type-3",
-          "title": "일과·절차",
-          "questionIds": [
-            "topic-9-q2",
-            "topic-9-q5"
-          ]
-        },
-        {
-          "id": "topic-9-type-5",
-          "title": "과거 경험",
-          "questionIds": [
-            "topic-9-q3",
-            "topic-9-q4",
-            "topic-9-q7"
-          ]
-        },
-        {
-          "id": "topic-9-type-7",
-          "title": "문제 경험",
-          "questionIds": [
-            "topic-9-q8"
-          ]
-        },
-        {
-          "id": "topic-9-type-8",
-          "title": "변화·비교",
-          "questionIds": [
-            "topic-9-q6"
           ]
         }
       ]

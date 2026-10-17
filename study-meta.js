@@ -19,7 +19,6 @@ window.OPIC_STUDY_META = {
     "topic-8-q3": "14",
     "topic-8-q5": "14",
     "topic-8-q6": "14",
-    "topic-9-q6": "14",
     "topic-12-q1": "14",
     "topic-12-q2": "14",
     "topic-13-q4": "14",

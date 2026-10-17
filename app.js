@@ -74,6 +74,8 @@
   const normalize = (value) => String(value).toLocaleLowerCase("ko").trim();
 
   const topicCategories = [
+    { id: "intro", title: "자기소개",
+      description: "시험 시작 전 짧은 자기소개를 연습합니다." },
     { id: "survey", title: "설문조사 기반 주제",
       description: "주거 설정과 여가·취미·휴가 선택에 연결된 주제입니다." },
     { id: "unexpected", title: "일반·돌발 주제",
@@ -103,7 +105,9 @@
 
   const topicTitleHtml = (topic) => topic.source === "roleplay"
     ? `롤플레이 · ${escapeHtml(topic.title)}`
-    : `${topic.order}. ${escapeHtml(topic.title)}`;
+    : topic.source === "intro"
+      ? escapeHtml(topic.title)
+      : `${topic.order}. ${escapeHtml(topic.title)}`;
 
   const unexpectedFrequencyText = (topic) => topic.source === "unexpected"
     ? unexpectedTopics[topic.id]?.sampleLabel || "" : "";
@@ -253,6 +257,9 @@
           { id: "advanced-15", type: "15", title: "15번 유형 · 사회 문제·의견" },
         ],
       }]),
+      ...(state.view === "combos" ? [] : [
+        { id: "intro", title: "자기소개" },
+      ]),
       { id: "survey", title: "설문조사 기반" },
       { id: "unexpected", title: "일반·돌발 주제" },
       ...(state.view === "combos" ? [] : [
@@ -610,6 +617,8 @@
   const setView = (view) => {
     state.view = view;
     if (view === "combos" && (state.topic === "all"
+      || state.topic === "intro"
+      || state.topic === "topic-intro"
       || state.topic === "roleplay"
       || advancedFilterTypes[state.topic]
       || state.topic.startsWith("roleplay-scenario-"))) {
@@ -749,7 +758,8 @@
     const nextView = viewFromHash();
     if (nextView !== state.view) {
       state.view = nextView;
-      if (nextView === "combos" && advancedFilterTypes[state.topic]) {
+      if (nextView === "combos" && (advancedFilterTypes[state.topic]
+        || state.topic === "intro" || state.topic === "topic-intro")) {
         state.topic = "survey";
       }
       renderFilters();
