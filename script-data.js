@@ -2256,22 +2256,18 @@ window.OPIC_DATA = {
           "question": "처음 음악에 관심을 갖게 된 계기는 무엇인가요? 관심을 갖게 만든 경험을 말해 주세요.",
           "status": "필수",
           "answer": [
-            "I first became interested in music when I was in high school.",
-            "One of my friends recommended a song to me, so I listened to it on my phone.",
-            "I really liked the song because it was calm and relaxing.",
-            "After that, I listened to music when I was taking a walk or resting at home.",
-            "That’s how I became interested in music."
+            "When I was in high school, I happened to hear some fast music while I was walking alone on the street.",
+            "It was really exciting and made me feel happy.",
+            "So after that, I started listening to music more often."
           ],
-          "hint": "고등학생 때 처음 음악에 관심을 갖게 됐다고 말하기. → 친구가 노래를 추천해서 휴대폰으로 들어 봤다고 설명하기. → 차분하고 편안한 노래라 정말 좋았다고 말하기. → 그 후 산책하거나 집에서 쉴 때 음악을 들었다고 설명하기. → 이렇게 음악에 관심을 갖게 됐다고 마무리하기.",
+          "hint": "고등학생 때 혼자 길을 걷다가 우연히 빠른 음악을 들었다고 말하기. → 그 음악이 신나고 행복한 기분을 느끼게 해 줬다고 설명하기. → 그 후 음악을 더 자주 듣기 시작했다고 마무리하기.",
           "questionEn": "How did you first become interested in music? Tell me about the experience that got you interested.",
           "type": "과거 경험",
           "scriptOrigin": "user",
           "hintSteps": [
-            "고등학생 때 처음 음악에 관심을 갖게 됐다고 말하기.",
-            "친구가 노래를 추천해서 휴대폰으로 들어 봤다고 설명하기.",
-            "차분하고 편안한 노래라 정말 좋았다고 말하기.",
-            "그 후 산책하거나 집에서 쉴 때 음악을 들었다고 설명하기.",
-            "이렇게 음악에 관심을 갖게 됐다고 마무리하기."
+            "고등학생 때 혼자 길을 걷다가 우연히 빠른 음악을 들었다고 말하기.",
+            "그 음악이 신나고 행복한 기분을 느끼게 해 줬다고 설명하기.",
+            "그 후 음악을 더 자주 듣기 시작했다고 마무리하기."
           ]
         },
         {
